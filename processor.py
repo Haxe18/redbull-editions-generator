@@ -1362,11 +1362,11 @@ class RedBullDataProcessor:
 
                 if actual_field in edition and search and replace:
                     original = edition[actual_field]
-                    # Case-insensitive search for better matching
-                    pattern = re.compile(re.escape(search), re.IGNORECASE)
-                    if pattern.search(original):
-                        # Replace preserving the case where possible
-                        edition[actual_field] = pattern.sub(replace, original)
+                    # EXACT MATCH ONLY: Compare case-insensitively but match entire field value
+                    # This prevents partial matches (e.g., "Peach" matching inside "White Peach")
+                    if original.strip().lower() == search.strip().lower():
+                        # Replace with exact replacement value
+                        edition[actual_field] = replace
 
                         # Track that this field was corrected (especially important for flavor)
                         if "_corrected_fields" not in edition:

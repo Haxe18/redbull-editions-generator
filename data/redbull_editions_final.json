@@ -805,7 +805,7 @@
             {
                 "name": "Energy Drink Sugarfree",
                 "flavor": "Sugarfree",
-                "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+                "flavor_description": "Wings without sugar: Red Bull Energy Drink Sugarfree is Red Bull Energy Drink without sugar",
                 "sugarfree": true,
                 "color": "#0495D2",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/28/fnskdmbwnnijelxitres/red-bull-sugarfree",
@@ -815,7 +815,7 @@
             {
                 "name": "Energy Drink Zero",
                 "flavor": "Zero Sugar",
-                "flavor_description": "Zero Sugar, 100% Wings",
+                "flavor_description": "Zero sugar, 100% Wings",
                 "sugarfree": true,
                 "color": "#93BFE4",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/12/11/u0z7z1sg3nvkdiveds8j/red-bull-zero-energy-drink",
@@ -825,7 +825,7 @@
             {
                 "name": "The Winter Edition",
                 "flavor": "Iced Vanilla Berry",
-                "flavor_description": "Wings for your winter: The Red Bull Winter Edition Energy Drink with the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
+                "flavor_description": "Wings for your cold season: The Red Bull Winter Edition Energy Drink with the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
                 "sugarfree": false,
                 "color": "#53b2c2",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/15/m5ray6pilfccigsjzgli/red-bull-winter-edition",
@@ -834,8 +834,8 @@
             },
             {
                 "name": "The Peach Edition",
-                "flavor": "White White Peach",
-                "flavor_description": "A fresh White Peach and nectarine taste. The Red Bull Peach Edition. Artificially flavoured",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
                 "sugarfree": false,
                 "color": "#E24585",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/3/dsf50hiegckaamxezwym/red-bull-peach-edition-image",
@@ -865,7 +865,7 @@
             {
                 "name": "The Red Edition",
                 "flavor": "Watermelon",
-                "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon. Artificially flavoured",
+                "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon artificially flavoured",
                 "sugarfree": false,
                 "color": "#e03c31",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/2/7/nd0wlriswth9kdd4h2cq/red-bull-red-edition-image",
