@@ -73,7 +73,7 @@
         },
         {
             "name": "The Apricot Edition",
-            "flavor": "Strawberry-Apricot",
+            "flavor": "Apricot-Strawberry",
             "flavor_description": "The Red Bull Apricot Edition with the fruity-sweet taste of Apricot and Strawberry",
             "sugarfree": false,
             "color": "#f3911b",
@@ -113,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CH.svg",
-    "_raw_hash": "a3700ce0399e7ac1ab52a89f214ba8fadec4caa53be761e28248e5946aaef58d",
+    "_raw_hash": "3e98e8e51d44447e0b1bd6a156496b6f98acce41812cb141b27c5a1872f7bbb6",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-CH",

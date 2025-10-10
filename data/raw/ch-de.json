@@ -1,700 +1,700 @@
 {
-  "locale_info": {
-    "country_name": "Switzerland",
-    "domains": [
-      "ch-de",
-      "ch-fr"
+    "locale_info": {
+        "country_name": "Switzerland",
+        "domains": [
+            "ch-de",
+            "ch-fr"
+        ],
+        "flag_code": "CH"
+    },
+    "editions": [
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Energy Drink"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ct1zykupxbmardzhlvyt/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2F4581",
+                                    "percentage": 15.5
+                                },
+                                {
+                                    "hexColorCode": "#D9DBE0",
+                                    "percentage": 10.7
+                                },
+                                {
+                                    "hexColorCode": "#D21E3F",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#617BBA",
+                                    "percentage": 2.7
+                                },
+                                {
+                                    "hexColorCode": "#F3F6F8",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#ECCB76",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#7D838F",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/energydrink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ct1zykupxbmardzhlvyt/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/energydrink"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/eysmu6ps0yvrzsid3rtd/red-bull-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0595D2",
+                                    "percentage": 14.3
+                                },
+                                {
+                                    "hexColorCode": "#D5D9DD",
+                                    "percentage": 8.2
+                                },
+                                {
+                                    "hexColorCode": "#EAEBEE",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#56BEE6",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#D42148",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#036498",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#EFD280",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "http://www.redbull.com/sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "Flügel ohne Zucker: Red Bull Sugarfree ist Red Bull Energy Drink ohne Zucker.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/eysmu6ps0yvrzsid3rtd/red-bull-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "http://www.redbull.com/sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/6/u2pusdgdsbtu72cz4e9y/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.8
+                                },
+                                {
+                                    "hexColorCode": "#C80D32",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DEE9F2",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8594",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FBF7F5",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Red Bull Zero",
+                    "standfirst": "Zero Zucker. 100% Flüüügel.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/6/u2pusdgdsbtu72cz4e9y/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5d0a35a9-b26a-4021-bc6a-5b1a08794ab7:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/15/lathbomarh14bk7q3yf3/red-bull-winter-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DA5B62",
+                                    "percentage": 7.6
+                                },
+                                {
+                                    "hexColorCode": "#DFB054",
+                                    "percentage": 4.9
+                                },
+                                {
+                                    "hexColorCode": "#D8E3EA",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#D69F1D",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#C81F3C",
+                                    "percentage": 4.3
+                                },
+                                {
+                                    "hexColorCode": "#DA8356",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D2",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#CD6428",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition Popsicle Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Fuji-Apfel & Ingwer",
+                    "standfirst": "Die Red Bull Winter Edition mit dem Geschmack von Fuji-Apfel und der warmen Würze von Ingwer.",
+                    "brandingHexColorCode": "#AE132D",
+                    "image": {
+                        "altText": "Red Bull Winter Edition Popsicle Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/15/lathbomarh14bk7q3yf3/red-bull-winter-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Ice Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/4/lomnz8itrcdyqmuob2km/red-bull-iced-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#72C6D1",
+                                    "percentage": 24.6
+                                },
+                                {
+                                    "hexColorCode": "#D0DBE1",
+                                    "percentage": 6.3
+                                },
+                                {
+                                    "hexColorCode": "#C9CFD7",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#F7F1F1",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Iced Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-ice-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Iced Gummy Bear",
+                    "standfirst": "Die Red Bull Ice Edition: der Energy Drink mit dem aussergewöhnlichen Geschmack von Heidelbeeren, Vanille und eisig-frischer Eukalyptusnote.",
+                    "brandingHexColorCode": "#53b2c2",
+                    "image": {
+                        "altText": "Red Bull Iced Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/4/lomnz8itrcdyqmuob2km/red-bull-iced-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-ice-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Sea Blue Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/qgaag5arzjliwudwa1ke/red-bull-sea-blue-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#057EC1",
+                                    "percentage": 21.8
+                                },
+                                {
+                                    "hexColorCode": "#DADBDF",
+                                    "percentage": 5.9
+                                },
+                                {
+                                    "hexColorCode": "#5DA7D6",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#0157A5",
+                                    "percentage": 2.1
+                                },
+                                {
+                                    "hexColorCode": "#F9F7F3",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#DBE5EB",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#F4F3EF",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sea Blue Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-sea-blue-edition-juneberry"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Juneberry",
+                    "standfirst": "Die Red Bull Sea Blue Edition mit dem einzigartigen Geschmack von Juneberry.",
+                    "brandingHexColorCode": "#0072CE",
+                    "image": {
+                        "altText": "Red Bull Sea Blue Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/qgaag5arzjliwudwa1ke/red-bull-sea-blue-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-sea-blue-edition-juneberry"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Pink Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/20/kj7smmp6b3q1nvpsz02b/red-bull-pink-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DF7EB0",
+                                    "percentage": 22.4
+                                },
+                                {
+                                    "hexColorCode": "#D8E3E8",
+                                    "percentage": 4.7
+                                },
+                                {
+                                    "hexColorCode": "#C4CBD5",
+                                    "percentage": 2
+                                },
+                                {
+                                    "hexColorCode": "#62B3D9",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#E47DB0",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#E6BCD5",
+                                    "percentage": 0.9
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pink Edition Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-pink-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Waldbeere",
+                    "standfirst": "Die Red Bull Pink Edition mit dem fruchtigen Geschmack von Waldbeeren.",
+                    "brandingHexColorCode": "#c72466",
+                    "image": {
+                        "altText": "Red Bull Pink Edition Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/20/kj7smmp6b3q1nvpsz02b/red-bull-pink-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-pink-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Apricot Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/wzsuoqnleiparveb6pwp/red-bull-apricot-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#F07F1E",
+                                    "percentage": 20.4
+                                },
+                                {
+                                    "hexColorCode": "#DBDDE1",
+                                    "percentage": 5.9
+                                },
+                                {
+                                    "hexColorCode": "#F4AA70",
+                                    "percentage": 3.2
+                                },
+                                {
+                                    "hexColorCode": "#F4922C",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#ECF2F6",
+                                    "percentage": 1.6
+                                },
+                                {
+                                    "hexColorCode": "#F6EDE6",
+                                    "percentage": 1.2
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Apricot Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-apricot-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Strawberry and apricot",
+                    "standfirst": "Die Red Bull Apricot Edition mit dem fruchtig-süssen Geschmack von Aprikose und Erdbeere. ",
+                    "brandingHexColorCode": "#f3911b",
+                    "image": {
+                        "altText": "Red Bull Apricot Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/wzsuoqnleiparveb6pwp/red-bull-apricot-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-apricot-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Green Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/j7jf4qwhons9erlykzhv/red-bull-green-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0E9740",
+                                    "percentage": 13
+                                },
+                                {
+                                    "hexColorCode": "#61B76A",
+                                    "percentage": 6
+                                },
+                                {
+                                    "hexColorCode": "#CFD0D6",
+                                    "percentage": 6
+                                },
+                                {
+                                    "hexColorCode": "#4BB163",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#34A551",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#F0F1F2",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#FCF8FC",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#BBD9C5",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Green Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-green-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Dragon fruit",
+                    "standfirst": "Die Red Bull Green Edition mit dem exotischen Geschmack von Drachenfrucht. ",
+                    "brandingHexColorCode": "#00c65e",
+                    "image": {
+                        "altText": "Red Bull Green Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/j7jf4qwhons9erlykzhv/red-bull-green-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-green-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "White Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/tor2hhzxp1rhqwh1cmiz/red-bull-white-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E8E9EA",
+                                    "percentage": 10.3
+                                },
+                                {
+                                    "hexColorCode": "#FBFAFA",
+                                    "percentage": 9.3
+                                },
+                                {
+                                    "hexColorCode": "#E5E6E8",
+                                    "percentage": 8.2
+                                },
+                                {
+                                    "hexColorCode": "#74787B",
+                                    "percentage": 5.9
+                                },
+                                {
+                                    "hexColorCode": "#3F4245",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull White Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-white-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Coconut",
+                    "standfirst": "Die Red Bull White Edition - mit dem Geschmack exotischer Kokosnuss und fruchtiger Blaubeere.",
+                    "brandingHexColorCode": "#0070b8",
+                    "image": {
+                        "altText": "Red Bull White Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/tor2hhzxp1rhqwh1cmiz/red-bull-white-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-white-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "Blue Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/m296lae5leaxqsfl6b1n/red-bull-blue-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#34427F",
+                                    "percentage": 21
+                                },
+                                {
+                                    "hexColorCode": "#D2D4DA",
+                                    "percentage": 6.9
+                                },
+                                {
+                                    "hexColorCode": "#1F2648",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#7383B7",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#E8EAEB",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#73798B",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Blue Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-blue-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Blueberry",
+                    "standfirst": "Der Klassiker unter den Red Bull Editions mit dem fruchtigen Geschmack von Heidelbeere.",
+                    "brandingHexColorCode": "#001A72",
+                    "image": {
+                        "altText": "Red Bull Blue Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/m296lae5leaxqsfl6b1n/red-bull-blue-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-blue-edition"
+                    }
+                }
+            }
+        }
     ],
-    "flag_code": "CH"
-  },
-  "editions": [
-    {
-      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Energy Drink"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ct1zykupxbmardzhlvyt/red-bull-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#2F4581",
-                  "percentage": 15.5
-                },
-                {
-                  "hexColorCode": "#D9DBE0",
-                  "percentage": 10.7
-                },
-                {
-                  "hexColorCode": "#D21E3F",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#617BBA",
-                  "percentage": 2.7
-                },
-                {
-                  "hexColorCode": "#F3F6F8",
-                  "percentage": 1.2
-                },
-                {
-                  "hexColorCode": "#ECCB76",
-                  "percentage": 0.6
-                },
-                {
-                  "hexColorCode": "#7D838F",
-                  "percentage": 0.5
-                }
-              ]
-            },
-            "altText": "Red Bull Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/energydrink"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Energy Drink",
-          "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ct1zykupxbmardzhlvyt/red-bull-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/energydrink"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/eysmu6ps0yvrzsid3rtd/red-bull-sugarfree",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#0595D2",
-                  "percentage": 14.3
-                },
-                {
-                  "hexColorCode": "#D5D9DD",
-                  "percentage": 8.2
-                },
-                {
-                  "hexColorCode": "#EAEBEE",
-                  "percentage": 3.4
-                },
-                {
-                  "hexColorCode": "#56BEE6",
-                  "percentage": 3.1
-                },
-                {
-                  "hexColorCode": "#D42148",
-                  "percentage": 2.9
-                },
-                {
-                  "hexColorCode": "#036498",
-                  "percentage": 1.7
-                },
-                {
-                  "hexColorCode": "#EFD280",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Sugarfree"
-          }
-        },
-        "reference": {
-          "externalUrl": "http://www.redbull.com/sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Sugarfree",
-          "standfirst": "Flügel ohne Zucker: Red Bull Sugarfree ist Red Bull Energy Drink ohne Zucker.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Sugarfree",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/eysmu6ps0yvrzsid3rtd/red-bull-sugarfree"
-            }
-          },
-          "reference": {
-            "externalUrl": "http://www.redbull.com/sugarfree"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Zero"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/6/u2pusdgdsbtu72cz4e9y/red-bull-zero-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#93BFE4",
-                  "percentage": 14.1
-                },
-                {
-                  "hexColorCode": "#C6D1DE",
-                  "percentage": 10.8
-                },
-                {
-                  "hexColorCode": "#C80D32",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#DEE9F2",
-                  "percentage": 2.5
-                },
-                {
-                  "hexColorCode": "#7A8594",
-                  "percentage": 1.7
-                },
-                {
-                  "hexColorCode": "#FBF7F5",
-                  "percentage": 0.7
-                }
-              ]
-            },
-            "altText": "Red Bull Zero Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-zero"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Red Bull Zero",
-          "standfirst": "Zero Zucker. 100% Flüüügel.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Zero Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/6/u2pusdgdsbtu72cz4e9y/red-bull-zero-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-zero"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:5d0a35a9-b26a-4021-bc6a-5b1a08794ab7:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Winter Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/15/lathbomarh14bk7q3yf3/red-bull-winter-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#DA5B62",
-                  "percentage": 7.6
-                },
-                {
-                  "hexColorCode": "#DFB054",
-                  "percentage": 4.9
-                },
-                {
-                  "hexColorCode": "#D8E3EA",
-                  "percentage": 4.5
-                },
-                {
-                  "hexColorCode": "#D69F1D",
-                  "percentage": 4.4
-                },
-                {
-                  "hexColorCode": "#C81F3C",
-                  "percentage": 4.3
-                },
-                {
-                  "hexColorCode": "#DA8356",
-                  "percentage": 3.4
-                },
-                {
-                  "hexColorCode": "#C0C8D2",
-                  "percentage": 2.4
-                },
-                {
-                  "hexColorCode": "#CD6428",
-                  "percentage": 0.8
-                }
-              ]
-            },
-            "altText": "Red Bull Winter Edition Popsicle Image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-winter-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Fuji-Apfel & Ingwer",
-          "standfirst": "Die Red Bull Wintre Edition mit dem Geschmack von Fuji-Apfel und der warmen Würze von Ingwer.",
-          "brandingHexColorCode": "#AE132D",
-          "image": {
-            "altText": "Red Bull Winter Edition Popsicle Image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/15/lathbomarh14bk7q3yf3/red-bull-winter-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-winter-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Ice Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/4/lomnz8itrcdyqmuob2km/red-bull-iced-edition",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#72C6D1",
-                  "percentage": 24.6
-                },
-                {
-                  "hexColorCode": "#D0DBE1",
-                  "percentage": 6.3
-                },
-                {
-                  "hexColorCode": "#C9CFD7",
-                  "percentage": 1.2
-                },
-                {
-                  "hexColorCode": "#F7F1F1",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Iced Edition"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-ice-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Iced Gummy Bear",
-          "standfirst": "Die Red Bull Ice Edition: der Energy Drink mit dem aussergewöhnlichen Geschmack von Heidelbeeren, Vanille und eisig-frischer Eukalyptusnote.",
-          "brandingHexColorCode": "#53b2c2",
-          "image": {
-            "altText": "Red Bull Iced Edition",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/4/lomnz8itrcdyqmuob2km/red-bull-iced-edition"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-ice-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Sea Blue Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/qgaag5arzjliwudwa1ke/red-bull-sea-blue-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#057EC1",
-                  "percentage": 21.8
-                },
-                {
-                  "hexColorCode": "#DADBDF",
-                  "percentage": 5.9
-                },
-                {
-                  "hexColorCode": "#5DA7D6",
-                  "percentage": 2.2
-                },
-                {
-                  "hexColorCode": "#0157A5",
-                  "percentage": 2.1
-                },
-                {
-                  "hexColorCode": "#F9F7F3",
-                  "percentage": 0.9
-                },
-                {
-                  "hexColorCode": "#DBE5EB",
-                  "percentage": 0.9
-                },
-                {
-                  "hexColorCode": "#F4F3EF",
-                  "percentage": 0.7
-                }
-              ]
-            },
-            "altText": "Red Bull Sea Blue Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-sea-blue-edition-juneberry"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Juneberry",
-          "standfirst": "Die Red Bull Sea Blue Edition mit dem einzigartigen Geschmack von Juneberry.",
-          "brandingHexColorCode": "#0072CE",
-          "image": {
-            "altText": "Red Bull Sea Blue Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/qgaag5arzjliwudwa1ke/red-bull-sea-blue-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-sea-blue-edition-juneberry"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Pink Edition Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/20/kj7smmp6b3q1nvpsz02b/red-bull-pink-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#DF7EB0",
-                  "percentage": 22.4
-                },
-                {
-                  "hexColorCode": "#D8E3E8",
-                  "percentage": 4.7
-                },
-                {
-                  "hexColorCode": "#C4CBD5",
-                  "percentage": 2
-                },
-                {
-                  "hexColorCode": "#62B3D9",
-                  "percentage": 1.4
-                },
-                {
-                  "hexColorCode": "#E47DB0",
-                  "percentage": 1.4
-                },
-                {
-                  "hexColorCode": "#E6BCD5",
-                  "percentage": 0.9
-                }
-              ]
-            },
-            "altText": "Red Bull Pink Edition Image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-pink-edition-sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Waldbeere",
-          "standfirst": "Die Red Bull Pink Edition mit dem fruchtigen Geschmack von Waldbeeren.",
-          "brandingHexColorCode": "#c72466",
-          "image": {
-            "altText": "Red Bull Pink Edition Image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/20/kj7smmp6b3q1nvpsz02b/red-bull-pink-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-pink-edition-sugarfree"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Apricot Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/wzsuoqnleiparveb6pwp/red-bull-apricot-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#F07F1E",
-                  "percentage": 20.4
-                },
-                {
-                  "hexColorCode": "#DBDDE1",
-                  "percentage": 5.9
-                },
-                {
-                  "hexColorCode": "#F4AA70",
-                  "percentage": 3.2
-                },
-                {
-                  "hexColorCode": "#F4922C",
-                  "percentage": 1.9
-                },
-                {
-                  "hexColorCode": "#ECF2F6",
-                  "percentage": 1.6
-                },
-                {
-                  "hexColorCode": "#F6EDE6",
-                  "percentage": 1.2
-                }
-              ]
-            },
-            "altText": "Red Bull Apricot Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-apricot-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Strawberry and apricot",
-          "standfirst": "Die Red Bull Apricot Edition mit dem fruchtig-süssen Geschmack von Aprikose und Erdbeere. ",
-          "brandingHexColorCode": "#f3911b",
-          "image": {
-            "altText": "Red Bull Apricot Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/wzsuoqnleiparveb6pwp/red-bull-apricot-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-apricot-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Green Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/j7jf4qwhons9erlykzhv/red-bull-green-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#0E9740",
-                  "percentage": 13
-                },
-                {
-                  "hexColorCode": "#61B76A",
-                  "percentage": 6
-                },
-                {
-                  "hexColorCode": "#CFD0D6",
-                  "percentage": 6
-                },
-                {
-                  "hexColorCode": "#4BB163",
-                  "percentage": 4
-                },
-                {
-                  "hexColorCode": "#34A551",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#F0F1F2",
-                  "percentage": 1.4
-                },
-                {
-                  "hexColorCode": "#FCF8FC",
-                  "percentage": 0.7
-                },
-                {
-                  "hexColorCode": "#BBD9C5",
-                  "percentage": 0.5
-                }
-              ]
-            },
-            "altText": "Red Bull Green Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-green-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Dragon fruit",
-          "standfirst": "Die Red Bull Green Edition mit dem exotischen Geschmack von Drachenfrucht. ",
-          "brandingHexColorCode": "#00c65e",
-          "image": {
-            "altText": "Red Bull Green Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/j7jf4qwhons9erlykzhv/red-bull-green-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-green-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH",
-      "header_data": {
-        "content": {
-          "title": "White Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/tor2hhzxp1rhqwh1cmiz/red-bull-white-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#E8E9EA",
-                  "percentage": 10.3
-                },
-                {
-                  "hexColorCode": "#FBFAFA",
-                  "percentage": 9.3
-                },
-                {
-                  "hexColorCode": "#E5E6E8",
-                  "percentage": 8.2
-                },
-                {
-                  "hexColorCode": "#74787B",
-                  "percentage": 5.9
-                },
-                {
-                  "hexColorCode": "#3F4245",
-                  "percentage": 1.1
-                }
-              ]
-            },
-            "altText": "Red Bull White Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-white-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Coconut",
-          "standfirst": "Die Red Bull White Edition - mit dem Geschmack exotischer Kokosnuss und fruchtiger Blaubeere.",
-          "brandingHexColorCode": "#0070b8",
-          "image": {
-            "altText": "Red Bull White Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/tor2hhzxp1rhqwh1cmiz/red-bull-white-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-white-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:de-CH",
-      "header_data": {
-        "content": {
-          "title": "Blue Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/m296lae5leaxqsfl6b1n/red-bull-blue-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#34427F",
-                  "percentage": 21
-                },
-                {
-                  "hexColorCode": "#D2D4DA",
-                  "percentage": 6.9
-                },
-                {
-                  "hexColorCode": "#1F2648",
-                  "percentage": 3.1
-                },
-                {
-                  "hexColorCode": "#7383B7",
-                  "percentage": 1.2
-                },
-                {
-                  "hexColorCode": "#E8EAEB",
-                  "percentage": 1.2
-                },
-                {
-                  "hexColorCode": "#73798B",
-                  "percentage": 0.7
-                }
-              ]
-            },
-            "altText": "Red Bull Blue Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-blue-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Blueberry",
-          "standfirst": "Der Klassiker unter den Red Bull Editions mit dem fruchtigen Geschmack von Heidelbeere.",
-          "brandingHexColorCode": "#001A72",
-          "image": {
-            "altText": "Red Bull Blue Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/10/m296lae5leaxqsfl6b1n/red-bull-blue-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ch-de/energydrink/red-bull-blue-edition"
-          }
-        }
-      }
-    }
-  ],
-  "collection_timestamp": "2025-10-02T19:07:10.629194"
+    "collection_timestamp": "2025-10-10T22:29:30.380524+00:00"
 }
