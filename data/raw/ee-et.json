@@ -1,0 +1,699 @@
+{
+  "locale_info": {
+    "country_name": "Estonia",
+    "domains": [
+      "ee-et"
+    ],
+    "flag_code": "EE"
+  },
+  "editions": [
+    {
+      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Energy Drink"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#2F4582",
+                  "percentage": 15.3
+                },
+                {
+                  "hexColorCode": "#D2D5DA",
+                  "percentage": 7.9
+                },
+                {
+                  "hexColorCode": "#EFF2F3",
+                  "percentage": 3.9
+                },
+                {
+                  "hexColorCode": "#D21E3F",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#627CBA",
+                  "percentage": 2.9
+                },
+                {
+                  "hexColorCode": "#EDCC77",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Energy Drink"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/energydrink"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Energy Drink",
+          "standfirst": "Red Bulli energiajooki hindavad üle maailma tippsportlased, hõivatud professionaalid, ülikoolitudengid ja reisijad pikkadel teekondadel.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Energy Drink",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/energydrink"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Sugarfree"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#248FCB",
+                  "percentage": 12.4
+                },
+                {
+                  "hexColorCode": "#C8CFDA",
+                  "percentage": 7.9
+                },
+                {
+                  "hexColorCode": "#68BDE2",
+                  "percentage": 5.4
+                },
+                {
+                  "hexColorCode": "#CA0D36",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#DFE9EF",
+                  "percentage": 2.3
+                },
+                {
+                  "hexColorCode": "#778495",
+                  "percentage": 1.3
+                },
+                {
+                  "hexColorCode": "#FBF7F4",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Sugarfree"
+          }
+        },
+        "reference": {
+          "externalUrl": "http://www.redbull.com/sugarfree"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Sugarfree",
+          "standfirst": "\"Ilma suhkruta tiivad: Suhkruvaba Red Bull on Red  Bulli energiajook, milles pole suhkruid.\"",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Sugarfree",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree"
+            }
+          },
+          "reference": {
+            "externalUrl": "http://www.redbull.com/sugarfree"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:5d0a35a9-b26a-4021-bc6a-5b1a08794ab7:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Winter Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/djjsqqgybwyve73lh3cn/red-bull-winter-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#DA5B62",
+                  "percentage": 7.5
+                },
+                {
+                  "hexColorCode": "#DFB153",
+                  "percentage": 5.1
+                },
+                {
+                  "hexColorCode": "#D6A11C",
+                  "percentage": 4.8
+                },
+                {
+                  "hexColorCode": "#D8E3EA",
+                  "percentage": 4.5
+                },
+                {
+                  "hexColorCode": "#C71F3A",
+                  "percentage": 4.1
+                },
+                {
+                  "hexColorCode": "#DA8356",
+                  "percentage": 3.4
+                },
+                {
+                  "hexColorCode": "#C0C8D2",
+                  "percentage": 2.4
+                },
+                {
+                  "hexColorCode": "#CD6428",
+                  "percentage": 0.7
+                }
+              ]
+            },
+            "altText": "Red Bull Winter Edition Popsicle Image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-winter-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Mehujää",
+          "standfirst": "Red Bull Winter Edition Fuji õuna ja ingveri soojalt vürtsika maitsega. ",
+          "brandingHexColorCode": "#AE132D",
+          "image": {
+            "altText": "Red Bull Winter Edition Popsicle Image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/djjsqqgybwyve73lh3cn/red-bull-winter-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-winter-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Yellow Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/djlyfwbxxxes4cgqkman/red-bull-yellow-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#F6C20F",
+                  "percentage": 23.1
+                },
+                {
+                  "hexColorCode": "#D1D4E0",
+                  "percentage": 5.8
+                },
+                {
+                  "hexColorCode": "#FCDD2B",
+                  "percentage": 1.6
+                },
+                {
+                  "hexColorCode": "#EFCD51",
+                  "percentage": 1.3
+                },
+                {
+                  "hexColorCode": "#516480",
+                  "percentage": 0.8
+                },
+                {
+                  "hexColorCode": "#EBD958",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Yellow edition - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-yellow-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Tropical/Tropical Fruits ",
+          "standfirst": "Red Bull Yellow Edition. Üllatu troopiliste puuviljade eksootilisest maitsest.",
+          "brandingHexColorCode": "#FFCD00",
+          "image": {
+            "altText": "Red Bull Yellow edition - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/djlyfwbxxxes4cgqkman/red-bull-yellow-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-yellow-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:et-EE",
+      "header_data": {
+        "content": {
+          "title": "White Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/g49uxg9daujrfda37f2g/red-bull-white-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#E9EAEC",
+                  "percentage": 23.8
+                },
+                {
+                  "hexColorCode": "#7E7F83",
+                  "percentage": 7.1
+                },
+                {
+                  "hexColorCode": "#F5F4F5",
+                  "percentage": 2.5
+                },
+                {
+                  "hexColorCode": "#FBFAFA",
+                  "percentage": 1.5
+                }
+              ]
+            },
+            "altText": "Red Bull White Edition - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/red-bull-white-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Coconut",
+          "standfirst": "Kookospähkli troopiline maitse kombineeritud mustikate maitse ja Red Bulli tiibadega.",
+          "brandingHexColorCode": "#0070b8",
+          "image": {
+            "altText": "Red Bull White Edition - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/g49uxg9daujrfda37f2g/red-bull-white-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/red-bull-white-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Red Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/kcantfvwmap5yokrjwbt/red-bull-red-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#C53329",
+                  "percentage": 16.8
+                },
+                {
+                  "hexColorCode": "#D0D2D7",
+                  "percentage": 5.7
+                },
+                {
+                  "hexColorCode": "#D05149",
+                  "percentage": 5.5
+                },
+                {
+                  "hexColorCode": "#99271C",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#E7ECEF",
+                  "percentage": 1.4
+                },
+                {
+                  "hexColorCode": "#983E34",
+                  "percentage": 1.2
+                },
+                {
+                  "hexColorCode": "#048D3B",
+                  "percentage": 1.1
+                }
+              ]
+            },
+            "altText": "Red Bull Red Edition - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/red-bull-red-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Watermelon",
+          "standfirst": "Red Bull Red Edition värske arbuusi maitsega.",
+          "brandingHexColorCode": "#e03c31",
+          "image": {
+            "altText": "Red Bull Red Edition - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/kcantfvwmap5yokrjwbt/red-bull-red-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/red-bull-red-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Sea Blue Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/30/ssyamypcmx5ockm2pt1s/red-bull-the-sea-blue-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#1F7FBF",
+                  "percentage": 19.5
+                },
+                {
+                  "hexColorCode": "#D7E0E7",
+                  "percentage": 4.4
+                },
+                {
+                  "hexColorCode": "#175AA4",
+                  "percentage": 2.7
+                },
+                {
+                  "hexColorCode": "#BFC7D1",
+                  "percentage": 2.4
+                },
+                {
+                  "hexColorCode": "#1661A6",
+                  "percentage": 2.2
+                },
+                {
+                  "hexColorCode": "#5AA5D1",
+                  "percentage": 1
+                },
+                {
+                  "hexColorCode": "#F6F2EF",
+                  "percentage": 0.7
+                }
+              ]
+            },
+            "altText": "Red Bull The Sea Blue Edition - Image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-sea-blue-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Juneberry",
+          "standfirst": "Red Bull Sea Blue Edition põneva toompihlaka maitsega.",
+          "brandingHexColorCode": "#0072CE",
+          "image": {
+            "altText": "Red Bull The Sea Blue Edition - Image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/30/ssyamypcmx5ockm2pt1s/red-bull-the-sea-blue-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-sea-blue-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Green Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/qzhzobabpydrrbfzmg59/red-bull-green-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#0E9740",
+                  "percentage": 13.4
+                },
+                {
+                  "hexColorCode": "#D3D4D9",
+                  "percentage": 6.8
+                },
+                {
+                  "hexColorCode": "#61B76A",
+                  "percentage": 6.1
+                },
+                {
+                  "hexColorCode": "#4BB163",
+                  "percentage": 3.8
+                },
+                {
+                  "hexColorCode": "#33A651",
+                  "percentage": 3.2
+                },
+                {
+                  "hexColorCode": "#FDF9FD",
+                  "percentage": 0.7
+                },
+                {
+                  "hexColorCode": "#BAD8C2",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Green Edition - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-green-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Dragon fruit",
+          "standfirst": "Red Bull Green Edition eksootilise kaktusevilja maitsega.",
+          "brandingHexColorCode": "#00c65e",
+          "image": {
+            "altText": "Red Bull Green Edition - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/qzhzobabpydrrbfzmg59/red-bull-green-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-green-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Ice Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/10/oci8tborr3ek0xv4zkgm/red-bull-iced-edition",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#72C6D1",
+                  "percentage": 24.6
+                },
+                {
+                  "hexColorCode": "#D0DBE1",
+                  "percentage": 6.4
+                },
+                {
+                  "hexColorCode": "#C9CFD7",
+                  "percentage": 1.2
+                },
+                {
+                  "hexColorCode": "#F8F1F2",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Iced Edition"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-ice-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Iced Gummy Bear",
+          "standfirst": "Red Bull Ice Edition: Energiajook mustika, vanilli ja jäiselt värskete eukalüpti nootidega.",
+          "brandingHexColorCode": "#53b2c2",
+          "image": {
+            "altText": "Red Bull Iced Edition",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/10/oci8tborr3ek0xv4zkgm/red-bull-iced-edition"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-ice-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:7fb8538f-2111-4fa9-9c59-6297145e92bd:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Apricot Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/2/20/t28d4viv3a49dg3dvo6t/red-bull-the-apricot-edition",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#F07E1E",
+                  "percentage": 20.3
+                },
+                {
+                  "hexColorCode": "#DBDDE1",
+                  "percentage": 5.8
+                },
+                {
+                  "hexColorCode": "#F4AA6F",
+                  "percentage": 3.4
+                },
+                {
+                  "hexColorCode": "#F4942F",
+                  "percentage": 2.1
+                },
+                {
+                  "hexColorCode": "#EEF4F8",
+                  "percentage": 1.6
+                },
+                {
+                  "hexColorCode": "#F5EEE7",
+                  "percentage": 1.1
+                }
+              ]
+            },
+            "altText": "Red Bull The Apricot Edition"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-apricot-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Apricot-Strawberry",
+          "standfirst": "Bull Apricot Edition pakub täiuslikku segu aprikoosist ja maasikast koos virsiku maitsenootidega.",
+          "brandingHexColorCode": "#ff9425",
+          "image": {
+            "altText": "Red Bull The Apricot Edition",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/2/20/t28d4viv3a49dg3dvo6t/red-bull-the-apricot-edition"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-apricot-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:et-EE",
+      "header_data": {
+        "content": {
+          "title": "Peach Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/7/brxalw14tozx9uaveybz/red-bull-peach-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#7F1419",
+                  "percentage": 15.9
+                },
+                {
+                  "hexColorCode": "#BF4F56",
+                  "percentage": 5.8
+                },
+                {
+                  "hexColorCode": "#D7DBDE",
+                  "percentage": 4.2
+                },
+                {
+                  "hexColorCode": "#96333A",
+                  "percentage": 4.1
+                },
+                {
+                  "hexColorCode": "#D1D4D8",
+                  "percentage": 2.6
+                },
+                {
+                  "hexColorCode": "#FAC368",
+                  "percentage": 0.8
+                },
+                {
+                  "hexColorCode": "#DE804F",
+                  "percentage": 0.7
+                },
+                {
+                  "hexColorCode": "#E4D4D5",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Peach Edition - Image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-peach-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Peach",
+          "standfirst": "Red Bull Peach Edition: Energiajook värske virsiku ja nektariini maitsega.",
+          "brandingHexColorCode": "#81312F",
+          "image": {
+            "altText": "Red Bull Peach Edition - Image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/7/brxalw14tozx9uaveybz/red-bull-peach-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-peach-edition"
+          }
+        }
+      }
+    }
+  ],
+  "collection_timestamp": "2025-10-02T19:01:07.391976"
+}

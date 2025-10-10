@@ -1,0 +1,14 @@
+[MAIN]
+# Return non-zero exit code if any of these messages/categories are detected, even if score is above --fail-under value.
+fail-on=E,F
+
+# Specify a score threshold under which the program will exit with error.
+fail-under=9
+
+[FORMAT]
+# Maximum number of characters on a single line.
+max-line-length=150
+
+[DESIGN]
+# Maximum number of arguments for function / method. default=5
+max-args=8

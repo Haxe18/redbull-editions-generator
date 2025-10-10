@@ -1,0 +1,94 @@
+{
+    "flag": "🇦🇷",
+    "editions": [
+        {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "sugarfree": false,
+            "color": "#2F457F",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/ruz2sq9kmslfhnmbvpld/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "sugarfree": true,
+            "color": "#0495D2",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/jp2xxmkwiaakvuvkgwpn/red-bull-sugarfree",
+            "alt_text": "Red Bull Sugarfree",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "name": "The Winter Edition",
+            "flavor": "Iced Vanilla Berry",
+            "flavor_description": "Red Bull Winter Edition with the exceptional taste of Blueberry, Vanilla and fresh notes of eucalyptus",
+            "sugarfree": false,
+            "color": "#53b2c2",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/27/hzrpshsnq3buirq0x3kf/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-winter-edition"
+        },
+        {
+            "name": "The Green Edition",
+            "flavor": "Dragon Fruit",
+            "flavor_description": "Red Bull Green Edition with the exotic taste of Dragon Fruit",
+            "sugarfree": false,
+            "color": "#00c65e",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/27/j0kbfze6f3eahtuder29/red-bull-green-edition",
+            "alt_text": "Red Bull Green Edition",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-green-edition"
+        },
+        {
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "flavor_description": "Red Bull Red Edition with Watermelon taste. With all the freshness of summer",
+            "sugarfree": false,
+            "color": "#e03c31",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/oomno7lam0wobt6gmzyw/red-bull-red-edition-image",
+            "alt_text": "Red Bull Red Edition - image",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-red-edition"
+        }
+    ],
+    "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AR.svg",
+    "_raw_hash": "ec691c39982a10a8bb1407112c011118743f364533ef6d6195c43f12df9a2d2c",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-AR",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-AR",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-AR",
+            "name": "The Winter Edition",
+            "flavor": "Iced Vanilla Berry",
+            "description": "Red Bull Winter Edition with the exceptional taste of blueberry, vanilla and fresh notes of eucalyptus.",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-winter-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-AR",
+            "name": "The Green Edition",
+            "flavor": "Dragon fruit",
+            "description": "Red Bull Green edition with the exotic taste of Dragon Fruit.",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-green-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "Red Bull Red Edition with Watermelon taste. With all the freshness of summer.",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-red-edition"
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "flag": "🇦🇺",
+    "editions": [
+        {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "sugarfree": false,
+            "color": "#2F4582",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-energy-drink"
+        },
+        {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
+            "sugarfree": true,
+            "color": "#248FCC",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/11/jucgb0lqr4tpi9gf0ko1/red-bull-sugarfree",
+            "alt_text": "Red Bull Sugarfree",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "Red Bull Zero serves up the same wings as Red Bull Energy Drink and Red Bull Sugarfree, but with a totally new flavour sweetened with monk fruit extract",
+            "sugarfree": true,
+            "color": "#93BFE4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/12/eeyijfhsjnq0szuirtjk/red-bull-zero-energy-drink",
+            "alt_text": "Red Bull Zero Energy Drink",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-zero"
+        },
+        {
+            "name": "The Summer Edition",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Summer Edition: The Energy Drink with the taste of White Peach, highlighted by a touch of citrus peel and floral notes",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/29/fzrmzftokavy5ghtknta/red-bull-summer-edition",
+            "alt_text": "Red Bull Summer Edition",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-summer-edition"
+        },
+        {
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
+            "sugarfree": false,
+            "color": "#e03c31",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/cdlccyn4zppwvmjsbr8a/red-bull-red-edition-image",
+            "alt_text": "Red Bull Red Edition - image",
+            "product_url": "https://www.redbull.com/au-en/energydrink/red-bull-red-edition"
+        },
+        {
+            "name": "The Blue Edition",
+            "flavor": "Blueberry",
+            "flavor_description": "The Red Bull Blue Edition. The Energy Drink with the fruity taste of Blueberry",
+            "sugarfree": false,
+            "color": "#001A72",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/10/ch0xdem2ktbdljshhybd/red-bull-blue-edition-image",
+            "alt_text": "Red Bull Blue Edition - image",
+            "product_url": "https://www.redbull.com/au-en/energydrink/red-bull-blue-edition"
+        },
+        {
+            "name": "The Tropical Edition",
+            "flavor": "Tropical Fruits",
+            "flavor_description": "The Tropical Edition. Experience the exotic taste of Tropical Fruits",
+            "sugarfree": false,
+            "color": "#FFCD00",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/20/ipyklqsoqeppbuugt8cy/red-bull-tropical-edition-image",
+            "alt_text": "Red Bull Tropical Edition - image",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-tropical-edition"
+        },
+        {
+            "name": "The Berry Edition Sugarfree",
+            "flavor": "Forest Fruits",
+            "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
+            "sugarfree": true,
+            "color": "#c72466",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image",
+            "alt_text": "Red Bull Pink Edition Image",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-berry-edition-sugarfree"
+        },
+        {
+            "name": "The Coconut Edition Sugarfree",
+            "flavor": "Coconut-Blueberry",
+            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
+            "sugarfree": true,
+            "color": "#0070b8",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
+            "alt_text": "Coconut Edition Sugarfree half can",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+        }
+    ],
+    "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AU.svg",
+    "_raw_hash": "26915b03f4179c0c866003db0e928cc8e22c5934da666024ac6bcca824340302",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-AU",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-energy-drink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-AU",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugars: Red Bull Energy Drink without sugars.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-AU",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "description": "Red Bull Zero serves up the same wings as Red Bull Energy Drink and Red Bull Sugarfree, but with a totally new flavour sweetened with monk fruit extract.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:4be981eb-9d68-4fae-ae2d-b8280cbd081f:en-AU",
+            "name": "The Summer Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new flavour that offers the taste of white peach, hihglighted by a touch of citrus peel and floral notes.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-summer-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-AU",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "The Red Bull Red Edition with the fresh taste of watermelon.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:en-AU",
+            "name": "The Blue Edition",
+            "flavor": "Blueberry",
+            "description": "The Red Bull Blue Edition. The Energy Drink with the fruity taste of blueberry.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/red-bull-blue-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-AU",
+            "name": "The Tropical Edition",
+            "flavor": "Tropical/Tropical Fruits",
+            "description": "The Tropical Edition. Experience the exotic taste of tropical fruits.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-tropical-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-AU",
+            "name": "The Berry Edition Sugarfree",
+            "flavor": "Forest Fruits",
+            "description": "The Sugarfree Energy Drink with the taste of forest fruits complemented by exciting herbal notes of verbena.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-berry-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-AU",
+            "name": "The Coconut Edition Sugarfree",
+            "flavor": "Coconut",
+            "description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+        }
+    ]
+}

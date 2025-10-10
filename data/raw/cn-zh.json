@@ -1,0 +1,81 @@
+{
+  "locale_info": {
+    "country_name": "China",
+    "domains": [
+      "cn-zh"
+    ],
+    "flag_code": "CN"
+  },
+  "editions": [
+    {
+      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-CN",
+      "header_data": {
+        "content": {
+          "title": "奥地利红牛功能饮料"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/pd8espfdaz98wptaakqy/red-bull-energy-drink",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#2F4682",
+                  "percentage": 15.4
+                },
+                {
+                  "hexColorCode": "#D6D8DE",
+                  "percentage": 8.5
+                },
+                {
+                  "hexColorCode": "#021B71",
+                  "percentage": 5
+                },
+                {
+                  "hexColorCode": "#D21E3F",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#627CB9",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#EEF2F4",
+                  "percentage": 1.6
+                },
+                {
+                  "hexColorCode": "#E9C158",
+                  "percentage": 0.6
+                },
+                {
+                  "hexColorCode": "#ECECE0",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Energy Drink"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/energydrink"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Energy Drink",
+          "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Energy Drink",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/pd8espfdaz98wptaakqy/red-bull-energy-drink"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/energydrink"
+          }
+        }
+      }
+    }
+  ],
+  "collection_timestamp": "2025-08-25T21:09:57.190817"
+}

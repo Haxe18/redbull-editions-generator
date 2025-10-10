@@ -1,0 +1,512 @@
+{
+  "locale_info": {
+    "country_name": "Hungary",
+    "domains": [
+      "hu-hu"
+    ],
+    "flag_code": "HU"
+  },
+  "editions": [
+    {
+      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "Energy Drink"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/dgaizesk50oxyfrkdouq/red-bull-energy-drink",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#2F4582",
+                  "percentage": 15.3
+                },
+                {
+                  "hexColorCode": "#D5D7DD",
+                  "percentage": 8.4
+                },
+                {
+                  "hexColorCode": "#EEF1F3",
+                  "percentage": 3.6
+                },
+                {
+                  "hexColorCode": "#D21E3F",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#617BB9",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#EECC79",
+                  "percentage": 0.6
+                },
+                {
+                  "hexColorCode": "#878C97",
+                  "percentage": 0.5
+                }
+              ]
+            },
+            "altText": "Red Bull Energy Drink"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/energydrink"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Energy Drink",
+          "standfirst": "A Red Bull Energiaital élsportolók, elfoglalt szakemberek, egyetemi  hallgatók és hosszú órákat vezetők világszerte elismert kedvence.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Energy Drink",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/dgaizesk50oxyfrkdouq/red-bull-energy-drink"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/energydrink"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "Sugarfree"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/a3vlbeubmmfv5gtjbyyc/red-bull-sugarfree",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#0596D2",
+                  "percentage": 14.5
+                },
+                {
+                  "hexColorCode": "#D7DCDF",
+                  "percentage": 9
+                },
+                {
+                  "hexColorCode": "#57BEE6",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#D42148",
+                  "percentage": 2.9
+                },
+                {
+                  "hexColorCode": "#E8E9EC",
+                  "percentage": 2.5
+                },
+                {
+                  "hexColorCode": "#036396",
+                  "percentage": 1.7
+                },
+                {
+                  "hexColorCode": "#EED27E",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Sugarfree"
+          }
+        },
+        "reference": {
+          "externalUrl": "http://www.redbull.com/sugarfree"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Sugarfree",
+          "standfirst": "Szárnyak cukor nélkül: A Red Bull Sugarfree egy Red Bull energiaital, de nem tartalmaz cukrot.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Sugarfree",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/a3vlbeubmmfv5gtjbyyc/red-bull-sugarfree"
+            }
+          },
+          "reference": {
+            "externalUrl": "http://www.redbull.com/sugarfree"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "Zero"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/15/smofhf58nyiqjuk2hsbg/red-bull-zero-energy-drink",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#93BFE4",
+                  "percentage": 14.1
+                },
+                {
+                  "hexColorCode": "#C6D1DE",
+                  "percentage": 10.8
+                },
+                {
+                  "hexColorCode": "#C80D32",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#DEE9F1",
+                  "percentage": 2.5
+                },
+                {
+                  "hexColorCode": "#7A8594",
+                  "percentage": 1.7
+                },
+                {
+                  "hexColorCode": "#FBF7F5",
+                  "percentage": 0.7
+                }
+              ]
+            },
+            "altText": "Red Bull Zero Energy Drink"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Zero Sugar",
+          "standfirst": "Zéró cukor. 100% szááárnyak.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Zero Energy Drink",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/15/smofhf58nyiqjuk2hsbg/red-bull-zero-energy-drink"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "Summer Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/23/ruh3jpjkw38fda6drgnn/red-bull-summer-edition",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#E25C94",
+                  "percentage": 16.2
+                },
+                {
+                  "hexColorCode": "#D32670",
+                  "percentage": 9.3
+                },
+                {
+                  "hexColorCode": "#D9E5EA",
+                  "percentage": 5.2
+                },
+                {
+                  "hexColorCode": "#C1C8D3",
+                  "percentage": 2.4
+                }
+              ]
+            },
+            "altText": "Red Bull Summer Edition"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "White Peach",
+          "standfirst": "Szááárnyakat a nyaradhoz!! Itt a Red Bull Summer Edition energiaital, fehér barack ízzel, egy kis citrushéj csavarral és virágos lecsengéssel.",
+          "brandingHexColorCode": "#E24585",
+          "image": {
+            "altText": "Red Bull Summer Edition",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/23/ruh3jpjkw38fda6drgnn/red-bull-summer-edition"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "Blue Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/20/qw2fzy4a0y40lwqm5wnd/red-bull-the-sea-blue-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#1F7EBF",
+                  "percentage": 19.3
+                },
+                {
+                  "hexColorCode": "#D8E0E7",
+                  "percentage": 4.5
+                },
+                {
+                  "hexColorCode": "#175AA4",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#BFC7D1",
+                  "percentage": 2.4
+                },
+                {
+                  "hexColorCode": "#1661A6",
+                  "percentage": 2.3
+                },
+                {
+                  "hexColorCode": "#5BA7D3",
+                  "percentage": 0.9
+                },
+                {
+                  "hexColorCode": "#F7F3F0",
+                  "percentage": 0.7
+                }
+              ]
+            },
+            "altText": "Red Bull The Sea Blue Edition - Image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-blue-edition-juneberry"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Juneberry",
+          "standfirst": "Red Bull Blue Edition a fanyarka csábító gyümölcsös ízével.",
+          "brandingHexColorCode": "#0072CE",
+          "image": {
+            "altText": "Red Bull The Sea Blue Edition - Image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/20/qw2fzy4a0y40lwqm5wnd/red-bull-the-sea-blue-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-blue-edition-juneberry"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "Apricot Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/20/acpjmlskbmwyqbloxy6y/the-apricot-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#EF7A17",
+                  "percentage": 10.7
+                },
+                {
+                  "hexColorCode": "#F1860F",
+                  "percentage": 9.1
+                },
+                {
+                  "hexColorCode": "#D7E2E9",
+                  "percentage": 4.5
+                },
+                {
+                  "hexColorCode": "#F5A64D",
+                  "percentage": 3.4
+                },
+                {
+                  "hexColorCode": "#C0C9D4",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#F09A50",
+                  "percentage": 2.6
+                }
+              ]
+            },
+            "altText": "The Apricot Edition image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-apricot-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Strawberry and apricot",
+          "standfirst": "A Red Bull Apricot Edition tökéletes kombinációt alkot a sárgabarack és az eper ízjegyeinek keveredésével, valamint egy csipetnyi őszibarackkal ízzel.  ",
+          "brandingHexColorCode": "#f3911b",
+          "image": {
+            "altText": "The Apricot Edition image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/20/acpjmlskbmwyqbloxy6y/the-apricot-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-apricot-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "Summer Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/3/4/b2vssmhibaindcqm77lv/red-bull-summer-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#85BB43",
+                  "percentage": 11.4
+                },
+                {
+                  "hexColorCode": "#75B542",
+                  "percentage": 9.6
+                },
+                {
+                  "hexColorCode": "#D3D5DD",
+                  "percentage": 5.6
+                },
+                {
+                  "hexColorCode": "#5FA82E",
+                  "percentage": 2.1
+                },
+                {
+                  "hexColorCode": "#D9DDE1",
+                  "percentage": 1.8
+                },
+                {
+                  "hexColorCode": "#71B226",
+                  "percentage": 1
+                },
+                {
+                  "hexColorCode": "#C6D8BF",
+                  "percentage": 0.6
+                },
+                {
+                  "hexColorCode": "#65AF27",
+                  "percentage": 0.5
+                },
+                {
+                  "hexColorCode": "#55A51A",
+                  "percentage": 0.5
+                }
+              ]
+            },
+            "altText": "Red Bull Summer Edition - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Curuba",
+          "standfirst": "Red Bull Summer Edition a kuruba egzotikus ízével és a bodzavirág frssítő jegyeivel kiegészítve",
+          "brandingHexColorCode": "#6cc24a",
+          "image": {
+            "altText": "Red Bull Summer Edition - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/3/4/b2vssmhibaindcqm77lv/red-bull-summer-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU",
+      "header_data": {
+        "content": {
+          "title": "White Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/20/ujawvf0ao8gcapcapgfc/red-bull-coconut-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#E6E8E9",
+                  "percentage": 15.4
+                },
+                {
+                  "hexColorCode": "#FAFAFA",
+                  "percentage": 7.7
+                },
+                {
+                  "hexColorCode": "#85898B",
+                  "percentage": 4.9
+                },
+                {
+                  "hexColorCode": "#F2F2F4",
+                  "percentage": 4.1
+                },
+                {
+                  "hexColorCode": "#FBFBFA",
+                  "percentage": 1.3
+                }
+              ]
+            },
+            "altText": "Red Bull Coconut Edition - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-white-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Coconut",
+          "standfirst": "A Red Bull White Edition az egzotikus kókusz és a zamatos áfonya ízében.",
+          "brandingHexColorCode": "#0070b8",
+          "image": {
+            "altText": "Red Bull Coconut Edition - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/20/ujawvf0ao8gcapcapgfc/red-bull-coconut-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-white-edition"
+          }
+        }
+      }
+    }
+  ],
+  "collection_timestamp": "2025-08-25T21:15:23.497539"
+}

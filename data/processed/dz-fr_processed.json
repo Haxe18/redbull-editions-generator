@@ -1,0 +1,26 @@
+{
+    "flag": "🇩🇿",
+    "editions": [
+        {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated all over the world by athletes, students, and people in highly demanding professions as well as those who do long journeys",
+            "sugarfree": false,
+            "color": "#2F4581",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/e43boges6ccyjhfil1ct/red-bull-energy-drink-image",
+            "alt_text": "Red Bull Energy Drink - image",
+            "product_url": "https://www.redbull.com/dz-fr/energydrink/red-bull-energy-drink"
+        }
+    ],
+    "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DZ.svg",
+    "_raw_hash": "ca922c8101a01d5730fd7052114a90a67b618a7ca750adb0d28aa2be978c0842",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated all over the world by athletes, students, and people in highly demanding professions as well as those who do long journeys.",
+            "product_url": "https://www.redbull.com/dz-fr/energydrink/red-bull-energy-drink"
+        }
+    ]
+}

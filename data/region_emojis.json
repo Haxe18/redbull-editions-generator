@@ -1,0 +1,14 @@
+{
+    "flag_mappings": {
+    },
+    "characteristic_mappings": {
+        "Caribbean": "🌴",
+        "Middle East": "🐪",
+        "International": "🌍"
+    },
+    "dynamic_mappings": {},
+    "_metadata": {
+        "last_updated": "2025-08-25",
+        "description": "Unique emoji mappings for regions without standard country codes"
+    }
+}

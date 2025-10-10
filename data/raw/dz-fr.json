@@ -1,0 +1,73 @@
+{
+  "locale_info": {
+    "country_name": "Algeria",
+    "domains": [
+      "dz-fr"
+    ],
+    "flag_code": "DZ"
+  },
+  "editions": [
+    {
+      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ",
+      "header_data": {
+        "content": {
+          "title": "Energy Drink"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/e43boges6ccyjhfil1ct/red-bull-energy-drink-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#2F4581",
+                  "percentage": 15.4
+                },
+                {
+                  "hexColorCode": "#DADCE1",
+                  "percentage": 10.5
+                },
+                {
+                  "hexColorCode": "#D11E3F",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#637CBA",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#EEF2F4",
+                  "percentage": 1.5
+                },
+                {
+                  "hexColorCode": "#ECCB76",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Energy Drink - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/dz-fr/energydrink/red-bull-energy-drink"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Energy Drink",
+          "standfirst": "Red Bull Energy Drink est apprécié dans le monde entier par les athlètes, les étudiants, et les professions très exigeantes tout comme ceux qui font de longs voyages.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Energy Drink - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/e43boges6ccyjhfil1ct/red-bull-energy-drink-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/dz-fr/energydrink/red-bull-energy-drink"
+          }
+        }
+      }
+    }
+  ],
+  "collection_timestamp": "2025-08-25T21:06:35.328396"
+}

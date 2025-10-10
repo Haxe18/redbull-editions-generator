@@ -1,0 +1,77 @@
+{
+    "flag": "🇭🇰",
+    "editions": [
+        {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is loved by athletes, professionals, students and travellers on long journeys all over the world",
+            "sugarfree": false,
+            "color": "#2F4581",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/dubceoiqls2iblqvgngg/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Sugarfree Wings. Red Bull Sugarfree Energy Drink is the sugarfree version of Red Bull Energy Drink",
+            "sugarfree": true,
+            "color": "#0995C5",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/rnj0dtvbdom21gekucws/red-bull-sugarfree",
+            "alt_text": "Red Bull Sugarfree",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "name": "The Green Edition",
+            "flavor": "Exotic Passion Fruit",
+            "flavor_description": "Freshly sour-sweet taste plus a hint of floral aroma matches a fresh and bubbly atmosphere, forming an exciting and refreshing feeling",
+            "sugarfree": false,
+            "color": "#79B942",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/25/t1dx8ooedgown8a6jt7s/red-bull-green-edition-image",
+            "alt_text": "Red Bull Green Edition - image",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-green-edition"
+        },
+        {
+            "name": "The Purple Edition",
+            "flavor": "Acai",
+            "flavor_description": "Red Bull Purple Edition instantly explodes with the unique seductive taste of Acai berry, a sour sweet taste that directly hits the palate",
+            "sugarfree": false,
+            "color": "#702082",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/djmiwb87afj7hcpgqgco/red-bull-purple-edition-image",
+            "alt_text": "Red Bull Purple Edition - image",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
+        }
+    ],
+    "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
+    "_raw_hash": "1d179852c33a7c32eed487cf05f42a8fe7092f16064973e4402efa381299b7eb",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is loved by athletes, professionals, students and travellers on long journeys all over the world.",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Sugarfree Wings. Red Bull Sugarfree Energy Drink is the sugarfree version of Red Bull Energy Drink.",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:zh-HK",
+            "name": "The Green Edition",
+            "flavor": "Exotic Passion Fruit",
+            "description": "Freshly sour-sweet taste plus a hint of floral aroma matches a fresh and bubbly atmosphere, forming an exciting and refreshing feeling",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-green-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK",
+            "name": "The Purple Edition",
+            "flavor": "Acai Berry",
+            "description": "Red Bull Purple Edition instantly explodes with the unique seductive taste of acai berry, a sour-sweet taste that directly hits the palate",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
+        }
+    ]
+}

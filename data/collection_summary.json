@@ -1,0 +1,593 @@
+{
+  "metadata": {
+    "collection_date": "2025-10-09T22:49:31.184299",
+    "total_countries": 67,
+    "changes_detected": [],
+    "successful_countries": 67
+  },
+  "countries": {
+    "Albania": {
+      "domain": "al-sq",
+      "all_domains": [
+        "al-sq"
+      ],
+      "flag_code": "AL",
+      "editions_count": 6,
+      "data_file": "al-sq.json"
+    },
+    "Algeria": {
+      "domain": "dz-fr",
+      "all_domains": [
+        "dz-fr"
+      ],
+      "flag_code": "DZ",
+      "editions_count": 1,
+      "data_file": "dz-fr.json"
+    },
+    "Argentina": {
+      "domain": "ar-es",
+      "all_domains": [
+        "ar-es"
+      ],
+      "flag_code": "AR",
+      "editions_count": 5,
+      "data_file": "ar-es.json"
+    },
+    "Australia": {
+      "domain": "au-en",
+      "all_domains": [
+        "au-en"
+      ],
+      "flag_code": "AU",
+      "editions_count": 9,
+      "data_file": "au-en.json"
+    },
+    "Austria": {
+      "domain": "at-de",
+      "all_domains": [
+        "at-de"
+      ],
+      "flag_code": "AT",
+      "editions_count": 14,
+      "data_file": "at-de.json"
+    },
+    "Azerbaijan": {
+      "domain": "az-az",
+      "all_domains": [
+        "az-az"
+      ],
+      "flag_code": "AZ",
+      "editions_count": 5,
+      "data_file": "az-az.json"
+    },
+    "Belgium": {
+      "domain": "be-nl",
+      "all_domains": [
+        "be-nl",
+        "be-fr"
+      ],
+      "flag_code": "BE",
+      "editions_count": 10,
+      "data_file": "be-nl.json"
+    },
+    "Bosnia and Herzegovina": {
+      "domain": "ba-bs",
+      "all_domains": [
+        "ba-bs"
+      ],
+      "flag_code": "BA",
+      "editions_count": 6,
+      "data_file": "ba-bs.json"
+    },
+    "Brazil": {
+      "domain": "br-pt",
+      "all_domains": [
+        "br-pt"
+      ],
+      "flag_code": "BR",
+      "editions_count": 10,
+      "data_file": "br-pt.json"
+    },
+    "Bulgaria": {
+      "domain": "bg-bg",
+      "all_domains": [
+        "bg-bg"
+      ],
+      "flag_code": "BG",
+      "editions_count": 7,
+      "data_file": "bg-bg.json"
+    },
+    "Canada": {
+      "domain": "ca-en",
+      "all_domains": [
+        "ca-en",
+        "ca-fr"
+      ],
+      "flag_code": "CA",
+      "editions_count": 9,
+      "data_file": "ca-en.json"
+    },
+    "Caribbean": {
+      "domain": "car-es",
+      "all_domains": [
+        "car-es"
+      ],
+      "flag_code": "INT",
+      "editions_count": 5,
+      "data_file": "car-es.json"
+    },
+    "Chile": {
+      "domain": "cl-es",
+      "all_domains": [
+        "cl-es"
+      ],
+      "flag_code": "CL",
+      "editions_count": 9,
+      "data_file": "cl-es.json"
+    },
+    "China": {
+      "domain": "cn-zh",
+      "all_domains": [
+        "cn-zh"
+      ],
+      "flag_code": "CN",
+      "editions_count": 1,
+      "data_file": "cn-zh.json"
+    },
+    "Colombia": {
+      "domain": "co-es",
+      "all_domains": [
+        "co-es"
+      ],
+      "flag_code": "CO",
+      "editions_count": 5,
+      "data_file": "co-es.json"
+    },
+    "Croatia": {
+      "domain": "hr-hr",
+      "all_domains": [
+        "hr-hr"
+      ],
+      "flag_code": "HR",
+      "editions_count": 8,
+      "data_file": "hr-hr.json"
+    },
+    "Czech Republic": {
+      "domain": "cz-cs",
+      "all_domains": [
+        "cz-cs"
+      ],
+      "flag_code": "CZ",
+      "editions_count": 9,
+      "data_file": "cz-cs.json"
+    },
+    "Denmark": {
+      "domain": "dk-da",
+      "all_domains": [
+        "dk-da"
+      ],
+      "flag_code": "DK",
+      "editions_count": 9,
+      "data_file": "dk-da.json"
+    },
+    "Dominican Republic": {},
+    "Egypt": {
+      "domain": "eg-ar",
+      "all_domains": [
+        "eg-ar"
+      ],
+      "flag_code": "EG",
+      "editions_count": 6,
+      "data_file": "eg-ar.json"
+    },
+    "Estonia": {
+      "domain": "ee-et",
+      "all_domains": [
+        "ee-et"
+      ],
+      "flag_code": "EE",
+      "editions_count": 11,
+      "data_file": "ee-et.json"
+    },
+    "Europe": {},
+    "Finland": {
+      "domain": "fi-fi",
+      "all_domains": [
+        "fi-fi"
+      ],
+      "flag_code": "FI",
+      "editions_count": 11,
+      "data_file": "fi-fi.json"
+    },
+    "France": {
+      "domain": "fr-fr",
+      "all_domains": [
+        "fr-fr"
+      ],
+      "flag_code": "FR",
+      "editions_count": 10,
+      "data_file": "fr-fr.json"
+    },
+    "Germany": {
+      "domain": "de-de",
+      "all_domains": [
+        "de-de"
+      ],
+      "flag_code": "DE",
+      "editions_count": 17,
+      "data_file": "de-de.json"
+    },
+    "Greece": {
+      "domain": "gr-el",
+      "all_domains": [
+        "gr-el"
+      ],
+      "flag_code": "GR",
+      "editions_count": 8,
+      "data_file": "gr-el.json"
+    },
+    "Hong Kong": {
+      "domain": "hk-zh",
+      "all_domains": [
+        "hk-zh"
+      ],
+      "flag_code": "HK",
+      "editions_count": 4,
+      "data_file": "hk-zh.json"
+    },
+    "Hungary": {
+      "domain": "hu-hu",
+      "all_domains": [
+        "hu-hu"
+      ],
+      "flag_code": "HU",
+      "editions_count": 8,
+      "data_file": "hu-hu.json"
+    },
+    "India": {
+      "domain": "in-en",
+      "all_domains": [
+        "in-en"
+      ],
+      "flag_code": "IN",
+      "editions_count": 5,
+      "data_file": "in-en.json"
+    },
+    "Indonesia": {
+      "domain": "id-id",
+      "all_domains": [
+        "id-id"
+      ],
+      "flag_code": "ID",
+      "editions_count": 1,
+      "data_file": "id-id.json"
+    },
+    "International": {
+      "domain": "int-en",
+      "all_domains": [
+        "int-en"
+      ],
+      "flag_code": "INT",
+      "editions_count": 3,
+      "data_file": "int-en.json"
+    },
+    "Ireland": {
+      "domain": "ie-en",
+      "all_domains": [
+        "ie-en"
+      ],
+      "flag_code": "IE",
+      "editions_count": 10,
+      "data_file": "ie-en.json"
+    },
+    "Italy": {
+      "domain": "it-it",
+      "all_domains": [
+        "it-it"
+      ],
+      "flag_code": "IT",
+      "editions_count": 10,
+      "data_file": "it-it.json"
+    },
+    "Japan": {
+      "domain": "jp-ja",
+      "all_domains": [
+        "jp-ja"
+      ],
+      "flag_code": "JP",
+      "editions_count": 6,
+      "data_file": "jp-ja.json"
+    },
+    "Kazakhstan": {
+      "domain": "kz-ru",
+      "all_domains": [
+        "kz-ru"
+      ],
+      "flag_code": "KZ",
+      "editions_count": 5,
+      "data_file": "kz-ru.json"
+    },
+    "Kenya": {
+      "domain": "ke-en",
+      "all_domains": [
+        "ke-en"
+      ],
+      "flag_code": "KE",
+      "editions_count": 3,
+      "data_file": "ke-en.json"
+    },
+    "Korea": {
+      "domain": "kr-ko",
+      "all_domains": [
+        "kr-ko"
+      ],
+      "flag_code": "KR",
+      "editions_count": 5,
+      "data_file": "kr-ko.json"
+    },
+    "Latvia": {
+      "domain": "lv-lv",
+      "all_domains": [
+        "lv-lv"
+      ],
+      "flag_code": "LV",
+      "editions_count": 9,
+      "data_file": "lv-lv.json"
+    },
+    "Lithuania": {
+      "domain": "lt-lt",
+      "all_domains": [
+        "lt-lt"
+      ],
+      "flag_code": "LT",
+      "editions_count": 8,
+      "data_file": "lt-lt.json"
+    },
+    "Malaysia": {
+      "domain": "my-en",
+      "all_domains": [
+        "my-en"
+      ],
+      "flag_code": "MY",
+      "editions_count": 1,
+      "data_file": "my-en.json"
+    },
+    "Mexico": {
+      "domain": "mx-es",
+      "all_domains": [
+        "mx-es"
+      ],
+      "flag_code": "MX",
+      "editions_count": 4,
+      "data_file": "mx-es.json"
+    },
+    "Middle East": {
+      "domain": "mea-en",
+      "all_domains": [
+        "mea-en",
+        "mea-ar"
+      ],
+      "flag_code": "INT",
+      "editions_count": 6,
+      "data_file": "mea-en.json"
+    },
+    "Netherlands": {
+      "domain": "nl-nl",
+      "all_domains": [
+        "nl-nl"
+      ],
+      "flag_code": "NL",
+      "editions_count": 11,
+      "data_file": "nl-nl.json"
+    },
+    "New Zealand": {
+      "domain": "nz-en",
+      "all_domains": [
+        "nz-en"
+      ],
+      "flag_code": "NZ",
+      "editions_count": 7,
+      "data_file": "nz-en.json"
+    },
+    "Nigeria": {
+      "domain": "ng-en",
+      "all_domains": [
+        "ng-en"
+      ],
+      "flag_code": "NG",
+      "editions_count": 2,
+      "data_file": "ng-en.json"
+    },
+    "North Macedonia": {
+      "domain": "mk-mk",
+      "all_domains": [
+        "mk-mk"
+      ],
+      "flag_code": "MK",
+      "editions_count": 5,
+      "data_file": "mk-mk.json"
+    },
+    "Norway": {
+      "domain": "no-no",
+      "all_domains": [
+        "no-no"
+      ],
+      "flag_code": "NO",
+      "editions_count": 12,
+      "data_file": "no-no.json"
+    },
+    "Pakistan": {
+      "domain": "pk-en",
+      "all_domains": [
+        "pk-en"
+      ],
+      "flag_code": "PK",
+      "editions_count": 2,
+      "data_file": "pk-en.json"
+    },
+    "Peru": {
+      "domain": "pe-es",
+      "all_domains": [
+        "pe-es"
+      ],
+      "flag_code": "PE",
+      "editions_count": 6,
+      "data_file": "pe-es.json"
+    },
+    "Philippines": {
+      "domain": "ph-en",
+      "all_domains": [
+        "ph-en"
+      ],
+      "flag_code": "PH",
+      "editions_count": 2,
+      "data_file": "ph-en.json"
+    },
+    "Poland": {
+      "domain": "pl-pl",
+      "all_domains": [
+        "pl-pl"
+      ],
+      "flag_code": "PL",
+      "editions_count": 12,
+      "data_file": "pl-pl.json"
+    },
+    "Portugal": {
+      "domain": "pt-pt",
+      "all_domains": [
+        "pt-pt"
+      ],
+      "flag_code": "PT",
+      "editions_count": 8,
+      "data_file": "pt-pt.json"
+    },
+    "Romania": {
+      "domain": "ro-ro",
+      "all_domains": [
+        "ro-ro"
+      ],
+      "flag_code": "RO",
+      "editions_count": 8,
+      "data_file": "ro-ro.json"
+    },
+    "Serbia": {
+      "domain": "rs-sr",
+      "all_domains": [
+        "rs-sr"
+      ],
+      "flag_code": "RS",
+      "editions_count": 5,
+      "data_file": "rs-sr.json"
+    },
+    "Singapore": {
+      "domain": "sg-en",
+      "all_domains": [
+        "sg-en"
+      ],
+      "flag_code": "SG",
+      "editions_count": 3,
+      "data_file": "sg-en.json"
+    },
+    "Slovakia": {
+      "domain": "sk-sk",
+      "all_domains": [
+        "sk-sk"
+      ],
+      "flag_code": "SK",
+      "editions_count": 9,
+      "data_file": "sk-sk.json"
+    },
+    "Slovenia": {
+      "domain": "si-sl",
+      "all_domains": [
+        "si-sl"
+      ],
+      "flag_code": "SI",
+      "editions_count": 10,
+      "data_file": "si-sl.json"
+    },
+    "South Africa": {
+      "domain": "za-en",
+      "all_domains": [
+        "za-en"
+      ],
+      "flag_code": "ZA",
+      "editions_count": 4,
+      "data_file": "za-en.json"
+    },
+    "Spain": {
+      "domain": "es-es",
+      "all_domains": [
+        "es-es"
+      ],
+      "flag_code": "ES",
+      "editions_count": 11,
+      "data_file": "es-es.json"
+    },
+    "Sweden": {
+      "domain": "se-en",
+      "all_domains": [
+        "se-en"
+      ],
+      "flag_code": "SE",
+      "editions_count": 12,
+      "data_file": "se-en.json"
+    },
+    "Switzerland": {
+      "domain": "ch-de",
+      "all_domains": [
+        "ch-de",
+        "ch-fr"
+      ],
+      "flag_code": "CH",
+      "editions_count": 11,
+      "data_file": "ch-de.json"
+    },
+    "Taiwan": {
+      "domain": "tw-zh",
+      "all_domains": [
+        "tw-zh"
+      ],
+      "flag_code": "TW",
+      "editions_count": 5,
+      "data_file": "tw-zh.json"
+    },
+    "Thailand": {},
+    "Türkiye": {
+      "domain": "tr-tr",
+      "all_domains": [
+        "tr-tr"
+      ],
+      "flag_code": "TR",
+      "editions_count": 8,
+      "data_file": "tr-tr.json"
+    },
+    "Ukraine": {
+      "domain": "ua-uk",
+      "all_domains": [
+        "ua-uk"
+      ],
+      "flag_code": "UA",
+      "editions_count": 4,
+      "data_file": "ua-uk.json"
+    },
+    "United Kingdom": {
+      "domain": "gb-en",
+      "all_domains": [
+        "gb-en"
+      ],
+      "flag_code": "GB",
+      "editions_count": 17,
+      "data_file": "gb-en.json"
+    },
+    "United States": {
+      "domain": "us-en",
+      "all_domains": [
+        "us-en"
+      ],
+      "flag_code": "US",
+      "editions_count": 17,
+      "data_file": "us-en.json"
+    }
+  }
+}

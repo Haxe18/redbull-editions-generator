@@ -1,0 +1,252 @@
+{
+  "locale_info": {
+    "country_name": "South Africa",
+    "domains": [
+      "za-en"
+    ],
+    "flag_code": "ZA"
+  },
+  "editions": [
+    {
+      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-ZA",
+      "header_data": {
+        "content": {
+          "title": "Energy Drink"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#2F4582",
+                  "percentage": 15.3
+                },
+                {
+                  "hexColorCode": "#D2D5DA",
+                  "percentage": 7.9
+                },
+                {
+                  "hexColorCode": "#EFF2F3",
+                  "percentage": 3.9
+                },
+                {
+                  "hexColorCode": "#D21E3F",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#627CBA",
+                  "percentage": 2.9
+                },
+                {
+                  "hexColorCode": "#EDCC77",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Energy Drink"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/energydrink"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Energy Drink",
+          "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Energy Drink",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/energydrink"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-ZA",
+      "header_data": {
+        "content": {
+          "title": "Sugarfree"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/vumrbqonijhcrj9o7hz3/red-bull-sugarfree",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#0596D3",
+                  "percentage": 14.2
+                },
+                {
+                  "hexColorCode": "#D2D7DB",
+                  "percentage": 6.8
+                },
+                {
+                  "hexColorCode": "#E7E8EB",
+                  "percentage": 4.7
+                },
+                {
+                  "hexColorCode": "#56BEE6",
+                  "percentage": 3.1
+                },
+                {
+                  "hexColorCode": "#D42148",
+                  "percentage": 2.9
+                },
+                {
+                  "hexColorCode": "#036599",
+                  "percentage": 1.9
+                },
+                {
+                  "hexColorCode": "#EED27F",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Sugarfree"
+          }
+        },
+        "reference": {
+          "externalUrl": "http://www.redbull.com/sugarfree"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Sugarfree",
+          "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Sugarfree",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/vumrbqonijhcrj9o7hz3/red-bull-sugarfree"
+            }
+          },
+          "reference": {
+            "externalUrl": "http://www.redbull.com/sugarfree"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA",
+      "header_data": {
+        "content": {
+          "title": "Blue Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/18/y8emafvwnjpysptqhw5m/red-bull-blue-edition-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#057FC2",
+                  "percentage": 21.3
+                },
+                {
+                  "hexColorCode": "#D9DBE0",
+                  "percentage": 5.3
+                },
+                {
+                  "hexColorCode": "#5DA5D4",
+                  "percentage": 2.4
+                },
+                {
+                  "hexColorCode": "#0059A6",
+                  "percentage": 2.3
+                },
+                {
+                  "hexColorCode": "#F5F3F1",
+                  "percentage": 1.6
+                },
+                {
+                  "hexColorCode": "#D5DFE5",
+                  "percentage": 1.2
+                }
+              ]
+            },
+            "altText": "Red Bull Blue Edition - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/za-en/energydrink/red-bull-blue-edition-juneberry"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Juneberry",
+          "standfirst": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry* *artificially flavoured",
+          "brandingHexColorCode": "#0072CE",
+          "image": {
+            "altText": "Red Bull Blue Edition - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/18/y8emafvwnjpysptqhw5m/red-bull-blue-edition-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/za-en/energydrink/red-bull-blue-edition-juneberry"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-ZA",
+      "header_data": {
+        "content": {
+          "title": "Summer Edition"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/vu0xzchl6y0k8d7uxboh/red-bull-summer-edition",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#E25C94",
+                  "percentage": 16.1
+                },
+                {
+                  "hexColorCode": "#D32670",
+                  "percentage": 9.3
+                },
+                {
+                  "hexColorCode": "#D9E5EA",
+                  "percentage": 5.3
+                },
+                {
+                  "hexColorCode": "#C1C8D3",
+                  "percentage": 2.4
+                }
+              ]
+            },
+            "altText": "Red Bull Summer Edition"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/za-en/energydrink/products/red-bull-summer-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "White Peach",
+          "standfirst": "Wiiings for your summer: The Red Bull Summer Edition Energy Drink with the taste of white peach, a touch of citrus peel and floral notes.",
+          "brandingHexColorCode": "#E24585",
+          "image": {
+            "altText": "Red Bull Summer Edition",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/vu0xzchl6y0k8d7uxboh/red-bull-summer-edition"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/za-en/energydrink/products/red-bull-summer-edition"
+          }
+        }
+      }
+    }
+  ],
+  "collection_timestamp": "2025-09-03T19:47:50.418022"
+}

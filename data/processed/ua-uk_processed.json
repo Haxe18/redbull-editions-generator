@@ -1,0 +1,77 @@
+{
+    "flag": "🇺🇦",
+    "editions": [
+        {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Energy drink is consumed in all world by leading sportsmen, students and professionals, as well as during long journeys",
+            "sugarfree": false,
+            "color": "#2F4582",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/mckqelzyrw15nt6opzer/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-energy-drink"
+        },
+        {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is the Red Bull energy drink without sugar",
+            "sugarfree": true,
+            "color": "#248FCB",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
+            "alt_text": "Red Bull Sugarfree",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "name": "The Yellow Edition",
+            "flavor": "Tropical Fruits",
+            "flavor_description": "Red Bull Yellow Edition. With an exotic taste of Tropical Fruits",
+            "sugarfree": false,
+            "color": "#FFCD00",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/y4suhb1qj6jluvwbckar/red-bull-yellow-edition-image",
+            "alt_text": "Red Bull Yellow Edition - image",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-yellow-edition"
+        },
+        {
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "flavor_description": "The Red Bull Red Edition with a refreshing taste of Watermelon",
+            "sugarfree": false,
+            "color": "#e03c31",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/fziaoakmjjrhlkntfp36/red-bull-red-edition-image",
+            "alt_text": "Red Bull Red Edition - Image",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-red-edition"
+        }
+    ],
+    "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-UA.svg",
+    "_raw_hash": "9d49d0902450089d6826dfd6d2926396f4c78a9755ccedb03932127232568d44",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:uk-UA",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Energy drink is consumed in all world by leading sportsmen, students and professionals, as well as during long journeys.",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-energy-drink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:uk-UA",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is the Red Bull energy drink without sugar.",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:uk-UA",
+            "name": "The Yellow Edition",
+            "flavor": "Tropical",
+            "description": "Red Bull Yellow Edition. With an exotic taste of tropical fruits.",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-yellow-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:uk-UA",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "The Red Bull Red Edition with a refreshing taste of watermelon.",
+            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-red-edition"
+        }
+    ]
+}

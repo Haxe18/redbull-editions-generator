@@ -1,0 +1,138 @@
+{
+  "locale_info": {
+    "country_name": "Philippines",
+    "domains": [
+      "ph-en"
+    ],
+    "flag_code": "PH"
+  },
+  "editions": [
+    {
+      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH",
+      "header_data": {
+        "content": {
+          "title": "Energy Drink"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/18/xp8tjuagilr7kcaktwlz/red-bull-energy-drink-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#2F4581",
+                  "percentage": 15.5
+                },
+                {
+                  "hexColorCode": "#D8DADF",
+                  "percentage": 9.9
+                },
+                {
+                  "hexColorCode": "#D21E3F",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#627CBA",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#F0F3F5",
+                  "percentage": 1.8
+                },
+                {
+                  "hexColorCode": "#EDCB76",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Energy Drink - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ph-en/energydrink/red-bull-energy-drink"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Energy Drink",
+          "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Energy Drink - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/18/xp8tjuagilr7kcaktwlz/red-bull-energy-drink-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ph-en/energydrink/red-bull-energy-drink"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH",
+      "header_data": {
+        "content": {
+          "title": "Sugarfree"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/18/ap8b1ymuo2xsrpu2n0i1/red-bull-sugarfree-image",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#0495D2",
+                  "percentage": 14.3
+                },
+                {
+                  "hexColorCode": "#D7DBDE",
+                  "percentage": 8.1
+                },
+                {
+                  "hexColorCode": "#E5E6EA",
+                  "percentage": 3.2
+                },
+                {
+                  "hexColorCode": "#55BDE6",
+                  "percentage": 3.2
+                },
+                {
+                  "hexColorCode": "#D42248",
+                  "percentage": 2.9
+                },
+                {
+                  "hexColorCode": "#046498",
+                  "percentage": 1.8
+                },
+                {
+                  "hexColorCode": "#EFD380",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Sugarfree - image"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/ph-en/energydrink/red-bull-sugarfree"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Sugarfree",
+          "standfirst": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Sugarfree - image",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/18/ap8b1ymuo2xsrpu2n0i1/red-bull-sugarfree-image"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/ph-en/energydrink/red-bull-sugarfree"
+          }
+        }
+      }
+    }
+  ],
+  "collection_timestamp": "2025-08-25T21:16:41.995361"
+}

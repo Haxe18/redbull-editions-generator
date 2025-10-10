@@ -1,0 +1,341 @@
+{
+  "locale_info": {
+    "country_name": "Korea",
+    "domains": [
+      "kr-ko"
+    ],
+    "flag_code": "KR"
+  },
+  "editions": [
+    {
+      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR",
+      "header_data": {
+        "content": {
+          "title": "에너지드링크"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#2F4582",
+                  "percentage": 15.3
+                },
+                {
+                  "hexColorCode": "#D2D5DA",
+                  "percentage": 7.9
+                },
+                {
+                  "hexColorCode": "#EFF2F3",
+                  "percentage": 3.9
+                },
+                {
+                  "hexColorCode": "#D21E3F",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#627CBA",
+                  "percentage": 2.9
+                },
+                {
+                  "hexColorCode": "#EDCC77",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Energy Drink"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/kr-ko/energydrink"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Energy Drink",
+          "standfirst": "레드불 에너지 드링크는 전세계 선수들, 직장인, 대학생, 여행자 등 많은 사람들의 사랑을 받고 있습니다.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Energy Drink",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/kr-ko/energydrink"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ko-KR",
+      "header_data": {
+        "content": {
+          "title": "슈가프리"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/6/furwpe9mufy0j9mwy5im/red-bull-sugarfree",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#0596D2",
+                  "percentage": 14.4
+                },
+                {
+                  "hexColorCode": "#D4D8DC",
+                  "percentage": 8
+                },
+                {
+                  "hexColorCode": "#EBECEF",
+                  "percentage": 3.6
+                },
+                {
+                  "hexColorCode": "#57BEE7",
+                  "percentage": 3
+                },
+                {
+                  "hexColorCode": "#D42047",
+                  "percentage": 2.8
+                },
+                {
+                  "hexColorCode": "#036498",
+                  "percentage": 1.7
+                },
+                {
+                  "hexColorCode": "#EFD27F",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Sugarfree"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-sugarfree"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Sugarfree",
+          "standfirst": "설탕 없는 레드불 에너지 드링크입니다.",
+          "brandingHexColorCode": "#FFFFFF",
+          "image": {
+            "altText": "Red Bull Sugarfree",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/6/furwpe9mufy0j9mwy5im/red-bull-sugarfree"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-sugarfree"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR",
+      "header_data": {
+        "content": {
+          "title": "핑크 에디션"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#E25C94",
+                  "percentage": 16.1
+                },
+                {
+                  "hexColorCode": "#D32570",
+                  "percentage": 9.1
+                },
+                {
+                  "hexColorCode": "#D9E5EA",
+                  "percentage": 5.3
+                },
+                {
+                  "hexColorCode": "#C3CAD4",
+                  "percentage": 2.3
+                }
+              ]
+            },
+            "altText": "Red Bull Pink Edition"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "White Peach",
+          "standfirst": "레드불 핑크 에디션: 복숭아 향에 시트러스의 산뜻함과 플로럴 향을 더한 에너지 드링크를 만나보세요!",
+          "brandingHexColorCode": "#E24585",
+          "image": {
+            "altText": "Red Bull Pink Edition",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR",
+      "header_data": {
+        "content": {
+          "title": "그린 에디션"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/12/bnvlk9mb5xizcjpxziwc/red-bull-green-edition",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#86BB44",
+                  "percentage": 10.4
+                },
+                {
+                  "hexColorCode": "#74B542",
+                  "percentage": 9.8
+                },
+                {
+                  "hexColorCode": "#D9E1E7",
+                  "percentage": 4
+                },
+                {
+                  "hexColorCode": "#CFD4E1",
+                  "percentage": 3.4
+                },
+                {
+                  "hexColorCode": "#5BA830",
+                  "percentage": 2.2
+                },
+                {
+                  "hexColorCode": "#71B222",
+                  "percentage": 0.8
+                },
+                {
+                  "hexColorCode": "#E4630D",
+                  "percentage": 0.8
+                },
+                {
+                  "hexColorCode": "#4DA41A",
+                  "percentage": 0.6
+                },
+                {
+                  "hexColorCode": "#C6D9C0",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull Green Edition"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "열대과일향",
+          "standfirst": "레드불 그린 에디션은 상큼한 열대과일향과 달콤한 꽃향이 어우러진 새로운 에디션입니다. ",
+          "brandingHexColorCode": "#79B942",
+          "image": {
+            "altText": "Red Bull Green Edition",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/12/bnvlk9mb5xizcjpxziwc/red-bull-green-edition"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
+          }
+        }
+      }
+    },
+    {
+      "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ko-KR",
+      "header_data": {
+        "content": {
+          "title": "퍼플 에디션"
+        },
+        "media": {
+          "mainImage": {
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/2/27/ayou0mwalsltglytgbjr/red-bull-the-purple-edition",
+              "predominantColors": [
+                {
+                  "hexColorCode": "#7C3382",
+                  "percentage": 17.9
+                },
+                {
+                  "hexColorCode": "#D6D7DC",
+                  "percentage": 6.4
+                },
+                {
+                  "hexColorCode": "#4F174B",
+                  "percentage": 1.9
+                },
+                {
+                  "hexColorCode": "#EFF2F5",
+                  "percentage": 1.8
+                },
+                {
+                  "hexColorCode": "#5E215D",
+                  "percentage": 1.6
+                },
+                {
+                  "hexColorCode": "#D3BFD5",
+                  "percentage": 1.1
+                },
+                {
+                  "hexColorCode": "#FEFDFD",
+                  "percentage": 0.8
+                },
+                {
+                  "hexColorCode": "#64176E",
+                  "percentage": 0.7
+                },
+                {
+                  "hexColorCode": "#3E0B3B",
+                  "percentage": 0.7
+                },
+                {
+                  "hexColorCode": "#AB7AB2",
+                  "percentage": 0.6
+                }
+              ]
+            },
+            "altText": "Red Bull The Purple Edition"
+          }
+        },
+        "reference": {
+          "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-purple-edition"
+        }
+      },
+      "graphql_data": {
+        "data": {
+          "flavour": "Açai Berry",
+          "standfirst": "포도향이 더해진 레드불 퍼플 에디션을 만나보세요.",
+          "brandingHexColorCode": "#702082",
+          "image": {
+            "altText": "Red Bull The Purple Edition",
+            "imageEssence": {
+              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/2/27/ayou0mwalsltglytgbjr/red-bull-the-purple-edition"
+            }
+          },
+          "reference": {
+            "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-purple-edition"
+          }
+        }
+      }
+    }
+  ],
+  "collection_timestamp": "2025-10-02T19:03:22.944928"
+}
