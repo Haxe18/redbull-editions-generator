@@ -3,7 +3,11 @@ name: Generate/Update Red Bull Editions Data and create a release
 on:
   push:
     branches:
-      - main
+      - 'main'
+    paths:
+      - '**.py'
+      - 'requirements.txt'
+
   schedule:
     - cron: '11 5 * * *' # Run every day at 5:11 (or later) UTC
   workflow_dispatch:  # Allow manual trigger
