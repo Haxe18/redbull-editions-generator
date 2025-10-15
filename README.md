@@ -55,10 +55,6 @@ collector.py  →  raw data  →  processor.py  →  final JSON
    - Force reprocess option properly respected for single country processing
    - Comprehensive docstrings for 40+ methods and all Pydantic models
 
-3. **Legacy Scripts** (for reference):
-   - `collector_v2.py`: Previous version (now merged into collector.py)
-   - `main.py`: Monolithic script (deprecated)
-
 ## ⚙️ Setup
 
 ### Local Development
