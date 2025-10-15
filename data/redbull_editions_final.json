@@ -758,8 +758,8 @@
             },
             {
                 "name": "The Winter Edition",
-                "flavor": "Fuji-Apple",
-                "flavor_description": "The Red Bull Winter Edition with taste of Fuji Apples and a top note of jinjifili",
+                "flavor": "Fuji Apple & Ginger",
+                "flavor_description": "The Red Bull Winter Edition with the taste of Fuji Apples and the warm piquancy of Gingerbread",
                 "sugarfree": false,
                 "color": "#ae132d",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/13/ypa3pzokb0e8rtrmebfu/red-bull-winter-edition",
@@ -769,7 +769,7 @@
             {
                 "name": "The Yellow Edition",
                 "flavor": "Tropical Fruits",
-                "flavor_description": "Taste the exotic taste of Tropical Fruits",
+                "flavor_description": "Try the exotic taste of Tropical Fruits",
                 "sugarfree": false,
                 "color": "#FFCD00",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/rij4yvg9ui0b317utbjp/red-bull-yellow-edition-image",
@@ -789,7 +789,7 @@
             {
                 "name": "The Apricot Edition",
                 "flavor": "Apricot-Strawberry",
-                "flavor_description": "The Red Bull Apricot Edition offers the perfect combination of Apricot and berry with a hint of Peach taste",
+                "flavor_description": "The Red Bull Apricot Edition offers the perfect combination of Apricot and Strawberry with a hint of Peach taste",
                 "sugarfree": false,
                 "color": "#f3911b",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/wmwfpxdesoinkvbvbwbg/red-bull-apricot-edition-image",

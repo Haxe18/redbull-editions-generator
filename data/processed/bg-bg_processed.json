@@ -33,8 +33,8 @@
         },
         {
             "name": "The Winter Edition",
-            "flavor": "Fuji-Apple",
-            "flavor_description": "Red Bull Winter Edition with taste of Fuji Apples and a top note of jinjifili",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Winter Edition with the taste of Fuji Apples and the warm piquancy of Gingerbread",
             "sugarfree": false,
             "color": "#ae132d",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/13/ypa3pzokb0e8rtrmebfu/red-bull-winter-edition",
@@ -44,7 +44,7 @@
         {
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "Taste the exotic taste of Tropical Fruits",
+            "flavor_description": "Try the exotic taste of Tropical Fruits",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/rij4yvg9ui0b317utbjp/red-bull-yellow-edition-image",
@@ -64,7 +64,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "Red Bull Apricot Edition offers the perfect combination of Apricot and berry with a hint of Peach taste",
+            "flavor_description": "Red Bull Apricot Edition offers the perfect combination of Apricot and Strawberry with a hint of Peach taste",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/wmwfpxdesoinkvbvbwbg/red-bull-apricot-edition-image",
@@ -97,10 +97,17 @@
             "product_url": "https://www.redbull.com/bg-bg/energydrink/products/red-bull-zero"
         },
         {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:bg-BG",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple",
+            "description": "Red Bull Winter Edition with the taste of Fuji apples and the warm piquancy of gingerbread.",
+            "product_url": "https://www.redbull.com/bg-bg/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:bg-BG",
             "name": "The Yellow Edition",
-            "flavor": "Tropical/Tropical Fruits",
-            "description": "Taste the exotic taste of tropical fruits.",
+            "flavor": "Tropical Fruits",
+            "description": "Try the exotic taste of tropical fruits.",
             "product_url": "https://www.redbull.com/bg-bg/energydrink/products/red-bull-yellow-edition"
         },
         {
@@ -114,15 +121,8 @@
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:bg-BG",
             "name": "The Apricot Edition",
             "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot Edition offers the perfect combination of apricot and berry with a hint of peach taste.",
+            "description": "Red Bull Apricot Edition offers the perfect combination of apricot and strawberry with a hint of peach taste.",
             "product_url": "https://www.redbull.com/bg-bg/energydrink/products/red-bull-apricot-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:bg-BG",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple",
-            "description": "Red Bull Winter Edition with taste of Fuji apples and a top note of jinjifili.",
-            "product_url": "https://www.redbull.com/bg-bg/energydrink/products/red-bull-winter-edition"
         }
     ]
 }
