@@ -1,138 +1,138 @@
 {
-  "locale_info": {
-    "country_name": "Nigeria",
-    "domains": [
-      "ng-en"
-    ],
-    "flag_code": "NG"
-  },
-  "editions": [
-    {
-      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NG",
-      "header_data": {
-        "content": {
-          "title": "Energy Drink"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#2F4582",
-                  "percentage": 15.3
-                },
-                {
-                  "hexColorCode": "#D2D5DA",
-                  "percentage": 7.9
-                },
-                {
-                  "hexColorCode": "#EFF2F3",
-                  "percentage": 3.9
-                },
-                {
-                  "hexColorCode": "#D21E3F",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#627CBA",
-                  "percentage": 2.9
-                },
-                {
-                  "hexColorCode": "#EDCC77",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/energydrink"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Energy Drink",
-          "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/energydrink"
-          }
-        }
-      }
+    "locale_info": {
+        "country_name": "Nigeria",
+        "domains": [
+            "ng-en"
+        ],
+        "flag_code": "NG"
     },
-    {
-      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NG",
-      "header_data": {
-        "content": {
-          "title": "Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/14/v7xwx0sb1dqll2nh3l2p/red-bull-sugarfree",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#248FCB",
-                  "percentage": 12.4
+    "editions": [
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NG",
+            "header_data": {
+                "content": {
+                    "title": "Energy Drink"
                 },
-                {
-                  "hexColorCode": "#C9D0DA",
-                  "percentage": 8
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2F4582",
+                                    "percentage": 15.3
+                                },
+                                {
+                                    "hexColorCode": "#D2D5DA",
+                                    "percentage": 7.9
+                                },
+                                {
+                                    "hexColorCode": "#EFF2F3",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#D21E3F",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#627CBA",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#EDCC77",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
                 },
-                {
-                  "hexColorCode": "#68BDE2",
-                  "percentage": 5.4
-                },
-                {
-                  "hexColorCode": "#CA0D36",
-                  "percentage": 2.8
-                },
-                {
-                  "hexColorCode": "#DFE9EF",
-                  "percentage": 2.2
-                },
-                {
-                  "hexColorCode": "#778494",
-                  "percentage": 1.2
-                },
-                {
-                  "hexColorCode": "#FCF8F6",
-                  "percentage": 0.7
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/energydrink"
                 }
-              ]
             },
-            "altText": "Red Bull Sugarfree"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/ng-en/energydrink/red-bull-sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Sugarfree",
-          "standfirst": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Sugarfree",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/14/v7xwx0sb1dqll2nh3l2p/red-bull-sugarfree"
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/energydrink"
+                    }
+                }
             }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/ng-en/energydrink/red-bull-sugarfree"
-          }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NG",
+            "header_data": {
+                "content": {
+                    "title": "Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/14/v7xwx0sb1dqll2nh3l2p/red-bull-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#248FCB",
+                                    "percentage": 12.4
+                                },
+                                {
+                                    "hexColorCode": "#C9D0DA",
+                                    "percentage": 8
+                                },
+                                {
+                                    "hexColorCode": "#68BDE2",
+                                    "percentage": 5.4
+                                },
+                                {
+                                    "hexColorCode": "#CA0D36",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#DFE9EF",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#778494",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#FCF8F6",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ng-en/energydrink/products/red-bull-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/14/v7xwx0sb1dqll2nh3l2p/red-bull-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ng-en/energydrink/products/red-bull-sugarfree"
+                    }
+                }
+            }
         }
-      }
-    }
-  ],
-  "collection_timestamp": "2025-08-25T21:16:28.417753"
+    ],
+    "collection_timestamp": "2025-10-16T05:38:18.378102+00:00"
 }

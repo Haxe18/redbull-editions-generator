@@ -2,19 +2,9 @@
     "flag": "🇸🇬",
     "editions": [
         {
-            "name": "The Peach Edition Sugarfree",
-            "flavor": "White Peach",
-            "flavor_description": "The Red Bull Peach Edition Energy Drink offers the taste of White Peach, a touch of citrus peel and floral notes – all with no sugar",
-            "sugarfree": true,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/27/bzlrcsfaqhip2xvntw5t/red-bull-peach-edition-sugarfree-half-can",
-            "alt_text": "Red Bull Peach Edition Sugarfree half can",
-            "product_url": "https://www.redbull.com/sg-en/energydrink/red-bull-peach-edition-sugarfree"
-        },
-        {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "In the Little Red Dot where ambition never sleeps, Red Bull Energy Drink powers those who push boundaries. Appreciated worldwide by top athletes, students, and professionals in fast-paced industries",
+            "flavor_description": "In Singapore, Red Bull Energy Drink powers those who push boundaries. It is appreciated worldwide by top athletes, students, and professionals in fast-paced industries",
             "sugarfree": false,
             "color": "#2F4581",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/nercvjxetieezu3slyd9/red-bull-energy-drink",
@@ -24,24 +14,27 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "flavor_description": "Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true,
             "color": "#0495D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/bi3ulrancqfi3qtiwz5b/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Peach Edition sugarfree Energy Drink offers the taste of White Peach, with a touch of citrus peel and floral notes, all with no sugar",
+            "sugarfree": true,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/27/bzlrcsfaqhip2xvntw5t/red-bull-peach-edition-sugarfree-half-can",
+            "alt_text": "Red Bull Peach Edition Sugarfree half can",
+            "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-peach-edition-sugarfree"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SG.svg",
-    "_raw_hash": "6231a2cb34cc9be1302d01c330c8091fc83d0c814cb9e9cd218a543d1ce68d2a",
+    "_raw_hash": "7780da05f23a6334b251bdc6107be4751bc8f43a405d9abff6da75527f8af499",
     "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:en-SG",
-            "name": "The Peach Edition Sugarfree",
-            "flavor": "White Peach",
-            "description": "The Red Bull Peach Edition Sugarfree Energy Drink offers the taste of white peach, a touch of citrus peel and floral notes – all with no sugar.",
-            "product_url": "https://www.redbull.com/sg-en/energydrink/red-bull-peach-edition-sugarfree"
-        },
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-SG",
             "name": "Energy Drink",
@@ -55,6 +48,13 @@
             "flavor": "Sugarfree",
             "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
             "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:en-SG",
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition Sugarfree Energy Drink offers the taste of white peach, a touch of citrus peel and floral notes – all with no sugar.",
+            "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-peach-edition-sugarfree"
         }
     ]
 }
