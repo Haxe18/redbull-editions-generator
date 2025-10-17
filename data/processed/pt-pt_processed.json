@@ -33,13 +33,23 @@
         },
         {
             "name": "The Winter Edition",
-            "flavor": "Apricot-Strawberry",
+            "flavor": "Fuji Apple & Ginger",
             "flavor_description": "Red Bull Winter Edition with apple taste and a spicy touch of Ginger",
             "sugarfree": false,
             "color": "#53b2c2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/5/gi41hpuklhkgkyirbq9n/the-winter-edition",
             "alt_text": "Winter Edition",
             "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-winter-edition"
+        },
+        {
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Blossom",
+            "flavor_description": "Red Bull Lilac Edition Sugarfree with Grapefruit taste and floral notes",
+            "sugarfree": true,
+            "color": "#6952AD",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/16/cb1wmgxldfqfhck2srcw/lilac-edition-sugarfree--grapefruit-and-blossom",
+            "alt_text": "Lilac-Edition-Sugarfree Grapefruit & Blossom",
+            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-lilac-edition-sugarfree"
         },
         {
             "name": "The Yellow Edition",
@@ -54,7 +64,7 @@
         {
             "name": "The Purple Edition Sugarfree",
             "flavor": "Acai",
-            "flavor_description": "Experience the unique exotic taste of Acai. Red Bull Acai Edition sugarfree",
+            "flavor_description": "Experience the unique exotic taste of Acai. Red Bull Acai Edition Sugarfree",
             "sugarfree": true,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/yjys3fgkhpfg2nnt412o/red-bull-purple-edition-sugarfree-image",
@@ -83,7 +93,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PT.svg",
-    "_raw_hash": "35b8e6a9172330331ff3680e1cb422f3d33fd9f43de9b930265c53eb4bbb3b7d",
+    "_raw_hash": "bd9510a918ee7b19838ef79fc6e5592e557ed6c2981946e9e4c2663ea03dd2f2",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pt-PT",
@@ -140,6 +150,13 @@
             "flavor": "Strawberry and apricot",
             "description": "Red Bull Apricot offers the perfect fusion between apricot and strawberry tastes with peach notes.",
             "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-apricot-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pt-PT",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Blossom",
+            "description": "Red Bull Lilac Edition Sugarfree with grapefruit taste and floral notes.",
+            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-lilac-edition-sugarfree"
         }
     ]
 }

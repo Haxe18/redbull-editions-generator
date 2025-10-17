@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-10-16T05:29:44.870204+00:00",
+        "collection_date": "2025-10-17T05:29:43.527020+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -431,7 +431,7 @@
                 "pe-es"
             ],
             "flag_code": "PE",
-            "editions_count": 6,
+            "editions_count": 5,
             "data_file": "pe-es.json"
         },
         "Philippines": {
@@ -458,7 +458,7 @@
                 "pt-pt"
             ],
             "flag_code": "PT",
-            "editions_count": 8,
+            "editions_count": 9,
             "data_file": "pt-pt.json"
         },
         "Romania": {

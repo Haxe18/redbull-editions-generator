@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "The Winter Edition",
+            "flavor": "Apple",
+            "flavor_description": "Red Bull Winter Edition with apple taste lands with a new arrival!",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/16/mv53pihrotyijrtbrzdx/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "name": "The Green Edition",
             "flavor": "Muscat",
             "flavor_description": "Red Bull with muscat flavor, landing again!",
@@ -30,16 +40,6 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
             "alt_text": "Red Bull Green Edition - image",
             "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Red Bull Summer Edition is here with a White Peach flavor!",
-            "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/14/bnyfglaow8if4mjnvxhz/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-summer-edition"
         },
         {
             "name": "The Yellow Edition",
@@ -63,7 +63,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
-    "_raw_hash": "46ff212d10d855f936ba497fe3ba0b621cdc76e76598b0664245f1e9d1703749",
+    "_raw_hash": "981f9875824182e20396a8a6dc4f472f943ba95f3808646b9e3f09ad051ef848",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
@@ -87,13 +87,6 @@
             "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:ja-JP",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Summer Edition is here with a white peach flavor!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-summer-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:ja-JP",
             "name": "The Yellow Edition",
             "flavor": "Tropical/Tropical Fruits",
@@ -106,6 +99,13 @@
             "flavor": "Kyoho Grape",
             "description": "A new regular from Red Bull, the Wings of Kyoho grape flavor!",
             "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ja-JP",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple",
+            "description": "Red Bull Winter Edition with apple taste lands with a new arrival!",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-winter-edition"
         }
     ]
 }
