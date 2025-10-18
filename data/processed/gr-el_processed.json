@@ -32,14 +32,14 @@
             "product_url": "https://www.redbull.com/zero"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Red Bull Summer Edition offers the taste of White Peach",
+            "name": "The Winter Edition",
+            "flavor": "Iced Gummy Bear",
+            "flavor_description": "Red Bull Winter Edition with a refreshing Vanilla and berry taste",
             "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/3/xkkcsaqg7kr6rz2nyyef/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-summer-edition"
+            "color": "#53b2c2",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/17/owlbakxtossd8gdvhkel/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-winter-edition"
         },
         {
             "name": "The Apricot Edition",
@@ -83,7 +83,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GR.svg",
-    "_raw_hash": "40a53a1aa9cfa023fecaaf4da66c3755c814f28318c2cac6d17ecc5d9081eb40",
+    "_raw_hash": "464b84f64b4eb6f582f32ec8439a631d4995c9be40d96f3a967f06dbf6ca21a2",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:el-GR",
@@ -105,13 +105,6 @@
             "flavor": "Zero Sugar",
             "description": "Zero Sugar. 100% Freshness",
             "product_url": "https://www.redbull.com/zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:el-GR",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Summer Edition offers the taste of white peach.",
-            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-summer-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:el-GR",
@@ -140,6 +133,13 @@
             "flavor": "Tropical/Tropical Fruits",
             "description": "Red Bull Yellow Edition. Enjoy the exotic taste of tropical fruits.",
             "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-yellow-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:el-GR",
+            "name": "The Winter Edition",
+            "flavor": "Iced Gummy Bear",
+            "description": "Red Bull Winter Edition with a refreshing vanilla and berry taste.",
+            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-winter-edition"
         }
     ]
 }
