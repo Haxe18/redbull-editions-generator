@@ -52,18 +52,8 @@
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-ice-edition-sugarfree"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Red Bull Summer Edition has the taste of White Peach with a citrus touch and floral notes",
-            "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/16/b8oxirch1jfezliysgw3/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "name": "The Apricot Edition",
-            "flavor": "Strawberry-Apricot",
+            "flavor": "Apricot-Strawberry",
             "flavor_description": "Red Bull Apricot Edition presents the perfect combination of Apricot and Strawberry with a hint of Peach",
             "sugarfree": false,
             "color": "#f3911b",
@@ -113,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg",
-    "_raw_hash": "a1f3bdcb4d3fe741696b37cca20b3df975b46a4f049b8cf107c6e79518eba65d",
+    "_raw_hash": "1f891f3370bcadde0877435d8e3249019a71aeacb1a62ff01f773a3c54ce95e1",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-ES",
@@ -149,13 +139,6 @@
             "flavor": "Iced Vanilla Berry",
             "description": "Iced Vanilla Berry Energy Drink.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-ice-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:es-ES",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Summer Edition has the taste of white peach with a citrus touch and floral notes.",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-summer-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:es-ES",
