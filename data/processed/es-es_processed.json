@@ -42,6 +42,16 @@
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-winter-edition-sugarfree"
         },
         {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Peach Edition with White Peach taste",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/20/gll6izuvaronqaowdncm/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-peach-edition"
+        },
+        {
             "name": "The Ice Edition Sugarfree",
             "flavor": "Iced Vanilla Berry",
             "flavor_description": "Iced Vanilla Berry Energy Drink",
@@ -103,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg",
-    "_raw_hash": "1f891f3370bcadde0877435d8e3249019a71aeacb1a62ff01f773a3c54ce95e1",
+    "_raw_hash": "5cac60609be958663d759c3fe1b0675d4738f8949a8d428a33c1e6285bc65ea1",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-ES",
@@ -174,6 +184,13 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the fresh taste of watermelon.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:es-ES",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition with white peach taste.",
+            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-peach-edition"
         }
     ]
 }

@@ -44,12 +44,22 @@
         {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Forest Fruits",
-            "flavor_description": "Red Bull Pink Edition: Sugarfree energy drink with the taste of raspberries and other fruits, complemented by exciting herbal notes of verbena",
+            "flavor_description": "Red Bull Pink Edition: sugarfree energy drink with the taste of raspberries and other fruits, complemented by exciting herbal notes of verbena",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/2/28/wbnymu7ufl9ndpecatvi/red-bull-pink-edition-image",
             "alt_text": "Red Bull Pink Edition Image",
             "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-pink-edition-sugarfree"
+        },
+        {
+            "name": "The Ice Edition",
+            "flavor": "Iced Gummy Bear",
+            "flavor_description": "The Ice Edition brings the taste of Blueberry, Vanilla and icily fresh tones of eucalyptus",
+            "sugarfree": false,
+            "color": "#53b2c2",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/21/iwyr37jxnxwnio8kjpbk/red-bull-iced-edition",
+            "alt_text": "Red Bull Iced Edition",
+            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-ice-edition"
         },
         {
             "name": "The Sea Blue Edition",
@@ -93,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SK.svg",
-    "_raw_hash": "fd2fa55fd605f1765bd4e7f97d059e6e0d6ed26a2bd9d868ce65428dc95f1ab8",
+    "_raw_hash": "3147aff6ed513a0c0d102a1f0deccbdd772b1ae026259db9862d68da6c62de0a",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sk-SK",
@@ -157,6 +167,13 @@
             "flavor": "Tropical/Tropical Fruits",
             "description": "Red Bull Tropical Edition. Let yourself be surprised by the refreshing taste of tropical fruit.",
             "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-tropical-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:sk-SK",
+            "name": "The Ice Edition",
+            "flavor": "Iced Gummy Bear",
+            "description": "The Ice Edition brings the taste of blueberry, vanilla and icily fresh tones of eucalyptus.",
+            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-ice-edition"
         }
     ]
 }
