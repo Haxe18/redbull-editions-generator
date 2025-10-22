@@ -64,9 +64,9 @@ class Config:
     COUNTRY_RETRY_DELAY: int = 5  # Seconds to wait between country retries
 
     # Rate Limiting
-    RATE_LIMIT_MIN: float = 0.5
-    RATE_LIMIT_MAX: float = 1.5
-    DOMAIN_DELAY: float = 0.3
+    RATE_LIMIT_MIN: float = 1.0
+    RATE_LIMIT_MAX: float = 2.5
+    DOMAIN_DELAY: float = 0.5
 
     # API Endpoints
     HEADER_API_URL: str = "https://www.redbull.com/v3/api/custom/header/v2"
@@ -913,18 +913,24 @@ class RedBullDataCollector:
             self.logger.info("  • Changed countries: %s", changes_str)
 
     @staticmethod
-    def _initialize_collection_metadata(countries_count: int) -> Dict[str, Any]:
+    def _initialize_collection_metadata(
+        countries_count: int, old_collection_date: Optional[str] = None
+    ) -> Dict[str, Any]:
         """Initialize metadata for collection results.
 
         Args:
             countries_count: Number of countries to process
+            old_collection_date: Previous collection date to preserve if no changes
 
         Returns:
             Dictionary with initialized metadata structure
         """
+        # Use old collection_date as placeholder, will be updated based on changes_detected
+        collection_date = old_collection_date if old_collection_date else datetime.now(timezone.utc).isoformat()
+
         return {
             "metadata": {
-                "collection_date": datetime.now(timezone.utc).isoformat(),
+                "collection_date": collection_date,
                 "total_countries": countries_count,
             },
             "countries": {},
@@ -1150,7 +1156,18 @@ class RedBullDataCollector:
         self.logger.info("📊 Found %d unique countries", len(countries_grouped))
         self.logger.info("✅ Will process %d countries\n", len(countries_to_process))
 
-        all_raw_data = self._initialize_collection_metadata(len(countries_to_process))
+        # Read old collection_date to preserve if no changes detected
+        old_collection_date = None
+        summary_file = self.output_dir / "collection_summary.json"
+        if summary_file.exists():
+            try:
+                with open(summary_file, "r", encoding="utf-8") as file_handle:
+                    old_summary = json.load(file_handle)
+                    old_collection_date = old_summary.get("metadata", {}).get("collection_date")
+            except (IOError, OSError, json.JSONDecodeError) as err:
+                self.logger.warning("Could not read old collection_date: %s", err)
+
+        all_raw_data = self._initialize_collection_metadata(len(countries_to_process), old_collection_date)
 
         changes_detected = []
 
@@ -1173,6 +1190,13 @@ class RedBullDataCollector:
         # Save collection summary
         all_raw_data["metadata"]["changes_detected"] = changes_detected
         all_raw_data["metadata"]["successful_countries"] = len(countries_to_process)
+
+        # Update collection_date only if changes were detected
+        if changes_detected:
+            all_raw_data["metadata"]["collection_date"] = datetime.now(timezone.utc).isoformat()
+            self.logger.info("📅 Collection date updated (changes detected)")
+        else:
+            self.logger.info("📅 Collection date preserved (no changes)")
 
         try:
             summary_file = self.output_dir / "collection_summary.json"

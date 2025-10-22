@@ -143,7 +143,7 @@ class RedBullDataProcessor:
 
     # region Class Constants
     GEMINI_MODEL = "gemini-2.5-flash-lite"
-    MIN_DELAY_BETWEEN_REQUESTS = 5.0  # seconds (for 12 requests/minute)
+    MIN_DELAY_BETWEEN_REQUESTS = 7.0  # seconds (conservative rate limiting)
     MAX_REQUESTS_PER_MINUTE = 14
 
     # APPROVED FLAVOR LIST (Source of Truth)

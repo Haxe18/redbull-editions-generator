@@ -133,7 +133,7 @@ python -m py_compile collector.py processor.py
 - Merges editions from multiple language versions per country
 - Language prioritization: English > German/Dutch > Others
 - Intelligent deduplication by product characteristics
-- Configurable rate limiting (0.5-1.5s random delay)
+- Conservative rate limiting (1.0-2.5s random delay)
 - Chrome User-Agent for better compatibility
 - **Custom URL Support**: Archive.org snapshots (requires --country option)
 - **Automatic Proxy URL Cleaning**: Removes proxy prefixes by detecting second http(s)
@@ -378,9 +378,18 @@ The processor includes active Step 3 validation that:
 - **Country-Level Retries**: 1 retry per country (2 total attempts)
   - Configurable via `Config.COUNTRY_MAX_RETRIES` (default: 1)
   - Delay via `Config.COUNTRY_RETRY_DELAY` (default: 5 seconds)
-- **GraphQL Delay**: Random 0.5-1.5 seconds between GraphQL requests
-- **Domain Delay**: 300ms between country fetches
+- **GraphQL Delay**: Random 1.0-2.5 seconds between GraphQL requests (conservative 2x)
+- **Domain Delay**: 500ms between country fetches
+- **Processor Delay**: 7 seconds minimum between Gemini API calls
 - **Development Mode**: Disable with `--no-rate-limit` flag
+
+### Collection Date Optimization (2025-10-22)
+- **Smart Date Preservation**: `collection_date` only updated when changes detected
+- **Prevents Unnecessary Commits**: Avoids git commits when no data changes
+- **Implementation**: Reads previous `collection_date` from `collection_summary.json`
+  - If `changes_detected` is empty → preserves old date
+  - If `changes_detected` has countries → sets new date
+- **Benefit**: Cleaner git history with commits only when data actually changes
 
 ### Collector Retry Behavior
 When a country fails (e.g., API timeout, HTTP error):

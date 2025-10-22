@@ -11,8 +11,8 @@ Automated data collector and processor for Red Bull Energy Drink editions worldw
 - 🤖 AI-powered normalization using Google Gemini 2.5 Flash
 - 🌐 Intelligent language prioritization (English > German/Dutch > Others)
 - 🔄 Parallel processing with threading (3 concurrent workers)
-- 📊 Change detection to minimize API calls
-- 🛡️ Rate limiting with random delays (0.5-1.5s)
+- 📊 Change detection to minimize API calls and unnecessary commits
+- 🛡️ Conservative rate limiting with random delays (1.0-2.5s)
 - 📝 Manual corrections system for data overrides
 - 💾 Efficient caching of raw data with intelligent per-edition cache invalidation
 - 📚 Production-ready code with high Pylint score
@@ -33,7 +33,7 @@ collector.py  →  raw data  →  processor.py  →  final JSON
    - **HTTP**: Session pooling with automatic retry strategy (exponential backoff)
    - **Multi-language**: Merges editions from multiple language versions per country
    - **Language Priority**: English > German/Dutch > Others
-   - **Rate Limiting**: Configurable delays (0.5-1.5s random)
+   - **Rate Limiting**: Conservative delays (1.0-2.5s random between requests)
    - **Custom URLs**: Support for Archive.org snapshots (requires --country option)
    - **Error Handling**: Custom exception hierarchy with proper recovery
    - **Logging**: Structured logging with appropriate levels
@@ -224,9 +224,10 @@ The processor intelligently creates changelog files:
 
 ## ⏱️ Rate Limiting
 
-The collector implements intelligent rate limiting to respect API limits:
-- **GraphQL requests**: Random delay of 0.5-1.5 seconds between requests
-- **Country collection**: 300ms delay between country fetches
+The collector implements conservative rate limiting to respect API limits and avoid throttling:
+- **GraphQL requests**: Random delay of 1.0-2.5 seconds between requests (2x conservative)
+- **Country collection**: 500ms delay between country fetches
+- **Processor**: 7 second minimum delay between Gemini API calls
 - **Exponential backoff**: Automatic retry with exponential backoff on HTTP errors (502, 503, 504)
 - **Development mode**: Use `--no-rate-limit` flag to disable delays for testing
 
