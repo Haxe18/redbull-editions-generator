@@ -52,7 +52,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/energydrink"
+                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-energy-drink"
                 }
             },
             "graphql_data": {
@@ -67,7 +67,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/energydrink"
+                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-energy-drink"
                     }
                 }
             }
@@ -117,7 +117,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "http://www.redbull.com/sugarfree"
+                    "externalUrl": "http://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
                 }
             },
             "graphql_data": {
@@ -132,76 +132,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "http://www.redbull.com/sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-PE",
-            "header_data": {
-                "content": {
-                    "title": "Winter Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/30/jovmioxfifefkumihmzl/red-bull-winter-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#84BB42",
-                                    "percentage": 10.8
-                                },
-                                {
-                                    "hexColorCode": "#71B33C",
-                                    "percentage": 9.3
-                                },
-                                {
-                                    "hexColorCode": "#D9E0E7",
-                                    "percentage": 4
-                                },
-                                {
-                                    "hexColorCode": "#CCD1DD",
-                                    "percentage": 3.4
-                                },
-                                {
-                                    "hexColorCode": "#5CA830",
-                                    "percentage": 2.2
-                                },
-                                {
-                                    "hexColorCode": "#72B223",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#0A0A0A",
-                                    "percentage": 0.5
-                                },
-                                {
-                                    "hexColorCode": "#C8DAC4",
-                                    "percentage": 0.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Winter Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/red-bull-winter-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Curuba Elderflower",
-                    "standfirst": "Prepárate para una experiencia de sabor extraordinaria. La Edición Winter de Red Bull con sabor a tumbo.",
-                    "brandingHexColorCode": "#6cc24a",
-                    "image": {
-                        "altText": "Red Bull Winter Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/30/jovmioxfifefkumihmzl/red-bull-winter-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/red-bull-winter-edition"
+                        "externalUrl": "http://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
                     }
                 }
             }
@@ -251,7 +182,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/red-bull-red-edition"
+                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
                 }
             },
             "graphql_data": {
@@ -266,7 +197,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/red-bull-red-edition"
+                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
                     }
                 }
             }
@@ -328,7 +259,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/red-bull-green-edition"
+                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
                 }
             },
             "graphql_data": {
@@ -343,11 +274,11 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/red-bull-green-edition"
+                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
                     }
                 }
             }
         }
     ],
-    "collection_timestamp": "2025-10-17T05:39:06.326600+00:00"
+    "collection_timestamp": "2025-10-22T12:24:26.198741+00:00"
 }

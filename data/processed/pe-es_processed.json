@@ -9,7 +9,7 @@
             "color": "#304682",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/k1ptdmhukhu3hpjhv8s3/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
-            "product_url": "https://www.redbull.com/energydrink"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-energy-drink"
         },
         {
             "name": "Energy Drink Sugarfree",
@@ -19,17 +19,7 @@
             "color": "#0596D3",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/c6axpdpxsice8p7sx7j9/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "name": "The Winter Edition",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "Prepare for an extraordinary taste experience. The Red Bull Winter Edition with Curuba flavor",
-            "sugarfree": false,
-            "color": "#6cc24a",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/30/jovmioxfifefkumihmzl/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/red-bull-winter-edition"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
         },
         {
             "name": "The Red Edition",
@@ -39,7 +29,7 @@
             "color": "#e03c31",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/iztojbla8itume8sapg1/red-bull-red-edition-image",
             "alt_text": "Red Bull Red Edition - image",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/red-bull-red-edition"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
         },
         {
             "name": "The Green Edition",
@@ -49,46 +39,39 @@
             "color": "#00c65e",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/detyrfbxwejxdeaifijv/red-bull-green-edition-image",
             "alt_text": "Red Bull Green Edition - image",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/red-bull-green-edition"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PE.svg",
-    "_raw_hash": "d8a39340bbb3b43d041260d7ae75f87f34821bb346c3a8bddb59ba3404317382",
+    "_raw_hash": "a3ae80fc7a2ee89e24c7e78baf400772a270c080d8d461024275193f3f952d69",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "description": "Red Bull Energy Drink is appreciated all over the world by the best athletes, professionals, university students, and long-journey travelers.",
-            "product_url": "https://www.redbull.com/energydrink"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-energy-drink"
         },
         {
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-PE",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-PE",
-            "name": "The Winter Edition",
-            "flavor": "Curuba Elderflower",
-            "description": "Prepare for an extraordinary taste experience. The Red Bull Winter Edition with curuba flavor.",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/red-bull-winter-edition"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE",
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the fresh taste of watermelon.",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/red-bull-red-edition"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-PE",
             "name": "The Green Edition",
             "flavor": "Dragon fruit",
             "description": "Red Bull Green Edition with dragon fruit flavor",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/red-bull-green-edition"
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
         }
     ]
 }

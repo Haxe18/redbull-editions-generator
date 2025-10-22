@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-10-22T05:31:34.158133+00:00",
+        "collection_date": "2025-10-22T12:30:42.792208+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -48,7 +48,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 14,
+            "editions_count": 13,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -431,7 +431,7 @@
                 "pe-es"
             ],
             "flag_code": "PE",
-            "editions_count": 5,
+            "editions_count": 4,
             "data_file": "pe-es.json"
         },
         "Philippines": {
@@ -521,7 +521,7 @@
                 "es-es"
             ],
             "flag_code": "ES",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "es-es.json"
         },
         "Sweden": {
