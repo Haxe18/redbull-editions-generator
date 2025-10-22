@@ -198,6 +198,9 @@ python -m py_compile collector.py processor.py
       - German "Waldbeere/Waldbeeren" → "Forest Berry"
       - English "Forest fruit/fruits" → "Forest Fruits"
       - These are different flavors and must NOT be interchanged
+    - **Apricot Edition**: "Apricot-Strawberry" is the standardized order (NOT "Strawberry-Apricot")
+      - Enforced via global corrections in corrections.json
+      - Applies to Apricot/Amber/Summer Edition variants
   - Exceptions: "Pear Cinnamon" (space), "Grapefruit & Blossom" (keeps &)
 - **Order Preservation**: Edition order matches Red Bull API to minimize diffs
 - **URLs**: All HTTP converted to HTTPS
@@ -270,6 +273,12 @@ Create/edit `data/corrections.json`:
       "field": "flavor",
       "search": "Original Text",
       "replace": "Corrected Text"
+    },
+    {
+      "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1",
+      "field": "flavor",
+      "search": "Strawberry-Apricot",
+      "replace": "Apricot-Strawberry"
     }
   ]
 }
@@ -279,11 +288,20 @@ Create/edit `data/corrections.json`:
 - **Country-Specific**: `"id": "UUID:de-DE"` → Applies only to Germany
 - **Global (Multi-Country)**: `"id": "UUID"` → Applies to ALL countries with this UUID
 - Example: `"id": "c55e5804-ce3c-4289-8d89-930b6d678501"` applies to FI, DE, GB, etc.
+- **Real-world example**: The Apricot Edition correction above applies globally to ~16 countries
 
 **Field Mapping (Automatic)**:
 - Use `"flavor"` in corrections → internally maps to `"_raw_flavor"`
 - Use `"flavor_description"` → internally maps to `"_standfirst"`
 - This allows intuitive field names while the processor handles the technical details
+
+**Active Global Corrections** (as of 2025-10-22):
+- **Apricot/Amber/Summer Edition** (UUID `f900c5b7-d33e-4a8e-a186-5cee5bd291a1`):
+  - Two corrections ensure "Apricot-Strawberry" flavor order (not "Strawberry-Apricot")
+  - Corrects both raw API data and Gemini-translated data
+  - Applied automatically before Gemini processing on every run
+  - Affects: AT, DK, EE, ES, FR, GB, HU, IT, LV, MEA, MK, NL, NO, PT, RO, SE, SI, SK, US
+  - Details: See `data/changelogs/changelog_20251022_135339_manual.md`
 
 ## Intelligent Caching System
 

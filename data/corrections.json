@@ -125,6 +125,18 @@
             "field": "flavor",
             "search": "Juneberry",
             "replace": "Cherry & Wild Berries"
+        },
+        {
+            "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1",
+            "field": "flavor",
+            "search": "Strawberry and apricot",
+            "replace": "Apricot-Strawberry"
+        },
+        {
+            "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1",
+            "field": "flavor",
+            "search": "Strawberry-Apricot",
+            "replace": "Apricot-Strawberry"
         }
     ],
     "comments": [

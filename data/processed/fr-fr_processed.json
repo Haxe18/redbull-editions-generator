@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is consumed worldwide by professional athletes, university students, or during long journeys",
+            "flavor_description": "Red Bull Energy Drink is consumed worldwide by professional athletes, university students, and during long journeys",
             "sugarfree": false,
             "color": "#2F4582",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
@@ -24,7 +24,7 @@
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "Rediscover the taste and the Wings of Red Bull. Without sugar",
+            "flavor_description": "Rediscover the taste and wings of Red Bull. Without sugar",
             "sugarfree": true,
             "color": "#95C0E5",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/29/ma1tupfbtfqgjkizegux/red-bull-zero-energy-drink",
@@ -34,7 +34,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Summer Edition: The energizing drink with the extraordinary taste of White Peach, enhanced by a zest of citrus and subtle floral notes",
+            "flavor_description": "Red Bull Summer Edition: The energy drink with the extraordinary taste of White Peach, enhanced by a hint of citrus and subtle floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/15/rklpyfmy0brsckdpgpsa/red-bull-summer-edition",
@@ -53,8 +53,8 @@
         },
         {
             "name": "The Apricot Edition",
-            "flavor": "Strawberry-Apricot",
-            "flavor_description": "Red Bull Apricot Edition is the perfect blend of Apricot and Strawberry with a slight touch of Peach",
+            "flavor": "Apricot-Strawberry",
+            "flavor_description": "Red Bull Apricot Edition is the perfect combination of Apricot and Strawberry with a light touch of Peach",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/ffdqp5lry6nqgkyuhnrc/red-bull-apricot-edition-image",
@@ -73,7 +73,7 @@
         },
         {
             "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
+            "flavor": "Coconut-Acai",
             "flavor_description": "Red Bull White Edition mixing the exotic taste of Coconut and the fruity taste of Acai",
             "sugarfree": false,
             "color": "#0070b8",
@@ -109,7 +109,7 @@
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-FR",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is consumed worldwide by professional athletes, university students, or during long journeys.",
+            "description": "Red Bull Energy Drink is consumed worldwide by professional athletes, university students, and during long journeys.",
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
@@ -123,14 +123,14 @@
             "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:fr-FR",
             "name": "Energy Drink Zero",
             "flavor": "Zero",
-            "description": "Rediscover the taste and the Wings of Red Bull. Without sugar.",
+            "description": "Rediscover the taste and wings of Red Bull. Without sugar.",
             "product_url": "https://www.redbull.com/zero"
         },
         {
             "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fr-FR",
             "name": "The Summer Edition",
             "flavor": "White Peach",
-            "description": "Red Bull Summer Edition: The energizing drink with the extraordinary taste of white peach, enhanced by a zest of citrus and subtle floral notes.",
+            "description": "Red Bull Summer Edition: The energy drink with the extraordinary taste of white peach, enhanced by a hint of citrus and subtle floral notes.",
             "product_url": "https://www.redbull.com/fr-fr/energydrink/red-bull-summer-edition"
         },
         {
@@ -143,8 +143,8 @@
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:fr-FR",
             "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot Edition is the perfect blend of apricot and strawberry with a slight touch of peach.",
+            "flavor": "Apricot-Strawberry",
+            "description": "Red Bull Apricot Edition is the perfect combination of apricot and strawberry with a light touch of peach.",
             "product_url": "https://www.redbull.com/fr-fr/energydrink/red-bull-apricot-edition"
         },
         {
@@ -158,7 +158,7 @@
             "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:fr-FR",
             "name": "The White Edition",
             "flavor": "Coconut",
-            "description": "Red Bull White Edition mixing the exotic taste of coconut and the fruity taste of Açaí.",
+            "description": "Red Bull White Edition mixing the exotic taste of coconut and the fruity taste of Acai.",
             "product_url": "https://www.redbull.com/fr-fr/energydrink/red-bull-white-edition"
         },
         {

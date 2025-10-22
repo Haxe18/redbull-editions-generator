@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull is appreciated worldwide by top athletes, university students, in demanding professions and during long drives",
+            "flavor_description": "Red Bull is appreciated worldwide by top athletes, university students in demanding professions and during long drives",
             "sugarfree": false,
             "color": "#2F4582",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
@@ -33,7 +33,7 @@
         },
         {
             "name": "The Winter Edition Sugarfree",
-            "flavor": "Fuji Apple & Ginger",
+            "flavor": "Iced Vanilla Berry",
             "flavor_description": "Red Bull Winter Sugarfree with the taste of Fuji Apple and Ginger",
             "sugarfree": true,
             "color": "#53b2c2",
@@ -44,7 +44,7 @@
         {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Forest Berry",
-            "flavor_description": "Red Bull Pink Edition Sugarfree: Red Bull Energy Drink with the taste of forest berries and notes of verbena",
+            "flavor_description": "Red Bull Pink Edition Sugarfree: Sugarfree Energy Drink with the taste of forest berries and notes of verbena",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/20/yfkkafoaotfrgjz6yweb/red-bull-pink-edition-image",
@@ -53,8 +53,8 @@
         },
         {
             "name": "The Apricot Edition",
-            "flavor": "Strawberry-Apricot",
-            "flavor_description": "Red Bull Apricot Edition offers the perfect mix of Apricot and Strawberry with a hint of Peach",
+            "flavor": "Apricot-Strawberry",
+            "flavor_description": "Red Bull Apricot Edition offers the perfect mix between Apricot and Strawberry with a note of Peach",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/ampmdvbrq7ozmf8i8lic/red-bull-apricot-edition-image",
@@ -109,7 +109,7 @@
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:it-IT",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull is appreciated worldwide by top athletes, university students, in demanding professions and during long drives.",
+            "description": "Red Bull is appreciated worldwide by top athletes, university students in demanding professions and during long drives.",
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
@@ -143,8 +143,8 @@
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:it-IT",
             "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot Edition offers the perfect mix of apricot and strawberry with a hint of peach.",
+            "flavor": "Apricot-Strawberry",
+            "description": "Red Bull Apricot Edition offers the perfect mix between apricot and strawberry with a note of peach.",
             "product_url": "https://www.redbull.com/it-it/energydrink/red-bull-apricot-edition"
         },
         {
@@ -158,7 +158,7 @@
             "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:it-IT",
             "name": "The White Edition",
             "flavor": "Coconut",
-            "description": "Get ready for an extraordinary taste experience. Red Bull White Edition with the exotic taste of coconut and the fruity taste of Acai.",
+            "description": "Get ready for an extraordinary taste experience. Red Bull White Edition with the exotic taste of coconut and the fruity taste of Açaí.",
             "product_url": "https://www.redbull.com/it-it/energydrink/red-bull-white-edition"
         },
         {

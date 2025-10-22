@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink invigorates the world's leading athletes, students, and professionals in demanding professions, as well as people undertaking long journeys",
+            "flavor_description": "Red Bull Energy Drink energizes world-leading athletes, students, professionals in high-demand jobs, and people undertaking long journeys",
             "sugarfree": false,
             "color": "#2F4581",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/hcb59qul44mdd3zrbohj/red-bull-energy-drink",
@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar. Red Bull Sugarfree is the Red Bull Energy Drink without sugar",
+            "flavor_description": "Wings without sugar. Red Bull Sugarfree is the sugarfree version of Red Bull Energy Drink",
             "sugarfree": true,
             "color": "#2784C4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/i7optopapwnvyajw4euw/red-bull-sugarfree",
@@ -24,7 +24,7 @@
         {
             "name": "The Winter Edition",
             "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Red Bull Winter Edition with the spicy kick of Fuji Apple and warming Ginger",
+            "flavor_description": "Red Bull Winter Edition with the spicy taste of Fuji Apple and warming Ginger",
             "sugarfree": false,
             "color": "#ae132d",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/1/juik5usgkb7cvbe4tprz/red-bull-winter-edition",
@@ -34,7 +34,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "White Peach",
-            "flavor_description": "Wings for your summer: Red Bull Summer Edition energy drink with the taste of White Peach, a hint of citrus peel and floral notes",
+            "flavor_description": "Wings for your summer: Red Bull Summer Edition energy drink with the taste of White Peach, a hint of citrus zest, and floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/3/e5jk8padh2sxofwmtimx/red-bull-summer-edition-image",
@@ -44,7 +44,7 @@
         {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
-            "flavor_description": "Red Bull Sea Blue Edition with the enticing taste of Juneberry",
+            "flavor_description": "Red Bull Sea Blue Edition with the enticing taste of blackcurrant",
             "sugarfree": false,
             "color": "#0072CE",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/9/xv2xfolnzjxfcs0uoqtn/red-bull-sea-blue-edition-image",
@@ -54,7 +54,7 @@
         {
             "name": "The Green Edition",
             "flavor": "Dragon Fruit",
-            "flavor_description": "Red Bull Green Edition with the exotic taste of Dragon Fruit",
+            "flavor_description": "Red Bull Green Edition with the exotic taste of Cactus Fruit",
             "sugarfree": false,
             "color": "#2ca44a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/2/27/qhgy5mspqidjqybzb8so/red-bull-green-edition-image",
@@ -63,7 +63,7 @@
         },
         {
             "name": "The Apricot Edition",
-            "flavor": "Strawberry-Apricot",
+            "flavor": "Apricot-Strawberry",
             "flavor_description": "Red Bull Apricot Edition offers a great combination of Apricot and Strawberry",
             "sugarfree": false,
             "color": "#ff9425",
@@ -99,42 +99,42 @@
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:lv-LV",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink invigorates the world's leading athletes, students, and professionals in demanding professions, as well as people undertaking long journeys.",
+            "description": "Red Bull Energy Drink energizes world-leading athletes, students, professionals in high-demand jobs, and people undertaking long journeys.",
             "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-energy-drink"
         },
         {
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:lv-LV",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "Wings without sugar. Red Bull Sugarfree is the Red Bull Energy Drink without sugar.",
+            "description": "Wings without sugar. Red Bull Sugarfree is the sugarfree version of Red Bull Energy Drink.",
             "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:lv-LV",
             "name": "The Winter Edition",
             "flavor": "Fuji Apple-Ginger",
-            "description": "Red Bull Winter Edition with the spicy kick of Fuji Apple and warming Ginger.",
+            "description": "Red Bull Winter Edition with the spicy taste of Fuji Apple and warming Ginger.",
             "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-winter-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:lv-LV",
             "name": "The Summer Edition",
             "flavor": "White Peach",
-            "description": "Wings for your summer: Red Bull Summer Edition energy drink with the taste of white peach, a hint of citrus peel and floral notes.",
+            "description": "Wings for your summer: Red Bull Summer Edition energy drink with the taste of white peach, a hint of citrus zest, and floral notes.",
             "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-summer-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:lv-LV",
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
-            "description": "Red Bull Sea Blue Edition with the enticing taste of Juneberry.",
+            "description": "Red Bull Sea Blue Edition with the enticing taste of blackcurrant.",
             "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-sea-blue-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:lv-LV",
             "name": "The Green Edition",
             "flavor": "Dragon Fruit",
-            "description": "Red Bull Green edition with the exotic taste of dragon fruit.",
+            "description": "Red Bull Green edition with the exotic taste of cactus fruit.",
             "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-green-edition"
         },
         {

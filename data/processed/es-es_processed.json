@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "Zero calories, 100% wings",
+            "flavor_description": "Zero Calories, 100% Wings",
             "sugarfree": true,
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/21/je3d7jirwfhfk5vimbgj/red-bull-zero-energy-drink",
@@ -64,7 +64,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "Red Bull Apricot Edition presents the perfect combination of Apricot and Strawberry with a hint of Peach",
+            "flavor_description": "Red Bull Apricot Edition presents the perfect combination of Apricot and Strawberry with a touch of Peach",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/izxcobdrzhm6xfel1aga/red-bull-apricot-edition-image",
@@ -74,7 +74,7 @@
         {
             "name": "The Lime Green Edition",
             "flavor": "Curuba-Elderflower",
-            "flavor_description": "New Red Bull Lime Green Edition with the exotic taste of Curuba complemented by notes of soursop flower",
+            "flavor_description": "New Red Bull Lime Green Edition with the exotic taste of Curuba complemented by notes of elder flower",
             "sugarfree": false,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/15/hg5yyxvvuzdbmz31wjzp/red-bull-lime-green-edition",
@@ -94,7 +94,7 @@
         {
             "name": "The Coconut Edition",
             "flavor": "Coconut-Blueberry",
-            "flavor_description": "Get ready for an extraordinary taste experience. Red Bull Coconut Edition with exotic flavors of Coconut and Blueberry",
+            "flavor_description": "Get ready for an extraordinary taste experience. Red Bull Coconut Edition with exotic taste of Coconut and blueberries",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/seqjyey0koqkbqxwwwkc/red-bull-coconut-edition-image",
@@ -126,7 +126,7 @@
             "edition_id": "rrn:content:energy-drinks:42234f27-2f14-48f6-a995-13ddcff7ea24:es-ES",
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "description": "Zero calories, 100% wings",
+            "description": "ZERO CALORIES, 100% WINGS",
             "product_url": "https://www.redbull.com/es-es/energydrink"
         },
         {
@@ -144,6 +144,13 @@
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-winter-edition-sugarfree"
         },
         {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:es-ES",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition with white peach taste.",
+            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-peach-edition"
+        },
+        {
             "edition_id": "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:es-ES",
             "name": "The Ice Edition Sugarfree",
             "flavor": "Iced Vanilla Berry",
@@ -153,15 +160,15 @@
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:es-ES",
             "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot Edition presents the perfect combination of apricot and strawberry with a hint of peach.",
+            "flavor": "Apricot-Strawberry",
+            "description": "Red Bull Apricot Edition presents the perfect combination of apricot and strawberry with a touch of peach.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-apricot-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:611996f5-8813-46c3-9b18-4c193d39d9d0:es-ES",
             "name": "The Lime Green Edition",
             "flavor": "Curuba",
-            "description": "New Red Bull Lime Green Edition with the exotic taste of curuba complemented by notes of soursop flower.",
+            "description": "New Red Bull Lime Green Edition with the exotic taste of curuba complemented by notes of saúco flower.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-lime-green-edition"
         },
         {
@@ -175,7 +182,7 @@
             "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:es-ES",
             "name": "The Coconut Edition",
             "flavor": "Coconut",
-            "description": "Get ready for an extraordinary taste experience. Red Bull Coconut Edition with exotic flavors of coconut and blueberry.",
+            "description": "Get ready for an extraordinary taste experience. Red Bull Coconut Edition with exotic taste of coconut and blueberries.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-coconut-edition"
         },
         {
@@ -184,13 +191,6 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the fresh taste of watermelon.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:es-ES",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "The Red Bull Peach Edition with white peach taste.",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-peach-edition"
         }
     ]
 }

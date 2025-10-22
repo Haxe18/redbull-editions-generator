@@ -119,21 +119,35 @@ Create/edit `data/corrections.json` to override specific fields before AI proces
             "field": "flavor",
             "search": "Peach",
             "replace": "White Peach"
+        },
+        {
+            "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1",
+            "field": "flavor",
+            "search": "Strawberry-Apricot",
+            "replace": "Apricot-Strawberry"
         }
     ]
 }
 ```
 
 **ID Format** (Flexible Matching):
-- **Country-Specific**: `"id": "UUID:de-DE"` → Applies only to Germany
+- **Country-Specific**: `"id": "UUID:de-DE"` → Applies only to Germany (example 1 above)
 - **Global (Multi-Country)**: `"id": "UUID"` → Applies to ALL countries with this UUID
-- Example: The second correction above applies to FI, DE, GB, and any other country with that UUID
+- Examples:
+  - Correction 2 applies to FI, DE, GB, and any other country with that Peach Edition UUID
+  - Correction 3 standardizes Apricot Edition flavor order globally across ~16 countries
 
 **Field Mapping**: The processor automatically maps user-friendly field names to internal fields:
 - `"flavor"` → `"_raw_flavor"` (original flavor text)
 - `"flavor_description"` → `"_standfirst"` (original description text)
 
 This allows you to use intuitive field names in corrections while the processor handles the technical mapping internally.
+
+**Active Corrections** (2025-10-22):
+- **Apricot Edition standardization**: Two global corrections ensure "Apricot-Strawberry" flavor order
+  - Corrects both raw data ("Strawberry and apricot") and translated data ("Strawberry-Apricot")
+  - Applies automatically during daily runs to maintain consistency
+  - See `data/changelogs/changelog_20251022_135339_manual.md` for details
 
 ### GitHub Actions Setup
 

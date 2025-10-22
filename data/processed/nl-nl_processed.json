@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, students, and travelers",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, students and travelers",
             "sugarfree": false,
             "color": "#2F4582",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/bmtglbk2ql2hcjxvjn1t/red-bull-energy-drink",
@@ -24,7 +24,7 @@
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "0% sugar. 100% wings.. Same wings",
+            "flavor_description": "0% sugar. 100% wings. Same wings",
             "sugarfree": true,
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/12/18/icsbq5jswobifza9ovay/red-bull-zero-energy-drink",
@@ -63,7 +63,7 @@
         },
         {
             "name": "The Apricot Edition",
-            "flavor": "Strawberry-Apricot",
+            "flavor": "Apricot-Strawberry",
             "flavor_description": "Discover the Red Bull Apricot Edition with the fruity taste of Apricot Strawberry",
             "sugarfree": false,
             "color": "#f3911b",
@@ -84,7 +84,7 @@
         {
             "name": "The Tropical Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "Let yourself be surprised by the exotic taste of tropical fruits",
+            "flavor_description": "Let yourself be surprised by the exotic taste of Tropical Fruits",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/zoqiy3mzrvz4hhhv1xdf/red-bull-tropical-edition-image",
@@ -93,8 +93,8 @@
         },
         {
             "name": "The Pink Edition Sugarfree",
-            "flavor": "Raspberry",
-            "flavor_description": "The Pink Edition Sugarfree gives you wings with the taste of Raspberry and exciting spicy notes of verbena",
+            "flavor": "Forest Berry",
+            "flavor_description": "The Pink Edition gives you wings with the taste of Raspberry and exciting spicy notes of verbena",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/22/vzlzlnpzudh1odgxf0vj/red-bull-pink-edition-image",
@@ -104,7 +104,7 @@
         {
             "name": "The Lime Green Edition Sugarfree",
             "flavor": "Curuba-Elderflower",
-            "flavor_description": "The Red Bull Green Edition Sugarfree gives you wings with the taste of Curuba and Elderflower",
+            "flavor_description": "The Red Bull Green Edition gives you wings with the taste of Curuba and Elderflower",
             "sugarfree": true,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/22/kpcq3yipcqitbiqbx9wp/red-bull-lime-green-edition-sugarfree",
@@ -119,7 +119,7 @@
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:nl-NL",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, students, and travelers.",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, students and travelers.",
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
@@ -133,7 +133,7 @@
             "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:nl-NL",
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "description": "0% sugar. 100% wings.. Same wings.",
+            "description": "0% sugar. 100% wings. Same wings.",
             "product_url": "https://www.redbull.com/zero"
         },
         {
@@ -160,7 +160,7 @@
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-NL",
             "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
+            "flavor": "Apricot-Strawberry",
             "description": "Discover the Red Bull Apricot Edition with the fruity taste of apricot-strawberry",
             "product_url": "https://www.redbull.com/nl-nl/energydrink/red-bull-apricot-edition"
         },
