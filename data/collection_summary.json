@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-10-22T12:30:42.792208+00:00",
+        "collection_date": "2025-10-23T05:50:33.728655+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -140,7 +140,7 @@
                 "co-es"
             ],
             "flag_code": "CO",
-            "editions_count": 5,
+            "editions_count": 3,
             "data_file": "co-es.json"
         },
         "Croatia": {
@@ -422,7 +422,7 @@
                 "pk-en"
             ],
             "flag_code": "PK",
-            "editions_count": 2,
+            "editions_count": 3,
             "data_file": "pk-en.json"
         },
         "Peru": {
@@ -431,7 +431,7 @@
                 "pe-es"
             ],
             "flag_code": "PE",
-            "editions_count": 4,
+            "editions_count": 5,
             "data_file": "pe-es.json"
         },
         "Philippines": {

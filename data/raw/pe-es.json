@@ -278,7 +278,68 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:es-PE",
+            "header_data": {
+                "content": {
+                    "title": "Red Bull Ambar Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/jup1bjmv0kclxlzl5wn4/red-bull-apricot-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#F07F1E",
+                                    "percentage": 20.7
+                                },
+                                {
+                                    "hexColorCode": "#DADCE0",
+                                    "percentage": 5.5
+                                },
+                                {
+                                    "hexColorCode": "#F4AB72",
+                                    "percentage": 3.2
+                                },
+                                {
+                                    "hexColorCode": "#EDF2F5",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#F49430",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#F6EEE8",
+                                    "percentage": 1.2
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Apricot Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-ambar-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Fresa Durazno",
+                    "standfirst": "El Red Bull Ambar Edition con sabor a albaricoque y fresa con un toque de durazno.",
+                    "brandingHexColorCode": "#f3911b",
+                    "image": {
+                        "altText": "Red Bull Apricot Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/jup1bjmv0kclxlzl5wn4/red-bull-apricot-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-ambar-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2025-10-22T12:24:26.198741+00:00"
+    "collection_timestamp": "2025-10-23T05:44:22.251851+00:00"
 }

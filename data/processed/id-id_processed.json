@@ -9,18 +9,18 @@
             "color": "#2F4582",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
-            "product_url": "https://www.redbull.com/energydrink"
+            "product_url": "https://www.redbull.com/id-id/energydrink/products/red-bull-energy-drink"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ID.svg",
-    "_raw_hash": "283a9cfb8a658f4e38adc4791f135551a58409a95bb72ab1ccf65a47f4824bae",
+    "_raw_hash": "e624c4731571deb9a2b6180ec552012a1a9238c2f0649210aa70eff65ee66b93",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:id-ID",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, students and anyone on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
+            "product_url": "https://www.redbull.com/id-id/energydrink/products/red-bull-energy-drink"
         }
     ]
 }
