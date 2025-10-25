@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-10-23T05:50:33.728655+00:00",
+        "collection_date": "2025-10-25T05:47:27.080237+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -503,7 +503,7 @@
                 "si-sl"
             ],
             "flag_code": "SI",
-            "editions_count": 10,
+            "editions_count": 9,
             "data_file": "si-sl.json"
         },
         "South Africa": {
