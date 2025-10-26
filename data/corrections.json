@@ -25,6 +25,12 @@
             "replace": "Woodruff & Pink Grapefruit"
         },
         {
+            "id": "energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:et-EE",
+            "field": "flavor",
+            "search": "Dragon fruit",
+            "replace": "Cactus Fruit"
+        },
+        {
             "id": "9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB",
             "field": "flavor",
             "search": "Dragon Fruit",
@@ -119,6 +125,18 @@
             "field": "flavor",
             "search": "Peach",
             "replace": "White Peach"
+        },
+        {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:et-EE",
+            "field": "flavor",
+            "search": "White Peach",
+            "replace": "Peach"
+        },
+        {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:no-NO",
+            "field": "flavor",
+            "search": "White Peach",
+            "replace": "Peach"
         },
         {
             "id": "2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd",

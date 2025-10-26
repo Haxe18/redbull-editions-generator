@@ -7,6 +7,7 @@ on:
     paths:
       - '**.py'
       - 'requirements.txt'
+      - 'data/corrections.json'
 
   schedule:
     - cron: '11 5 * * *' # Run every day at 5:11 (or later) UTC

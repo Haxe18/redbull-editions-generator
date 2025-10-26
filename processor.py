@@ -1767,13 +1767,16 @@ class RedBullDataProcessor:
         - If you receive 9 editions, you MUST return exactly 9 editions with their EXACT IDs
         - Failure to preserve edition_id will cause data corruption
 
-        CRITICAL EDITION NAME RULES:
-        - PRESERVE the original edition name from the 'name' field exactly as provided
-        - Do NOT change edition names based on flavor content
-        - Example: 'Pink Edition' MUST stay 'Pink Edition' even if flavor is 'Forest Berry'
-        - Example: 'White Edition' MUST stay 'White Edition' even if flavor is 'Coconut'
-        - Example: 'Blue Edition' MUST stay 'Blue Edition' regardless of flavor
-        - Only add "The" prefix if missing, but keep the core edition name unchanged
+        CRITICAL EDITION NAME RULES - DO NOT MODIFY EDITION NAMES:
+        - PRESERVE the original edition name from the 'name' field EXACTLY as provided
+        - NEVER change "Blue Edition" to "Blueberry Edition" even if flavor is Blueberry
+        - NEVER change "Pink Edition" to another name even if flavor is Forest Berry or Raspberry
+        - NEVER change "White Edition" to another name even if flavor is Coconut
+        - NEVER change "Green Edition" to another name even if flavor is Dragon Fruit
+        - NEVER derive the edition name from the flavor field
+        - DO NOT translate or localize edition color names (Blue stays Blue, not Blueberry)
+        - Only add "The" prefix if missing: "Blue Edition" → "The Blue Edition"
+        - DO NOT change the core edition name: "Blue" must stay "Blue", not "Blueberry"
         - If the original name is in APPROVED EDITIONS list, keep it exactly
 
         CRITICAL TRANSLATION PRIORITY:
