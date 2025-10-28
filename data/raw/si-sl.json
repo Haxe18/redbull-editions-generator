@@ -195,6 +195,75 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:sl-SI",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/27/ukvieomlbcdtfmvxtqmu/the-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DA5B62",
+                                    "percentage": 7.5
+                                },
+                                {
+                                    "hexColorCode": "#DFB154",
+                                    "percentage": 5.1
+                                },
+                                {
+                                    "hexColorCode": "#D6A11C",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#D8E3EA",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#C71F3A",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#DA8355",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D2",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#CD6428",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/si-sl/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Fuji Apple",
+                    "standfirst": "The Red Bull Winter Edition z okusom jabolka Fuji in prijetno toplino ingverja.",
+                    "brandingHexColorCode": "#ae132d",
+                    "image": {
+                        "altText": "Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/27/ukvieomlbcdtfmvxtqmu/the-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/si-sl/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sl-SI",
             "header_data": {
                 "content": {
@@ -569,5 +638,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-25T05:43:55.408017+00:00"
+    "collection_timestamp": "2025-10-28T05:48:18.657745+00:00"
 }

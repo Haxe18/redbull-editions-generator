@@ -406,116 +406,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pl-PL",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/10/upjrqaskkv73b5pxfasm/red-bull-summer-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E25C94",
-                                    "percentage": 16.1
-                                },
-                                {
-                                    "hexColorCode": "#D32670",
-                                    "percentage": 9.3
-                                },
-                                {
-                                    "hexColorCode": "#D9E5EA",
-                                    "percentage": 5.3
-                                },
-                                {
-                                    "hexColorCode": "#C1C8D3",
-                                    "percentage": 2.4
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "White Peach",
-                    "standfirst": "Skrzyyydła na Twoje lato: Red Bull Summer Edition  o smaku białej brzoskwini z nutą skórki cytrusowej i kwiatowymi akcentami.",
-                    "brandingHexColorCode": "#E24585",
-                    "image": {
-                        "altText": "Red Bull Summer Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/10/upjrqaskkv73b5pxfasm/red-bull-summer-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:pl-PL",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/10/x1bvhpqugaqxahuqte6o/red-bull-summer-edition-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E25C94",
-                                    "percentage": 15.3
-                                },
-                                {
-                                    "hexColorCode": "#D32570",
-                                    "percentage": 8.9
-                                },
-                                {
-                                    "hexColorCode": "#D9E5EA",
-                                    "percentage": 4.8
-                                },
-                                {
-                                    "hexColorCode": "#C4CBD5",
-                                    "percentage": 2
-                                },
-                                {
-                                    "hexColorCode": "#4FB1DA",
-                                    "percentage": 1.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "White Peach",
-                    "standfirst": "Skrzyyydła na Twoje lato: Red Bull Summer Edition Sugarfree oferuje smak białej brzoskwini z nutą skórki cytrusowej i kwiatowymi akcentami - bez dodatku cukru.",
-                    "brandingHexColorCode": "#E24585",
-                    "image": {
-                        "altText": "Red Bull Summer Edition Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/10/x1bvhpqugaqxahuqte6o/red-bull-summer-edition-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL",
             "header_data": {
                 "content": {
@@ -768,5 +658,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-10T22:27:32.201162+00:00"
+    "collection_timestamp": "2025-10-28T05:46:33.389129+00:00"
 }

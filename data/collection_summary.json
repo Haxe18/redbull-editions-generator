@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-10-25T05:47:27.080237+00:00",
+        "collection_date": "2025-10-28T05:52:09.626563+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -449,7 +449,7 @@
                 "pl-pl"
             ],
             "flag_code": "PL",
-            "editions_count": 12,
+            "editions_count": 10,
             "data_file": "pl-pl.json"
         },
         "Portugal": {
@@ -503,7 +503,7 @@
                 "si-sl"
             ],
             "flag_code": "SI",
-            "editions_count": 9,
+            "editions_count": 10,
             "data_file": "si-sl.json"
         },
         "South Africa": {

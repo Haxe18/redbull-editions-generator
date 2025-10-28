@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "flavor_description": "Sugarfree Wings: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true,
             "color": "#0596D3",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/vumrbqonijhcrj9o7hz3/red-bull-sugarfree",
@@ -30,6 +30,16 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/12/19/kxghnf4xfvd1a33mtbu2/red-bull-zero-energy-drink",
             "alt_text": "Red Bull Zero Energy Drink",
             "product_url": "https://www.redbull.com/zero"
+        },
+        {
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple-Ginger",
+            "flavor_description": "The Red Bull Winter Edition with Fuji Apple taste and a pleasant warmth of Ginger",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/27/ukvieomlbcdtfmvxtqmu/the-winter-edition",
+            "alt_text": "Winter Edition",
+            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-winter-edition"
         },
         {
             "name": "The Sea Blue Edition",
@@ -93,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SI.svg",
-    "_raw_hash": "4cf844094e7f8da057566006ba4c5aec6ab70ad325b52d36cc7e7e0a92141b85",
+    "_raw_hash": "af672a6e7162f8810c0a6e4361142a0682ccef25acbb2a6ab1b1090c736ec85a",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sl-SI",
@@ -157,6 +167,13 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with a fresh watermelon taste.",
             "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:sl-SI",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple",
+            "description": "The Red Bull Winter Edition with Fuji Apple taste and a pleasant warmth of ginger.",
+            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-winter-edition"
         }
     ]
 }
