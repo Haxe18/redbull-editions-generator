@@ -2628,7 +2628,7 @@
                 "color": "#2F4582",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink-image",
                 "alt_text": "Red Bull Energy Drink - image",
-                "product_url": "https://www.redbull.com/ke-en/energydrink/red-bull-energy-drink"
+                "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-energy-drink"
             },
             {
                 "name": "Energy Drink Sugarfree",
@@ -2638,7 +2638,7 @@
                 "color": "#248FCB",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
                 "alt_text": "Red Bull Sugarfree",
-                "product_url": "https://www.redbull.com/ke-en/energydrink/red-bull-sugarfree"
+                "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-sugarfree"
             },
             {
                 "name": "The Red Edition",
@@ -2648,7 +2648,7 @@
                 "color": "#e03c31",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/30/q9fy1mjaocbdwunpu0gi/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
-                "product_url": "https://www.redbull.com/ke-en/energydrink/red-bull-red-edition"
+                "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-red-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KE.svg"
