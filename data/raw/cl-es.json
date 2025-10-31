@@ -138,59 +138,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:es-CL",
-            "header_data": {
-                "content": {
-                    "title": "Spring Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/13/zucumxrydjnhul6zx53x/red-bull-spring-edition-sugarfree-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#9A7ADD",
-                                    "percentage": 23.5
-                                },
-                                {
-                                    "hexColorCode": "#D9E1E8",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#C0C3D6",
-                                    "percentage": 3.9
-                                },
-                                {
-                                    "hexColorCode": "#E6F1E9",
-                                    "percentage": 0.9
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Spring Edition Sugarfree Image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-spring-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Grapefruit & Blossom",
-                    "standfirst": "Aaalas para tu primavera: La nueva Red Bull Spring Edition Sin Azúcar mezcla el sabor del pomelo con sutíles notas florales. ",
-                    "brandingHexColorCode": "#7d62ce",
-                    "image": {
-                        "altText": "Red Bull Spring Edition Sugarfree Image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/13/zucumxrydjnhul6zx53x/red-bull-spring-edition-sugarfree-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-spring-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:es-CL",
             "header_data": {
                 "content": {
@@ -247,6 +194,63 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-CL",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/30/ovynp5dxwq8t7h1jnui2/red-bull-summer-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 15.6
+                                },
+                                {
+                                    "hexColorCode": "#D32570",
+                                    "percentage": 9
+                                },
+                                {
+                                    "hexColorCode": "#D9E4E9",
+                                    "percentage": 5.3
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D2",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#51ADD7",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-summer-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "White Peach",
+                    "standfirst": "Aaalas para tu verano: Red Bull Summer Edition Sugarfree ofrece el sabor del durazno, con un toque cítrico y notas florales, todo sin azúcar.",
+                    "brandingHexColorCode": "#E24585",
+                    "image": {
+                        "altText": "Red Bull Summer Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/30/ovynp5dxwq8t7h1jnui2/red-bull-summer-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-summer-edition-sugarfree"
                     }
                 }
             }
@@ -581,5 +585,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-22T12:15:10.380475+00:00"
+    "collection_timestamp": "2025-10-31T05:36:22.310305+00:00"
 }

@@ -251,7 +251,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/ie-en/energydrink/red-bull-winter-edition"
+                    "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition-sugarfree"
                 }
             },
             "graphql_data": {
@@ -266,7 +266,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/ie-en/energydrink/red-bull-winter-edition"
+                        "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition-sugarfree"
                     }
                 }
             }
@@ -679,5 +679,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-18T05:34:40.506935+00:00"
+    "collection_timestamp": "2025-10-31T05:41:19.604614+00:00"
 }

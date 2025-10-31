@@ -22,16 +22,6 @@
             "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-sugarfree"
         },
         {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Grapefruit & Blossom",
-            "flavor_description": "Wings for your spring: The new Red Bull Sugarfree Edition mixes the taste of Grapefruit with subtle floral notes",
-            "sugarfree": true,
-            "color": "#7d62ce",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/13/zucumxrydjnhul6zx53x/red-bull-spring-edition-sugarfree-image",
-            "alt_text": "Red Bull Spring Edition Sugarfree Image",
-            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-spring-edition-sugarfree"
-        },
-        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Zero sugar. 100% Wings",
@@ -40,6 +30,16 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/27/d6vlbptci1joyghuwpbb/red-bull-zero-energy-drink",
             "alt_text": "Red Bull Zero Energy Drink",
             "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-zero"
+        },
+        {
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "White Peach",
+            "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree offers the taste of Peach, with a citrus touch and floral notes, all without sugarfree",
+            "sugarfree": true,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/30/ovynp5dxwq8t7h1jnui2/red-bull-summer-edition-sugarfree",
+            "alt_text": "Red Bull Summer Edition Sugarfree",
+            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-summer-edition-sugarfree"
         },
         {
             "name": "The Green Edition",
@@ -93,7 +93,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CL.svg",
-    "_raw_hash": "da13e29978df4301215c3350f12d8b163ce643c76aac5f87e6ae9c5b2853323b",
+    "_raw_hash": "fb419884d2065080fdfab99e0346942d1263fd85708fa8c5de342a24209c573c",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CL",
@@ -108,13 +108,6 @@
             "flavor": "Sugarfree",
             "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
             "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:es-CL",
-            "name": "The Spring Edition",
-            "flavor": "Grapefruit & Blossom",
-            "description": "Wings for your spring: The new Red Bull Spring Edition Without Sugar mixes the taste of grapefruit with subtle floral notes.",
-            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-spring-edition-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:es-CL",
@@ -157,6 +150,13 @@
             "flavor": "Acai Berry",
             "description": "Experience the unique and exotic taste of Acai.",
             "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-purple-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-CL",
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "White Peach",
+            "description": "Wings for your summer: Red Bull Summer Edition Sugarfree offers the taste of peach, with a citrus touch and floral notes, all without sugar.",
+            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-summer-edition-sugarfree"
         }
     ]
 }
