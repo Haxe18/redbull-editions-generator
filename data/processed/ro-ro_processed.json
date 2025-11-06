@@ -32,14 +32,14 @@
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "The new Red Bull Summer Edition with exotic flavors of Curuba fruit and Elderflower",
+            "name": "Iarnă",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Winter with apple and Ginger flavors",
             "sugarfree": false,
-            "color": "#6cc24a",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/6/cedt8nwtaydmrrpqgaa5/red-bull-summer-edition-image",
-            "alt_text": "Red Bull Summer Edition - image",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-estival"
+            "color": "#AE132D",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/5/ebhvnht0ymmyt9ckjqki/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-iarna"
         },
         {
             "name": "The Tropical Edition",
@@ -83,7 +83,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RO.svg",
-    "_raw_hash": "71abe99693061507c088c732f0999d653f7437ce399126aab8b43154aa5184da",
+    "_raw_hash": "70dab5ac7ccb46c3da7bc88ccbfb3224ef20af2ffa484bde8365ea32e48f8e8b",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ro-RO",
@@ -105,13 +105,6 @@
             "flavor": "Zero Sugar",
             "description": "Zero calories, 100% Wings",
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ro-RO",
-            "name": "The Summer Edition",
-            "flavor": "Curuba",
-            "description": "The new Red Bull Summer Edition with exotic flavors of curuba fruit and elderflower.",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-estival"
         },
         {
             "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:ro-RO",
@@ -140,6 +133,13 @@
             "flavor": "Blueberry",
             "description": "Red Bull Blueberry Edition with a refreshing blueberry taste",
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ro-RO",
+            "name": "Iarnă",
+            "flavor": "Apple and Ginger",
+            "description": "Red Bull Winter with apple and ginger flavors.",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-iarna"
         }
     ]
 }
