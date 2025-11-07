@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-06T05:49:19.630641+00:00",
+        "collection_date": "2025-11-07T05:52:10.606979+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -104,7 +104,7 @@
                 "ca-fr"
             ],
             "flag_code": "CA",
-            "editions_count": 9,
+            "editions_count": 8,
             "data_file": "ca-en.json"
         },
         "Caribbean": {
