@@ -1,317 +1,317 @@
 {
-  "locale_info": {
-    "country_name": "Kazakhstan",
-    "domains": [
-      "kz-ru"
+    "locale_info": {
+        "country_name": "Kazakhstan",
+        "domains": [
+            "kz-ru"
+        ],
+        "flag_code": "KZ"
+    },
+    "editions": [
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Энергетический напиток"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qewhbutmr2uzhkklr0xi/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2F4581",
+                                    "percentage": 15.2
+                                },
+                                {
+                                    "hexColorCode": "#D3D6DB",
+                                    "percentage": 7.9
+                                },
+                                {
+                                    "hexColorCode": "#F0F2F4",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#D11E3F",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#627CB9",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#ECCC77",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#848A96",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/energydrink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Энергетический напиток Red Bull знают и ценят во всем мире. Он помогает ведущим спортсменам, студентам, представителям экстремальных профессий, а также во время длительных автомобильных поездок.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qewhbutmr2uzhkklr0xi/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/energydrink"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/auawecgf2rxtjgrqrwlj/red-bull-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0596D3",
+                                    "percentage": 14.2
+                                },
+                                {
+                                    "hexColorCode": "#D8DCDF",
+                                    "percentage": 8.2
+                                },
+                                {
+                                    "hexColorCode": "#E3E5E8",
+                                    "percentage": 3.3
+                                },
+                                {
+                                    "hexColorCode": "#56BDE5",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#D42148",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#046498",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#EDD07C",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "\"Крылья без сахара: Red Bull Sugarfree - это тот  же энергетический напиток Red Bull, но без сахара.\"",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/auawecgf2rxtjgrqrwlj/red-bull-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/7/nisikbiah6dgmewozhyo/red-bull-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#72C6D1",
+                                    "percentage": 24.6
+                                },
+                                {
+                                    "hexColorCode": "#CFDAE1",
+                                    "percentage": 6.2
+                                },
+                                {
+                                    "hexColorCode": "#CACFD7",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#F8F0F1",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": " Iced Vanilla Berry",
+                    "standfirst": "Red Bull Winter Edition со вкусом ледяной ванили с ягодами. ",
+                    "brandingHexColorCode": "#53b2c2",
+                    "image": {
+                        "altText": "Red Bull Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/7/nisikbiah6dgmewozhyo/red-bull-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Yellow Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/hyhq8iuvqsamozeprhoe/red-bull-yellow-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#F2C003",
+                                    "percentage": 20.3
+                                },
+                                {
+                                    "hexColorCode": "#F7D10D",
+                                    "percentage": 4.6
+                                },
+                                {
+                                    "hexColorCode": "#D9E2E9",
+                                    "percentage": 3.7
+                                },
+                                {
+                                    "hexColorCode": "#B9C3D1",
+                                    "percentage": 2.1
+                                },
+                                {
+                                    "hexColorCode": "#EAD066",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#757C82",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#7A8393",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Yellow Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-yellow-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Tropical/Tropical Fruits ",
+                    "standfirst": "Red Bull Yellow Edition. Восхититесь экзотическим вкусом тропических фруктов.",
+                    "brandingHexColorCode": "#FFCD00",
+                    "image": {
+                        "altText": "Red Bull Yellow Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/hyhq8iuvqsamozeprhoe/red-bull-yellow-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-yellow-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Red Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#D72716",
+                                    "percentage": 18.5
+                                },
+                                {
+                                    "hexColorCode": "#E7574E",
+                                    "percentage": 6.7
+                                },
+                                {
+                                    "hexColorCode": "#D6E0E7",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#04953F",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Red Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Watermelon",
+                    "standfirst": "Red Bull Red Edition со вкусом арбуза.",
+                    "brandingHexColorCode": "#e03c31",
+                    "image": {
+                        "altText": "Red Bull Red Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
+                    }
+                }
+            }
+        }
     ],
-    "flag_code": "KZ"
-  },
-  "editions": [
-    {
-      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ru-KZ",
-      "header_data": {
-        "content": {
-          "title": "Энергетический напиток"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qewhbutmr2uzhkklr0xi/red-bull-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#2F4581",
-                  "percentage": 15.2
-                },
-                {
-                  "hexColorCode": "#D3D6DB",
-                  "percentage": 7.9
-                },
-                {
-                  "hexColorCode": "#F0F2F4",
-                  "percentage": 4
-                },
-                {
-                  "hexColorCode": "#D11E3F",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#627CB9",
-                  "percentage": 2.8
-                },
-                {
-                  "hexColorCode": "#ECCC77",
-                  "percentage": 0.6
-                },
-                {
-                  "hexColorCode": "#848A96",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/energydrink"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Energy Drink",
-          "standfirst": "Энергетический напиток Red Bull знают и ценят во всем мире. Он помогает ведущим спортсменам, студентам, представителям экстремальных профессий, а также во время длительных автомобильных поездок.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qewhbutmr2uzhkklr0xi/red-bull-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/energydrink"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ru-KZ",
-      "header_data": {
-        "content": {
-          "title": "Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/auawecgf2rxtjgrqrwlj/red-bull-sugarfree",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#0596D3",
-                  "percentage": 14.2
-                },
-                {
-                  "hexColorCode": "#D8DCDF",
-                  "percentage": 8.2
-                },
-                {
-                  "hexColorCode": "#E3E5E8",
-                  "percentage": 3.3
-                },
-                {
-                  "hexColorCode": "#56BDE5",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#D42148",
-                  "percentage": 2.9
-                },
-                {
-                  "hexColorCode": "#046498",
-                  "percentage": 1.9
-                },
-                {
-                  "hexColorCode": "#EDD07C",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Sugarfree"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Sugarfree",
-          "standfirst": "\"Крылья без сахара: Red Bull Sugarfree - это тот  же энергетический напиток Red Bull, но без сахара.\"",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Sugarfree",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/auawecgf2rxtjgrqrwlj/red-bull-sugarfree"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-sugarfree"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:ru-KZ",
-      "header_data": {
-        "content": {
-          "title": "Summer Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/17/wjfjdrltdgdqfg0qwfnk/red-bull-summer-edition",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#E25C94",
-                  "percentage": 16.2
-                },
-                {
-                  "hexColorCode": "#D32670",
-                  "percentage": 9.3
-                },
-                {
-                  "hexColorCode": "#D9E4EA",
-                  "percentage": 5.2
-                },
-                {
-                  "hexColorCode": "#C1C8D3",
-                  "percentage": 2.4
-                }
-              ]
-            },
-            "altText": "Red Bull Summer Edition"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-summer-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "White Peach",
-          "standfirst": "Летняя версия Red Bull Summer Edition предлагает вкус белого персика с лёгкими цитрусовыми нотками и оттенками цветочного аромата.",
-          "brandingHexColorCode": "#E24585",
-          "image": {
-            "altText": "Red Bull Summer Edition",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/17/wjfjdrltdgdqfg0qwfnk/red-bull-summer-edition"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-summer-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:ru-KZ",
-      "header_data": {
-        "content": {
-          "title": "Yellow Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/hyhq8iuvqsamozeprhoe/red-bull-yellow-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#F2C003",
-                  "percentage": 20.3
-                },
-                {
-                  "hexColorCode": "#F7D10D",
-                  "percentage": 4.6
-                },
-                {
-                  "hexColorCode": "#D9E2E9",
-                  "percentage": 3.7
-                },
-                {
-                  "hexColorCode": "#B9C3D1",
-                  "percentage": 2.1
-                },
-                {
-                  "hexColorCode": "#EAD066",
-                  "percentage": 0.8
-                },
-                {
-                  "hexColorCode": "#757C82",
-                  "percentage": 0.8
-                },
-                {
-                  "hexColorCode": "#7A8393",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Yellow Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-yellow-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Tropical/Tropical Fruits ",
-          "standfirst": "Red Bull Yellow Edition. Восхититесь экзотическим вкусом тропических фруктов.",
-          "brandingHexColorCode": "#FFCD00",
-          "image": {
-            "altText": "Red Bull Yellow Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/hyhq8iuvqsamozeprhoe/red-bull-yellow-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-yellow-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ru-KZ",
-      "header_data": {
-        "content": {
-          "title": "Red Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#D72716",
-                  "percentage": 18.5
-                },
-                {
-                  "hexColorCode": "#E7574E",
-                  "percentage": 6.7
-                },
-                {
-                  "hexColorCode": "#D6E0E7",
-                  "percentage": 4
-                },
-                {
-                  "hexColorCode": "#BFC7D1",
-                  "percentage": 2.5
-                },
-                {
-                  "hexColorCode": "#04953F",
-                  "percentage": 1.1
-                }
-              ]
-            },
-            "altText": "Red Bull Red Edition"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Watermelon",
-          "standfirst": "Red Bull Red Edition со вкусом арбуза.",
-          "brandingHexColorCode": "#e03c31",
-          "image": {
-            "altText": "Red Bull Red Edition",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
-          }
-        }
-      }
-    }
-  ],
-  "collection_timestamp": "2025-10-02T19:03:12.257388"
+    "collection_timestamp": "2025-11-08T05:39:26.071046+00:00"
 }

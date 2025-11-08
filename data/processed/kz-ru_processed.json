@@ -22,14 +22,14 @@
             "product_url": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-sugarfree"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "The summer version Red Bull Summer Edition offers the taste of White Peach with light citrus notes and floral undertones",
+            "name": "The Winter Edition",
+            "flavor": "Iced Vanilla Berry",
+            "flavor_description": "Red Bull Winter Edition with the taste of iced Vanilla with berries",
             "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/17/wjfjdrltdgdqfg0qwfnk/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-summer-edition"
+            "color": "#53b2c2",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/7/nisikbiah6dgmewozhyo/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
         },
         {
             "name": "The Yellow Edition",
@@ -53,7 +53,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KZ.svg",
-    "_raw_hash": "f4b07871f172916a202888641ad99b6c60e7f26070da78ef116fd20716ba9807",
+    "_raw_hash": "d85f2a8f8a9ce15718f735445b09cfeae87256855594961518ffee307cb6f668",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ru-KZ",
@@ -70,13 +70,6 @@
             "product_url": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:ru-KZ",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "The summer version Red Bull Summer Edition offers the taste of white peach with light citrus notes and floral undertones.",
-            "product_url": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:ru-KZ",
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
@@ -89,6 +82,13 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the taste of watermelon.",
             "product_url": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ru-KZ",
+            "name": "The Winter Edition",
+            "flavor": "Iced Vanilla Berry",
+            "description": "Red Bull Winter Edition with the taste of iced vanilla with berries.",
+            "product_url": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
         }
     ]
 }
