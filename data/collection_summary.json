@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-08T05:48:01.662361+00:00",
+        "collection_date": "2025-11-11T05:51:12.458193+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -431,7 +431,7 @@
                 "pe-es"
             ],
             "flag_code": "PE",
-            "editions_count": 5,
+            "editions_count": 4,
             "data_file": "pe-es.json"
         },
         "Philippines": {

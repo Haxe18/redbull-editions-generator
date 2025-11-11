@@ -32,14 +32,14 @@
             "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Wings for your summer!! Here is the Red Bull Summer Edition energy drink, with White Peach taste, a twist of citrus peel and a floral finish",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "A Red Bull Winter Edition - with the freshness of Fuji Apple and the warm spiciness of Ginger",
             "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/23/ruh3jpjkw38fda6drgnn/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/10/nu9xnkhsnv9xh5vm7tdg/the-winter-edition",
+            "alt_text": "Winter Edition",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
         },
         {
             "name": "The Blue Edition",
@@ -73,7 +73,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HU.svg",
-    "_raw_hash": "aaf0fad42a2cba1c03223d2a3ae9e5903646172f59d5a022f28e1819ddea2502",
+    "_raw_hash": "547ecc737353571dfffe50269f27f17843fd26b6d800c01ae1ed19055316d675",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU",
@@ -97,13 +97,6 @@
             "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hu-HU",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "Wings for your summer!! Here is the Red Bull Summer Edition energy drink, with white peach taste, a twist of citrus peel and a floral finish.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU",
             "name": "The Blue Edition",
             "flavor": "Juneberry",
@@ -123,6 +116,13 @@
             "flavor": "Coconut",
             "description": "The Red Bull White Edition in the taste of exotic coconut and juicy blueberry.",
             "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-white-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple",
+            "description": "A Red Bull Winter Edition - with the freshness of Fuji apple and the warm spiciness of ginger.",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
         }
     ]
 }

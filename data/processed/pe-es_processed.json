@@ -40,20 +40,10 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/detyrfbxwejxdeaifijv/red-bull-green-edition-image",
             "alt_text": "Red Bull Green Edition - image",
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "flavor_description": "Red Bull Ambar Edition with the taste of Apricot and Strawberry with a hint of Peach",
-            "sugarfree": false,
-            "color": "#f3911b",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/jup1bjmv0kclxlzl5wn4/red-bull-apricot-edition-image",
-            "alt_text": "Red Bull Apricot Edition - image",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-ambar-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PE.svg",
-    "_raw_hash": "19536ffa9782b308e511c89bc89b064bba9a7622ded73ec8f45bd2e5553c0821",
+    "_raw_hash": "a3ae80fc7a2ee89e24c7e78baf400772a270c080d8d461024275193f3f952d69",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE",
@@ -82,13 +72,6 @@
             "flavor": "Dragon fruit",
             "description": "Red Bull Green Edition with dragon fruit flavor",
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:es-PE",
-            "name": "The Apricot Edition",
-            "flavor": "Apricot Strawberry Peach",
-            "description": "Red Bull Ambar Edition with the taste of apricot and strawberry with a hint of peach.",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-ambar-edition"
         }
     ]
 }

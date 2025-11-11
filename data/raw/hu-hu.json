@@ -199,54 +199,70 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hu-HU",
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU",
             "header_data": {
                 "content": {
-                    "title": "Summer Edition"
+                    "title": "Winter Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/23/ruh3jpjkw38fda6drgnn/red-bull-summer-edition",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/10/nu9xnkhsnv9xh5vm7tdg/the-winter-edition",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#E25C94",
-                                    "percentage": 16.2
+                                    "hexColorCode": "#DA5B62",
+                                    "percentage": 7.5
                                 },
                                 {
-                                    "hexColorCode": "#D32670",
-                                    "percentage": 9.3
+                                    "hexColorCode": "#DFB154",
+                                    "percentage": 5.1
                                 },
                                 {
-                                    "hexColorCode": "#D9E5EA",
-                                    "percentage": 5.2
+                                    "hexColorCode": "#D6A11C",
+                                    "percentage": 4.8
                                 },
                                 {
-                                    "hexColorCode": "#C1C8D3",
+                                    "hexColorCode": "#D8E3EA",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#C71F3A",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#DA8356",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D2",
                                     "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#CD6428",
+                                    "percentage": 0.7
                                 }
                             ]
                         },
-                        "altText": "Red Bull Summer Edition"
+                        "altText": "Winter Edition"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "White Peach",
-                    "standfirst": "Szááárnyakat a nyaradhoz!! Itt a Red Bull Summer Edition energiaital, fehér barack ízzel, egy kis citrushéj csavarral és virágos lecsengéssel.",
-                    "brandingHexColorCode": "#E24585",
+                    "flavour": "Fuji Apple",
+                    "standfirst": "A Red Bull Winter Edition – a fuji alma frissességével és a gyömbér meleg fűszerességével.",
+                    "brandingHexColorCode": "#ae132d",
                     "image": {
-                        "altText": "Red Bull Summer Edition",
+                        "altText": "Winter Edition",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/23/ruh3jpjkw38fda6drgnn/red-bull-summer-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/10/nu9xnkhsnv9xh5vm7tdg/the-winter-edition"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
                     }
                 }
             }
@@ -435,5 +451,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-11-04T05:39:48.795339+00:00"
+    "collection_timestamp": "2025-11-11T05:40:07.547139+00:00"
 }

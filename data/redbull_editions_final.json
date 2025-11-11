@@ -2103,14 +2103,14 @@
                 "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
             },
             {
-                "name": "The Summer Edition",
-                "flavor": "White Peach",
-                "flavor_description": "Wings for your summer!! Here is the Red Bull Summer Edition energy drink, with White Peach taste, a twist of citrus peel and a floral finish",
+                "name": "The Winter Edition",
+                "flavor": "Fuji Apple & Ginger",
+                "flavor_description": "A The Red Bull Winter Edition - with the freshness of Fuji Apple and the warm spiciness of Ginger",
                 "sugarfree": false,
-                "color": "#E24585",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/23/ruh3jpjkw38fda6drgnn/red-bull-summer-edition",
-                "alt_text": "Red Bull Summer Edition",
-                "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-summer-edition"
+                "color": "#ae132d",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/10/nu9xnkhsnv9xh5vm7tdg/the-winter-edition",
+                "alt_text": "Winter Edition",
+                "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
             },
             {
                 "name": "The Blue Edition",
@@ -3477,16 +3477,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/detyrfbxwejxdeaifijv/red-bull-green-edition-image",
                 "alt_text": "Red Bull Green Edition - image",
                 "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
-            },
-            {
-                "name": "The Apricot Edition",
-                "flavor": "Apricot-Strawberry",
-                "flavor_description": "The Red Bull Ambar Edition with the taste of Apricot and Strawberry with a hint of Peach",
-                "sugarfree": false,
-                "color": "#f3911b",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/jup1bjmv0kclxlzl5wn4/red-bull-apricot-edition-image",
-                "alt_text": "Red Bull Apricot Edition - image",
-                "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-ambar-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PE.svg"
