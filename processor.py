@@ -1496,8 +1496,6 @@ class RedBullDataProcessor:
         special_instruction = ""
         if country_name == "Brazil":
             special_instruction = "- SPECIAL RULE FOR BRAZIL: Do NOT translate the 'name' field - keep it in Portuguese.\n"
-        elif country_name == "Romania":
-            special_instruction = "- SPECIAL RULE FOR ROMANIA: Do NOT translate the 'name' field - keep it as it is.\n"
 
         # Convert approved editions list to string for prompt
         approved_editions_str = json.dumps(self.APPROVED_EDITIONS, indent=4)
