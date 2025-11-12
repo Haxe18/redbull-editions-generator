@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
         },
         {
+            "name": "The Summer Edition",
+            "flavor": "Cherry & Wild Berries",
+            "flavor_description": "Red Bull Summer Edition with extraordinary taste of Blackberry and Cherry",
+            "sugarfree": false,
+            "color": "#0085c8",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/12/ehjc6mczasffg8luzkn2/red-bull-the-summer-edition-juneberry-image",
+            "alt_text": "Red Bull The Summer Edition Juneberry - Image",
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-summer-edition"
+        },
+        {
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "Red Bull Red Edition with the fresh taste of Watermelon",
@@ -43,7 +53,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PE.svg",
-    "_raw_hash": "a3ae80fc7a2ee89e24c7e78baf400772a270c080d8d461024275193f3f952d69",
+    "_raw_hash": "7fb95722d12e698fea84e5c0d80b85662fb991d0b3d8c133a3067ede6a4736b2",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE",
@@ -72,6 +82,13 @@
             "flavor": "Dragon fruit",
             "description": "Red Bull Green Edition with dragon fruit flavor",
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:es-PE",
+            "name": "The Summer Edition",
+            "flavor": "Cherry & Forest Berry",
+            "description": "Red Bull Summer Edition with extraordinary taste of Blackberry and Cherry.",
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-summer-edition"
         }
     ]
 }
