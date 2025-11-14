@@ -1035,32 +1035,40 @@
             "id": "rrn:content:energy-drinks:b72f0639-7324-4c1b-9b22-9058ff040feb:de-DE",
             "header_data": {
                 "content": {
-                    "title": "Pink Edition "
+                    "title": "Pink Edition Sugarfree"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/ujesltmlpz2xlmwpjw5s/red-bull-pink-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/13/fn4gjwpqrp8nhxckpcbq/red-bull-pink-edition-image",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.9
+                                    "percentage": 22.7
                                 },
                                 {
-                                    "hexColorCode": "#D8E2E8",
-                                    "percentage": 5.2
+                                    "hexColorCode": "#D8E3E8",
+                                    "percentage": 4.6
                                 },
                                 {
-                                    "hexColorCode": "#C0C8D2",
-                                    "percentage": 2.4
+                                    "hexColorCode": "#C4CBD5",
+                                    "percentage": 2
                                 },
                                 {
-                                    "hexColorCode": "#E47CAF",
+                                    "hexColorCode": "#E47DAF",
                                     "percentage": 1.4
                                 },
                                 {
-                                    "hexColorCode": "#E4B9D2",
-                                    "percentage": 0.9
+                                    "hexColorCode": "#53B2DA",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#E6BDD6",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#279CD1",
+                                    "percentage": 0.5
                                 }
                             ]
                         },
@@ -1074,12 +1082,12 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Waldbeere",
-                    "standfirst": "Die Red Bull Spring Edition mit dem fruchtigen Geschmack von Waldbeeren. Bereit für den Frühling? Red Bull verleiht Flüüügel – auch ohne Zucker.",
+                    "standfirst": "Die Red Bull Spring Edition Sugarfree mit dem fruchtigen Geschmack von Waldbeeren. Bereit für den Frühling? Red Bull verleiht Flüüügel – auch ohne Zucker.",
                     "brandingHexColorCode": "#EC86D0",
                     "image": {
                         "altText": "Red Bull Pink Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/ujesltmlpz2xlmwpjw5s/red-bull-pink-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/13/fn4gjwpqrp8nhxckpcbq/red-bull-pink-edition-image"
                         }
                     },
                     "reference": {
@@ -1089,5 +1097,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-10T22:24:05.761987+00:00"
+    "collection_timestamp": "2025-11-14T05:38:40.943662+00:00"
 }
