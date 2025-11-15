@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-14T05:49:38.255379+00:00",
+        "collection_date": "2025-11-15T05:51:15.325719+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -205,7 +205,7 @@
                 "fr-fr"
             ],
             "flag_code": "FR",
-            "editions_count": 10,
+            "editions_count": 9,
             "data_file": "fr-fr.json"
         },
         "Germany": {
