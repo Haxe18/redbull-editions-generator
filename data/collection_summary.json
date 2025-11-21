@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-20T05:50:05.873877+00:00",
+        "collection_date": "2025-11-21T05:50:35.960944+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -534,13 +534,14 @@
             "data_file": "se-en.json"
         },
         "Switzerland": {
-            "domain": "ch-fr",
+            "domain": "ch-de",
             "all_domains": [
+                "ch-de",
                 "ch-fr"
             ],
             "flag_code": "CH",
             "editions_count": 11,
-            "data_file": "ch-fr.json"
+            "data_file": "ch-de.json"
         },
         "Taiwan": {
             "domain": "tw-zh",

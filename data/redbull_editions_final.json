@@ -2888,7 +2888,7 @@
                 "color": "#2F4580",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/9/cvs1opbyodfeaj9xsbbe/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
-                "product_url": "https://www.redbull.com/energydrink"
+                "product_url": "https://www.redbull.com/mx-es/energydrink/products/red-bull-energy-drink"
             },
             {
                 "name": "Energy Drink Sugarfree",
@@ -2898,7 +2898,7 @@
                 "color": "#0595D2",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/9/thvcombc617v3ebuab95/red-bull-sugarfree",
                 "alt_text": "Red Bull Sugarfree",
-                "product_url": "https://www.redbull.com/sugarfree"
+                "product_url": "https://www.redbull.com/mx-es/energydrink/products/red-bull-sugarfree"
             },
             {
                 "name": "The Tropical Edition",
@@ -2908,7 +2908,7 @@
                 "color": "#FFCD00",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/21/g6xgo4bauy1i35idaxlm/red-bull-tropical-edition-image",
                 "alt_text": "Red Bull Tropical Edition - image",
-                "product_url": "https://www.redbull.com/mx-es/energydrink/red-bull-tropical-edition"
+                "product_url": "https://www.redbull.com/mx-es/energydrink/products/red-bull-tropical-edition"
             },
             {
                 "name": "The Sandia Edition",
@@ -2918,7 +2918,7 @@
                 "color": "#e03c31",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/9/b5lxti8wjmb4lb03hrvm/red-bull-sandia-edition-image",
                 "alt_text": "Red Bull Sandia Edition - image",
-                "product_url": "https://www.redbull.com/mx-es/energydrink/red-bull-sandia-edition"
+                "product_url": "https://www.redbull.com/mx-es/energydrink/products/red-bull-sandia-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-MX.svg"
