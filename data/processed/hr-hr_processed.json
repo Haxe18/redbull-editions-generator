@@ -42,6 +42,16 @@
             "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-winter-edition"
         },
         {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition with the taste of White Peach, a hint of citrus peel and floral notes",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/21/tunodwims8rkph22h8hm/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-peach-edition"
+        },
+        {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
             "flavor_description": "Red Bull Sea Blue Edition with the taste of merale fruit",
@@ -83,7 +93,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HR.svg",
-    "_raw_hash": "15d8f8d6dec9e8e27c650dad869b61ba9c5467090a447edd3246e74132b8d6a2",
+    "_raw_hash": "5b2861877dd124d836766912bd260882d3071925b53688f29f252de03cf86cdb",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hr-HR",
@@ -140,6 +150,13 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the refreshing taste of watermelon.",
             "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:hr-HR",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition with the taste of white peach, a hint of citrus peel and floral notes.",
+            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-peach-edition"
         }
     ]
 }

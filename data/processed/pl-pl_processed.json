@@ -42,9 +42,19 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition"
         },
         {
+            "name": "The Festive Edition",
+            "flavor": "Pomegranate",
+            "flavor_description": "Red Bull Festive Edition offers the taste of pomegranate",
+            "sugarfree": false,
+            "color": "#AA0541",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/21/uetfhw1phrcozhtalsll/red-bull-festive-edition",
+            "alt_text": "Red Bull Festive Edition",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
+        },
+        {
             "name": "The Winter Edition Sugarfree",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Red Bull Winter Edition with the taste of Fuji Apple and warming Ginger spiciness",
+            "flavor": "Fuji Apple-Ginger",
+            "flavor_description": "Red Bull Winter Edition Sugarfree with the taste of Fuji Apple and warming Ginger spiciness",
             "sugarfree": true,
             "color": "#ae132d",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/oubwat0q9f4qfvmvkwwz/winter-edition-half-can",
@@ -53,7 +63,7 @@
         },
         {
             "name": "The Pink Edition Sugarfree",
-            "flavor": "Forest Berry",
+            "flavor": "Forest Fruits",
             "flavor_description": "Red Bull Pink Edition is a sugarfree energy drink with the taste of Raspberry and other Forest Fruits, complemented by exciting herbal notes of verbena",
             "sugarfree": true,
             "color": "#c72466",
@@ -103,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "7b8a2eac2cb9789e767e428d26e76095e09c02d8a65fd601d4a5d5b2bdd79055",
+    "_raw_hash": "6852f53c9c240eda437f511b932dff5ea8bbc0990e3db67dc2bfebcb41ea7740",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL",
@@ -174,6 +184,13 @@
             "flavor": "Acai Berry",
             "description": "Red Bull Purple Edition, sugarfree, with the unique taste of exotic Acai Berry.",
             "product_url": "https://www.redbull.com/pl-pl/energydrink/red-bull-purple-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:584d32fd-608b-4f15-9ab0-8e84cb024293:pl-PL",
+            "name": "The Festive Edition",
+            "flavor": "Pomegranate",
+            "description": "Red Bull Festive Edition offers the taste of pomegranate.",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
         }
     ]
 }

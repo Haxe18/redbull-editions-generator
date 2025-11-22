@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-21T05:50:35.960944+00:00",
+        "collection_date": "2025-11-22T05:49:12.368716+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -149,7 +149,7 @@
                 "hr-hr"
             ],
             "flag_code": "HR",
-            "editions_count": 8,
+            "editions_count": 9,
             "data_file": "hr-hr.json"
         },
         "Czech Republic": {
@@ -449,7 +449,7 @@
                 "pl-pl"
             ],
             "flag_code": "PL",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "pl-pl.json"
         },
         "Portugal": {
