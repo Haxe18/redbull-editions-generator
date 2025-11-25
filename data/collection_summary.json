@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-22T05:49:12.368716+00:00",
+        "collection_date": "2025-11-25T05:52:22.446031+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -413,7 +413,7 @@
                 "no-no"
             ],
             "flag_code": "NO",
-            "editions_count": 12,
+            "editions_count": 10,
             "data_file": "no-no.json"
         },
         "Pakistan": {
@@ -476,7 +476,7 @@
                 "rs-sr"
             ],
             "flag_code": "RS",
-            "editions_count": 5,
+            "editions_count": 3,
             "data_file": "rs-sr.json"
         },
         "Singapore": {

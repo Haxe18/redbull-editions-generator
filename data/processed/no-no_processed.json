@@ -44,22 +44,12 @@
         {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Raspberry",
-            "flavor_description": "Energy drink with Raspberry taste",
+            "flavor_description": "Sugarfree energy drink with Raspberry taste",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/27/kzbmtdy9ge7nh6zmad2n/red-bull-pink-edition-image",
             "alt_text": "Red Bull Pink Edition Image",
             "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-pink-edition-sugarfree"
-        },
-        {
-            "name": "The Spring Edition",
-            "flavor": "Woodruff & Pink Grapefruit",
-            "flavor_description": "Energy drink with a lovely taste of Pink Grapefruit, topped with subtle floral notes",
-            "sugarfree": false,
-            "color": "#7d62ce",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/27/popdmxxc7jq5dfdvsi4j/spring-edition-2025-woodruff",
-            "alt_text": "Spring Edition 2025 Woodruff",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-spring-edition"
         },
         {
             "name": "The Yellow Edition",
@@ -93,23 +83,13 @@
         },
         {
             "name": "The Purple Edition",
-            "flavor": "Forest Berry",
+            "flavor": "Acai",
             "flavor_description": "Experience the Norwegian taste of forest berries with the new Red Bull Purple Edition",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/1/12/xhvl4gthuplayhrfifud/red-bull-the-purple-edition",
             "alt_text": "Red Bull The Purple Edition",
             "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-purple-edition"
-        },
-        {
-            "name": "The Sea Blue Edition",
-            "flavor": "Juneberry",
-            "flavor_description": "Red Bull Sea Blue Edition with the alluring taste of Juneberry",
-            "sugarfree": false,
-            "color": "#0072CE",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/mzhdyodb9xm6po1jq693/red-bull-sea-blue-edition-image",
-            "alt_text": "Red Bull Sea Blue Edition - image",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-sea-blue-edition"
         },
         {
             "name": "The Apricot Edition Sugarfree",
@@ -123,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NO.svg",
-    "_raw_hash": "81d2efe00649d888e29a2e27a304ecafe5dd13f3338ec63d7615d1ec8cea60fe",
+    "_raw_hash": "6b58e2ed2172931267a153fc17bfad926bbff52ea191778b2e01403579870978",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:no-NO",
@@ -161,13 +141,6 @@
             "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-pink-edition-sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:no-NO",
-            "name": "The Spring Edition",
-            "flavor": "Musk and Grapefruit",
-            "description": "Energy drink with a lovely taste of pink grapefruit, topped with subtle floral notes.",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-spring-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:no-NO",
             "name": "The Yellow Edition",
             "flavor": "Tropical/Tropical Fruits",
@@ -194,13 +167,6 @@
             "flavor": "Acai Berry",
             "description": "Experience the Norwegian taste of forest berries with the new Red Bull Purple Edition.",
             "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-purple-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:no-NO",
-            "name": "The Sea Blue Edition",
-            "flavor": "Juneberry",
-            "description": "Red Bull Sea Blue Edition with the alluring taste of juneberry.",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-sea-blue-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:5f608c0a-9aa5-453e-bad5-5d5a02a8d723:no-NO",
