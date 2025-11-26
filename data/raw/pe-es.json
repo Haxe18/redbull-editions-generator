@@ -138,75 +138,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:es-PE",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/12/ehjc6mczasffg8luzkn2/red-bull-the-summer-edition-juneberry-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#1E7DBD",
-                                    "percentage": 18.1
-                                },
-                                {
-                                    "hexColorCode": "#D7E0E7",
-                                    "percentage": 4.5
-                                },
-                                {
-                                    "hexColorCode": "#175AA4",
-                                    "percentage": 2.7
-                                },
-                                {
-                                    "hexColorCode": "#BFC7D1",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#1561A5",
-                                    "percentage": 2
-                                },
-                                {
-                                    "hexColorCode": "#F6F3F1",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#5FA4CF",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#0C0C0C",
-                                    "percentage": 0.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull The Summer Edition Juneberry - Image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-summer-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Juneberry",
-                    "standfirst": "Red Bull Summer Edition con extradordinario sabor a Mora y Cereza.",
-                    "brandingHexColorCode": "#0085c8",
-                    "image": {
-                        "altText": "Red Bull The Summer Edition Juneberry - Image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/12/ehjc6mczasffg8luzkn2/red-bull-the-summer-edition-juneberry-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-summer-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE",
             "header_data": {
                 "content": {
@@ -349,5 +280,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-11-12T21:15:31.250294+00:00"
+    "collection_timestamp": "2025-11-26T05:46:00.985327+00:00"
 }
