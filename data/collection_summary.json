@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-26T05:52:17.571986+00:00",
+        "collection_date": "2025-11-27T05:53:10.848666+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -476,7 +476,7 @@
                 "rs-sr"
             ],
             "flag_code": "RS",
-            "editions_count": 3,
+            "editions_count": 5,
             "data_file": "rs-sr.json"
         },
         "Singapore": {

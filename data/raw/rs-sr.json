@@ -193,7 +193,121 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:sr-RS",
+            "header_data": {
+                "content": {
+                    "title": "Green Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/15/cf53dtjomkwz7wrhrxqf/red-bull-green-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#85BB44",
+                                    "percentage": 11.2
+                                },
+                                {
+                                    "hexColorCode": "#73B440",
+                                    "percentage": 10.1
+                                },
+                                {
+                                    "hexColorCode": "#D9E0E7",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#CDD2DE",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#5BA82F",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#72B223",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Green Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-green-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Curuba",
+                    "standfirst": "Red Bull Green Edition sa egzotičnim ukusom Kurube i notama Zove.",
+                    "brandingHexColorCode": "#79b942",
+                    "image": {
+                        "altText": "Red Bull Green Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/15/cf53dtjomkwz7wrhrxqf/red-bull-green-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-green-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sr-RS",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/12/o2tfvda4navihjogs7yk/red-bull-summer-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 16.3
+                                },
+                                {
+                                    "hexColorCode": "#D32670",
+                                    "percentage": 9.3
+                                },
+                                {
+                                    "hexColorCode": "#D9E4E9",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#C1C8D3",
+                                    "percentage": 2.4
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Breskva",
+                    "standfirst": "Kriiila za tvoje leto: Red Bull Summer Edition Energy Drink sa ukusom breskve, blagim tonovima citrusne kore i cvetnim notama.",
+                    "brandingHexColorCode": "#E24585",
+                    "image": {
+                        "altText": "Red Bull Summer Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/12/o2tfvda4navihjogs7yk/red-bull-summer-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2025-11-25T05:47:39.388310+00:00"
+    "collection_timestamp": "2025-11-27T05:48:19.758616+00:00"
 }
