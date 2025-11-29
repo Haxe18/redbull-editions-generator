@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "The warmth of Ginger combined with the freshness of Fuji Apple",
+            "sugarfree": false,
+            "color": "#AE132D",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/27/qdm3kv8lyckzqgyhjvt3/red-bull-apple-edition-image",
+            "alt_text": "Red Bull Apple Edition - Image",
+            "product_url": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
+        },
+        {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Raspberry",
             "flavor_description": "Pink Edition Sugarfree offers Raspberry taste",
@@ -34,7 +44,7 @@
         {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Peach Edition with Peach taste",
+            "flavor_description": "Red Bull with Peach taste",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/14/rtjsijgtshdlt5c7b1v9/red-bull-peach-edition-image",
@@ -63,8 +73,8 @@
         },
         {
             "name": "The White Edition",
-            "flavor": "Coconut-Acai",
-            "flavor_description": "Prepare for an extraordinary taste experience. Red Bull White Edition Coconut and Acai taste",
+            "flavor": "Coconut-Blueberry",
+            "flavor_description": "Prepare for an extraordinary taste experience. Red Bull Coconut and Blueberry taste",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/zslubud2vzu4tfq9xvbk/red-bull-white-edition-image",
@@ -83,7 +93,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
-    "_raw_hash": "485c920fb39d771baf14f33919e2f2a75776555657b7888777faa1c8dda0b646",
+    "_raw_hash": "aaf41627c8794ba9e5bfc766559bf1cc5d819500161bcf68a667ed883c1f6f26",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:tr-TR",
@@ -140,6 +150,13 @@
             "flavor": "Blueberry",
             "description": "Red Bull Blue Edition with blueberry taste",
             "product_url": "https://www.redbull.com/tr-tr/energydrink/red-bull-blue-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:tr-TR",
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple-Ginger",
+            "description": "The warmth of ginger combined with the freshness of Fuji apple.",
+            "product_url": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
         }
     ]
 }

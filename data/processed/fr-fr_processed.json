@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Winter Edition with the taste of Fuji Apple and spicy notes of Ginger",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/28/qym0ckvtnq9fkto4cqzv/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Rediscover the taste and wings of Red Bull. Without sugar",
@@ -93,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FR.svg",
-    "_raw_hash": "41e03089618686972fa01caf76e4e0e66a63987be0bc39a5d6e2f5bfdf1d0725",
+    "_raw_hash": "c47ae33c88b3dbf5dbd55fc3e11edbb93ce8a235220384b7d2ef49de19a7cc8e",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-FR",
@@ -157,6 +167,13 @@
             "flavor": "Blueberry",
             "description": "Red Bull Blue Edition. A classic with the fruity taste of blueberry.",
             "product_url": "https://www.redbull.com/fr-fr/energydrink/red-bull-blue-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fr-FR",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "description": "Red Bull Winter Edition with the taste of Fuji Apple and spicy notes of Ginger.",
+            "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition"
         }
     ]
 }
