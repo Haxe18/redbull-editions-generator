@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-11-29T05:51:20.163983+00:00",
+        "collection_date": "2025-12-03T05:51:39.952584+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -76,7 +76,7 @@
                 "ba-bs"
             ],
             "flag_code": "BA",
-            "editions_count": 6,
+            "editions_count": 5,
             "data_file": "ba-bs.json"
         },
         "Brazil": {
@@ -214,7 +214,7 @@
                 "de-de"
             ],
             "flag_code": "DE",
-            "editions_count": 17,
+            "editions_count": 18,
             "data_file": "de-de.json"
         },
         "Greece": {
@@ -540,7 +540,7 @@
                 "ch-fr"
             ],
             "flag_code": "CH",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "ch-de.json"
         },
         "Taiwan": {

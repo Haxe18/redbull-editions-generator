@@ -200,6 +200,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:de-CH",
+            "header_data": {
+                "content": {
+                    "title": "The Glacier Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/1/or15unlkaqstihkmqvxq/red-bull-glacier-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#8DBED5",
+                                    "percentage": 18.5
+                                },
+                                {
+                                    "hexColorCode": "#B5D3E1",
+                                    "percentage": 7.2
+                                },
+                                {
+                                    "hexColorCode": "#17307B",
+                                    "percentage": 6.1
+                                },
+                                {
+                                    "hexColorCode": "#2F4784",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Glacier Edition - Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-glacier-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Gletschereis",
+                    "standfirst": "Die Red Bull Glacier Edition mit eisig-frischem Geschmack.",
+                    "brandingHexColorCode": "#97D5F7",
+                    "image": {
+                        "altText": "Red Bull Glacier Edition - Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/1/or15unlkaqstihkmqvxq/red-bull-glacier-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-glacier-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:5d0a35a9-b26a-4021-bc6a-5b1a08794ab7:de-CH",
             "header_data": {
                 "content": {
@@ -696,5 +749,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-10T22:29:30.380524+00:00"
+    "collection_timestamp": "2025-12-03T05:49:49.136534+00:00"
 }

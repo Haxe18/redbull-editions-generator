@@ -22,16 +22,6 @@
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-sugarfree"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Wings for your summer. Red Bull Energy Drink with the taste of White Peach, enhanced with a touch of citrus zest and delicate floral notes",
-            "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/12/dmbvyxjqafu8wxq126hd/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "name": "The Green Edition",
             "flavor": "Dragon Fruit",
             "flavor_description": "Red Bull Green Edition with the taste of exotic fruit, pitaya",
@@ -63,7 +53,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg",
-    "_raw_hash": "73a60f007461afd9bf1066449f70a391ecba385aa40297cb602277dc45586d41",
+    "_raw_hash": "80461ee9b04c00a19651e7c793632a5df05cd4d624d4c98b1bb1e3be7f167e83",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bs-BA",
@@ -78,13 +68,6 @@
             "flavor": "Sugarfree",
             "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:bs-BA",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "Wings for your summer. The Red Bull Summer Edition Energy Drink with the taste of white peach, enhanced with a touch of citrus zest and delicate floral notes.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:bs-BA",
