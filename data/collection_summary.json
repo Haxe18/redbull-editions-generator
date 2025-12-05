@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-12-03T05:51:39.952584+00:00",
+        "collection_date": "2025-12-05T05:53:48.367375+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -250,7 +250,7 @@
                 "in-en"
             ],
             "flag_code": "IN",
-            "editions_count": 5,
+            "editions_count": 4,
             "data_file": "in-en.json"
         },
         "Indonesia": {
@@ -467,7 +467,7 @@
                 "ro-ro"
             ],
             "flag_code": "RO",
-            "editions_count": 8,
+            "editions_count": 9,
             "data_file": "ro-ro.json"
         },
         "Serbia": {

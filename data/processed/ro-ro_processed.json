@@ -42,6 +42,16 @@
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-iarna"
         },
         {
+            "name": "The Pink Edition Sugarfree",
+            "flavor": "Forest Fruits",
+            "flavor_description": "Red Bull Forest Fruits without sugar: energizing drink with a savory taste of Forest Fruits",
+            "sugarfree": true,
+            "color": "#c72466",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image",
+            "alt_text": "Red Bull Pink Edition Image",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-fructe-de-padure-fara-zahar"
+        },
+        {
             "name": "The Tropical Edition",
             "flavor": "Tropical Fruits",
             "flavor_description": "Red Bull Tropical Edition. Be surprised by the exotic taste of Tropical Fruits",
@@ -83,7 +93,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RO.svg",
-    "_raw_hash": "70dab5ac7ccb46c3da7bc88ccbfb3224ef20af2ffa484bde8365ea32e48f8e8b",
+    "_raw_hash": "269db2674b82b4b6c0fa71d53fb4c0db309d7b40244ba96bae6c53f27c2100db",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ro-RO",
@@ -140,6 +150,13 @@
             "flavor": "Blueberry",
             "description": "Red Bull Blueberry Edition with a refreshing blueberry flavor.",
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO",
+            "name": "The Pink Edition Sugarfree",
+            "flavor": "Forest Fruits",
+            "description": "Red Bull Forest Fruits without sugar: energizing drink with a savory taste of forest fruits.",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-fructe-de-padure-fara-zahar"
         }
     ]
 }
