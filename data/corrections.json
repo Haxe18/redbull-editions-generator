@@ -155,6 +155,18 @@
             "field": "flavor",
             "search": "Strawberry-Apricot",
             "replace": "Apricot-Strawberry"
+        },
+        {
+            "id": "f0502df1-3142-402a-9af8-1344c8bf794e:no-NO",
+            "field": "flavor",
+            "search": "Acai Berry",
+            "replace": "Forest Berry"
+        },
+        {
+            "id": "77e43776-f55c-4250-a143-f126e7b543ed:en-SE",
+            "field": "flavor_description",
+            "search": "The Red Edition",
+            "replace": "The Lilac Edition"
         }
     ],
     "comments": [

@@ -10,7 +10,6 @@ import argparse
 import hashlib
 import json
 import logging
-
 # region Imports
 # Standard library imports
 import os
@@ -22,12 +21,12 @@ import unicodedata
 from collections import defaultdict
 from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from datetime import datetime
+from difflib import SequenceMatcher
 from pathlib import Path
 from threading import Lock
 from typing import Any, Dict, List, Optional, Tuple, cast
 
 from babel import Locale, UnknownLocaleError
-
 # Third-party imports
 from dotenv import load_dotenv
 from google import genai
@@ -145,6 +144,7 @@ class RedBullDataProcessor:
     GEMINI_MODEL = "gemini-2.5-flash-lite"
     MIN_DELAY_BETWEEN_REQUESTS = 7.0  # seconds (conservative rate limiting)
     MAX_REQUESTS_PER_MINUTE = 14
+    SIMILARITY_THRESHOLD = 0.75  # Minimum similarity for flavor matching
 
     # APPROVED FLAVOR LIST (Source of Truth)
     APPROVED_FLAVORS = [
@@ -163,6 +163,7 @@ class RedBullDataProcessor:
         "Forest Berry",
         "Forest Fruits",
         "Fuji Apple & Ginger",
+        "Glacier Ice",
         "Grapefruit & Blossom",
         "Iced Gummy Bear",
         "Iced Vanilla Berry",
@@ -191,6 +192,7 @@ class RedBullDataProcessor:
         "Coconut Edition",
         "Green Edition",
         "Festive Edition",
+        "Glacier Edition",
         "Ice Edition",
         "Lilac Edition",
         "Lime Edition",
@@ -858,6 +860,24 @@ class RedBullDataProcessor:
                 if self.verbose:
                     self.thread_safe_print(f"      🔄 Fuzzy match: '{flavor}' → '{approved}' (normalized match)")
                 return approved
+
+        # SIMILARITY MATCHING: Use difflib for partial matches
+        # Handles cases like "Apple and Ginger" → "Fuji Apple & Ginger"
+        best_match = None
+        best_ratio = 0.0
+
+        for approved in self.APPROVED_FLAVORS:
+            normalized_approved = approved.lower().replace("-", "").replace("&", "").replace(" ", "")
+            ratio = SequenceMatcher(None, normalized_input, normalized_approved).ratio()
+
+            if ratio > best_ratio:
+                best_ratio = ratio
+                best_match = approved
+
+        if best_match and best_ratio >= self.SIMILARITY_THRESHOLD:
+            if self.verbose:
+                self.thread_safe_print(f"      🔄 Similarity match: '{flavor}' → '{best_match}' " f"(ratio: {best_ratio:.2f})")
+            return best_match
 
         # For flavors not in the approved list, check if it should keep the &
         # Check against all approved flavors that contain &
@@ -1783,26 +1803,19 @@ class RedBullDataProcessor:
         - Example: If flavor says "Waldbeere", translate to "Forest Berry" (NOT "Raspberry" even if description mentions raspberry)
         - The flavor field is the SOURCE OF TRUTH, description is only supplementary
 
-        FLAVOR RULES (APPLY IN THIS EXACT ORDER):
-        1. EXACT MATCH (HIGHEST PRIORITY): If the flavor or edition name contains a flavor that is EXACTLY in the approved list → use it EXACTLY as listed
-           - Example: "Pomelo Edition" in name → "Pomelo" as flavor, keep it
-           - NEVER change an exact match to something else
-        2. VARIATION: Only if NO exact match exists, then TRY to match intelligently
-           (e.g., "Grapefruit-Woodruff" → "Woodruff & Pink Grapefruit")
-           - Match regardless of: order, connector (- vs &), completeness (e.g., "Strawberry and apricot" → "Strawberry-Apricot")
-           - Wildflower = Woodruff variation
-           - Do not change the flavor to something completely different, eg. 'Pomelo' SHOULD NEVER be converted to "Grapefruit & Blossom", leave the flavor in this case as it is !
-        3. NEW: If no match at all, preserve the original flavor with hyphens
-        4. SPECIAL:
-           - curuba ≠ cuban
+        FLAVOR HANDLING:
+        - Return the translated flavor AS-IS - normalization is handled by post-processing code
+        - DO NOT try to match flavors to an approved list - the code will normalize them
+        - SPECIAL RULES (these distinctions are important for accurate translation!):
+           - curuba ≠ cuban (different things!)
            - Forest Berry ≠ Forest Fruits (keep distinct)
            - Pomelo ≠ Grapefruit & Blossom (keep distinct)
            - Waldbeere/Waldbeeren → Forest Berry (NOT Raspberry)
+           - Gletschereis → Glacier Ice (German for Glacier Ice)
            - Yellow + tropical → "Tropical Fruits"
            - Green + cactus/dragon → "Cactus Fruit"/"Dragon Fruit"
            - Ice → Iced
            - Keep "Fruits" plural
-           - Exceptions with &: "Grapefruit & Blossom", "Passion Fruit & Melon"
 
         Input:
         {json.dumps([e.model_dump() for e in translated_editions], indent=4)}
@@ -2051,6 +2064,7 @@ class RedBullDataProcessor:
         # Prepare editions for validation
         editions_to_validate = [
             {
+                "name": edition.get("name", "").strip(),
                 "flavor": edition.get("flavor", "").strip(),
                 "flavor_description": edition.get("flavor_description", "").strip(),
             }
@@ -2074,34 +2088,27 @@ class RedBullDataProcessor:
         Only fix SPECIFIC errors listed below. DO NOT replace edition names with flavor names!
 
         VALIDATION RULES TO CHECK:
-        1. EXACT MATCH CHECK: If the flavor EXACTLY matches an entry in the approved list above, it is correct - DO NOT CHANGE IT
-        2. For flavors NOT in the approved list:
-           - If the flavor contains "&", PRESERVE THE "&" - do not replace with hyphen
-           - For compound flavors without "&", use hyphens to join them (e.g., "Strawberry Apricot" → "Strawberry-Apricot")
-        3. "Forest Fruits" and "Tropical Fruits" must keep "Fruits" plural - NEVER "Fruit"
-           CRITICAL: "Forest Berry" and "Forest Fruits" are DISTINCT flavors:
-           - "Forest Berry" → Keep as "Forest Berry" (typically from German "Waldbeeren")
-           - "Forest Fruits" → Keep as "Forest Fruits" (typically from English raw data)
-           - DO NOT convert "Forest Fruits" to "Forest Berry" or vice versa!
-        4. Energy Drink flavor rules (MUST be enforced):
-           - "Energy Drink Sugarfree" (the basic sugarfree) → flavor MUST be "Sugarfree"
-           - "Energy Drink Zero" → flavor MUST be "Zero Sugar"
-           - "Energy Drink" → flavor MUST be "Energy Drink"
-           - BUT: Other Sugarfree editions like "The Apricot Edition Sugarfree"
-             keep their actual flavor (e.g., "Apricot-Strawberry")
-        5. Flavor should NOT contain the word "Sugarfree" in combinations
-           (e.g., "Sugarfree Apricot-Strawberry" → "Apricot-Strawberry")
+
+        FLAVOR VALIDATION:
+        1. Mark flavors as VALID - flavor normalization is handled by post-processing code
+           - Do NOT correct flavors, the code will normalize them via similarity matching
+           - Exception: Energy Drink base variants need correct flavors:
+             - "Energy Drink Sugarfree" → flavor MUST be "Sugarfree"
+             - "Energy Drink Zero" → flavor MUST be "Zero Sugar"
+             - "Energy Drink" → flavor MUST be "Energy Drink"
 
         DESCRIPTION VALIDATION (ONLY fix these SPECIFIC issues):
-        6. Description should NOT contain "sugars" (should be "sugar")
-        7. Description should NOT contain "sugar-free" with hyphen (should be "sugarfree")
-        8. PRESERVE EDITION NAMES: NEVER replace edition names in descriptions!
-            - DO NOT add a flavor to Edition Name or replace any edition name with its flavor name, keep as is is !
-              - CORRECT: "Lilac Edition"
-              - WRONG: "Woodruff & Pink Grapefruit Edition"
-              - CORRECT: "Peach Edition"
-              - WRONG: "White Peach Edition"
-        9. LANGUAGE CHECK: Description MUST be ENTIRELY in English!
+        2. Description should NOT contain "sugars" (should be "sugar")
+        3. Description should NOT contain "sugar-free" with hyphen (should be "sugarfree")
+        4. PRESERVE EDITION NAMES IN DESCRIPTIONS:
+            - The description MUST use the edition name from the "name" field, NOT the flavor!
+            - Compare the edition name in the description against the "name" field
+            - WRONG: If name="The Green Edition" but description says "Dragon Fruit Edition" → FIX IT!
+            - CORRECT: "The Red Bull Green Edition with the taste of Dragon Fruit"
+            - Edition names are color-based (Green, Blue, Yellow, Purple, etc.), NOT flavor-based!
+            - Example: name="The Green Edition", flavor="Dragon Fruit"
+              → Description MUST say "Green Edition", NOT "Dragon Fruit Edition"
+        5. LANGUAGE CHECK: Description MUST be ENTIRELY in English!
             Check for non-English words like:
             - Spanish: sin, con, alas, azúcar, azúcares, sabor, edición
             - Portuguese: sem, com, asas, açúcar, sabor, edição
@@ -2110,10 +2117,10 @@ class RedBullDataProcessor:
             - If ANY non-English words are found, translate ONLY those words to English
 
         NAME CHECKS:
-        10. SUGARFREE NAME CHECK: Edition names with sugarfree=true MUST end with "Sugarfree"
-        11. Edition names should NEVER start with "Flavor of" or contains Flavor" at all
-        12. CRITICAL: NEVER use "The Original Edition" → must be "Energy Drink"
-        13. CRITICAL: NEVER use "The Zero Edition" → must be "Energy Drink Zero"
+        6. SUGARFREE NAME CHECK: Edition names with sugarfree=true MUST end with "Sugarfree"
+        7. Edition names should NEVER start with "Flavor of" or contains Flavor" at all
+        8. CRITICAL: NEVER use "The Original Edition" → must be "Energy Drink"
+        9. CRITICAL: NEVER use "The Zero Edition" → must be "Energy Drink Zero"
 
         BE STRICT! Mark as invalid if ANY rule is broken.
 
@@ -2407,7 +2414,8 @@ class RedBullDataProcessor:
                         # Apply corrected flavor if it's not manually corrected
                         if "flavor" not in corrected_fields and validation.corrected_flavor and validation.corrected_flavor.strip():
                             old_flavor = edition.get("flavor", "")
-                            new_flavor = validation.corrected_flavor.strip()
+                            # Apply clean_flavor_name to ensure APPROVED_FLAVORS matching
+                            new_flavor = self.clean_flavor_name(validation.corrected_flavor.strip())
                             edition["flavor"] = new_flavor
 
                             if self.verbose and old_flavor != new_flavor:
