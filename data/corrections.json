@@ -151,12 +151,6 @@
             "replace": "Apricot-Strawberry"
         },
         {
-            "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1",
-            "field": "flavor",
-            "search": "Strawberry-Apricot",
-            "replace": "Apricot-Strawberry"
-        },
-        {
             "id": "f0502df1-3142-402a-9af8-1344c8bf794e:no-NO",
             "field": "flavor",
             "search": "Acai Berry",
