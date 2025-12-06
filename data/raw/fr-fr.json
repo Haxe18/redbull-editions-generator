@@ -8,132 +8,6 @@
     },
     "editions": [
         {
-            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-FR",
-            "header_data": {
-                "content": {
-                    "title": "Energy Drink"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#2F4582",
-                                    "percentage": 15.3
-                                },
-                                {
-                                    "hexColorCode": "#D2D5DA",
-                                    "percentage": 7.9
-                                },
-                                {
-                                    "hexColorCode": "#EFF2F3",
-                                    "percentage": 3.9
-                                },
-                                {
-                                    "hexColorCode": "#D21E3F",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#627CBA",
-                                    "percentage": 2.9
-                                },
-                                {
-                                    "hexColorCode": "#EDCC77",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Energy Drink"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/energydrink"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink est consommé à travers le monde par des athlètes professionnels, des étudiants en universités ou encore lors de longs voyages.",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "Red Bull Energy Drink",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/energydrink"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fr-FR",
-            "header_data": {
-                "content": {
-                    "title": "Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qi3pa5urmhoynobr6sct/red-bull-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#0496D3",
-                                    "percentage": 13.8
-                                },
-                                {
-                                    "hexColorCode": "#D7DBDF",
-                                    "percentage": 7.4
-                                },
-                                {
-                                    "hexColorCode": "#E3E6E9",
-                                    "percentage": 3.7
-                                },
-                                {
-                                    "hexColorCode": "#D42148",
-                                    "percentage": 2.9
-                                },
-                                {
-                                    "hexColorCode": "#58BEE7",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#016498",
-                                    "percentage": 1.9
-                                },
-                                {
-                                    "hexColorCode": "#E9C66B",
-                                    "percentage": 1.4
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "http://www.redbull.com/sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Sugarfree",
-                    "standfirst": "Des ailes sans sucres: Red Bull Sugarfree c'est Red Bull Energy Drink mais sans sucres.",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "Red Bull Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qi3pa5urmhoynobr6sct/red-bull-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "http://www.redbull.com/sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fr-FR",
             "header_data": {
                 "content": {
@@ -198,6 +72,120 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-FR",
+            "header_data": {
+                "content": {
+                    "title": "Energy Drink"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2F4582",
+                                    "percentage": 15.3
+                                },
+                                {
+                                    "hexColorCode": "#D2D5DA",
+                                    "percentage": 7.9
+                                },
+                                {
+                                    "hexColorCode": "#EFF2F3",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#D21E3F",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#627CBA",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#EDCC77",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/energydrink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Red Bull Energy Drink est consommé à travers le monde par des athlètes professionnels, des étudiants en universités ou encore lors de longs voyages.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/energydrink"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fr-FR",
+            "header_data": {
+                "content": {
+                    "title": "Ice Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/5/ed9uws5clsrpjdg5vvko/red-bull-ice-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#72C6D1",
+                                    "percentage": 24.4
+                                },
+                                {
+                                    "hexColorCode": "#D0DBE1",
+                                    "percentage": 6.4
+                                },
+                                {
+                                    "hexColorCode": "#C9CFD7",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#F8F1F2",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Ice Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-ice-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Mûre givrée et vanille",
+                    "standfirst": "Red Bull Ice Edition au goût extraordinaire de mûre et de vanille, avec une note givrée d'eucalyptus.",
+                    "brandingHexColorCode": "#53b2c2",
+                    "image": {
+                        "altText": "Red Bull Ice Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/5/ed9uws5clsrpjdg5vvko/red-bull-ice-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-ice-edition"
                     }
                 }
             }
@@ -328,6 +316,71 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/fr-fr/energydrink/red-bull-sea-blue-edition-juneberry"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fr-FR",
+            "header_data": {
+                "content": {
+                    "title": "Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qi3pa5urmhoynobr6sct/red-bull-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0496D3",
+                                    "percentage": 13.8
+                                },
+                                {
+                                    "hexColorCode": "#D7DBDF",
+                                    "percentage": 7.4
+                                },
+                                {
+                                    "hexColorCode": "#E3E6E9",
+                                    "percentage": 3.7
+                                },
+                                {
+                                    "hexColorCode": "#D42148",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#58BEE7",
+                                    "percentage": 2.6
+                                },
+                                {
+                                    "hexColorCode": "#016498",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#E9C66B",
+                                    "percentage": 1.4
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "http://www.redbull.com/sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "Des ailes sans sucres: Red Bull Sugarfree c'est Red Bull Energy Drink mais sans sucres.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qi3pa5urmhoynobr6sct/red-bull-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "http://www.redbull.com/sugarfree"
                     }
                 }
             }
@@ -642,5 +695,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-11-29T05:38:48.866029+00:00"
+    "collection_timestamp": "2025-12-06T01:28:44.085095+00:00"
 }
