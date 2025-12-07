@@ -172,6 +172,7 @@ class RedBullDataProcessor:
         "Strawberry & Peach",
         "Peach",
         "Pear Cinnamon",
+        "Pomegranate",
         "Sugarfree",
         "Tropical Fruits",
         "Watermelon",
@@ -357,6 +358,23 @@ class RedBullDataProcessor:
                 self.logger.error("\n   Please fix the JSON syntax in corrections.json")
                 sys.exit(1)
         return []
+
+    def _get_word_set(self, flavor: str) -> tuple:
+        """Extract sorted word tuple for order-insensitive comparison.
+
+        Splits flavor string into individual words, normalizes them,
+        and returns as sorted tuple for comparison regardless of word order.
+        Example: "Apple Fuji-Ginger" → ('apple', 'fuji', 'ginger')
+
+        Args:
+            flavor: Flavor string to extract words from.
+
+        Returns:
+            Tuple of sorted lowercase words.
+        """
+        normalized = flavor.lower().replace("-", " ").replace("&", " ")
+        words = sorted([w for w in normalized.split() if w])
+        return tuple(words)
 
     def discover_raw_files(self) -> Dict[str, Dict[str, Any]]:
         """Discover and load metadata from all raw files in data/raw/ directory.
@@ -859,6 +877,15 @@ class RedBullDataProcessor:
                 # Found a match! Use the approved version with correct formatting
                 if self.verbose:
                     self.thread_safe_print(f"      🔄 Fuzzy match: '{flavor}' → '{approved}' (normalized match)")
+                return approved
+
+        # WORD-ORDER MATCHING: Match when same words in any order
+        # This handles cases like "Apple Fuji-Ginger" → "Fuji Apple & Ginger"
+        input_words = self._get_word_set(flavor)
+        for approved in self.APPROVED_FLAVORS:
+            if input_words == self._get_word_set(approved):
+                if self.verbose:
+                    self.thread_safe_print(f"      🔄 Word-order match: '{flavor}' → '{approved}'")
                 return approved
 
         # SIMILARITY MATCHING: Use difflib for partial matches

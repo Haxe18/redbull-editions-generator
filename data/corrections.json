@@ -91,6 +91,18 @@
             "replace": "Grape"
         },
         {
+            "id": "9f5e826b-3589-4e15-8da7-86759325fc9b:lv-LV",
+            "field": "flavor",
+            "search": "Dragon fruit",
+            "replace": "Cactus Fruit"
+        },
+        {
+            "id": "ac367322-24c1-44a9-ad4a-1e022f9347d6:pl-PL",
+            "field": "flavor",
+            "search": "Dragon fruit",
+            "replace": "Cactus Fruit"
+        },
+        {
             "id": "41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL",
             "field": "flavor",
             "search": "Iced Gummy Bear",

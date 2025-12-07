@@ -1,7 +1,7 @@
 # Manual Changelog - 2025-12-07
 
 ## Summary
-Manual corrections for flavor normalization and text formatting improvements in Switzerland, Estonia, and Poland.
+Manual corrections for flavor normalization and text formatting improvements in Switzerland, Estonia, Latvia, and Poland.
 
 ## Changes Made
 
@@ -53,9 +53,20 @@ Manual corrections for flavor normalization and text formatting improvements in 
 
 **Files Modified**: `data/processed/pl-pl_processed.json`
 
+### 4. Latvia (LV-LV)
+**Issue**: Green Edition flavor mismatch - showed "Dragon fruit" but description references "Cactus Fruit".
+
+**Corrections**:
+- **Green Edition**:
+  - Flavor: "Dragon fruit" → "Cactus Fruit" (pinned via corrections.json)
+  - Reason: Description says "exotic taste of Cactus Fruit" - flavor must match
+
+**Files Modified**: `data/processed/lv-lv_processed.json`
+
 ## Countries Affected
 - 🇨🇭 **Switzerland (CH)**: Text formatting improvements
 - 🇪🇪 **Estonia (EE)**: Flavor format standardization + text improvements
+- 🇱🇻 **Latvia (LV)**: Green Edition flavor correction (Dragon fruit → Cactus Fruit)
 - 🇵🇱 **Poland (PL)**: Winter Edition flavor standardization + text improvements
 
 ## Technical Details
@@ -70,13 +81,17 @@ The following flavor formats were standardized to match the project conventions:
 - Consistent British English spelling (travellers)
 - Removed redundant Oxford commas where not needed
 - Standardized article usage
-- Corrected flavor-description mismatches (e.g., Green Edition showing "Cactus Fruit" when flavor is "Dragon Fruit")
+- Corrected flavor-description mismatches:
+  - Estonia: Description updated to match flavor "Dragon Fruit"
+  - Latvia: Flavor corrected to "Cactus Fruit" to match description (pinned via corrections.json)
 
 ## Files Changed
 1. `data/processed/ch-de_processed.json` - Switzerland corrections
 2. `data/processed/ee-et_processed.json` - Estonia corrections
-3. `data/processed/pl-pl_processed.json` - Poland corrections
-4. `data/redbull_editions_final.json` - Final consolidated output updated
+3. `data/processed/lv-lv_processed.json` - Latvia corrections
+4. `data/processed/pl-pl_processed.json` - Poland corrections
+5. `data/redbull_editions_final.json` - Final consolidated output updated
+6. `data/corrections.json` - Latvia Green Edition flavor pinned
 
 ## Notes
 - All corrections align with the project's normalization rules in CLAUDE.md
