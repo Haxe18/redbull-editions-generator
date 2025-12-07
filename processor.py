@@ -376,6 +376,42 @@ class RedBullDataProcessor:
         words = sorted([w for w in normalized.split() if w])
         return tuple(words)
 
+    @staticmethod
+    def _get_language_priority(domain: str) -> int:
+        """Get language priority for domain (lower = higher priority).
+
+        Used to select preferred language version when multiple raw files
+        exist for the same country (e.g., ch-de vs ch-fr for Switzerland).
+
+        Priority order:
+        1. English (en, gb, us)
+        2. German/Dutch (de, nl)
+        3. Austrian/Swiss variants (at, ch)
+        4. French (fr)
+        5. Spanish (es)
+        6. Portuguese (pt)
+        7. Italian (it)
+        99. Other languages
+
+        Args:
+            domain: The locale domain (e.g., 'ch-de', 'ch-fr').
+
+        Returns:
+            Priority number (lower = higher priority).
+        """
+        if not domain or "-" not in domain:
+            return 999
+
+        lang = domain.split("-")[-1].lower()
+        priorities = {
+            "en": 1, "gb": 1, "us": 1,  # English
+            "de": 2, "nl": 2,            # German/Dutch
+            "at": 3, "ch": 3,            # Austrian/Swiss German
+            "fr": 4,                     # French
+            "es": 5, "pt": 6, "it": 7,   # Other European
+        }
+        return priorities.get(lang, 99)
+
     def discover_raw_files(self) -> Dict[str, Dict[str, Any]]:
         """Discover and load metadata from all raw files in data/raw/ directory.
 
@@ -403,8 +439,17 @@ class RedBullDataProcessor:
                 country_name = locale_info.get("country_name")
 
                 if country_name:
+                    new_domain = json_file.stem  # e.g., "ch-de", "ch-fr"
+                    new_priority = self._get_language_priority(new_domain)
+
+                    # Only update if this domain has higher priority (lower number)
+                    if country_name in countries:
+                        existing_priority = self._get_language_priority(countries[country_name]["domain"])
+                        if new_priority >= existing_priority:
+                            continue  # Keep existing entry with higher/equal priority
+
                     countries[country_name] = {
-                        "domain": json_file.stem,  # e.g., "es-es"
+                        "domain": new_domain,
                         "flag_code": locale_info.get("flag_code", ""),
                         "data_file": json_file.name,
                         "editions_count": len(data.get("editions", [])),
