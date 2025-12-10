@@ -22,9 +22,19 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "New Flavour, 100% Wings",
+            "sugarfree": true,
+            "color": "#93BFE4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/9/blekfbv7nrpwji2998mu/red-bull-xero",
+            "alt_text": "Red Bull Xero",
+            "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-xero"
+        },
+        {
             "name": "The Summer Edition",
             "flavor": "White Peach",
-            "flavor_description": "Wings for your summer: The Red Bull Summer Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
+            "flavor_description": "The Red Bull Summer Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/vu0xzchl6y0k8d7uxboh/red-bull-summer-edition",
@@ -34,7 +44,7 @@
         {
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "The Red Bull Yellow Edition offers the taste of tropical Fruits",
+            "flavor_description": "The Red Bull Yellow Edition with the taste of tropical",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/4/wamvu9vxg4agy6brlvbp/red-bull-yellow-edition-image",
@@ -54,7 +64,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "The Red Bull Apricot Edition offers the perfect blend of Apricot and Strawberry with a touch of Peach taste",
+            "flavor_description": "The Red Bull Apricot Edition with the perfect blend of Apricot and Strawberry with a touch of Peach taste",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/pcdzyw5csf8jibka5fs9/red-bull-apricot-edition-image",
@@ -73,7 +83,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ZA.svg",
-    "_raw_hash": "c1f8e5de6149be2db946660a9a413646adb9e4d30d7a9c30faf51526d19a22c1",
+    "_raw_hash": "229b28a1fccba2da45a3bd7baf203a6cb3b2bbbffda73e1ec2ce256417ed6c18",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-ZA",
@@ -97,18 +107,18 @@
             "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-summer-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA",
-            "name": "The Blue Edition",
-            "flavor": "Juneberry",
-            "description": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry artificially flavoured",
-            "product_url": "https://www.redbull.com/za-en/energydrink/red-bull-blue-edition-juneberry"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-ZA",
             "name": "The Yellow Edition",
             "flavor": "Tropical",
             "description": "The Red Bull Yellow Edition offers the taste of tropical.",
             "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-yellow-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA",
+            "name": "The Blue Edition",
+            "flavor": "Juneberry",
+            "description": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry artificially flavoured",
+            "product_url": "https://www.redbull.com/za-en/energydrink/red-bull-blue-edition-juneberry"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-ZA",
@@ -123,6 +133,13 @@
             "flavor": "Watermelon",
             "description": "The Red Bull Red Edition with the fresh taste of watermelon.",
             "product_url": "https://www.redbull.com/za-en/energydrink/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-ZA",
+            "name": "Energy Drink Zero",
+            "flavor": "Xero",
+            "description": "New Flavour, 100% Wings",
+            "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-xero"
         }
     ]
 }

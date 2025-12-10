@@ -134,6 +134,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-ZA",
+            "header_data": {
+                "content": {
+                    "title": "Xero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/9/blekfbv7nrpwji2998mu/red-bull-xero",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.7
+                                },
+                                {
+                                    "hexColorCode": "#C80D31",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DDE8F1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8593",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FCF8F6",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Xero"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/za-en/energydrink/products/red-bull-xero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Xero",
+                    "standfirst": "New Flavour, 100% Wiiings",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Xero",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/9/blekfbv7nrpwji2998mu/red-bull-xero"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/za-en/energydrink/products/red-bull-xero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-ZA",
             "header_data": {
                 "content": {
@@ -439,5 +500,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-11-05T05:48:11.656357+00:00"
+    "collection_timestamp": "2025-12-10T05:49:01.759588+00:00"
 }

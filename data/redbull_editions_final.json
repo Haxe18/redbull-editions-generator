@@ -4143,9 +4143,19 @@
                 "product_url": "https://www.redbull.com/sugarfree"
             },
             {
+                "name": "Energy Drink Zero",
+                "flavor": "Zero Sugar",
+                "flavor_description": "New Flavour, 100% Wings",
+                "sugarfree": true,
+                "color": "#93BFE4",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/9/blekfbv7nrpwji2998mu/red-bull-xero",
+                "alt_text": "Red Bull Xero",
+                "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-xero"
+            },
+            {
                 "name": "The Summer Edition",
                 "flavor": "White Peach",
-                "flavor_description": "Wings for your summer: The Red Bull Summer Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
+                "flavor_description": "The Red Bull Summer Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
                 "sugarfree": false,
                 "color": "#E24585",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/vu0xzchl6y0k8d7uxboh/red-bull-summer-edition",
@@ -4155,7 +4165,7 @@
             {
                 "name": "The Yellow Edition",
                 "flavor": "Tropical Fruits",
-                "flavor_description": "The Red Bull Yellow Edition offers the taste of tropical Fruits",
+                "flavor_description": "The Red Bull Yellow Edition with the taste of tropical",
                 "sugarfree": false,
                 "color": "#FFCD00",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/4/wamvu9vxg4agy6brlvbp/red-bull-yellow-edition-image",
@@ -4175,7 +4185,7 @@
             {
                 "name": "The Apricot Edition",
                 "flavor": "Apricot-Strawberry",
-                "flavor_description": "The Red Bull Apricot Edition offers the perfect blend of Apricot and Strawberry with a touch of Peach taste",
+                "flavor_description": "The Red Bull Apricot Edition with the perfect blend of Apricot and Strawberry with a touch of Peach taste",
                 "sugarfree": false,
                 "color": "#f3911b",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/pcdzyw5csf8jibka5fs9/red-bull-apricot-edition-image",
