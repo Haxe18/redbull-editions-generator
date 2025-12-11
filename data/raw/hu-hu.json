@@ -182,7 +182,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
+                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
                 }
             },
             "graphql_data": {
@@ -197,7 +197,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
+                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
                     }
                 }
             }
@@ -251,7 +251,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
+                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
                 }
             },
             "graphql_data": {
@@ -266,7 +266,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
+                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
                     }
                 }
             }
@@ -316,7 +316,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-blue-edition-juneberry"
+                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
                 }
             },
             "graphql_data": {
@@ -331,7 +331,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-blue-edition-juneberry"
+                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
                     }
                 }
             }
@@ -377,7 +377,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-apricot-edition"
+                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-apricot-edition"
                 }
             },
             "graphql_data": {
@@ -392,7 +392,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-apricot-edition"
+                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-apricot-edition"
                     }
                 }
             }
@@ -434,7 +434,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-white-edition"
+                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
                 }
             },
             "graphql_data": {
@@ -449,11 +449,11 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/red-bull-white-edition"
+                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
                     }
                 }
             }
         }
     ],
-    "collection_timestamp": "2025-11-12T05:40:33.965795+00:00"
+    "collection_timestamp": "2025-12-11T05:44:05.345030+00:00"
 }

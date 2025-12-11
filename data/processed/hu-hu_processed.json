@@ -29,7 +29,7 @@
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/ogthqf7kzsfelhmea5tl/red-bull-zero",
             "alt_text": "Red Bull Zero",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
         },
         {
             "name": "The Winter Edition",
@@ -39,7 +39,7 @@
             "color": "#ae132d",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/10/nu9xnkhsnv9xh5vm7tdg/the-winter-edition",
             "alt_text": "Winter Edition",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
         },
         {
             "name": "The Blue Edition",
@@ -49,7 +49,7 @@
             "color": "#0072CE",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/nhcbltvcxhatrcn9ihbt/red-bull-the-sea-blue-edition-image",
             "alt_text": "Red Bull The Sea Blue Edition - Image",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-blue-edition-juneberry"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
         },
         {
             "name": "The Apricot Edition",
@@ -59,21 +59,21 @@
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/a219fswdh5c3vwbm20tn/the-apricot-edition-image",
             "alt_text": "The Apricot Edition image",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-apricot-edition"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-apricot-edition"
         },
         {
             "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "The Red Bull White Edition in the taste of exotic Coconut and juicy Blueberry",
+            "flavor": "Coconut",
+            "flavor_description": "The Red Bull White Edition with the taste of exotic Coconut and juicy Blueberry",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/bscvkphlhrmrilgbafmd/red-bull-coconut-edition-image",
             "alt_text": "Red Bull Coconut Edition - image",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-white-edition"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HU.svg",
-    "_raw_hash": "86181d195e4eb46ee4b2673fb274c3a0e955f61bd86b886b9f4da15aa9cce86d",
+    "_raw_hash": "21ca255e3259b27b3a6e7f89518b24e7201ba1b69db2c71bf3c737e9bb253a2a",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU",
@@ -94,35 +94,35 @@
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "description": "Zero sugar. 100% wings.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-zero"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
         },
         {
             "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU",
             "name": "The Winter Edition",
             "flavor": "Fuji Apple",
             "description": "A Red Bull Winter Edition - with the freshness of Fuji apple and the warm spiciness of ginger.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-winter-edition"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU",
             "name": "The Blue Edition",
             "flavor": "Juneberry",
             "description": "Red Bull Blue Edition with the seductive fruity taste of Juneberry.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-blue-edition-juneberry"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hu-HU",
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
             "description": "The Red Bull Apricot Edition creates a perfect combination with the blend of apricot and strawberry notes, and a hint of peach taste.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-apricot-edition"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-apricot-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU",
             "name": "The White Edition",
             "flavor": "Coconut",
             "description": "The Red Bull White Edition in the taste of exotic coconut and juicy blueberry.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/red-bull-white-edition"
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
         }
     ]
 }
