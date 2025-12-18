@@ -6,7 +6,7 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull gives wings to athletes and their ambitions. It provides inspiration to people who want to push their mental and physical limits and share their lifestyle",
             "sugarfree": false,
-            "color": "#2F4582",
+            "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/eg-ar/energydrink"
@@ -33,8 +33,8 @@
         },
         {
             "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "Get ready for a unique taste experience. Red Bull White Edition with the distinctive taste of Coconut and Tuti frutti",
+            "flavor": "Coconut",
+            "flavor_description": "Get ready for a unique taste experience. Red Bull White Edition with the distinctive taste of Coconut and Tutti Frutti",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
@@ -53,7 +53,7 @@
         },
         {
             "name": "The Purple Edition",
-            "flavor": "Acai",
+            "flavor": "Acai Berry",
             "flavor_description": "Try the distinctive taste of Acai Berry",
             "sugarfree": false,
             "color": "#702082",
@@ -63,7 +63,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EG.svg",
-    "_raw_hash": "23a434d6f725c99f81f4a08b906e071bc697c2073356bb9988b36fe0cbcab32c",
+    "_raw_hash": "8aa94be1b769b88acc8c9260cf3fe2c207ee08bcababefbc5fd61e92da3588d4",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ar-EG",

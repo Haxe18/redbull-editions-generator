@@ -1,394 +1,406 @@
 {
-  "locale_info": {
-    "country_name": "Egypt",
-    "domains": [
-      "eg-ar"
+    "locale_info": {
+        "country_name": "Egypt",
+        "domains": [
+            "eg-ar"
+        ],
+        "flag_code": "EG"
+    },
+    "editions": [
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ar-EG",
+            "header_data": {
+                "content": {
+                    "title": "مشروب الطاقة"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/17/qxyizi20xdtj1agzzrty/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#263A80",
+                                    "percentage": 8.7
+                                },
+                                {
+                                    "hexColorCode": "#C8D0DA",
+                                    "percentage": 7.8
+                                },
+                                {
+                                    "hexColorCode": "#1A2C72",
+                                    "percentage": 7.7
+                                },
+                                {
+                                    "hexColorCode": "#CA0E37",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#E5ECF0",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#5274B6",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#768394",
+                                    "percentage": 1.3
+                                },
+                                {
+                                    "hexColorCode": "#FBF7F4",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#E4C177",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "يحظى ريد بُل مشروب الطاقة عالمياً بتقدير الرياضيين المحترفين، وأصحاب المهن المتطلبة، وطلاب الجامعات والمسافرين في الرحلات الطويلة",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ar-EG",
+            "header_data": {
+                "content": {
+                    "title": "من غير سكر"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ls8ljayofa3phe0h5yvl/red-bull-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0595D2",
+                                    "percentage": 14.3
+                                },
+                                {
+                                    "hexColorCode": "#D7DBDF",
+                                    "percentage": 8.5
+                                },
+                                {
+                                    "hexColorCode": "#56BEE6",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#E7E8EB",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#D42248",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#036498",
+                                    "percentage": 1.8
+                                },
+                                {
+                                    "hexColorCode": "#EED27F",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "جوااانح من غير سكر: استمتع بريد بُل مشروب الطاقة من غير سكر.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ls8ljayofa3phe0h5yvl/red-bull-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:ar-EG",
+            "header_data": {
+                "content": {
+                    "title": "الإصدار الصيفي"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/3/vnsmlvorcmzmjq0k8gat/red-bull-the-summer-edition-juneberry-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#1F7EBE",
+                                    "percentage": 19.1
+                                },
+                                {
+                                    "hexColorCode": "#D7E0E7",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#175AA4",
+                                    "percentage": 2.7
+                                },
+                                {
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#1661A6",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#5CA6D2",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#F7F3F0",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition Juneberry - Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Juneberry",
+                    "standfirst": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild berries.",
+                    "brandingHexColorCode": "#0072ce",
+                    "image": {
+                        "altText": "Red Bull Summer Edition Juneberry - Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/3/vnsmlvorcmzmjq0k8gat/red-bull-the-summer-edition-juneberry-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:ar-EG",
+            "header_data": {
+                "content": {
+                    "title": "بطعم جوز الهند و التوت"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E4E4E7",
+                                    "percentage": 8.3
+                                },
+                                {
+                                    "hexColorCode": "#E5E7E8",
+                                    "percentage": 7.8
+                                },
+                                {
+                                    "hexColorCode": "#FAFAF9",
+                                    "percentage": 7.5
+                                },
+                                {
+                                    "hexColorCode": "#717679",
+                                    "percentage": 5.3
+                                },
+                                {
+                                    "hexColorCode": "#F7F5F6",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#FAFBFA",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#404346",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 0.9
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull White Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-white-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Coconut",
+                    "standfirst": "استعد لتجربة طعم مميز. ريد بُل وايت إيديشن بالمذاق الرائع لجوز الهند والتوت.",
+                    "brandingHexColorCode": "#0070b8",
+                    "image": {
+                        "altText": "Red Bull White Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-white-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:ar-EG",
+            "header_data": {
+                "content": {
+                    "title": "بطعم التوت الأزرق"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/mvyl3h8unwityxemcnt1/red-bull-blue-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#34427F",
+                                    "percentage": 21.3
+                                },
+                                {
+                                    "hexColorCode": "#D2D4DA",
+                                    "percentage": 7.3
+                                },
+                                {
+                                    "hexColorCode": "#1F2647",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#7484B7",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#747B8D",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#F1F2F4",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Blue Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-blue-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Blueberry",
+                    "standfirst": "عبوة ريد بُل الزرقاء. مذاق كلاسيكي، بطعم التوت الأزرق.",
+                    "brandingHexColorCode": "#001A72",
+                    "image": {
+                        "altText": "Red Bull Blue Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/mvyl3h8unwityxemcnt1/red-bull-blue-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-blue-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ar-EG",
+            "header_data": {
+                "content": {
+                    "title": "بطعم توت اللآساى"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/2/aueelk9hj9ayzoj3tl5l/red-bull-the-purple-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#803987",
+                                    "percentage": 12
+                                },
+                                {
+                                    "hexColorCode": "#5F1466",
+                                    "percentage": 11.8
+                                },
+                                {
+                                    "hexColorCode": "#D5E2E9",
+                                    "percentage": 4.9
+                                },
+                                {
+                                    "hexColorCode": "#B8BDCF",
+                                    "percentage": 2
+                                },
+                                {
+                                    "hexColorCode": "#45044C",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#617789",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull The Purple Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-purple-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Açai Berry",
+                    "standfirst": "جرب الطعم المميز لتوت اللآساي المميز",
+                    "brandingHexColorCode": "#702082",
+                    "image": {
+                        "altText": "Red Bull The Purple Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/2/aueelk9hj9ayzoj3tl5l/red-bull-the-purple-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-purple-edition"
+                    }
+                }
+            }
+        }
     ],
-    "flag_code": "EG"
-  },
-  "editions": [
-    {
-      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ar-EG",
-      "header_data": {
-        "content": {
-          "title": "مشروب الطاقة"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#2F4582",
-                  "percentage": 15.3
-                },
-                {
-                  "hexColorCode": "#D2D5DA",
-                  "percentage": 7.9
-                },
-                {
-                  "hexColorCode": "#EFF2F3",
-                  "percentage": 3.9
-                },
-                {
-                  "hexColorCode": "#D21E3F",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#627CBA",
-                  "percentage": 2.9
-                },
-                {
-                  "hexColorCode": "#EDCC77",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/eg-ar/energydrink"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Energy Drink",
-          "standfirst": "يحظى ريد بُل مشروب الطاقة عالمياً بتقدير الرياضيين المحترفين، وأصحاب المهن المتطلبة، وطلاب الجامعات والمسافرين في الرحلات الطويلة",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/eg-ar/energydrink"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ar-EG",
-      "header_data": {
-        "content": {
-          "title": "من غير سكر"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ls8ljayofa3phe0h5yvl/red-bull-sugarfree",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#0595D2",
-                  "percentage": 14.3
-                },
-                {
-                  "hexColorCode": "#D7DBDF",
-                  "percentage": 8.5
-                },
-                {
-                  "hexColorCode": "#56BEE6",
-                  "percentage": 3.1
-                },
-                {
-                  "hexColorCode": "#E7E8EB",
-                  "percentage": 3.1
-                },
-                {
-                  "hexColorCode": "#D42248",
-                  "percentage": 2.9
-                },
-                {
-                  "hexColorCode": "#036498",
-                  "percentage": 1.8
-                },
-                {
-                  "hexColorCode": "#EED27F",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Sugarfree"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Sugarfree",
-          "standfirst": "جوااانح من غير سكر: استمتع بريد بُل مشروب الطاقة من غير سكر.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Sugarfree",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/ls8ljayofa3phe0h5yvl/red-bull-sugarfree"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sugarfree"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:ar-EG",
-      "header_data": {
-        "content": {
-          "title": "الإصدار الصيفي"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/3/vnsmlvorcmzmjq0k8gat/red-bull-the-summer-edition-juneberry-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#1F7EBE",
-                  "percentage": 19.1
-                },
-                {
-                  "hexColorCode": "#D7E0E7",
-                  "percentage": 4.5
-                },
-                {
-                  "hexColorCode": "#175AA4",
-                  "percentage": 2.7
-                },
-                {
-                  "hexColorCode": "#BFC7D1",
-                  "percentage": 2.4
-                },
-                {
-                  "hexColorCode": "#1661A6",
-                  "percentage": 2.2
-                },
-                {
-                  "hexColorCode": "#5CA6D2",
-                  "percentage": 1
-                },
-                {
-                  "hexColorCode": "#F7F3F0",
-                  "percentage": 0.8
-                }
-              ]
-            },
-            "altText": "Red Bull Summer Edition Juneberry - Image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Juneberry",
-          "standfirst": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild berries.",
-          "brandingHexColorCode": "#0072ce",
-          "image": {
-            "altText": "Red Bull Summer Edition Juneberry - Image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/3/vnsmlvorcmzmjq0k8gat/red-bull-the-summer-edition-juneberry-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:ar-EG",
-      "header_data": {
-        "content": {
-          "title": "بطعم جوز الهند و التوت"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#E4E4E7",
-                  "percentage": 8.3
-                },
-                {
-                  "hexColorCode": "#E5E7E8",
-                  "percentage": 7.8
-                },
-                {
-                  "hexColorCode": "#FAFAF9",
-                  "percentage": 7.5
-                },
-                {
-                  "hexColorCode": "#717679",
-                  "percentage": 5.3
-                },
-                {
-                  "hexColorCode": "#F7F5F6",
-                  "percentage": 2.4
-                },
-                {
-                  "hexColorCode": "#FAFBFA",
-                  "percentage": 1.4
-                },
-                {
-                  "hexColorCode": "#404346",
-                  "percentage": 0.9
-                },
-                {
-                  "hexColorCode": "#FCFCFB",
-                  "percentage": 0.9
-                }
-              ]
-            },
-            "altText": "Red Bull White Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-white-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Coconut",
-          "standfirst": "استعد لتجربة طعم مميز. ريد بُل وايت إيديشن بالمذاق الرائع لجوز الهند والتوت.",
-          "brandingHexColorCode": "#0070b8",
-          "image": {
-            "altText": "Red Bull White Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-white-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:ar-EG",
-      "header_data": {
-        "content": {
-          "title": "بطعم التوت الأزرق"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/mvyl3h8unwityxemcnt1/red-bull-blue-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#34427F",
-                  "percentage": 21.3
-                },
-                {
-                  "hexColorCode": "#D2D4DA",
-                  "percentage": 7.3
-                },
-                {
-                  "hexColorCode": "#1F2647",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#7484B7",
-                  "percentage": 1.1
-                },
-                {
-                  "hexColorCode": "#747B8D",
-                  "percentage": 0.7
-                },
-                {
-                  "hexColorCode": "#F1F2F4",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Blue Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-blue-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Blueberry",
-          "standfirst": "عبوة ريد بُل الزرقاء. مذاق كلاسيكي، بطعم التوت الأزرق.",
-          "brandingHexColorCode": "#001A72",
-          "image": {
-            "altText": "Red Bull Blue Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/mvyl3h8unwityxemcnt1/red-bull-blue-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-blue-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ar-EG",
-      "header_data": {
-        "content": {
-          "title": "بطعم توت اللآساى"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/2/aueelk9hj9ayzoj3tl5l/red-bull-the-purple-edition",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#803987",
-                  "percentage": 12
-                },
-                {
-                  "hexColorCode": "#5F1466",
-                  "percentage": 11.8
-                },
-                {
-                  "hexColorCode": "#D5E2E9",
-                  "percentage": 4.9
-                },
-                {
-                  "hexColorCode": "#B8BDCF",
-                  "percentage": 2
-                },
-                {
-                  "hexColorCode": "#45044C",
-                  "percentage": 0.8
-                },
-                {
-                  "hexColorCode": "#617789",
-                  "percentage": 0.5
-                }
-              ]
-            },
-            "altText": "Red Bull The Purple Edition"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-purple-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Açai Berry",
-          "standfirst": "جرب الطعم المميز لتوت اللآساي المميز",
-          "brandingHexColorCode": "#702082",
-          "image": {
-            "altText": "Red Bull The Purple Edition",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/2/aueelk9hj9ayzoj3tl5l/red-bull-the-purple-edition"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-purple-edition"
-          }
-        }
-      }
-    }
-  ],
-  "collection_timestamp": "2025-10-02T19:00:50.463756"
+    "collection_timestamp": "2025-12-18T05:42:10.921236+00:00"
 }

@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-12-11T05:54:25.536492+00:00",
+        "collection_date": "2025-12-18T05:55:55.581593+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -368,7 +368,7 @@
                 "mea-ar"
             ],
             "flag_code": "INT",
-            "editions_count": 6,
+            "editions_count": 2,
             "data_file": "mea-en.json"
         },
         "Netherlands": {
