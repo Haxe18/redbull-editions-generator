@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2025-12-18T05:55:55.581593+00:00",
+        "collection_date": "2025-12-23T05:57:44.091929+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -540,7 +540,7 @@
                 "ch-fr"
             ],
             "flag_code": "CH",
-            "editions_count": 12,
+            "editions_count": 11,
             "data_file": "ch-de.json"
         },
         "Taiwan": {

@@ -26,14 +26,14 @@
             "flavor": "Zero Sugar",
             "flavor_description": "Zero Sugar: 100% Wings",
             "sugarfree": true,
-            "color": "#93BFE4",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/11/29/zzpkuaukxnr9xsqrwlpt/red-bull-zero-energy-drink",
+            "color": "#91BEE4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/22/dkmv5ocdftgstm1hxmt9/red-bull-zero-energy-drink",
             "alt_text": "Red Bull Zero Energy Drink",
             "product_url": "https://www.redbull.com/zero"
         },
         {
             "name": "The Winter Edition Sugarfree",
-            "flavor": "Fuji Apple & Ginger",
+            "flavor": "Iced Vanilla Berry",
             "flavor_description": "Red Bull Winter Sugarfree with the taste of Fuji Apple and Ginger",
             "sugarfree": true,
             "color": "#53b2c2",
@@ -73,8 +73,8 @@
         },
         {
             "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "Get ready for an extraordinary taste experience. Red Bull White Edition with the exotic taste of Coconut and the fruity taste of Acai",
+            "flavor": "Coconut",
+            "flavor_description": "Get ready for an extraordinary taste experience. Red Bull White Edition with the exotic taste of Coconut and the fruity taste of Açaí",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/kmujndmghaj2bcwz9kiv/red-bull-white-edition-image",
@@ -103,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IT.svg",
-    "_raw_hash": "b34a1b9d3a69b95e938579c0e5528989429a14dad3341cad508e43ceba9a533c",
+    "_raw_hash": "c63ef9f20cfbb974ab84b11eca6b687b2338664f7e3923aeb7072687c02d373a",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:it-IT",
