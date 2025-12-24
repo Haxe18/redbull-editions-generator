@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Energy Drink Sugarfree is Red Bull Energy Drink without sugar",
+            "flavor_description": "Wings without sugar: Red Bull Energy Drink Sugarfree without sugar",
             "sugarfree": true,
             "color": "#248FCB",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/14/uqkbvqy0aab7jugdlxnz/red-bull-sugarfree",
@@ -67,7 +67,7 @@
             "flavor_description": "The Red Bull Yellow Edition. Be surprised by the exotic taste of Tropical Fruits",
             "sugarfree": false,
             "color": "#FFCD00",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/t5zfmdrfmgvk8q25nsmc/red-bull-yellow-edition-image",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/23/daqvvqaeuxgyqaqxtd6a/red-bull-yellow-edition-image",
             "alt_text": "Red Bull Yellow Edition - image",
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-yellow-edition"
         },
@@ -77,13 +77,13 @@
             "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon artificially flavoured",
             "sugarfree": false,
             "color": "#e03c31",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/2/7/nd0wlriswth9kdd4h2cq/red-bull-red-edition-image",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/23/zrhrvghzr7tynwiqic3f/red-bull-red-edition-image",
             "alt_text": "Red Bull Red Edition - image",
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-red-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CA.svg",
-    "_raw_hash": "cd039477e895f646d405e4a20a3bb9805010908149dd35e98050c47cf4022ab4",
+    "_raw_hash": "657abd14cbac818ac66f937fc49f06f8b5da1209092b63a64377aafe4dde5ff3",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-CA",
