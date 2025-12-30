@@ -24,7 +24,7 @@
         {
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "Red Bull Yellow Edition. With an exotic taste of Tropical Fruits",
+            "flavor_description": "The Red Bull Yellow Edition with the taste of Tropical Fruits",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/y4suhb1qj6jluvwbckar/red-bull-yellow-edition-image",
@@ -43,7 +43,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-UA.svg",
-    "_raw_hash": "9d49d0902450089d6826dfd6d2926396f4c78a9755ccedb03932127232568d44",
+    "_raw_hash": "ab322636ec381896f4415b3703b49504af0e0687d5d99320f560010232efea8c",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:uk-UA",
