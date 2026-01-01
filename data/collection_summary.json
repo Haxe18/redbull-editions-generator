@@ -253,7 +253,15 @@
             "editions_count": 4,
             "data_file": "in-en.json"
         },
-        "Indonesia": {},
+        "Indonesia": {
+            "domain": "id-id",
+            "all_domains": [
+                "id-id"
+            ],
+            "flag_code": "ID",
+            "editions_count": 1,
+            "data_file": "id-id.json"
+        },
         "International": {
             "domain": "int-en",
             "all_domains": [
