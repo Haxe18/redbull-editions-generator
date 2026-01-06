@@ -374,6 +374,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT",
+            "header_data": {
+                "content": {
+                    "title": "Lilac Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/7/22/hmcbrtn1xnrsqbqqf6qe/lilac-edition-sugarfree-wildflower-and-pink-grapefruit",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#9A7ADD",
+                                    "percentage": 23.4
+                                },
+                                {
+                                    "hexColorCode": "#D8E1E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#C2C4D9",
+                                    "percentage": 3.3
+                                },
+                                {
+                                    "hexColorCode": "#229FD4",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#E7F2E9",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#5AB2D7",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Lilac-Edition-Sugarfree Wildflower-and-Pink Grapefruit"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/at-de/energydrink/products/red-bull-lilac-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Wildflower-and-Pink Grapefruit",
+                    "standfirst": "Die Red Bull Lilac Edition Sugarfree mit dem Geschmack von Waldmeister und Pink Grapefruit. ",
+                    "brandingHexColorCode": "#6952AD",
+                    "image": {
+                        "altText": "Lilac-Edition-Sugarfree Wildflower-and-Pink Grapefruit",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/7/22/hmcbrtn1xnrsqbqqf6qe/lilac-edition-sugarfree-wildflower-and-pink-grapefruit"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/at-de/energydrink/products/red-bull-lilac-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-AT",
             "header_data": {
                 "content": {
@@ -866,5 +927,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-03T05:36:21.446473+00:00"
+    "collection_timestamp": "2026-01-06T05:39:48.473640+00:00"
 }

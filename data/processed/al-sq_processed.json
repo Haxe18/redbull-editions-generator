@@ -32,16 +32,6 @@
             "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-zero"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of White Peach, a touch of citrus and floral notes",
-            "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/21/csrnfudbwxa1qdqzauum/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "Red Bull Red Edition with Watermelon taste",
@@ -63,7 +53,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AL.svg",
-    "_raw_hash": "c6646d26098d2d19fc601ba7c3db0de53da631fe7d6cdbcca0983bdc5f341638",
+    "_raw_hash": "7cb2f1da529d87c09264b8960070112914dff9d51c0543cf4f8e7e42d24f6e91",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL",
@@ -85,13 +75,6 @@
             "flavor": "Zero Sugar",
             "description": "Zero calories. 100% Wings",
             "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sq-AL",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of white peach, a touch of citrus and floral notes.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-summer-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sq-AL",

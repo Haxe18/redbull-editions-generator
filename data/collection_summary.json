@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-03T05:52:58.256924+00:00",
+        "collection_date": "2026-01-06T05:58:02.838170+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -12,7 +12,7 @@
                 "al-sq"
             ],
             "flag_code": "AL",
-            "editions_count": 6,
+            "editions_count": 5,
             "data_file": "al-sq.json"
         },
         "Algeria": {
@@ -48,7 +48,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 14,
+            "editions_count": 15,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -104,7 +104,7 @@
                 "ca-fr"
             ],
             "flag_code": "CA",
-            "editions_count": 8,
+            "editions_count": 10,
             "data_file": "ca-en.json"
         },
         "Caribbean": {
@@ -186,7 +186,7 @@
                 "ee-et"
             ],
             "flag_code": "EE",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "ee-et.json"
         },
         "Europe": {},
@@ -214,7 +214,7 @@
                 "de-de"
             ],
             "flag_code": "DE",
-            "editions_count": 18,
+            "editions_count": 15,
             "data_file": "de-de.json"
         },
         "Greece": {

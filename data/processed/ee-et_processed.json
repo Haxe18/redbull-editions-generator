@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "0% sugar. 100% invigorating",
+            "sugarfree": true,
+            "color": "#93BFE4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/13/qiw0vax5yuhc1fiernfj/red-bull-zero-energy-drink",
+            "alt_text": "Red Bull Zero Energy Drink",
+            "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-zero"
+        },
+        {
             "name": "The Winter Edition",
             "flavor": "Fuji Apple & Ginger",
             "flavor_description": "Red Bull Winter Edition with the warm spicy taste of Fuji Apple and Ginger",
@@ -74,7 +84,7 @@
         {
             "name": "The Green Edition",
             "flavor": "Dragon Fruit",
-            "flavor_description": "Red Bull Green Edition with the taste of Dragon Fruit",
+            "flavor_description": "Red Bull Green Edition with the taste of exotic Cactus Fruit",
             "sugarfree": false,
             "color": "#00c65e",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/qzhzobabpydrrbfzmg59/red-bull-green-edition-image",
@@ -113,7 +123,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EE.svg",
-    "_raw_hash": "a4052faa600206ea7f0c95fcb67f2eb8d08b06586df19f7949d9b7d3c63dd460",
+    "_raw_hash": "68dc78058a66f07d46ef3706fb9c0e931ce93d7bdbd4fec50dd26fb1aecfffc8",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:et-EE",
@@ -191,6 +201,13 @@
             "flavor": "Peach",
             "description": "Red Bull Peach Edition: Energy drink with the fresh taste of peach and nectarine.",
             "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-peach-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:et-EE",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero",
+            "description": "0% sugars. 100% invigorating.",
+            "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-zero"
         }
     ]
 }

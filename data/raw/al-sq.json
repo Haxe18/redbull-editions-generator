@@ -1,378 +1,325 @@
 {
-  "locale_info": {
-    "country_name": "Albania",
-    "domains": [
-      "al-sq"
+    "locale_info": {
+        "country_name": "Albania",
+        "domains": [
+            "al-sq"
+        ],
+        "flag_code": "AL"
+    },
+    "editions": [
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL",
+            "header_data": {
+                "content": {
+                    "title": "Energy Drink"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/yz52znjbtsaujarel8as/red-bull-energy-drink-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2F4581",
+                                    "percentage": 15.3
+                                },
+                                {
+                                    "hexColorCode": "#D8DADF",
+                                    "percentage": 9.9
+                                },
+                                {
+                                    "hexColorCode": "#D11E3F",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#627CB9",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#F3F6F7",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#EDCA74",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#818792",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Red Bull Energy Drink është vlerësuar në mbarë botën nga atletë të nivelit më të lartë, studentë, punonjës me mbingarkesë profesionale, si edhe gjatë udhёtimeve të gjata.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/yz52znjbtsaujarel8as/red-bull-energy-drink-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sq-AL",
+            "header_data": {
+                "content": {
+                    "title": "Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/ebuoirbl6ly0eyey4gvm/red-bull-sugarfree-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0595D2",
+                                    "percentage": 14.2
+                                },
+                                {
+                                    "hexColorCode": "#D3D8DC",
+                                    "percentage": 7.3
+                                },
+                                {
+                                    "hexColorCode": "#E7E9EC",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#55BDE5",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#D42148",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#046296",
+                                    "percentage": 1.8
+                                },
+                                {
+                                    "hexColorCode": "#EED27F",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "Krahë pa sheqer: Red Bull Sugarfree është Red Bull Energy Drink pa sheqer.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/ebuoirbl6ly0eyey4gvm/red-bull-sugarfree-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sq-AL",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/3/12/btcylmfbwa7wz1pzq0sh/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.8
+                                },
+                                {
+                                    "hexColorCode": "#C80D32",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DEE9F2",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8594",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FBF7F5",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "Zero kalori. 100% Kraaahë",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/3/12/btcylmfbwa7wz1pzq0sh/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sq-AL",
+            "header_data": {
+                "content": {
+                    "title": "Red Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/qkzesmt2l0owyvl9lzbd/red-bull-red-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#D72716",
+                                    "percentage": 18.4
+                                },
+                                {
+                                    "hexColorCode": "#E7574E",
+                                    "percentage": 6.7
+                                },
+                                {
+                                    "hexColorCode": "#D6E0E7",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#04943F",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Red Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-red-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Watermelon",
+                    "standfirst": "Red Bull Red Edition me shije Shalqiri.",
+                    "brandingHexColorCode": "#e03c31",
+                    "image": {
+                        "altText": "Red Bull Red Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/qkzesmt2l0owyvl9lzbd/red-bull-red-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-red-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:sq-AL",
+            "header_data": {
+                "content": {
+                    "title": "Green Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/hz4lwrx6akooadzyht7x/red-bull-green-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0F9741",
+                                    "percentage": 13.4
+                                },
+                                {
+                                    "hexColorCode": "#D2D3D9",
+                                    "percentage": 6.8
+                                },
+                                {
+                                    "hexColorCode": "#61B76A",
+                                    "percentage": 6.5
+                                },
+                                {
+                                    "hexColorCode": "#48B060",
+                                    "percentage": 3.8
+                                },
+                                {
+                                    "hexColorCode": "#33A551",
+                                    "percentage": 2.7
+                                },
+                                {
+                                    "hexColorCode": "#FDF9FD",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#BAD8C2",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Green Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-green-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Dragon Fruit",
+                    "standfirst": "Red Bull Green Edition me shijen ekzotike të frutit të dragoit.",
+                    "brandingHexColorCode": "#2ca44a",
+                    "image": {
+                        "altText": "Red Bull Green Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/hz4lwrx6akooadzyht7x/red-bull-green-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-green-edition"
+                    }
+                }
+            }
+        }
     ],
-    "flag_code": "AL"
-  },
-  "editions": [
-    {
-      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL",
-      "header_data": {
-        "content": {
-          "title": "Energy Drink"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/yz52znjbtsaujarel8as/red-bull-energy-drink-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#2F4581",
-                  "percentage": 15.3
-                },
-                {
-                  "hexColorCode": "#D8DADF",
-                  "percentage": 9.9
-                },
-                {
-                  "hexColorCode": "#D11E3F",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#627CB9",
-                  "percentage": 2.8
-                },
-                {
-                  "hexColorCode": "#F3F6F7",
-                  "percentage": 1.9
-                },
-                {
-                  "hexColorCode": "#EDCA74",
-                  "percentage": 0.6
-                },
-                {
-                  "hexColorCode": "#818792",
-                  "percentage": 0.5
-                }
-              ]
-            },
-            "altText": "Red Bull Energy Drink - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Energy Drink",
-          "standfirst": "Red Bull Energy Drink është vlerësuar në mbarë botën nga atletë të nivelit më të lartë, studentë, punonjës me mbingarkesë profesionale, si edhe gjatë udhёtimeve të gjata.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Energy Drink - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/yz52znjbtsaujarel8as/red-bull-energy-drink-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sq-AL",
-      "header_data": {
-        "content": {
-          "title": "Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/ebuoirbl6ly0eyey4gvm/red-bull-sugarfree-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#0595D2",
-                  "percentage": 14.2
-                },
-                {
-                  "hexColorCode": "#D3D8DC",
-                  "percentage": 7.3
-                },
-                {
-                  "hexColorCode": "#E7E9EC",
-                  "percentage": 4.1
-                },
-                {
-                  "hexColorCode": "#55BDE5",
-                  "percentage": 3.1
-                },
-                {
-                  "hexColorCode": "#D42148",
-                  "percentage": 2.8
-                },
-                {
-                  "hexColorCode": "#046296",
-                  "percentage": 1.8
-                },
-                {
-                  "hexColorCode": "#EED27F",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Sugarfree - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Sugarfree",
-          "standfirst": "Krahë pa sheqer: Red Bull Sugarfree është Red Bull Energy Drink pa sheqer.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Sugarfree - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/ebuoirbl6ly0eyey4gvm/red-bull-sugarfree-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-sugarfree"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sq-AL",
-      "header_data": {
-        "content": {
-          "title": "Zero"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/3/12/btcylmfbwa7wz1pzq0sh/red-bull-zero-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#93BFE4",
-                  "percentage": 14.1
-                },
-                {
-                  "hexColorCode": "#C6D1DE",
-                  "percentage": 10.8
-                },
-                {
-                  "hexColorCode": "#C80D32",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#DEE9F2",
-                  "percentage": 2.5
-                },
-                {
-                  "hexColorCode": "#7A8594",
-                  "percentage": 1.7
-                },
-                {
-                  "hexColorCode": "#FBF7F5",
-                  "percentage": 0.7
-                }
-              ]
-            },
-            "altText": "Red Bull Zero Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-zero"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Zero Sugar",
-          "standfirst": "Zero kalori. 100% Kraaahë",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Zero Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/3/12/btcylmfbwa7wz1pzq0sh/red-bull-zero-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-zero"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sq-AL",
-      "header_data": {
-        "content": {
-          "title": "Summer Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/csrnfudbwxa1qdqzauum/red-bull-summer-edition",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#E25C94",
-                  "percentage": 16
-                },
-                {
-                  "hexColorCode": "#D32570",
-                  "percentage": 9.2
-                },
-                {
-                  "hexColorCode": "#DAE5EA",
-                  "percentage": 5.4
-                },
-                {
-                  "hexColorCode": "#C1C9D3",
-                  "percentage": 2.4
-                }
-              ]
-            },
-            "altText": "Red Bull Summer Edition"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-summer-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "White Peach",
-          "standfirst": "Kraaahë për verën tuaj: Pija Energjike Red Bull Summer Edition me shijen e pjeshkës së bardhë, një prekje lëkure agrumesh dhe nota lulesh.",
-          "brandingHexColorCode": "#E24585",
-          "image": {
-            "altText": "Red Bull Summer Edition",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/csrnfudbwxa1qdqzauum/red-bull-summer-edition"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-summer-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sq-AL",
-      "header_data": {
-        "content": {
-          "title": "Red Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/qkzesmt2l0owyvl9lzbd/red-bull-red-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#D72716",
-                  "percentage": 18.4
-                },
-                {
-                  "hexColorCode": "#E7574E",
-                  "percentage": 6.7
-                },
-                {
-                  "hexColorCode": "#D6E0E7",
-                  "percentage": 4
-                },
-                {
-                  "hexColorCode": "#BFC7D1",
-                  "percentage": 2.5
-                },
-                {
-                  "hexColorCode": "#04943F",
-                  "percentage": 1.1
-                }
-              ]
-            },
-            "altText": "Red Bull Red Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-red-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Watermelon",
-          "standfirst": "Red Bull Red Edition me shije Shalqiri.",
-          "brandingHexColorCode": "#e03c31",
-          "image": {
-            "altText": "Red Bull Red Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/qkzesmt2l0owyvl9lzbd/red-bull-red-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-red-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:sq-AL",
-      "header_data": {
-        "content": {
-          "title": "Green Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/hz4lwrx6akooadzyht7x/red-bull-green-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#0F9741",
-                  "percentage": 13.4
-                },
-                {
-                  "hexColorCode": "#D2D3D9",
-                  "percentage": 6.8
-                },
-                {
-                  "hexColorCode": "#61B76A",
-                  "percentage": 6.5
-                },
-                {
-                  "hexColorCode": "#48B060",
-                  "percentage": 3.8
-                },
-                {
-                  "hexColorCode": "#33A551",
-                  "percentage": 2.7
-                },
-                {
-                  "hexColorCode": "#FDF9FD",
-                  "percentage": 0.7
-                },
-                {
-                  "hexColorCode": "#BAD8C2",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Green Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-green-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Dragon Fruit",
-          "standfirst": "Red Bull Green Edition me shijen ekzotike të frutit të dragoit.",
-          "brandingHexColorCode": "#2ca44a",
-          "image": {
-            "altText": "Red Bull Green Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/11/hz4lwrx6akooadzyht7x/red-bull-green-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-green-edition"
-          }
-        }
-      }
-    }
-  ],
-  "collection_timestamp": "2025-09-03T19:44:18.532268"
+    "collection_timestamp": "2026-01-06T05:38:35.895085+00:00"
 }
