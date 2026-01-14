@@ -264,67 +264,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:584d32fd-608b-4f15-9ab0-8e84cb024293:pl-PL",
-            "header_data": {
-                "content": {
-                    "title": "Festive Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/21/uetfhw1phrcozhtalsll/red-bull-festive-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#880A27",
-                                    "percentage": 17.2
-                                },
-                                {
-                                    "hexColorCode": "#C14260",
-                                    "percentage": 6.1
-                                },
-                                {
-                                    "hexColorCode": "#D9E4EA",
-                                    "percentage": 5.1
-                                },
-                                {
-                                    "hexColorCode": "#C0C7D1",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#8F3248",
-                                    "percentage": 1.6
-                                },
-                                {
-                                    "hexColorCode": "#B32447",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Festive Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Pomegranate",
-                    "standfirst": "Red Bull Festive Edition oferuje smak granatu.",
-                    "brandingHexColorCode": "#AA0541",
-                    "image": {
-                        "altText": "Red Bull Festive Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/21/uetfhw1phrcozhtalsll/red-bull-festive-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pl-PL",
             "header_data": {
                 "content": {
@@ -780,5 +719,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-12-11T05:49:05.260034+00:00"
+    "collection_timestamp": "2026-01-14T05:51:04.284449+00:00"
 }

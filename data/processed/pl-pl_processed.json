@@ -42,18 +42,8 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition"
         },
         {
-            "name": "The Festive Edition",
-            "flavor": "Pomegranate",
-            "flavor_description": "Red Bull Festive Edition offers the taste of Pomegranate",
-            "sugarfree": false,
-            "color": "#AA0541",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/21/uetfhw1phrcozhtalsll/red-bull-festive-edition",
-            "alt_text": "Red Bull Festive Edition",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
-        },
-        {
             "name": "The Lilac Edition Sugarfree",
-            "flavor": "Pink Grapefruit-Herbs",
+            "flavor": "Grapefruit & Blossom",
             "flavor_description": "Red Bull Lilac Edition Sugarfree offers the taste of Pink Grapefruit with a hint of herbs",
             "sugarfree": true,
             "color": "#6952AD",
@@ -123,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "9bd18beaf42f4864d7c85d6acb2a28d1fe073169bfe0d5a3fd826550d1b24ed3",
+    "_raw_hash": "bb2ec02cecb8b03efd31d4e39c36ab87f216d4937549f2cc00225f716bb7dd79",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL",
@@ -154,11 +144,11 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:584d32fd-608b-4f15-9ab0-8e84cb024293:pl-PL",
-            "name": "The Festive Edition",
-            "flavor": "Pomegranate",
-            "description": "Red Bull Festive Edition offers the taste of pomegranate.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pl-PL",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Pink Grapefruit-Herbs",
+            "description": "Red Bull Lilac Edition Sugarfree offers the taste of pink grapefruit with a hint of herbs",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-lilac-edition-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pl-PL",
@@ -201,13 +191,6 @@
             "flavor": "Acai Berry",
             "description": "Red Bull Purple Edition, sugarfree, with the unique taste of exotic Acai Berry.",
             "product_url": "https://www.redbull.com/pl-pl/energydrink/red-bull-purple-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pl-PL",
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Pink Grapefruit-Herbs",
-            "description": "Red Bull Lilac Edition Sugarfree offers the taste of pink grapefruit with a hint of herbs",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-lilac-edition-sugarfree"
         }
     ]
 }
