@@ -32,16 +32,6 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Red Bull Winter Edition with the taste of crisp, sweet apples with a hint of fresh Ginger",
-            "sugarfree": false,
-            "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/30/lxbub2f8aaffvrc87sf7/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-winter-edition"
-        },
-        {
             "name": "The Ice Edition",
             "flavor": "Iced Gummy Bear",
             "flavor_description": "Red Bull Ice Edition combines the sweet taste of Vanilla with a fresh hint of frosted berries",
@@ -80,20 +70,10 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/19/g6tqrrbffx57d8fk6wvt/red-bull-blue-edition-image",
             "alt_text": "Red Bull Blue Edition - image",
             "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-blue-edition"
-        },
-        {
-            "name": "The Purple Edition",
-            "flavor": "Forest Berry",
-            "flavor_description": "Red Bull Purple Edition with the taste of Forest Berry flavor",
-            "sugarfree": false,
-            "color": "#702082",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/19/tzpu4mtxhwsawh9exapv/red-bull-the-purple-edition",
-            "alt_text": "Red Bull The Purple Edition",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-purple-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DK.svg",
-    "_raw_hash": "6177cedd39d832b326f6244f557a3e84823bbe47147dcee15d514adbbdf8d3b8",
+    "_raw_hash": "5d2fbc3ee143f41c4541390e449586d103585b3fc2fb65b42942e881185eb048",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:da-DK",
@@ -115,13 +95,6 @@
             "flavor": "Sugarfree",
             "description": "\"Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.\"",
             "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:da-DK",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple",
-            "description": "Red Bull Winter Edition with the taste of crisp, sweet apples with a hint of fresh ginger.",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-winter-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:da-DK",
@@ -150,13 +123,6 @@
             "flavor": "Blueberry flavor",
             "description": "Red Bull Blue Edition with the taste of blueberry flavor.",
             "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:da-DK",
-            "name": "The Purple Edition",
-            "flavor": "Forest Berry flavor",
-            "description": "Red Bull Purple Edition with the taste of forest berry flavor.",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-purple-edition"
         }
     ]
 }

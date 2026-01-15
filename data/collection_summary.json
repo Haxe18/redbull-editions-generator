@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-14T05:56:17.634870+00:00",
+        "collection_date": "2026-01-15T05:55:59.058996+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -167,7 +167,7 @@
                 "dk-da"
             ],
             "flag_code": "DK",
-            "editions_count": 9,
+            "editions_count": 7,
             "data_file": "dk-da.json"
         },
         "Dominican Republic": {},
