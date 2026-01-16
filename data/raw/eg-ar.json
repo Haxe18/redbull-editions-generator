@@ -146,66 +146,54 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:ar-EG",
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ar-EG",
             "header_data": {
                 "content": {
-                    "title": "الإصدار الصيفي"
+                    "title": "إصدار الشتاء"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/3/vnsmlvorcmzmjq0k8gat/red-bull-the-summer-edition-juneberry-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/15/ciceac6gct6zfqf3hf1m/the-winter-edition",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#1F7EBE",
-                                    "percentage": 19.1
+                                    "hexColorCode": "#72C6D1",
+                                    "percentage": 24.6
                                 },
                                 {
-                                    "hexColorCode": "#D7E0E7",
-                                    "percentage": 4.5
+                                    "hexColorCode": "#CFDAE1",
+                                    "percentage": 6.2
                                 },
                                 {
-                                    "hexColorCode": "#175AA4",
-                                    "percentage": 2.7
+                                    "hexColorCode": "#CACFD7",
+                                    "percentage": 1.2
                                 },
                                 {
-                                    "hexColorCode": "#BFC7D1",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#1661A6",
-                                    "percentage": 2.2
-                                },
-                                {
-                                    "hexColorCode": "#5CA6D2",
-                                    "percentage": 1
-                                },
-                                {
-                                    "hexColorCode": "#F7F3F0",
-                                    "percentage": 0.8
+                                    "hexColorCode": "#F8F0F1",
+                                    "percentage": 0.6
                                 }
                             ]
                         },
-                        "altText": "Red Bull Summer Edition Juneberry - Image"
+                        "altText": "Winter Edition"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-winter-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Juneberry",
-                    "standfirst": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild berries.",
-                    "brandingHexColorCode": "#0072ce",
+                    "flavour": "Fuji Apple",
+                    "standfirst": "ريد بُل إصدار الشتاء بيقدم طعم الفانيليا والتوت المثلج  ",
+                    "brandingHexColorCode": "#ae132d",
                     "image": {
-                        "altText": "Red Bull Summer Edition Juneberry - Image",
+                        "altText": "Winter Edition",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/3/vnsmlvorcmzmjq0k8gat/red-bull-the-summer-edition-juneberry-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/15/ciceac6gct6zfqf3hf1m/the-winter-edition"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-winter-edition"
                     }
                 }
             }
@@ -280,67 +268,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:ar-EG",
-            "header_data": {
-                "content": {
-                    "title": "بطعم التوت الأزرق"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/mvyl3h8unwityxemcnt1/red-bull-blue-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#34427F",
-                                    "percentage": 21.3
-                                },
-                                {
-                                    "hexColorCode": "#D2D4DA",
-                                    "percentage": 7.3
-                                },
-                                {
-                                    "hexColorCode": "#1F2647",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#7484B7",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#747B8D",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#F1F2F4",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Blue Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-blue-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Blueberry",
-                    "standfirst": "عبوة ريد بُل الزرقاء. مذاق كلاسيكي، بطعم التوت الأزرق.",
-                    "brandingHexColorCode": "#001A72",
-                    "image": {
-                        "altText": "Red Bull Blue Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/mvyl3h8unwityxemcnt1/red-bull-blue-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-blue-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ar-EG",
             "header_data": {
                 "content": {
@@ -402,5 +329,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-12-18T05:42:10.921236+00:00"
+    "collection_timestamp": "2026-01-16T05:43:43.961839+00:00"
 }

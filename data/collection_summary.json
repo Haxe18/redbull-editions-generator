@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-15T05:55:59.058996+00:00",
+        "collection_date": "2026-01-16T05:56:14.004144+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -48,7 +48,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 15,
+            "editions_count": 14,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -177,7 +177,7 @@
                 "eg-ar"
             ],
             "flag_code": "EG",
-            "editions_count": 6,
+            "editions_count": 5,
             "data_file": "eg-ar.json"
         },
         "Estonia": {
