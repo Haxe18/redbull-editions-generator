@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "The sugarfree version of Red Bull Energy Drink is Red Bull Sugarfree",
+            "flavor_description": "Wings without sugar: The sugarfree version of Red Bull Energy Drink is Red Bull Sugarfree",
             "sugarfree": true,
             "color": "#248FCB",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
@@ -32,6 +32,16 @@
             "product_url": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
         },
         {
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Pomelo",
+            "flavor_description": "Red Bull Lilac Edition Sugarfree Energy Drink; combines pomelo aroma with floral notes",
+            "sugarfree": true,
+            "color": "#6952AD",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/16/qjir7xwoqlrjiualqpyg/lilac-edition-sugarfree--grapefruit-and-blossom",
+            "alt_text": "Lilac-Edition-Sugarfree Grapefruit & Blossom",
+            "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-lilac-edition-sugarfree"
+        },
+        {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Raspberry",
             "flavor_description": "Pink Edition Sugarfree offers Raspberry taste",
@@ -44,7 +54,7 @@
         {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull with Peach taste",
+            "flavor_description": "Red Bull Peach Edition with Peach taste",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/14/rtjsijgtshdlt5c7b1v9/red-bull-peach-edition-image",
@@ -73,8 +83,8 @@
         },
         {
             "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "Prepare for an extraordinary taste experience. Red Bull Coconut and Blueberry taste",
+            "flavor": "Coconut",
+            "flavor_description": "Prepare for an extraordinary taste experience. Red Bull White Edition Coconut and Acai taste",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/zslubud2vzu4tfq9xvbk/red-bull-white-edition-image",
@@ -93,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
-    "_raw_hash": "aaf41627c8794ba9e5bfc766559bf1cc5d819500161bcf68a667ed883c1f6f26",
+    "_raw_hash": "1a020a7f353c3536ee47b7aabd33cff02cc6b830abab18e9bb702dd493d9f0eb",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:tr-TR",
@@ -108,6 +118,13 @@
             "flavor": "Sugarfree",
             "description": "Sugarfree wings: The sugarfree version of Red Bull Energy Drink is Red Bull Sugarfree.",
             "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:tr-TR",
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple-Ginger",
+            "description": "The warmth of ginger combined with the freshness of Fuji apple.",
+            "product_url": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:tr-TR",
@@ -152,11 +169,11 @@
             "product_url": "https://www.redbull.com/tr-tr/energydrink/red-bull-blue-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:tr-TR",
-            "name": "The Apple Edition",
-            "flavor": "Fuji Apple-Ginger",
-            "description": "The warmth of ginger combined with the freshness of Fuji apple.",
-            "product_url": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Pomelo",
+            "description": "Red Bull Lilac Edition Sugarfree Energy Drink; combines pomelo aroma with floral notes.",
+            "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-lilac-edition-sugarfree"
         }
     ]
 }

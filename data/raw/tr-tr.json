@@ -203,6 +203,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR",
+            "header_data": {
+                "content": {
+                    "title": "Lilac Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/16/qjir7xwoqlrjiualqpyg/lilac-edition-sugarfree--grapefruit-and-blossom",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#997ADD",
+                                    "percentage": 24
+                                },
+                                {
+                                    "hexColorCode": "#D9E1E8",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#C0C3D6",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#E7F2E9",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-lilac-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pomelo",
+                    "standfirst": "Red Bull Lilac Edition Şekersiz Enerji İçeceği; pomelo aromasını çiçeksi notalarla bir araya getirir.",
+                    "brandingHexColorCode": "#6952AD",
+                    "image": {
+                        "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/16/qjir7xwoqlrjiualqpyg/lilac-edition-sugarfree--grapefruit-and-blossom"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-lilac-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:tr-TR",
             "header_data": {
                 "content": {
@@ -569,5 +622,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-11-29T05:49:46.926480+00:00"
+    "collection_timestamp": "2026-01-17T05:50:22.376752+00:00"
 }

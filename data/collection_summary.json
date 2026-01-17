@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-16T05:56:14.004144+00:00",
+        "collection_date": "2026-01-17T05:51:42.256648+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -540,7 +540,7 @@
                 "ch-fr"
             ],
             "flag_code": "CH",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "ch-de.json"
         },
         "Taiwan": {
@@ -559,7 +559,7 @@
                 "tr-tr"
             ],
             "flag_code": "TR",
-            "editions_count": 9,
+            "editions_count": 10,
             "data_file": "tr-tr.json"
         },
         "Ukraine": {
