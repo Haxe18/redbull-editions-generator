@@ -42,6 +42,16 @@
             "product_url": "https://www.redbull.com/se-sv/energydrink/products/red-bull-winter-edition"
         },
         {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/6/vsoz1rmgfwp7qjq3km2o/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition Image",
+            "product_url": "https://www.redbull.com/se-en/energydrink/products/red-bull-peach-edition"
+        },
+        {
             "name": "The Peach Edition Sugarfree",
             "flavor": "White Peach",
             "flavor_description": "The Red Bull Peach Edition Sugarfree offers the taste of White Peach with a touch of citrus peel and floral notes",
@@ -63,8 +73,8 @@
         },
         {
             "name": "The Pink Edition Sugarfree",
-            "flavor": "Forest Fruits",
-            "flavor_description": "The Pink Edition Sugarfree offers the taste of Raspberry and other fruits complemented by exciting herbal notes of verbena",
+            "flavor": "Forest Berry",
+            "flavor_description": "The Energy Drink with the taste of Raspberry and other fruits complemented by exciting herbal notes of verbena",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/14/owot3qcusl0dah3i3brr/red-bull-pink-edition-image",
@@ -73,8 +83,8 @@
         },
         {
             "name": "The Purple Edition",
-            "flavor": "Acai Berry",
-            "flavor_description": "The Red Bull Purple Edition with the taste of exotic Acai Berry",
+            "flavor": "Acai",
+            "flavor_description": "Experience the unique taste of exotic Acai Berry. The Red Bull Purple Edition",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/1/12/xhvl4gthuplayhrfifud/red-bull-the-purple-edition",
@@ -84,7 +94,7 @@
         {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
-            "flavor_description": "The Red Bull Sea Blue Edition with the enticing berry taste of Juneberry. Red Bull The Sea Blue Edition gives you wings with the enticing berry taste",
+            "flavor_description": "The Red Bull Juneberry Edition with the enticing berry taste of Juneberry. Red Bull The Sea Blue Edition gives you wings with the enticing berry taste",
             "sugarfree": false,
             "color": "#0072CE",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/ulemnxd5xi7lad965hei/red-bull-the-sea-blue-edition-image",
@@ -104,7 +114,7 @@
         {
             "name": "The White Edition",
             "flavor": "Coconut-Blueberry",
-            "flavor_description": "The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
+            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/d5om3ssukpxpexmflv2w/red-bull-white-edition-image",
@@ -123,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SE.svg",
-    "_raw_hash": "6e390324cc7833c97725bb4fd067c7ca878bfede319aabc18520add732d0cb7b",
+    "_raw_hash": "873aa45fc230d19ab8c1fb7491c92862e45377e18b1c018e702149c684126621",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-SE",
@@ -207,6 +217,13 @@
             "name": "The Blue Edition",
             "flavor": "Blueberry",
             "description": "The Red Bull Blue Edition. A classic, with the fruity taste of blueberry.",
+            "product_url": "https://www.redbull.com/se-en/energydrink/products/red-bull-peach-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-SE",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition offers the taste of white peach with a touch of citrus peel and floral notes.",
             "product_url": "https://www.redbull.com/se-en/energydrink/products/red-bull-peach-edition"
         }
     ]

@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-17T05:51:42.256648+00:00",
+        "collection_date": "2026-01-20T06:04:10.782682+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -167,7 +167,7 @@
                 "dk-da"
             ],
             "flag_code": "DK",
-            "editions_count": 7,
+            "editions_count": 9,
             "data_file": "dk-da.json"
         },
         "Dominican Republic": {},
@@ -413,7 +413,7 @@
                 "no-no"
             ],
             "flag_code": "NO",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "no-no.json"
         },
         "Pakistan": {
@@ -530,7 +530,7 @@
                 "se-en"
             ],
             "flag_code": "SE",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "se-en.json"
         },
         "Switzerland": {

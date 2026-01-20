@@ -199,6 +199,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:no-NO",
+            "header_data": {
+                "content": {
+                    "title": "Lilac Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/19/wvds1nqjtssjqjy0yuv0/red-bull-lilac-edition-packshot",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#9A7ADD",
+                                    "percentage": 24.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC2D6",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#D9E1E8",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#E7F2E9",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "red-bull-lilac-edition-packshot"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-lilac-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Grapefruit-Woodruff",
+                    "standfirst": "Energidrikk med nydelig smak av rosa grapefrukt, toppet med subtile blomsternoter.",
+                    "brandingHexColorCode": "#7d62ce",
+                    "image": {
+                        "altText": "red-bull-lilac-edition-packshot",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/19/wvds1nqjtssjqjy0yuv0/red-bull-lilac-edition-packshot"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-lilac-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:no-NO",
             "header_data": {
                 "content": {
@@ -662,5 +715,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-11-25T05:46:09.970621+00:00"
+    "collection_timestamp": "2026-01-20T05:57:24.694999+00:00"
 }
