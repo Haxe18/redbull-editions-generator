@@ -12,6 +12,16 @@
             "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-energy-drink"
         },
         {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "Zero Calories, 100% Bull",
+            "sugarfree": true,
+            "color": "#93BFE5",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/30/gwv9thtkqkw3upfxpwvk/red-bull-zero-energy-drink",
+            "alt_text": "Red Bull Zero Energy Drink",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-zero"
+        },
+        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
@@ -22,8 +32,18 @@
             "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-sugarfree"
         },
         {
+            "name": "The Winter Edition",
+            "flavor": "Apple-Juniper",
+            "flavor_description": "The Red Bull Winter Edition with a sweet taste of red apple and a tangy taste of juniper",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/20/w5gmddtu3auxa4cizmca/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "name": "The Summer Edition",
-            "flavor": "Curuba-Elderflower",
+            "flavor": "Curuba",
             "flavor_description": "Is it prepared for summer? That's why as you know: Red Bull gives you wings",
             "sugarfree": false,
             "color": "#6cc24a",
@@ -53,7 +73,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-MK.svg",
-    "_raw_hash": "f6aaea94284895d6a6558a1c9aa168b61a229766088914d0711ab2c89f8e4f15",
+    "_raw_hash": "827c1847a0614747463dc322e0b221d2aa87d1bc5a5ca4d7c5c04c832f698ac9",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:mk-MK",
@@ -89,6 +109,20 @@
             "flavor": "Apricot-Strawberry",
             "description": "Red Bull Apricot Edition with the pleasant taste of apricot and strawberry",
             "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-apricot-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:mk-MK",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "description": "ZERO CALORIES, 100% BULL",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:mk-MK",
+            "name": "The Winter Edition",
+            "flavor": "Apple-Juniper",
+            "description": "The Red Bull Winter Edition with a sweet taste of red apple and a tangy taste of juniper.",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-winter-edition"
         }
     ]
 }

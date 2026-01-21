@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-20T06:04:10.782682+00:00",
+        "collection_date": "2026-01-21T06:01:07.026811+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -85,7 +85,7 @@
                 "br-pt"
             ],
             "flag_code": "BR",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "br-pt.json"
         },
         "Bulgaria": {
@@ -404,7 +404,7 @@
                 "mk-mk"
             ],
             "flag_code": "MK",
-            "editions_count": 5,
+            "editions_count": 7,
             "data_file": "mk-mk.json"
         },
         "Norway": {
