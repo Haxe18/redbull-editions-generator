@@ -34,7 +34,7 @@
         {
             "name": "The Winter Edition",
             "flavor": "Iced Vanilla Berry",
-            "flavor_description": "The Red Bull Winter Edition with the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
+            "flavor_description": "Wings for your winter: The Red Bull Winter Edition with the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
             "sugarfree": false,
             "color": "#53b2c2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/15/m5ray6pilfccigsjzgli/red-bull-winter-edition",
@@ -77,7 +77,7 @@
             "flavor_description": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry artificially flavoured",
             "sugarfree": false,
             "color": "#0072CE",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/2/27/cuhwdgteqdcmqf7gr05d/red-bull-the-sea-blue-edition-image",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/26/vsnlhscbjbk6wcuhtpjx/red-bull-the-sea-blue-edition-image",
             "alt_text": "Red Bull The Sea Blue Edition - Image",
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-sea-blue-edition"
         },
@@ -103,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CA.svg",
-    "_raw_hash": "eba27b8f3b5e18afcdd54c0d63c6e6fc7a0dd10abd8f7134d7a80719120bad76",
+    "_raw_hash": "21ea477b468702dcacdf90ba68a603aef80dc5246ba2c2384126157ee9e082c8",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-CA",
@@ -134,6 +134,20 @@
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-winter-edition"
         },
         {
+            "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:en-CA",
+            "name": "The Pink Edition",
+            "flavor": "Forest Berry",
+            "description": "The Red Bull Pink Edition gives you Wings with the taste of raspberry and herbal notes of verbena.",
+            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-pink-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-CA",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Wildflower-and-Pink Grapefruit",
+            "description": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and blossom, topped with subtle floral notes.",
+            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-lilac-edition-sugarfree"
+        },
+        {
             "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-CA",
             "name": "The Peach Edition",
             "flavor": "White Peach",
@@ -160,20 +174,6 @@
             "flavor": "Watermelon",
             "description": "The Red Bull Red Edition with the fresh taste of watermelon artificially flavoured",
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:en-CA",
-            "name": "The Pink Edition",
-            "flavor": "Forest Berry",
-            "description": "The Red Bull Pink Edition gives you Wings with the taste of raspberry and herbal notes of verbena.",
-            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-pink-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-CA",
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Wildflower-and-Pink Grapefruit",
-            "description": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and blossom, topped with subtle floral notes.",
-            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-lilac-edition-sugarfree"
         }
     ]
 }

@@ -464,38 +464,38 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/2/27/cuhwdgteqdcmqf7gr05d/red-bull-the-sea-blue-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/26/vsnlhscbjbk6wcuhtpjx/red-bull-the-sea-blue-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#067EC1",
-                                    "percentage": 16.9
+                                    "hexColorCode": "#1E7DBE",
+                                    "percentage": 17.4
                                 },
                                 {
-                                    "hexColorCode": "#C8CBD1",
-                                    "percentage": 3.5
+                                    "hexColorCode": "#D8E1E8",
+                                    "percentage": 4.1
                                 },
                                 {
-                                    "hexColorCode": "#F4F3F2",
-                                    "percentage": 2.5
+                                    "hexColorCode": "#175AA4",
+                                    "percentage": 2.6
                                 },
                                 {
-                                    "hexColorCode": "#E7ECEF",
-                                    "percentage": 2.5
+                                    "hexColorCode": "#F6F5F4",
+                                    "percentage": 2
                                 },
                                 {
-                                    "hexColorCode": "#52A4D6",
-                                    "percentage": 2.3
+                                    "hexColorCode": "#C1C9D3",
+                                    "percentage": 2
                                 },
                                 {
-                                    "hexColorCode": "#0058A5",
-                                    "percentage": 2.2
+                                    "hexColorCode": "#1561A5",
+                                    "percentage": 2
                                 },
                                 {
-                                    "hexColorCode": "#EBEBE9",
-                                    "percentage": 0.7
+                                    "hexColorCode": "#5BA1CE",
+                                    "percentage": 0.9
                                 },
                                 {
-                                    "hexColorCode": "#054A9B",
+                                    "hexColorCode": "#0F0F0F",
                                     "percentage": 0.6
                                 }
                             ]
@@ -515,7 +515,7 @@
                     "image": {
                         "altText": "Red Bull The Sea Blue Edition - Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/2/27/cuhwdgteqdcmqf7gr05d/red-bull-the-sea-blue-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/1/26/vsnlhscbjbk6wcuhtpjx/red-bull-the-sea-blue-edition-image"
                         }
                     },
                     "reference": {
@@ -663,5 +663,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-06T05:42:34.760187+00:00"
+    "collection_timestamp": "2026-01-27T05:46:15.670177+00:00"
 }

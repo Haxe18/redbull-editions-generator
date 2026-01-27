@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-24T05:52:34.676071+00:00",
+        "collection_date": "2026-01-27T06:02:03.672951+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -247,10 +247,11 @@
         "India": {
             "domain": "in-en",
             "all_domains": [
-                "in-en"
+                "in-en",
+                "in-hi"
             ],
             "flag_code": "IN",
-            "editions_count": 4,
+            "editions_count": 5,
             "data_file": "in-en.json"
         },
         "Indonesia": {

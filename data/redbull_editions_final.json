@@ -825,7 +825,7 @@
             {
                 "name": "The Winter Edition",
                 "flavor": "Iced Vanilla Berry",
-                "flavor_description": "The Red Bull Winter Edition with the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
+                "flavor_description": "Wings for your winter: The Red Bull Winter Edition with the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
                 "sugarfree": false,
                 "color": "#53b2c2",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/15/m5ray6pilfccigsjzgli/red-bull-winter-edition",
@@ -868,7 +868,7 @@
                 "flavor_description": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry artificially flavoured",
                 "sugarfree": false,
                 "color": "#0072CE",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/2/27/cuhwdgteqdcmqf7gr05d/red-bull-the-sea-blue-edition-image",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/26/vsnlhscbjbk6wcuhtpjx/red-bull-the-sea-blue-edition-image",
                 "alt_text": "Red Bull The Sea Blue Edition - Image",
                 "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-sea-blue-edition"
             },
@@ -2187,6 +2187,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/xxjnj0gedzaeglcj550a/red-bull-sugarfree",
                 "alt_text": "Red Bull Sugarfree",
                 "product_url": "https://www.redbull.com/sugarfree"
+            },
+            {
+                "name": "The Pink Edition",
+                "flavor": "White Peach",
+                "flavor_description": "Wings for every taste: The Red Bull Pink Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
+                "sugarfree": false,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/26/fnrwphbh9enn79pm8wdh/red-bull-peach-edition-image",
+                "alt_text": "Red Bull Peach Edition - Image",
+                "product_url": "https://www.redbull.com/in-en/energydrink/products/red-bull-pink-edition"
             },
             {
                 "name": "The Yellow Edition",
