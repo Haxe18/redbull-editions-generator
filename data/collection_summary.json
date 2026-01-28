@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-27T06:02:03.672951+00:00",
+        "collection_date": "2026-01-28T06:01:02.776621+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -67,7 +67,7 @@
                 "be-fr"
             ],
             "flag_code": "BE",
-            "editions_count": 10,
+            "editions_count": 13,
             "data_file": "be-nl.json"
         },
         "Bosnia and Herzegovina": {
