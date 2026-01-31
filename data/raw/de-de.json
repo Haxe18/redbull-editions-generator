@@ -630,79 +630,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:de-DE",
-            "header_data": {
-                "content": {
-                    "title": "Purple Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/h1uxf3bwzcjf1wvjhuzv/red-bull-purple-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#7C3382",
-                                    "percentage": 20.2
-                                },
-                                {
-                                    "hexColorCode": "#CECED5",
-                                    "percentage": 5.8
-                                },
-                                {
-                                    "hexColorCode": "#60225F",
-                                    "percentage": 2.1
-                                },
-                                {
-                                    "hexColorCode": "#4E184A",
-                                    "percentage": 1.7
-                                },
-                                {
-                                    "hexColorCode": "#E8EAEC",
-                                    "percentage": 1.6
-                                },
-                                {
-                                    "hexColorCode": "#440E40",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#AA7AB1",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#FFFFFF",
-                                    "percentage": 0.6
-                                },
-                                {
-                                    "hexColorCode": "#D5B8D7",
-                                    "percentage": 0.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Purple Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/de-de/energydrink/red-bull-purple-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Açai Berry",
-                    "standfirst": "Erlebe den einzigartigen Geschmack der exotischen Açai Beere. Die Red Bull Purple Edition.",
-                    "brandingHexColorCode": "#702082",
-                    "image": {
-                        "altText": "Red Bull Purple Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/h1uxf3bwzcjf1wvjhuzv/red-bull-purple-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/de-de/energydrink/red-bull-purple-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:de-DE",
             "header_data": {
                 "content": {
@@ -967,5 +894,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-06T05:46:34.258394+00:00"
+    "collection_timestamp": "2026-01-31T06:00:11.763002+00:00"
 }

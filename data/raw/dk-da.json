@@ -227,13 +227,13 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/dk-da/energydrink/products/lilac-edition"
+                    "externalUrl": "https://www.redbull.com/dk-da/energydrink/products/red-bull-lilac-edition"
                 }
             },
             "graphql_data": {
                 "data": {
                     "flavour": "Wildflower & Pink Grapefruit-smag",
-                    "standfirst": "Red Bull Peach Edition tilbyder smagen af wild flower og pink grapefruit-smag.",
+                    "standfirst": "Red Bull giver viiinger: Red Bull Lilac Edition Energy Drink med smagen af wildflower og pink grapefrugt.",
                     "brandingHexColorCode": "#7d62ce",
                     "image": {
                         "altText": "The Lilac Edition",
@@ -242,7 +242,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/dk-da/energydrink/products/lilac-edition"
+                        "externalUrl": "https://www.redbull.com/dk-da/energydrink/products/red-bull-lilac-edition"
                     }
                 }
             }
@@ -533,5 +533,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-20T05:50:24.657636+00:00"
+    "collection_timestamp": "2026-01-31T05:58:04.286385+00:00"
 }
