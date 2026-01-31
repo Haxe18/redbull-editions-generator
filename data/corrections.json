@@ -1,12 +1,6 @@
 {
     "corrections": [
         {
-            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT",
-            "field": "flavor",
-            "search": "Wildflower-and-Pink Grapefruit",
-            "replace": "Woodruff & Pink Grapefruit"
-        },
-        {
             "id": "252c2121-8871-4996-90dd-06d374834ead:da-DK",
             "field": "flavor",
             "search": "Forest Fruits",
@@ -25,12 +19,6 @@
             "replace": "Woodruff & Pink Grapefruit"
         },
         {
-            "id": "energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:et-EE",
-            "field": "flavor",
-            "search": "Dragon fruit",
-            "replace": "Cactus Fruit"
-        },
-        {
             "id": "9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB",
             "field": "flavor",
             "search": "Dragon Fruit",
@@ -41,18 +29,6 @@
             "field": "flavor",
             "search": "Iced Gummy Bear",
             "replace": "Iced Vanilla Berry"
-        },
-        {
-            "id": "9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB",
-            "field": "flavor_description",
-            "search": "Dragon Fruit",
-            "replace": "Curuba Elderflower"
-        },
-        {
-            "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-MEA",
-            "field": "flavor_description",
-            "search": "Summer Edition",
-            "replace": "The Apricot Edition"
         },
         {
             "id": "ac367322-24c1-44a9-ad4a-1e022f9347d6:fi-FI",
@@ -109,12 +85,6 @@
             "replace": "Iced Vanilla Berry"
         },
         {
-            "id": "9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pt-BR",
-            "field": "flavor",
-            "search": "Iced Vanilla Berry",
-            "replace": "Blueberry & Vanilla"
-        },
-        {
             "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
             "field": "flavor",
             "search": "Strawberry and apricot",
@@ -139,18 +109,6 @@
             "replace": "White Peach"
         },
         {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:et-EE",
-            "field": "flavor",
-            "search": "White Peach",
-            "replace": "Peach"
-        },
-        {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:no-NO",
-            "field": "flavor",
-            "search": "White Peach",
-            "replace": "Peach"
-        },
-        {
             "id": "2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd",
             "field": "flavor",
             "search": "Juneberry",
@@ -167,12 +125,6 @@
             "field": "flavor",
             "search": "Acai Berry",
             "replace": "Forest Berry"
-        },
-        {
-            "id": "77e43776-f55c-4250-a143-f126e7b543ed:en-SE",
-            "field": "flavor_description",
-            "search": "The Red Edition",
-            "replace": "The Lilac Edition"
         }
     ],
     "comments": [
