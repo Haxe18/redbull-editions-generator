@@ -862,6 +862,10 @@ class RedBullDataProcessor:
         # Remove multiple spaces
         original_flavor = " ".join(original_flavor.split())
 
+        # HARDCODED CORRECTION: Curuba -> Curuba-Elderflower
+        if original_flavor == "Curuba":
+            return "Curuba-Elderflower"
+
         # CRITICAL CHECK: If it's in the approved list - RETURN IMMEDIATELY, DO NOT MODIFY
         if original_flavor in self.APPROVED_FLAVORS:
             if self.verbose:
@@ -1642,7 +1646,7 @@ class RedBullDataProcessor:
         - Do NOT extend/fill the description with generic informations
         - Do NOT remove/replace flavor's in the description, keep them as provided
         - Example: "Maracujá" → "Maracuja" (NOT "Passion Fruit"!)
-        - Example: "Curuba" → "Curuba" (NOT "cuban" or any other interpretation!)
+        - Example: "Curuba" → "Curuba-Elderflower" (NOT "cuban" or any other interpretation!)
 
         EXAMPLES:
         - name: "The Red Edition", flavor: "Watermelon"
@@ -1656,7 +1660,7 @@ class RedBullDataProcessor:
         - Forest fruits (English, any case) → Forest Fruits
         - Ice/Ľadová → Iced
         - Maracujá → Maracuja (NOT Passion Fruit!)
-        - Curuba → Curuba (NOT cuban!)
+        - Curuba → Curuba-Elderflower (NOT cuban!)
         - Keep order: "vanilka-čučoriedky" → "Vanilla-Blueberry"
 
         CRITICAL: Keep "Forest Berry" and "Forest Fruits" DISTINCT:
