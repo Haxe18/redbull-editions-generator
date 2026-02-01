@@ -187,6 +187,7 @@ class RedBullDataProcessor:
     APPROVED_EDITIONS = [
         "Amber Edition",
         "Amora Edition",
+        "Apple Edition",
         "Apricot Edition",
         "Berry Edition",
         "Blue Edition",
