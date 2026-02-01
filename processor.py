@@ -1638,6 +1638,7 @@ class RedBullDataProcessor:
         - Prefer the word "taste", do not active replace with "flavor"
         - Cleanup the sentence to be human readable, remove e.g. * (asterisk) or - (Dash)
         - Covert the "Wiiings" (multiple "i") marketing word to normal "Wings"
+        - CRITICAL: PRESERVE ALL NUMBERS AND PERCENTAGES (e.g., "100% Wings", "0% Sugar") - DO NOT remove them!
 
         CRITICAL TRANSLATION RULES - DO NOT INTERPRET OR IMPROVE:
         - Translate EXACTLY as written - DO NOT interpret or improve flavor names
@@ -2850,16 +2851,85 @@ class RedBullDataProcessor:
             # Hard-coded rules for Energy Drink variants (case-insensitive)
             if name_lower == "energy drink sugarfree":
                 edition["flavor"] = "Sugarfree"
+                edition["sugarfree"] = True
                 if self.verbose:
-                    self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Sugarfree")
+                    self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Sugarfree, sugarfree: True")
             elif name_lower == "energy drink zero":
                 edition["flavor"] = "Zero Sugar"
+                edition["sugarfree"] = True
                 if self.verbose:
-                    self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Zero Sugar")
+                    self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Zero Sugar, sugarfree: True")
             elif name_lower == "energy drink":
                 edition["flavor"] = "Energy Drink"
                 if self.verbose:
                     self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Energy Drink")
+
+    def enforce_sugarfree_logic(self, editions: List[Dict]) -> None:
+        """
+        Force sugarfree status based on strong keywords in URL, name, or flavor.
+        This overrides AI mistakes where it fails to detect sugarfree status.
+        """
+        sugarfree_keywords = [
+            "sugarfree",
+            "sugar-free",
+            "zero",
+            "zuckerfrei",
+            "sem açúcar",
+            "sin azúcar",
+            "senza zucchero",
+            "sokeros",
+            "sockerfri",
+            "cukormentes",
+            "bez cukru",
+            "uten sukker",
+            "uden sukker",
+            "sokeriton",
+            "sugarlane",
+        ]
+
+        for edition in editions:
+            # Skip if already sugarfree
+            if edition.get("sugarfree", False):
+                continue
+
+            is_sugarfree = False
+            match_source = ""
+
+            # Check name
+            name_lower = edition.get("name", "").lower()
+
+            # Check flavor
+            flavor_lower = edition.get("flavor", "").lower()
+            raw_flavor_lower = str(edition.get("_raw_flavor", "")).lower()
+
+            # Check URL
+            url_lower = edition.get("product_url", "").lower()
+
+            # Check all fields against keywords
+            for keyword in sugarfree_keywords:
+                # Word boundary check for some might be better, but substring is safer for now
+                # given the variations in URLs and raw data
+                if keyword in name_lower:
+                    is_sugarfree = True
+                    match_source = f"name ({keyword})"
+                    break
+                if keyword in flavor_lower:
+                    is_sugarfree = True
+                    match_source = f"flavor ({keyword})"
+                    break
+                if keyword in raw_flavor_lower:
+                    is_sugarfree = True
+                    match_source = f"raw_flavor ({keyword})"
+                    break
+                if keyword in url_lower:
+                    is_sugarfree = True
+                    match_source = f"url ({keyword})"
+                    break
+
+            if is_sugarfree:
+                edition["sugarfree"] = True
+                if self.verbose:
+                    self.thread_safe_print(f"      🔧 Forced sugarfree: {edition.get('name')} (detected in {match_source})")
 
     def fix_edition_names(self, editions: List[Dict]) -> None:
         """
@@ -2964,9 +3034,8 @@ class RedBullDataProcessor:
                             # Track this edition ID for later processing
                             editions_needing_translation.append(edition_id)
                             if self.verbose:
-                                self.thread_safe_print(
-                                    f"    🆕 New edition needs translation: {edition.get('header_data', {}).get('content', {}).get('title', 'Unknown')}"
-                                )
+                                title = edition.get("header_data", {}).get("content", {}).get("title", "Unknown")
+                                self.thread_safe_print(f"    🆕 New edition needs translation: {title}")
 
                     # Set the partial cache
                     translated_cache = cached_editions if cached_editions else None
@@ -3062,6 +3131,9 @@ class RedBullDataProcessor:
             editions_to_translate,
             source_language,
         )
+
+        # Force sugarfree status based on keywords (overrides AI mistakes)
+        self.enforce_sugarfree_logic(editions_to_process)
 
         # Apply hard-coded Energy Drink flavor rules (AFTER AI normalization)
         self.apply_energy_drink_flavor_rules(editions_to_process)
