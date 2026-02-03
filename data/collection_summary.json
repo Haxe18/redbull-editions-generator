@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-01-31T06:12:44.567524+00:00",
+        "collection_date": "2026-02-03T06:21:36.581359+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -158,7 +158,7 @@
                 "cz-cs"
             ],
             "flag_code": "CZ",
-            "editions_count": 9,
+            "editions_count": 10,
             "data_file": "cz-cs.json"
         },
         "Denmark": {
