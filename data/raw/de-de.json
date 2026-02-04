@@ -678,7 +678,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/de-de/energydrink/red-bull-green-edition"
+                    "externalUrl": "https://www.redbull.com/de-de/energydrink/products/red-bull-green-edition"
                 }
             },
             "graphql_data": {
@@ -693,7 +693,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/de-de/energydrink/red-bull-green-edition"
+                        "externalUrl": "https://www.redbull.com/de-de/energydrink/products/red-bull-green-edition"
                     }
                 }
             }
@@ -894,5 +894,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-31T06:00:11.763002+00:00"
+    "collection_timestamp": "2026-02-04T06:10:39.749897+00:00"
 }

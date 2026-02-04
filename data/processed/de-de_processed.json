@@ -109,7 +109,7 @@
             "color": "#00c65e",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/n8hnfirgt7um3dtknzv3/red-bull-green-edition-image",
             "alt_text": "Red Bull Green Edition - image",
-            "product_url": "https://www.redbull.com/de-de/energydrink/red-bull-green-edition"
+            "product_url": "https://www.redbull.com/de-de/energydrink/products/red-bull-green-edition"
         },
         {
             "name": "The Apricot Edition",
@@ -143,7 +143,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DE.svg",
-    "_raw_hash": "d4f09142ac35356ecccf51dd27a39c7692aebc2629a11f99e074f0477c563ea0",
+    "_raw_hash": "5d47d2ec1dc155ea90f01876342b62893e93bc6d76f1b5e17e7f8401f2daac64",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-DE",
@@ -220,7 +220,7 @@
             "name": "The Green Edition",
             "flavor": "Cactus Fruit",
             "description": "The Red Bull Green Edition with the exotic taste of cactus fruit.",
-            "product_url": "https://www.redbull.com/de-de/energydrink/red-bull-green-edition"
+            "product_url": "https://www.redbull.com/de-de/energydrink/products/red-bull-green-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-DE",
