@@ -69,6 +69,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:bs-BA",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/5/ma2p5v9i27rgxbf4ectt/red-bull-zero",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.8
+                                },
+                                {
+                                    "hexColorCode": "#C80D31",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DEE9F1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#798493",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FCF9F7",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero",
+                    "standfirst": "Nula šećera. 100% Kriiila.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/5/ma2p5v9i27rgxbf4ectt/red-bull-zero"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:bs-BA",
             "header_data": {
                 "content": {
@@ -329,5 +390,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-12-03T05:35:19.142222+00:00"
+    "collection_timestamp": "2026-02-06T06:08:36.482937+00:00"
 }

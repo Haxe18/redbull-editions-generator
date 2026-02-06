@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-04T06:23:17.578890+00:00",
+        "collection_date": "2026-02-06T06:26:39.812170+00:00",
         "total_countries": 67,
         "changes_detected": [],
         "successful_countries": 67
@@ -76,7 +76,7 @@
                 "ba-bs"
             ],
             "flag_code": "BA",
-            "editions_count": 5,
+            "editions_count": 6,
             "data_file": "ba-bs.json"
         },
         "Brazil": {

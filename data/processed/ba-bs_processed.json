@@ -12,6 +12,16 @@
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-energy-drink"
         },
         {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "Zero sugar. 100% Wings",
+            "sugarfree": true,
+            "color": "#93BFE4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/5/ma2p5v9i27rgxbf4ectt/red-bull-zero",
+            "alt_text": "Red Bull Zero",
+            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-zero"
+        },
+        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
@@ -53,7 +63,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg",
-    "_raw_hash": "80461ee9b04c00a19651e7c793632a5df05cd4d624d4c98b1bb1e3be7f167e83",
+    "_raw_hash": "e813913aedde4a70a5f1ca8ca3fc310141c8a8eb03453fffdbf23849e6acb5d1",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bs-BA",
@@ -89,6 +99,13 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the refreshing taste of watermelon.",
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:bs-BA",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero",
+            "description": "Zero sugar. 100% Wings.",
+            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-zero"
         }
     ]
 }
