@@ -1,9 +1,9 @@
 {
     "metadata": {
         "collection_date": "2026-02-06T06:26:39.812170+00:00",
-        "total_countries": 67,
+        "total_countries": 66,
         "changes_detected": [],
-        "successful_countries": 67
+        "successful_countries": 66
     },
     "countries": {
         "Albania": {
@@ -14,15 +14,6 @@
             "flag_code": "AL",
             "editions_count": 5,
             "data_file": "al-sq.json"
-        },
-        "Algeria": {
-            "domain": "dz-fr",
-            "all_domains": [
-                "dz-fr"
-            ],
-            "flag_code": "DZ",
-            "editions_count": 1,
-            "data_file": "dz-fr.json"
         },
         "Argentina": {
             "domain": "ar-es",
