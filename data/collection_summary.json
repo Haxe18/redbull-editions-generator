@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-06T06:26:39.812170+00:00",
+        "collection_date": "2026-02-10T06:37:02.766093+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -39,7 +39,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 14,
+            "editions_count": 15,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -459,7 +459,7 @@
                 "ro-ro"
             ],
             "flag_code": "RO",
-            "editions_count": 9,
+            "editions_count": 8,
             "data_file": "ro-ro.json"
         },
         "Serbia": {
@@ -569,7 +569,7 @@
                 "gb-en"
             ],
             "flag_code": "GB",
-            "editions_count": 17,
+            "editions_count": 19,
             "data_file": "gb-en.json"
         },
         "United States": {

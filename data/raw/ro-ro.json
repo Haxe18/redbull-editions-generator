@@ -333,123 +333,62 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:ro-RO",
+            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO",
             "header_data": {
                 "content": {
-                    "title": "Tropical"
+                    "title": "Afine Canadiene"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/s8tx1vvycsa5kp8et6zp/red-bull-tropical-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#F2C003",
-                                    "percentage": 20.2
+                                    "hexColorCode": "#057EC1",
+                                    "percentage": 21.2
                                 },
                                 {
-                                    "hexColorCode": "#F7D10D",
-                                    "percentage": 4.6
+                                    "hexColorCode": "#D7D9DE",
+                                    "percentage": 5.2
                                 },
                                 {
-                                    "hexColorCode": "#D9E2E9",
-                                    "percentage": 3.7
+                                    "hexColorCode": "#0058A5",
+                                    "percentage": 2.6
                                 },
                                 {
-                                    "hexColorCode": "#B9C3D1",
-                                    "percentage": 2.1
+                                    "hexColorCode": "#5BA6D6",
+                                    "percentage": 2.2
                                 },
                                 {
-                                    "hexColorCode": "#E9CF66",
-                                    "percentage": 0.8
+                                    "hexColorCode": "#E3E9ED",
+                                    "percentage": 1.6
                                 },
                                 {
-                                    "hexColorCode": "#767D83",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#798291",
-                                    "percentage": 0.7
+                                    "hexColorCode": "#F9F6F3",
+                                    "percentage": 1.2
                                 }
                             ]
                         },
-                        "altText": "Red Bull Tropical Edition - image"
+                        "altText": "Red Bull Afine Canadiene"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-tropical"
+                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Tropical. Fii surprins de gustul exotic de fructe tropicale.",
-                    "brandingHexColorCode": "#FFCD00",
+                    "flavour": "Juneberry",
+                    "standfirst": "Red Bull Afine Canadiene cu aromă răcoritoare de afine canadiene",
+                    "brandingHexColorCode": "#0072CE",
                     "image": {
-                        "altText": "Red Bull Tropical Edition - image",
+                        "altText": "Red Bull Afine Canadiene",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/s8tx1vvycsa5kp8et6zp/red-bull-tropical-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-tropical"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ro-RO",
-            "header_data": {
-                "content": {
-                    "title": "Pepene Roșu"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#D72716",
-                                    "percentage": 18.7
-                                },
-                                {
-                                    "hexColorCode": "#E7574E",
-                                    "percentage": 6.6
-                                },
-                                {
-                                    "hexColorCode": "#D6E0E7",
-                                    "percentage": 4
-                                },
-                                {
-                                    "hexColorCode": "#BFC7D1",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#05933E",
-                                    "percentage": 0.9
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Red Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Watermelon",
-                    "standfirst": "Red Bull cu gust proaspăt de pepene roșu. Pentru vara ta.",
-                    "brandingHexColorCode": "#B9042A",
-                    "image": {
-                        "altText": "Red Bull Red Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
+                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
                     }
                 }
             }
@@ -516,66 +455,62 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO",
+            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ro-RO",
             "header_data": {
                 "content": {
-                    "title": "Afine Canadiene"
+                    "title": "Pepene Roșu"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#057EC1",
-                                    "percentage": 21.2
+                                    "hexColorCode": "#D72716",
+                                    "percentage": 18.7
                                 },
                                 {
-                                    "hexColorCode": "#D7D9DE",
-                                    "percentage": 5.2
+                                    "hexColorCode": "#E7574E",
+                                    "percentage": 6.6
                                 },
                                 {
-                                    "hexColorCode": "#0058A5",
-                                    "percentage": 2.6
+                                    "hexColorCode": "#D6E0E7",
+                                    "percentage": 4
                                 },
                                 {
-                                    "hexColorCode": "#5BA6D6",
-                                    "percentage": 2.2
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.5
                                 },
                                 {
-                                    "hexColorCode": "#E3E9ED",
-                                    "percentage": 1.6
-                                },
-                                {
-                                    "hexColorCode": "#F9F6F3",
-                                    "percentage": 1.2
+                                    "hexColorCode": "#05933E",
+                                    "percentage": 0.9
                                 }
                             ]
                         },
-                        "altText": "Red Bull Afine Canadiene"
+                        "altText": "Red Bull Red Edition - image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
+                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Juneberry",
-                    "standfirst": "Red Bull Afine Canadiene cu aromă răcoritoare de afine canadiene",
-                    "brandingHexColorCode": "#0072CE",
+                    "flavour": "Watermelon",
+                    "standfirst": "Red Bull cu gust proaspăt de pepene roșu. Pentru vara ta.",
+                    "brandingHexColorCode": "#B9042A",
                     "image": {
-                        "altText": "Red Bull Afine Canadiene",
+                        "altText": "Red Bull Red Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
+                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
                     }
                 }
             }
         }
     ],
-    "collection_timestamp": "2025-12-05T05:48:31.841215+00:00"
+    "collection_timestamp": "2026-02-10T06:32:04.267551+00:00"
 }
