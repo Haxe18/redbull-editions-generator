@@ -24,7 +24,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "Cherry & Wild Berries",
-            "flavor_description": "Red Bull Summer Edition with the extraordinary taste of Blackberry and Cherry",
+            "flavor_description": "Red Bull Summer Edition with an extraordinary taste of Cherry & Wild Berries",
             "sugarfree": false,
             "color": "#0085c8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/12/ehjc6mczasffg8luzkn2/red-bull-the-summer-edition-juneberry-image",
@@ -40,20 +40,10 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/iztojbla8itume8sapg1/red-bull-red-edition-image",
             "alt_text": "Red Bull Red Edition - image",
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "name": "The Green Edition",
-            "flavor": "Dragon Fruit",
-            "flavor_description": "Red Bull Green Edition with Dragon Fruit flavor",
-            "sugarfree": false,
-            "color": "#00c65e",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/detyrfbxwejxdeaifijv/red-bull-green-edition-image",
-            "alt_text": "Red Bull Green Edition - image",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PE.svg",
-    "_raw_hash": "7fb95722d12e698fea84e5c0d80b85662fb991d0b3d8c133a3067ede6a4736b2",
+    "_raw_hash": "95aaa1ff2f24e191bd9f3c651d6dfc495ca3de68d03a9dbbe584fbd5eeb69bb6",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE",
@@ -70,25 +60,18 @@
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with the fresh taste of watermelon.",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-PE",
-            "name": "The Green Edition",
-            "flavor": "Dragon fruit",
-            "description": "Red Bull Green Edition with dragon fruit flavor",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:es-PE",
             "name": "The Summer Edition",
             "flavor": "Cherry & Forest Berry",
             "description": "Red Bull Summer Edition with an extraordinary taste of Blackberry and Cherry.",
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-summer-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "Red Bull Red Edition with the fresh taste of watermelon.",
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
         }
     ]
 }

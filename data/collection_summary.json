@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-10T06:37:02.766093+00:00",
+        "collection_date": "2026-02-11T06:33:31.068377+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -39,7 +39,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 15,
+            "editions_count": 14,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -278,7 +278,7 @@
                 "it-it"
             ],
             "flag_code": "IT",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "it-it.json"
         },
         "Japan": {
@@ -423,7 +423,7 @@
                 "pe-es"
             ],
             "flag_code": "PE",
-            "editions_count": 5,
+            "editions_count": 4,
             "data_file": "pe-es.json"
         },
         "Philippines": {

@@ -82,16 +82,6 @@
             "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-ice-edition"
         },
         {
-            "name": "The Lime Green Edition",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "The Red Bull Lime Green Edition with the exotic-floral taste of Curuba Elderflower",
-            "sugarfree": false,
-            "color": "#6cc24a",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/10/30/kwxsg7nz5imj4xfhx4ng/red-bull-lime-green-edition",
-            "alt_text": "Red Bull Lime Green Edition",
-            "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-lime-green-edition"
-        },
-        {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Forest Berry",
             "flavor_description": "The Red Bull Pink Edition with the fruity taste of Forest Berry",
@@ -104,7 +94,7 @@
         {
             "name": "The White Edition",
             "flavor": "Coconut-Blueberry",
-            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition - with the taste of exotic Coconut and fruity Blueberry",
+            "flavor_description": "The Red Bull White Edition with the taste of Coconut and Blueberry",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/10/tor2hhzxp1rhqwh1cmiz/red-bull-white-edition-image",
@@ -153,7 +143,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AT.svg",
-    "_raw_hash": "e89f81b1666aa23b1571129b27da422388cb304b43c27fc11c759154584b524f",
+    "_raw_hash": "0ae517f9f641aaf1a7c3b5fa8aac82e9565853b6dfe671a53582bcce870ba672",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-AT",
@@ -198,18 +188,18 @@
             "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-peach-edition"
         },
         {
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Woodruff-and-Pink Grapefruit",
+            "description": "The Red Bull Lilac Edition Sugarfree with the taste of Woodruff and Pink Grapefruit.",
+            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-lilac-edition-sugarfree"
+        },
+        {
             "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-AT",
             "name": "The Ice Edition",
             "flavor": "Iced Gummy Bear",
             "description": "The Red Bull Ice Edition with the extraordinary taste of blueberry, vanilla and an icy fresh eucalyptus note.",
             "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-ice-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:611996f5-8813-46c3-9b18-4c193d39d9d0:de-AT",
-            "name": "The Lime Green Edition",
-            "flavor": "Curuba-Elderflower",
-            "description": "The Red Bull Lime Green Edition with the exotic-floral taste of Curuba-Elderflower.",
-            "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-lime-green-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:de-AT",
@@ -252,13 +242,6 @@
             "flavor": "Apricot-Strawberry",
             "description": "The Red Bull Apricot Edition is the perfect mix of apricot and strawberry with a hint of peach taste.",
             "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-apricot-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT",
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Woodruff-and-Pink Grapefruit",
-            "description": "The Red Bull Lilac Edition Sugarfree with the taste of Woodruff and Pink Grapefruit.",
-            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-lilac-edition-sugarfree"
         }
     ]
 }
