@@ -103,7 +103,37 @@
             "replace": "Raspberry"
         },
         {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501",
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:de-DE",
+            "field": "flavor",
+            "search": "Peach",
+            "replace": "White Peach"
+        },
+        {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:ee-ET",
+            "field": "flavor",
+            "search": "Peach",
+            "replace": "White Peach"
+        },
+        {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:fi-FI",
+            "field": "flavor",
+            "search": "Peach",
+            "replace": "White Peach"
+        },
+        {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:en-GB",
+            "field": "flavor",
+            "search": "Peach",
+            "replace": "White Peach"
+        },
+        {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:se-EN",
+            "field": "flavor",
+            "search": "Peach",
+            "replace": "White Peach"
+        },
+        {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR",
             "field": "flavor",
             "search": "Peach",
             "replace": "White Peach"
@@ -125,6 +155,12 @@
             "field": "flavor",
             "search": "Acai Berry",
             "replace": "Forest Berry"
+        },
+        {
+            "id": "5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-AT",
+            "field": "flavor_description",
+            "search": "100& Flüüügel. 0% Zucker.",
+            "replace": "100% Flüüügel. 0% Zucker."
         }
     ],
     "comments": [
