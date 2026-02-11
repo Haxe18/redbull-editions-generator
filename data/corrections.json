@@ -161,6 +161,12 @@
             "field": "flavor_description",
             "search": "100& Flüüügel. 0% Zucker.",
             "replace": "100% Flüüügel. 0% Zucker."
+        },
+        {
+            "id": "9484225a-90a3-4082-85c5-b6a189556e5b",
+            "field": "flavor",
+            "search": "Gletschereis",
+            "replace": "Glacier Ice"
         }
     ],
     "comments": [
