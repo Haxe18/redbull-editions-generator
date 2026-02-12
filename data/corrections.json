@@ -167,6 +167,36 @@
             "field": "flavor",
             "search": "Gletschereis",
             "replace": "Glacier Ice"
+        },
+        {
+            "id": "1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-AT",
+            "field": "flavor",
+            "search": "Coconut",
+            "replace": "Coconut-Blueberry"
+        },
+        {
+            "id": "1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-DE",
+            "field": "flavor",
+            "search": "Coconut",
+            "replace": "Coconut-Blueberry"
+        },
+        {
+            "id": "1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH",
+            "field": "flavor",
+            "search": "Coconut",
+            "replace": "Coconut-Blueberry"
+        },
+        {
+            "id": "1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-US",
+            "field": "flavor",
+            "search": "Coconut",
+            "replace": "Coconut-Blueberry"
+        },
+        {
+            "id": "1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-GB",
+            "field": "flavor",
+            "search": "Coconut",
+            "replace": "Coconut-Blueberry"
         }
     ],
     "comments": [
