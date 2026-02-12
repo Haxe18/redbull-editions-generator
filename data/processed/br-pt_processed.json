@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by elite athletes, personalities, active students and drivers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by elite athletes, people in demanding professions and drivers on long journeys",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/29/nrw5k5lipaecfljpricw/red-bull-energy-drink",
@@ -32,7 +32,7 @@
             "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-zero"
         },
         {
-            "name": "The Maçã Edition Sugarfree",
+            "name": "The Apple Edition Sugarfree",
             "flavor": "Apple",
             "flavor_description": "Red Bull The Apple Edition Sugarfree: Wings for your Carnival",
             "sugarfree": true,
@@ -44,7 +44,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "White Peach",
-            "flavor_description": "Wings for your summer: Energy with the taste of White Peach",
+            "flavor_description": "Wings for your summer: Red Bull The Summer Edition with the taste of Nectarine",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/13/e3ihgp5a1aasptfmh1o5/red-bull-summer-edition",
@@ -53,8 +53,8 @@
         },
         {
             "name": "The Pomelo Edition Sugarfree",
-            "flavor": "Grapefruit & Blossom",
-            "flavor_description": "Red Bull The Pomelo Edition Sugarfree has the taste of pomelo and subtle floral notes",
+            "flavor": "Pomelo",
+            "flavor_description": "Red Bull Pomelo Edition Sugarfree has the taste of Pomelo and subtle floral notes",
             "sugarfree": true,
             "color": "#7d62ce",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/6/etgul87l9run8pmjig3k/red-bull-pomelo-edition-sugarfree",
@@ -64,7 +64,7 @@
         {
             "name": "The Amora Edition Sugarfree",
             "flavor": "Forest Fruits",
-            "flavor_description": "The Amora Edition Sugarfree: The sugarfree Energy Drink with the taste of red fruits complemented by notes of verbena",
+            "flavor_description": "The Amora Edition Sugarfree: The sugarfree Energy Drink with the taste of red berries complemented by notes of verbena",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/12/ihrja13hgbbdcql9l7vi/red-bull-amora-edition-image",
@@ -74,7 +74,7 @@
         {
             "name": "The Cereja Edition",
             "flavor": "Cherry & Wild Berries",
-            "flavor_description": "Red Bull Cereja Edition with the extraordinary taste of Cherry and Wild Berries",
+            "flavor_description": "Red Bull The Cereja Edition with the extraordinary taste of Cherry and Wild Berries",
             "sugarfree": false,
             "color": "#0072ce",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/29/djogy8xubw6jeyoqltnw/red-bull-summer-edition-image",
@@ -94,7 +94,7 @@
         {
             "name": "The Melão Edition",
             "flavor": "Maracuja & Melon",
-            "flavor_description": "Red Bull The Melão Edition features the taste of Maracuja & Melon",
+            "flavor_description": "Red Bull The Melão Edition features the taste of Maracuja & Melão",
             "sugarfree": false,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/22/jcfv3har46ncj78cofow/red-bull-melao-edition",
@@ -104,7 +104,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Strawberry & Peach",
-            "flavor_description": "Red Bull The Apricot Edition presents the perfect blend of Peach and Strawberry flavor, highlighting the best of each",
+            "flavor_description": "Red Bull The Apricot Edition presents the perfect mix of Peach flavor with Strawberry, highlighting the best of each",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/29/swflluxzhve4nenljueo/red-bull-pessego-edition-image",
@@ -114,7 +114,7 @@
         {
             "name": "The Tropical Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "Be surprised by the taste of Tropical Fruits from Red Bull Tropical Edition",
+            "flavor_description": "Be surprised by the taste of Tropical Fruits of Red Bull The Tropical Edition",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/29/igdvrimilowp1uajwxgz/red-bull-tropical-edition-image",
@@ -129,7 +129,7 @@
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pt-BR",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by elite athletes, personalities, active students and drivers on long journeys.",
+            "description": "Red Bull Energy Drink is appreciated worldwide by elite athletes, people in demanding professions and drivers on long journeys.",
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
@@ -145,6 +145,13 @@
             "flavor": "Zero Sugar",
             "description": "ZERO SUGAR, 100% WINGS.",
             "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR",
+            "name": "The Apple Edition Sugarfree",
+            "flavor": "Apple",
+            "description": "Red Bull Apple Edition Sugarfree: Wings for your Carnival.",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-maca-edition-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pt-BR",
@@ -164,7 +171,7 @@
             "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR",
             "name": "The Amora Edition Sugarfree",
             "flavor": "Forest Fruits",
-            "description": "The Amora Edition Sugarfree: The sugar-free Energy Drink with the taste of red fruits complemented by notes of verbena.",
+            "description": "The Amora Edition Sugarfree: The sugar-free Energy Drink with the taste of red berries complemented by notes of verbena.",
             "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-amora-edition-sugarfree"
         },
         {
@@ -184,30 +191,23 @@
         {
             "edition_id": "rrn:content:energy-drinks:e2b2d3e1-eed4-4a3b-a87e-8a97bc96c246:pt-BR",
             "name": "The Melão Edition",
-            "flavor": "Maracuja & Melon",
-            "description": "Red Bull Melão Edition features the taste of Maracuja & Melon.",
+            "flavor": "Maracuja & Melão",
+            "description": "Red Bull Melão Edition features the taste of Maracuja & Melão.",
             "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-melao-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
             "name": "The Apricot Edition",
             "flavor": "Strawberry & Peach",
-            "description": "Red Bull Pêssego Edition presents the perfect blend of peach and strawberry flavor, highlighting the best of each.",
+            "description": "Red Bull Pêssego Edition presents the perfect mix of peach flavor with strawberry, highlighting the best of each.",
             "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-apricot-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-BR",
             "name": "The Tropical Edition",
             "flavor": "Tropical Fruits",
-            "description": "Be surprised by the taste of tropical fruits from Red Bull Tropical Edition.",
+            "description": "Be surprised by the taste of tropical fruits of Red Bull Tropical Edition.",
             "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-tropical-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR",
-            "name": "Maçã Edition Sugarfree",
-            "flavor": "Apple",
-            "description": "Red Bull Maçã Edition Sugarfree: Wings for your Carnival.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-maca-edition-sugarfree"
         }
     ]
 }
