@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-11T06:33:31.068377+00:00",
+        "collection_date": "2026-02-12T00:30:18.882318+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -486,7 +486,7 @@
                 "sk-sk"
             ],
             "flag_code": "SK",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "sk-sk.json"
         },
         "Slovenia": {
