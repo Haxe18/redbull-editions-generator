@@ -199,6 +199,71 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ar-EG",
+            "header_data": {
+                "content": {
+                    "title": "الكريز والتوت البري"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/9/tlohh1hbk8iyflml0bmq/red-bull-the-sea-blue-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#1F7EBF",
+                                    "percentage": 19.4
+                                },
+                                {
+                                    "hexColorCode": "#D7E0E7",
+                                    "percentage": 4.3
+                                },
+                                {
+                                    "hexColorCode": "#175AA4",
+                                    "percentage": 2.7
+                                },
+                                {
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#1661A6",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#5AA5D1",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#F6F3EF",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull The Sea Blue Edition - Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Juneberry",
+                    "standfirst": "ريد بُل عبوة الأزرق البحري بتقدم طعم الكريز والتوت البري",
+                    "brandingHexColorCode": "#0072CE",
+                    "image": {
+                        "altText": "Red Bull The Sea Blue Edition - Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/9/tlohh1hbk8iyflml0bmq/red-bull-the-sea-blue-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:ar-EG",
             "header_data": {
                 "content": {
@@ -329,5 +394,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-16T05:43:43.961839+00:00"
+    "collection_timestamp": "2026-02-13T00:45:07.449777+00:00"
 }

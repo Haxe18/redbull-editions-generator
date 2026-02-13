@@ -34,7 +34,7 @@
         {
             "name": "The Winter Edition Sugarfree",
             "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "With apple taste and the warm touch of Ginger",
+            "flavor_description": "Red Bull The Winter Edition Sugarfree with the taste of Fuji Apple & Ginger",
             "sugarfree": true,
             "color": "#ae132d",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/22/to61sl4atmsyy0vstzoo/red-bull-winter-edition-sugarfree",
@@ -44,7 +44,7 @@
         {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
-            "flavor_description": "Red Bull Lilac Edition Sugarfree without sugar with the fresh touch of Grapefruit and an aroma of floral notes",
+            "flavor_description": "Red Bull The Lilac Edition Sugarfree without sugar with the fresh touch of Grapefruit and an aroma of floral notes",
             "sugarfree": true,
             "color": "#6952AD",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/22/zwxn0miglg0modcva40n/lila-edition-sugarfree--grapefruit-and-blossom",
@@ -82,16 +82,6 @@
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-apricot-edition"
         },
         {
-            "name": "The Lime Green Edition",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "New Red Bull Lime Green Edition with the exotic taste of Curuba complemented by notes of Elderflower",
-            "sugarfree": false,
-            "color": "#6cc24a",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/15/hg5yyxvvuzdbmz31wjzp/red-bull-lime-green-edition",
-            "alt_text": "Red Bull Lime Green Edition",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-lime-green-edition"
-        },
-        {
             "name": "The Blue Edition",
             "flavor": "Juneberry",
             "flavor_description": "Red Bull Blue Edition with the extraordinary taste of Juneberry",
@@ -104,7 +94,7 @@
         {
             "name": "The Coconut Edition",
             "flavor": "Coconut",
-            "flavor_description": "Get ready for an extraordinary taste experience. Red Bull Coconut Edition with exotic Coconut and Blueberry taste",
+            "flavor_description": "Red Bull Coconut Edition with exotic Coconut and Blueberry taste",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/seqjyey0koqkbqxwwwkc/red-bull-coconut-edition-image",
@@ -123,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg",
-    "_raw_hash": "17a5dc373a7a37dd9307108617527b528c7813505114e5f7ee38ae1374480f4e",
+    "_raw_hash": "bbd683d969acd6fc62ef4e313acf08e70b51e5a6132d78be274d1263e6bbce4d",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-ES",
@@ -180,13 +170,6 @@
             "flavor": "Apricot-Strawberry",
             "description": "Red Bull Apricot Edition presents the perfect combination of apricot and strawberry with a touch of peach.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-apricot-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:611996f5-8813-46c3-9b18-4c193d39d9d0:es-ES",
-            "name": "The Lime Green Edition",
-            "flavor": "Curuba-Elderflower",
-            "description": "New Red Bull Lime Green Edition with the exotic taste of curuba complemented by notes of elderflower.",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-lime-green-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:es-ES",
