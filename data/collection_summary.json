@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-12T00:30:18.882318+00:00",
+        "collection_date": "2026-02-13T00:58:22.554071+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -168,7 +168,7 @@
                 "eg-ar"
             ],
             "flag_code": "EG",
-            "editions_count": 5,
+            "editions_count": 6,
             "data_file": "eg-ar.json"
         },
         "Estonia": {
@@ -205,7 +205,7 @@
                 "de-de"
             ],
             "flag_code": "DE",
-            "editions_count": 14,
+            "editions_count": 13,
             "data_file": "de-de.json"
         },
         "Greece": {
@@ -486,7 +486,7 @@
                 "sk-sk"
             ],
             "flag_code": "SK",
-            "editions_count": 11,
+            "editions_count": 10,
             "data_file": "sk-sk.json"
         },
         "Slovenia": {
@@ -513,7 +513,7 @@
                 "es-es"
             ],
             "flag_code": "ES",
-            "editions_count": 12,
+            "editions_count": 11,
             "data_file": "es-es.json"
         },
         "Sweden": {
@@ -569,7 +569,7 @@
                 "gb-en"
             ],
             "flag_code": "GB",
-            "editions_count": 19,
+            "editions_count": 17,
             "data_file": "gb-en.json"
         },
         "United States": {

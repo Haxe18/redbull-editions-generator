@@ -32,9 +32,19 @@
             "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-winter-edition"
         },
         {
+            "name": "The Sea Blue Edition",
+            "flavor": "Juneberry",
+            "flavor_description": "Red Bull Sea Blue Edition provides a taste of Juneberry. Red Bull Sea Blue Edition provides a taste of Juneberry",
+            "sugarfree": false,
+            "color": "#0072CE",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/9/tlohh1hbk8iyflml0bmq/red-bull-the-sea-blue-edition-image",
+            "alt_text": "Red Bull The Sea Blue Edition - Image",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
+        },
+        {
             "name": "The White Edition",
             "flavor": "Coconut",
-            "flavor_description": "Get ready for a unique taste experience. Red Bull White Edition with the distinctive taste of Coconut and Tuti frutti",
+            "flavor_description": "Get ready for a unique taste experience. Red Bull White Edition with the distinctive taste of Coconut and fruit",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
@@ -44,7 +54,7 @@
         {
             "name": "The Purple Edition",
             "flavor": "Acai",
-            "flavor_description": "Try the distinctive taste of Acai Berry",
+            "flavor_description": "Try the distinctive taste of Acai",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/2/aueelk9hj9ayzoj3tl5l/red-bull-the-purple-edition",
@@ -53,7 +63,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EG.svg",
-    "_raw_hash": "15e1b88297ccacb1fb357d76be45c8918fb29daf354c1f8445842a051fe02438",
+    "_raw_hash": "77e4bb3757a6a307977fade2d132ecf29e5127e6abd6aa0d9293953ccc448151",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ar-EG",
@@ -70,6 +80,13 @@
             "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sugarfree"
         },
         {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ar-EG",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple",
+            "description": "Red Bull Winter Edition provides the taste of vanilla and apple",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:ar-EG",
             "name": "The White Edition",
             "flavor": "Coconut",
@@ -84,11 +101,11 @@
             "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-purple-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ar-EG",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple",
-            "description": "Red Bull Winter Edition provides the taste of vanilla and apple",
-            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-winter-edition"
+            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ar-EG",
+            "name": "The Sea Blue Edition",
+            "flavor": "Juneberry",
+            "description": "Red Bull Sea Blue Edition provides a taste of blueberry. Red Bull Sea Blue Edition provides a taste of blueberry.",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
         }
     ]
 }
