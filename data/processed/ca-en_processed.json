@@ -44,7 +44,7 @@
         {
             "name": "The Pink Edition",
             "flavor": "Forest Berry",
-            "flavor_description": "The Red Bull Pink Edition gives you wings with the taste of Raspberry and herbal notes of verbena",
+            "flavor_description": "The Red Bull Pink Edition gives you Wings with the taste of Raspberry and herbal notes of verbena",
             "sugarfree": false,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/5/klg5k8qyzbjzyhl54stb/red-bull-pink-edition",
@@ -53,7 +53,7 @@
         },
         {
             "name": "The Lilac Edition Sugarfree",
-            "flavor": "Wildflower & Pink Grapefruit",
+            "flavor": "Woodruff & Pink Grapefruit",
             "flavor_description": "The Red Bull Lilac Edition Sugarfree blends the tastes of Pink Grapefruit and Blossom, topped with subtle floral notes",
             "sugarfree": true,
             "color": "#6952AD",
@@ -116,7 +116,7 @@
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-CA",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
@@ -137,13 +137,13 @@
             "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:en-CA",
             "name": "The Pink Edition",
             "flavor": "Forest Berry",
-            "description": "The Red Bull Pink Edition gives you wings with the taste of raspberry and herbal notes of verbena.",
+            "description": "The Red Bull Pink Edition gives you Wings with the taste of raspberry and herbal notes of verbena.",
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-pink-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-CA",
             "name": "The Lilac Edition Sugarfree",
-            "flavor": "Wildflower-and-Pink Grapefruit",
+            "flavor": "Woodruff & Pink Grapefruit",
             "description": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and blossom, topped with subtle floral notes.",
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-lilac-edition-sugarfree"
         },
