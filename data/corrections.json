@@ -1,6 +1,42 @@
 {
     "corrections": [
         {
+            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR",
+            "field": "flavor",
+            "search": "Pomelo",
+            "replace": "Grapefruit & Blossom"
+        },
+        {
+            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT",
+            "field": "flavor",
+            "search": "Wildflower-and-Pink Grapefruit",
+            "replace": "Woodruff & Pink Grapefruit"
+        },
+        {
+            "id": "77e43776-f55c-4250-a143-f126e7b543ed:da-DK",
+            "field": "flavor",
+            "search": "Wildflower & Pink Grapefruit-smag",
+            "replace": "Woodruff & Pink Grapefruit"
+        },
+        {
+            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:fi-FI",
+            "field": "flavor",
+            "search": "Wildflower-and-Pink Grapefruit",
+            "replace": "Woodruff & Pink Grapefruit"
+        },
+        {
+            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-CA",
+            "field": "flavor",
+            "search": "Wildflower-and-Pink Grapefruit",
+            "replace": "Woodruff & Pink Grapefruit"
+        },
+        {
+            "id": "77e43776-f55c-4250-a143-f126e7b543ed:no-NO",
+            "field": "flavor",
+            "search": "Grapefruit-Woodruff",
+            "replace": "Woodruff & Pink Grapefruit"
+        },
+        {
             "id": "252c2121-8871-4996-90dd-06d374834ead:da-DK",
             "field": "flavor",
             "search": "Forest Fruits",
@@ -152,6 +188,12 @@
         },
         {
             "id": "f0502df1-3142-402a-9af8-1344c8bf794e:no-NO",
+            "field": "flavor",
+            "search": "Acai Berry",
+            "replace": "Forest Berry"
+        },
+        {
+            "id": "f0502df1-3142-402a-9af8-1344c8bf794e:fi-FI",
             "field": "flavor",
             "search": "Acai Berry",
             "replace": "Forest Berry"

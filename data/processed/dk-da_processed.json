@@ -33,8 +33,8 @@
         },
         {
             "name": "The Lilac Edition",
-            "flavor": "Wildflower & Pink Grapefruit",
-            "flavor_description": "Red Bull The Lilac Edition offers the taste of wild flower and Pink Grapefruit taste",
+            "flavor": "Woodruff & Pink Grapefruit",
+            "flavor_description": "Red Bull gives wings: Red Bull Lilac Edition Energy Drink with the taste of wildflower and Pink Grapefruit",
             "sugarfree": false,
             "color": "#7d62ce",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/16/zczxgf8gk7cpsmaobhvs/the-lilac-edition",
@@ -54,7 +54,7 @@
         {
             "name": "The Ice Edition",
             "flavor": "Iced Gummy Bear",
-            "flavor_description": "Red Bull Ice Edition combines the sweet taste of Vanilla with a fresh hint of frosted berries",
+            "flavor_description": "Red Bull Ice Edition combines the sweet taste of Vanilla with a fresh hint of Iced Gummy Bear",
             "sugarfree": false,
             "color": "#53b2c2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/30/cqusyaizyrh1yqict8j9/red-bull-iced-edition",
@@ -84,7 +84,7 @@
         {
             "name": "The Blue Edition",
             "flavor": "Blueberry",
-            "flavor_description": "Red Bull Blue Edition with the taste of Blueberry flavor",
+            "flavor_description": "Red Bull Blue Edition with the taste of Blueberry",
             "sugarfree": false,
             "color": "#001A72",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/19/g6tqrrbffx57d8fk6wvt/red-bull-blue-edition-image",
@@ -113,20 +113,20 @@
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:da-DK",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "\"Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.\"",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:da-DK",
             "name": "The Lilac Edition",
-            "flavor": "Wildflower & Pink Grapefruit",
-            "description": "Red Bull Peach Edition offers the taste of wild flower and pink grapefruit taste.",
+            "flavor": "Woodruff & Pink Grapefruit",
+            "description": "Red Bull gives wings: Red Bull Lilac Edition Energy Drink with the taste of wildflower and pink grapefruit.",
             "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-lilac-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:da-DK",
             "name": "The Peach Edition",
-            "flavor": "White Peach",
+            "flavor": "White Peach Taste",
             "description": "Red Bull Peach Edition offers the taste of white peach with a hint of citrus peel and floral notes.",
             "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-peach-edition"
         },
@@ -154,8 +154,8 @@
         {
             "edition_id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:da-DK",
             "name": "The Blue Edition",
-            "flavor": "Blueberry flavor",
-            "description": "Red Bull Blue Edition with the taste of blueberry flavor.",
+            "flavor": "Blueberry Taste",
+            "description": "Red Bull Blue Edition with the taste of blueberry taste.",
             "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-blue-edition"
         }
     ]
