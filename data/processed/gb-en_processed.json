@@ -32,6 +32,26 @@
             "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-zero"
         },
         {
+            "name": "The Spring Edition",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "The Red Bull Spring Edition with the taste of cherries, Cherry Blossom and almond notes",
+            "sugarfree": false,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/5/u9lysfz8xulgwwizfkqj/spring-edition-2026",
+            "alt_text": "Spring Edition 2026",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition"
+        },
+        {
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of cherries, Cherry Blossom and almond notes",
+            "sugarfree": true,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/5/spubn8x1g97qyzpyajro/red-bull-spring-edition-sugarfree-image",
+            "alt_text": "Red Bull Spring Edition Sugarfree Image",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition-sugarfree"
+        },
+        {
             "name": "The Winter Edition",
             "flavor": "Fuji Apple & Ginger",
             "flavor_description": "The Red Bull Winter Edition with the taste of Fuji Apples and the warm spiciness of Ginger",
@@ -74,7 +94,7 @@
         {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
-            "flavor_description": "The Red Bull Lilac Edition Energy Drink Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
+            "flavor_description": "The Red Bull Lilac Edition Energy Drink sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
             "sugarfree": true,
             "color": "#6952AD",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/10/cdmxtqr210iwagxr8mbv/lilac-edition-sugarfree--grapefruit-and-blossom",
@@ -173,7 +193,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GB.svg",
-    "_raw_hash": "bd30c18bcb77e5aaed2f4a18ae343ff3e55b6d791ae4fbaae74ecf88d58b49ef",
+    "_raw_hash": "3835f86414ce731e68c70e643247c05fcf889812f97f2174a3bf6a2acf60f1e4",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-GB",
@@ -293,6 +313,20 @@
             "flavor": "Pear Cinnamon",
             "description": "Red Bull Ruby Edition with the taste of Spiced Pear.",
             "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-ruby-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB",
+            "name": "The Spring Edition",
+            "flavor": "Cherry Sakura",
+            "description": "The Red Bull Spring Edition with the taste of cherries, cherry blossom and almond notes.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "description": "The Red Bull Spring Edition Sugarfree with the taste of cherries, cherry blossom and almond notes.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition-sugarfree"
         }
     ]
 }
