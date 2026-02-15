@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-14T06:16:22.266877+00:00",
+        "collection_date": "2026-02-15T06:24:30.209210+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -296,7 +296,7 @@
                 "kz-ru"
             ],
             "flag_code": "KZ",
-            "editions_count": 5,
+            "editions_count": 6,
             "data_file": "kz-ru.json"
         },
         "Kenya": {
