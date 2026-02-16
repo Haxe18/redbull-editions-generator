@@ -32,6 +32,16 @@
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
         },
         {
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Blossom",
+            "flavor_description": "The Red Bull Lilac Edition Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
+            "sugarfree": true,
+            "color": "#6952AD",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/9/qhn9km1mogiyjtkb1ijj/lilac-edition-sugarfree--grapefruit-and-blossom",
+            "alt_text": "Lilac-Edition-Sugarfree Grapefruit & Blossom",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-lilac-edition-sugarfree"
+        },
+        {
             "name": "The Summer Edition",
             "flavor": "White Peach",
             "flavor_description": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new taste that offers the taste of White Peach, highlighted by a touch of citrus peel and floral notes",
@@ -60,20 +70,10 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
             "alt_text": "Coconut Edition Sugarfree half can",
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
-        },
-        {
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
-            "sugarfree": false,
-            "color": "#e03c31",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/cdlccyn4zppwvmjsbr8a/red-bull-red-edition-image",
-            "alt_text": "Red Bull Red Edition - image",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-red-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NZ.svg",
-    "_raw_hash": "2287ec5ac86b1d1737dc4a1bdc6bdb8c943fa57cee1cffc580337170db79f8e6",
+    "_raw_hash": "a3f4de4f2c107866015c10acc4cc6e403a099a1e7367e7d64d8a3739e7feb204",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NZ",
@@ -118,11 +118,11 @@
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-NZ",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "The Red Bull Red Edition with the fresh taste of watermelon.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-red-edition"
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Woodruff",
+            "description": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and herbal woodruff, topped with subtle floral notes.",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-lilac-edition-sugarfree"
         }
     ]
 }

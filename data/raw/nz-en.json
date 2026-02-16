@@ -1,439 +1,443 @@
 {
-  "locale_info": {
-    "country_name": "New Zealand",
-    "domains": [
-      "nz-en"
+    "locale_info": {
+        "country_name": "New Zealand",
+        "domains": [
+            "nz-en"
+        ],
+        "flag_code": "NZ"
+    },
+    "editions": [
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Energy Drink"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2F4582",
+                                    "percentage": 15.3
+                                },
+                                {
+                                    "hexColorCode": "#D2D5DA",
+                                    "percentage": 7.9
+                                },
+                                {
+                                    "hexColorCode": "#EFF2F3",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#D21E3F",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#627CBA",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#EDCC77",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/red-bull-energy-drink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/red-bull-energy-drink"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/s5kmasklctz5s2rjsqpo/red-bull-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2784C4",
+                                    "percentage": 9.8
+                                },
+                                {
+                                    "hexColorCode": "#D4D7DC",
+                                    "percentage": 7.9
+                                },
+                                {
+                                    "hexColorCode": "#4CABDD",
+                                    "percentage": 6.8
+                                },
+                                {
+                                    "hexColorCode": "#E8EBED",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#D42047",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#175E99",
+                                    "percentage": 2.3
+                                },
+                                {
+                                    "hexColorCode": "#EED17F",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/s5kmasklctz5s2rjsqpo/red-bull-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/17/mmdrvovogibkl85dypdp/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.7
+                                },
+                                {
+                                    "hexColorCode": "#C80D31",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#DDE8F1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#798493",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FBF8F6",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "Zero Calories. Zero Sugar. 100% Wiiings.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/17/mmdrvovogibkl85dypdp/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Lilac Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/9/qhn9km1mogiyjtkb1ijj/lilac-edition-sugarfree--grapefruit-and-blossom",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#9A7ADD",
+                                    "percentage": 23.6
+                                },
+                                {
+                                    "hexColorCode": "#D8E1E7",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C2C4D9",
+                                    "percentage": 3.3
+                                },
+                                {
+                                    "hexColorCode": "#219ED4",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#5AB4D9",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#E7F2E9",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-lilac-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Grapefruit & Blossom",
+                    "standfirst": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and herbal woodruff, topped with subtle floral notes.",
+                    "brandingHexColorCode": "#6952AD",
+                    "image": {
+                        "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/9/qhn9km1mogiyjtkb1ijj/lilac-edition-sugarfree--grapefruit-and-blossom"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-lilac-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 16.2
+                                },
+                                {
+                                    "hexColorCode": "#D32670",
+                                    "percentage": 9.3
+                                },
+                                {
+                                    "hexColorCode": "#D9E5EA",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#C1C8D3",
+                                    "percentage": 2.4
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "White Peach",
+                    "standfirst": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new flavour that offers the taste of white peach, highlighted by a touch of citrus peel and floral notes. ",
+                    "brandingHexColorCode": "#E24585",
+                    "image": {
+                        "altText": "Red Bull Summer Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Berry Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DF7EB0",
+                                    "percentage": 22.3
+                                },
+                                {
+                                    "hexColorCode": "#D8E3E8",
+                                    "percentage": 4.6
+                                },
+                                {
+                                    "hexColorCode": "#C4CAD5",
+                                    "percentage": 2
+                                },
+                                {
+                                    "hexColorCode": "#E47CAF",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#53B2DA",
+                                    "percentage": 1.3
+                                },
+                                {
+                                    "hexColorCode": "#E6BDD5",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#279CD1",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pink Edition Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-berry-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Forest Fruits",
+                    "standfirst": "The Sugarfree Energy Drink with the taste of forest fruits complemented by exciting herbal notes of verbena. ",
+                    "brandingHexColorCode": "#c72466",
+                    "image": {
+                        "altText": "Red Bull Pink Edition Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-berry-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Coconut Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E7E8EA",
+                                    "percentage": 9.2
+                                },
+                                {
+                                    "hexColorCode": "#F9F9F9",
+                                    "percentage": 8.8
+                                },
+                                {
+                                    "hexColorCode": "#E7E9EA",
+                                    "percentage": 7.2
+                                },
+                                {
+                                    "hexColorCode": "#767A7D",
+                                    "percentage": 5.1
+                                },
+                                {
+                                    "hexColorCode": "#FBFBFA",
+                                    "percentage": 1.8
+                                },
+                                {
+                                    "hexColorCode": "#3E4245",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#1D9DC0",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Coconut Edition Sugarfree half can"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Coconut",
+                    "standfirst": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry. ",
+                    "brandingHexColorCode": "#0070b8",
+                    "image": {
+                        "altText": "Coconut Edition Sugarfree half can",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+                    }
+                }
+            }
+        }
     ],
-    "flag_code": "NZ"
-  },
-  "editions": [
-    {
-      "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NZ",
-      "header_data": {
-        "content": {
-          "title": "Energy Drink"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#2F4582",
-                  "percentage": 15.3
-                },
-                {
-                  "hexColorCode": "#D2D5DA",
-                  "percentage": 7.9
-                },
-                {
-                  "hexColorCode": "#EFF2F3",
-                  "percentage": 3.9
-                },
-                {
-                  "hexColorCode": "#D21E3F",
-                  "percentage": 3
-                },
-                {
-                  "hexColorCode": "#627CBA",
-                  "percentage": 2.9
-                },
-                {
-                  "hexColorCode": "#EDCC77",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/nz-en/energydrink/red-bull-energy-drink"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Energy Drink",
-          "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/nz-en/energydrink/red-bull-energy-drink"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NZ",
-      "header_data": {
-        "content": {
-          "title": "Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/s5kmasklctz5s2rjsqpo/red-bull-sugarfree",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#2784C4",
-                  "percentage": 9.8
-                },
-                {
-                  "hexColorCode": "#D4D7DC",
-                  "percentage": 7.9
-                },
-                {
-                  "hexColorCode": "#4CABDD",
-                  "percentage": 6.8
-                },
-                {
-                  "hexColorCode": "#E8EBED",
-                  "percentage": 3.5
-                },
-                {
-                  "hexColorCode": "#D42047",
-                  "percentage": 2.9
-                },
-                {
-                  "hexColorCode": "#175E99",
-                  "percentage": 2.3
-                },
-                {
-                  "hexColorCode": "#EED17F",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Sugarfree"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Sugarfree",
-          "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Sugarfree",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/s5kmasklctz5s2rjsqpo/red-bull-sugarfree"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ",
-      "header_data": {
-        "content": {
-          "title": "Zero"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/17/mmdrvovogibkl85dypdp/red-bull-zero-energy-drink",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#93BFE4",
-                  "percentage": 14.1
-                },
-                {
-                  "hexColorCode": "#C6D1DE",
-                  "percentage": 10.7
-                },
-                {
-                  "hexColorCode": "#C80D31",
-                  "percentage": 3.1
-                },
-                {
-                  "hexColorCode": "#DDE8F1",
-                  "percentage": 2.5
-                },
-                {
-                  "hexColorCode": "#798493",
-                  "percentage": 1.7
-                },
-                {
-                  "hexColorCode": "#FBF8F6",
-                  "percentage": 0.8
-                }
-              ]
-            },
-            "altText": "Red Bull Zero Energy Drink"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Zero Sugar",
-          "standfirst": "Zero Calories. Zero Sugar. 100% Wiiings.",
-          "brandingHexColorCode": "#FFFFFF",
-          "image": {
-            "altText": "Red Bull Zero Energy Drink",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/17/mmdrvovogibkl85dypdp/red-bull-zero-energy-drink"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-NZ",
-      "header_data": {
-        "content": {
-          "title": "Summer Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#E25C94",
-                  "percentage": 16.2
-                },
-                {
-                  "hexColorCode": "#D32670",
-                  "percentage": 9.3
-                },
-                {
-                  "hexColorCode": "#D9E5EA",
-                  "percentage": 5.2
-                },
-                {
-                  "hexColorCode": "#C1C8D3",
-                  "percentage": 2.4
-                }
-              ]
-            },
-            "altText": "Red Bull Summer Edition"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "White Peach",
-          "standfirst": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new flavour that offers the taste of white peach, highlighted by a touch of citrus peel and floral notes. ",
-          "brandingHexColorCode": "#E24585",
-          "image": {
-            "altText": "Red Bull Summer Edition",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ",
-      "header_data": {
-        "content": {
-          "title": "Berry Edition Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#DF7EB0",
-                  "percentage": 22.3
-                },
-                {
-                  "hexColorCode": "#D8E3E8",
-                  "percentage": 4.6
-                },
-                {
-                  "hexColorCode": "#C4CAD5",
-                  "percentage": 2
-                },
-                {
-                  "hexColorCode": "#E47CAF",
-                  "percentage": 1.4
-                },
-                {
-                  "hexColorCode": "#53B2DA",
-                  "percentage": 1.3
-                },
-                {
-                  "hexColorCode": "#E6BDD5",
-                  "percentage": 1
-                },
-                {
-                  "hexColorCode": "#279CD1",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Pink Edition Image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-berry-edition-sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Forest Fruits",
-          "standfirst": "The Sugarfree Energy Drink with the taste of forest fruits complemented by exciting herbal notes of verbena. ",
-          "brandingHexColorCode": "#c72466",
-          "image": {
-            "altText": "Red Bull Pink Edition Image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-berry-edition-sugarfree"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-NZ",
-      "header_data": {
-        "content": {
-          "title": "Coconut Edition Sugarfree"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#E7E8EA",
-                  "percentage": 9.2
-                },
-                {
-                  "hexColorCode": "#F9F9F9",
-                  "percentage": 8.8
-                },
-                {
-                  "hexColorCode": "#E7E9EA",
-                  "percentage": 7.2
-                },
-                {
-                  "hexColorCode": "#767A7D",
-                  "percentage": 5.1
-                },
-                {
-                  "hexColorCode": "#FBFBFA",
-                  "percentage": 1.8
-                },
-                {
-                  "hexColorCode": "#3E4245",
-                  "percentage": 1.1
-                },
-                {
-                  "hexColorCode": "#1D9DC0",
-                  "percentage": 1.1
-                }
-              ]
-            },
-            "altText": "Coconut Edition Sugarfree half can"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Coconut",
-          "standfirst": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry. ",
-          "brandingHexColorCode": "#0070b8",
-          "image": {
-            "altText": "Coconut Edition Sugarfree half can",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
-          }
-        }
-      }
-    },
-    {
-      "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-NZ",
-      "header_data": {
-        "content": {
-          "title": "Red Edition"
-        },
-        "media": {
-          "mainImage": {
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/31/cdlccyn4zppwvmjsbr8a/red-bull-red-edition-image",
-              "predominantColors": [
-                {
-                  "hexColorCode": "#D13120",
-                  "percentage": 19.9
-                },
-                {
-                  "hexColorCode": "#D6D8DC",
-                  "percentage": 6.7
-                },
-                {
-                  "hexColorCode": "#DF5C55",
-                  "percentage": 5.9
-                },
-                {
-                  "hexColorCode": "#F5EAEA",
-                  "percentage": 1.2
-                },
-                {
-                  "hexColorCode": "#9C2110",
-                  "percentage": 0.6
-                }
-              ]
-            },
-            "altText": "Red Bull Red Edition - image"
-          }
-        },
-        "reference": {
-          "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-red-edition"
-        }
-      },
-      "graphql_data": {
-        "data": {
-          "flavour": "Watermelon",
-          "standfirst": "The Red Bull Red Edition with the fresh taste of watermelon.",
-          "brandingHexColorCode": "#e03c31",
-          "image": {
-            "altText": "Red Bull Red Edition - image",
-            "imageEssence": {
-              "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/31/cdlccyn4zppwvmjsbr8a/red-bull-red-edition-image"
-            }
-          },
-          "reference": {
-            "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-red-edition"
-          }
-        }
-      }
-    }
-  ],
-  "collection_timestamp": "2025-10-02T19:04:29.700977"
+    "collection_timestamp": "2026-02-16T06:26:39.291649+00:00"
 }
