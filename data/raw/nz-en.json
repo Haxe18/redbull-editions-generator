@@ -195,6 +195,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 16.2
+                                },
+                                {
+                                    "hexColorCode": "#D32670",
+                                    "percentage": 9.3
+                                },
+                                {
+                                    "hexColorCode": "#D9E5EA",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#C1C8D3",
+                                    "percentage": 2.4
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "White Peach",
+                    "standfirst": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new flavour that offers the taste of white peach, highlighted by a touch of citrus peel and floral notes. ",
+                    "brandingHexColorCode": "#E24585",
+                    "image": {
+                        "altText": "Red Bull Summer Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ",
             "header_data": {
                 "content": {
@@ -251,59 +304,6 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-lilac-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-NZ",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E25C94",
-                                    "percentage": 16.2
-                                },
-                                {
-                                    "hexColorCode": "#D32670",
-                                    "percentage": 9.3
-                                },
-                                {
-                                    "hexColorCode": "#D9E5EA",
-                                    "percentage": 5.2
-                                },
-                                {
-                                    "hexColorCode": "#C1C8D3",
-                                    "percentage": 2.4
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "White Peach",
-                    "standfirst": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new flavour that offers the taste of white peach, highlighted by a touch of citrus peel and floral notes. ",
-                    "brandingHexColorCode": "#E24585",
-                    "image": {
-                        "altText": "Red Bull Summer Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
                     }
                 }
             }
@@ -439,5 +439,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-16T06:26:39.291649+00:00"
+    "collection_timestamp": "2026-02-19T23:14:00.333743+00:00"
 }

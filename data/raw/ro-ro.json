@@ -203,70 +203,70 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ro-RO",
+            "id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:ro-RO",
             "header_data": {
                 "content": {
-                    "title": "Iarnă"
+                    "title": "Primăvară fără zahăr"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/5/ebhvnht0ymmyt9ckjqki/red-bull-winter-edition",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/16/wawcz62pkd96jkepko4z/red-bull-spring-edition-sugarfree-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#DA5B62",
-                                    "percentage": 7.4
+                                    "hexColorCode": "#E8EBED",
+                                    "percentage": 18
                                 },
                                 {
-                                    "hexColorCode": "#DFB053",
-                                    "percentage": 5.3
+                                    "hexColorCode": "#FBF9FA",
+                                    "percentage": 7.5
                                 },
                                 {
-                                    "hexColorCode": "#D6A01C",
-                                    "percentage": 4.6
+                                    "hexColorCode": "#BCC3CC",
+                                    "percentage": 2.6
                                 },
                                 {
-                                    "hexColorCode": "#D8E2E9",
-                                    "percentage": 4.4
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.9
                                 },
                                 {
-                                    "hexColorCode": "#C71F3A",
-                                    "percentage": 4.2
+                                    "hexColorCode": "#767C81",
+                                    "percentage": 0.9
                                 },
                                 {
-                                    "hexColorCode": "#DA8355",
-                                    "percentage": 3.6
+                                    "hexColorCode": "#D31034",
+                                    "percentage": 0.8
                                 },
                                 {
-                                    "hexColorCode": "#BFC7D2",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#CC6427",
+                                    "hexColorCode": "#EFF1F0",
                                     "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#E47187",
+                                    "percentage": 0.6
                                 }
                             ]
                         },
-                        "altText": "Red Bull Winter Edition"
+                        "altText": "Red Bull Spring Edition Sugarfree Image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-iarna"
+                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-primavara-fara-zahar"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Măr și Ghimbir",
-                    "standfirst": "Red Bull Iarnă cu arome de măr și ghimbir. ",
-                    "brandingHexColorCode": "#AE132D",
+                    "flavour": "Cherry Sakura",
+                    "standfirst": "Red Bull Primăvară fără zahăr cu arome de cireșe și sakura.",
+                    "brandingHexColorCode": "#52abd6",
                     "image": {
-                        "altText": "Red Bull Winter Edition",
+                        "altText": "Red Bull Spring Edition Sugarfree Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/5/ebhvnht0ymmyt9ckjqki/red-bull-winter-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/16/wawcz62pkd96jkepko4z/red-bull-spring-edition-sugarfree-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-iarna"
+                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-primavara-fara-zahar"
                     }
                 }
             }
@@ -512,5 +512,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-10T06:32:04.267551+00:00"
+    "collection_timestamp": "2026-02-19T23:14:16.990354+00:00"
 }

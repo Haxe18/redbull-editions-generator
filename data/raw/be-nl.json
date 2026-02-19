@@ -200,6 +200,71 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-BE",
+            "header_data": {
+                "content": {
+                    "title": "Spring Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/ipjuvqo22uxz5ozibbvr/spring-edition-2026",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E9ECED",
+                                    "percentage": 18.3
+                                },
+                                {
+                                    "hexColorCode": "#FBF9FA",
+                                    "percentage": 7.3
+                                },
+                                {
+                                    "hexColorCode": "#BDC4CC",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#D4163B",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#777E83",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#E4687F",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Spring Edition 2026"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/be-nl/energydrink/products/red-bull-spring-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Cherry Sakura",
+                    "standfirst": "Vleugels voor jouw lente: De Red Bull Spring Edition Energy Drink met de smaak van Kers-Sakura.",
+                    "brandingHexColorCode": "#52abd6",
+                    "image": {
+                        "altText": "Spring Edition 2026",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/ipjuvqo22uxz5ozibbvr/spring-edition-2026"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/be-nl/energydrink/products/red-bull-spring-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:nl-BE",
             "header_data": {
                 "content": {
@@ -818,5 +883,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-28T05:45:05.770360+00:00"
+    "collection_timestamp": "2026-02-19T23:13:36.700688+00:00"
 }

@@ -12,16 +12,6 @@
             "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-energy-drink"
         },
         {
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
-            "sugarfree": true,
-            "color": "#248FCC",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/11/jucgb0lqr4tpi9gf0ko1/red-bull-sugarfree",
-            "alt_text": "Red Bull Sugarfree",
-            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-sugarfree"
-        },
-        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Red Bull Zero serves up the same wings as Red Bull Energy Drink and Red Bull Sugarfree, but with a totally new flavour sweetened with monk fruit extract",
@@ -32,9 +22,29 @@
             "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-zero"
         },
         {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
+            "sugarfree": true,
+            "color": "#248FCC",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/11/jucgb0lqr4tpi9gf0ko1/red-bull-sugarfree",
+            "alt_text": "Red Bull Sugarfree",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "name": "The Winter Edition",
+            "flavor": "Exotic Passion Fruit",
+            "flavor_description": "The Red Bull Winter Edition with the exotic taste of passionfruit, rounded off with Elderflower notes",
+            "sugarfree": false,
+            "color": "#72B03E",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/etr9onieckjpt7eymqee/the-winter-edition",
+            "alt_text": "Winter Edition",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "name": "The Summer Edition",
             "flavor": "White Peach",
-            "flavor_description": "The Red Bull Summer Edition: The Energy Drink with the taste of White Peach, highlighted by a touch of citrus peel and floral notes",
+            "flavor_description": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new flavour that offers the taste of White Peach, hihglighted by a touch of citrus peel and floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/29/fzrmzftokavy5ghtknta/red-bull-summer-edition",
@@ -72,9 +82,19 @@
             "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-tropical-edition"
         },
         {
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Blossom",
+            "flavor_description": "The Red Bull Lilac Edition Sugarfree gives you wings with the delicate flavour of Grapefruit and Blossom",
+            "sugarfree": true,
+            "color": "#6952AD",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/b0boef4fvufh75nxptof/lilac-edition-sugarfree--grapefruit-and-blossom",
+            "alt_text": "Lilac-Edition-Sugarfree Grapefruit & Blossom",
+            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-lilac-edition-sugarfree"
+        },
+        {
             "name": "The Berry Edition Sugarfree",
             "flavor": "Forest Fruits",
-            "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
+            "flavor_description": "The Red Bull Berry Edition Sugarfree with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image",
@@ -83,8 +103,8 @@
         },
         {
             "name": "The Coconut Edition Sugarfree",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
+            "flavor": "Coconut",
+            "flavor_description": "The Red Bull Coconut Edition Sugarfree with the taste of exotic Coconut and fruity Blueberry",
             "sugarfree": true,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
@@ -93,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AU.svg",
-    "_raw_hash": "26915b03f4179c0c866003db0e928cc8e22c5934da666024ac6bcca824340302",
+    "_raw_hash": "c180c98efa6b8e4ca80afa1ffe013b37de92ea2fcba9080d7cc065f9b422c60d",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-AU",
@@ -103,18 +123,18 @@
             "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-energy-drink"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-AU",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-sugarfree"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-AU",
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "description": "Red Bull Zero serves up the same wings as Red Bull Energy Drink and Red Bull Sugarfree, but with a totally new flavour sweetened with monk fruit extract.",
             "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-AU",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugars: Red Bull Energy Drink without sugars.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:4be981eb-9d68-4fae-ae2d-b8280cbd081f:en-AU",
@@ -157,6 +177,20 @@
             "flavor": "Coconut",
             "description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry.",
             "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-AU",
+            "name": "The Winter Edition",
+            "flavor": "Exotic Passionfruit",
+            "description": "The Red Bull Winter Edition with the exotic taste of passionfruit, rounded off with elderflower notes.",
+            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-winter-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-AU",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Blossom",
+            "description": "The Red Bull Lilac Edition Sugarfree gives you wings with the delicate flavour of grapefruit and blossom.",
+            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-lilac-edition-sugarfree"
         }
     ]
 }

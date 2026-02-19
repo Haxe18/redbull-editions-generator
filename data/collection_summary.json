@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-16T06:34:04.830214+00:00",
+        "collection_date": "2026-02-19T23:14:28.805498+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -30,7 +30,7 @@
                 "au-en"
             ],
             "flag_code": "AU",
-            "editions_count": 9,
+            "editions_count": 11,
             "data_file": "au-en.json"
         },
         "Austria": {
@@ -39,7 +39,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 13,
+            "editions_count": 12,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -58,7 +58,7 @@
                 "be-fr"
             ],
             "flag_code": "BE",
-            "editions_count": 13,
+            "editions_count": 14,
             "data_file": "be-nl.json"
         },
         "Bosnia and Herzegovina": {
@@ -140,7 +140,7 @@
                 "hr-hr"
             ],
             "flag_code": "HR",
-            "editions_count": 9,
+            "editions_count": 10,
             "data_file": "hr-hr.json"
         },
         "Czech Republic": {
@@ -149,7 +149,7 @@
                 "cz-cs"
             ],
             "flag_code": "CZ",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "cz-cs.json"
         },
         "Denmark": {
@@ -196,7 +196,7 @@
                 "fr-fr"
             ],
             "flag_code": "FR",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "fr-fr.json"
         },
         "Germany": {
@@ -205,7 +205,7 @@
                 "de-de"
             ],
             "flag_code": "DE",
-            "editions_count": 15,
+            "editions_count": 13,
             "data_file": "de-de.json"
         },
         "Greece": {
@@ -369,7 +369,7 @@
                 "nl-nl"
             ],
             "flag_code": "NL",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "nl-nl.json"
         },
         "New Zealand": {
@@ -405,7 +405,7 @@
                 "no-no"
             ],
             "flag_code": "NO",
-            "editions_count": 11,
+            "editions_count": 10,
             "data_file": "no-no.json"
         },
         "Pakistan": {
@@ -441,7 +441,7 @@
                 "pl-pl"
             ],
             "flag_code": "PL",
-            "editions_count": 11,
+            "editions_count": 13,
             "data_file": "pl-pl.json"
         },
         "Portugal": {
@@ -477,7 +477,7 @@
                 "sg-en"
             ],
             "flag_code": "SG",
-            "editions_count": 3,
+            "editions_count": 4,
             "data_file": "sg-en.json"
         },
         "Slovakia": {
@@ -495,7 +495,7 @@
                 "si-sl"
             ],
             "flag_code": "SI",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "si-sl.json"
         },
         "South Africa": {
@@ -504,7 +504,7 @@
                 "za-en"
             ],
             "flag_code": "ZA",
-            "editions_count": 8,
+            "editions_count": 6,
             "data_file": "za-en.json"
         },
         "Spain": {

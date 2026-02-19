@@ -32,6 +32,26 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/red-bull-zero"
         },
         {
+            "name": "The Spring Edition",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Spring Edition with the taste of Cherry Blossom and sakura with a hint of creamy almonds",
+            "sugarfree": false,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/ld8q53vfcqmofpnukhaz/spring-edition-2026",
+            "alt_text": "Spring Edition 2026",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition"
+        },
+        {
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Spring Edition Sugarfree with the taste of Cherry Blossom and sakura with a hint of creamy almonds",
+            "sugarfree": true,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/sxstksruga9tebskonr4/the-red-bull-spring-edition-sugarfree",
+            "alt_text": "The Red Bull Spring Edition Sugarfree",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition-sugarfree"
+        },
+        {
             "name": "The Winter Edition",
             "flavor": "Fuji Apple & Ginger",
             "flavor_description": "Red Bull Winter Edition with the taste of Fuji Apple and warming spiciness of Ginger",
@@ -103,7 +123,7 @@
         },
         {
             "name": "The Purple Edition Sugarfree",
-            "flavor": "Acai Berry",
+            "flavor": "Acai",
             "flavor_description": "Red Bull Purple Edition, sugarfree, with the unique taste of exotic Acai Berry",
             "sugarfree": true,
             "color": "#702082",
@@ -113,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "bb2ec02cecb8b03efd31d4e39c36ab87f216d4937549f2cc00225f716bb7dd79",
+    "_raw_hash": "0983f5188f28b8530b296f441d65892863382d97c5b07c84873ecefa846d5d95",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL",
@@ -191,6 +211,20 @@
             "flavor": "Acai Berry",
             "description": "Red Bull Purple Edition, sugarfree, with the unique taste of exotic Acai Berry.",
             "product_url": "https://www.redbull.com/pl-pl/energydrink/red-bull-purple-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:pl-PL",
+            "name": "The Spring Edition",
+            "flavor": "Cherry Blossom Sakura",
+            "description": "Red Bull Spring Edition with the taste of cherry blossom and sakura with a hint of creamy almonds.",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:pl-PL",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Blossom Sakura",
+            "description": "Red Bull Spring Edition Sugarfree with the taste of cherry blossom and sakura with a hint of creamy almonds.",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition-sugarfree"
         }
     ]
 }

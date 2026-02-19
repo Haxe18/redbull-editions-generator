@@ -138,6 +138,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-SG",
+            "header_data": {
+                "content": {
+                    "title": "Purple Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/w1otdldklckwgqjckkwm/red-bull-the-purple-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#853B8C",
+                                    "percentage": 12
+                                },
+                                {
+                                    "hexColorCode": "#601567",
+                                    "percentage": 10.7
+                                },
+                                {
+                                    "hexColorCode": "#DBE3E9",
+                                    "percentage": 4.9
+                                },
+                                {
+                                    "hexColorCode": "#C0C3D1",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#49064E",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#AA76B2",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull The Purple Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/sg-en/energydrink/products/red-bull-purple-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Kyoho grape",
+                    "standfirst": "The Red Bull Purple Edition gives you wiiings with the taste of Kyoho grape.",
+                    "brandingHexColorCode": "#702082",
+                    "image": {
+                        "altText": "Red Bull The Purple Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/w1otdldklckwgqjckkwm/red-bull-the-purple-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/sg-en/energydrink/products/red-bull-purple-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:en-SG",
             "header_data": {
                 "content": {
@@ -195,5 +256,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-16T05:39:58.039385+00:00"
+    "collection_timestamp": "2026-02-19T23:14:17.715253+00:00"
 }

@@ -195,70 +195,70 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:5d0a35a9-b26a-4021-bc6a-5b1a08794ab7:et-EE",
+            "id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:et-EE",
             "header_data": {
                 "content": {
-                    "title": "Winter Edition"
+                    "title": "Spring Edition Sugarfree"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/djjsqqgybwyve73lh3cn/red-bull-winter-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/17/hcduyx8opncvmklitjs5/the-red-bull-spring-edition-sugarfree",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#DA5B62",
+                                    "hexColorCode": "#E9ECEE",
+                                    "percentage": 17.3
+                                },
+                                {
+                                    "hexColorCode": "#FBF9F9",
                                     "percentage": 7.5
                                 },
                                 {
-                                    "hexColorCode": "#DFB153",
-                                    "percentage": 5.1
+                                    "hexColorCode": "#BFC5CE",
+                                    "percentage": 2.3
                                 },
                                 {
-                                    "hexColorCode": "#D6A11C",
-                                    "percentage": 4.8
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.9
                                 },
                                 {
-                                    "hexColorCode": "#D8E3EA",
-                                    "percentage": 4.5
+                                    "hexColorCode": "#50B0D9",
+                                    "percentage": 1.4
                                 },
                                 {
-                                    "hexColorCode": "#C71F3A",
-                                    "percentage": 4.1
+                                    "hexColorCode": "#D5173C",
+                                    "percentage": 1.1
                                 },
                                 {
-                                    "hexColorCode": "#DA8356",
-                                    "percentage": 3.4
+                                    "hexColorCode": "#757B7F",
+                                    "percentage": 0.8
                                 },
                                 {
-                                    "hexColorCode": "#C0C8D2",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#CD6428",
+                                    "hexColorCode": "#EFF2F0",
                                     "percentage": 0.7
                                 }
                             ]
                         },
-                        "altText": "Red Bull Winter Edition Popsicle Image"
+                        "altText": "The Red Bull Spring Edition Sugarfree"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-winter-edition"
+                    "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-spring-edition-sugarfree"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Mehujää",
-                    "standfirst": "Red Bull Winter Edition Fuji õuna ja ingveri soojalt vürtsika maitsega. ",
-                    "brandingHexColorCode": "#AE132D",
+                    "flavour": "Cherry",
+                    "standfirst": "Red Bull Spring Edition Sugarfree mahlase kirsi, lillelise kirsiõie ning kreemja mandli noodiga.",
+                    "brandingHexColorCode": "#52abd6",
                     "image": {
-                        "altText": "Red Bull Winter Edition Popsicle Image",
+                        "altText": "The Red Bull Spring Edition Sugarfree",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/djjsqqgybwyve73lh3cn/red-bull-winter-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/17/hcduyx8opncvmklitjs5/the-red-bull-spring-edition-sugarfree"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-winter-edition"
+                        "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-spring-edition-sugarfree"
                     }
                 }
             }
@@ -695,39 +695,23 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/7/brxalw14tozx9uaveybz/red-bull-peach-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/17/rjahepesy7f9ohkzdqey/red-bull-peach-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#7F1419",
-                                    "percentage": 15.9
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 16.2
                                 },
                                 {
-                                    "hexColorCode": "#BF4F56",
-                                    "percentage": 5.8
+                                    "hexColorCode": "#D22570",
+                                    "percentage": 9.2
                                 },
                                 {
-                                    "hexColorCode": "#D7DBDE",
-                                    "percentage": 4.2
+                                    "hexColorCode": "#D9E5EA",
+                                    "percentage": 5.2
                                 },
                                 {
-                                    "hexColorCode": "#96333A",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#D1D4D8",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#FAC368",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#DE804F",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#E4D4D5",
-                                    "percentage": 0.6
+                                    "hexColorCode": "#C1C8D3",
+                                    "percentage": 2.4
                                 }
                             ]
                         },
@@ -746,7 +730,7 @@
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/7/brxalw14tozx9uaveybz/red-bull-peach-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/17/rjahepesy7f9ohkzdqey/red-bull-peach-edition-image"
                         }
                     },
                     "reference": {
@@ -756,5 +740,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-06T05:45:05.342876+00:00"
+    "collection_timestamp": "2026-02-19T23:13:46.444728+00:00"
 }

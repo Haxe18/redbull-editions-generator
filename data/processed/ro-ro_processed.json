@@ -32,19 +32,19 @@
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
         },
         {
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Red Bull The Winter Edition with flavors of apple and Ginger",
-            "sugarfree": false,
-            "color": "#AE132D",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/5/ebhvnht0ymmyt9ckjqki/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-iarna"
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Spring Edition sugarfree with Cherry and sakura taste",
+            "sugarfree": true,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/16/wawcz62pkd96jkepko4z/red-bull-spring-edition-sugarfree-image",
+            "alt_text": "Red Bull Spring Edition Sugarfree Image",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-primavara-fara-zahar"
         },
         {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Forest Fruits",
-            "flavor_description": "Red Bull Forest Fruits without sugarfree: energizing drink with a savory taste of Forest Fruits",
+            "flavor_description": "Red Bull Forest Fruits sugarfree: energizing drink with a savory taste of Forest Fruits",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image",
@@ -64,7 +64,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "Red Bull The Apricot Edition with the delicious flavors of Apricot and Strawberry with a hint of Peach taste",
+            "flavor_description": "The Red Bull Apricot Edition with the energy drink that combines the delicious flavors of Apricot and Strawberry with a hint of Peach taste",
             "sugarfree": false,
             "color": "#F39014",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/12/3/npwjpgoef0ppbbfk5fcu/red-bull-apricot",
@@ -74,7 +74,7 @@
         {
             "name": "The Red Edition",
             "flavor": "Watermelon",
-            "flavor_description": "Red Bull The Red Edition with a fresh taste of Watermelon. For your summer",
+            "flavor_description": "Red Bull with a fresh taste of Watermelon. For your summer",
             "sugarfree": false,
             "color": "#B9042A",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image",
@@ -83,7 +83,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RO.svg",
-    "_raw_hash": "72d10a5fe1d103963ae9b41e9cd2f390b309299f22db6e77341c1f3500d6626f",
+    "_raw_hash": "decb18e463c6acb1280bcec61b92bc8d3ea6e92034a2ad59b83064192e0a5a85",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ro-RO",
@@ -105,13 +105,6 @@
             "flavor": "Zero Sugar",
             "description": "Zero calories, 100% Wings",
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ro-RO",
-            "name": "The Winter Edition",
-            "flavor": "Apple and Ginger",
-            "description": "Red Bull Winter Edition with flavors of apple and ginger.",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-iarna"
         },
         {
             "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO",
@@ -140,6 +133,13 @@
             "flavor": "Watermelon",
             "description": "Red Bull with a fresh taste of watermelon. For your summer.",
             "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:ro-RO",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "description": "Red Bull Spring Edition without sugar with cherry and sakura taste.",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-primavara-fara-zahar"
         }
     ]
 }
