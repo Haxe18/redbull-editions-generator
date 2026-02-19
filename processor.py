@@ -142,8 +142,9 @@ class RedBullDataProcessor:
 
     # region Class Constants
     GEMINI_MODEL = "gemini-2.5-flash-lite"
-    MIN_DELAY_BETWEEN_REQUESTS = 7.0  # seconds (conservative rate limiting)
-    MAX_REQUESTS_PER_MINUTE = 14
+    MIN_DELAY_BETWEEN_REQUESTS = 6.5  # seconds (60s / 10 RPM = 6.0s minimum, 6.5s buffer)
+    MAX_REQUESTS_PER_MINUTE = 10
+    MAX_REQUESTS_PER_DAY = 20
     SIMILARITY_THRESHOLD = 0.75  # Minimum similarity for flavor matching
 
     # APPROVED FLAVOR LIST (Source of Truth)
@@ -265,6 +266,8 @@ class RedBullDataProcessor:
         self.print_lock = Lock()
         self.api_call_lock = Lock()
         self._abort_flag = False  # Flag to abort all processing on critical errors
+        self._daily_limit_reached = False  # Flag when daily API quota is exhausted
+        self._skipped_due_to_limit: List[str] = []  # Countries skipped due to daily limit
 
         # Setup logger
         self.logger = setup_logger(self.__class__.__name__, enable_verbose=verbose, debug=debug)
@@ -307,6 +310,7 @@ class RedBullDataProcessor:
             "cache_hits": 0,
             "errors": [],
             "summary": {},
+            "countries_skipped_daily_limit": [],
         }
 
         # Load corrections
@@ -1522,11 +1526,35 @@ class RedBullDataProcessor:
         """Apply rate limiting before API calls.
 
         Enforces minimum delay between Gemini API requests to avoid quota issues.
-        Skipped when processing single country.
+        RPM delay is skipped when processing single country, but daily limit is always enforced.
+
+        Raises:
+            RuntimeError: When the daily API request limit is exceeded.
         """
         self.changelog["api_calls_made"] += 1
 
-        # Skip rate limiting when processing a single country
+        # Daily limit check – always enforced, even for single country
+        if self.changelog["api_calls_made"] > self.MAX_REQUESTS_PER_DAY:
+            if not self._daily_limit_reached:
+                self._daily_limit_reached = True
+                self.logger.warning(
+                    "⚠️  Daily API limit reached (%d/%d requests). "
+                    "Stopping – results so far will be saved.",
+                    self.MAX_REQUESTS_PER_DAY,
+                    self.MAX_REQUESTS_PER_DAY,
+                )
+            raise RuntimeError(f"Daily API limit of {self.MAX_REQUESTS_PER_DAY} requests reached")
+
+        # Warn at 80% of daily limit
+        warning_threshold = int(self.MAX_REQUESTS_PER_DAY * 0.8)
+        if self.changelog["api_calls_made"] == warning_threshold:
+            self.logger.warning(
+                "⚠️  API limit warning: %d/%d daily requests used",
+                self.changelog["api_calls_made"],
+                self.MAX_REQUESTS_PER_DAY,
+            )
+
+        # Skip RPM delay when processing a single country
         if self.single_country:
             return
 
@@ -2791,6 +2819,24 @@ class RedBullDataProcessor:
                 lines.append(f"- {country}")
             lines.append("")
 
+        # Daily limit section – countries deferred to next run
+        if self.changelog.get("countries_skipped_daily_limit"):
+            skipped = self.changelog["countries_skipped_daily_limit"]
+            calls_remaining = len(skipped) * 3
+            lines.append("## ⚠️ Daily API Limit Reached – Countries Deferred")
+            lines.append("")
+            lines.append(
+                f"The following {len(skipped)} countries could not be processed today "
+                f"and will be picked up on the next run:"
+            )
+            lines.append("")
+            for country in sorted(skipped):
+                lines.append(f"- {country}")
+            lines.append("")
+            lines.append(f"**API calls today:** {self.changelog['api_calls_made']}/{self.MAX_REQUESTS_PER_DAY}")
+            lines.append(f"**Calls still needed:** ~{calls_remaining} ({len(skipped)} countries × 3 steps)")
+            lines.append("")
+
         # Errors section
         if self.changelog["errors"]:
             lines.append("## ❌ Errors")
@@ -2812,7 +2858,8 @@ class RedBullDataProcessor:
             len(self.changelog["countries_processed"]) > 0
             or len(self.changelog["corrections_applied"]) > 0  # Actual processing happened
             or len(self.changelog["corrections_failed"]) > 0  # Corrections were applied
-            or len(self.changelog["errors"]) > 0  # Correction failures occurred  # Errors occurred
+            or len(self.changelog["errors"]) > 0  # Errors occurred
+            or len(self.changelog.get("countries_skipped_daily_limit", [])) > 0  # Daily limit hit
         )
 
     def _save_changelog(self) -> Path:
@@ -3347,9 +3394,17 @@ class RedBullDataProcessor:
         print(f"📊 Processing {len(countries_to_process)} countries...")
 
         # Always show rate limiting info
-        print(f"⏱️  Rate limiting: Max {self.MAX_REQUESTS_PER_MINUTE} " "requests/minute (using 12/min to be safe)")
-        print("   Each country requires 3 API calls (translate + normalize)")
-        estimated_time = (len(countries_to_process) * 3 * self.MIN_DELAY_BETWEEN_REQUESTS) / 60 / self.max_workers  # Account for parallel processing
+        api_calls_needed = len(countries_to_process) * 3
+        print(f"⏱️  Rate limiting: Max {self.MAX_REQUESTS_PER_MINUTE} req/min, max {self.MAX_REQUESTS_PER_DAY} req/day")
+        print(f"   Each country requires 3 API calls → {api_calls_needed} calls needed")
+        if api_calls_needed > self.MAX_REQUESTS_PER_DAY:
+            max_countries_today = self.MAX_REQUESTS_PER_DAY // 3
+            print(
+                f"   ⚠️  {api_calls_needed} calls needed but only {self.MAX_REQUESTS_PER_DAY}/day available "
+                f"→ max {max_countries_today} countries today, remainder deferred to next run"
+            )
+        countries_today = min(len(countries_to_process), self.MAX_REQUESTS_PER_DAY // 3)
+        estimated_time = (countries_today * 3 * self.MIN_DELAY_BETWEEN_REQUESTS) / 60 / self.max_workers
         print(f"   Estimated processing time: ~{estimated_time:.1f} minutes")
 
         # Prepare tasks
@@ -3435,6 +3490,16 @@ class RedBullDataProcessor:
                         ValueError,
                         RuntimeError,
                     ) as err:
+                        # Graceful skip when daily API limit is reached
+                        is_daily_limit_error = self._daily_limit_reached and "Daily API limit" in str(err)
+                        is_new_skip = country_name not in self._skipped_due_to_limit
+                        if is_daily_limit_error and is_new_skip:
+                            self._skipped_due_to_limit.append(country_name)
+                            self.changelog["countries_skipped_daily_limit"].append(country_name)
+                            self.thread_safe_print(f"  ⏭️  {country_name} skipped – daily API limit reached")
+                        if is_daily_limit_error:
+                            continue  # Don't retry, don't abort – just skip
+
                         # Check if abort was triggered (e.g., expired API key)
                         if self._abort_flag:
                             self.thread_safe_print(f"  ⏹️  Aborting {country_name} due to critical error")
