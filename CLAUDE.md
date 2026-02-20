@@ -19,7 +19,7 @@ The project follows a pipeline architecture:
 2. **processor.py** - Processes raw data with AI normalization
    - **Independent Operation**: Works directly with raw files
    - **Single Country Updates**: Directly updates final JSON by default
-   - **Edition Order Preservation**: Maintains Red Bull API order for consistent diffs
+   - **Alphabetical Sorting**: Countries and editions sorted alphabetically by name for stable diffs
    - **Optimized AI Prompts**: Reduced from ~300 to ~100 lines for faster processing
    - **Intelligent Flavor Matching**: Maps variations like "Grapefruit-Woodruff" → "Woodruff & Pink Grapefruit"
 3. **GitHub Actions** - Automates daily collection and processing
@@ -202,7 +202,7 @@ python -m py_compile collector.py processor.py
       - Enforced via global corrections in corrections.json
       - Applies to Apricot/Amber/Summer Edition variants
   - Exceptions: "Pear Cinnamon" (space), "Grapefruit & Blossom" (keeps &)
-- **Order Preservation**: Edition order matches Red Bull API to minimize diffs
+- **Alphabetical Order**: Countries sorted alphabetically; editions within each country sorted by name
 - **URLs**: All HTTP converted to HTTPS
 - **Text**: Always in English (translated if necessary)
 - **Brand**: "Red Bull" removed from names (case-insensitive)

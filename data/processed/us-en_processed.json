@@ -134,7 +134,7 @@
         {
             "name": "The Sea Blue Edition Sugarfree",
             "flavor": "Juneberry",
-            "flavor_description": "Red Bull Sea Blue Edition gives you Wings with the enticing Juneberry taste without sugar",
+            "flavor_description": "Red Bull Sea Blue Edition gives you wings with the enticing Juneberry taste – now without sugar",
             "sugarfree": true,
             "color": "#007EBE",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/6/qv0jkmevdvxc00ai7car/sea-blue-sugarfree",
@@ -193,7 +193,7 @@
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-US",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Energy Drink Sugarfree is Red Bull Energy Drink without sugars.",
+            "description": "Wings without sugar: Red Bull Energy Drink Sugarfree is Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
@@ -270,7 +270,7 @@
             "edition_id": "rrn:content:energy-drinks:cee3d7a2-2bcb-4b1c-b2d9-5196673c8cb0:en-US",
             "name": "The Sea Blue Edition Sugarfree",
             "flavor": "Juneberry",
-            "description": "Red Bull Sea Blue Edition gives you Wings with the enticing Juneberry taste \nwithout sugar.",
+            "description": "Red Bull Sea Blue Edition gives you wings with the enticing Juneberry taste – now without sugar.",
             "product_url": "https://www.redbull.com/us-en/energydrink/red-bull-sea-blue-edition-sugarfree"
         },
         {
