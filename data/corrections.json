@@ -239,6 +239,19 @@
             "field": "flavor",
             "search": "Coconut",
             "replace": "Coconut-Blueberry"
+        },
+        {
+            "id": "9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:mk-MK",
+            "field": "flavor",
+            "search": "Јаболко-ѓумбир",
+            "replace": "Fuji Apple & Ginger"
+        },
+        {
+            "id": "22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA",
+            "field": "flavor_description",
+            "match_mode": "partial",
+            "search": "Sea Blue Edition",
+            "replace": "Blue Edition"
         }
     ],
     "comments": [

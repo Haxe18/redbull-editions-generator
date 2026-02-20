@@ -279,6 +279,13 @@ Create/edit `data/corrections.json`:
       "field": "flavor",
       "search": "Strawberry-Apricot",
       "replace": "Apricot-Strawberry"
+    },
+    {
+      "id": "22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA",
+      "field": "flavor_description",
+      "match_mode": "partial",
+      "search": "Sea Blue Edition",
+      "replace": "Blue Edition"
     }
   ]
 }
@@ -289,6 +296,10 @@ Create/edit `data/corrections.json`:
 - **Global (Multi-Country)**: `"id": "UUID"` → Applies to ALL countries with this UUID
 - Example: `"id": "c55e5804-ce3c-4289-8d89-930b6d678501"` applies to FI, DE, GB, etc.
 - **Real-world example**: The Apricot Edition correction above applies globally to ~16 countries
+
+**Match Modes**:
+- **`"exact"` (default)**: Entire field value must match `search` (case-insensitive). Prevents accidental partial matches (e.g. `"Peach"` won't match `"White Peach"`). Omit `match_mode` to use this default.
+- **`"partial"`**: `search` is replaced as a substring anywhere in the field value (case-insensitive check, case-sensitive replace). Useful for long text fields like `flavor_description` where the full value may change upstream. A failed partial match is logged to the changelog.
 
 **Field Mapping (Automatic)**:
 - Use `"flavor"` in corrections → internally maps to `"_raw_flavor"`

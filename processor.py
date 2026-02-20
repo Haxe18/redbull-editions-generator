@@ -1466,10 +1466,57 @@ class RedBullDataProcessor:
 
                 if actual_field in edition and search and replace:
                     original = edition[actual_field]
-                    # EXACT MATCH ONLY: Compare case-insensitively but match entire field value
-                    # This prevents partial matches (e.g., "Peach" matching inside "White Peach")
-                    if original.strip().lower() == search.strip().lower():
-                        # Replace with exact replacement value
+                    match_mode = correction.get("match_mode", "exact")
+
+                    if match_mode == "partial":
+                        # Substring-Replace: search muss im Feldwert enthalten sein
+                        if search.lower() not in original.lower():
+                            self.changelog["corrections_failed"].append(
+                                {
+                                    "id": correction_id,
+                                    "field": field,
+                                    "search": search,
+                                    "reason": "Text not found in field (partial match)",
+                                }
+                            )
+                            if self.verbose:
+                                self.thread_safe_print(
+                                    f"      ⚠️ Correction not applied for {correction_id}: "
+                                    f"'{search}' not found in {field} (partial match, checking {actual_field})"
+                                )
+                        else:
+                            edition[actual_field] = original.replace(search, replace)
+
+                            # Track that this field was corrected (especially important for flavor)
+                            if "_corrected_fields" not in edition:
+                                edition["_corrected_fields"] = set()
+                            # Track the logical field name (e.g., "flavor" not "_raw_flavor")
+                            edition["_corrected_fields"].add(field)
+
+                            # If we corrected _raw_flavor, also set the flavor field immediately
+                            if field == "flavor" and actual_field == "_raw_flavor":
+                                edition["flavor"] = edition[actual_field]
+
+                            # If we corrected _standfirst, also set the
+                            # flavor_description field immediately
+                            if field == "flavor_description" and actual_field == "_standfirst":
+                                edition["flavor_description"] = edition[actual_field]
+
+                            applied += 1
+                            self.corrections_tracking[correction_key]["applied"] = True
+                            self.changelog["corrections_applied"].append(
+                                {
+                                    "id": correction_id,
+                                    "field": field,  # Log the user-friendly field name
+                                    "search": search,
+                                    "replace": replace,
+                                }
+                            )
+                            if self.verbose:
+                                self.thread_safe_print(f"      🔧 Applied correction: {field} - " f"'{search}' → '{replace}'")
+                    elif original.strip().lower() == search.strip().lower():
+                        # EXACT MATCH: Compare case-insensitively but match entire field value
+                        # This prevents partial matches (e.g., "Peach" matching inside "White Peach")
                         edition[actual_field] = replace
 
                         # Track that this field was corrected (especially important for flavor)
