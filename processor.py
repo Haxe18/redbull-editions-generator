@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import json
 import logging
+
 # region Imports
 # Standard library imports
 import os
@@ -27,6 +28,7 @@ from threading import Lock
 from typing import Any, Dict, List, Optional, Tuple, cast
 
 from babel import Locale, UnknownLocaleError
+
 # Third-party imports
 from dotenv import load_dotenv
 from google import genai
@@ -1763,6 +1765,7 @@ class RedBullDataProcessor:
         - Ice/Ľadová → Iced
         - Maracujá → Maracuja (NOT Passion Fruit!)
         - Curuba → Curuba-Elderflower (NOT cuban!)
+        - Pompelmoes (Dutch) → Pink Grapefruit (NOT Pomelo!)
         - Keep order: "vanilka-čučoriedky" → "Vanilla-Blueberry"
 
         CRITICAL: Keep "Forest Berry" and "Forest Fruits" DISTINCT:

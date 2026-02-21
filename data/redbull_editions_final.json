@@ -431,7 +431,7 @@
             {
                 "name": "Energy Drink",
                 "flavor": "Energy Drink",
-                "flavor_description": "Red Bull Energy Drink is drunk worldwide by top athletes, busy professionals, university students and travelers on long journeys",
+                "flavor_description": "Red Bull Energy Drink is consumed worldwide by top athletes, busy professionals, university students and travellers on long journeys",
                 "sugarfree": false,
                 "color": "#2F4582",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/tr3q6fdw2uy5rl4an7yn/red-bull-energy-drink",
@@ -451,7 +451,7 @@
             {
                 "name": "Energy Drink Zero",
                 "flavor": "Zero Sugar",
-                "flavor_description": "0% sugar. 100% Wings",
+                "flavor_description": "0% sugar. 100% wings",
                 "sugarfree": true,
                 "color": "#93BFE4",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/6/o2ul3qtneew61p3fbvqf/red-bull-zero-energy-drink",
@@ -459,9 +459,9 @@
                 "product_url": "https://www.redbull.com/zero"
             },
             {
-                "name": "The Apricot Edition",
+                "name": "The Apple Edition",
                 "flavor": "Fuji Apple & Ginger",
-                "flavor_description": "The Red Bull Apricot Edition with the taste of Fuji Apple and a warm touch of Ginger",
+                "flavor_description": "The Red Bull Apple Edition with the taste of Fuji Apple and a warm hint of Ginger",
                 "sugarfree": false,
                 "color": "#AE132D",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/27/clsmaoh4kwtvysqyzvao/red-bull-apple-edition-image",
@@ -501,7 +501,7 @@
             {
                 "name": "The Lilac Edition",
                 "flavor": "Woodruff & Pink Grapefruit",
-                "flavor_description": "The Red Bull Lilac Edition: the energy drink with a fresh and zesty new taste, combining Pink Grapefruit and Woodruff, refined with subtle floral accents",
+                "flavor_description": "The Red Bull Lilac Edition: the energy drink with a fresh and zesty new taste, combining Pink Grapefruit and Woodruff, refined with subtle floral notes",
                 "sugarfree": false,
                 "color": "#7d62ce",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/16/l4rtnoxk5zfhtk39fyge/the-lilac-edition",
@@ -521,7 +521,7 @@
             {
                 "name": "The Peach Edition",
                 "flavor": "White Peach",
-                "flavor_description": "The Red Bull Peach Edition has the taste of White Peach, a hint of citrus zest and floral accents",
+                "flavor_description": "The Red Bull Peach Edition has the taste of White Peach, a hint of citrus zest and floral notes",
                 "sugarfree": false,
                 "color": "#81312F",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/22/aheyfoiy3gv67rzcmbyl/red-bull-peach-edition-image",
@@ -531,7 +531,7 @@
             {
                 "name": "The Pink Edition Sugarfree",
                 "flavor": "Forest Fruits",
-                "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits and a surprising spicy touch of verbena",
+                "flavor_description": "The Pink Edition Sugarfree Energy Drink with the taste of Forest Fruits and a surprising herbal hint of verbena",
                 "sugarfree": true,
                 "color": "#c72466",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/11/18/ruyunjbqeyd9k3mpyzxn/red-bull-pink-edition-image",
@@ -541,7 +541,7 @@
             {
                 "name": "The Red Edition",
                 "flavor": "Watermelon",
-                "flavor_description": "The Red Edition of Red Bull contains the same high-quality ingredients as Red Bull Energy Drink and has the refreshing taste of Watermelon",
+                "flavor_description": "The Red Edition of Red Bull contains the same high-quality ingredients as Red Bull Energy Drink and has a refreshing taste of Watermelon",
                 "sugarfree": false,
                 "color": "#e03c31",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/dpl5iux7fu3km8wb8etn/red-bull-red-edition-image",
@@ -551,7 +551,7 @@
             {
                 "name": "The Sea Blue Edition",
                 "flavor": "Juneberry",
-                "flavor_description": "The Red Bull Sea Blue Edition with the delicious taste of Juneberry artificially flavoured",
+                "flavor_description": "The Red Bull Sea Blue Edition with the delicious taste of Juneberry",
                 "sugarfree": false,
                 "color": "#0085C8",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/z81j1npj4fqrakodezv8/red-bull-the-sea-blue-edition-image",
