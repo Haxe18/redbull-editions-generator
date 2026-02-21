@@ -175,6 +175,12 @@
             "replace": "White Peach"
         },
         {
+            "id": "add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:mk-MK",
+            "field": "flavor",
+            "search": "Curuba",
+            "replace": "White Peach"
+        },
+        {
             "id": "2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd",
             "field": "flavor",
             "search": "Juneberry",
@@ -241,6 +247,18 @@
             "replace": "Coconut-Blueberry"
         },
         {
+            "id": "1ad9d76b-02ee-462b-a766-13ecb8ac24da:fr-FR",
+            "field": "flavor",
+            "search": "Coconut",
+            "replace": "Coconut-Blueberry"
+        },
+        {
+            "id": "41e97cb8-fb1f-41a3-a380-be2a75123e1a:fr-FR",
+            "field": "flavor",
+            "search": "Mûre givrée et vanille",
+            "replace": "Iced Vanilla Berry"
+        },
+        {
             "id": "9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:mk-MK",
             "field": "flavor",
             "search": "Јаболко-ѓумбир",
@@ -254,11 +272,20 @@
             "replace": "Blue Edition"
         }
     ],
+    "id_mappings": [
+        {
+            "comment": "AT Spring Edition Sugarfree liefert falsche API-Daten (Waldmeister & Pink Grapefruit), UK hat korrekt Cherry Sakura",
+            "source_id": "dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB",
+            "target_id": "dad80e1f-c37e-4b2b-bea7-d080dc0f439f:de-AT",
+            "fields": ["flavor", "flavor_description"]
+        }
+    ],
     "comments": [
         "This file contains manual corrections to be applied before Gemini processing",
         "id: GraphQL ID of the edition",
         "field: Which field to modify (flavor, flavor_description, name, etc.)",
         "search: Text to search for",
-        "replace: Text to replace with"
+        "replace: Text to replace with",
+        "id_mappings: Replace raw fields of a target edition with data from a source locale"
     ]
 }

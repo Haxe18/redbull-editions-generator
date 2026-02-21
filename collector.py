@@ -51,7 +51,9 @@ class Config:
     """Configuration constants for the collector."""
 
     # HTTP Configuration
-    USER_AGENT: str = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 (+https://github.com/Haxe18/redbull-editions-generator)"
+    USER_AGENT: str = (
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 (+https://github.com/Haxe18/redbull-editions-generator)"
+    )
     TIMEOUT: int = 10
 
     # Retry Configuration
@@ -913,9 +915,7 @@ class RedBullDataCollector:
             self.logger.info("  • Changed countries: %s", changes_str)
 
     @staticmethod
-    def _initialize_collection_metadata(
-        countries_count: int, old_collection_date: Optional[str] = None
-    ) -> Dict[str, Any]:
+    def _initialize_collection_metadata(countries_count: int, old_collection_date: Optional[str] = None) -> Dict[str, Any]:
         """Initialize metadata for collection results.
 
         Args:

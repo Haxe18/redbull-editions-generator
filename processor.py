@@ -308,6 +308,7 @@ class RedBullDataProcessor:
             "field_changes": defaultdict(list),
             "corrections_applied": [],
             "corrections_failed": [],
+            "id_mappings_failed": [],
             "api_calls_made": 0,
             "cache_hits": 0,
             "errors": [],
@@ -316,7 +317,7 @@ class RedBullDataProcessor:
         }
 
         # Load corrections
-        self.corrections = self._load_corrections()
+        self.corrections, self.id_mappings = self._load_corrections()
         self.corrections_tracking = {}
 
         # Initialize Gemini client
@@ -343,14 +344,15 @@ class RedBullDataProcessor:
             self.logger.debug("  🤖 Model: %s", self.GEMINI_MODEL)
             self.logger.debug("  🔄 Max parallel workers: %d", self.max_workers)
 
-    def _load_corrections(self) -> List[Dict]:
-        """Load manual corrections from JSON file.
+    def _load_corrections(self) -> tuple[List[Dict], List[Dict]]:
+        """Load manual corrections and ID mappings from JSON file.
 
         Loads corrections.json which contains manual overrides for
-        specific editions identified by GraphQL ID and locale.
+        specific editions identified by GraphQL ID and locale, and optional
+        id_mappings entries that replace raw fields from another locale.
 
         Returns:
-            List of correction dictionaries with id, field, search, and replace values.
+            Tuple of (corrections list, id_mappings list).
         """
         corrections_file = self.data_dir / "corrections.json"
         if corrections_file.exists():
@@ -358,16 +360,19 @@ class RedBullDataProcessor:
                 with open(corrections_file, "r", encoding="utf-8") as file:
                     data = json.load(file)
                     corrections = data.get("corrections", [])
+                    id_mappings = data.get("id_mappings", [])
                     if corrections and self.debug:
                         self.logger.info("📝 Loaded %d manual corrections", len(corrections))
-                    return corrections
+                    if id_mappings and self.debug:
+                        self.logger.info("🔀 Loaded %d ID mappings", len(id_mappings))
+                    return corrections, id_mappings
             except json.JSONDecodeError as err:
                 self.logger.error("\n❌ INVALID JSON in %s", corrections_file)
                 self.logger.error("   Error at line %d, column %d", err.lineno, err.colno)
                 self.logger.error("   %s", err.msg)
                 self.logger.error("\n   Please fix the JSON syntax in corrections.json")
                 sys.exit(1)
-        return []
+        return [], []
 
     def _get_word_set(self, flavor: str) -> tuple:
         """Extract sorted word tuple for order-insensitive comparison.
@@ -1591,6 +1596,146 @@ class RedBullDataProcessor:
             self.thread_safe_print(f"      ✅ Applied {applied} corrections for {short_id}")
 
         return edition
+
+    def _find_edition_by_id(self, edition_id: str) -> Optional[Dict]:
+        """Load a raw file on-demand and return the edition matching the given ID.
+
+        Derives the raw filename from the locale embedded in edition_id.
+        Example: 'dad80e1f-...:en-GB' → 'data/raw/gb-en.json'
+
+        Args:
+            edition_id: Full edition ID in the format 'UUID:locale' (e.g. 'dad80e1f-...:en-GB').
+
+        Returns:
+            Edition dictionary from raw data if found, otherwise None.
+        """
+        if ":" not in edition_id:
+            self.logger.warning("ID-Mapping: Cannot derive locale from edition_id '%s' (no colon)", edition_id)
+            return None
+
+        locale = edition_id.split(":")[-1]  # e.g. "en-GB"
+        locale_parts = locale.split("-")
+        if len(locale_parts) != 2:
+            self.logger.warning("ID-Mapping: Unexpected locale format '%s' in edition_id '%s'", locale, edition_id)
+            return None
+
+        lang, country = locale_parts  # e.g. "en", "GB"
+        filename = f"{country.lower()}-{lang.lower()}.json"
+        raw_file = self.data_dir / "raw" / filename
+
+        if not raw_file.exists():
+            self.logger.warning("ID-Mapping: Raw file '%s' for source_id '%s' not found", filename, edition_id)
+            return None
+
+        with raw_file.open(encoding="utf-8") as f:
+            raw_data = json.load(f)
+
+        uuid_part = edition_id.split(":")[0]
+        for edition in raw_data.get("editions", []):
+            raw_id = edition.get("id", "")
+            # Support both "UUID:locale" and full "rrn:content:energy-drinks:UUID:locale" format
+            if raw_id != edition_id and not raw_id.endswith(f":{uuid_part}:{locale}"):
+                continue
+
+            # Normalize raw file structure into the _raw_flavor/_standfirst keys used by the processor
+            graphql_data = edition.get("graphql_data", {}).get("data", {})
+            edition["_raw_flavor"] = graphql_data.get("flavour", "")
+            edition["_standfirst"] = graphql_data.get("standfirst", "")
+            return edition
+
+        self.logger.warning("ID-Mapping: Edition '%s' not found in '%s'", edition_id, filename)
+        return None
+
+    def _apply_id_mappings(self, editions: List[Dict]) -> List[Dict]:
+        """Replace raw fields of target editions with data from a source locale.
+
+        Called after apply_corrections but before Gemini processing.
+        Useful when the API for a country returns wrong flavor data, but the
+        same edition in another country/locale has correct data.
+
+        Args:
+            editions: List of raw edition dicts for the current country.
+
+        Returns:
+            The editions list with mapped fields applied in-place.
+        """
+        if not self.id_mappings:
+            return editions
+
+        field_mapping = {"flavor": "_raw_flavor", "flavor_description": "_standfirst"}
+
+        for mapping in self.id_mappings:
+            source_id = mapping.get("source_id", "")
+            target_id = mapping.get("target_id", "")
+            fields = mapping.get("fields", ["flavor", "flavor_description"])
+
+            if not source_id or not target_id:
+                self.logger.warning("ID-Mapping: Skipping entry with missing source_id or target_id")
+                continue
+
+            # Extract the UUID:locale portion from both IDs for matching
+            target_uuid_locale = target_id if ":" in target_id else None
+
+            matched = False
+            for edition in editions:
+                raw_id = edition.get("_graphql_id", "")
+                # Normalize to "UUID:locale" for comparison
+                if raw_id.startswith("rrn:content:energy-drinks:"):
+                    parts = raw_id.split(":")
+                    short_id = f"{parts[3]}:{parts[4]}" if len(parts) >= 5 else raw_id
+                else:
+                    short_id = raw_id
+
+                if short_id != target_uuid_locale and raw_id != target_id:
+                    continue
+
+                matched = True
+                source_data = self._find_edition_by_id(source_id)
+                if not source_data:
+                    self.changelog["id_mappings_failed"].append(
+                        {
+                            "source_id": source_id,
+                            "target_id": target_id,
+                            "fields": fields,
+                        }
+                    )
+                    break
+
+                for field in fields:
+                    raw_field = field_mapping.get(field, field)
+                    source_raw_id = source_data.get("id", "")
+                    # Normalize source raw_field lookup (same rrn format possible)
+                    src_value = source_data.get(raw_field)
+                    if src_value is None:
+                        self.logger.warning("ID-Mapping: Field '%s' not found in source edition '%s'", raw_field, source_id)
+                        continue
+
+                    old_value = edition.get(raw_field, "")
+                    edition[raw_field] = src_value
+
+                    # Keep the logical field in sync too (as apply_corrections does)
+                    if field == "flavor":
+                        edition["flavor"] = src_value
+                    elif field == "flavor_description":
+                        edition["flavor_description"] = src_value
+
+                    self.logger.info(
+                        "ID-Mapping applied: %s.%s '%s' → '%s' (from %s / %s)",
+                        target_id,
+                        raw_field,
+                        old_value,
+                        src_value,
+                        source_id,
+                        source_raw_id,
+                    )
+                    if self.verbose:
+                        self.thread_safe_print(f"      🔀 ID-Mapping applied: {field} '{old_value}' → '{src_value}' " f"(source: {source_id})")
+                break
+
+            if not matched and self.debug:
+                self.logger.debug("ID-Mapping: target_id '%s' not found in current country editions", target_id)
+
+        return editions
 
     # endregion
 
@@ -2833,6 +2978,20 @@ class RedBullDataProcessor:
                     lines.append(f"- **Reason:** {corr['reason']}")
                     lines.append("")
 
+        # ID mappings failed section
+        if self.changelog["id_mappings_failed"]:
+            lines.append("## ⚠️ Warnings - ID Mappings Not Applied")
+            lines.append("")
+            lines.append("The following ID mappings could not be applied (source edition not found):")
+            lines.append("")
+            for entry in self.changelog["id_mappings_failed"]:
+                m = cast(Dict[str, Any], entry)
+                lines.append(f"### Source not found: `{m['source_id']}`")
+                lines.append(f"- **Target ID:** `{m['target_id']}`")
+                lines.append(f"- **Fields:** {', '.join(m['fields'])}")
+                lines.append(f"- **Effect:** Target edition keeps original (possibly incorrect) raw data")
+                lines.append("")
+
         # Unused corrections check - only for processed countries
         relevant_correction_ids = set()
         processed_countries = set(self.changelog["countries_processed"])
@@ -3252,6 +3411,9 @@ class RedBullDataProcessor:
             edition = self.apply_corrections(edition, graphql_id)
 
             editions_to_process.append(edition)
+
+        # Apply ID mappings (replace raw fields from another locale before AI processing)
+        editions_to_process = self._apply_id_mappings(editions_to_process)
 
         # If we have per-edition cache logic, build the editions_to_translate list from processed editions
         if "editions_needing_translation" in locals() and editions_needing_translation:
