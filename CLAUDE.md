@@ -180,11 +180,16 @@ python -m py_compile collector.py processor.py
   - All "Açai" variations (açaí, açaï, açaì, etc.) → "Acai" in raw data
   - Applied to `_raw_flavor` and `_standfirst` fields
   - Ensures consistent handling regardless of source language
-- **Names**: 
+- **Names**:
   - "Sugarfree" → "Energy Drink Sugarfree"
   - "Zero" → "Energy Drink Zero"
   - **NEVER**: "The Original Edition" (must be "Energy Drink")
   - **NEVER**: "The Zero Edition" (must be "Energy Drink Zero")
+  - **AI Name Validation** (prevents hallucinations like Apple→Apricot):
+    - After AI translation, the name is validated against the raw source title (`header_data.content.title`) and the `product_url`
+    - If either matches an APPROVED_EDITION, that match acts as ground truth
+    - If AI-generated name differs from ground truth → Warning logged, correct name used
+    - Log pattern: `⚠️ Edition name mismatch: AI said 'X' but source data indicates 'Y' → using 'Z'`
 - **Editions**: Prefixed with "The" (e.g., "The Summer Edition")
   - Exception: Basic Energy Drink variants don't get "The" prefix
 - **Flavors**:

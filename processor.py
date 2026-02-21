@@ -412,11 +412,17 @@ class RedBullDataProcessor:
 
         lang = domain.split("-")[-1].lower()
         priorities = {
-            "en": 1, "gb": 1, "us": 1,  # English
-            "de": 2, "nl": 2,            # German/Dutch
-            "at": 3, "ch": 3,            # Austrian/Swiss German
-            "fr": 4,                     # French
-            "es": 5, "pt": 6, "it": 7,   # Other European
+            "en": 1,
+            "gb": 1,
+            "us": 1,  # English
+            "de": 2,
+            "nl": 2,  # German/Dutch
+            "at": 3,
+            "ch": 3,  # Austrian/Swiss German
+            "fr": 4,  # French
+            "es": 5,
+            "pt": 6,
+            "it": 7,  # Other European
         }
         return priorities.get(lang, 99)
 
@@ -1603,8 +1609,7 @@ class RedBullDataProcessor:
             if not self._daily_limit_reached:
                 self._daily_limit_reached = True
                 self.logger.warning(
-                    "⚠️  Daily API limit reached (%d/%d requests). "
-                    "Stopping – results so far will be saved.",
+                    "⚠️  Daily API limit reached (%d/%d requests). " "Stopping – results so far will be saved.",
                     self.MAX_REQUESTS_PER_DAY,
                     self.MAX_REQUESTS_PER_DAY,
                 )
@@ -1716,7 +1721,6 @@ class RedBullDataProcessor:
         - CRITICAL: NEVER create "The Original Edition" → use "Energy Drink"
         - CRITICAL: NEVER create "The Zero Edition" → use "Energy Drink Zero"
         - CRITICAL: NEVER use the flavor to create the edition name
-        - CRITICAL: For combined flavors like "Apricot and Strawberry", check if only one edition exists (e.g., "Apricot Edition" in approved list → use that)
         - Keep SHORT: "The X Edition" (not with flavor)
         - Sugarfree editions: "The X Edition Sugarfree"
         - Common edition names: Blue, Green, Pink, Purple, Red, Yellow, Summer, Winter, Sea Blue, Apricot, Berry
@@ -2572,7 +2576,25 @@ class RedBullDataProcessor:
             trans_data = translated_map.get(edition_id)
             if trans_data:
                 fixed_name = self.fix_edition_name(trans_data.name)
-                # Use AI-generated name without overriding
+
+                # Validate AI name against raw title and product URL as ground truth
+                raw_title = edition.get("name", "")
+                approved_raw = next((ed for ed in self.APPROVED_EDITIONS if ed.lower() == raw_title.lower()), None)
+                url_edition = self.extract_edition_from_url(edition.get("product_url", ""))
+                approved_url = next((ed for ed in self.APPROVED_EDITIONS if ed.lower() == (url_edition or "").lower()), None)
+                ground_truth = approved_raw or approved_url
+
+                if ground_truth and fixed_name:
+                    expected_name = f"The {ground_truth}"
+                    if fixed_name.lower() != expected_name.lower():
+                        logging.warning(
+                            "⚠️ Edition name mismatch: AI said '%s' but source data indicates '%s' → using '%s'",
+                            fixed_name,
+                            ground_truth,
+                            expected_name,
+                        )
+                        fixed_name = expected_name
+
                 edition["name"] = fixed_name or "Energy Drink"
 
         # Step 3: Validate and correct flavors against approved list
@@ -2890,10 +2912,7 @@ class RedBullDataProcessor:
             calls_remaining = len(skipped) * 3
             lines.append("## ⚠️ Daily API Limit Reached – Countries Deferred")
             lines.append("")
-            lines.append(
-                f"The following {len(skipped)} countries could not be processed today "
-                f"and will be picked up on the next run:"
-            )
+            lines.append(f"The following {len(skipped)} countries could not be processed today " f"and will be picked up on the next run:")
             lines.append("")
             for country in sorted(skipped):
                 lines.append(f"- {country}")
