@@ -78,6 +78,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-CA",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/14/z14tthfsiy7etkysc6xj/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D0DE",
+                                    "percentage": 10.4
+                                },
+                                {
+                                    "hexColorCode": "#C80D31",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DDE9F1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#798493",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#F9F6F4",
+                                    "percentage": 0.9
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "http://www.redbull.com/zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "ZERO SUGAR, 100% WIIINGS",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/14/z14tthfsiy7etkysc6xj/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "http://www.redbull.com/zero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-CA",
             "header_data": {
                 "content": {
@@ -143,119 +204,74 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-CA",
+            "id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-CA",
             "header_data": {
                 "content": {
-                    "title": "Zero"
+                    "title": "Spring Edition Sugarfree"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/14/z14tthfsiy7etkysc6xj/red-bull-zero-energy-drink",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/13/etylietenmcs1sycp5gq/red-bull-spring-edition-sugarfree-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#93BFE4",
-                                    "percentage": 14.1
+                                    "hexColorCode": "#E9ECEE",
+                                    "percentage": 16.4
                                 },
                                 {
-                                    "hexColorCode": "#C6D0DE",
-                                    "percentage": 10.4
+                                    "hexColorCode": "#FAF8F8",
+                                    "percentage": 7.6
                                 },
                                 {
-                                    "hexColorCode": "#C80D31",
-                                    "percentage": 3
+                                    "hexColorCode": "#C1C7D0",
+                                    "percentage": 2
                                 },
                                 {
-                                    "hexColorCode": "#DDE9F1",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#798493",
+                                    "hexColorCode": "#FBFBFA",
                                     "percentage": 1.7
                                 },
                                 {
-                                    "hexColorCode": "#F9F6F4",
-                                    "percentage": 0.9
+                                    "hexColorCode": "#51B0D9",
+                                    "percentage": 1.5
+                                },
+                                {
+                                    "hexColorCode": "#D5163B",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#E56A81",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#EEF1F0",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#73787C",
+                                    "percentage": 0.7
                                 }
                             ]
                         },
-                        "altText": "Red Bull Zero Energy Drink"
+                        "altText": "Red Bull Spring Edition Sugarfree Image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "http://www.redbull.com/zero"
+                    "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-spring-edition-sugarfree"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Zero Sugar",
-                    "standfirst": "ZERO SUGAR, 100% WIIINGS",
-                    "brandingHexColorCode": "#FFFFFF",
+                    "flavour": "Cherry Sakura",
+                    "standfirst": "The Red Bull Spring Edition Sugarfree with the taste of cherries, sakura and almond notes.",
+                    "brandingHexColorCode": "#52abd6",
                     "image": {
-                        "altText": "Red Bull Zero Energy Drink",
+                        "altText": "Red Bull Spring Edition Sugarfree Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/14/z14tthfsiy7etkysc6xj/red-bull-zero-energy-drink"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/13/etylietenmcs1sycp5gq/red-bull-spring-edition-sugarfree-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "http://www.redbull.com/zero"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-CA",
-            "header_data": {
-                "content": {
-                    "title": "Winter Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/15/m5ray6pilfccigsjzgli/red-bull-winter-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#71C6D1",
-                                    "percentage": 22.2
-                                },
-                                {
-                                    "hexColorCode": "#D5DEE4",
-                                    "percentage": 6.3
-                                },
-                                {
-                                    "hexColorCode": "#FBF7F7",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#CBD1D9",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#67B3CD",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Winter Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-winter-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Iced Vanilla Berry",
-                    "standfirst": "Wiiings for your winter: The Red Bull Winter Edition Energy Drink with the exceptional taste of blueberry, vanilla, and icy-fresh notes of eucalyptus.",
-                    "brandingHexColorCode": "#53b2c2",
-                    "image": {
-                        "altText": "Red Bull Winter Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/15/m5ray6pilfccigsjzgli/red-bull-winter-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-winter-edition"
+                        "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-spring-edition-sugarfree"
                     }
                 }
             }
@@ -663,5 +679,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-27T05:46:15.670177+00:00"
+    "collection_timestamp": "2026-02-24T06:14:53.326060+00:00"
 }
