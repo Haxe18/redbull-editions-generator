@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-02-25T06:33:10.620800+00:00",
+        "collection_date": "2026-02-27T06:23:02.961308+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -177,7 +177,7 @@
                 "ee-et"
             ],
             "flag_code": "EE",
-            "editions_count": 12,
+            "editions_count": 11,
             "data_file": "ee-et.json"
         },
         "Europe": {},
