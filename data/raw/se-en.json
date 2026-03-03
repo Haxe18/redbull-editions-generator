@@ -195,70 +195,66 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:5d0a35a9-b26a-4021-bc6a-5b1a08794ab7:en-SE",
+            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-SE",
             "header_data": {
                 "content": {
-                    "title": "Winter Edition"
+                    "title": "Spring Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/rogwilofviifd8lnsowi/red-bull-winter-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/19/wrnaaj1tfggj3n9nmija/red-bull-spring-edition",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#DA5B62",
-                                    "percentage": 7.5
+                                    "hexColorCode": "#E9ECED",
+                                    "percentage": 18.5
                                 },
                                 {
-                                    "hexColorCode": "#DFB154",
-                                    "percentage": 5.1
+                                    "hexColorCode": "#FBF9FA",
+                                    "percentage": 7.3
                                 },
                                 {
-                                    "hexColorCode": "#D6A11C",
-                                    "percentage": 4.8
+                                    "hexColorCode": "#BDC4CC",
+                                    "percentage": 2.5
                                 },
                                 {
-                                    "hexColorCode": "#D8E3EA",
-                                    "percentage": 4.5
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.8
                                 },
                                 {
-                                    "hexColorCode": "#C71F3A",
-                                    "percentage": 4.1
+                                    "hexColorCode": "#D5163C",
+                                    "percentage": 1.3
                                 },
                                 {
-                                    "hexColorCode": "#DA8355",
-                                    "percentage": 3.4
+                                    "hexColorCode": "#777E83",
+                                    "percentage": 1
                                 },
                                 {
-                                    "hexColorCode": "#C0C8D2",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#CD6428",
-                                    "percentage": 0.7
+                                    "hexColorCode": "#E5667E",
+                                    "percentage": 0.8
                                 }
                             ]
                         },
-                        "altText": "Red Bull Winter Edition Popsicle Image"
+                        "altText": "Spring Edition"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-winter-edition"
+                    "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-spring-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Mehujää",
-                    "standfirst": "Red Bull Winter Edition med smak av söta fuji äpplen och kryddiga noter av ingefära.",
-                    "brandingHexColorCode": "#AE132D",
+                    "flavour": "Grapefruit & Blossom",
+                    "standfirst": "Red Bull Spring Edition ger dig viiingar med smak av körsbär och blommiga noter av sakura och mandel.",
+                    "brandingHexColorCode": "#6952AD",
                     "image": {
-                        "altText": "Red Bull Winter Edition Popsicle Image",
+                        "altText": "Spring Edition",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/rogwilofviifd8lnsowi/red-bull-winter-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/19/wrnaaj1tfggj3n9nmija/red-bull-spring-edition"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-winter-edition"
+                        "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-spring-edition"
                     }
                 }
             }
@@ -805,5 +801,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-01-20T06:01:10.745533+00:00"
+    "collection_timestamp": "2026-03-03T06:19:59.629767+00:00"
 }

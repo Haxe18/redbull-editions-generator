@@ -42,16 +42,6 @@
             "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
         },
         {
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "The Red Bull Winter Edition with the taste of Fuji Apple & Ginger",
-            "sugarfree": false,
-            "color": "#53b2c2",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/4/co2rkjyyptno758yz7tr/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-winter-edition"
-        },
-        {
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "The Red Edition with the fresh taste of Watermelon",
@@ -74,7 +64,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "The Red Bull Apricot Edition with the fruity taste of Apricot-Strawberry",
+            "flavor_description": "Discover the Red Bull Apricot Edition with the fruity taste of Apricot Strawberry",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/arzi2oihisvrdmkk2zfa/red-bull-apricot-edition-image",
@@ -123,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NL.svg",
-    "_raw_hash": "76562cf1af3a0712ee9f1ac093688b6235a628db0ef710c361f8852e1f07a358",
+    "_raw_hash": "de1da97a8981ee0336fae34123f70819b3199652502031614105153d5fe65c84",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:nl-NL",
@@ -147,11 +137,11 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:nl-NL",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger flavor",
-            "description": "The Red Bull Winter edition with the taste of Fuji apple and a spicy kick of ginger.",
-            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-winter-edition"
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-NL",
+            "name": "The Spring Edition",
+            "flavor": "Cherry & Sakura",
+            "description": "The Red Bull Spring Edition with the taste of cherry & sakura.",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:nl-NL",
@@ -201,13 +191,6 @@
             "flavor": "Curuba-Elderflower",
             "description": "The Red Bull Green Edition Sugarfree gives you wings with the taste of curuba and elderflower.",
             "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-green-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-NL",
-            "name": "The Spring Edition",
-            "flavor": "Cherry & Sakura",
-            "description": "The Red Bull Spring Edition with the taste of cherry & sakura.",
-            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
         }
     ]
 }
