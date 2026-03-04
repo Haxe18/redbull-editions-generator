@@ -69,6 +69,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:lt-LT",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/3/vezybwwvais4adjivdzc/red-bull-zero",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.2
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.7
+                                },
+                                {
+                                    "hexColorCode": "#C90D31",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DDE9F2",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8594",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FBF8F6",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "http://www.redbull.com/zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "Nulis kalorijų, 100 % sparnųųų",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/3/vezybwwvais4adjivdzc/red-bull-zero"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "http://www.redbull.com/zero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:lt-LT",
             "header_data": {
                 "content": {
@@ -500,5 +561,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-10T22:25:54.867115+00:00"
+    "collection_timestamp": "2026-03-04T06:09:16.258551+00:00"
 }

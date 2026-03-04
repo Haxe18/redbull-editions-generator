@@ -173,7 +173,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-US.svg",
-    "_raw_hash": "a61087dbc48e526bc7eb268f021b591c23fb9484fe8af6c67a694b9656ffcfb2",
+    "_raw_hash": "fcb27e1336f91c3d378432683405be79bda9c3d670bff292cf07c5dff66a59a9",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-US",
@@ -195,6 +195,20 @@
             "flavor": "Sugarfree",
             "description": "Wings without sugar: Red Bull Energy Drink Sugarfree is Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-US",
+            "name": "The Spring Edition",
+            "flavor": "Cherry-Sakura",
+            "description": "The Red Bull Spring Edition with the taste of cherry and cherry blossom (sakura) with a touch of almond taste.",
+            "product_url": "https://www.redbull.com/us-en/energydrink/products/red-bull-spring-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-US",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry-Sakura",
+            "description": "The Red Bull Spring Edition Sugarfree with the taste of cherry and cherry blossom (sakura) with a touch of almond taste.",
+            "product_url": "https://www.redbull.com/us-en/energydrink/products/red-bull-spring-edition-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-US",
@@ -279,20 +293,6 @@
             "flavor": "Watermelon",
             "description": "The Red Bull Red Edition with the taste of watermelon.",
             "product_url": "https://www.redbull.com/us-en/energydrink/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-US",
-            "name": "The Spring Edition",
-            "flavor": "Cherry-Sakura",
-            "description": "The Red Bull Spring Edition with the taste of cherry and cherry blossom (sakura) with a touch of almond taste.",
-            "product_url": "https://www.redbull.com/us-en/energydrink/products/red-bull-spring-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-US",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry-Sakura",
-            "description": "The Red Bull Spring Edition Sugarfree with the taste of cherry and cherry blossom (sakura) with a touch of almond taste.",
-            "product_url": "https://www.redbull.com/us-en/energydrink/products/red-bull-spring-edition-sugarfree"
         }
     ]
 }

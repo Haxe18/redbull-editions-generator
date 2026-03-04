@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "The Red Bull Spring Edition with the taste of cherry and cherry blossom (sakura) with a touch of almond flavor*.",
+                    "standfirst": "Red Bull Spring Edition with the taste of cherry with notes of almond and floral cherry blossom.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Spring Edition 2026 Cherry Sakura",
@@ -322,7 +322,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "The Red Bull Spring Edition Sugarfree with the taste of cherry and cherry blossom (sakura) with a touch of almond flavor*.",
+                    "standfirst": "Red Bull Spring Edition Sugarfree with the taste of cherry with notes of almond and floral cherry blossom.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Spring Edition Sugarfree Image",
@@ -1057,5 +1057,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-24T06:29:47.300596+00:00"
+    "collection_timestamp": "2026-03-04T06:18:02.867540+00:00"
 }

@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-03-03T06:23:15.303956+00:00",
+        "collection_date": "2026-03-04T06:18:02.870283+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -39,7 +39,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -95,7 +95,7 @@
                 "ca-fr"
             ],
             "flag_code": "CA",
-            "editions_count": 10,
+            "editions_count": 13,
             "data_file": "ca-en.json"
         },
         "Caribbean": {
@@ -332,7 +332,7 @@
                 "lt-lt"
             ],
             "flag_code": "LT",
-            "editions_count": 8,
+            "editions_count": 9,
             "data_file": "lt-lt.json"
         },
         "Malaysia": {
