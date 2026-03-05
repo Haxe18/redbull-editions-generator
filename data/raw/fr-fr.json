@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "Red Bull Spring Edition au goût de cerise et de fleur de cerisier, avec une touche d'amande.",
+                    "standfirst": "Red Bull Spring Edition au goût de cerise, avec des notes d’amande et de fleur de cerisier.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Spring Edition 2026",
@@ -760,5 +760,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-19T23:13:48.489933+00:00"
+    "collection_timestamp": "2026-03-05T06:08:29.564005+00:00"
 }

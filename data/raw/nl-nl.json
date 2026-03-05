@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Kersen & Sakurasmaak",
-                    "standfirst": "The Red Bull Spring Edition met de smaak van kersen & sakura.",
+                    "standfirst": "Red Bull Spring Edition met de smaak van kers, met tonen van amandel en kersenbloesem. ",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Spring Edition 2026",
@@ -699,5 +699,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-03T06:15:01.071990+00:00"
+    "collection_timestamp": "2026-03-05T06:13:08.414955+00:00"
 }

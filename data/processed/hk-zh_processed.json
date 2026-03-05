@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is loved by athletes, professionals, students and travellers on long journeys all over the world",
+            "flavor_description": "Red Bull Purple Edition instantly explodes with the unique seductive taste of Acai berry, a sour sweet taste that directly hits the palate",
             "sugarfree": false,
             "color": "#2F4581",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/dubceoiqls2iblqvgngg/red-bull-energy-drink",
@@ -22,28 +22,28 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Green Edition",
-            "flavor": "Exotic Passion Fruit",
-            "flavor_description": "Freshly sour-sweet taste plus a hint of floral aroma matches a fresh and bubbly atmosphere, forming an exciting and refreshing feeling",
-            "sugarfree": false,
-            "color": "#79B942",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/3/25/t1dx8ooedgown8a6jt7s/red-bull-green-edition-image",
-            "alt_text": "Red Bull Green Edition - image",
-            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-green-edition"
-        },
-        {
             "name": "The Purple Edition",
-            "flavor": "Acai",
-            "flavor_description": "Red Bull Purple Edition instantly explodes with the unique seductive taste of Acai berry, a sour sweet taste that directly hits the palate",
+            "flavor": "Acai Berry",
+            "flavor_description": "Sweet White Peach taste, emitting a faint refreshing scent of tangerine peel and floral notes",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/djmiwb87afj7hcpgqgco/red-bull-purple-edition-image",
             "alt_text": "Red Bull Purple Edition - image",
             "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
+        },
+        {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Sweet White Peach taste, emitting a faint refreshing scent of tangerine peel and floral notes",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/29/n3pae0pkdzecakaennrt/red-bull-white-peach-edition-half-can",
+            "alt_text": "Red Bull White Peach Edition Sugarfree half can",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-peach-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
-    "_raw_hash": "1d179852c33a7c32eed487cf05f42a8fe7092f16064973e4402efa381299b7eb",
+    "_raw_hash": "f6397b98623d5014386105fd8bb2bc74163ca06c8989346d2a66a534aadbd495",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK",
@@ -60,18 +60,18 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:zh-HK",
-            "name": "The Green Edition",
-            "flavor": "Exotic Passion Fruit",
-            "description": "Freshly sour-sweet taste plus a hint of floral aroma matches a fresh and bubbly atmosphere, forming an exciting and refreshing feeling",
-            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-green-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK",
             "name": "The Purple Edition",
             "flavor": "Acai Berry",
             "description": "Red Bull Purple Edition instantly explodes with the unique seductive taste of acai berry, a sour-sweet taste that directly hits the palate",
             "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:zh-HK",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Sweet white peach taste, emitting a faint refreshing scent of tangerine peel and floral notes",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-peach-edition"
         }
     ]
 }

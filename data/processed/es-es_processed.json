@@ -33,7 +33,7 @@
         },
         {
             "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry",
+            "flavor": "Cherry Sakura",
             "flavor_description": "Wings for your spring: Red Bull Spring Edition Sugarfree with Cherry flavor and creamy almond notes",
             "sugarfree": true,
             "color": "#52abd6",
@@ -103,7 +103,7 @@
         },
         {
             "name": "The Coconut Edition",
-            "flavor": "Coconut",
+            "flavor": "Coconut-Blueberry",
             "flavor_description": "Get ready for an extraordinary taste experience. Red Bull Coconut Edition with exotic Coconut and Blueberry taste",
             "sugarfree": false,
             "color": "#0070b8",
@@ -123,7 +123,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg",
-    "_raw_hash": "a2c8008a8b74c523399e45c00de908ef069cc514433498b482d78f1d4a64093a",
+    "_raw_hash": "55b3b509758ca6825b9eb658e3bfa9f2c177b79b79ce44f001bbc5f775ba681b",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-ES",
@@ -145,6 +145,13 @@
             "flavor": "Sugarfree",
             "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:es-ES",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry",
+            "description": "Wings for your spring: Red Bull Spring Edition Sugarfree with cherry flavor and creamy almond notes.",
+            "product_url": "https://www.redbull.com/es-es/energydrink/red-bull-spring-edition-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:181dddbb-9ff6-46c4-ab03-d15db79fff48:es-ES",
@@ -201,13 +208,6 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the fresh taste of Watermelon.",
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:es-ES",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry",
-            "description": "Wings for your spring: Red Bull Spring Edition Sugarfree with cherry flavor and creamy almond notes.",
-            "product_url": "https://www.redbull.com/es-es/energydrink/red-bull-spring-edition-sugarfree"
         }
     ]
 }

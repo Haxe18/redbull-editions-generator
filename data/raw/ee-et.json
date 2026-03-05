@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry",
-                    "standfirst": "Red Bull Spring Edition Sugarfree mahlase kirsi, lillelise kirsiõie ning kreemja mandli noodiga.",
+                    "standfirst": "Red Bull Spring Edition Sugarfree kirsi maitse ning mandli ja kirsiõie noodiga.  ",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "The Red Bull Spring Edition Sugarfree",
@@ -679,5 +679,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-27T06:10:28.908582+00:00"
+    "collection_timestamp": "2026-03-05T06:07:38.317766+00:00"
 }

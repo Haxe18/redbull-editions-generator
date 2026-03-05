@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Kirsche-Sakura",
-                    "standfirst": "Die Red Bull Spring Edition verleiht Flüüügel mit dem Geschmack von Kirsche und Kirschblüte, abgerundet durch feine Mandelnoten. ",
+                    "standfirst": "Red Bull Spring Edition mit dem Geschmack von Kirsche mit Noten von Mandel und floraler Kirschblüte.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Spring Edition 2026",
@@ -322,7 +322,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Kirsche-Sakura",
-                    "standfirst": "Die Red Bull Spring Edition Sugarfree mit dem Geschmack von Kirsche und Kirschblüte, abgerundet durch feine Mandelnoten.",
+                    "standfirst": "Die Red Bull Spring Edition Sugarfree mit dem Geschmack von Kirsche mit Noten von Mandel und floraler Kirschblüte. ",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "The Red Bull Spring Edition Sugarfree",
@@ -833,5 +833,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-19T23:13:49.513939+00:00"
+    "collection_timestamp": "2026-03-05T06:09:01.623819+00:00"
 }

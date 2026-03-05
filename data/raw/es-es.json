@@ -257,7 +257,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cereza",
-                    "standfirst": "Aaalas para tu primavera: Red Bull Spring Edition Sin Azúcar con sabor a cereza y notas cremosas de almendra.",
+                    "standfirst": "Red Bull Spring Edition Sin Azúcar con sabor a cereza y notas cremosas de almendra. ",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Spring Edition Sugarfree Image",
@@ -772,5 +772,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-24T06:26:27.000769+00:00"
+    "collection_timestamp": "2026-03-05T06:17:21.508631+00:00"
 }

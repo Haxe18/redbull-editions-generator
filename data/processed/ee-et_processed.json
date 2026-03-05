@@ -34,7 +34,7 @@
         {
             "name": "The Spring Edition Sugarfree",
             "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Spring Edition Sugarfree with the taste of juicy Cherry, floral Elderflower and creamy almond",
+            "flavor_description": "Red Bull The Spring Edition Sugarfree with the taste of juicy Cherry, floral Elderflower and creamy almond",
             "sugarfree": true,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/17/hcduyx8opncvmklitjs5/the-red-bull-spring-edition-sugarfree",
@@ -43,8 +43,8 @@
         },
         {
             "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "The tropical taste of Coconut combined with the taste of blueberries and Red Bull wings",
+            "flavor": "Coconut",
+            "flavor_description": "The Red Bull The White Edition with the tropical taste of Coconut and blueberries",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/g49uxg9daujrfda37f2g/red-bull-white-edition-image",
@@ -94,7 +94,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "Red Bull Apricot Edition offers a perfect blend of Apricot and Strawberry with notes of Peach",
+            "flavor_description": "Red Bull The Apricot Edition offers a perfect blend of Apricot and Strawberry with notes of Peach",
             "sugarfree": false,
             "color": "#ff9425",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/2/20/t28d4viv3a49dg3dvo6t/red-bull-the-apricot-edition",
@@ -113,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EE.svg",
-    "_raw_hash": "15bb3067f533a0fa13e25c84d1893c9a5762a517c4209e2b3cad3122e75aae7c",
+    "_raw_hash": "389b94fc55818358a57ead9feea0e701aa97da971497761598bf17dececf392a",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:et-EE",

@@ -245,7 +245,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Češnja-sakura",
-                    "standfirst": "The Spring Edition ponuja okus cvetov češnje, sočnih češenj in kremastih mandljevih not.",
+                    "standfirst": "Red Bull Spring Edition z okusom češnje z notami mandlja in češnjevega cveta.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Spring Edition 2026",
@@ -318,7 +318,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Češnja-sakura",
-                    "standfirst": "The Spring Edition Sugarfree ponuja okus cvetov češnje, sočnih češenj in kremastih mandljevih not.",
+                    "standfirst": "The Spring Edition Sugarfree z okusom češnje z notami mandlja in češnjevega cveta. ",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Spring Edition Sugarfree Image",
@@ -760,5 +760,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-24T06:25:49.801013+00:00"
+    "collection_timestamp": "2026-03-05T06:16:41.832688+00:00"
 }

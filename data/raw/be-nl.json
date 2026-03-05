@@ -250,7 +250,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "Vleugels voor jouw lente: De Red Bull Spring Edition Energy Drink met de smaak van Kers-Sakura.",
+                    "standfirst": "Red Bull Spring Edition met de smaak van kers, met tonen van amandel en kersenbloesem.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Spring Edition 2026",
@@ -883,5 +883,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-19T23:13:36.700688+00:00"
+    "collection_timestamp": "2026-03-05T06:03:23.875600+00:00"
 }
