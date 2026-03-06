@@ -633,6 +633,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/dxuzrkttapvijup5strw/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
                 "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-red-edition"
+            },
+            {
+                "name": "The Spring Edition Sugarfree",
+                "flavor": "Apricot-Strawberry",
+                "flavor_description": "Red Bull Spring Sugarfree Edition with the taste of Apricot-Strawberry and creamy almond notes",
+                "sugarfree": true,
+                "color": "#52abd6",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/5/qv1un0ssy18iwubsyzfa/red-bull-spring-edition-sugarfree-image",
+                "alt_text": "Red Bull Spring Edition Sugarfree Image",
+                "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-spring-sugarfree-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg"
