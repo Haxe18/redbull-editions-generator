@@ -52,24 +52,24 @@
             "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition-sugarfree"
         },
         {
-            "name": "The Winter Edition",
+            "name": "The Apple Edition",
             "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "The Red Bull Winter Edition with the taste of Fuji Apples and the warm spiciness of Ginger",
+            "flavor_description": "The Red Bull Apple Edition with the taste of Fuji Apples and the warm spiciness of Ginger",
             "sugarfree": false,
             "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/3/amfuqsgtpevdl0bccsg7/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-winter-edition"
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/6/tobabqmhkhugyprdqicw/red-bull-apple-edition-image",
+            "alt_text": "Red Bull Apple Edition - Image",
+            "product_url": "https://redbull.com/gb-en/energydrink/products/red-bull-apple-edition"
         },
         {
-            "name": "The Winter Edition Sugarfree",
+            "name": "The Apple Edition Sugarfree",
             "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "The Red Bull Winter Edition Sugarfree with the taste of Fuji Apples and the warm spiciness of Ginger",
+            "flavor_description": "The Red Bull Apple Edition Sugarfree with the taste of Fuji Apples and the warm spiciness of Ginger",
             "sugarfree": true,
             "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/3/hhkdtjkgbqnzvj13s7dj/winter-edition",
-            "alt_text": "Winter Edition",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-winter-edition-sugarfree"
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/6/xgm4fx9gb0x9qdjc7ibz/the-apple-edition-sugarfree",
+            "alt_text": "The Apple Edition Sugarfree",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-apple-edition-sugarfree"
         },
         {
             "name": "The Peach Edition",
@@ -94,7 +94,7 @@
         {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
-            "flavor_description": "The Red Bull Lilac Edition Energy Drink sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
+            "flavor_description": "The Red Bull Lilac Edition Energy Drink Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
             "sugarfree": true,
             "color": "#6952AD",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/10/cdmxtqr210iwagxr8mbv/lilac-edition-sugarfree--grapefruit-and-blossom",
@@ -193,7 +193,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GB.svg",
-    "_raw_hash": "3835f86414ce731e68c70e643247c05fcf889812f97f2174a3bf6a2acf60f1e4",
+    "_raw_hash": "619a4aeddcf4e53e333164df740ddd3d798329230c1d72e6447651e281406115",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-GB",
@@ -217,18 +217,18 @@
             "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-zero"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-GB",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "description": "The Red Bull Winter Edition with the taste of Fuji apples and the warm spiciness of ginger.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-winter-edition"
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB",
+            "name": "The Spring Edition",
+            "flavor": "Cherry Sakura",
+            "description": "The Red Bull Spring Edition with the taste of cherries, cherry blossom and almond notes.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:en-GB",
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Fuji Apple-Ginger",
-            "description": "The Red Bull Winter Edition Sugarfree with the taste of Fuji apples and the warm spiciness of ginger.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-winter-edition-sugarfree"
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "description": "The Red Bull Spring Edition Sugarfree with the taste of cherries, cherry blossom and almond notes.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-GB",
@@ -315,18 +315,18 @@
             "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-ruby-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB",
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "description": "The Red Bull Spring Edition with the taste of cherries, cherry blossom and almond notes.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition"
+            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-GB",
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "description": "The Red Bull Apple Edition with the taste of Fuji apples and the warm spiciness of ginger.",
+            "product_url": "https://redbull.com/gb-en/energydrink/products/red-bull-apple-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "description": "The Red Bull Spring Edition Sugarfree with the taste of cherries, cherry blossom and almond notes.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition-sugarfree"
+            "edition_id": "rrn:content:energy-drinks:8cc467b7-a5fb-4a2d-be4d-3dc916680c31:en-GB",
+            "name": "The Apple Edition Sugarfree",
+            "flavor": "Fuji Apple-Ginger",
+            "description": "The Red Bull Apple Edition Sugarfree with the taste of Fuji apples and the warm spiciness of ginger.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-apple-edition-sugarfree"
         }
     ]
 }

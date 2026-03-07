@@ -273,31 +273,31 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/27/clsmaoh4kwtvysqyzvao/red-bull-apple-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/6/tobabqmhkhugyprdqicw/red-bull-apple-edition-image",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#DA5B62",
                                     "percentage": 7.5
                                 },
                                 {
-                                    "hexColorCode": "#DFB054",
-                                    "percentage": 4.9
+                                    "hexColorCode": "#DFB154",
+                                    "percentage": 5.1
+                                },
+                                {
+                                    "hexColorCode": "#D6A11C",
+                                    "percentage": 4.8
                                 },
                                 {
                                     "hexColorCode": "#D8E3EA",
                                     "percentage": 4.6
                                 },
                                 {
-                                    "hexColorCode": "#D69F1D",
-                                    "percentage": 4.4
-                                },
-                                {
-                                    "hexColorCode": "#C81F3C",
-                                    "percentage": 4.3
+                                    "hexColorCode": "#C71F3A",
+                                    "percentage": 4.1
                                 },
                                 {
                                     "hexColorCode": "#DA8456",
-                                    "percentage": 3.4
+                                    "percentage": 3.3
                                 },
                                 {
                                     "hexColorCode": "#C1C9D3",
@@ -305,7 +305,7 @@
                                 },
                                 {
                                     "hexColorCode": "#CD6427",
-                                    "percentage": 0.8
+                                    "percentage": 0.7
                                 }
                             ]
                         },
@@ -324,7 +324,7 @@
                     "image": {
                         "altText": "Red Bull Apple Edition - Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/27/clsmaoh4kwtvysqyzvao/red-bull-apple-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/6/tobabqmhkhugyprdqicw/red-bull-apple-edition-image"
                         }
                     },
                     "reference": {
@@ -883,5 +883,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-05T06:03:23.875600+00:00"
+    "collection_timestamp": "2026-03-07T05:52:33.190912+00:00"
 }
