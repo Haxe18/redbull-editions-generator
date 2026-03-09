@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-03-07T06:10:40.677191+00:00",
+        "collection_date": "2026-03-09T06:30:52.211404+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -39,7 +39,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
