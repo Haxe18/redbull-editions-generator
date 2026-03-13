@@ -52,16 +52,6 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition-sugarfree"
         },
         {
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Red Bull Winter Edition with the taste of Fuji Apple and warming spiciness of Ginger",
-            "sugarfree": false,
-            "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/mp8pxcegpmecfc41zssz/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition"
-        },
-        {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Pink Grapefruit-Herbs",
             "flavor_description": "Red Bull Lilac Edition Sugarfree offers the taste of Pink Grapefruit with a hint of herbs",
@@ -70,16 +60,6 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/3/zgnagoeotn3ls7xirfko/lilac-edition-sugarfree--grapefruit-and-blossom",
             "alt_text": "Lilac-Edition-Sugarfree Grapefruit & Blossom",
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-lilac-edition-sugarfree"
-        },
-        {
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Red Bull Winter Edition Sugarfree with the taste of Fuji Apple and warming spiciness of Ginger",
-            "sugarfree": true,
-            "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/oubwat0q9f4qfvmvkwwz/winter-edition-half-can",
-            "alt_text": "Winter Edition half can",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition-sugarfree"
         },
         {
             "name": "The Pink Edition Sugarfree",
@@ -133,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "31d6c5f12c0b3494b7f433477aa4adbec05600a9de0b6fb69ea223951f5ad345",
+    "_raw_hash": "193fd55a503c527acd9163d186a5c70861e118d819ba4d1f4780d323504c20f4",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL",
@@ -171,25 +151,11 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition-sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pl-PL",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple-Ginger",
-            "description": "Red Bull Winter Edition with the taste of Fuji apple and warming spiciness of ginger.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pl-PL",
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Pink Grapefruit-Herbs",
             "description": "Red Bull Lilac Edition Sugarfree offers the taste of pink grapefruit with a hint of herbs",
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-lilac-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pl-PL",
-            "name": "Winter Edition Sugarfree",
-            "flavor": "Fuji Apple-Ginger",
-            "description": "Red Bull Winter Edition Sugarfree with the taste of Fuji apple and warming spiciness of ginger.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL",

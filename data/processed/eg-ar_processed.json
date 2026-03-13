@@ -7,7 +7,7 @@
             "flavor_description": "Red Bull gives wings to athletes and their ambitions. It provides inspiration to people who want to push their mental and physical limits and share their lifestyle",
             "sugarfree": false,
             "color": "#263A80",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/12/f3djrcqlufxhxg3b6adq/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/eg-ar/energydrink"
         },
@@ -44,7 +44,7 @@
         {
             "name": "The White Edition",
             "flavor": "Coconut",
-            "flavor_description": "Get ready for a unique taste experience. Red Bull White Edition with the distinctive taste of Coconut and fruit",
+            "flavor_description": "Get ready for a unique taste experience. Red Bull White Edition with the distinctive taste of Coconut",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
@@ -63,7 +63,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EG.svg",
-    "_raw_hash": "77e4bb3757a6a307977fade2d132ecf29e5127e6abd6aa0d9293953ccc448151",
+    "_raw_hash": "070e1e439abe32e0cee6d550b64c20dff03b84bd1c75e50b1ac0118c61302fbb",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ar-EG",
@@ -87,6 +87,13 @@
             "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-winter-edition"
         },
         {
+            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ar-EG",
+            "name": "The Sea Blue Edition",
+            "flavor": "Juneberry",
+            "description": "Red Bull Sea Blue Edition provides a taste of blueberry. Red Bull Sea Blue Edition provides a taste of blueberry.",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
+        },
+        {
             "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:ar-EG",
             "name": "The White Edition",
             "flavor": "Coconut",
@@ -99,13 +106,6 @@
             "flavor": "Acai Berry",
             "description": "Try the distinctive taste of Acai Berry.",
             "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-purple-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ar-EG",
-            "name": "The Sea Blue Edition",
-            "flavor": "Juneberry",
-            "description": "Red Bull Sea Blue Edition provides a taste of blueberry. Red Bull Sea Blue Edition provides a taste of blueberry.",
-            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
         }
     ]
 }
