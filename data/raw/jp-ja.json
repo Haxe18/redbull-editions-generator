@@ -146,74 +146,66 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ja-JP",
+            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
             "header_data": {
                 "content": {
-                    "title": "ウィンターエディション"
+                    "title": "チェリーエディション"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/16/mv53pihrotyijrtbrzdx/red-bull-winter-edition",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#DA5D64",
-                                    "percentage": 7
+                                    "hexColorCode": "#EDF0F0",
+                                    "percentage": 14.8
                                 },
                                 {
-                                    "hexColorCode": "#DFB154",
-                                    "percentage": 5.2
+                                    "hexColorCode": "#FAF8F8",
+                                    "percentage": 7.3
                                 },
                                 {
-                                    "hexColorCode": "#D8E3EA",
-                                    "percentage": 4.9
-                                },
-                                {
-                                    "hexColorCode": "#D6A11C",
+                                    "hexColorCode": "#D61E43",
                                     "percentage": 4.8
                                 },
                                 {
-                                    "hexColorCode": "#C71F39",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#DA8457",
-                                    "percentage": 3.2
-                                },
-                                {
-                                    "hexColorCode": "#C3CAD4",
+                                    "hexColorCode": "#E6546D",
                                     "percentage": 2.6
                                 },
                                 {
-                                    "hexColorCode": "#CD6326",
-                                    "percentage": 0.7
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.5
                                 },
                                 {
-                                    "hexColorCode": "#70777C",
-                                    "percentage": 0.5
+                                    "hexColorCode": "#E0E3E7",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#EFF2F1",
+                                    "percentage": 1.2
                                 }
                             ]
                         },
-                        "altText": "Red Bull Winter Edition"
+                        "altText": "Spring Edition 2026 Cherry"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-winter-edition"
+                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Fuji Apple",
-                    "standfirst": "レッドブル ウィンターエディションがアップル味で新登場！",
-                    "brandingHexColorCode": "#ae132d",
+                    "flavour": "さくらんぼ",
+                    "standfirst": "レッドブル チェリーエディションがさくらんぼ味で新登場！",
+                    "brandingHexColorCode": "#0a3073",
                     "image": {
-                        "altText": "Red Bull Winter Edition",
+                        "altText": "Spring Edition 2026 Cherry",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/16/mv53pihrotyijrtbrzdx/red-bull-winter-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-winter-edition"
+                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
                     }
                 }
             }
@@ -410,5 +402,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-17T05:36:29.122692+00:00"
+    "collection_timestamp": "2026-03-16T06:56:49.085965+00:00"
 }

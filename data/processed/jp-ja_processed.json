@@ -22,19 +22,19 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Winter Edition",
-            "flavor": "Apple",
-            "flavor_description": "Red Bull Winter Edition with apple taste lands with a new arrival!",
+            "name": "The Cherry Edition",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull The Cherry Edition arrives with a sakuranbo taste!",
             "sugarfree": false,
-            "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/16/mv53pihrotyijrtbrzdx/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-winter-edition"
+            "color": "#0a3073",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry",
+            "alt_text": "Spring Edition 2026 Cherry",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
         },
         {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "Red Bull with muscat flavor, landing again!",
+            "flavor_description": "Red Bull The Green Edition with muscat flavor, landing again!",
             "sugarfree": false,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
@@ -44,7 +44,7 @@
         {
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "The yellow Red Bull, give it Wings",
+            "flavor_description": "The Yellow Red Bull, give it Wings",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/usuu2hvhcwfyfvcmol5s/red-bull-yellow-edition-image",
@@ -63,7 +63,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
-    "_raw_hash": "981f9875824182e20396a8a6dc4f472f943ba95f3808646b9e3f09ad051ef848",
+    "_raw_hash": "fb23c962dc926a6808b32dbe71d97b2c2b0ce8c062ce565a25430f6a841dc4e5",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
@@ -101,11 +101,11 @@
             "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ja-JP",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple",
-            "description": "Red Bull Winter Edition with apple taste lands with a new arrival!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-winter-edition"
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
+            "name": "The Cherry Edition",
+            "flavor": "Sakuranbo",
+            "description": "Red Bull Cherry Edition arrives with a sakuranbo taste!",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
         }
     ]
 }
