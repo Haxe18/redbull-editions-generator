@@ -1909,6 +1909,16 @@
                 "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-ice-edition"
             },
             {
+                "name": "The Peach Edition",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull Peach Edition: the energizing drink with the extraordinary taste of White Peach, enhanced by a hint of citrus and subtle floral notes",
+                "sugarfree": false,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/16/x4qektnfjji9wmwlboio/red-bull-peach-edition-image",
+                "alt_text": "Red Bull Peach Edition - Image",
+                "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-peach-edition"
+            },
+            {
                 "name": "The Red Edition",
                 "flavor": "Watermelon",
                 "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
@@ -4779,16 +4789,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/10/tor2hhzxp1rhqwh1cmiz/red-bull-white-edition-image",
                 "alt_text": "Red Bull White Edition - image",
                 "product_url": "https://www.redbull.com/ch-de/energydrink/red-bull-white-edition"
-            },
-            {
-                "name": "The Winter Edition",
-                "flavor": "Fuji Apple & Ginger",
-                "flavor_description": "The Red Bull Winter Edition with the taste of Fuji Apple and the warm spice of Ginger",
-                "sugarfree": false,
-                "color": "#AE132D",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/15/lathbomarh14bk7q3yf3/red-bull-winter-edition-image",
-                "alt_text": "Red Bull Winter Edition Popsicle Image",
-                "product_url": "https://www.redbull.com/ch-de/energydrink/products/red-bull-winter-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CH.svg"

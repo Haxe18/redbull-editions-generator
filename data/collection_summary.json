@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-03-16T07:05:38.639836+00:00",
+        "collection_date": "2026-03-17T06:32:25.659432+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -196,7 +196,7 @@
                 "fr-fr"
             ],
             "flag_code": "FR",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "fr-fr.json"
         },
         "Germany": {
@@ -532,7 +532,7 @@
                 "ch-fr"
             ],
             "flag_code": "CH",
-            "editions_count": 14,
+            "editions_count": 13,
             "data_file": "ch-de.json"
         },
         "Taiwan": {
