@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
             "sugarfree": false,
             "color": "#2F4582",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
+            "flavor_description": "Zero Calories. Zero Sugar. 100% Wings",
             "sugarfree": true,
             "color": "#2784C4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/s5kmasklctz5s2rjsqpo/red-bull-sugarfree",
@@ -24,7 +24,7 @@
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "Zero Calories. Zero Sugar. 100% Wings",
+            "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach, a touch of citrus peel and floral notes",
             "sugarfree": true,
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/17/mmdrvovogibkl85dypdp/red-bull-zero-energy-drink",
@@ -32,19 +32,19 @@
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
         },
         {
-            "name": "The Summer Edition",
+            "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new taste that offers the taste of White Peach, highlighted by a touch of citrus peel and floral notes",
+            "flavor_description": "The Red Bull Lilac Edition Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
             "sugarfree": false,
             "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/18/moqh0rbcohop1ogof1qk/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/17/hctyjc8gd6wf8dg6584r/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-peach-edition"
         },
         {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
-            "flavor_description": "The Red Bull Lilac Edition Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
+            "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
             "sugarfree": true,
             "color": "#6952AD",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/9/qhn9km1mogiyjtkb1ijj/lilac-edition-sugarfree--grapefruit-and-blossom",
@@ -53,8 +53,8 @@
         },
         {
             "name": "The Berry Edition Sugarfree",
-            "flavor": "Forest Fruits",
-            "flavor_description": "The Red Bull The Berry Edition Sugarfree with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
+            "flavor": "Coconut-Blueberry",
+            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image",
@@ -63,8 +63,8 @@
         },
         {
             "name": "The Coconut Edition Sugarfree",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull The Coconut Edition Sugarfree with the taste of exotic Coconut and fruity Blueberry",
+            "flavor": "Coconut",
+            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
             "sugarfree": true,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
@@ -73,7 +73,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NZ.svg",
-    "_raw_hash": "d8408de62a77f9085c64104c96d0d4228050884da3f80d65ca9d3cf53289cca6",
+    "_raw_hash": "d3b7af4d5918893c73ef14433d918f8495de7f578ec515bb8b00a25c3f825551",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NZ",
@@ -97,13 +97,6 @@
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-NZ",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new taste that offers the taste of white peach, highlighted by a touch of citrus peel and floral notes.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ",
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Woodruff",
@@ -123,6 +116,13 @@
             "flavor": "Coconut",
             "description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry.",
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-NZ",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition offers the taste of white peach, a touch of citrus peel and floral notes.",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-peach-edition"
         }
     ]
 }

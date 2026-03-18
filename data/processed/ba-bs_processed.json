@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull is loved worldwide by top athletes, in demanding professions, students and for long journeys",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/17/mjp9slng5acinczrgzid/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-energy-drink"
         },
@@ -33,8 +33,8 @@
         },
         {
             "name": "The Spring Edition Sugarfree",
-            "flavor": "Apricot-Strawberry",
-            "flavor_description": "Red Bull Spring Sugarfree Edition with the taste of Apricot-Strawberry and creamy almond notes",
+            "flavor": "Cherry Fruit-Flower",
+            "flavor_description": "Red Bull The Spring Edition Sugarfree with the taste of Cherry fruit and flower and creamy almond notes",
             "sugarfree": true,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/5/qv1un0ssy18iwubsyzfa/red-bull-spring-edition-sugarfree-image",
@@ -44,7 +44,7 @@
         {
             "name": "The Green Edition",
             "flavor": "Dragon Fruit",
-            "flavor_description": "Red Bull Green Edition with the taste of exotic fruit, pitaya",
+            "flavor_description": "Red Bull The Green Edition with the taste of Dragon Fruit",
             "sugarfree": false,
             "color": "#2ca44a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/i9dbbaa4gmxigaen0yk5/red-bull-green-edition-image",
@@ -73,7 +73,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg",
-    "_raw_hash": "b80dbb712f917eb397d200f6542e0774c7f99dd0b1983b29273ad10a4f3ec95d",
+    "_raw_hash": "d5b51e62c14ce82e2960f6f0e69e3e9375220b3eb0679e11ffd4f28b198a613e",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bs-BA",
@@ -97,6 +97,13 @@
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-sugarfree"
         },
         {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:bs-BA",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Fruit and Flower",
+            "description": "Red Bull Spring Sugarfree Edition with the taste of cherry fruit and flower and creamy almond notes.",
+            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-spring-sugarfree-edition"
+        },
+        {
             "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:bs-BA",
             "name": "The Green Edition",
             "flavor": "Dragon Fruit",
@@ -116,13 +123,6 @@
             "flavor": "Watermelon",
             "description": "Red Bull Red Edition with the refreshing taste of watermelon.",
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:bs-BA",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Fruit and Flower",
-            "description": "Red Bull Spring Sugarfree Edition with the taste of cherry fruit and flower and creamy almond notes.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-spring-sugarfree-edition"
         }
     ]
 }

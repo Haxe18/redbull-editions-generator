@@ -42,16 +42,6 @@
             "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-spring-edition-sugarfree"
         },
         {
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Red Bull Winter Edition with the taste of Fuji Apple and spicy Ginger",
-            "sugarfree": false,
-            "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/2/djjsqqgybwyve73lh3cn/red-bull-winter-edition-image",
-            "alt_text": "Red Bull Winter Edition Popsicle Image",
-            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-winter-edition"
-        },
-        {
             "name": "The Ice Edition",
             "flavor": "Iced",
             "flavor_description": "Red Bull Ice Edition gives wings with an iced taste. Enjoy the energy drink made from high-quality ingredients",
@@ -60,6 +50,16 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/19/sbuzywoeha4mriykzqyz/red-bull-ice-edition",
             "alt_text": "Red Bull Ice Edition",
             "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-ice-edition"
+        },
+        {
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Winter Edition with the taste of Fuji Apple and spicy Ginger",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/2/djjsqqgybwyve73lh3cn/red-bull-winter-edition-image",
+            "alt_text": "Red Bull Winter Edition Popsicle Image",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-winter-edition"
         },
         {
             "name": "The Lilac Edition Sugarfree",
@@ -133,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FI.svg",
-    "_raw_hash": "caf9c76190e692607f1688fece7d3db8ff4dca736bd521ba16c21397903374e1",
+    "_raw_hash": "dd1ffab641149f4b5018714db2fb81c8711c72687897d4e9ecc48af3ba747206",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fi-FI",
@@ -155,6 +155,20 @@
             "flavor": "Zero Sugar",
             "description": "The new Red Bull Zero is here.",
             "product_url": "https://www.redbull.com/fi-fi/energydrink/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:fi-FI",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry",
+            "description": "Red Bull Spring Edition Sugarfree gives wings with a cherry taste with a hint of almond and cherry blossom.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-spring-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fi-FI",
+            "name": "The Ice Edition",
+            "flavor": "Iced",
+            "description": "Red Bull Ice Edition gives wings with an iced taste. Enjoy the energy drink made from high-quality ingredients.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-ice-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fi-FI",
@@ -211,20 +225,6 @@
             "flavor": "White Peach",
             "description": "The Peach Edition with the refreshing taste of peach",
             "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-peach-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:fi-FI",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry",
-            "description": "Red Bull Spring Edition Sugarfree gives wings with a cherry taste with a hint of almond and cherry blossom.",
-            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-spring-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fi-FI",
-            "name": "The Ice Edition",
-            "flavor": "Iced",
-            "description": "Red Bull Ice Edition gives wings with an iced taste. Enjoy the energy drink made from high-quality ingredients.",
-            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-ice-edition"
         }
     ]
 }
