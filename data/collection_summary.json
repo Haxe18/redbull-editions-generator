@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-03-18T06:32:39.467424+00:00",
+        "collection_date": "2026-03-19T06:29:38.056566+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -140,7 +140,7 @@
                 "hr-hr"
             ],
             "flag_code": "HR",
-            "editions_count": 10,
+            "editions_count": 9,
             "data_file": "hr-hr.json"
         },
         "Czech Republic": {

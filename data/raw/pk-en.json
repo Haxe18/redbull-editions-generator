@@ -11,7 +11,7 @@
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PK",
             "header_data": {
                 "content": {
-                    "title": "Energy Drink"
+                    "title": "Stimulant Drink"
                 },
                 "media": {
                     "mainImage": {
@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Stimulant Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -191,5 +191,5 @@
             }
         }
     ],
-    "collection_timestamp": "2025-10-23T05:44:11.121985+00:00"
+    "collection_timestamp": "2026-03-19T06:23:07.204840+00:00"
 }
