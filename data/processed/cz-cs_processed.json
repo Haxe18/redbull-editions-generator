@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false,
-            "color": "#2F4682",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/g0c3etyqjdjlfeplfd6m/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/gztj97cnanwswpo9uwwt/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-energy-drink"
         },
@@ -113,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CZ.svg",
-    "_raw_hash": "e4994f46246fbdba6a3872de2ae49e781831f1dcadaa89af89bcdab69fbababe",
+    "_raw_hash": "e52c5d593b3b6e42c0d74d6bfea4ea793c5920583491ce558df00f73a9ed89d6",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:cs-CZ",
@@ -135,6 +135,13 @@
             "flavor": "Zero Sugar",
             "description": "Zero sugar. 100% Wings.",
             "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:cs-CZ",
+            "name": "The Spring Edition",
+            "flavor": "Cherry and Sakura",
+            "description": "Red Bull Spring Edition with the taste of cherry and sakura.",
+            "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-spring-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:cs-CZ",
@@ -184,13 +191,6 @@
             "flavor": "Juneberry",
             "description": "Red Bull Sea Blue edition with the enticing fruity taste of juneberry.",
             "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-sea-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:cs-CZ",
-            "name": "The Spring Edition",
-            "flavor": "Cherry and Sakura",
-            "description": "Red Bull Spring Edition with the taste of cherry and sakura.",
-            "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-spring-edition"
         }
     ]
 }

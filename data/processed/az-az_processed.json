@@ -2,16 +2,6 @@
     "flag": "🇦🇿",
     "editions": [
         {
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated by high-level athletes, busy professionals, university students and long-distance travelers worldwide",
-            "sugarfree": false,
-            "color": "#263A80",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/2/25/h7ufrkdbtvilbnhgqvkp/red-bull",
-            "alt_text": "Red Bull",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "flavor_description": "Sugarfree Wings: Red Bull Sugarfree is the sugarfree version of Red Bull Energy Drink",
@@ -53,15 +43,8 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AZ.svg",
-    "_raw_hash": "b43f81813100cee14bbfd84dfce727873ca859b81d554c3a6c81c3daae0a3a18",
+    "_raw_hash": "2756730269569e4805edc65befda75a0c59d957451a0d0cacac520c4c8b428ed",
     "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:az-AZ",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated by high-level athletes, busy professionals, university students and long-distance travelers worldwide.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
         {
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:az-AZ",
             "name": "Energy Drink Sugarfree",

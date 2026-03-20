@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false,
-            "color": "#2F4581",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/eph4nhqpzwqwgexowlic/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/qkfjelti2tmh7xvspnmg/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/at-de/energydrink"
         },
@@ -34,7 +34,7 @@
         {
             "name": "The Spring Edition",
             "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull Spring Edition with the taste of Cherry with notes of Japanese Cherry Blossom and a hint of almond",
+            "flavor_description": "The Red Bull Spring Edition provides Wings with the taste of Cherry with notes of Japanese Cherry Blossom and a hint of almond",
             "sugarfree": false,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/10/rajxw4jtyqq9nxtdlqfz/spring-edition-2026",
@@ -133,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AT.svg",
-    "_raw_hash": "54568f0f7aaf91563a46e1c51d41dae17bdf2f49748620f33dcc3e6a727fbc68",
+    "_raw_hash": "d64e16109a5caf63f32afbf186b17b8e3ba39401429267f8e3d786f35dffbb2d",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-AT",

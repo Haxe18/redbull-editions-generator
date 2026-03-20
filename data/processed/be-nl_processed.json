@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is consumed worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/tr3q6fdw2uy5rl4an7yn/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/rcduu1o6re1zznrlpmdv/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
@@ -94,7 +94,7 @@
         {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Forest Fruits",
-            "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits and a surprising herbal hint of verbena",
+            "flavor_description": "The Pink Edition Sugarfree has the taste of Forest Fruits and a surprising herbal hint of verbena",
             "sugarfree": true,
             "color": "#c72466",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/11/18/ruyunjbqeyd9k3mpyzxn/red-bull-pink-edition-image",
@@ -143,7 +143,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BE.svg",
-    "_raw_hash": "9a5117ebe584b5c88870d8c7b5d37267bc8758cf1fa7a55f116ff96ff1e82a7f",
+    "_raw_hash": "605977e2a562bc3bfeefdc2844036a6014a03833614a22c9f7cffd5302ccb4a8",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:nl-BE",

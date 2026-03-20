@@ -16,34 +16,42 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/pr00zjff7si8mju2frga/red-bull-energy-drink",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/19/vzj1uylbynl7x4a4yogx/red-bull-energy-drink",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#2F4581",
-                                    "percentage": 15.3
+                                    "hexColorCode": "#263A80",
+                                    "percentage": 8.8
                                 },
                                 {
-                                    "hexColorCode": "#D5D8DD",
-                                    "percentage": 8.6
+                                    "hexColorCode": "#C8D0DA",
+                                    "percentage": 7.9
                                 },
                                 {
-                                    "hexColorCode": "#EEF0F2",
-                                    "percentage": 3.2
+                                    "hexColorCode": "#1A2D72",
+                                    "percentage": 7.7
                                 },
                                 {
-                                    "hexColorCode": "#D21E3F",
-                                    "percentage": 3
+                                    "hexColorCode": "#CA0D37",
+                                    "percentage": 2.9
                                 },
                                 {
-                                    "hexColorCode": "#627CBA",
-                                    "percentage": 2.8
+                                    "hexColorCode": "#E6ECF0",
+                                    "percentage": 1.9
                                 },
                                 {
-                                    "hexColorCode": "#EDCB74",
+                                    "hexColorCode": "#5274B6",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#768394",
+                                    "percentage": 1.3
+                                },
+                                {
+                                    "hexColorCode": "#FBF7F4",
                                     "percentage": 0.6
                                 },
                                 {
-                                    "hexColorCode": "#838993",
+                                    "hexColorCode": "#E5C178",
                                     "percentage": 0.5
                                 }
                             ]
@@ -63,7 +71,7 @@
                     "image": {
                         "altText": "Red Bull Energy Drink",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/pr00zjff7si8mju2frga/red-bull-energy-drink"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/19/vzj1uylbynl7x4a4yogx/red-bull-energy-drink"
                         }
                     },
                     "reference": {
@@ -512,5 +520,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-02-19T23:14:16.990354+00:00"
+    "collection_timestamp": "2026-03-20T06:20:42.175069+00:00"
 }

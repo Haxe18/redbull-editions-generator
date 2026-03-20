@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-03-19T06:29:38.056566+00:00",
+        "collection_date": "2026-03-20T06:26:42.862001+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -48,7 +48,7 @@
                 "az-az"
             ],
             "flag_code": "AZ",
-            "editions_count": 5,
+            "editions_count": 4,
             "data_file": "az-az.json"
         },
         "Belgium": {
@@ -441,7 +441,7 @@
                 "pl-pl"
             ],
             "flag_code": "PL",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "pl-pl.json"
         },
         "Portugal": {

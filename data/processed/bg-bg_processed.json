@@ -6,9 +6,9 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is highly valued by top athletes, students, and professionals with high demands, as well as during long journeys",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/jvqdfg2am4qilthqjg99/red-bull-energy-drink-image",
-            "alt_text": "Red Bull Energy Drink - image",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/lbn88eq4kydmxfbcsdbb/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/bg-bg/energydrink/products/red-bull-energy-drink"
         },
         {
@@ -44,7 +44,7 @@
         {
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "Try the exotic taste of Tropical Fruits",
+            "flavor_description": "Red Bull The Yellow Edition with the taste of Tropical Fruits",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/rij4yvg9ui0b317utbjp/red-bull-yellow-edition-image",
@@ -73,7 +73,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BG.svg",
-    "_raw_hash": "cbcc647fb785fb4a541d3787312c9ebad4187f524d26cacac59d666a6baa6380",
+    "_raw_hash": "d24168c2568d52c23026193220b7a4d00df58a7976c715ff295036ac4ca0e89d",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bg-BG",
