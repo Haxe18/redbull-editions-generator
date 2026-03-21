@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-03-20T06:26:42.862001+00:00",
+        "collection_date": "2026-03-21T06:12:41.446821+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -12,7 +12,7 @@
                 "al-sq"
             ],
             "flag_code": "AL",
-            "editions_count": 5,
+            "editions_count": 4,
             "data_file": "al-sq.json"
         },
         "Argentina": {

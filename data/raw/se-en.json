@@ -258,7 +258,7 @@
                 "data": {
                     "flavour": "Grapefruit & Blossom",
                     "standfirst": "Red Bull Spring Edition ger dig viiingar med smak av körsbär och blommiga noter av sakura och mandel.",
-                    "brandingHexColorCode": "#6952AD",
+                    "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Spring Edition",
                         "imageEssence": {
@@ -813,5 +813,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-20T06:23:21.283590+00:00"
+    "collection_timestamp": "2026-03-21T06:09:53.997818+00:00"
 }

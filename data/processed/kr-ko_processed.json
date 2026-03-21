@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is loved by many people such as world-class athletes, professionals, college students, and travelers",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/cbhn1gvwickvi1lyxwq5/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/kr-ko/energydrink"
         },
@@ -24,7 +24,7 @@
         {
             "name": "The Pink Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull White Peach Edition: Experience a new energy drink with the scent of Strawberry and the fruity notes of citrus!",
+            "flavor_description": "Red Bull Pink Edition: Experience a new energy drink with the scent of Strawberry and the fruity notes of citrus!",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition",
@@ -44,7 +44,7 @@
         {
             "name": "The Purple Edition",
             "flavor": "Grape",
-            "flavor_description": "Experience Red Bull Purple Edition with enhanced Grapefruit flavor",
+            "flavor_description": "Experience Red Bull Purple Edition with enhanced grape flavor",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/2/27/ayou0mwalsltglytgbjr/red-bull-the-purple-edition",
@@ -53,7 +53,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KR.svg",
-    "_raw_hash": "648f4b809cee49f073855353a67f5b9670f7f4c9cabefee07f717182d0cdb556",
+    "_raw_hash": "c3ddbd011c9fb1fa3f3a3deed914a072489159b98257428b612a1f055f951d66",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR",

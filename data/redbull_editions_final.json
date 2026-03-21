@@ -3,19 +3,9 @@
         "flag": "🇦🇱",
         "editions": [
             {
-                "name": "Energy Drink",
-                "flavor": "Energy Drink",
-                "flavor_description": "Red Bull Energy Drink is valued worldwide by top athletes, students, professionals with demanding jobs, and during long trips",
-                "sugarfree": false,
-                "color": "#2F4581",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/yz52znjbtsaujarel8as/red-bull-energy-drink-image",
-                "alt_text": "Red Bull Energy Drink - image",
-                "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
-            },
-            {
                 "name": "Energy Drink Sugarfree",
                 "flavor": "Sugarfree",
-                "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+                "flavor_description": "Red Bull Sugarfree is Red Bull Energy Drink without sugar",
                 "sugarfree": true,
                 "color": "#0595D2",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/ebuoirbl6ly0eyey4gvm/red-bull-sugarfree-image",
@@ -1049,8 +1039,8 @@
                 "flavor": "Energy Drink",
                 "flavor_description": "Red Bull Energy Drink is recognized worldwide by athletes, professionals, university students, and travelers",
                 "sugarfree": false,
-                "color": "#2F4581",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/zjkl2sarqnh9qnahif02/red-bull-energy-drink",
+                "color": "#263A80",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/fn6dwaqrb5ejxgjq1xdh/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
                 "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-energy-drink"
             },
@@ -1087,7 +1077,7 @@
             {
                 "name": "The Green Edition",
                 "flavor": "Dragon Fruit",
-                "flavor_description": "Dragon Fruit will become your new favorite Edition with its sweet and exotic taste",
+                "flavor_description": "The Red Bull Green Edition with the taste of Dragon Fruit",
                 "sugarfree": false,
                 "color": "#2ca44a",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/24/bpxigx5b8ruetntcwgmt/red-bull-green-edition",
@@ -1096,7 +1086,7 @@
             },
             {
                 "name": "The Purple Edition",
-                "flavor": "Acai",
+                "flavor": "Acai Berry",
                 "flavor_description": "Experience the unique and exotic taste of Acai",
                 "sugarfree": false,
                 "color": "#702082",
@@ -1117,7 +1107,7 @@
             {
                 "name": "The Summer Edition Sugarfree",
                 "flavor": "White Peach",
-                "flavor_description": "Wings for your summer: The Red Bull Summer Edition Sugarfree offers the taste of Peach, with a citrus touch and floral notes, all without sugarfree",
+                "flavor_description": "Wings for your summer: The Red Bull Summer Edition Sugarfree offers the taste of Peach, with a citrus touch and floral notes, all without sugar",
                 "sugarfree": true,
                 "color": "#E24585",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/30/ovynp5dxwq8t7h1jnui2/red-bull-summer-edition-sugarfree",
@@ -1162,7 +1152,7 @@
                 "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
                 "sugarfree": false,
                 "color": "#C8CFD9",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/ouanvmqoopaayzzn2nle/red-bull-energy-drink",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/yw4v6cek72qofbhlwb7g/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
                 "product_url": "https://www.redbull.com/co-es/energydrink/products/red-bull-energy-drink"
             },
@@ -1523,7 +1513,7 @@
             {
                 "name": "The Purple Edition",
                 "flavor": "Acai",
-                "flavor_description": "Try the distinctive taste of Acai",
+                "flavor_description": "Try the distinctive taste of Acai Berry",
                 "sugarfree": false,
                 "color": "#702082",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/2/aueelk9hj9ayzoj3tl5l/red-bull-the-purple-edition",
@@ -1532,8 +1522,8 @@
             },
             {
                 "name": "The Sea Blue Edition",
-                "flavor": "Juneberry",
-                "flavor_description": "The Red Bull Sea Blue Edition provides a taste of Juneberry. Red Bull Sea Blue Edition provides a taste of Juneberry",
+                "flavor": "Blueberry",
+                "flavor_description": "The Red Bull Sea Blue Edition provides a taste of Blueberry. Red Bull Sea Blue Edition provides a taste of Blueberry",
                 "sugarfree": false,
                 "color": "#0072CE",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/9/tlohh1hbk8iyflml0bmq/red-bull-the-sea-blue-edition-image",
@@ -1543,7 +1533,7 @@
             {
                 "name": "The White Edition",
                 "flavor": "Coconut",
-                "flavor_description": "Get ready for a unique taste experience. The Red Bull White Edition with the distinctive taste of Coconut",
+                "flavor_description": "Get ready for a unique taste experience. The Red Bull White Edition with the distinctive taste of Coconut and Tuti frutti",
                 "sugarfree": false,
                 "color": "#0070b8",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
@@ -2303,8 +2293,8 @@
                 "flavor": "Energy Drink",
                 "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
                 "sugarfree": false,
-                "color": "#2E4581",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/1/ksbgcpv9fs81rkf5krzb/red-bull-energy-drink",
+                "color": "#263A80",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/oiyohcx4t3ylhzlnjvqn/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
                 "product_url": "https://www.redbull.com/energydrink"
             },
@@ -2359,8 +2349,8 @@
                 "flavor": "Energy Drink",
                 "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, students and anyone on long journeys",
                 "sugarfree": false,
-                "color": "#2F4582",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+                "color": "#263A80",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/mscv95uvjaonhbhtdhvx/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
                 "product_url": "https://www.redbull.com/id-id/energydrink/products/red-bull-energy-drink"
             }
@@ -2709,8 +2699,8 @@
                 "flavor": "Energy Drink",
                 "flavor_description": "Red Bull Energy Drink is known and valued all over the world. It helps top athletes, students, extreme athletes, and people with demanding professions, as well as during long car journeys",
                 "sugarfree": false,
-                "color": "#2F4581",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/qewhbutmr2uzhkklr0xi/red-bull-energy-drink",
+                "color": "#263A80",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/seswwpgqxstf1z3n3bpg/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
                 "product_url": "https://www.redbull.com/energydrink"
             },
@@ -2757,7 +2747,7 @@
             {
                 "name": "The Yellow Edition",
                 "flavor": "Tropical Fruits",
-                "flavor_description": "The Red Bull Yellow Edition. Immerse yourself in the exotic taste of Tropical Fruits",
+                "flavor_description": "The Red Bull Yellow Edition with the taste of Tropical Fruits",
                 "sugarfree": false,
                 "color": "#FFCD00",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/10/15/hyhq8iuvqsamozeprhoe/red-bull-yellow-edition-image",
@@ -2775,8 +2765,8 @@
                 "flavor": "Energy Drink",
                 "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
                 "sugarfree": false,
-                "color": "#2F4582",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink-image",
+                "color": "#263A80",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/p15qigei4yoj6eeslgqr/red-bull-energy-drink-image",
                 "alt_text": "Red Bull Energy Drink - image",
                 "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-energy-drink"
             },
@@ -2811,8 +2801,8 @@
                 "flavor": "Energy Drink",
                 "flavor_description": "Red Bull Energy Drink is loved by many people such as world-class athletes, professionals, college students, and travelers",
                 "sugarfree": false,
-                "color": "#2F4582",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+                "color": "#263A80",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/cbhn1gvwickvi1lyxwq5/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
                 "product_url": "https://www.redbull.com/kr-ko/energydrink"
             },
@@ -2839,7 +2829,7 @@
             {
                 "name": "The Pink Edition",
                 "flavor": "White Peach",
-                "flavor_description": "Red Bull White Peach Edition: Experience a new energy drink with the scent of Strawberry and the fruity notes of citrus!",
+                "flavor_description": "The Red Bull Pink Edition: Experience a new energy drink with the scent of Strawberry and the fruity notes of citrus!",
                 "sugarfree": false,
                 "color": "#E24585",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition",
@@ -2849,7 +2839,7 @@
             {
                 "name": "The Purple Edition",
                 "flavor": "Grape",
-                "flavor_description": "Experience The Red Bull Purple Edition with enhanced Grapefruit flavor",
+                "flavor_description": "Experience The Red Bull Purple Edition with enhanced grape flavor",
                 "sugarfree": false,
                 "color": "#702082",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/2/27/ayou0mwalsltglytgbjr/red-bull-the-purple-edition",
@@ -3059,8 +3049,8 @@
                 "flavor": "Energy Drink",
                 "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
                 "sugarfree": false,
-                "color": "#2F4582",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+                "color": "#263A80",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/vqd5iv0syljvqkbyhltt/red-bull-energy-drink",
                 "alt_text": "Red Bull Energy Drink",
                 "product_url": "https://www.redbull.com/energydrink"
             }

@@ -2,19 +2,9 @@
     "flag": "🇦🇱",
     "editions": [
         {
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is valued worldwide by top athletes, students, professionals with demanding jobs, and during long trips",
-            "sugarfree": false,
-            "color": "#2F4581",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/yz52znjbtsaujarel8as/red-bull-energy-drink-image",
-            "alt_text": "Red Bull Energy Drink - image",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
-        },
-        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "flavor_description": "Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true,
             "color": "#0595D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/ebuoirbl6ly0eyey4gvm/red-bull-sugarfree-image",
@@ -53,15 +43,8 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AL.svg",
-    "_raw_hash": "7cb2f1da529d87c09264b8960070112914dff9d51c0543cf4f8e7e42d24f6e91",
+    "_raw_hash": "7afe3904cef343dff746ce99756aad785872079da926f9371f0682930346d8e0",
     "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is valued worldwide by top athletes, students, professionals with demanding jobs, and during long trips.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
-        },
         {
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sq-AL",
             "name": "Energy Drink Sugarfree",
