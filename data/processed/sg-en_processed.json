@@ -4,17 +4,17 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "In the Little Red Dot where ambition never sleeps, Red Bull Energy Drink powers those who push boundaries. Appreciated worldwide by top athletes, students, and professionals in fast-paced industries",
+            "flavor_description": "In Singapore, Red Bull Energy Drink powers those who push boundaries. Appreciated worldwide by top athletes, students, and professionals in fast-paced industries",
             "sugarfree": false,
-            "color": "#2F4581",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/nercvjxetieezu3slyd9/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/uodzkiq8vwz3jeirribp/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "flavor_description": "Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true,
             "color": "#0495D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/bi3ulrancqfi3qtiwz5b/red-bull-sugarfree",
@@ -43,7 +43,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SG.svg",
-    "_raw_hash": "9d149d571c024bb51ee2aa205121080f8726bcf53987f536a208103e2f09f176",
+    "_raw_hash": "8a06775e4aaf009882a3407652004090c23108d9dbbb4a8c16abcc0912196da8",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-SG",
@@ -60,18 +60,18 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:en-SG",
-            "name": "The Peach Edition Sugarfree",
-            "flavor": "White Peach",
-            "description": "The Red Bull Peach Edition Sugarfree Energy Drink offers the taste of white peach, a touch of citrus peel and floral notes – all with no sugar.",
-            "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-peach-edition-sugarfree"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-SG",
             "name": "The Purple Edition",
             "flavor": "Kyoho grape",
             "description": "The Red Bull Purple Edition gives you Wings with the taste of Kyoho grape.",
             "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-purple-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:en-SG",
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition Sugarfree Energy Drink offers the taste of white peach, a touch of citrus peel and floral notes – all with no sugar.",
+            "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-peach-edition-sugarfree"
         }
     ]
 }

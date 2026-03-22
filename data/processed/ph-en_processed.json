@@ -6,15 +6,15 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false,
-            "color": "#2F4581",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/xp8tjuagilr7kcaktwlz/red-bull-energy-drink-image",
-            "alt_text": "Red Bull Energy Drink - image",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/uhwiun56rzjibmn4obzw/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/ph-en/energydrink/red-bull-energy-drink"
         },
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
+            "flavor_description": "Wings without sugar: Red Bull Energy Drinksugarfree",
             "sugarfree": true,
             "color": "#0495D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/ap8b1ymuo2xsrpu2n0i1/red-bull-sugarfree-image",
@@ -23,7 +23,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PH.svg",
-    "_raw_hash": "389f59f926d46606443b69bd4dd4560c410bc4df748787ac6758dc3baf69e30b",
+    "_raw_hash": "432b330586de188432868f6ad7ab224aa552bec6ffa82ad739050dcc2d59f8a2",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH",

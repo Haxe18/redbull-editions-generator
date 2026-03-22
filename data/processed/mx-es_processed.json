@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false,
-            "color": "#2F4580",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/9/cvs1opbyodfeaj9xsbbe/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/c3hbkw2lpwicndrj4jgc/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/mx-es/energydrink/products/red-bull-energy-drink"
         },
@@ -43,7 +43,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-MX.svg",
-    "_raw_hash": "8b7eea16f5c7b354c9c24c2a86a4b694f172a3a7dbd7396a286c6153f25fed83",
+    "_raw_hash": "d4a37b02178f2e1eefa9ca92eb145a4c0a0f2dfff378cd86831be99ccba59a09",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-MX",
