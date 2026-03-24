@@ -207,83 +207,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-IE",
-            "header_data": {
-                "content": {
-                    "title": "Winter Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/17/bjdrjtgucio7anf7zjz5/red-bull-winter-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#DA5C63",
-                                    "percentage": 7.5
-                                },
-                                {
-                                    "hexColorCode": "#E0B254",
-                                    "percentage": 4.9
-                                },
-                                {
-                                    "hexColorCode": "#D8E3EA",
-                                    "percentage": 4.7
-                                },
-                                {
-                                    "hexColorCode": "#D7A31C",
-                                    "percentage": 4.4
-                                },
-                                {
-                                    "hexColorCode": "#C7203A",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#DA8155",
-                                    "percentage": 3.1
-                                },
-                                {
-                                    "hexColorCode": "#C0C8D2",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#CD6328",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#52ADD7",
-                                    "percentage": 0.6
-                                },
-                                {
-                                    "hexColorCode": "#E6D3D1",
-                                    "percentage": 0.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Winter Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Fuji Apple & Ginger",
-                    "standfirst": "The Red Bull Winter Edition Sugarfree with the taste of Fuji apples and the warm spiciness of ginger.",
-                    "brandingHexColorCode": "#ae132d",
-                    "image": {
-                        "altText": "Red Bull Winter Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/17/bjdrjtgucio7anf7zjz5/red-bull-winter-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-IE",
             "header_data": {
                 "content": {
@@ -336,67 +259,6 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/ie-en/energydrink/red-bull-pink-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-IE",
-            "header_data": {
-                "content": {
-                    "title": "Ice Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/3/avstzzaagrtkph4hvg7v/red-bull-iced-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#71C6D0",
-                                    "percentage": 22.3
-                                },
-                                {
-                                    "hexColorCode": "#D7E2E8",
-                                    "percentage": 4.4
-                                },
-                                {
-                                    "hexColorCode": "#C7CDD7",
-                                    "percentage": 2.3
-                                },
-                                {
-                                    "hexColorCode": "#F7F4F5",
-                                    "percentage": 1.8
-                                },
-                                {
-                                    "hexColorCode": "#101010",
-                                    "percentage": 0.6
-                                },
-                                {
-                                    "hexColorCode": "#56A6C8",
-                                    "percentage": 0.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Ice Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ie-en/energydrink/red-bull-ice-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Iced Gummy Bear",
-                    "standfirst": "The Red Bull Ice Edition with the exceptional taste of blueberry, vanilla, and icy-fresh notes of eucalyptus.",
-                    "brandingHexColorCode": "#53b2c2",
-                    "image": {
-                        "altText": "Red Bull Ice Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/3/avstzzaagrtkph4hvg7v/red-bull-iced-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ie-en/energydrink/red-bull-ice-edition"
                     }
                 }
             }
@@ -699,5 +561,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-20T06:15:11.520092+00:00"
+    "collection_timestamp": "2026-03-24T06:21:32.960736+00:00"
 }

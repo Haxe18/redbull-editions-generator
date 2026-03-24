@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-03-23T06:36:43.862242+00:00",
+        "collection_date": "2026-03-24T06:31:45.721036+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -269,7 +269,7 @@
                 "ie-en"
             ],
             "flag_code": "IE",
-            "editions_count": 11,
+            "editions_count": 9,
             "data_file": "ie-en.json"
         },
         "Italy": {
