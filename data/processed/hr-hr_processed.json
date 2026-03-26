@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is popular among athletes, busy professionals, students and those on long journeys",
             "sugarfree": false,
-            "color": "#2F4581",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/w7csoe6ugcmlgahxn5ag/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/25/x1n3v45c3j9npfeydjyp/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
@@ -54,7 +54,7 @@
         {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
-            "flavor_description": "Red Bull Sea Blue Edition with the taste of Juneberry.",
+            "flavor_description": "Red Bull Sea Blue Edition with the taste of merale fruit",
             "sugarfree": false,
             "color": "#0072CE",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/30/njkgk8zwh9gvfkeb8mps/red-bull-the-sea-blue-edition-image",
@@ -64,7 +64,7 @@
         {
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
-            "flavor_description": "Red Bull Yellow Edition. Surprise yourself with the exotic taste of Tropical Fruits.",
+            "flavor_description": "Red Bull The Yellow Edition. Surprise yourself with the exotic taste of tropical fruit",
             "sugarfree": false,
             "color": "#FFCD00",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/criosahwkvg5po6183ag/red-bull-yellow-edition-image",
@@ -93,7 +93,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HR.svg",
-    "_raw_hash": "3f750e30dedd75415f0988325f3c9d4d962e89cd7206a6fb54f940b27965afc9",
+    "_raw_hash": "e2ea3449d5b233039c8639aea0c9663a02620f8dece5adac5c4ba9a3499b3d2d",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hr-HR",
