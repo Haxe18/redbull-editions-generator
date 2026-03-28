@@ -10,7 +10,6 @@ import argparse
 import hashlib
 import json
 import logging
-
 # region Imports
 # Standard library imports
 import os
@@ -28,7 +27,6 @@ from threading import Lock
 from typing import Any, Dict, List, Optional, Tuple, cast
 
 from babel import Locale, UnknownLocaleError
-
 # Third-party imports
 from dotenv import load_dotenv
 from google import genai
@@ -113,10 +111,18 @@ class ValidationResult(BaseModel):
     """
 
     is_valid: bool = Field(description="Whether the edition passes all validation rules")
-    flavor_in_approved_list: bool = Field(description="Whether the flavor is in the approved list")
-    corrections_needed: List[str] = Field(description="List of issues found that need correction")
-    corrected_flavor: Optional[str] = Field(description="The corrected flavor name if correction is needed")
-    corrected_description: Optional[str] = Field(description="The corrected description if non-English text was found")
+    flavor_in_approved_list: bool = Field(
+        description="Whether the flavor is in the approved list"
+    )
+    corrections_needed: List[str] = Field(
+        description="List of issues found that need correction"
+    )
+    corrected_flavor: Optional[str] = Field(
+        description="The corrected flavor name if correction is needed"
+    )
+    corrected_description: Optional[str] = Field(
+        description="The corrected description if non-English text was found"
+    )
 
 
 # endregion
@@ -143,11 +149,12 @@ class RedBullDataProcessor:
     """
 
     # region Class Constants
-    GEMINI_MODEL = "gemini-2.5-flash-lite"
+    GEMINI_MODEL = "gemini-3.1-flash-lite-preview"
     MIN_DELAY_BETWEEN_REQUESTS = 6.5  # seconds (60s / 10 RPM = 6.0s minimum, 6.5s buffer)
     MAX_REQUESTS_PER_MINUTE = 10
-    MAX_REQUESTS_PER_DAY = 20
+    MAX_REQUESTS_PER_DAY = 250
     SIMILARITY_THRESHOLD = 0.75  # Minimum similarity for flavor matching
+    GLOBAL_UUID_CACHE_FILE = "global_uuid_cache.json"
 
     # APPROVED FLAVOR LIST (Source of Truth)
     APPROVED_FLAVORS = [
@@ -267,12 +274,18 @@ class RedBullDataProcessor:
         # Thread safety - initialize early since _log_debug uses it
         self.print_lock = Lock()
         self.api_call_lock = Lock()
+        self._global_cache_lock = Lock()
         self._abort_flag = False  # Flag to abort all processing on critical errors
         self._daily_limit_reached = False  # Flag when daily API quota is exhausted
         self._skipped_due_to_limit: List[str] = []  # Countries skipped due to daily limit
 
+        # Cross-country UUID translation cache (loaded/saved around process_all)
+        self._global_uuid_cache: Dict[str, Dict[str, Any]] = {}
+
         # Setup logger
-        self.logger = setup_logger(self.__class__.__name__, enable_verbose=verbose, debug=debug)
+        self.logger = setup_logger(
+            self.__class__.__name__, enable_verbose=verbose, debug=debug
+        )
         if self.debug:
             logging.getLogger().setLevel(logging.DEBUG)
 
@@ -282,8 +295,12 @@ class RedBullDataProcessor:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             self.verbose_log_file = self.verbose_dir / f"debug_{timestamp}.log"
             # Add file handler for verbose mode
-            file_handler = logging.FileHandler(self.verbose_log_file, mode="w", encoding="utf-8")
-            file_handler.setFormatter(logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s"))
+            file_handler = logging.FileHandler(
+                self.verbose_log_file, mode="w", encoding="utf-8"
+            )
+            file_handler.setFormatter(
+                logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+            )
             self.logger.addHandler(file_handler)
             self.logger.info("🔍 DEBUG MODE: Full API logging enabled")
             self.logger.info("   Debug log: %s", self.verbose_log_file)
@@ -333,7 +350,9 @@ class RedBullDataProcessor:
         api_key = os.getenv("GEMINI_API_KEY")
         if not api_key:
             self.logger.error("❌ No GEMINI_API_KEY found in environment")
-            self.logger.error("   Please set the GEMINI_API_KEY environment variable or add it to .env file")
+            self.logger.error(
+                "   Please set the GEMINI_API_KEY environment variable or add it to .env file"
+            )
             raise ValueError("GEMINI_API_KEY is required for processing")
 
         self.client = genai.Client(api_key=api_key)
@@ -465,7 +484,9 @@ class RedBullDataProcessor:
 
                     # Only update if this domain has higher priority (lower number)
                     if country_name in countries:
-                        existing_priority = self._get_language_priority(countries[country_name]["domain"])
+                        existing_priority = self._get_language_priority(
+                            countries[country_name]["domain"]
+                        )
                         if new_priority >= existing_priority:
                             continue  # Keep existing entry with higher/equal priority
 
@@ -482,7 +503,9 @@ class RedBullDataProcessor:
 
         return countries
 
-    def update_final_json_with_country(self, country_name: str, country_data: Dict[str, Any]) -> bool:
+    def update_final_json_with_country(
+        self, country_name: str, country_data: Dict[str, Any]
+    ) -> bool:
         """Update the final JSON file with a single country's data.
 
         Directly updates redbull_editions_final.json with the processed
@@ -509,6 +532,8 @@ class RedBullDataProcessor:
             clean_data = dict(country_data)
             clean_data.pop("_raw_hash", None)
             clean_data.pop("_translated_editions", None)
+            clean_data.pop("_edition_fingerprints", None)
+            clean_data.pop("_normalized_editions", None)
 
             # Update the country data
             final_data[country_name] = clean_data
@@ -520,12 +545,18 @@ class RedBullDataProcessor:
 
             # Save updated final data (sorted alphabetically by country and edition name)
             with open(final_file, "w", encoding="utf-8") as file:
-                json.dump(self._sort_final_data(final_data), file, indent=4, ensure_ascii=False)
+                json.dump(
+                    self._sort_final_data(final_data), file, indent=4, ensure_ascii=False
+                )
 
             return True
 
         except json.JSONDecodeError as err:
-            error_msg = f"  ❌ Failed to parse JSON file: {err}\n" f"     File: {final_file}\n" f"     Line: {err.lineno}, Column: {err.colno}"
+            error_msg = (
+                f"  ❌ Failed to parse JSON file: {err}\n"
+                f"     File: {final_file}\n"
+                f"     Line: {err.lineno}, Column: {err.colno}"
+            )
             self.logger.error(error_msg)
             if self.verbose:
                 self.logger.error("     Stack trace:")
@@ -539,14 +570,19 @@ class RedBullDataProcessor:
                 traceback.print_exc()
             return False
         except KeyError as err:
-            error_msg = f"  ❌ Missing required field in data: {err}\n" f"     Country: {country_name}"
+            error_msg = (
+                f"  ❌ Missing required field in data: {err}\n" f"     Country: {country_name}"
+            )
             self.logger.error(error_msg)
             if self.verbose:
                 self.logger.error("     Stack trace:")
                 traceback.print_exc()
             return False
         except Exception as err:
-            error_msg = f"  ❌ Unexpected error updating final JSON: {err}\n" f"     Type: {type(err).__name__}"
+            error_msg = (
+                f"  ❌ Unexpected error updating final JSON: {err}\n"
+                f"     Type: {type(err).__name__}"
+            )
             self.logger.error(error_msg)
             if self.verbose:
                 self.logger.error("     Stack trace:")
@@ -600,7 +636,9 @@ class RedBullDataProcessor:
             self._log_debug(prompt)
             self._log_debug("-" * 40)
 
-    def _log_api_response(self, country: str, step: str, response: Any, duration: float) -> None:
+    def _log_api_response(
+        self, country: str, step: str, response: Any, duration: float
+    ) -> None:
         """Log API response details.
 
         Logs full API responses and timing for debugging in verbose mode.
@@ -617,7 +655,9 @@ class RedBullDataProcessor:
             self._log_debug("-" * 40)
             if response:
                 try:
-                    if hasattr(response, "__iter__") and all(hasattr(r, "model_dump") for r in response):
+                    if hasattr(response, "__iter__") and all(
+                        hasattr(r, "model_dump") for r in response
+                    ):
                         # List of Pydantic models
                         response_data = [r.model_dump() for r in response]
                     elif hasattr(response, "model_dump"):
@@ -667,7 +707,9 @@ class RedBullDataProcessor:
         with open(emoji_file, "w", encoding="utf-8") as file:
             json.dump(emoji_data, file, indent=4, ensure_ascii=False)
 
-    def get_region_emoji_from_gemini(self, region_name: str, used_emojis: set) -> Optional[str]:
+    def get_region_emoji_from_gemini(
+        self, region_name: str, used_emojis: set
+    ) -> Optional[str]:
         """Ask Gemini for a unique emoji for the region"""
         if not self.client:
             return None
@@ -692,7 +734,9 @@ class RedBullDataProcessor:
             - Middle East → 🐪 (characteristic)
             """
 
-            response = self.client.models.generate_content(model=self.GEMINI_MODEL, contents=prompt)
+            response = self.client.models.generate_content(
+                model=self.GEMINI_MODEL, contents=prompt
+            )
 
             if response and response.text:
                 emoji = response.text.strip()
@@ -746,7 +790,9 @@ class RedBullDataProcessor:
                 self.save_region_emojis(emoji_data)
 
                 if self.verbose:
-                    self.thread_safe_print(f"    🎨 Generated new emoji for {country_name}: {new_emoji}")
+                    self.thread_safe_print(
+                        f"    🎨 Generated new emoji for {country_name}: {new_emoji}"
+                    )
 
                 return new_emoji
 
@@ -795,7 +841,9 @@ class RedBullDataProcessor:
         """
         if not image_url:
             return ""
-        return image_url.replace("{op}", "e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000")
+        return image_url.replace(
+            "{op}", "e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000"
+        )
 
     @staticmethod
     def extract_edition_from_url(url: str) -> Optional[str]:
@@ -890,7 +938,9 @@ class RedBullDataProcessor:
         # CRITICAL CHECK: If it's in the approved list - RETURN IMMEDIATELY, DO NOT MODIFY
         if original_flavor in self.APPROVED_FLAVORS:
             if self.verbose:
-                self.thread_safe_print(f"      ✅ Flavor '{original_flavor}' is in APPROVED_FLAVORS - keeping as is")
+                self.thread_safe_print(
+                    f"      ✅ Flavor '{original_flavor}' is in APPROVED_FLAVORS - keeping as is"
+                )
             return original_flavor
 
         # Handle special case: "Tropical/Tropical Fruits" -> "Tropical Fruits"
@@ -926,10 +976,16 @@ class RedBullDataProcessor:
                 if part and not any(part.lower() == p.lower() for p in unique_parts):
                     unique_parts.append(part)
 
-            flavor = " ".join(unique_parts) if len(unique_parts) > 1 else (unique_parts[0] if unique_parts else flavor)
+            flavor = (
+                " ".join(unique_parts)
+                if len(unique_parts) > 1
+                else (unique_parts[0] if unique_parts else flavor)
+            )
 
         # Fix missing spaces around & (e.g., "Woodruff &Pink" -> "Woodruff & Pink")
-        flavor = re.sub(r"&(?=[A-Za-z])", "& ", flavor)  # Add space after & if followed by letter
+        flavor = re.sub(
+            r"&(?=[A-Za-z])", "& ", flavor
+        )  # Add space after & if followed by letter
         # Add space before & if preceded by letter
         flavor = re.sub(r"(?<=[A-Za-z])&", " &", flavor)
 
@@ -942,11 +998,15 @@ class RedBullDataProcessor:
         normalized_input = flavor.lower().replace("-", "").replace("&", "").replace(" ", "")
 
         for approved in self.APPROVED_FLAVORS:
-            normalized_approved = approved.lower().replace("-", "").replace("&", "").replace(" ", "")
+            normalized_approved = (
+                approved.lower().replace("-", "").replace("&", "").replace(" ", "")
+            )
             if normalized_input == normalized_approved:
                 # Found a match! Use the approved version with correct formatting
                 if self.verbose:
-                    self.thread_safe_print(f"      🔄 Fuzzy match: '{flavor}' → '{approved}' (normalized match)")
+                    self.thread_safe_print(
+                        f"      🔄 Fuzzy match: '{flavor}' → '{approved}' (normalized match)"
+                    )
                 return approved
 
         # WORD-ORDER MATCHING: Match when same words in any order
@@ -955,7 +1015,9 @@ class RedBullDataProcessor:
         for approved in self.APPROVED_FLAVORS:
             if input_words == self._get_word_set(approved):
                 if self.verbose:
-                    self.thread_safe_print(f"      🔄 Word-order match: '{flavor}' → '{approved}'")
+                    self.thread_safe_print(
+                        f"      🔄 Word-order match: '{flavor}' → '{approved}'"
+                    )
                 return approved
 
         # SIMILARITY MATCHING: Use difflib for partial matches
@@ -964,7 +1026,9 @@ class RedBullDataProcessor:
         best_ratio = 0.0
 
         for approved in self.APPROVED_FLAVORS:
-            normalized_approved = approved.lower().replace("-", "").replace("&", "").replace(" ", "")
+            normalized_approved = (
+                approved.lower().replace("-", "").replace("&", "").replace(" ", "")
+            )
             ratio = SequenceMatcher(None, normalized_input, normalized_approved).ratio()
 
             if ratio > best_ratio:
@@ -973,7 +1037,10 @@ class RedBullDataProcessor:
 
         if best_match and best_ratio >= self.SIMILARITY_THRESHOLD:
             if self.verbose:
-                self.thread_safe_print(f"      🔄 Similarity match: '{flavor}' → '{best_match}' " f"(ratio: {best_ratio:.2f})")
+                self.thread_safe_print(
+                    f"      🔄 Similarity match: '{flavor}' → '{best_match}' "
+                    f"(ratio: {best_ratio:.2f})"
+                )
             return best_match
 
         # For flavors not in the approved list, check if it should keep the &
@@ -1081,7 +1148,11 @@ class RedBullDataProcessor:
         for sentence in sentences:
             # Ensure first letter is uppercase
             if sentence:
-                sentence = sentence[0].upper() + sentence[1:] if len(sentence) > 1 else sentence.upper()
+                sentence = (
+                    sentence[0].upper() + sentence[1:]
+                    if len(sentence) > 1
+                    else sentence.upper()
+                )
             normalized_sentences.append(sentence)
 
         # Rejoin sentences
@@ -1210,7 +1281,9 @@ class RedBullDataProcessor:
         for country_name in sorted(final_data.keys()):
             country = dict(final_data[country_name])
             if "editions" in country:
-                country["editions"] = sorted(country["editions"], key=lambda e: e.get("name", ""))
+                country["editions"] = sorted(
+                    country["editions"], key=lambda e: e.get("name", "")
+                )
             sorted_data[country_name] = country
         return sorted_data
 
@@ -1328,7 +1401,9 @@ class RedBullDataProcessor:
             if "flavor" in name.lower() or "flavour" in name.lower():
                 # Log warning
                 if self.verbose:
-                    self.thread_safe_print(f"      ⚠️ WARNING: Invalid name with 'Flavor': '{name}' - clearing name")
+                    self.thread_safe_print(
+                        f"      ⚠️ WARNING: Invalid name with 'Flavor': '{name}' - clearing name"
+                    )
             return ""  # Return empty to be filled based on flavor later
 
         # Handle Edition names: Remove "Red Bull" and add "The"
@@ -1388,7 +1463,9 @@ class RedBullDataProcessor:
                     name = f"{name} Sugarfree"
 
                 if self.verbose and "Summer Passion" in edition_part:
-                    self.thread_safe_print("      🔧 Cleaned edition name: removed text after 'Edition'")
+                    self.thread_safe_print(
+                        "      🔧 Cleaned edition name: removed text after 'Edition'"
+                    )
             # If no match but contains Edition, just add "The" if missing
             elif not name.startswith("The "):
                 name = f"The {name}"
@@ -1401,15 +1478,21 @@ class RedBullDataProcessor:
             # Check if it's in approved list - if yes, trust it
             if edition_core in self.APPROVED_EDITIONS:
                 if self.verbose:
-                    self.thread_safe_print(f"      ✅ Edition '{edition_core}' found in approved list")
+                    self.thread_safe_print(
+                        f"      ✅ Edition '{edition_core}' found in approved list"
+                    )
             else:
                 # Check if it follows valid pattern "Word(s) Edition"
                 if re.match(r"^[A-Z][a-z]+(?:\s+[A-Z][a-z]+)*\s+Edition$", edition_core):
                     if self.verbose:
-                        self.thread_safe_print(f"      ⚠️  New edition detected: '{edition_core}' (not in approved list but follows valid pattern)")
+                        self.thread_safe_print(
+                            f"      ⚠️  New edition detected: '{edition_core}' (not in approved list but follows valid pattern)"
+                        )
                 else:
                     if self.verbose:
-                        self.thread_safe_print(f"      🚨 Suspicious edition name: '{edition_core}' - doesn't match approved list or valid pattern")
+                        self.thread_safe_print(
+                            f"      🚨 Suspicious edition name: '{edition_core}' - doesn't match approved list or valid pattern"
+                        )
 
         # Final cleanup: remove any multiple spaces
         name = " ".join(name.split())
@@ -1447,7 +1530,9 @@ class RedBullDataProcessor:
                 edition[field] = unicodedata.normalize("NFC", text_acai_fix)
 
                 if self.verbose and "acai" in edition[field].lower():
-                    self.thread_safe_print(f"      🔧 Normalized Açai in {field}: {edition[field][:50]}...")
+                    self.thread_safe_print(
+                        f"      🔧 Normalized Açai in {field}: {edition[field][:50]}..."
+                    )
 
         if not self.corrections:
             return edition
@@ -1475,7 +1560,9 @@ class RedBullDataProcessor:
             # Match if:
             # 1. Exact match with full IDs (e.g., "UUID:de-DE"), OR
             # 2. correction_id has no locale AND matches UUID part (e.g., "UUID")
-            if correction_id in (graphql_id, short_id) or (":" not in correction_id and correction_id == uuid_only):
+            if correction_id in (graphql_id, short_id) or (
+                ":" not in correction_id and correction_id == uuid_only
+            ):
                 field = correction.get("field")
                 search = correction.get("search")
                 replace = correction.get("replace")
@@ -1544,7 +1631,10 @@ class RedBullDataProcessor:
                                 }
                             )
                             if self.verbose:
-                                self.thread_safe_print(f"      🔧 Applied correction: {field} - " f"'{search}' → '{replace}'")
+                                self.thread_safe_print(
+                                    f"      🔧 Applied correction: {field} - "
+                                    f"'{search}' → '{replace}'"
+                                )
                     elif original.strip().lower() == search.strip().lower():
                         # EXACT MATCH: Compare case-insensitively but match entire field value
                         # This prevents partial matches (e.g., "Peach" matching inside "White Peach")
@@ -1576,7 +1666,10 @@ class RedBullDataProcessor:
                             }
                         )
                         if self.verbose:
-                            self.thread_safe_print(f"      🔧 Applied correction: {field} - " f"'{search}' → '{replace}'")
+                            self.thread_safe_print(
+                                f"      🔧 Applied correction: {field} - "
+                                f"'{search}' → '{replace}'"
+                            )
                     else:
                         # Correction couldn't be applied - text not found
                         self.changelog["corrections_failed"].append(
@@ -1589,7 +1682,8 @@ class RedBullDataProcessor:
                         )
                         if self.verbose:
                             self.thread_safe_print(
-                                f"      ⚠️ Correction not applied for {correction_id}: " f"'{search}' not found in {field} (checking {actual_field})"
+                                f"      ⚠️ Correction not applied for {correction_id}: "
+                                f"'{search}' not found in {field} (checking {actual_field})"
                             )
 
         if applied > 0 and self.verbose:
@@ -1610,13 +1704,19 @@ class RedBullDataProcessor:
             Edition dictionary from raw data if found, otherwise None.
         """
         if ":" not in edition_id:
-            self.logger.warning("ID-Mapping: Cannot derive locale from edition_id '%s' (no colon)", edition_id)
+            self.logger.warning(
+                "ID-Mapping: Cannot derive locale from edition_id '%s' (no colon)", edition_id
+            )
             return None
 
         locale = edition_id.split(":")[-1]  # e.g. "en-GB"
         locale_parts = locale.split("-")
         if len(locale_parts) != 2:
-            self.logger.warning("ID-Mapping: Unexpected locale format '%s' in edition_id '%s'", locale, edition_id)
+            self.logger.warning(
+                "ID-Mapping: Unexpected locale format '%s' in edition_id '%s'",
+                locale,
+                edition_id,
+            )
             return None
 
         lang, country = locale_parts  # e.g. "en", "GB"
@@ -1624,7 +1724,9 @@ class RedBullDataProcessor:
         raw_file = self.data_dir / "raw" / filename
 
         if not raw_file.exists():
-            self.logger.warning("ID-Mapping: Raw file '%s' for source_id '%s' not found", filename, edition_id)
+            self.logger.warning(
+                "ID-Mapping: Raw file '%s' for source_id '%s' not found", filename, edition_id
+            )
             return None
 
         with raw_file.open(encoding="utf-8") as f:
@@ -1670,7 +1772,9 @@ class RedBullDataProcessor:
             fields = mapping.get("fields", ["flavor", "flavor_description"])
 
             if not source_id or not target_id:
-                self.logger.warning("ID-Mapping: Skipping entry with missing source_id or target_id")
+                self.logger.warning(
+                    "ID-Mapping: Skipping entry with missing source_id or target_id"
+                )
                 continue
 
             # Extract the UUID:locale portion from both IDs for matching
@@ -1707,7 +1811,11 @@ class RedBullDataProcessor:
                     # Normalize source raw_field lookup (same rrn format possible)
                     src_value = source_data.get(raw_field)
                     if src_value is None:
-                        self.logger.warning("ID-Mapping: Field '%s' not found in source edition '%s'", raw_field, source_id)
+                        self.logger.warning(
+                            "ID-Mapping: Field '%s' not found in source edition '%s'",
+                            raw_field,
+                            source_id,
+                        )
                         continue
 
                     old_value = edition.get(raw_field, "")
@@ -1729,11 +1837,17 @@ class RedBullDataProcessor:
                         source_raw_id,
                     )
                     if self.verbose:
-                        self.thread_safe_print(f"      🔀 ID-Mapping applied: {field} '{old_value}' → '{src_value}' " f"(source: {source_id})")
+                        self.thread_safe_print(
+                            f"      🔀 ID-Mapping applied: {field} '{old_value}' → '{src_value}' "
+                            f"(source: {source_id})"
+                        )
                 break
 
             if not matched and self.debug:
-                self.logger.debug("ID-Mapping: target_id '%s' not found in current country editions", target_id)
+                self.logger.debug(
+                    "ID-Mapping: target_id '%s' not found in current country editions",
+                    target_id,
+                )
 
         return editions
 
@@ -1751,25 +1865,29 @@ class RedBullDataProcessor:
         """
         self.changelog["api_calls_made"] += 1
 
-        # Daily limit check – always enforced, even for single country
-        if self.changelog["api_calls_made"] > self.MAX_REQUESTS_PER_DAY:
-            if not self._daily_limit_reached:
-                self._daily_limit_reached = True
+        # Daily limit check – always enforced, even for single country (-1 = unlimited)
+        if self.MAX_REQUESTS_PER_DAY != -1:
+            if self.changelog["api_calls_made"] > self.MAX_REQUESTS_PER_DAY:
+                if not self._daily_limit_reached:
+                    self._daily_limit_reached = True
+                    self.logger.warning(
+                        "⚠️  Daily API limit reached (%d/%d requests). "
+                        "Stopping – results so far will be saved.",
+                        self.MAX_REQUESTS_PER_DAY,
+                        self.MAX_REQUESTS_PER_DAY,
+                    )
+                raise RuntimeError(
+                    f"Daily API limit of {self.MAX_REQUESTS_PER_DAY} requests reached"
+                )
+
+            # Warn at 80% of daily limit
+            warning_threshold = int(self.MAX_REQUESTS_PER_DAY * 0.8)
+            if self.changelog["api_calls_made"] == warning_threshold:
                 self.logger.warning(
-                    "⚠️  Daily API limit reached (%d/%d requests). " "Stopping – results so far will be saved.",
-                    self.MAX_REQUESTS_PER_DAY,
+                    "⚠️  API limit warning: %d/%d daily requests used",
+                    self.changelog["api_calls_made"],
                     self.MAX_REQUESTS_PER_DAY,
                 )
-            raise RuntimeError(f"Daily API limit of {self.MAX_REQUESTS_PER_DAY} requests reached")
-
-        # Warn at 80% of daily limit
-        warning_threshold = int(self.MAX_REQUESTS_PER_DAY * 0.8)
-        if self.changelog["api_calls_made"] == warning_threshold:
-            self.logger.warning(
-                "⚠️  API limit warning: %d/%d daily requests used",
-                self.changelog["api_calls_made"],
-                self.MAX_REQUESTS_PER_DAY,
-            )
 
         # Skip RPM delay when processing a single country
         if self.single_country:
@@ -1781,7 +1899,10 @@ class RedBullDataProcessor:
                 if time_since_last_call < self.MIN_DELAY_BETWEEN_REQUESTS:
                     sleep_time = self.MIN_DELAY_BETWEEN_REQUESTS - time_since_last_call
                     if self.verbose:
-                        self.thread_safe_print(f"    ⏱️ Rate limiting: waiting {sleep_time:.1f}s " "before next API call")
+                        self.thread_safe_print(
+                            f"    ⏱️ Rate limiting: waiting {sleep_time:.1f}s "
+                            "before next API call"
+                        )
                     time.sleep(sleep_time)
             self.last_api_call_time = time.time()
 
@@ -1814,7 +1935,10 @@ class RedBullDataProcessor:
             return []
 
         if self.verbose:
-            self.thread_safe_print(f"    🌍 Step 1: Translating {len(editions)} editions " f"for {country_name}...")
+            self.thread_safe_print(
+                f"    🌍 Step 1: Translating {len(editions)} editions "
+                f"for {country_name}..."
+            )
 
         editions_for_ai = []
         for i, edition in enumerate(editions):
@@ -1824,11 +1948,17 @@ class RedBullDataProcessor:
             edition_from_url = self.extract_edition_from_url(product_url)
 
             # Use edition name from URL if available, otherwise use alt_text
-            alt_text_value = edition_from_url if edition_from_url else edition.get("_raw_alt_text", edition.get("alt_text", "")).strip()
+            alt_text_value = (
+                edition_from_url
+                if edition_from_url
+                else edition.get("_raw_alt_text", edition.get("alt_text", "")).strip()
+            )
 
             editions_for_ai.append(
                 {
-                    "edition_id": edition.get("_graphql_id", f"edition_{i}"),  # Use GraphQL ID or fallback
+                    "edition_id": edition.get(
+                        "_graphql_id", f"edition_{i}"
+                    ),  # Use GraphQL ID or fallback
                     "name": edition.get("name", "").strip(),
                     "alt_text": alt_text_value,
                     "original_flavor": edition.get("_raw_flavor", "").strip(),
@@ -1937,7 +2067,9 @@ class RedBullDataProcessor:
             self._log_api_request(country_name, "Translation", prompt)
 
             if self.verbose:
-                self.thread_safe_print(f"    - Sending translation request to Gemini " f"({len(prompt)} chars)...")
+                self.thread_safe_print(
+                    f"    - Sending translation request to Gemini " f"({len(prompt)} chars)..."
+                )
 
             start_time = time.time()
 
@@ -1953,7 +2085,9 @@ class RedBullDataProcessor:
             api_time = time.time() - start_time
 
             if self.verbose:
-                self.thread_safe_print(f"    - Gemini translation response time: {api_time:.2f}s")
+                self.thread_safe_print(
+                    f"    - Gemini translation response time: {api_time:.2f}s"
+                )
 
             translated_editions = response.parsed
 
@@ -1968,10 +2102,16 @@ class RedBullDataProcessor:
             self._log_api_response(country_name, "Translation", translated_editions, api_time)
 
             if self.debug:
-                self.thread_safe_print(f"    🔍 {country_name}: Translated {len(translated_editions)} editions " "(see debug log for details)")
+                self.thread_safe_print(
+                    f"    🔍 {country_name}: Translated {len(translated_editions)} editions "
+                    "(see debug log for details)"
+                )
 
             if self.verbose:
-                self.thread_safe_print("    ✅ Step 1: Successfully translated " f"{len(translated_editions)} editions for {country_name}.")
+                self.thread_safe_print(
+                    "    ✅ Step 1: Successfully translated "
+                    f"{len(translated_editions)} editions for {country_name}."
+                )
             return translated_editions
 
         except errors.APIError as err:
@@ -1992,33 +2132,57 @@ class RedBullDataProcessor:
                 # If we have retries left, and it's a true rate limit (not quota), wait and retry
                 if retry_count < 3 and is_rate_limit:
                     wait_time = (retry_count + 1) * 10  # 10, 20, 30 seconds
-                    self.thread_safe_print(f"    ⚠️ Rate limit hit for {country_name}, " f"waiting {wait_time}s before retry {retry_count + 1}/3")
+                    self.thread_safe_print(
+                        f"    ⚠️ Rate limit hit for {country_name}, "
+                        f"waiting {wait_time}s before retry {retry_count + 1}/3"
+                    )
                     time.sleep(wait_time)
-                    return self._gemini_step_1_translate(editions, country_name, source_language, retry_count + 1)
+                    return self._gemini_step_1_translate(
+                        editions, country_name, source_language, retry_count + 1
+                    )
 
                 # It's either a quota/billing error or we've exhausted retries
                 error_type = "QUOTA/BILLING ERROR" if is_quota_error else "RATE LIMIT EXCEEDED"
-                self.thread_safe_print(f"    ❌ {error_type}: Translation failed for " f"{country_name} after {retry_count + 1} attempts")
+                self.thread_safe_print(
+                    f"    ❌ {error_type}: Translation failed for "
+                    f"{country_name} after {retry_count + 1} attempts"
+                )
                 self.thread_safe_print(f"       Error: {err.message[:200]}")
 
                 if is_quota_error:
-                    self.thread_safe_print("    ⛔ Aborting processing to preserve cache. Please check your Gemini API quota and billing.")
+                    self.thread_safe_print(
+                        "    ⛔ Aborting processing to preserve cache. Please check your Gemini API quota and billing."
+                    )
                 else:
-                    self.thread_safe_print("    ⛔ Aborting processing to preserve cache. Rate limits exhausted after 3 retries.")
+                    self.thread_safe_print(
+                        "    ⛔ Aborting processing to preserve cache. Rate limits exhausted after 3 retries."
+                    )
 
-                raise SystemExit(f"Gemini API {error_type}. Aborting to preserve cache.") from err
+                raise SystemExit(
+                    f"Gemini API {error_type}. Aborting to preserve cache."
+                ) from err
 
             # Check for internal server error (500)
             if err.code == 500:
                 if retry_count < 3:
                     wait_time = (retry_count + 1) * 2  # 2, 4, 6 seconds
-                    self.thread_safe_print(f"    ⚠️ Internal error for {country_name}, " f"retrying in {wait_time}s (attempt {retry_count + 1}/3)")
+                    self.thread_safe_print(
+                        f"    ⚠️ Internal error for {country_name}, "
+                        f"retrying in {wait_time}s (attempt {retry_count + 1}/3)"
+                    )
                     time.sleep(wait_time)
-                    return self._gemini_step_1_translate(editions, country_name, source_language, retry_count + 1)
+                    return self._gemini_step_1_translate(
+                        editions, country_name, source_language, retry_count + 1
+                    )
 
-                self.thread_safe_print(f"    ❌ Translation failed for {country_name} " f"after 3 retries: {err.message[:150]}")
+                self.thread_safe_print(
+                    f"    ❌ Translation failed for {country_name} "
+                    f"after 3 retries: {err.message[:150]}"
+                )
                 self.thread_safe_print("       Cannot proceed without AI - critical error")
-                raise RuntimeError(f"Translation failed for {country_name} after 3 retries: " f"err.message") from err
+                raise RuntimeError(
+                    f"Translation failed for {country_name} after 3 retries: " f"err.message"
+                ) from err
 
             # Check for expired API key - abort immediately
             error_msg = str(err.message) if hasattr(err, "message") else str(err)
@@ -2026,22 +2190,37 @@ class RedBullDataProcessor:
                 self._abort_flag = True  # Signal all threads to stop
                 self.thread_safe_print(f"    ❌ API KEY EXPIRED for {country_name}")
                 self.thread_safe_print("       Please renew your Gemini API key in .env file")
-                self.thread_safe_print("       Aborting all processing - retries won't help with expired keys")
+                self.thread_safe_print(
+                    "       Aborting all processing - retries won't help with expired keys"
+                )
                 raise RuntimeError("API key expired - aborting all processing") from err
 
             # Check for bad request error (400) - might be too large input
             if err.code == 400:
-                self.thread_safe_print(f"    ❌ Bad request for {country_name}: {err.message[:150]}")
-                self.thread_safe_print("       This might be due to too many editions or content size")
-                raise RuntimeError(f"Translation failed for {country_name}: Bad request - err.message") from err
+                self.thread_safe_print(
+                    f"    ❌ Bad request for {country_name}: {err.message[:150]}"
+                )
+                self.thread_safe_print(
+                    "       This might be due to too many editions or content size"
+                )
+                raise RuntimeError(
+                    f"Translation failed for {country_name}: Bad request - err.message"
+                ) from err
 
             # Other API errors
-            self.thread_safe_print(f"    ❌ Translation failed for {country_name}: " f"Code {err.code} - {err.message[:150]}")
-            raise RuntimeError(f"Translation failed for {country_name}: {err.code} - {err.message}") from err
+            self.thread_safe_print(
+                f"    ❌ Translation failed for {country_name}: "
+                f"Code {err.code} - {err.message[:150]}"
+            )
+            raise RuntimeError(
+                f"Translation failed for {country_name}: {err.code} - {err.message}"
+            ) from err
 
         except (ValueError, AttributeError, KeyError, TypeError) as err:
             # Handle non-API errors
-            self.thread_safe_print(f"    ❌ Unexpected error for {country_name}: {str(err)[:150]}")
+            self.thread_safe_print(
+                f"    ❌ Unexpected error for {country_name}: {str(err)[:150]}"
+            )
             raise RuntimeError(f"Translation failed for {country_name}: {str(err)}") from err
 
     def _gemini_step_2_normalize(
@@ -2072,9 +2251,14 @@ class RedBullDataProcessor:
 
         # Add verbose logging for normalization start
         if self.debug:
-            self.thread_safe_print(f"    🔧 {country_name}: Normalizing {len(translated_editions)} editions...")
+            self.thread_safe_print(
+                f"    🔧 {country_name}: Normalizing {len(translated_editions)} editions..."
+            )
         elif self.verbose:
-            self.thread_safe_print(f"    ✨ Step 2: Normalizing {len(translated_editions)} " f"translated editions for {country_name}...")
+            self.thread_safe_print(
+                f"    ✨ Step 2: Normalizing {len(translated_editions)} "
+                f"translated editions for {country_name}..."
+            )
 
         # Convert approved lists to strings for prompt
         approved_flavors_str = json.dumps(self.APPROVED_FLAVORS, indent=4)
@@ -2154,7 +2338,10 @@ class RedBullDataProcessor:
             self._apply_rate_limiting()
 
             if self.verbose:
-                self.thread_safe_print(f"    - Sending normalization request to Gemini " f"({len(prompt)} chars)...")
+                self.thread_safe_print(
+                    f"    - Sending normalization request to Gemini "
+                    f"({len(prompt)} chars)..."
+                )
 
             start_time = time.time()
 
@@ -2182,56 +2369,99 @@ class RedBullDataProcessor:
                 if err.code == 429:  # Rate limit or quota
                     if retry_count < 3 and is_rate_limit:
                         wait_time = (retry_count + 1) * 10  # 10, 20, 30 seconds
-                        self.thread_safe_print(f"    ⚠️ Rate limit hit for {country_name}, " f"waiting {wait_time}s before retry {retry_count + 1}/3")
+                        self.thread_safe_print(
+                            f"    ⚠️ Rate limit hit for {country_name}, "
+                            f"waiting {wait_time}s before retry {retry_count + 1}/3"
+                        )
                         time.sleep(wait_time)
-                        return self._gemini_step_2_normalize(translated_editions, country_name, retry_count + 1)
+                        return self._gemini_step_2_normalize(
+                            translated_editions, country_name, retry_count + 1
+                        )
 
                     # It's either a quota/billing error or we've exhausted retries
-                    error_type = "QUOTA/BILLING ERROR" if is_quota_error else "RATE LIMIT EXCEEDED"
-                    self.thread_safe_print(f"    ❌ {error_type}: Normalization failed for " f"{country_name} after {retry_count + 1} attempts")
+                    error_type = (
+                        "QUOTA/BILLING ERROR" if is_quota_error else "RATE LIMIT EXCEEDED"
+                    )
+                    self.thread_safe_print(
+                        f"    ❌ {error_type}: Normalization failed for "
+                        f"{country_name} after {retry_count + 1} attempts"
+                    )
                     self.thread_safe_print(f"       Error: {err.message[:200]}")
 
                     if is_quota_error:
-                        self.thread_safe_print("    ⛔ Aborting processing to preserve cache. Please check your Gemini API quota and billing.")
+                        self.thread_safe_print(
+                            "    ⛔ Aborting processing to preserve cache. Please check your Gemini API quota and billing."
+                        )
                     else:
-                        self.thread_safe_print("    ⛔ Aborting processing to preserve cache. Rate limits exhausted after 3 retries.")
+                        self.thread_safe_print(
+                            "    ⛔ Aborting processing to preserve cache. Rate limits exhausted after 3 retries."
+                        )
 
-                    raise SystemExit(f"Gemini API {error_type}. Aborting to preserve cache.") from err
+                    raise SystemExit(
+                        f"Gemini API {error_type}. Aborting to preserve cache."
+                    ) from err
                 if err.code == 500:  # Internal server error
                     if retry_count < 3:
                         wait_time = (retry_count + 1) * 2  # 2, 4, 6 seconds
-                        self.thread_safe_print(f"    ⚠️ Server error for {country_name}, " f"retrying in {wait_time}s (attempt {retry_count + 1}/3)")
+                        self.thread_safe_print(
+                            f"    ⚠️ Server error for {country_name}, "
+                            f"retrying in {wait_time}s (attempt {retry_count + 1}/3)"
+                        )
                         time.sleep(wait_time)
-                        return self._gemini_step_2_normalize(translated_editions, country_name, retry_count + 1)
+                        return self._gemini_step_2_normalize(
+                            translated_editions, country_name, retry_count + 1
+                        )
 
-                    self.thread_safe_print(f"    ❌ Server error for {country_name} after 3 retries: " f"{err.message[:150]}")
+                    self.thread_safe_print(
+                        f"    ❌ Server error for {country_name} after 3 retries: "
+                        f"{err.message[:150]}"
+                    )
                     raise
 
                 # Other API errors - retry with backoff
                 if retry_count < 3:
                     wait_time = (retry_count + 1) * 3  # 3, 6, 9 seconds
-                    self.thread_safe_print(f"    ⚠️ API error {err.code} for {country_name}: {err.message[:100]}")
-                    self.thread_safe_print(f"       Retrying in {wait_time}s (attempt {retry_count + 1}/3)")
+                    self.thread_safe_print(
+                        f"    ⚠️ API error {err.code} for {country_name}: {err.message[:100]}"
+                    )
+                    self.thread_safe_print(
+                        f"       Retrying in {wait_time}s (attempt {retry_count + 1}/3)"
+                    )
                     time.sleep(wait_time)
-                    return self._gemini_step_2_normalize(translated_editions, country_name, retry_count + 1)
+                    return self._gemini_step_2_normalize(
+                        translated_editions, country_name, retry_count + 1
+                    )
 
-                self.thread_safe_print(f"    ❌ API error {err.code} for {country_name} after 3 retries: " f"{err.message[:150]}")
+                self.thread_safe_print(
+                    f"    ❌ API error {err.code} for {country_name} after 3 retries: "
+                    f"{err.message[:150]}"
+                )
                 raise
             except (ValueError, AttributeError, KeyError, TypeError) as err:
                 # Non-API errors (network, parsing, etc.)
                 if retry_count < 3:
                     wait_time = (retry_count + 1) * 2  # 2, 4, 6 seconds
-                    self.thread_safe_print(f"    ⚠️ Unexpected error for {country_name}: {str(err)[:100]}")
-                    self.thread_safe_print(f"       Retrying in {wait_time}s (attempt {retry_count + 1}/3)")
+                    self.thread_safe_print(
+                        f"    ⚠️ Unexpected error for {country_name}: {str(err)[:100]}"
+                    )
+                    self.thread_safe_print(
+                        f"       Retrying in {wait_time}s (attempt {retry_count + 1}/3)"
+                    )
                     time.sleep(wait_time)
-                    return self._gemini_step_2_normalize(translated_editions, country_name, retry_count + 1)
+                    return self._gemini_step_2_normalize(
+                        translated_editions, country_name, retry_count + 1
+                    )
 
-                self.thread_safe_print(f"    ❌ Failed for {country_name} after 3 retries: {str(err)[:150]}")
+                self.thread_safe_print(
+                    f"    ❌ Failed for {country_name} after 3 retries: {str(err)[:150]}"
+                )
                 raise
 
             if self.verbose:
                 api_time = time.time() - start_time
-                self.thread_safe_print(f"    - Gemini normalization response time: {api_time:.2f}s")
+                self.thread_safe_print(
+                    f"    - Gemini normalization response time: {api_time:.2f}s"
+                )
 
             normalized_editions = response.parsed
 
@@ -2240,16 +2470,28 @@ class RedBullDataProcessor:
                 if retry_count < 3:
                     wait_time = (retry_count + 1) * 2  # 2, 4, 6 seconds
                     self.thread_safe_print(
-                        f"    ⚠️ Gemini returned empty response for {country_name}, " f"retrying in {wait_time}s (attempt {retry_count + 1}/3)"
+                        f"    ⚠️ Gemini returned empty response for {country_name}, "
+                        f"retrying in {wait_time}s (attempt {retry_count + 1}/3)"
                     )
                     if hasattr(response, "text"):
-                        self.thread_safe_print(f"       Raw response: " f"{response.text[:200] if response.text else 'None'}")
+                        self.thread_safe_print(
+                            f"       Raw response: "
+                            f"{response.text[:200] if response.text else 'None'}"
+                        )
                     time.sleep(wait_time)
-                    return self._gemini_step_2_normalize(translated_editions, country_name, retry_count + 1)
+                    return self._gemini_step_2_normalize(
+                        translated_editions, country_name, retry_count + 1
+                    )
 
-                self.thread_safe_print(f"    ❌ Gemini returned empty response for {country_name} " f"after 3 retries")
+                self.thread_safe_print(
+                    f"    ❌ Gemini returned empty response for {country_name} "
+                    f"after 3 retries"
+                )
                 if hasattr(response, "text"):
-                    self.thread_safe_print(f"       Final raw response: " f"{response.text[:200] if response.text else 'None'}")
+                    self.thread_safe_print(
+                        f"       Final raw response: "
+                        f"{response.text[:200] if response.text else 'None'}"
+                    )
                 return []
 
             # Validate that we received normalization for all input editions
@@ -2265,9 +2507,13 @@ class RedBullDataProcessor:
                     self.thread_safe_print("    🔍 Debug: Checking edition IDs...")
                     self.thread_safe_print("       Expected editions:")
                     for translated_edition in translated_editions[:5]:  # Show first 5
-                        self.thread_safe_print(f"         - {translated_edition.name} (ID: {translated_edition.edition_id})")
+                        self.thread_safe_print(
+                            f"         - {translated_edition.name} (ID: {translated_edition.edition_id})"
+                        )
                     if len(translated_editions) > 5:
-                        self.thread_safe_print(f"         ... and {len(translated_editions) - 5} more")
+                        self.thread_safe_print(
+                            f"         ... and {len(translated_editions) - 5} more"
+                        )
 
                     self.thread_safe_print("       Received editions:")
                     for normalized_edition in normalized_editions[:5]:  # Show first 5
@@ -2275,15 +2521,27 @@ class RedBullDataProcessor:
                         edition_name = getattr(normalized_edition, "name", "NO_NAME")
                         self.thread_safe_print(f"         - {edition_name} (ID: {edition_id})")
                     if len(normalized_editions) > 5:
-                        self.thread_safe_print(f"         ... and {len(normalized_editions) - 5} more")
+                        self.thread_safe_print(
+                            f"         ... and {len(normalized_editions) - 5} more"
+                        )
 
                 # Find missing editions - check for None/empty IDs too
-                normalized_ids = {ne.edition_id for ne in normalized_editions if hasattr(ne, "edition_id") and ne.edition_id}
-                input_ids = {te.edition_id for te in translated_editions if hasattr(te, "edition_id") and te.edition_id}
+                normalized_ids = {
+                    ne.edition_id
+                    for ne in normalized_editions
+                    if hasattr(ne, "edition_id") and ne.edition_id
+                }
+                input_ids = {
+                    te.edition_id
+                    for te in translated_editions
+                    if hasattr(te, "edition_id") and te.edition_id
+                }
 
                 # If IDs are missing or unreliable, force retry based on count alone
                 if len(normalized_ids) == 0 or len(input_ids) == 0:
-                    self.thread_safe_print("    ⚠️ Edition IDs not available for comparison, using count-based retry logic")
+                    self.thread_safe_print(
+                        "    ⚠️ Edition IDs not available for comparison, using count-based retry logic"
+                    )
                     missing_ids = set()  # Will trigger count-based retry below
                 else:
                     missing_ids = input_ids - normalized_ids
@@ -2291,17 +2549,29 @@ class RedBullDataProcessor:
                 # Retry on ANY mismatch (ID-based or count-based)
                 if missing_ids or len(normalized_editions) < len(translated_editions):
                     if missing_ids:
-                        self.thread_safe_print(f"    🚨 Missing normalized data for {len(missing_ids)} editions:")
+                        self.thread_safe_print(
+                            f"    🚨 Missing normalized data for {len(missing_ids)} editions:"
+                        )
                         for missing_id in list(missing_ids)[:5]:  # Show first 5
                             # Find the edition name for better logging
                             missing_edition = next(
-                                (te for te in translated_editions if te.edition_id == missing_id),
+                                (
+                                    te
+                                    for te in translated_editions
+                                    if te.edition_id == missing_id
+                                ),
                                 None,
                             )
-                            edition_name = missing_edition.name if missing_edition else "Unknown"
-                            self.thread_safe_print(f"       - {edition_name} (ID: {missing_id})")
+                            edition_name = (
+                                missing_edition.name if missing_edition else "Unknown"
+                            )
+                            self.thread_safe_print(
+                                f"       - {edition_name} (ID: {missing_id})"
+                            )
                         if len(missing_ids) > 5:
-                            self.thread_safe_print(f"       ... and {len(missing_ids) - 5} more")
+                            self.thread_safe_print(
+                                f"       ... and {len(missing_ids) - 5} more"
+                            )
                     else:
                         self.thread_safe_print(
                             f"    🚨 Count mismatch detected, attempting to recover "
@@ -2311,36 +2581,54 @@ class RedBullDataProcessor:
 
                     # Retry normalization for ALL editions on mismatch
                     if retry_count < 2:
-                        self.thread_safe_print(f"    🔄 Retrying normalization for ALL editions " f"due to mismatch (attempt {retry_count + 1}/2)")
+                        self.thread_safe_print(
+                            f"    🔄 Retrying normalization for ALL editions "
+                            f"due to mismatch (attempt {retry_count + 1}/2)"
+                        )
 
                         try:
                             # Retry with ALL editions, not just missing ones
-                            retried_normalized = self._gemini_step_2_normalize(translated_editions, country_name, retry_count + 1)
-                            if retried_normalized and len(retried_normalized) == len(translated_editions):
+                            retried_normalized = self._gemini_step_2_normalize(
+                                translated_editions, country_name, retry_count + 1
+                            )
+                            if retried_normalized and len(retried_normalized) == len(
+                                translated_editions
+                            ):
                                 # Full success - replace with retry results
                                 normalized_editions = retried_normalized
-                                self.thread_safe_print(f"    ✅ Retry successful! Normalized all " f"{len(normalized_editions)} editions")
-                            elif retried_normalized and len(retried_normalized) > len(normalized_editions):
+                                self.thread_safe_print(
+                                    f"    ✅ Retry successful! Normalized all "
+                                    f"{len(normalized_editions)} editions"
+                                )
+                            elif retried_normalized and len(retried_normalized) > len(
+                                normalized_editions
+                            ):
                                 # Partial improvement - use the better result
                                 normalized_editions = retried_normalized
                                 self.thread_safe_print(
-                                    f"    ⚠️ Retry improved results: " f"{len(normalized_editions)}/{len(translated_editions)} editions"
+                                    f"    ⚠️ Retry improved results: "
+                                    f"{len(normalized_editions)}/{len(translated_editions)} editions"
                                 )
                             else:
                                 self.thread_safe_print(
-                                    f"    ⚠️ Retry didn't improve results, keeping original " f"{len(normalized_editions)} editions"
+                                    f"    ⚠️ Retry didn't improve results, keeping original "
+                                    f"{len(normalized_editions)} editions"
                                 )
                         except Exception as err:  # pylint: disable=broad-exception-caught
                             self.thread_safe_print(f"    ❌ Retry failed: {str(err)[:150]}")
                             # Continue with partial results rather than failing completely
                     else:
                         self.thread_safe_print(
-                            f"    ⚠️ Max retries reached. Continuing with " f"{len(normalized_editions)}/{len(translated_editions)} editions"
+                            f"    ⚠️ Max retries reached. Continuing with "
+                            f"{len(normalized_editions)}/{len(translated_editions)} editions"
                         )
 
             # Add verbose logging for normalization completion
             if self.debug:
-                self.thread_safe_print(f"    🔍 {country_name}: Normalized {len(normalized_editions)} editions " "(see debug log for details)")
+                self.thread_safe_print(
+                    f"    🔍 {country_name}: Normalized {len(normalized_editions)} editions "
+                    "(see debug log for details)"
+                )
                 # Log all edition IDs for debugging
                 if normalized_editions:
                     self.thread_safe_print("    📋 Normalized edition IDs:")
@@ -2353,15 +2641,22 @@ class RedBullDataProcessor:
                             id_display = id_display[:30] + "..." + id_display[-27:]
                         self.thread_safe_print(f"       - {edition_name}: {id_display}")
             elif self.verbose:
-                self.thread_safe_print(f"    ✅ Step 2: Successfully normalized " f"{len(normalized_editions)} editions for {country_name}.")
+                self.thread_safe_print(
+                    f"    ✅ Step 2: Successfully normalized "
+                    f"{len(normalized_editions)} editions for {country_name}."
+                )
             return normalized_editions
 
         except (ValueError, AttributeError, KeyError, TypeError) as err:
             # Handle any other unexpected errors
-            self.thread_safe_print(f"    ❌ Unexpected error in normalization for {country_name}: {str(err)[:200]}")
+            self.thread_safe_print(
+                f"    ❌ Unexpected error in normalization for {country_name}: {str(err)[:200]}"
+            )
             return []
 
-    def _gemini_step_3_validate(self, editions: List[Dict], country_name: str, retry_count: int = 0) -> List[ValidationResult]:
+    def _gemini_step_3_validate(
+        self, editions: List[Dict], country_name: str, retry_count: int = 0
+    ) -> List[ValidationResult]:
         """Step 3: Validate the processed editions against approved list and rules.
 
         Checks flavors against approved list and detects any remaining
@@ -2380,9 +2675,14 @@ class RedBullDataProcessor:
 
         # Add verbose logging for validation start
         if self.debug:
-            self.thread_safe_print(f"    ✅ {country_name}: Validating {len(editions)} editions...")
+            self.thread_safe_print(
+                f"    ✅ {country_name}: Validating {len(editions)} editions..."
+            )
         elif self.verbose:
-            self.thread_safe_print(f"    🔍 Step 3: Validating {len(editions)} editions " f"for {country_name} against rules...")
+            self.thread_safe_print(
+                f"    🔍 Step 3: Validating {len(editions)} editions "
+                f"for {country_name} against rules..."
+            )
 
         # Convert approved flavors list to string for prompt
         approved_flavors_str = json.dumps(self.APPROVED_FLAVORS, indent=4)
@@ -2464,7 +2764,9 @@ class RedBullDataProcessor:
             self._log_api_request(country_name, "Validation", prompt)
 
             if self.verbose:
-                self.thread_safe_print(f"    - Sending validation request to Gemini " f"({len(prompt)} chars)...")
+                self.thread_safe_print(
+                    f"    - Sending validation request to Gemini " f"({len(prompt)} chars)..."
+                )
 
             start_time = time.time()
 
@@ -2480,7 +2782,9 @@ class RedBullDataProcessor:
             api_time = time.time() - start_time
 
             if self.verbose:
-                self.thread_safe_print(f"    - Gemini validation response time: {api_time:.2f}s")
+                self.thread_safe_print(
+                    f"    - Gemini validation response time: {api_time:.2f}s"
+                )
 
             validation_results = response.parsed
 
@@ -2489,7 +2793,10 @@ class RedBullDataProcessor:
 
             # Add verbose logging for validation completion
             if self.debug:
-                self.thread_safe_print(f"    🔍 {country_name}: Validated {len(validation_results)} editions " "(see debug log for details)")
+                self.thread_safe_print(
+                    f"    🔍 {country_name}: Validated {len(validation_results)} editions "
+                    "(see debug log for details)"
+                )
             elif self.verbose:
                 invalid_editions = []
                 for i, validation in enumerate(validation_results):
@@ -2504,19 +2811,33 @@ class RedBullDataProcessor:
                         invalid_editions.append(edition_info)
 
                 if invalid_editions:
-                    self.thread_safe_print(f"    ⚠️  Step 3: Found {len(invalid_editions)} editions needing correction:")
+                    self.thread_safe_print(
+                        f"    ⚠️  Step 3: Found {len(invalid_editions)} editions needing correction:"
+                    )
                     for edition_info in invalid_editions:
                         # Build the detail message
                         detail_parts = [f"      - {edition_info['name']}"]
-                        if edition_info["corrected"] and edition_info["flavor"] != edition_info["corrected"]:
-                            detail_parts.append(f" (flavor: {edition_info['flavor']} → {edition_info['corrected']})")
+                        if (
+                            edition_info["corrected"]
+                            and edition_info["flavor"] != edition_info["corrected"]
+                        ):
+                            detail_parts.append(
+                                f" (flavor: {edition_info['flavor']} → {edition_info['corrected']})"
+                            )
                         elif edition_info["issues"]:
                             # Show first issue if no flavor correction
-                            first_issue = edition_info["issues"][0] if edition_info["issues"] else "validation failed"
+                            first_issue = (
+                                edition_info["issues"][0]
+                                if edition_info["issues"]
+                                else "validation failed"
+                            )
                             detail_parts.append(f" (issue: {first_issue})")
                         self.thread_safe_print("".join(detail_parts))
                 else:
-                    self.thread_safe_print(f"    ✅ Step 3: All {len(validation_results)} editions " f"validated successfully")
+                    self.thread_safe_print(
+                        f"    ✅ Step 3: All {len(validation_results)} editions "
+                        f"validated successfully"
+                    )
 
             return validation_results
 
@@ -2532,11 +2853,16 @@ class RedBullDataProcessor:
 
             if retry_count < 2:
                 wait_time = (retry_count + 1) * 2
-                self.thread_safe_print(f"    ⚠️ Validation error for {country_name}, " f"retrying in {wait_time}s (attempt {retry_count + 1}/2)")
+                self.thread_safe_print(
+                    f"    ⚠️ Validation error for {country_name}, "
+                    f"retrying in {wait_time}s (attempt {retry_count + 1}/2)"
+                )
                 time.sleep(wait_time)
                 return self._gemini_step_3_validate(editions, country_name, retry_count + 1)
 
-            self.thread_safe_print(f"    ⚠️ Validation failed for {country_name}, continuing without validation")
+            self.thread_safe_print(
+                f"    ⚠️ Validation failed for {country_name}, continuing without validation"
+            )
             return []
 
     def normalize_with_gemini(
@@ -2576,28 +2902,46 @@ class RedBullDataProcessor:
         # First, add any cached translations
         if translated_cache:
             if self.verbose:
-                self.thread_safe_print(f"    ✅ Using {len(translated_cache)} cached translations for {country_name}.")
+                self.thread_safe_print(
+                    f"    ✅ Using {len(translated_cache)} cached translations for {country_name}."
+                )
             # Convert dict cache to Pydantic models
-            translated_editions_models = [TranslatedEdition(**item) for item in translated_cache]
+            translated_editions_models = [
+                TranslatedEdition(**item) for item in translated_cache
+            ]
 
         # Then, translate any new/changed editions
         if editions_to_translate:
             if self.verbose:
-                self.thread_safe_print(f"    🔄 Translating {len(editions_to_translate)} new/changed editions " f"for {country_name}.")
+                self.thread_safe_print(
+                    f"    🔄 Translating {len(editions_to_translate)} new/changed editions "
+                    f"for {country_name}."
+                )
             try:
-                new_translations = self._gemini_step_1_translate(editions_to_translate, country_name, source_language)
+                new_translations = self._gemini_step_1_translate(
+                    editions_to_translate, country_name, source_language
+                )
                 translated_editions_models.extend(new_translations)
             except (RuntimeError, ValueError, AttributeError) as err:
-                self.thread_safe_print(f"  ❌ Translation error for {country_name}: {str(err)[:200]}")
+                self.thread_safe_print(
+                    f"  ❌ Translation error for {country_name}: {str(err)[:200]}"
+                )
                 raise
         elif not translated_cache:
             # No cache and no specific editions to translate - translate everything
             if self.verbose:
-                self.thread_safe_print(f"    🔄 No cache found, performing live translation " f"for {country_name}.")
+                self.thread_safe_print(
+                    f"    🔄 No cache found, performing live translation "
+                    f"for {country_name}."
+                )
             try:
-                translated_editions_models = self._gemini_step_1_translate(editions, country_name, source_language)
+                translated_editions_models = self._gemini_step_1_translate(
+                    editions, country_name, source_language
+                )
             except (RuntimeError, ValueError, AttributeError) as err:
-                self.thread_safe_print(f"  ❌ Translation error for {country_name}: {str(err)[:200]}")
+                self.thread_safe_print(
+                    f"  ❌ Translation error for {country_name}: {str(err)[:200]}"
+                )
                 raise
 
         if not translated_editions_models:
@@ -2619,15 +2963,24 @@ class RedBullDataProcessor:
 
         # Step 2: Normalize
         try:
-            normalized_data = self._gemini_step_2_normalize(translated_editions_models, country_name)
+            normalized_data = self._gemini_step_2_normalize(
+                translated_editions_models, country_name
+            )
             if not normalized_data:
-                self.thread_safe_print(f"  ❌ Normalization step failed for {country_name}, aborting.")
+                self.thread_safe_print(
+                    f"  ❌ Normalization step failed for {country_name}, aborting."
+                )
                 self.thread_safe_print("     Details: Gemini API returned empty/None response")
-                raise RuntimeError(f"Normalization failed for {country_name} - " "Gemini API returned no data (possible API filtering or timeout)")
+                raise RuntimeError(
+                    f"Normalization failed for {country_name} - "
+                    "Gemini API returned no data (possible API filtering or timeout)"
+                )
         except (RuntimeError, ValueError, AttributeError, KeyError) as err:
             # Re-raise the exception with better context
             if "Normalization failed" not in str(err):
-                self.thread_safe_print(f"  ❌ Normalization error for {country_name}: {str(err)[:200]}")
+                self.thread_safe_print(
+                    f"  ❌ Normalization error for {country_name}: {str(err)[:200]}"
+                )
             raise
 
         # Create ID-based mapping for normalized data
@@ -2646,9 +2999,14 @@ class RedBullDataProcessor:
 
         # Log mapping info if in debug mode
         if self.verbose and normalized_map:
-            self.thread_safe_print(f"    📊 Created ID-based mapping for {len(normalized_map)} normalized editions")
+            self.thread_safe_print(
+                f"    📊 Created ID-based mapping for {len(normalized_map)} normalized editions"
+            )
             if len(normalized_map) != len(editions):
-                self.thread_safe_print(f"    ⚠️ WARNING: Edition count mismatch! " f"Input: {len(editions)}, Normalized: {len(normalized_map)}")
+                self.thread_safe_print(
+                    f"    ⚠️ WARNING: Edition count mismatch! "
+                    f"Input: {len(editions)}, Normalized: {len(normalized_map)}"
+                )
 
         # Combine results using ID-based mapping with fallbacks
         for idx, edition in enumerate(editions):
@@ -2662,10 +3020,17 @@ class RedBullDataProcessor:
             # Fallback 1: Try name-based matching if ID match failed
             if not norm_data and normalized_data:
                 for norm_edition in normalized_data:
-                    if hasattr(norm_edition, "name") and norm_edition.name and norm_edition.name.strip().lower() == edition_name.strip().lower():
+                    if (
+                        hasattr(norm_edition, "name")
+                        and norm_edition.name
+                        and norm_edition.name.strip().lower() == edition_name.strip().lower()
+                    ):
                         norm_data = norm_edition
                         if self.verbose:
-                            self.thread_safe_print(f"      🔄 Using NAME-based matching for '{edition_name}' " f"(ID matching failed)")
+                            self.thread_safe_print(
+                                f"      🔄 Using NAME-based matching for '{edition_name}' "
+                                f"(ID matching failed)"
+                            )
                         break
 
             # Fallback 2: Try index-based matching if counts match
@@ -2674,7 +3039,8 @@ class RedBullDataProcessor:
                     norm_data = normalized_data[idx]
                     if self.verbose:
                         self.thread_safe_print(
-                            f"      🔢 Using INDEX-based matching for '{edition_name}' " f"at position {idx} (ID and name matching failed)"
+                            f"      🔢 Using INDEX-based matching for '{edition_name}' "
+                            f"at position {idx} (ID and name matching failed)"
                         )
 
             if norm_data:
@@ -2691,28 +3057,39 @@ class RedBullDataProcessor:
                             # Only show preservation message if AI actually tried to change it
                             if norm_data.flavor != original_raw_flavor:
                                 self.thread_safe_print(
-                                    f"      🛡️ Preserving APPROVED flavor '{original_raw_flavor}' " f"(AI tried to change to '{norm_data.flavor}')"
+                                    f"      🛡️ Preserving APPROVED flavor '{original_raw_flavor}' "
+                                    f"(AI tried to change to '{norm_data.flavor}')"
                                 )
                             else:
-                                self.thread_safe_print(f"      ✅ AI correctly kept APPROVED flavor '{original_raw_flavor}'")
+                                self.thread_safe_print(
+                                    f"      ✅ AI correctly kept APPROVED flavor '{original_raw_flavor}'"
+                                )
                     else:
                         edition["flavor"] = self.clean_flavor_name(norm_data.flavor)
                 elif self.verbose:
-                    self.thread_safe_print(f"      🔒 Keeping corrected flavor: {edition.get('flavor', 'unknown')}")
+                    self.thread_safe_print(
+                        f"      🔒 Keeping corrected flavor: {edition.get('flavor', 'unknown')}"
+                    )
 
                 # Always update flavor_description unless specifically corrected
                 if "flavor_description" not in corrected_fields:
-                    edition["flavor_description"] = self.clean_description(norm_data.flavor_description)
+                    edition["flavor_description"] = self.clean_description(
+                        norm_data.flavor_description
+                    )
                 elif self.verbose:
                     self.thread_safe_print(
-                        f"      🔒 Keeping corrected flavor_description: " f"{edition.get('flavor_description', 'unknown')[:50]}..."
+                        f"      🔒 Keeping corrected flavor_description: "
+                        f"{edition.get('flavor_description', 'unknown')[:50]}..."
                     )
 
                 # Use the sugarfree value from AI normalization
                 edition["sugarfree"] = norm_data.sugarfree
             else:
                 if self.verbose:
-                    self.thread_safe_print(f"      ⚠️ No normalized data found for edition: " f"{edition_name} (ID: {edition_id})")
+                    self.thread_safe_print(
+                        f"      ⚠️ No normalized data found for edition: "
+                        f"{edition_name} (ID: {edition_id})"
+                    )
                 # This should NEVER happen - raise an error to prevent empty fields
                 raise RuntimeError(
                     f"CRITICAL: No normalized data found for edition "
@@ -2727,9 +3104,19 @@ class RedBullDataProcessor:
 
                 # Validate AI name against raw title and product URL as ground truth
                 raw_title = edition.get("name", "")
-                approved_raw = next((ed for ed in self.APPROVED_EDITIONS if ed.lower() == raw_title.lower()), None)
+                approved_raw = next(
+                    (ed for ed in self.APPROVED_EDITIONS if ed.lower() == raw_title.lower()),
+                    None,
+                )
                 url_edition = self.extract_edition_from_url(edition.get("product_url", ""))
-                approved_url = next((ed for ed in self.APPROVED_EDITIONS if ed.lower() == (url_edition or "").lower()), None)
+                approved_url = next(
+                    (
+                        ed
+                        for ed in self.APPROVED_EDITIONS
+                        if ed.lower() == (url_edition or "").lower()
+                    ),
+                    None,
+                )
                 ground_truth = approved_raw or approved_url
 
                 if ground_truth and fixed_name:
@@ -2756,21 +3143,33 @@ class RedBullDataProcessor:
                         corrected_fields = edition.get("_corrected_fields", set())
 
                         # Apply corrected flavor if it's not manually corrected
-                        if "flavor" not in corrected_fields and validation.corrected_flavor and validation.corrected_flavor.strip():
+                        if (
+                            "flavor" not in corrected_fields
+                            and validation.corrected_flavor
+                            and validation.corrected_flavor.strip()
+                        ):
                             old_flavor = edition.get("flavor", "")
                             # Apply clean_flavor_name to ensure APPROVED_FLAVORS matching
-                            new_flavor = self.clean_flavor_name(validation.corrected_flavor.strip())
+                            new_flavor = self.clean_flavor_name(
+                                validation.corrected_flavor.strip()
+                            )
                             edition["flavor"] = new_flavor
 
                             if self.verbose and old_flavor != new_flavor:
                                 # Only show correction message if actually different
-                                self.thread_safe_print(f"      🔧 Validation corrected flavor: " f"'{old_flavor}' → '{new_flavor}'")
+                                self.thread_safe_print(
+                                    f"      🔧 Validation corrected flavor: "
+                                    f"'{old_flavor}' → '{new_flavor}'"
+                                )
 
                         # Apply corrected description if needed
                         if (
                             "flavor_description" not in corrected_fields
                             and validation.corrected_description
                             and validation.corrected_description.strip()
+                            and self._should_apply_validation_description_correction(
+                                edition, validation.corrected_description.strip()
+                            )
                         ):
                             old_description = edition.get("flavor_description", "")
                             new_description = validation.corrected_description.strip()
@@ -2778,11 +3177,16 @@ class RedBullDataProcessor:
 
                             if self.verbose and old_description != new_description:
                                 # Only show correction message if actually different
-                                self.thread_safe_print(f"      🔧 Validation corrected description for " f"{edition.get('name', 'unknown')}")
+                                self.thread_safe_print(
+                                    f"      🔧 Validation corrected description for "
+                                    f"{edition.get('name', 'unknown')}"
+                                )
 
         except Exception as err:  # pylint: disable=broad-exception-caught
             if self.verbose:
-                self.thread_safe_print(f"    ⚠️ Validation step failed for {country_name}: {str(err)[:200]}")
+                self.thread_safe_print(
+                    f"    ⚠️ Validation step failed for {country_name}: {str(err)[:200]}"
+                )
                 self.thread_safe_print("    Continuing without validation corrections...")
 
         return editions, [t.model_dump() for t in translated_editions_models]
@@ -2790,7 +3194,9 @@ class RedBullDataProcessor:
     # endregion
 
     # region Change Tracking Methods
-    def _track_country_changes(self, country_name: str, new_data: Dict, processed_file: Path) -> None:
+    def _track_country_changes(
+        self, country_name: str, new_data: Dict, processed_file: Path
+    ) -> None:
         """Track changes made to a country's data.
 
         Compares old and new data to track additions, updates, and removals
@@ -2806,8 +3212,14 @@ class RedBullDataProcessor:
             with open(processed_file, "r", encoding="utf-8") as file:
                 old_data = json.load(file)
 
-            old_editions = {edition.get("name", "") + edition.get("flavor", ""): edition for edition in old_data.get("editions", [])}
-            new_editions = {edition.get("name", "") + edition.get("flavor", ""): edition for edition in new_data.get("editions", [])}
+            old_editions = {
+                edition.get("name", "") + edition.get("flavor", ""): edition
+                for edition in old_data.get("editions", [])
+            }
+            new_editions = {
+                edition.get("name", "") + edition.get("flavor", ""): edition
+                for edition in new_data.get("editions", [])
+            }
 
             # Find added editions
             for key, edition in new_editions.items():
@@ -2847,6 +3259,12 @@ class RedBullDataProcessor:
                     ]
 
                     for field in fields_to_check:
+                        if field == "flavor_description":
+                            old_desc = old_edition.get(field, "")
+                            new_desc = new_edition.get(field, "")
+                            if self._are_descriptions_semantically_equal(old_desc, new_desc):
+                                continue
+
                         if old_edition.get(field) != new_edition.get(field):
                             changes.append(
                                 {
@@ -2925,14 +3343,27 @@ class RedBullDataProcessor:
         Returns:
             Markdown formatted changelog string.
         """
-        lines = ["# Red Bull Editions Processing Changelog", f"## {self.changelog['timestamp']}", "", "## Summary"]
+        lines = [
+            "# Red Bull Editions Processing Changelog",
+            f"## {self.changelog['timestamp']}",
+            "",
+            "## Summary",
+        ]
 
         # Summary section
-        total_added = sum(len(editions) for editions in self.changelog["editions_added"].values())
-        total_updated = sum(len(editions) for editions in self.changelog["editions_updated"].values())
-        total_removed = sum(len(editions) for editions in self.changelog["editions_removed"].values())
+        total_added = sum(
+            len(editions) for editions in self.changelog["editions_added"].values()
+        )
+        total_updated = sum(
+            len(editions) for editions in self.changelog["editions_updated"].values()
+        )
+        total_removed = sum(
+            len(editions) for editions in self.changelog["editions_removed"].values()
+        )
 
-        lines.append(f"- **Countries processed:** {len(self.changelog['countries_processed'])}")
+        lines.append(
+            f"- **Countries processed:** {len(self.changelog['countries_processed'])}"
+        )
         lines.append(f"- **Countries skipped:** {len(self.changelog['countries_skipped'])}")
         lines.append(f"- **Cache hits:** {self.changelog['cache_hits']}")
         lines.append(f"- **API calls made:** {self.changelog['api_calls_made']}")
@@ -2943,13 +3374,21 @@ class RedBullDataProcessor:
         # Corrections summary
         applied_corrections = len(
             set(
-                (cast(Dict[str, Any], c)["id"], cast(Dict[str, Any], c)["field"], cast(Dict[str, Any], c)["search"])
+                (
+                    cast(Dict[str, Any], c)["id"],
+                    cast(Dict[str, Any], c)["field"],
+                    cast(Dict[str, Any], c)["search"],
+                )
                 for c in self.changelog["corrections_applied"]
             )
         )
         failed_corrections = len(
             set(
-                (cast(Dict[str, Any], c)["id"], cast(Dict[str, Any], c)["field"], cast(Dict[str, Any], c)["search"])
+                (
+                    cast(Dict[str, Any], c)["id"],
+                    cast(Dict[str, Any], c)["field"],
+                    cast(Dict[str, Any], c)["search"],
+                )
                 for c in self.changelog["corrections_failed"]
             )
         )
@@ -2982,14 +3421,18 @@ class RedBullDataProcessor:
         if self.changelog["id_mappings_failed"]:
             lines.append("## ⚠️ Warnings - ID Mappings Not Applied")
             lines.append("")
-            lines.append("The following ID mappings could not be applied (source edition not found):")
+            lines.append(
+                "The following ID mappings could not be applied (source edition not found):"
+            )
             lines.append("")
             for entry in self.changelog["id_mappings_failed"]:
                 m = cast(Dict[str, Any], entry)
                 lines.append(f"### Source not found: `{m['source_id']}`")
                 lines.append(f"- **Target ID:** `{m['target_id']}`")
                 lines.append(f"- **Fields:** {', '.join(m['fields'])}")
-                lines.append(f"- **Effect:** Target edition keeps original (possibly incorrect) raw data")
+                lines.append(
+                    f"- **Effect:** Target edition keeps original (possibly incorrect) raw data"
+                )
                 lines.append("")
 
         # Unused corrections check - only for processed countries
@@ -3012,7 +3455,9 @@ class RedBullDataProcessor:
         if unused_corrections:
             lines.append("## 📝 Unused Corrections")
             lines.append("")
-            lines.append("The following corrections were not checked (no matching editions found):")
+            lines.append(
+                "The following corrections were not checked (no matching editions found):"
+            )
             lines.append("")
             for corr_id in sorted(unused_corrections):
                 lines.append(f"- `{corr_id}`")
@@ -3029,29 +3474,44 @@ class RedBullDataProcessor:
                 has_changes = False
 
                 # Additions
-                if country in self.changelog["editions_added"] and self.changelog["editions_added"][country]:
+                if (
+                    country in self.changelog["editions_added"]
+                    and self.changelog["editions_added"][country]
+                ):
                     lines.append("#### Added Editions:")
                     for edition in self.changelog["editions_added"][country]:
                         edition_dict = cast(Dict[str, Any], edition)
-                        lines.append(f"- **{edition_dict['name']}** - {edition_dict['flavor']}")
+                        lines.append(
+                            f"- **{edition_dict['name']}** - {edition_dict['flavor']}"
+                        )
                     lines.append("")
                     has_changes = True
 
                 # Updates
-                if country in self.changelog["editions_updated"] and self.changelog["editions_updated"][country]:
+                if (
+                    country in self.changelog["editions_updated"]
+                    and self.changelog["editions_updated"][country]
+                ):
                     lines.append("#### Updated Editions:")
                     for edition in self.changelog["editions_updated"][country]:
                         edition_dict = cast(Dict[str, Any], edition)
-                        lines.append(f"- **{edition_dict['name']}** - {edition_dict['flavor']}")
+                        lines.append(
+                            f"- **{edition_dict['name']}** - {edition_dict['flavor']}"
+                        )
                     lines.append("")
                     has_changes = True
 
                 # Removals
-                if country in self.changelog["editions_removed"] and self.changelog["editions_removed"][country]:
+                if (
+                    country in self.changelog["editions_removed"]
+                    and self.changelog["editions_removed"][country]
+                ):
                     lines.append("#### Removed Editions:")
                     for edition in self.changelog["editions_removed"][country]:
                         edition_dict = cast(Dict[str, Any], edition)
-                        lines.append(f"- **{edition_dict['name']}** - {edition_dict['flavor']}")
+                        lines.append(
+                            f"- **{edition_dict['name']}** - {edition_dict['flavor']}"
+                        )
                     lines.append("")
                     has_changes = True
 
@@ -3074,13 +3534,20 @@ class RedBullDataProcessor:
             calls_remaining = len(skipped) * 3
             lines.append("## ⚠️ Daily API Limit Reached – Countries Deferred")
             lines.append("")
-            lines.append(f"The following {len(skipped)} countries could not be processed today " f"and will be picked up on the next run:")
+            lines.append(
+                f"The following {len(skipped)} countries could not be processed today "
+                f"and will be picked up on the next run:"
+            )
             lines.append("")
             for country in sorted(skipped):
                 lines.append(f"- {country}")
             lines.append("")
-            lines.append(f"**API calls today:** {self.changelog['api_calls_made']}/{self.MAX_REQUESTS_PER_DAY}")
-            lines.append(f"**Calls still needed:** ~{calls_remaining} ({len(skipped)} countries × 3 steps)")
+            lines.append(
+                f"**API calls today:** {self.changelog['api_calls_made']}/{'unlimited' if self.MAX_REQUESTS_PER_DAY == -1 else self.MAX_REQUESTS_PER_DAY}"
+            )
+            lines.append(
+                f"**Calls still needed:** ~{calls_remaining} ({len(skipped)} countries × 3 steps)"
+            )
             lines.append("")
 
         # Errors section
@@ -3105,7 +3572,8 @@ class RedBullDataProcessor:
             or len(self.changelog["corrections_applied"]) > 0  # Actual processing happened
             or len(self.changelog["corrections_failed"]) > 0  # Corrections were applied
             or len(self.changelog["errors"]) > 0  # Errors occurred
-            or len(self.changelog.get("countries_skipped_daily_limit", [])) > 0  # Daily limit hit
+            or len(self.changelog.get("countries_skipped_daily_limit", []))
+            > 0  # Daily limit hit
         )
 
     def _save_changelog(self) -> Path:
@@ -3150,16 +3618,22 @@ class RedBullDataProcessor:
                 edition["flavor"] = "Sugarfree"
                 edition["sugarfree"] = True
                 if self.verbose:
-                    self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Sugarfree, sugarfree: True")
+                    self.thread_safe_print(
+                        f"      🔧 Applied rule: {name} → flavor: Sugarfree, sugarfree: True"
+                    )
             elif name_lower == "energy drink zero":
                 edition["flavor"] = "Zero Sugar"
                 edition["sugarfree"] = True
                 if self.verbose:
-                    self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Zero Sugar, sugarfree: True")
+                    self.thread_safe_print(
+                        f"      🔧 Applied rule: {name} → flavor: Zero Sugar, sugarfree: True"
+                    )
             elif name_lower == "energy drink":
                 edition["flavor"] = "Energy Drink"
                 if self.verbose:
-                    self.thread_safe_print(f"      🔧 Applied rule: {name} → flavor: Energy Drink")
+                    self.thread_safe_print(
+                        f"      🔧 Applied rule: {name} → flavor: Energy Drink"
+                    )
 
     def enforce_sugarfree_logic(self, editions: List[Dict]) -> None:
         """
@@ -3226,7 +3700,9 @@ class RedBullDataProcessor:
             if is_sugarfree:
                 edition["sugarfree"] = True
                 if self.verbose:
-                    self.thread_safe_print(f"      🔧 Forced sugarfree: {edition.get('name')} (detected in {match_source})")
+                    self.thread_safe_print(
+                        f"      🔧 Forced sugarfree: {edition.get('name')} (detected in {match_source})"
+                    )
 
     def fix_edition_names(self, editions: List[Dict]) -> None:
         """
@@ -3247,10 +3723,234 @@ class RedBullDataProcessor:
                     fixed_name = name.replace(wrong, correct)
                     edition["name"] = fixed_name
                     if self.verbose:
-                        self.thread_safe_print(f"      🔧 Fixed edition name: {name} → {fixed_name}")
+                        self.thread_safe_print(
+                            f"      🔧 Fixed edition name: {name} → {fixed_name}"
+                        )
                     name = fixed_name  # Update for next iteration
 
-    def process_country(self, country_name: str, domain: str, flag_code: str, force: bool = False) -> Tuple[Optional[Dict], bool]:
+    @staticmethod
+    def _normalize_text_for_change_detection(value: str) -> str:
+        """Normalize a text value for semantic change detection.
+
+        Converts to lowercase, removes common punctuation characters and
+        collapses consecutive whitespace so that formatting-only differences
+        do not produce false-positive change detections.
+
+        Args:
+            value: The raw text string to normalize.  Empty strings and
+                   falsy values are handled gracefully.
+
+        Returns:
+            A normalized, whitespace-collapsed lowercase string, or an empty
+            string when *value* is falsy.
+        """
+        if not value:
+            return ""
+
+        normalized = value.lower().strip()
+        normalized = re.sub(r"[.,;:!?\"'`()-]", " ", normalized)
+        normalized = " ".join(normalized.split())
+        return normalized
+
+    def _are_descriptions_semantically_equal(self, old_value: str, new_value: str) -> bool:
+        """Determine whether two description strings are semantically equal.
+
+        Two descriptions are considered equal when they differ only in
+        punctuation, casing, or surrounding whitespace — differences that
+        do not carry meaningful content changes.
+
+        Args:
+            old_value: The previously stored description text.
+            new_value: The newly generated or corrected description text.
+
+        Returns:
+            True if both descriptions normalize to the same string,
+            False otherwise.
+        """
+        return self._normalize_text_for_change_detection(
+            old_value
+        ) == self._normalize_text_for_change_detection(new_value)
+
+    @staticmethod
+    def _build_edition_fingerprint(edition: Dict) -> str:
+        """Build a stable SHA-256 fingerprint for a single edition dict.
+
+        The fingerprint is computed over the six content fields that identify
+        a unique edition: ``_graphql_id``, ``name``, ``_raw_flavor``,
+        ``_standfirst``, ``product_url``, and ``alt_text``.  It is used to
+        detect per-edition changes without re-sending unchanged editions to
+        the Gemini API.
+
+        Args:
+            edition: Raw edition dictionary as returned by the collector,
+                     expected to contain the fields listed above.
+
+        Returns:
+            A 64-character lowercase hex string (SHA-256 digest).
+        """
+        fingerprint_payload = {
+            "edition_id": edition.get("_graphql_id", ""),
+            "name": edition.get("name", ""),
+            "raw_flavor": edition.get("_raw_flavor", ""),
+            "standfirst": edition.get("_standfirst", ""),
+            "product_url": edition.get("product_url", ""),
+            "alt_text": edition.get("alt_text", ""),
+        }
+        return hashlib.sha256(
+            json.dumps(fingerprint_payload, sort_keys=True, ensure_ascii=False).encode()
+        ).hexdigest()
+
+    @staticmethod
+    def _contains_non_english_tokens(text: str) -> bool:
+        """Check whether *text* contains any known non-English word tokens.
+
+        A curated set of common Spanish, Portuguese, German, and French words
+        (e.g. ``ohne``, ``sin``, ``sans``, ``sem``) is used as a signal that
+        the description has not been translated to English and should be
+        corrected.
+
+        Args:
+            text: The flavor description text to inspect.
+
+        Returns:
+            True if at least one non-English token is found, False otherwise
+            or when *text* is empty.
+        """
+        if not text:
+            return False
+
+        token_set = {
+            "sin",
+            "azucar",
+            "azúcar",
+            "sem",
+            "acucar",
+            "açúcar",
+            "ohne",
+            "geschmack",
+            "flügel",
+            "sans",
+            "saveur",
+            "con",
+            "alas",
+            "asas",
+            "mit",
+            "sucre",
+            "edicion",
+            "edición",
+            "edicao",
+            "edição",
+        }
+
+        words = re.findall(r"\b[\wÀ-ÿ]+\b", text.lower())
+        return any(word in token_set for word in words)
+
+    @staticmethod
+    def _has_edition_name_mismatch(description: str, edition_name: str) -> bool:
+        """Detect when a description references a different edition name than expected.
+
+        Strips ``"The "`` and ``" Sugarfree"`` prefixes from the canonical name,
+        then checks whether the expected name fragment is absent from the
+        description while another ``"… Edition"`` phrase is present — indicating
+        the description was copied from or contaminated by a sibling edition.
+
+        Args:
+            description: The flavor description text of the edition.
+            edition_name: The canonical edition name
+                          (e.g. ``"The Summer Edition"``).
+
+        Returns:
+            True if the description contains a different edition name than
+            *edition_name*, False otherwise or when either argument is empty.
+        """
+        if not description or not edition_name:
+            return False
+
+        normalized_name = edition_name.replace("The ", "").replace(" Sugarfree", "").strip()
+        if "Edition" not in normalized_name:
+            return False
+
+        normalized_desc = description.lower()
+        expected_fragment = normalized_name.lower()
+        if expected_fragment in normalized_desc:
+            return False
+
+        # Only flag mismatch when another "... Edition" phrase is present.
+        return bool(re.search(r"\b[a-z]+\s+edition\b", normalized_desc))
+
+    def _should_apply_validation_description_correction(
+        self, edition: Dict, corrected_description: str
+    ) -> bool:
+        """Decide whether a validation-suggested description correction should be applied.
+
+        Corrections are only permitted when at least one hard, rule-based trigger
+        is present in the *current* description:
+
+        * A forbidden English phrase (``"sugars"`` / ``"sugar-free"``)
+        * A detected non-English token (see :meth:`_contains_non_english_tokens`)
+        * A mismatched edition name (see :meth:`_has_edition_name_mismatch`)
+
+        This guard prevents the AI validation step from overwriting already-correct
+        English descriptions with spurious alternatives.
+
+        Args:
+            edition: The edition dictionary whose ``flavor_description`` will be
+                     evaluated.
+            corrected_description: The replacement description proposed by the
+                                   validation step.
+
+        Returns:
+            True if the correction should be applied, False if it should be skipped.
+        """
+        current_description = edition.get("flavor_description", "")
+        if not corrected_description or not corrected_description.strip():
+            return False
+
+        # If nothing effectively changes, skip.
+        if self._are_descriptions_semantically_equal(
+            current_description, corrected_description
+        ):
+            return False
+
+        lower_current = current_description.lower()
+        has_forbidden_phrase = "sugars" in lower_current or "sugar-free" in lower_current
+        has_non_english = self._contains_non_english_tokens(current_description)
+        has_name_mismatch = self._has_edition_name_mismatch(
+            current_description, edition.get("name", "")
+        )
+
+        return has_forbidden_phrase or has_non_english or has_name_mismatch
+
+    def _load_global_uuid_cache(self) -> None:
+        """Load the cross-country UUID translation cache from disk.
+
+        Populates :attr:`_global_uuid_cache` from ``data/processed/global_uuid_cache.json``
+        if the file exists.  Called once at the start of :meth:`process_all`.
+        """
+        cache_file = self.processed_dir / self.GLOBAL_UUID_CACHE_FILE
+        if cache_file.exists():
+            with open(cache_file, "r", encoding="utf-8") as file:
+                self._global_uuid_cache = json.load(file)
+            self.logger.info(
+                "Loaded global UUID cache: %d entries", len(self._global_uuid_cache)
+            )
+        else:
+            self._global_uuid_cache = {}
+
+    def _save_global_uuid_cache(self) -> None:
+        """Persist the cross-country UUID translation cache to disk.
+
+        Writes :attr:`_global_uuid_cache` to ``data/processed/global_uuid_cache.json``.
+        Called once at the end of :meth:`process_all` after all countries are processed.
+        """
+        cache_file = self.processed_dir / self.GLOBAL_UUID_CACHE_FILE
+        with open(cache_file, "w", encoding="utf-8") as file:
+            json.dump(self._global_uuid_cache, file, indent=4, ensure_ascii=False)
+        self.logger.info("Saved global UUID cache: %d entries", len(self._global_uuid_cache))
+
+    def process_country(
+        self, country_name: str, domain: str, flag_code: str, force: bool = False
+    ) -> Tuple[Optional[Dict], bool]:
         """Process a single country's data.
 
         Main processing pipeline: load raw data → apply corrections →
@@ -3288,60 +3988,40 @@ class RedBullDataProcessor:
                 # Fallback: just use language code
                 source_language = parts[1]
 
-        raw_hash = hashlib.sha256(json.dumps(raw_data["editions"], sort_keys=True).encode()).hexdigest()
+        raw_hash = hashlib.sha256(
+            json.dumps(raw_data["editions"], sort_keys=True).encode()
+        ).hexdigest()
 
         # Check if already processed and unchanged
         processed_file = self.processed_dir / f"{domain}_processed.json"
-        translated_cache = None
-        editions_to_translate = None
+        existing: Dict[str, Any] = {}
+        existing_fingerprints: Dict[str, str] = {}
+        existing_normalized_cache: Dict[str, Dict[str, Any]] = {}
+        existing_translation_cache: Dict[str, Dict[str, Any]] = {}
 
         if not force and processed_file.exists():
             with open(processed_file, "r", encoding="utf-8") as file:
                 existing = json.load(file)
-                # Check if raw data hasn't changed
-                if existing.get("_raw_hash") == raw_hash:
-                    self.thread_safe_print(f"  ⏭️  {country_name}: No changes, using cached")
-                    self.changelog["cache_hits"] += 1
-                    self.changelog["countries_skipped"].append(country_name)
-                    return existing, False
 
-                # If raw data changed, intelligently use partial cache
-                if existing.get("_translated_editions"):
-                    # Build a map of cached translations by ID
-                    cached_translations = {item["edition_id"]: item for item in existing.get("_translated_editions", [])}
+            # Check if raw data hasn't changed
+            if existing.get("_raw_hash") == raw_hash:
+                self.thread_safe_print(f"  ⏭️  {country_name}: No changes, using cached")
+                self.changelog["cache_hits"] += 1
+                self.changelog["countries_skipped"].append(country_name)
+                return existing, False
 
-                    # Check which editions can use cache vs need fresh translation
-                    editions_to_translate = []
-                    cached_editions = []
-
-                    # Track which edition IDs need fresh translation
-                    editions_needing_translation = []
-                    for edition in raw_data["editions"]:
-                        # Get the edition ID
-                        edition_id = edition.get("id", "")
-
-                        if edition_id in cached_translations:
-                            # Use cached translation for this edition
-                            cached_editions.append(cached_translations[edition_id])
-                            if self.verbose:
-                                self.thread_safe_print(
-                                    f"    ♻️ Using cached translation for {edition.get('header_data', {}).get('content', {}).get('title', 'Unknown')}"
-                                )
-                        else:
-                            # Track this edition ID for later processing
-                            editions_needing_translation.append(edition_id)
-                            if self.verbose:
-                                title = edition.get("header_data", {}).get("content", {}).get("title", "Unknown")
-                                self.thread_safe_print(f"    🆕 New edition needs translation: {title}")
-
-                    # Set the partial cache
-                    translated_cache = cached_editions if cached_editions else None
-
-                    if self.verbose and cached_editions:
-                        self.thread_safe_print(f"    📊 Cache stats: {len(cached_editions)} cached, {len(editions_to_translate)} need translation")
+            existing_fingerprints = existing.get("_edition_fingerprints", {}) or {}
+            existing_normalized_cache = existing.get("_normalized_editions", {}) or {}
+            existing_translation_cache = {
+                item.get("edition_id"): item
+                for item in existing.get("_translated_editions", [])
+                if item.get("edition_id")
+            }
 
         elif force and self.verbose:
-            self.thread_safe_print(f"    🔧 Debug: Forcing reprocess for {country_name}, " "ignoring cache")
+            self.thread_safe_print(
+                f"    🔧 Debug: Forcing reprocess for {country_name}, " "ignoring cache"
+            )
 
         # Check if there are editions to process
         if not raw_data.get("editions"):
@@ -3379,7 +4059,11 @@ class RedBullDataProcessor:
 
             # Extract color
             if edition["color"] == "#FFFFFF" and header_data.get("media", {}).get("mainImage"):
-                colors = header_data["media"]["mainImage"].get("imageEssence", {}).get("predominantColors", [])
+                colors = (
+                    header_data["media"]["mainImage"]
+                    .get("imageEssence", {})
+                    .get("predominantColors", [])
+                )
                 if colors:
                     edition["color"] = colors[0].get("hexColorCode", "#FFFFFF")
 
@@ -3389,7 +4073,12 @@ class RedBullDataProcessor:
                 img_url = graphql_data["image"]["imageEssence"]["imageURL"]
                 edition["alt_text"] = graphql_data["image"].get("altText", "")
                 edition["_raw_alt_text"] = edition["alt_text"]  # Keep for processing
-            elif header_data.get("media", {}).get("mainImage", {}).get("imageEssence", {}).get("imageURL"):
+            elif (
+                header_data.get("media", {})
+                .get("mainImage", {})
+                .get("imageEssence", {})
+                .get("imageURL")
+            ):
                 img_url = header_data["media"]["mainImage"]["imageEssence"]["imageURL"]
                 edition["alt_text"] = header_data["media"]["mainImage"].get("altText", "")
                 edition["_raw_alt_text"] = edition["alt_text"]  # Keep for processing
@@ -3399,9 +4088,13 @@ class RedBullDataProcessor:
 
             # Extract product URL
             if graphql_data.get("reference", {}).get("externalUrl"):
-                edition["product_url"] = self.fix_product_url(graphql_data["reference"]["externalUrl"])
+                edition["product_url"] = self.fix_product_url(
+                    graphql_data["reference"]["externalUrl"]
+                )
             elif header_data.get("reference", {}).get("externalUrl"):
-                edition["product_url"] = self.fix_product_url(header_data["reference"]["externalUrl"])
+                edition["product_url"] = self.fix_product_url(
+                    header_data["reference"]["externalUrl"]
+                )
 
             # Check sugar-free
             # Sugarfree will be determined by AI, not by simple keyword search
@@ -3414,23 +4107,86 @@ class RedBullDataProcessor:
 
         # Apply ID mappings (replace raw fields from another locale before AI processing)
         editions_to_process = self._apply_id_mappings(editions_to_process)
+        editions_for_ai = []
+        preserved_count = 0
+        preserved_translations = []
 
-        # If we have per-edition cache logic, build the editions_to_translate list from processed editions
-        if "editions_needing_translation" in locals() and editions_needing_translation:
-            # Find the fully processed editions that correspond to the IDs needing translation
-            editions_to_translate = [edition for edition in editions_to_process if edition.get("_graphql_id", "") in editions_needing_translation]
-        else:
-            # Fallback to existing logic (no per-edition cache)
-            editions_to_translate = editions_to_translate if "editions_to_translate" in locals() else None
+        for edition in editions_to_process:
+            edition_id = edition.get("_graphql_id", "")
+            if not edition_id:
+                editions_for_ai.append(edition)
+                continue
 
-        # Normalize with AI
-        editions_to_process, translated_editions = self.normalize_with_gemini(
-            editions_to_process,
-            country_name,
-            translated_cache,
-            editions_to_translate,
-            source_language,
-        )
+            edition_fingerprint = self._build_edition_fingerprint(edition)
+            edition["_fingerprint"] = edition_fingerprint
+
+            # Check global UUID cache first (cross-country, highest priority after raw-hash)
+            with self._global_cache_lock:
+                global_hit = self._global_uuid_cache.get(edition_id)
+
+            if global_hit and global_hit.get("fingerprint") == edition_fingerprint:
+                edition["name"] = global_hit["name"]
+                edition["flavor"] = global_hit["flavor"]
+                edition["flavor_description"] = global_hit["flavor_description"]
+                edition["sugarfree"] = global_hit["sugarfree"]
+                preserved_count += 1
+                continue
+
+            cached_fingerprint = existing_fingerprints.get(edition_id)
+            cached_normalized = existing_normalized_cache.get(edition_id)
+            cached_translation = existing_translation_cache.get(edition_id)
+
+            if cached_fingerprint == edition_fingerprint and cached_normalized:
+                edition["name"] = cached_normalized.get("name", edition.get("name", ""))
+                edition["flavor"] = cached_normalized.get("flavor", edition.get("flavor", ""))
+                edition["flavor_description"] = cached_normalized.get(
+                    "flavor_description", edition.get("flavor_description", "")
+                )
+                edition["sugarfree"] = cached_normalized.get(
+                    "sugarfree", edition.get("sugarfree", False)
+                )
+                preserved_count += 1
+                if cached_translation:
+                    preserved_translations.append(cached_translation)
+            else:
+                editions_for_ai.append(edition)
+
+        translated_editions = []
+        if editions_for_ai:
+            if self.verbose and preserved_count > 0:
+                self.thread_safe_print(
+                    f"    📊 Cache stats: {preserved_count} frozen, {len(editions_for_ai)} need AI processing"
+                )
+
+            editions_for_ai, ai_translated_editions = self.normalize_with_gemini(
+                editions_for_ai,
+                country_name,
+                translated_cache=None,
+                editions_to_translate=editions_for_ai,
+                source_language=source_language,
+            )
+            translated_editions.extend(ai_translated_editions)
+
+            # Update global UUID cache with freshly translated editions
+            with self._global_cache_lock:
+                for edition in editions_for_ai:
+                    eid = edition.get("_graphql_id", "")
+                    if eid:
+                        self._global_uuid_cache[eid] = {
+                            "fingerprint": edition.get("_fingerprint")
+                            or self._build_edition_fingerprint(edition),
+                            "name": edition.get("name", ""),
+                            "flavor": edition.get("flavor", ""),
+                            "flavor_description": edition.get("flavor_description", ""),
+                            "sugarfree": edition.get("sugarfree", False),
+                        }
+        elif self.verbose:
+            self.thread_safe_print(
+                f"    ✅ {country_name}: All editions unchanged - reusing normalized cache"
+            )
+
+        if preserved_translations:
+            translated_editions.extend(preserved_translations)
 
         # Force sugarfree status based on keywords (overrides AI mistakes)
         self.enforce_sugarfree_logic(editions_to_process)
@@ -3448,7 +4204,9 @@ class RedBullDataProcessor:
             if name == "The Sugarfree Edition":
                 edition["name"] = "Energy Drink"  # Will become "Energy Drink Sugarfree" below
                 if self.verbose:
-                    self.thread_safe_print("      🔧 Fixed 'The Sugarfree Edition' → 'Energy Drink'")
+                    self.thread_safe_print(
+                        "      🔧 Fixed 'The Sugarfree Edition' → 'Energy Drink'"
+                    )
 
             # AI has already determined sugarfree status correctly
             # We just need to ensure consistent naming
@@ -3458,11 +4216,15 @@ class RedBullDataProcessor:
                 if "Edition" in name and not name.endswith("Sugarfree") and "Zero" not in name:
                     edition["name"] = f"{name} Sugarfree"
                     if self.verbose:
-                        self.thread_safe_print(f"      🔧 Added Sugarfree to edition name: {edition['name']}")
+                        self.thread_safe_print(
+                            f"      🔧 Added Sugarfree to edition name: {edition['name']}"
+                        )
 
         # Fix Edition spacing issues in all text fields
         for edition in editions_to_process:
-            edition["flavor_description"] = self.fix_edition_spacing(edition.get("flavor_description", ""))
+            edition["flavor_description"] = self.fix_edition_spacing(
+                edition.get("flavor_description", "")
+            )
             # Also fix flavor field if needed
             edition["flavor"] = self.fix_edition_spacing(edition.get("flavor", ""))
 
@@ -3487,15 +4249,22 @@ class RedBullDataProcessor:
                     ]
                     if flavor not in acceptable_matches:
                         if self.verbose:
-                            self.thread_safe_print(f"      🚨 SUSPICIOUS: Edition name '{edition_core}' " f"matches flavor '{flavor}' exactly!")
+                            self.thread_safe_print(
+                                f"      🚨 SUSPICIOUS: Edition name '{edition_core}' "
+                                f"matches flavor '{flavor}' exactly!"
+                            )
 
                 # Warning: Edition name contains typical flavor words
                 flavor_words = ["Berry", "Fruits", "Fruit", "Taste", "Flavor"]
                 for flavor_word in flavor_words:
-                    if flavor_word in edition_core and edition_core not in self.APPROVED_EDITIONS:
+                    if (
+                        flavor_word in edition_core
+                        and edition_core not in self.APPROVED_EDITIONS
+                    ):
                         if self.verbose:
                             self.thread_safe_print(
-                                f"      ⚠️  Edition name '{edition_core}' contains " f"flavor word '{flavor_word}' - verify this is correct"
+                                f"      ⚠️  Edition name '{edition_core}' contains "
+                                f"flavor word '{flavor_word}' - verify this is correct"
                             )
 
         # Final cleanup: ensure no double spaces in any text field
@@ -3509,6 +4278,36 @@ class RedBullDataProcessor:
             if edition.get("alt_text"):
                 edition["alt_text"] = " ".join(edition["alt_text"].split())
 
+        # Persist per-edition cache data to stabilize future runs.
+        edition_fingerprints = {}
+        normalized_cache = {}
+        for edition in editions_to_process:
+            edition_id = edition.get("_graphql_id", "")
+            if not edition_id:
+                continue
+
+            edition_fingerprint = edition.get(
+                "_fingerprint"
+            ) or self._build_edition_fingerprint(edition)
+            edition_fingerprints[edition_id] = edition_fingerprint
+            normalized_cache[edition_id] = {
+                "name": edition.get("name", ""),
+                "flavor": edition.get("flavor", ""),
+                "flavor_description": edition.get("flavor_description", ""),
+                "sugarfree": edition.get("sugarfree", False),
+            }
+
+        # Build deterministic translation cache by edition_id
+        translated_by_id = {}
+        for translation in translated_editions:
+            edition_id = translation.get("edition_id")
+            if edition_id:
+                translated_by_id[edition_id] = translation
+
+        translated_editions = [
+            translated_by_id[edition_id] for edition_id in sorted(translated_by_id.keys())
+        ]
+
         # Clean up temporary fields
         for edition in editions_to_process:
             edition.pop("_raw_flavor", None)
@@ -3516,6 +4315,7 @@ class RedBullDataProcessor:
             edition.pop("_graphql_id", None)
             edition.pop("_raw_alt_text", None)
             edition.pop("_corrected_fields", None)
+            edition.pop("_fingerprint", None)
 
         # Build final structure
         # Use 'Worldwide' for INT flag code in URLs
@@ -3523,9 +4323,12 @@ class RedBullDataProcessor:
         country_data = {
             "flag": self.convert_flag_code_to_emoji(flag_code, country_name),
             "editions": editions_to_process,
-            "flag_url": f"https://rbds-static.redbull.com/@cosmos/foundation/latest/" f"flags/cosmos-flag-{flag_url_code}.svg",
+            "flag_url": f"https://rbds-static.redbull.com/@cosmos/foundation/latest/"
+            f"flags/cosmos-flag-{flag_url_code}.svg",
             "_raw_hash": raw_hash,
             "_translated_editions": translated_editions,
+            "_edition_fingerprints": edition_fingerprints,
+            "_normalized_editions": normalized_cache,
         }
 
         # Track changes for changelog
@@ -3542,7 +4345,9 @@ class RedBullDataProcessor:
 
         return country_data, True
 
-    def process_country_wrapper(self, args: Tuple[str, str, str, bool]) -> Tuple[str, Optional[Dict], bool]:
+    def process_country_wrapper(
+        self, args: Tuple[str, str, str, bool]
+    ) -> Tuple[str, Optional[Dict], bool]:
         """Wrapper for process_country to work with ThreadPoolExecutor.
 
         Unpacks tuple arguments for parallel processing compatibility.
@@ -3604,7 +4409,9 @@ class RedBullDataProcessor:
                     summary = json.load(file)
                 changes_detected = summary["metadata"].get("changes_detected", [])
                 if self.verbose:
-                    print(f"  🔧 Debug: Found {len(changes_detected)} changed countries from summary")
+                    print(
+                        f"  🔧 Debug: Found {len(changes_detected)} changed countries from summary"
+                    )
             except (IOError, json.JSONDecodeError, KeyError) as err:
                 if self.verbose:
                     print(f"  ⚠️  Could not read collection summary: {err}")
@@ -3616,7 +4423,11 @@ class RedBullDataProcessor:
             with open(final_file, "r", encoding="utf-8") as file:
                 final_data = json.load(file)
             # Remove any countries with empty editions from existing data
-            final_data = {country: data for country, data in final_data.items() if data.get("editions") and len(data.get("editions", [])) > 0}
+            final_data = {
+                country: data
+                for country, data in final_data.items()
+                if data.get("editions") and len(data.get("editions", [])) > 0
+            }
         else:
             final_data = {}
 
@@ -3624,11 +4435,21 @@ class RedBullDataProcessor:
         if force_reprocess:
             countries_to_process = list(available_countries.keys())
             if self.verbose:
-                print(f"  🔧 Debug: Force mode - will process all " f"{len(countries_to_process)} countries")
+                print(
+                    f"  🔧 Debug: Force mode - will process all "
+                    f"{len(countries_to_process)} countries"
+                )
         else:
-            countries_to_process = changes_detected if final_data and changes_detected else list(available_countries.keys())
+            countries_to_process = (
+                changes_detected
+                if final_data and changes_detected
+                else list(available_countries.keys())
+            )
             if self.verbose:
-                print(f"  🔧 Debug: Processing {len(countries_to_process)} " "countries (changed or new)")
+                print(
+                    f"  🔧 Debug: Processing {len(countries_to_process)} "
+                    "countries (changed or new)"
+                )
 
         # Check if there's actually anything to process
         if not countries_to_process:
@@ -3640,21 +4461,53 @@ class RedBullDataProcessor:
             self.logger.info("💾 Data location: %s", final_file)
             return final_data
 
+        self._load_global_uuid_cache()
+
         print(f"📊 Processing {len(countries_to_process)} countries...")
 
         # Always show rate limiting info
-        api_calls_needed = len(countries_to_process) * 3
-        print(f"⏱️  Rate limiting: Max {self.MAX_REQUESTS_PER_MINUTE} req/min, max {self.MAX_REQUESTS_PER_DAY} req/day")
-        print(f"   Each country requires 3 API calls → {api_calls_needed} calls needed")
-        if api_calls_needed > self.MAX_REQUESTS_PER_DAY:
-            max_countries_today = self.MAX_REQUESTS_PER_DAY // 3
+        worst_case_calls = len(countries_to_process) * 3
+        global_cache_size = len(self._global_uuid_cache)
+        daily_limit_display = (
+            "unlimited"
+            if self.MAX_REQUESTS_PER_DAY == -1
+            else f"{self.MAX_REQUESTS_PER_DAY} (code limit, not remote)"
+        )
+        print(
+            f"⏱️  Rate limiting: Max {self.MAX_REQUESTS_PER_MINUTE} req/min, max {daily_limit_display} req/day"
+        )
+        if force_reprocess:
             print(
-                f"   ⚠️  {api_calls_needed} calls needed but only {self.MAX_REQUESTS_PER_DAY}/day available "
-                f"→ max {max_countries_today} countries today, remainder deferred to next run"
+                f"   Worst case (force mode, no per-country cache): {worst_case_calls} API calls"
             )
-        countries_today = min(len(countries_to_process), self.MAX_REQUESTS_PER_DAY // 3)
-        estimated_time = (countries_today * 3 * self.MIN_DELAY_BETWEEN_REQUESTS) / 60 / self.max_workers
-        print(f"   Estimated processing time: ~{estimated_time:.1f} minutes")
+            print(
+                f"   ℹ️  Global UUID cache ({global_cache_size} entries) still active — unchanged editions reused"
+            )
+            if worst_case_calls > self.MAX_REQUESTS_PER_DAY:
+                max_countries_no_cache = self.MAX_REQUESTS_PER_DAY // 3
+                print(
+                    f"   ⚠️  Daily limit: only {max_countries_no_cache} countries processable"
+                )
+        else:
+            print(f"   Global UUID cache: {global_cache_size} editions cached")
+            if global_cache_size > 0:
+                print(
+                    f"   ✅ Actual API calls will be significantly lower — only uncached UUIDs need translation"
+                )
+            else:
+                print(f"   Worst case (empty cache): {worst_case_calls} API calls")
+                if worst_case_calls > self.MAX_REQUESTS_PER_DAY:
+                    max_countries_no_cache = self.MAX_REQUESTS_PER_DAY // 3
+                    print(
+                        f"   ⚠️  Daily limit: only {max_countries_no_cache} countries without cache "
+                        f"— build the cache first with a full run"
+                    )
+        estimated_time = (
+            (len(countries_to_process) * 3 * self.MIN_DELAY_BETWEEN_REQUESTS)
+            / 60
+            / self.max_workers
+        )
+        print(f"   Estimated processing time (worst case): ~{estimated_time:.1f} minutes")
 
         # Prepare tasks
         tasks = []
@@ -3676,7 +4529,9 @@ class RedBullDataProcessor:
 
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             # Submit all tasks
-            future_to_task = {executor.submit(self.process_country_wrapper, task): task for task in tasks}
+            future_to_task = {
+                executor.submit(self.process_country_wrapper, task): task for task in tasks
+            }
 
             # Process completed tasks
             while future_to_task:
@@ -3694,8 +4549,13 @@ class RedBullDataProcessor:
                         ) = future.result()
                         if processed:
                             # Skip countries with no editions - don't add them to final_data at all
-                            if not processed.get("editions") or len(processed.get("editions", [])) == 0:
-                                self.thread_safe_print(f"  ⏭️  Skipping {country_name}: No editions found")
+                            if (
+                                not processed.get("editions")
+                                or len(processed.get("editions", [])) == 0
+                            ):
+                                self.thread_safe_print(
+                                    f"  ⏭️  Skipping {country_name}: No editions found"
+                                )
                                 # Don't increment completed_count for skipped countries
                                 continue
 
@@ -3703,6 +4563,8 @@ class RedBullDataProcessor:
                             processed_copy = processed.copy()
                             processed_copy.pop("_raw_hash", None)
                             processed_copy.pop("_translated_editions", None)
+                            processed_copy.pop("_edition_fingerprints", None)
+                            processed_copy.pop("_normalized_editions", None)
                             final_data[country_name] = processed_copy
 
                             # Only increment processed_count if actually processed (not cached)
@@ -3721,9 +4583,14 @@ class RedBullDataProcessor:
                             # Check if this was a successful retry
                             attempt = retry_attempts.get(country_name, 1)
                             if attempt > 1:
-                                self.thread_safe_print(f"  ✅ {country_name} retry successful after {attempt} attempts!")
+                                self.thread_safe_print(
+                                    f"  ✅ {country_name} retry successful after {attempt} attempts!"
+                                )
 
-                            self.thread_safe_print(f"  ✅ Completed {completed_count}/{len(tasks)}: " f"{country_name}")
+                            self.thread_safe_print(
+                                f"  ✅ Completed {completed_count}/{len(tasks)}: "
+                                f"{country_name}"
+                            )
 
                             # Only show ETA if there are remaining tasks and we have meaningful processing data
                             if remaining > 0 and processed_count > 0:
@@ -3732,7 +4599,9 @@ class RedBullDataProcessor:
                                 # This is a rough estimate since we don't know which remaining are cached vs need processing
                                 eta = remaining * avg_time_per_processed_country
                                 if eta > 5:  # Only show ETA if more than 5 seconds remaining
-                                    self.thread_safe_print(f"     ⏱️ ETA: ~{eta/60:.1f} minutes remaining")
+                                    self.thread_safe_print(
+                                        f"     ⏱️ ETA: ~{eta/60:.1f} minutes remaining"
+                                    )
                     except (
                         IOError,
                         json.JSONDecodeError,
@@ -3740,18 +4609,26 @@ class RedBullDataProcessor:
                         RuntimeError,
                     ) as err:
                         # Graceful skip when daily API limit is reached
-                        is_daily_limit_error = self._daily_limit_reached and "Daily API limit" in str(err)
+                        is_daily_limit_error = (
+                            self._daily_limit_reached and "Daily API limit" in str(err)
+                        )
                         is_new_skip = country_name not in self._skipped_due_to_limit
                         if is_daily_limit_error and is_new_skip:
                             self._skipped_due_to_limit.append(country_name)
-                            self.changelog["countries_skipped_daily_limit"].append(country_name)
-                            self.thread_safe_print(f"  ⏭️  {country_name} skipped – daily API limit reached")
+                            self.changelog["countries_skipped_daily_limit"].append(
+                                country_name
+                            )
+                            self.thread_safe_print(
+                                f"  ⏭️  {country_name} skipped – daily API limit reached"
+                            )
                         if is_daily_limit_error:
                             continue  # Don't retry, don't abort – just skip
 
                         # Check if abort was triggered (e.g., expired API key)
                         if self._abort_flag:
-                            self.thread_safe_print(f"  ⏹️  Aborting {country_name} due to critical error")
+                            self.thread_safe_print(
+                                f"  ⏹️  Aborting {country_name} due to critical error"
+                            )
                             # Cancel all pending futures
                             for pending_future in future_to_task:
                                 if not pending_future.done():
@@ -3764,27 +4641,39 @@ class RedBullDataProcessor:
 
                         # Enhanced error logging with clearer messages
                         error_summary = str(err)[:100].replace("\n", " ")
-                        self.thread_safe_print(f"  ❌ {country_name} failed (attempt {attempt}/3): {error_summary}")
+                        self.thread_safe_print(
+                            f"  ❌ {country_name} failed (attempt {attempt}/3): {error_summary}"
+                        )
 
                         # Log error to changelog
-                        self.changelog["errors"].append(f"{country_name} (attempt {attempt}): {error_summary}")
+                        self.changelog["errors"].append(
+                            f"{country_name} (attempt {attempt}): {error_summary}"
+                        )
 
                         if attempt < 3:
                             # Immediate focused retry - submit as new task parallel to others
-                            remaining_countries = len([f for f in future_to_task if not f.done()])
+                            remaining_countries = len(
+                                [f for f in future_to_task if not f.done()]
+                            )
                             self.thread_safe_print(
-                                f"  🔄 Starting immediate retry for {country_name} " f"(parallel to {remaining_countries} other countries)..."
+                                f"  🔄 Starting immediate retry for {country_name} "
+                                f"(parallel to {remaining_countries} other countries)..."
                             )
 
                             # Submit retry as new future - runs parallel to other tasks
                             retry_future = executor.submit(self.process_country_wrapper, task)
                             future_to_task[retry_future] = task
 
-                            self.thread_safe_print(f"  ⏱️  {country_name} retry in progress, " f"{remaining_countries} countries still processing...")
+                            self.thread_safe_print(
+                                f"  ⏱️  {country_name} retry in progress, "
+                                f"{remaining_countries} countries still processing..."
+                            )
                         else:
                             # Failed 3 times - abort entire processing
                             self._abort_flag = True
-                            self.thread_safe_print(f"  ❌ {country_name} failed 3 times. Aborting all processing.")
+                            self.thread_safe_print(
+                                f"  ❌ {country_name} failed 3 times. Aborting all processing."
+                            )
                             self.thread_safe_print(f"     Final error: {error_summary}")
                             # Cancel pending futures
                             for pending_future in future_to_task:
@@ -3807,10 +4696,14 @@ class RedBullDataProcessor:
                 self._save_changelog()
             sys.exit(1)
 
+        self._save_global_uuid_cache()
+
         # Add 'The Red Bull X Edition:' prefix to descriptions at the very end
         for country_name, country_data in final_data.items():
             if "editions" in country_data:
-                country_data["editions"] = self.add_description_prefix(country_data["editions"])
+                country_data["editions"] = self.add_description_prefix(
+                    country_data["editions"]
+                )
 
         # Save final data (sorted alphabetically by country and edition name)
         with open(final_file, "w", encoding="utf-8") as file:
@@ -3822,7 +4715,9 @@ class RedBullDataProcessor:
             with open(summary_file, "w", encoding="utf-8") as file:
                 json.dump(summary, file, indent=4, ensure_ascii=False)
             if self.verbose:
-                self.logger.info("  🧹 Cleared changes_detected list in collection_summary.json")
+                self.logger.info(
+                    "  🧹 Cleared changes_detected list in collection_summary.json"
+                )
 
         # Statistics
         total_editions = sum(len(country["editions"]) for country in final_data.values())
@@ -3854,9 +4749,14 @@ class RedBullDataProcessor:
 
         # Print warnings if there are failed corrections
         if self.changelog["corrections_failed"]:
-            print(f"\n⚠️  WARNING: {len(self.changelog['corrections_failed'])} corrections " f"could not be applied!")
+            print(
+                f"\n⚠️  WARNING: {len(self.changelog['corrections_failed'])} corrections "
+                f"could not be applied!"
+            )
             if changelog_file:
-                print(f"   Check the changelog for details: {self.data_dir / 'latest_changelog.md'}")
+                print(
+                    f"   Check the changelog for details: {self.data_dir / 'latest_changelog.md'}"
+                )
             else:
                 # This shouldn't happen since corrections_failed triggers changelog creation
                 print("   Correction failures should have triggered changelog creation.")
@@ -3885,7 +4785,9 @@ def main():
     Returns:
         Exit code (0 for success, 1 for failure).
     """
-    parser = argparse.ArgumentParser(description="Process Red Bull editions data with Gemini AI")
+    parser = argparse.ArgumentParser(
+        description="Process Red Bull editions data with Gemini AI"
+    )
     parser.add_argument(
         "--force",
         "-f",
@@ -3955,22 +4857,33 @@ def main():
                     if args.separate_file:
                         # Save to separate file (old behavior)
                         if "editions" in result:
-                            result["editions"] = processor.add_description_prefix(result["editions"])
+                            result["editions"] = processor.add_description_prefix(
+                                result["editions"]
+                            )
 
                         output = {args.country: result}
                         output[args.country].pop("_raw_hash", None)
                         output[args.country].pop("_translated_editions", None)
+                        output[args.country].pop("_edition_fingerprints", None)
+                        output[args.country].pop("_normalized_editions", None)
 
-                        single_file = processor.data_dir / f"single_{country_info['domain']}.json"
+                        single_file = (
+                            processor.data_dir / f"single_{country_info['domain']}.json"
+                        )
                         with open(single_file, "w", encoding="utf-8") as file:
                             json.dump(output, file, indent=4, ensure_ascii=False)
 
                         print(f"✅ Single country result saved to: {single_file}")
                     else:
                         # Update final JSON directly (new default behavior)
-                        success = processor.update_final_json_with_country(args.country, result)
+                        success = processor.update_final_json_with_country(
+                            args.country, result
+                        )
                         if success:
-                            print(f"✅ {args.country} updated in final JSON: " f"data/redbull_editions_final.json")
+                            print(
+                                f"✅ {args.country} updated in final JSON: "
+                                f"data/redbull_editions_final.json"
+                            )
                         else:
                             print(f"❌ Failed to update final JSON for {args.country}")
             else:

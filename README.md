@@ -63,7 +63,7 @@ collector.py  →  raw data  →  processor.py  →  final JSON
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
+pip install .
 ```
 
 2. Set up Gemini API key:
@@ -158,7 +158,7 @@ This allows you to use intuitive field names in corrections while the processor 
    - **force**: Force reprocess all data ignoring cache (optional)
 
 The workflow runs daily at 5:11 AM UTC and:
-- Uses Python 3.12 for better performance
+- Uses Python 3.13 for better performance
 - Caches dependencies and raw data
 - Creates releases automatically when changes are detected
 - Uses changelog files for release notes when available

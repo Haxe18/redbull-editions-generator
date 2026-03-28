@@ -121,12 +121,6 @@
             "replace": "Iced Vanilla Berry"
         },
         {
-            "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
-            "field": "flavor",
-            "search": "Strawberry and apricot",
-            "replace": "Strawberry & Peach"
-        },
-        {
             "id": "22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO",
             "field": "flavor",
             "search": "Juneberry",
@@ -145,7 +139,7 @@
             "replace": "White Peach"
         },
         {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:ee-ET",
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:ee-et",
             "field": "flavor",
             "search": "Peach",
             "replace": "White Peach"
@@ -163,7 +157,7 @@
             "replace": "White Peach"
         },
         {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:se-EN",
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:se-en",
             "field": "flavor",
             "search": "Peach",
             "replace": "White Peach"

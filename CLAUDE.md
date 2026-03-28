@@ -33,7 +33,7 @@ python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install .
 
 # Set up environment
 cp .env.example .env
@@ -430,7 +430,7 @@ Collection aborted - no partial data saved
 **Exit Code**: 1 (CI/CD pipeline will fail)
 
 ### Gemini AI Integration
-- Model: `gemini-2.5-flash`
+- Model: `gemini-3.1-flash-lite-preview`
 - Used for text normalization and translation
 - Fallback processing when API key unavailable
 - Parallel processing with 3 concurrent requests
@@ -479,7 +479,7 @@ The workflow (`update-editions.yml`) runs daily at 5:11 AM UTC and:
 
 ## Dependencies
 
-- `google-genai==1.31.0` - Gemini AI API client
+- `google-genai>=1.66.0` - Gemini AI API client
 - `requests` - HTTP client for API calls
 - `python-dotenv` - Environment variable management
-- Python 3.8+ required
+- Python 3.11+ required

@@ -5,6 +5,7 @@ Red Bull Editions Data Collector
 Collects and merges data from multiple language versions per country.
 Supports intelligent language prioritization and deduplication.
 """
+
 # Standard library imports
 import argparse
 import hashlib
@@ -131,7 +132,9 @@ class RedBullDataCollector:
         self.rate_limit = rate_limit
 
         # Setup logger
-        self.logger = setup_logger(self.__class__.__name__, enable_verbose=verbose, debug=debug)
+        self.logger = setup_logger(
+            self.__class__.__name__, enable_verbose=verbose, debug=debug
+        )
 
         # Set user agent for all requests
         self.headers = {"User-Agent": config.USER_AGENT}
@@ -171,7 +174,9 @@ class RedBullDataCollector:
 
         return session
 
-    def _retry_request(self, request_func: Callable, *args, identifier: str = "request", **kwargs) -> Optional[Dict[str, Any]]:
+    def _retry_request(
+        self, request_func: Callable, *args, identifier: str = "request", **kwargs
+    ) -> Optional[Dict[str, Any]]:
         """Generic retry logic for HTTP requests.
 
         Args:
@@ -271,7 +276,9 @@ class RedBullDataCollector:
             raise APIError("Failed to fetch initial locales")
         return result
 
-    def fetch_country_data(self, domain: str, custom_url: Optional[str] = None) -> Optional[Dict[str, Any]]:
+    def fetch_country_data(
+        self, domain: str, custom_url: Optional[str] = None
+    ) -> Optional[Dict[str, Any]]:
         """Fetch API data for a specific country/locale.
 
         Supports custom URLs including Archive.org snapshots.
@@ -359,14 +366,25 @@ class RedBullDataCollector:
             filtered_image = {}
             if "altText" in original["image"]:
                 filtered_image["altText"] = original["image"]["altText"]
-            if "imageEssence" in original["image"] and "imageURL" in original["image"]["imageEssence"]:
-                filtered_image["imageEssence"] = {"imageURL": original["image"]["imageEssence"]["imageURL"]}
+            if (
+                "imageEssence" in original["image"]
+                and "imageURL" in original["image"]["imageEssence"]
+            ):
+                filtered_image["imageEssence"] = {
+                    "imageURL": original["image"]["imageEssence"]["imageURL"]
+                }
             if filtered_image:
                 filtered["data"]["image"] = filtered_image
 
         # Filter reference to keep only externalUrl
-        if "reference" in original and original["reference"] and "externalUrl" in original["reference"]:
-            filtered["data"]["reference"] = {"externalUrl": original["reference"]["externalUrl"]}
+        if (
+            "reference" in original
+            and original["reference"]
+            and "externalUrl" in original["reference"]
+        ):
+            filtered["data"]["reference"] = {
+                "externalUrl": original["reference"]["externalUrl"]
+            }
 
         return filtered
 
@@ -400,9 +418,13 @@ class RedBullDataCollector:
                 filtered_image["imageEssence"] = {}
                 if "imageURL" in main_image["imageEssence"]:
                     # Clean proxy URL if present
-                    filtered_image["imageEssence"]["imageURL"] = self.clean_proxy_url(main_image["imageEssence"]["imageURL"])
+                    filtered_image["imageEssence"]["imageURL"] = self.clean_proxy_url(
+                        main_image["imageEssence"]["imageURL"]
+                    )
                 if "predominantColors" in main_image["imageEssence"]:
-                    filtered_image["imageEssence"]["predominantColors"] = main_image["imageEssence"]["predominantColors"]
+                    filtered_image["imageEssence"]["predominantColors"] = main_image[
+                        "imageEssence"
+                    ]["predominantColors"]
 
             if "altText" in main_image:
                 filtered_image["altText"] = main_image["altText"]
@@ -413,7 +435,9 @@ class RedBullDataCollector:
         # Keep reference.externalUrl
         if "reference" in data and "externalUrl" in data["reference"]:
             # Clean proxy URL if present
-            filtered["reference"] = {"externalUrl": self.clean_proxy_url(data["reference"]["externalUrl"])}
+            filtered["reference"] = {
+                "externalUrl": self.clean_proxy_url(data["reference"]["externalUrl"])
+            }
 
         return filtered
 
@@ -505,7 +529,9 @@ class RedBullDataCollector:
                 return uuid
         return edition_id
 
-    def _process_edition_by_language(self, context: EditionProcessingContext, merged: Dict, uuid_lang_priority: Dict) -> None:
+    def _process_edition_by_language(
+        self, context: EditionProcessingContext, merged: Dict, uuid_lang_priority: Dict
+    ) -> None:
         """Process a single edition based on language priority.
 
         Helper method to reduce complexity of merge_editions.
@@ -574,7 +600,11 @@ class RedBullDataCollector:
                     self.logger.debug("Processing flavor key: %s", flavor_key)
 
                     # Get URL to check if it's a product page
-                    url = edition.get("header_data", {}).get("reference", {}).get("externalUrl", "")
+                    url = (
+                        edition.get("header_data", {})
+                        .get("reference", {})
+                        .get("externalUrl", "")
+                    )
 
                     if flavor_key not in flavor_map:
                         # First time seeing this flavor/title combination
@@ -584,7 +614,11 @@ class RedBullDataCollector:
                         # Duplicate flavor/title found - prefer product URLs over general pages
                         self.logger.debug("Duplicate found, evaluating which to keep")
                         existing_edition = flavor_map[flavor_key]
-                        existing_url = existing_edition.get("header_data", {}).get("reference", {}).get("externalUrl", "")
+                        existing_url = (
+                            existing_edition.get("header_data", {})
+                            .get("reference", {})
+                            .get("externalUrl", "")
+                        )
 
                         # Prefer entries with /products/ in URL (actual product pages)
                         current_has_products = "/products/" in url
@@ -613,9 +647,21 @@ class RedBullDataCollector:
         return list(flavor_map.values())
 
     def _filter_int_editions(self, editions: List[Dict], flag_code: str) -> List[Dict]:
-        """Filter out INT editions for non-INT countries.
+        """Filter out international (INT) editions for non-INT countries.
 
-        Helper method to reduce complexity of merge_editions.
+        Editions whose ``id`` ends with ``"-INT"`` are exclusive to the global
+        International market and must not appear in country-specific results.
+        This method is a single-purpose helper called by :meth:`merge_editions`
+        to keep that method within its complexity budget.
+
+        Args:
+            editions: List of raw edition dicts as returned by the API.
+            flag_code: Two- or three-letter flag/country code for the current
+                       market (e.g. ``"DE"``, ``"INT"``).
+
+        Returns:
+            The filtered list of editions.  When *flag_code* is ``"INT"`` or
+            empty the original list is returned unchanged.
         """
         if not flag_code or flag_code == "INT":
             return editions
@@ -625,7 +671,9 @@ class RedBullDataCollector:
             edition_id = edition.get("id", "")
             # Check if the edition ID ends with -INT (international edition)
             if edition_id and edition_id.endswith("-INT"):
-                title = edition.get("header_data", {}).get("content", {}).get("title", "Unknown")
+                title = (
+                    edition.get("header_data", {}).get("content", {}).get("title", "Unknown")
+                )
                 self.logger.debug(
                     "Filtering out INT edition for %s: %s (%s)",
                     flag_code,
@@ -644,7 +692,9 @@ class RedBullDataCollector:
 
         return filtered_editions
 
-    def merge_editions(self, all_editions: List[List[Dict]], domains: List[str], flag_code: str = "") -> List[Dict]:
+    def merge_editions(
+        self, all_editions: List[List[Dict]], domains: List[str], flag_code: str = ""
+    ) -> List[Dict]:
         """Merge editions from multiple language versions based on UUID.
 
         Intelligently merges editions from different language versions,
@@ -696,7 +746,16 @@ class RedBullDataCollector:
         final_editions = self._deduplicate_by_flavor(result)
 
         # Filter out INT editions for non-INT countries
-        return self._filter_int_editions(final_editions, flag_code)
+        filtered_editions = self._filter_int_editions(final_editions, flag_code)
+
+        # Keep ordering stable so hashing/diffing is deterministic across runs.
+        return sorted(
+            filtered_editions,
+            key=lambda edition: (
+                edition.get("id", ""),
+                edition.get("header_data", {}).get("content", {}).get("title", ""),
+            ),
+        )
 
     def _group_locales_by_country(self, locales: List[Dict]) -> Dict[str, List[Dict]]:
         """Group locales by country and sort by language priority.
@@ -733,7 +792,11 @@ class RedBullDataCollector:
             return {matched_country: countries_grouped[matched_country]}
 
         # Try partial match
-        partial_matches = [country for country in countries_grouped if country_filter.lower() in country.lower()]
+        partial_matches = [
+            country
+            for country in countries_grouped
+            if country_filter.lower() in country.lower()
+        ]
 
         if len(partial_matches) == 1:
             matched_country = partial_matches[0]
@@ -754,7 +817,9 @@ class RedBullDataCollector:
             self.logger.info("  ... and %d more", len(countries_grouped) - 20)
         return {}
 
-    def _collect_domain_editions(self, domain: str, country_name: str, custom_url: Optional[str] = None) -> Tuple[List[Dict], bool]:
+    def _collect_domain_editions(
+        self, domain: str, country_name: str, custom_url: Optional[str] = None
+    ) -> Tuple[List[Dict], bool]:
         """Collect editions from a single domain.
 
         Args:
@@ -772,7 +837,9 @@ class RedBullDataCollector:
             country_data = self.fetch_country_data(domain)
 
         if not country_data:
-            self.logger.error("Country %s marked as FAILED due to header API failure", country_name)
+            self.logger.error(
+                "Country %s marked as FAILED due to header API failure", country_name
+            )
             return [], False
 
         featured_drinks = country_data.get("featuredEnergyDrinks", [])
@@ -838,13 +905,21 @@ class RedBullDataCollector:
             Tuple of (file name, has_changed boolean).
         """
         primary_domain = valid_domains[0] if valid_domains else "unknown"
+        stable_merged_editions = sorted(
+            merged_editions,
+            key=lambda edition: (
+                edition.get("id", ""),
+                edition.get("header_data", {}).get("content", {}).get("title", ""),
+            ),
+        )
+
         country_raw_data = {
             "locale_info": {
                 "country_name": country_name,
                 "domains": valid_domains,
                 "flag_code": flag_code,
             },
-            "editions": merged_editions,
+            "editions": stable_merged_editions,
             "collection_timestamp": datetime.now(timezone.utc).isoformat(),
         }
 
@@ -856,14 +931,20 @@ class RedBullDataCollector:
         if raw_file.exists():
             with open(raw_file, "r", encoding="utf-8") as file_handle:
                 existing = json.load(file_handle)
-                existing_hash = hashlib.sha256(json.dumps(existing.get("editions", []), sort_keys=True).encode()).hexdigest()
-                new_hash = hashlib.sha256(json.dumps(merged_editions, sort_keys=True).encode()).hexdigest()
+                existing_hash = hashlib.sha256(
+                    json.dumps(existing.get("editions", []), sort_keys=True).encode()
+                ).hexdigest()
+                new_hash = hashlib.sha256(
+                    json.dumps(stable_merged_editions, sort_keys=True).encode()
+                ).hexdigest()
                 has_changed = existing_hash != new_hash
 
         if has_changed:
             with open(raw_file, "w", encoding="utf-8") as file_handle:
                 json.dump(country_raw_data, file_handle, indent=4, ensure_ascii=False)
-            self.logger.info("Changes detected for %s, saved to %s", country_name, raw_file.name)
+            self.logger.info(
+                "Changes detected for %s, saved to %s", country_name, raw_file.name
+            )
         else:
             self.logger.info("No changes detected for %s", country_name)
 
@@ -915,7 +996,9 @@ class RedBullDataCollector:
             self.logger.info("  • Changed countries: %s", changes_str)
 
     @staticmethod
-    def _initialize_collection_metadata(countries_count: int, old_collection_date: Optional[str] = None) -> Dict[str, Any]:
+    def _initialize_collection_metadata(
+        countries_count: int, old_collection_date: Optional[str] = None
+    ) -> Dict[str, Any]:
         """Initialize metadata for collection results.
 
         Args:
@@ -926,7 +1009,11 @@ class RedBullDataCollector:
             Dictionary with initialized metadata structure
         """
         # Use old collection_date as placeholder, will be updated based on changes_detected
-        collection_date = old_collection_date if old_collection_date else datetime.now(timezone.utc).isoformat()
+        collection_date = (
+            old_collection_date
+            if old_collection_date
+            else datetime.now(timezone.utc).isoformat()
+        )
 
         return {
             "metadata": {
@@ -971,9 +1058,15 @@ class RedBullDataCollector:
 
         for domain in domains:
             # Use custom URL only for the specified country
-            custom_url_for_domain = custom_url if custom_url and country_filter and country_name == country_filter else None
+            custom_url_for_domain = (
+                custom_url
+                if custom_url and country_filter and country_name == country_filter
+                else None
+            )
 
-            domain_editions, success = self._collect_domain_editions(domain, country_name, custom_url_for_domain)
+            domain_editions, success = self._collect_domain_editions(
+                domain, country_name, custom_url_for_domain
+            )
 
             if not success:
                 return {}, False, f"API error for {country_name}"
@@ -984,7 +1077,9 @@ class RedBullDataCollector:
                 self.logger.verbose("  ✅ %s: Found %d editions", domain, len(domain_editions))
                 # In normal mode: only show domain count if multiple
                 if len(domains) > 1:
-                    self.logger.info("  ✅ %s: Found %d editions", domain, len(domain_editions))
+                    self.logger.info(
+                        "  ✅ %s: Found %d editions", domain, len(domain_editions)
+                    )
 
             # Rate limiting between domains
             if self.rate_limit and len(domains) > 1:
@@ -1014,7 +1109,9 @@ class RedBullDataCollector:
             )
 
         # Save raw data
-        file_name, has_changed = self._save_country_data(country_name, merged_editions, valid_domains, flag_code)
+        file_name, has_changed = self._save_country_data(
+            country_name, merged_editions, valid_domains, flag_code
+        )
 
         # Create country data for summary
         primary_domain = valid_domains[0] if valid_domains else "unknown"
@@ -1089,17 +1186,24 @@ class RedBullDataCollector:
                     continue
 
                 # All retries exhausted
-                raise APIError(f"{country_name} failed after {config.COUNTRY_MAX_RETRIES + 1} " f"attempts: {error}")
+                raise APIError(
+                    f"{country_name} failed after {config.COUNTRY_MAX_RETRIES + 1} "
+                    f"attempts: {error}"
+                )
 
             except APIError:
                 # Re-raise APIError from nested calls
                 raise
             except Exception as unexpected_error:  # pylint: disable=broad-exception-caught
                 # Unexpected error - raise immediately
-                raise APIError(f"{country_name} unexpected error: {str(unexpected_error)}") from unexpected_error
+                raise APIError(
+                    f"{country_name} unexpected error: {str(unexpected_error)}"
+                ) from unexpected_error
 
         # Should never reach here, but just in case
-        raise APIError(f"{country_name} failed: {last_error if last_error else 'Unknown error'}")
+        raise APIError(
+            f"{country_name} failed: {last_error if last_error else 'Unknown error'}"
+        )
 
     def collect_all_data(
         self,
@@ -1141,7 +1245,9 @@ class RedBullDataCollector:
 
         # Filter by specific country if requested
         if country_filter:
-            countries_to_process = self._filter_countries_by_name(countries_grouped, country_filter)
+            countries_to_process = self._filter_countries_by_name(
+                countries_grouped, country_filter
+            )
             if not countries_to_process:
                 return {
                     "metadata": {"error": "Country not found or multiple matches"},
@@ -1163,15 +1269,21 @@ class RedBullDataCollector:
             try:
                 with open(summary_file, "r", encoding="utf-8") as file_handle:
                     old_summary = json.load(file_handle)
-                    old_collection_date = old_summary.get("metadata", {}).get("collection_date")
+                    old_collection_date = old_summary.get("metadata", {}).get(
+                        "collection_date"
+                    )
             except (IOError, OSError, json.JSONDecodeError) as err:
                 self.logger.warning("Could not read old collection_date: %s", err)
 
-        all_raw_data = self._initialize_collection_metadata(len(countries_to_process), old_collection_date)
+        all_raw_data = self._initialize_collection_metadata(
+            len(countries_to_process), old_collection_date
+        )
 
         changes_detected = []
 
-        for country_idx, (country_name, country_locales) in enumerate(countries_to_process.items(), 1):
+        for country_idx, (country_name, country_locales) in enumerate(
+            countries_to_process.items(), 1
+        ):
             # Use retry method - raises APIError on failure (stops immediately)
             country_data, has_changed = self._process_single_country_with_retry(
                 country_name,
@@ -1193,7 +1305,9 @@ class RedBullDataCollector:
 
         # Update collection_date only if changes were detected
         if changes_detected:
-            all_raw_data["metadata"]["collection_date"] = datetime.now(timezone.utc).isoformat()
+            all_raw_data["metadata"]["collection_date"] = datetime.now(
+                timezone.utc
+            ).isoformat()
             self.logger.info("📅 Collection date updated (changes detected)")
         else:
             self.logger.info("📅 Collection date preserved (no changes)")
@@ -1239,7 +1353,9 @@ def main():
         Exit code (0 for success, 1 for failure).
     """
     parser = argparse.ArgumentParser(description="Collect Red Bull editions data")
-    parser.add_argument("limit", type=int, nargs="?", help="Number of countries to process (optional)")
+    parser.add_argument(
+        "limit", type=int, nargs="?", help="Number of countries to process (optional)"
+    )
     parser.add_argument(
         "--country",
         "-c",
@@ -1249,7 +1365,8 @@ def main():
     parser.add_argument(
         "--custom-url",
         type=str,
-        help="Custom URL to fetch data from (requires --country option, " "e.g., Archive.org URL for countries without current data)",
+        help="Custom URL to fetch data from (requires --country option, "
+        "e.g., Archive.org URL for countries without current data)",
     )
     parser.add_argument(
         "--no-rate-limit",
@@ -1280,7 +1397,9 @@ def main():
     limit = args.limit if args.limit else None
 
     # Create collector with rate limit, verbose and debug settings
-    collector = RedBullDataCollector(rate_limit=not args.no_rate_limit, verbose=args.verbose, debug=args.debug)
+    collector = RedBullDataCollector(
+        rate_limit=not args.no_rate_limit, verbose=args.verbose, debug=args.debug
+    )
 
     # Setup logger for main function
     logger = logging.getLogger("Main")
@@ -1294,7 +1413,9 @@ def main():
 
     try:
         # Pass country filter and custom URL if specified
-        collector.collect_all_data(limit=limit, country_filter=args.country, custom_url=args.custom_url)
+        collector.collect_all_data(
+            limit=limit, country_filter=args.country, custom_url=args.custom_url
+        )
         return 0
     except APIError as api_error:
         logger.error("\n❌ COLLECTION FAILED")

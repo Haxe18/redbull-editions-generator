@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "redbull-editions-generator"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+    "google-genai>=1.66.0",
+    "python-dotenv>=1.0.0",
+    "colorama>=0.4.6",
+    "pydantic>=2.0.0,<3.0.0",
+    "babel>=2.9.0",
+]
+
+[tool.setuptools]
+packages = []
+
+[tool.black]
+line-length = 95
+target-version = ["py313"]
