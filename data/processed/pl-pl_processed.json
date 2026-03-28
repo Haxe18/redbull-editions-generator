@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, demanding professionals and travellers on long journeys",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/bp5pntsnht1co8fjmyww/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
@@ -50,6 +50,16 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/sxstksruga9tebskonr4/the-red-bull-spring-edition-sugarfree",
             "alt_text": "The Red Bull Spring Edition Sugarfree",
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition-sugarfree"
+        },
+        {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition with the taste of White Peach with a hint of citrus peel and floral notes",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/z0vvvc0zbc7b0afsqt7m/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition"
         },
         {
             "name": "The Lilac Edition Sugarfree",
@@ -113,7 +123,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "193fd55a503c527acd9163d186a5c70861e118d819ba4d1f4780d323504c20f4",
+    "_raw_hash": "f1edcb67797b30f3281aed2d42979b7a9629d08b28ebf06b2fe43dacacb3d253",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL",
@@ -191,6 +201,13 @@
             "flavor": "Acai Berry",
             "description": "Red Bull Purple Edition, sugarfree, with the unique taste of exotic Acai Berry.",
             "product_url": "https://www.redbull.com/pl-pl/energydrink/red-bull-purple-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:pl-PL",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition with the taste of white peach with a hint of citrus peel and floral notes.",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition"
         }
     ]
 }

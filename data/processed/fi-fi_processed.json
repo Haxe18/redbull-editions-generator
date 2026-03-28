@@ -4,10 +4,10 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull energy drink is appreciated by top athletes, students, skilled workers and long-distance drivers",
+            "flavor_description": "Red Bull -energy drink is appreciated by top athletes, students, skilled workers and long-distance drivers",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/fl8kq9xgix5zsl74uk9e/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-energy-drink"
         },
@@ -133,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FI.svg",
-    "_raw_hash": "dd1ffab641149f4b5018714db2fb81c8711c72687897d4e9ecc48af3ba747206",
+    "_raw_hash": "a5085fb121bbfde66771984f4660751c22a43f18bdbaa35848b5ae9d984eaaa3",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fi-FI",

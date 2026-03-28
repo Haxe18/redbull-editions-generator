@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is prized by top athletes, a lot of professionals, students, and long-distance travelers around the world",
             "sugarfree": false,
-            "color": "#D4D7DF",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/15/jxlle5xrpd7q2exkfyqh/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/ddxrv40jpnynaufsy4fq/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
@@ -23,7 +23,7 @@
         },
         {
             "name": "The Cherry Edition",
-            "flavor": "Cherry & Wild Berries",
+            "flavor": "Cherry Sakura",
             "flavor_description": "Red Bull The Cherry Edition arrives with a sakuranbo taste!",
             "sugarfree": false,
             "color": "#0a3073",
@@ -34,7 +34,7 @@
         {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "Red Bull The Green Edition with the taste of Muscat",
+            "flavor_description": "Red Bull The Green Edition with the taste of muscat flavor, landing again!",
             "sugarfree": false,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
@@ -44,7 +44,7 @@
         {
             "name": "The Purple Edition",
             "flavor": "Kyoho Grape",
-            "flavor_description": "A new regular from Red Bull, the Wings of Kyoho grape flavor!",
+            "flavor_description": "A new regular from Red Bull, the Wings of The Purple Edition Kyoho grape flavor!",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/10/15/neplp18e5cmwoftksfr3/red-bull-purple-edition-image",
@@ -53,7 +53,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
-    "_raw_hash": "04b47a8d571d29a3066a99879b3e5ba368767e930ab2515172c5542f1973da2d",
+    "_raw_hash": "93fc0978a976bd1ed0a85e73c43db221965dc52d35a7bc890982627a85402ff4",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",

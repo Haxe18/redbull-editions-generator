@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is consumed worldwide by professional athletes, university students, and during long journeys",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/ffizibzy5zvuafzkjlj6/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
@@ -133,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FR.svg",
-    "_raw_hash": "58c811961adbeb52b288b6788ee0b9eb63d4d21470b54656c9268cf3a7165d1b",
+    "_raw_hash": "c7eea76978d8febe5c6c45751926b43c1fa2da50a3ecafb7335746ac3afd294e",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-FR",
@@ -169,6 +169,13 @@
             "flavor": "Fuji Apple & Ginger",
             "description": "Red Bull Winter Edition with the taste of Fuji apple and spicy notes of ginger.",
             "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:fr-FR",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition: the energizing drink with the extraordinary taste of white peach, enhanced by a hint of citrus and subtle floral notes.",
+            "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-peach-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fr-FR",
@@ -218,13 +225,6 @@
             "flavor": "Blueberry",
             "description": "Red Bull Blue Edition. A classic with the fruity taste of blueberry.",
             "product_url": "https://www.redbull.com/fr-fr/energydrink/red-bull-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:fr-FR",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition: the energizing drink with the extraordinary taste of white peach, enhanced by a hint of citrus and subtle floral notes.",
-            "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-peach-edition"
         }
     ]
 }

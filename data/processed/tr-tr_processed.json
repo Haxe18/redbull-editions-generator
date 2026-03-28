@@ -6,8 +6,8 @@
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is the best friend of athletes, students, people working in demanding professions, and long-distance drivers all over the world",
             "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/tzlap3opkjuievyr138f/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
@@ -103,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
-    "_raw_hash": "1a020a7f353c3536ee47b7aabd33cff02cc6b830abab18e9bb702dd493d9f0eb",
+    "_raw_hash": "14e0e25673c8544e9e2eedff0f742e22f04c1e3d38fc175196aee2821440794e",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:tr-TR",
