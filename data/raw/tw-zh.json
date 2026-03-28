@@ -8,6 +8,63 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:zh-TW",
+            "header_data": {
+                "content": {
+                    "title": "Pink Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/izu2so1ohrddco3lzf87/red-bull-pink-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DF7EB0",
+                                    "percentage": 22.8
+                                },
+                                {
+                                    "hexColorCode": "#D9E2E8",
+                                    "percentage": 5.1
+                                },
+                                {
+                                    "hexColorCode": "#C1C8D3",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#E47DAF",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#E6BDD6",
+                                    "percentage": 1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pink Edition Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Forest Fruits",
+                    "standfirst": "Red Bull Pink Edition 野莓風味無糖能量飲料",
+                    "brandingHexColorCode": "#c72466",
+                    "image": {
+                        "altText": "Red Bull Pink Edition Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/izu2so1ohrddco3lzf87/red-bull-pink-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-TW",
             "header_data": {
                 "content": {
@@ -146,58 +203,66 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:zh-TW",
+            "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:zh-TW",
             "header_data": {
                 "content": {
-                    "title": "Pink Edition Sugarfree"
+                    "title": "Green Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/izu2so1ohrddco3lzf87/red-bull-pink-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/f8xh0t1cpyy19cfchokq/red-bull-green-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.8
+                                    "hexColorCode": "#0E9740",
+                                    "percentage": 13.3
                                 },
                                 {
-                                    "hexColorCode": "#D9E2E8",
-                                    "percentage": 5.1
+                                    "hexColorCode": "#D2D4D9",
+                                    "percentage": 6.6
                                 },
                                 {
-                                    "hexColorCode": "#C1C8D3",
-                                    "percentage": 2.4
+                                    "hexColorCode": "#60B769",
+                                    "percentage": 6.5
                                 },
                                 {
-                                    "hexColorCode": "#E47DAF",
-                                    "percentage": 1.4
+                                    "hexColorCode": "#4BB163",
+                                    "percentage": 3.5
                                 },
                                 {
-                                    "hexColorCode": "#E6BDD6",
-                                    "percentage": 1
+                                    "hexColorCode": "#33A651",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#FCF7FC",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#EFF1F2",
+                                    "percentage": 0.6
                                 }
                             ]
                         },
-                        "altText": "Red Bull Pink Edition Image"
+                        "altText": "Red Bull Green Edition - image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
+                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Forest Fruits",
-                    "standfirst": "Red Bull Pink Edition 野莓風味無糖能量飲料",
-                    "brandingHexColorCode": "#c72466",
+                    "flavour": "Dragon fruit",
+                    "standfirst": " 給你一對火龍果風味的翅膀.",
+                    "brandingHexColorCode": "#00c65e",
                     "image": {
-                        "altText": "Red Bull Pink Edition Image",
+                        "altText": "Red Bull Green Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/izu2so1ohrddco3lzf87/red-bull-pink-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/f8xh0t1cpyy19cfchokq/red-bull-green-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
+                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
                     }
                 }
             }
@@ -278,72 +343,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:zh-TW",
-            "header_data": {
-                "content": {
-                    "title": "Green Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/f8xh0t1cpyy19cfchokq/red-bull-green-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#0E9740",
-                                    "percentage": 13.3
-                                },
-                                {
-                                    "hexColorCode": "#D2D4D9",
-                                    "percentage": 6.6
-                                },
-                                {
-                                    "hexColorCode": "#60B769",
-                                    "percentage": 6.5
-                                },
-                                {
-                                    "hexColorCode": "#4BB163",
-                                    "percentage": 3.5
-                                },
-                                {
-                                    "hexColorCode": "#33A651",
-                                    "percentage": 3.1
-                                },
-                                {
-                                    "hexColorCode": "#FCF7FC",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#EFF1F2",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Green Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Dragon fruit",
-                    "standfirst": " 給你一對火龍果風味的翅膀.",
-                    "brandingHexColorCode": "#00c65e",
-                    "image": {
-                        "altText": "Red Bull Green Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/f8xh0t1cpyy19cfchokq/red-bull-green-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-03-20T06:24:37.023029+00:00"
+    "collection_timestamp": "2026-03-22T19:21:36.523952+00:00"
 }

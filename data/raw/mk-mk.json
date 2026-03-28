@@ -8,6 +8,132 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:mk-MK",
+            "header_data": {
+                "content": {
+                    "title": "Red Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/31/i0i37ivqkwzuf3acotxt/red-bull-red-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#C53329",
+                                    "percentage": 16.8
+                                },
+                                {
+                                    "hexColorCode": "#D0D2D7",
+                                    "percentage": 5.7
+                                },
+                                {
+                                    "hexColorCode": "#D05149",
+                                    "percentage": 5.5
+                                },
+                                {
+                                    "hexColorCode": "#99271C",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#E7ECEF",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#983E34",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#048D3B",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Red Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-red-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Watermelon",
+                    "standfirst": "Red Bull Red Edition со свеж вкус на лубеница.",
+                    "brandingHexColorCode": "#e03c31",
+                    "image": {
+                        "altText": "Red Bull Red Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/31/i0i37ivqkwzuf3acotxt/red-bull-red-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-red-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:mk-MK",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/30/gwv9thtkqkw3upfxpwvk/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE5",
+                                    "percentage": 15.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.5
+                                },
+                                {
+                                    "hexColorCode": "#C90D32",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#DCE8F2",
+                                    "percentage": 2.3
+                                },
+                                {
+                                    "hexColorCode": "#7A8594",
+                                    "percentage": 1.6
+                                },
+                                {
+                                    "hexColorCode": "#FBF9F6",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "НУЛА КАЛОРИИ, 100% КРИИИЛЈА",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/30/gwv9thtkqkw3upfxpwvk/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:mk-MK",
             "header_data": {
                 "content": {
@@ -76,132 +202,6 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-energy-drink"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:mk-MK",
-            "header_data": {
-                "content": {
-                    "title": "Zero"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/30/gwv9thtkqkw3upfxpwvk/red-bull-zero-energy-drink",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#93BFE5",
-                                    "percentage": 15.1
-                                },
-                                {
-                                    "hexColorCode": "#C6D1DE",
-                                    "percentage": 10.5
-                                },
-                                {
-                                    "hexColorCode": "#C90D32",
-                                    "percentage": 2.8
-                                },
-                                {
-                                    "hexColorCode": "#DCE8F2",
-                                    "percentage": 2.3
-                                },
-                                {
-                                    "hexColorCode": "#7A8594",
-                                    "percentage": 1.6
-                                },
-                                {
-                                    "hexColorCode": "#FBF9F6",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Zero Energy Drink"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-zero"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Zero Sugar",
-                    "standfirst": "НУЛА КАЛОРИИ, 100% КРИИИЛЈА",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "Red Bull Zero Energy Drink",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/30/gwv9thtkqkw3upfxpwvk/red-bull-zero-energy-drink"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-zero"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:mk-MK",
-            "header_data": {
-                "content": {
-                    "title": "Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/rdygf9vw7ykwea2t5emw/red-bull-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#0595D2",
-                                    "percentage": 14.2
-                                },
-                                {
-                                    "hexColorCode": "#D6DBDE",
-                                    "percentage": 7.8
-                                },
-                                {
-                                    "hexColorCode": "#E6E8EB",
-                                    "percentage": 3.8
-                                },
-                                {
-                                    "hexColorCode": "#56BDE5",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#D42148",
-                                    "percentage": 2.9
-                                },
-                                {
-                                    "hexColorCode": "#036397",
-                                    "percentage": 1.6
-                                },
-                                {
-                                    "hexColorCode": "#EED37F",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Sugarfree",
-                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars. \"",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "Red Bull Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/rdygf9vw7ykwea2t5emw/red-bull-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-sugarfree"
                     }
                 }
             }
@@ -276,6 +276,71 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:mk-MK",
+            "header_data": {
+                "content": {
+                    "title": "Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/rdygf9vw7ykwea2t5emw/red-bull-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#0595D2",
+                                    "percentage": 14.2
+                                },
+                                {
+                                    "hexColorCode": "#D6DBDE",
+                                    "percentage": 7.8
+                                },
+                                {
+                                    "hexColorCode": "#E6E8EB",
+                                    "percentage": 3.8
+                                },
+                                {
+                                    "hexColorCode": "#56BDE5",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#D42148",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#036397",
+                                    "percentage": 1.6
+                                },
+                                {
+                                    "hexColorCode": "#EED37F",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sugarfree",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars. \"",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/rdygf9vw7ykwea2t5emw/red-bull-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:mk-MK",
             "header_data": {
                 "content": {
@@ -324,71 +389,6 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-summer-edition"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:mk-MK",
-            "header_data": {
-                "content": {
-                    "title": "Red Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/31/i0i37ivqkwzuf3acotxt/red-bull-red-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#C53329",
-                                    "percentage": 16.8
-                                },
-                                {
-                                    "hexColorCode": "#D0D2D7",
-                                    "percentage": 5.7
-                                },
-                                {
-                                    "hexColorCode": "#D05149",
-                                    "percentage": 5.5
-                                },
-                                {
-                                    "hexColorCode": "#99271C",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#E7ECEF",
-                                    "percentage": 1.4
-                                },
-                                {
-                                    "hexColorCode": "#983E34",
-                                    "percentage": 1.2
-                                },
-                                {
-                                    "hexColorCode": "#048D3B",
-                                    "percentage": 1.1
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Red Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-red-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition со свеж вкус на лубеница.",
-                    "brandingHexColorCode": "#e03c31",
-                    "image": {
-                        "altText": "Red Bull Red Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/31/i0i37ivqkwzuf3acotxt/red-bull-red-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-red-edition"
                     }
                 }
             }
@@ -455,5 +455,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-20T06:18:46.180897+00:00"
+    "collection_timestamp": "2026-03-22T19:17:14.928719+00:00"
 }

@@ -2,44 +2,14 @@
     "flag": "🇭🇺",
     "editions": [
         {
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "flavor_description": "The Red Bull Energy Drink is a globally recognized favorite among action sports athletes, busy professionals, university students, and travelers on long journeys",
+            "name": "The White Edition",
+            "flavor": "Coconut-Blueberry",
+            "flavor_description": "Red Bull White Edition features the taste of exotic Coconut and succulent Blueberry",
             "sugarfree": false,
-            "color": "#263A80",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/diztisnegswfrha0narb/red-bull-energy-drink",
-            "alt_text": "Red Bull Energy Drink",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink, but it contains no sugar",
-            "sugarfree": true,
-            "color": "#248FCB",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/dkbmmcdstbv2wmfcpims/red-bull-sugarfree",
-            "alt_text": "Red Bull Sugarfree",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "flavor_description": "Zero sugar. 100% wings",
-            "sugarfree": true,
-            "color": "#93BFE4",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/ogthqf7kzsfelhmea5tl/red-bull-zero",
-            "alt_text": "Red Bull Zero",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
-        },
-        {
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "A Red Bull Winter Edition - with the freshness of Fuji Apple and the warm spiciness of Ginger",
-            "sugarfree": false,
-            "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/10/nu9xnkhsnv9xh5vm7tdg/the-winter-edition",
-            "alt_text": "Winter Edition",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
+            "color": "#0070b8",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/bscvkphlhrmrilgbafmd/red-bull-coconut-edition-image",
+            "alt_text": "Red Bull Coconut Edition - image",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
         },
         {
             "name": "The Blue Edition",
@@ -52,77 +22,160 @@
             "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
         },
         {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "Zero sugar. 100% Wings",
+            "sugarfree": true,
+            "color": "#93BFE4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/ogthqf7kzsfelhmea5tl/red-bull-zero",
+            "alt_text": "Red Bull Zero",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
+        },
+        {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and drivers on long journeys",
+            "sugarfree": false,
+            "color": "#263A80",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/qibrstckfh7bd6lvshzg/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Winter Edition with the freshness of Fuji Apple and the warm spice of Ginger",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/10/nu9xnkhsnv9xh5vm7tdg/the-winter-edition",
+            "alt_text": "Winter Edition",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
+        },
+        {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink, but without sugar",
+            "sugarfree": true,
+            "color": "#248FCB",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/dkbmmcdstbv2wmfcpims/red-bull-sugarfree",
+            "alt_text": "Red Bull Sugarfree",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "The Red Bull Apricot Edition creates a perfect combination with the blend of Apricot and Strawberry notes, and a hint of Peach taste",
+            "flavor_description": "Red Bull Apricot Edition creates a perfect combination by mixing the flavor notes of Apricot and Strawberry, with a hint of Peach taste",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/a219fswdh5c3vwbm20tn/the-apricot-edition-image",
             "alt_text": "The Apricot Edition image",
             "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-apricot-edition"
-        },
-        {
-            "name": "The White Edition",
-            "flavor": "Coconut",
-            "flavor_description": "The Red Bull White Edition with the taste of exotic Coconut and juicy Blueberry",
-            "sugarfree": false,
-            "color": "#0070b8",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/bscvkphlhrmrilgbafmd/red-bull-coconut-edition-image",
-            "alt_text": "Red Bull Coconut Edition - image",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HU.svg",
-    "_raw_hash": "21ca255e3259b27b3a6e7f89518b24e7201ba1b69db2c71bf3c737e9bb253a2a",
+    "_raw_hash": "15b59c79d426c9ab4982cd8b700ae3bb6ad498aac8f911bddc32b8de0c57207d",
     "_translated_editions": [
         {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "The Red Bull Energy Drink is a globally recognized favorite among action sports athletes, busy professionals, university students, and travelers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hu-HU",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink, but it contains no sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero sugar. 100% wings.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple",
-            "description": "A Red Bull Winter Edition - with the freshness of Fuji apple and the warm spiciness of ginger.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
+            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU",
+            "name": "The White Edition",
+            "flavor": "Coconut",
+            "description": "Red Bull White Edition features the taste of exotic coconut and succulent blueberry.",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU",
             "name": "The Blue Edition",
             "flavor": "Juneberry",
-            "description": "Red Bull Blue Edition with the seductive fruity taste of Juneberry.",
+            "description": "Red Bull Blue Edition with the seductive fruity taste of juneberry.",
             "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "description": "Zero sugar. 100% Wings.",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and drivers on long journeys.",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU",
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple",
+            "description": "Red Bull Winter Edition with the freshness of Fuji apple and the warm spice of ginger.",
+            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hu-HU",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink, but without sugar.",
+            "product_url": "https://www.redbull.com/sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hu-HU",
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "description": "The Red Bull Apricot Edition creates a perfect combination with the blend of apricot and strawberry notes, and a hint of peach taste.",
+            "description": "Red Bull Apricot Edition creates a perfect combination by mixing the flavor notes of apricot and strawberry, with a hint of peach taste.",
             "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-apricot-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU",
-            "name": "The White Edition",
-            "flavor": "Coconut",
-            "description": "The Red Bull White Edition in the taste of exotic coconut and juicy blueberry.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-white-edition"
         }
-    ]
+    ],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU": "1993d9df31dc3c8a6cebe954ec44174d03aeaab0e40b26c9715e3d25a9ce56a7",
+        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU": "c2b7ad74e1c77ce7b465c16f0ed9cd7f618f567d10b2b6163d7b58069f6eb470",
+        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU": "45aa84a33953c2e59954c710959af9e907a855cf42e5ce0558e4fae0ec62315e",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU": "29bf48986b023336cfaad7bf328071815688c212355aed6c4fdfb0c3ef905e13",
+        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU": "8a334801fbbd13e5d0ac956a4c63a51cbbf5f2f71ea34a0a4b05a5d21835feb6",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hu-HU": "1d1840991ba19a298ddbca411fcae3e49affbe4ce792524d9a7c0350969c0ea8",
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hu-HU": "0f623f0ef550b038c8ac1313cc265e2a1a0d05a26c6c72777be7726fc9bb1d71"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU": {
+            "name": "The White Edition",
+            "flavor": "Coconut-Blueberry",
+            "flavor_description": "Red Bull White Edition features the taste of exotic Coconut and succulent Blueberry",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU": {
+            "name": "The Blue Edition",
+            "flavor": "Juneberry",
+            "flavor_description": "Red Bull Blue Edition with the seductive fruity taste of Juneberry",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU": {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "Zero sugar. 100% Wings",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and drivers on long journeys",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU": {
+            "name": "The Winter Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Winter Edition with the freshness of Fuji Apple and the warm spice of Ginger",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hu-HU": {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink, but without sugar",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hu-HU": {
+            "name": "The Apricot Edition",
+            "flavor": "Apricot-Strawberry",
+            "flavor_description": "Red Bull Apricot Edition creates a perfect combination by mixing the flavor notes of Apricot and Strawberry, with a hint of Peach taste",
+            "sugarfree": false
+        }
+    }
 }

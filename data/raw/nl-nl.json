@@ -8,257 +8,127 @@
     },
     "editions": [
         {
-            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:nl-NL",
+            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-NL",
             "header_data": {
                 "content": {
-                    "title": "Energy Drink"
+                    "title": "Sea Blue Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/bmtglbk2ql2hcjxvjn1t/red-bull-energy-drink",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/luqagfncgu12irx89oqu/red-bull-sea-blue-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#2F4582",
-                                    "percentage": 15.2
+                                    "hexColorCode": "#057EC1",
+                                    "percentage": 21.7
                                 },
                                 {
-                                    "hexColorCode": "#D8DADF",
-                                    "percentage": 9.8
+                                    "hexColorCode": "#DADCE0",
+                                    "percentage": 5.9
                                 },
                                 {
-                                    "hexColorCode": "#D21E3F",
-                                    "percentage": 3
+                                    "hexColorCode": "#5EA7D5",
+                                    "percentage": 2.2
                                 },
                                 {
-                                    "hexColorCode": "#617BB9",
-                                    "percentage": 2.8
+                                    "hexColorCode": "#0158A5",
+                                    "percentage": 2.1
                                 },
                                 {
-                                    "hexColorCode": "#F0F3F5",
-                                    "percentage": 2
+                                    "hexColorCode": "#F8F6F2",
+                                    "percentage": 1
                                 },
                                 {
-                                    "hexColorCode": "#ECCC75",
-                                    "percentage": 0.7
+                                    "hexColorCode": "#DDE6EB",
+                                    "percentage": 1
                                 },
                                 {
-                                    "hexColorCode": "#7E848E",
+                                    "hexColorCode": "#F1F1EE",
                                     "percentage": 0.5
                                 }
                             ]
                         },
-                        "altText": "Red Bull Energy Drink"
+                        "altText": "Red Bull Sea Blue Edition - image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/energydrink"
+                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-sea-blue-edition-juneberry"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink wordt wereldwijd gewaardeerd door topatleten, professionals, studenten en reizigers.",
-                    "brandingHexColorCode": "#FFFFFF",
+                    "flavour": "Juneberry",
+                    "standfirst": "Red Bull Sea Blue Edition met de exotische smaak van Juneberry",
+                    "brandingHexColorCode": "#0072CE",
                     "image": {
-                        "altText": "Red Bull Energy Drink",
+                        "altText": "Red Bull Sea Blue Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/bmtglbk2ql2hcjxvjn1t/red-bull-energy-drink"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/luqagfncgu12irx89oqu/red-bull-sea-blue-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/energydrink"
+                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-sea-blue-edition-juneberry"
                     }
                 }
             }
         },
         {
-            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:nl-NL",
+            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:nl-NL",
             "header_data": {
                 "content": {
-                    "title": "Zero"
+                    "title": "Pink Edition Sugarfree"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/icsbq5jswobifza9ovay/red-bull-zero-energy-drink",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/7/22/vzlzlnpzudh1odgxf0vj/red-bull-pink-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#93BFE4",
-                                    "percentage": 14.1
+                                    "hexColorCode": "#DF7EB0",
+                                    "percentage": 22.6
                                 },
                                 {
-                                    "hexColorCode": "#C6D1DE",
-                                    "percentage": 10.8
+                                    "hexColorCode": "#D8E3E8",
+                                    "percentage": 4.5
                                 },
                                 {
-                                    "hexColorCode": "#C80D32",
-                                    "percentage": 3
+                                    "hexColorCode": "#C4CBD5",
+                                    "percentage": 2
                                 },
                                 {
-                                    "hexColorCode": "#DEE9F1",
-                                    "percentage": 2.5
+                                    "hexColorCode": "#E47DAF",
+                                    "percentage": 1.4
                                 },
                                 {
-                                    "hexColorCode": "#7A8594",
-                                    "percentage": 1.7
+                                    "hexColorCode": "#53B3DA",
+                                    "percentage": 1.1
                                 },
                                 {
-                                    "hexColorCode": "#FBF7F5",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "0% suiker. 100% vleugels.. Zelfde vleugels."
-                    }
-                },
-                "reference": {
-                    "externalUrl": "http://www.redbull.com/zero"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Zero Sugar",
-                    "standfirst": "0% suiker. 100% vleugels.. Zelfde vleugels.",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "0% suiker. 100% vleugels.. Zelfde vleugels.",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/icsbq5jswobifza9ovay/red-bull-zero-energy-drink"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "http://www.redbull.com/zero"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:nl-NL",
-            "header_data": {
-                "content": {
-                    "title": "Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qo6ioe2m9vwtooljmuwp/red-bull-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#0596D2",
-                                    "percentage": 14.5
-                                },
-                                {
-                                    "hexColorCode": "#D7DBDF",
-                                    "percentage": 8.8
-                                },
-                                {
-                                    "hexColorCode": "#57BEE6",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#D42148",
-                                    "percentage": 2.9
-                                },
-                                {
-                                    "hexColorCode": "#E8EAEC",
-                                    "percentage": 2.8
-                                },
-                                {
-                                    "hexColorCode": "#036498",
-                                    "percentage": 1.7
-                                },
-                                {
-                                    "hexColorCode": "#EED27E",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "http://www.redbull.com/sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Sugarfree",
-                    "standfirst": "\"Vleugels zonder suiker. Red Bull Sugarfree is een  Red Bull Energy Drink zonder suiker.\"",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "Red Bull Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qo6ioe2m9vwtooljmuwp/red-bull-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "http://www.redbull.com/sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-NL",
-            "header_data": {
-                "content": {
-                    "title": "Spring Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/vmfvdaw9cvlpz6rrlgkc/spring-edition-2026",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E9ECED",
-                                    "percentage": 18.4
-                                },
-                                {
-                                    "hexColorCode": "#FBF9FA",
-                                    "percentage": 7.3
-                                },
-                                {
-                                    "hexColorCode": "#BDC4CC",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#FCFCFB",
-                                    "percentage": 1.8
-                                },
-                                {
-                                    "hexColorCode": "#D5163C",
-                                    "percentage": 1.3
-                                },
-                                {
-                                    "hexColorCode": "#777E83",
+                                    "hexColorCode": "#E6BDD6",
                                     "percentage": 1
-                                },
-                                {
-                                    "hexColorCode": "#E4667E",
-                                    "percentage": 0.8
                                 }
                             ]
                         },
-                        "altText": "Spring Edition 2026"
+                        "altText": "Red Bull Pink Edition Image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
+                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-pink-edition-sugarfree"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Kersen & Sakurasmaak",
-                    "standfirst": "Red Bull Spring Edition met de smaak van kers, met tonen van amandel en kersenbloesem. ",
-                    "brandingHexColorCode": "#52abd6",
+                    "flavour": "Waldbeere",
+                    "standfirst": "De Pink Edition Sugarfree geeft je vleugels met de smaak van framboos en spannende kruidige tonen van verbena.",
+                    "brandingHexColorCode": "#c72466",
                     "image": {
-                        "altText": "Spring Edition 2026",
+                        "altText": "Red Bull Pink Edition Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/vmfvdaw9cvlpz6rrlgkc/spring-edition-2026"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/7/22/vzlzlnpzudh1odgxf0vj/red-bull-pink-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
+                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-pink-edition-sugarfree"
                     }
                 }
             }
@@ -329,127 +199,192 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-NL",
+            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-NL",
             "header_data": {
                 "content": {
-                    "title": "Sea Blue Edition"
+                    "title": "Spring Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/luqagfncgu12irx89oqu/red-bull-sea-blue-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/vmfvdaw9cvlpz6rrlgkc/spring-edition-2026",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#057EC1",
-                                    "percentage": 21.7
+                                    "hexColorCode": "#E9ECED",
+                                    "percentage": 18.4
                                 },
                                 {
-                                    "hexColorCode": "#DADCE0",
-                                    "percentage": 5.9
+                                    "hexColorCode": "#FBF9FA",
+                                    "percentage": 7.3
                                 },
                                 {
-                                    "hexColorCode": "#5EA7D5",
-                                    "percentage": 2.2
+                                    "hexColorCode": "#BDC4CC",
+                                    "percentage": 2.5
                                 },
                                 {
-                                    "hexColorCode": "#0158A5",
-                                    "percentage": 2.1
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.8
                                 },
                                 {
-                                    "hexColorCode": "#F8F6F2",
+                                    "hexColorCode": "#D5163C",
+                                    "percentage": 1.3
+                                },
+                                {
+                                    "hexColorCode": "#777E83",
                                     "percentage": 1
                                 },
                                 {
-                                    "hexColorCode": "#DDE6EB",
-                                    "percentage": 1
-                                },
-                                {
-                                    "hexColorCode": "#F1F1EE",
-                                    "percentage": 0.5
+                                    "hexColorCode": "#E4667E",
+                                    "percentage": 0.8
                                 }
                             ]
                         },
-                        "altText": "Red Bull Sea Blue Edition - image"
+                        "altText": "Spring Edition 2026"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-sea-blue-edition-juneberry"
+                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Juneberry",
-                    "standfirst": "Red Bull Sea Blue Edition met de exotische smaak van Juneberry",
-                    "brandingHexColorCode": "#0072CE",
+                    "flavour": "Kersen & Sakurasmaak",
+                    "standfirst": "Red Bull Spring Edition met de smaak van kers, met tonen van amandel en kersenbloesem. ",
+                    "brandingHexColorCode": "#52abd6",
                     "image": {
-                        "altText": "Red Bull Sea Blue Edition - image",
+                        "altText": "Spring Edition 2026",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/luqagfncgu12irx89oqu/red-bull-sea-blue-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/18/vmfvdaw9cvlpz6rrlgkc/spring-edition-2026"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-sea-blue-edition-juneberry"
+                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
                     }
                 }
             }
         },
         {
-            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-NL",
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:nl-NL",
             "header_data": {
                 "content": {
-                    "title": "Apricot Edition"
+                    "title": "Zero"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/arzi2oihisvrdmkk2zfa/red-bull-apricot-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/icsbq5jswobifza9ovay/red-bull-zero-energy-drink",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#F07E1E",
-                                    "percentage": 20.6
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
                                 },
                                 {
-                                    "hexColorCode": "#DADCE0",
-                                    "percentage": 5.7
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.8
                                 },
                                 {
-                                    "hexColorCode": "#F4AA6E",
-                                    "percentage": 3.3
+                                    "hexColorCode": "#C80D32",
+                                    "percentage": 3
                                 },
                                 {
-                                    "hexColorCode": "#EEF3F6",
+                                    "hexColorCode": "#DEE9F1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8594",
                                     "percentage": 1.7
                                 },
                                 {
-                                    "hexColorCode": "#F4932E",
-                                    "percentage": 1.7
-                                },
-                                {
-                                    "hexColorCode": "#F5ECE5",
-                                    "percentage": 1.2
+                                    "hexColorCode": "#FBF7F5",
+                                    "percentage": 0.7
                                 }
                             ]
                         },
-                        "altText": "Red Bull Apricot Edition - image"
+                        "altText": "0% suiker. 100% vleugels.. Zelfde vleugels."
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-apricot-edition"
+                    "externalUrl": "http://www.redbull.com/zero"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Strawberry and apricot",
-                    "standfirst": "Ontdek de Red Bull Apricot Edition met de fruitige smaak van abrikoos-aardbei",
-                    "brandingHexColorCode": "#f3911b",
+                    "flavour": "Zero Sugar",
+                    "standfirst": "0% suiker. 100% vleugels.. Zelfde vleugels.",
+                    "brandingHexColorCode": "#FFFFFF",
                     "image": {
-                        "altText": "Red Bull Apricot Edition - image",
+                        "altText": "0% suiker. 100% vleugels.. Zelfde vleugels.",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/arzi2oihisvrdmkk2zfa/red-bull-apricot-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/icsbq5jswobifza9ovay/red-bull-zero-energy-drink"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-apricot-edition"
+                        "externalUrl": "http://www.redbull.com/zero"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:nl-NL",
+            "header_data": {
+                "content": {
+                    "title": "Energy Drink"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/bmtglbk2ql2hcjxvjn1t/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#2F4582",
+                                    "percentage": 15.2
+                                },
+                                {
+                                    "hexColorCode": "#D8DADF",
+                                    "percentage": 9.8
+                                },
+                                {
+                                    "hexColorCode": "#D21E3F",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#617BB9",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#F0F3F5",
+                                    "percentage": 2
+                                },
+                                {
+                                    "hexColorCode": "#ECCC75",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#7E848E",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/energydrink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Red Bull Energy Drink wordt wereldwijd gewaardeerd door topatleten, professionals, studenten en reizigers.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/bmtglbk2ql2hcjxvjn1t/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/energydrink"
                     }
                 }
             }
@@ -516,119 +451,66 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:nl-NL",
+            "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:nl-NL",
             "header_data": {
                 "content": {
-                    "title": "Tropical Edition"
+                    "title": "Sugarfree"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/zoqiy3mzrvz4hhhv1xdf/red-bull-tropical-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qo6ioe2m9vwtooljmuwp/red-bull-sugarfree",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#F6C20F",
-                                    "percentage": 21.3
+                                    "hexColorCode": "#0596D2",
+                                    "percentage": 14.5
                                 },
                                 {
-                                    "hexColorCode": "#D5D8E3",
-                                    "percentage": 6.7
+                                    "hexColorCode": "#D7DBDF",
+                                    "percentage": 8.8
                                 },
                                 {
-                                    "hexColorCode": "#FEDF31",
-                                    "percentage": 1.6
+                                    "hexColorCode": "#57BEE6",
+                                    "percentage": 3
                                 },
                                 {
-                                    "hexColorCode": "#EACA4F",
-                                    "percentage": 1.1
+                                    "hexColorCode": "#D42148",
+                                    "percentage": 2.9
                                 },
                                 {
-                                    "hexColorCode": "#51637F",
-                                    "percentage": 0.9
+                                    "hexColorCode": "#E8EAEC",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#036498",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#EED27E",
+                                    "percentage": 0.6
                                 }
                             ]
                         },
-                        "altText": "Red Bull Tropical Edition - image"
+                        "altText": "Red Bull Sugarfree"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-tropical-edition"
+                    "externalUrl": "http://www.redbull.com/sugarfree"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Laat je verrassen door de exotische smaak van tropisch fruit.",
-                    "brandingHexColorCode": "#FFCD00",
+                    "flavour": "Sugarfree",
+                    "standfirst": "\"Vleugels zonder suiker. Red Bull Sugarfree is een  Red Bull Energy Drink zonder suiker.\"",
+                    "brandingHexColorCode": "#FFFFFF",
                     "image": {
-                        "altText": "Red Bull Tropical Edition - image",
+                        "altText": "Red Bull Sugarfree",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/zoqiy3mzrvz4hhhv1xdf/red-bull-tropical-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qo6ioe2m9vwtooljmuwp/red-bull-sugarfree"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-tropical-edition"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:nl-NL",
-            "header_data": {
-                "content": {
-                    "title": "Pink Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/7/22/vzlzlnpzudh1odgxf0vj/red-bull-pink-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.6
-                                },
-                                {
-                                    "hexColorCode": "#D8E3E8",
-                                    "percentage": 4.5
-                                },
-                                {
-                                    "hexColorCode": "#C4CBD5",
-                                    "percentage": 2
-                                },
-                                {
-                                    "hexColorCode": "#E47DAF",
-                                    "percentage": 1.4
-                                },
-                                {
-                                    "hexColorCode": "#53B3DA",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#E6BDD6",
-                                    "percentage": 1
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Pink Edition Image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-pink-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Waldbeere",
-                    "standfirst": "De Pink Edition Sugarfree geeft je vleugels met de smaak van framboos en spannende kruidige tonen van verbena.",
-                    "brandingHexColorCode": "#c72466",
-                    "image": {
-                        "altText": "Red Bull Pink Edition Image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/7/22/vzlzlnpzudh1odgxf0vj/red-bull-pink-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-pink-edition-sugarfree"
+                        "externalUrl": "http://www.redbull.com/sugarfree"
                     }
                 }
             }
@@ -697,7 +579,125 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:nl-NL",
+            "header_data": {
+                "content": {
+                    "title": "Tropical Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/zoqiy3mzrvz4hhhv1xdf/red-bull-tropical-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#F6C20F",
+                                    "percentage": 21.3
+                                },
+                                {
+                                    "hexColorCode": "#D5D8E3",
+                                    "percentage": 6.7
+                                },
+                                {
+                                    "hexColorCode": "#FEDF31",
+                                    "percentage": 1.6
+                                },
+                                {
+                                    "hexColorCode": "#EACA4F",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#51637F",
+                                    "percentage": 0.9
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Tropical Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-tropical-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Tropical/Tropical Fruits ",
+                    "standfirst": "Laat je verrassen door de exotische smaak van tropisch fruit.",
+                    "brandingHexColorCode": "#FFCD00",
+                    "image": {
+                        "altText": "Red Bull Tropical Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/zoqiy3mzrvz4hhhv1xdf/red-bull-tropical-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-tropical-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-NL",
+            "header_data": {
+                "content": {
+                    "title": "Apricot Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/arzi2oihisvrdmkk2zfa/red-bull-apricot-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#F07E1E",
+                                    "percentage": 20.6
+                                },
+                                {
+                                    "hexColorCode": "#DADCE0",
+                                    "percentage": 5.7
+                                },
+                                {
+                                    "hexColorCode": "#F4AA6E",
+                                    "percentage": 3.3
+                                },
+                                {
+                                    "hexColorCode": "#EEF3F6",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#F4932E",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#F5ECE5",
+                                    "percentage": 1.2
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Apricot Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-apricot-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Strawberry and apricot",
+                    "standfirst": "Ontdek de Red Bull Apricot Edition met de fruitige smaak van abrikoos-aardbei",
+                    "brandingHexColorCode": "#f3911b",
+                    "image": {
+                        "altText": "Red Bull Apricot Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/arzi2oihisvrdmkk2zfa/red-bull-apricot-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/red-bull-apricot-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-03-05T06:13:08.414955+00:00"
+    "collection_timestamp": "2026-03-22T19:16:44.497719+00:00"
 }

@@ -8,6 +8,246 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO",
+            "header_data": {
+                "content": {
+                    "title": "Afine Canadiene"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#057EC1",
+                                    "percentage": 21.2
+                                },
+                                {
+                                    "hexColorCode": "#D7D9DE",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#0058A5",
+                                    "percentage": 2.6
+                                },
+                                {
+                                    "hexColorCode": "#5BA6D6",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#E3E9ED",
+                                    "percentage": 1.6
+                                },
+                                {
+                                    "hexColorCode": "#F9F6F3",
+                                    "percentage": 1.2
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Afine Canadiene"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Juneberry",
+                    "standfirst": "Red Bull Afine Canadiene cu aromă răcoritoare de afine canadiene",
+                    "brandingHexColorCode": "#0072CE",
+                    "image": {
+                        "altText": "Red Bull Afine Canadiene",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO",
+            "header_data": {
+                "content": {
+                    "title": "Fructe de Pădure fără zahăr"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DF7EB0",
+                                    "percentage": 22.4
+                                },
+                                {
+                                    "hexColorCode": "#D9E3E8",
+                                    "percentage": 5
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D2",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#E47DAF",
+                                    "percentage": 1.5
+                                },
+                                {
+                                    "hexColorCode": "#E7BCD5",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#51AED8",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pink Edition Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-fructe-de-padure-fara-zahar"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Fructe de Pădure",
+                    "standfirst": "Red Bull Fructe de Pădure fără zahăr: băutură energizantă cu aromă savuroasă de fructe de pădure.",
+                    "brandingHexColorCode": "#c72466",
+                    "image": {
+                        "altText": "Red Bull Pink Edition Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-fructe-de-padure-fara-zahar"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ro-RO",
+            "header_data": {
+                "content": {
+                    "title": "Pepene Roșu"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#D72716",
+                                    "percentage": 18.7
+                                },
+                                {
+                                    "hexColorCode": "#E7574E",
+                                    "percentage": 6.6
+                                },
+                                {
+                                    "hexColorCode": "#D6E0E7",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#05933E",
+                                    "percentage": 0.9
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Red Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Watermelon",
+                    "standfirst": "Red Bull cu gust proaspăt de pepene roșu. Pentru vara ta.",
+                    "brandingHexColorCode": "#B9042A",
+                    "image": {
+                        "altText": "Red Bull Red Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:ro-RO",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/ckkqg91ezcdznopw4sjk/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.7
+                                },
+                                {
+                                    "hexColorCode": "#C90D31",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DEE9F2",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8593",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FBF8F6",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "Zero calorii, 100% Aaaripi",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/ckkqg91ezcdznopw4sjk/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ro-RO",
             "header_data": {
                 "content": {
@@ -150,67 +390,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:ro-RO",
-            "header_data": {
-                "content": {
-                    "title": "Zero"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/ckkqg91ezcdznopw4sjk/red-bull-zero-energy-drink",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#93BFE4",
-                                    "percentage": 14.1
-                                },
-                                {
-                                    "hexColorCode": "#C6D1DE",
-                                    "percentage": 10.7
-                                },
-                                {
-                                    "hexColorCode": "#C90D31",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#DEE9F2",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#7A8593",
-                                    "percentage": 1.7
-                                },
-                                {
-                                    "hexColorCode": "#FBF8F6",
-                                    "percentage": 0.8
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Zero Energy Drink"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Zero Sugar",
-                    "standfirst": "Zero calorii, 100% Aaaripi",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "Red Bull Zero Energy Drink",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/18/ckkqg91ezcdznopw4sjk/red-bull-zero-energy-drink"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:ro-RO",
             "header_data": {
                 "content": {
@@ -280,128 +459,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO",
-            "header_data": {
-                "content": {
-                    "title": "Fructe de Pădure fără zahăr"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.4
-                                },
-                                {
-                                    "hexColorCode": "#D9E3E8",
-                                    "percentage": 5
-                                },
-                                {
-                                    "hexColorCode": "#C0C8D2",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#E47DAF",
-                                    "percentage": 1.5
-                                },
-                                {
-                                    "hexColorCode": "#E7BCD5",
-                                    "percentage": 1
-                                },
-                                {
-                                    "hexColorCode": "#51AED8",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Pink Edition Image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-fructe-de-padure-fara-zahar"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Fructe de Pădure",
-                    "standfirst": "Red Bull Fructe de Pădure fără zahăr: băutură energizantă cu aromă savuroasă de fructe de pădure.",
-                    "brandingHexColorCode": "#c72466",
-                    "image": {
-                        "altText": "Red Bull Pink Edition Image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-fructe-de-padure-fara-zahar"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO",
-            "header_data": {
-                "content": {
-                    "title": "Afine Canadiene"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#057EC1",
-                                    "percentage": 21.2
-                                },
-                                {
-                                    "hexColorCode": "#D7D9DE",
-                                    "percentage": 5.2
-                                },
-                                {
-                                    "hexColorCode": "#0058A5",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#5BA6D6",
-                                    "percentage": 2.2
-                                },
-                                {
-                                    "hexColorCode": "#E3E9ED",
-                                    "percentage": 1.6
-                                },
-                                {
-                                    "hexColorCode": "#F9F6F3",
-                                    "percentage": 1.2
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Afine Canadiene"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Juneberry",
-                    "standfirst": "Red Bull Afine Canadiene cu aromă răcoritoare de afine canadiene",
-                    "brandingHexColorCode": "#0072CE",
-                    "image": {
-                        "altText": "Red Bull Afine Canadiene",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:ro-RO",
             "header_data": {
                 "content": {
@@ -461,64 +518,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ro-RO",
-            "header_data": {
-                "content": {
-                    "title": "Pepene Roșu"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#D72716",
-                                    "percentage": 18.7
-                                },
-                                {
-                                    "hexColorCode": "#E7574E",
-                                    "percentage": 6.6
-                                },
-                                {
-                                    "hexColorCode": "#D6E0E7",
-                                    "percentage": 4
-                                },
-                                {
-                                    "hexColorCode": "#BFC7D1",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#05933E",
-                                    "percentage": 0.9
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Red Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Watermelon",
-                    "standfirst": "Red Bull cu gust proaspăt de pepene roșu. Pentru vara ta.",
-                    "brandingHexColorCode": "#B9042A",
-                    "image": {
-                        "altText": "Red Bull Red Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/9/18/hoxa03dhmp9ggbn7rgay/red-bull-red-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-03-20T06:20:42.175069+00:00"
+    "collection_timestamp": "2026-03-22T19:18:42.638780+00:00"
 }

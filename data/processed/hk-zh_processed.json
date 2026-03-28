@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Purple Edition instantly explodes with the unique seductive taste of Acai berry, a sour sweet taste that directly hits the palate",
+            "flavor_description": "Red Bull Energy Drink is enjoyed globally by athletes, students, and professionals for a boost of energy",
             "sugarfree": false,
             "color": "#2F4581",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/dubceoiqls2iblqvgngg/red-bull-energy-drink",
@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Sugarfree Wings. Red Bull Sugarfree Energy Drink is the sugarfree version of Red Bull Energy Drink",
+            "flavor_description": "Red Bull Sugarfree provides the same energy benefits without any sugar",
             "sugarfree": true,
             "color": "#0995C5",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/rnj0dtvbdom21gekucws/red-bull-sugarfree",
@@ -22,56 +22,88 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Purple Edition",
-            "flavor": "Acai Berry",
-            "flavor_description": "Sweet White Peach taste, emitting a faint refreshing scent of tangerine peel and floral notes",
-            "sugarfree": false,
-            "color": "#702082",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/djmiwb87afj7hcpgqgco/red-bull-purple-edition-image",
-            "alt_text": "Red Bull Purple Edition - image",
-            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
-        },
-        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Sweet White Peach taste, emitting a faint refreshing scent of tangerine peel and floral notes",
+            "flavor_description": "A sweet White Peach taste that features a light and fresh citrus and floral aroma",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/29/n3pae0pkdzecakaennrt/red-bull-white-peach-edition-half-can",
             "alt_text": "Red Bull White Peach Edition Sugarfree half can",
             "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-peach-edition"
+        },
+        {
+            "name": "The Purple Edition",
+            "flavor": "Acai",
+            "flavor_description": "A unique, bold grape-like flavor that offers a refreshing balance of sweet and sour notes",
+            "sugarfree": false,
+            "color": "#702082",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/djmiwb87afj7hcpgqgco/red-bull-purple-edition-image",
+            "alt_text": "Red Bull Purple Edition - image",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
-    "_raw_hash": "f6397b98623d5014386105fd8bb2bc74163ca06c8989346d2a66a534aadbd495",
+    "_raw_hash": "1d74803906525c49237261fbffeb64856504514256418bb867564504ce13ded8",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is loved by athletes, professionals, students and travellers on long journeys all over the world.",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and long-distance travelers.",
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "Sugarfree Wings. Red Bull Sugarfree Energy Drink is the sugarfree version of Red Bull Energy Drink.",
+            "description": "Wings without sugar. Red Bull Sugarfree is the sugar-free version of Red Bull Energy Drink.",
             "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK",
-            "name": "The Purple Edition",
-            "flavor": "Acai Berry",
-            "description": "Red Bull Purple Edition instantly explodes with the unique seductive taste of acai berry, a sour-sweet taste that directly hits the palate",
-            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:zh-HK",
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "description": "Sweet white peach taste, emitting a faint refreshing scent of tangerine peel and floral notes",
+            "description": "Sweet white peach taste, radiating a light and fresh citrus peel and floral aroma.",
             "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-peach-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK",
+            "name": "The Purple Edition",
+            "flavor": "Acai Berry",
+            "description": "Red Bull Purple Edition instantly bursts with the unique and tempting taste of giant grapes, with a sweet and sour flavor that hits your taste buds.",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
         }
-    ]
+    ],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": "dcfd2b3a164e09741f9c27a461520fd3afecfaed6c648e58c73fa88429969f1a",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK": "79014c77e00161a6e75ec92af184d7221fd5657b4e96ebacb9a2d6073e34960f",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:zh-HK": "460c540a1c75a3017d48df9db5fc1db75da305f203f2c3c9ea5ae45689bb1c0a",
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK": "82243b27811719c9d470c17be96d32dc805c322b271cba70aac647cb663cc367"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is enjoyed globally by athletes, students, and professionals for a boost of energy",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK": {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Red Bull Sugarfree provides the same energy benefits without any sugar",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:zh-HK": {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "A sweet White Peach taste that features a light and fresh citrus and floral aroma",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK": {
+            "name": "The Purple Edition",
+            "flavor": "Acai",
+            "flavor_description": "A unique, bold grape-like flavor that offers a refreshing balance of sweet and sour notes",
+            "sugarfree": false
+        }
+    }
 }

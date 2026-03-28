@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated all over the world by athletes, students, and people in highly demanding professions as well as those who do long journeys",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by athletes, students, and professionals",
             "sugarfree": false,
             "color": "#2F4581",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/e43boges6ccyjhfil1ct/red-bull-energy-drink-image",
@@ -19,8 +19,19 @@
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated all over the world by athletes, students, and people in highly demanding professions as well as those who do long journeys.",
+            "description": "Red Bull Energy Drink is appreciated worldwide by athletes, students, and highly demanding professionals as well as those on long journeys.",
             "product_url": "https://www.redbull.com/dz-fr/energydrink/red-bull-energy-drink"
         }
-    ]
+    ],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ": "52ba48c550c73a272b4255c5cfa2c5a0df5212b27bfcfd5d84329d1fc391af15"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by athletes, students, and professionals",
+            "sugarfree": false
+        }
+    }
 }

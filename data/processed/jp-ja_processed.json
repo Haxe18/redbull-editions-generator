@@ -2,9 +2,19 @@
     "flag": "🇯🇵",
     "editions": [
         {
+            "name": "The Cherry Edition",
+            "flavor": "Cherry",
+            "flavor_description": "Red Bull Cherry Edition features a distinct Cherry taste",
+            "sugarfree": false,
+            "color": "#0a3073",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry",
+            "alt_text": "Spring Edition 2026 Cherry",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
+        },
+        {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is prized by top athletes, a lot of professionals, students, and long-distance travelers around the world",
+            "flavor_description": "The classic Red Bull Energy Drink formula enjoyed by people worldwide",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/ddxrv40jpnynaufsy4fq/red-bull-energy-drink",
@@ -14,7 +24,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is the sugarfree version of Red Bull Energy Drink",
+            "flavor_description": "Red Bull Energy Drink Sugarfree provides the same energy with no sugar",
             "sugarfree": true,
             "color": "#0596D3",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/wihqwfys6ai1hr1elc3e/red-bull-sugarfree",
@@ -22,73 +32,102 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Cherry Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull The Cherry Edition arrives with a sakuranbo taste!",
-            "sugarfree": false,
-            "color": "#0a3073",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry",
-            "alt_text": "Spring Edition 2026 Cherry",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
-        },
-        {
-            "name": "The Green Edition",
-            "flavor": "Muscat",
-            "flavor_description": "Red Bull The Green Edition with the taste of muscat flavor, landing again!",
-            "sugarfree": false,
-            "color": "#6cc24a",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
-            "alt_text": "Red Bull Green Edition - image",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
-        },
-        {
             "name": "The Purple Edition",
             "flavor": "Kyoho Grape",
-            "flavor_description": "A new regular from Red Bull, the Wings of The Purple Edition Kyoho grape flavor!",
+            "flavor_description": "A refreshing Red Bull Edition featuring the taste of Kyoho grapes",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/10/15/neplp18e5cmwoftksfr3/red-bull-purple-edition-image",
             "alt_text": "Red Bull Purple Edition - image",
             "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
+        },
+        {
+            "name": "The Green Edition",
+            "flavor": "Muscat",
+            "flavor_description": "Red Bull Green Edition returns with a crisp muscat flavor",
+            "sugarfree": false,
+            "color": "#6cc24a",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
+            "alt_text": "Red Bull Green Edition - image",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
-    "_raw_hash": "93fc0978a976bd1ed0a85e73c43db221965dc52d35a7bc890982627a85402ff4",
+    "_raw_hash": "1f9b38f0b84c53aa7a95c2f8c4032fee02e69a02d5b5eee2fe49659097c810ab",
     "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
+            "name": "The Cherry Edition",
+            "flavor": "Cherry",
+            "description": "Red Bull Cherry Edition is now available in a cherry taste!",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
+        },
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is prized by top athletes, a lot of professionals, students, and long-distance travelers around the world.",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travelers on long journeys.",
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is the sugar-free version of Red Bull Energy Drink.",
+            "description": "Wings without sugar: Red Bull Energy Drink Sugarfree is Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
-            "name": "The Cherry Edition",
-            "flavor": "Sakuranbo",
-            "description": "Red Bull Cherry Edition arrives with a sakuranbo taste!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
-            "name": "The Green Edition",
-            "flavor": "Muscat",
-            "description": "Red Bull with muscat flavor, landing again!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
             "name": "The Purple Edition",
             "flavor": "Kyoho Grape",
-            "description": "A new regular from Red Bull, the Wings of Kyoho grape flavor!",
+            "description": "A new addition from Red Bull, Kyoho grape taste Wings!",
             "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
+            "name": "The Green Edition",
+            "flavor": "Muscat",
+            "description": "Red Bull with muscat taste, back again!",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
         }
-    ]
+    ],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": "7929c4b3f3e266d5a603b19942e854a8c713ecf0bb3872c5140d40f1429ea87c",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": "038f531a7ef4c07fc89d8040cade4dbb949251731c65fc181b8310ec9fe07d23",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP": "07d794a7b43c3a6429cb994c803784167906e9a766045ab03de4d7f27114ed56",
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": "42b2325dd52d5c254e66b6eaa5b36ea8e360ef76042458453df38dfc2f4d86d3",
+        "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": "4417070b313787daf73d6a5c0434af2a4812030fb32da1cd6fd9735068df4225"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": {
+            "name": "The Cherry Edition",
+            "flavor": "Cherry",
+            "flavor_description": "Red Bull Cherry Edition features a distinct Cherry taste",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "The classic Red Bull Energy Drink formula enjoyed by people worldwide",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP": {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Red Bull Energy Drink Sugarfree provides the same energy with no sugar",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": {
+            "name": "The Purple Edition",
+            "flavor": "Kyoho Grape",
+            "flavor_description": "A refreshing Red Bull Edition featuring the taste of Kyoho grapes",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": {
+            "name": "The Green Edition",
+            "flavor": "Muscat",
+            "flavor_description": "Red Bull Green Edition returns with a crisp muscat flavor",
+            "sugarfree": false
+        }
+    }
 }

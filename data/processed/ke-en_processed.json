@@ -2,6 +2,16 @@
     "flag": "🇰🇪",
     "editions": [
         {
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "flavor_description": "The Red Bull Red Edition with the taste of Watermelon",
+            "sugarfree": false,
+            "color": "#e03c31",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/30/q9fy1mjaocbdwunpu0gi/red-bull-red-edition-image",
+            "alt_text": "Red Bull Red Edition - image",
+            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-red-edition"
+        },
+        {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
@@ -20,41 +30,34 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "flavor_description": "The Red Bull Red Edition with the taste of Watermelon",
-            "sugarfree": false,
-            "color": "#e03c31",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/30/q9fy1mjaocbdwunpu0gi/red-bull-red-edition-image",
-            "alt_text": "Red Bull Red Edition - image",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-red-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KE.svg",
-    "_raw_hash": "9f2af44124ffd37bd3d911f333ffdee549f87526c585c772c8fb1d8e947ef689",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-KE",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-KE",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-KE",
+    "_raw_hash": "472ef6eed40677f488b34850e54c839a61dce34f691ea348a112c4bc48d10039",
+    "_translated_editions": [],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-KE": "1ea5d270cf00dcd8e2c1bdd57b3560a247bd270a96ed86ce110525e6582c202c",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-KE": "967d300a73476ccd8be322088931e5143173e37779a3b65aa6985d153af67ca5",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-KE": "e17880e2ae2195dfecee6fb400a8518028940504f0d26a6e9897219ca9989350"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-KE": {
             "name": "The Red Edition",
             "flavor": "Watermelon",
-            "description": "The Red Bull Red Edition with the taste of watermelon.",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-red-edition"
+            "flavor_description": "The Red Bull Red Edition with the taste of Watermelon",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-KE": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-KE": {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "sugarfree": true
         }
-    ]
+    }
 }

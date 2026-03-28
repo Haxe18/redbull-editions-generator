@@ -8,6 +8,63 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Red Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#D72716",
+                                    "percentage": 18.5
+                                },
+                                {
+                                    "hexColorCode": "#E7574E",
+                                    "percentage": 6.7
+                                },
+                                {
+                                    "hexColorCode": "#D6E0E7",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#04953F",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Red Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Watermelon",
+                    "standfirst": "Red Bull Red Edition со вкусом арбуза.",
+                    "brandingHexColorCode": "#e03c31",
+                    "image": {
+                        "altText": "Red Bull Red Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ru-KZ",
             "header_data": {
                 "content": {
@@ -81,6 +138,120 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Blue Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/24/yfebxq0vcmvxlakvql1v/red-bull-blue-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#343983",
+                                    "percentage": 23.8
+                                },
+                                {
+                                    "hexColorCode": "#D7E2EA",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#B6C1D1",
+                                    "percentage": 1.8
+                                },
+                                {
+                                    "hexColorCode": "#6D81B7",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#1A1B6F",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#607587",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Blue Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/red-bull-blue-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Blueberry",
+                    "standfirst": "Red Bull Blue Edition со вкусом черники.",
+                    "brandingHexColorCode": "#001A72",
+                    "image": {
+                        "altText": "Red Bull Blue Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/24/yfebxq0vcmvxlakvql1v/red-bull-blue-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/red-bull-blue-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ru-KZ",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/7/nisikbiah6dgmewozhyo/red-bull-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#72C6D1",
+                                    "percentage": 24.6
+                                },
+                                {
+                                    "hexColorCode": "#CFDAE1",
+                                    "percentage": 6.2
+                                },
+                                {
+                                    "hexColorCode": "#CACFD7",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#F8F0F1",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": " Iced Vanilla Berry",
+                    "standfirst": "Red Bull Winter Edition со вкусом ледяной ванили с ягодами. ",
+                    "brandingHexColorCode": "#53b2c2",
+                    "image": {
+                        "altText": "Red Bull Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/7/nisikbiah6dgmewozhyo/red-bull-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ru-KZ",
             "header_data": {
                 "content": {
@@ -141,120 +312,6 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:ru-KZ",
-            "header_data": {
-                "content": {
-                    "title": "Winter Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/7/nisikbiah6dgmewozhyo/red-bull-winter-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#72C6D1",
-                                    "percentage": 24.6
-                                },
-                                {
-                                    "hexColorCode": "#CFDAE1",
-                                    "percentage": 6.2
-                                },
-                                {
-                                    "hexColorCode": "#CACFD7",
-                                    "percentage": 1.2
-                                },
-                                {
-                                    "hexColorCode": "#F8F0F1",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Winter Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": " Iced Vanilla Berry",
-                    "standfirst": "Red Bull Winter Edition со вкусом ледяной ванили с ягодами. ",
-                    "brandingHexColorCode": "#53b2c2",
-                    "image": {
-                        "altText": "Red Bull Winter Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/7/nisikbiah6dgmewozhyo/red-bull-winter-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-winter-edition"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:ru-KZ",
-            "header_data": {
-                "content": {
-                    "title": "Blue Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/24/yfebxq0vcmvxlakvql1v/red-bull-blue-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#343983",
-                                    "percentage": 23.8
-                                },
-                                {
-                                    "hexColorCode": "#D7E2EA",
-                                    "percentage": 4.8
-                                },
-                                {
-                                    "hexColorCode": "#B6C1D1",
-                                    "percentage": 1.8
-                                },
-                                {
-                                    "hexColorCode": "#6D81B7",
-                                    "percentage": 1
-                                },
-                                {
-                                    "hexColorCode": "#1A1B6F",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#607587",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Blue Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/red-bull-blue-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Blueberry",
-                    "standfirst": "Red Bull Blue Edition со вкусом черники.",
-                    "brandingHexColorCode": "#001A72",
-                    "image": {
-                        "altText": "Red Bull Blue Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/24/yfebxq0vcmvxlakvql1v/red-bull-blue-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/red-bull-blue-edition"
                     }
                 }
             }
@@ -323,64 +380,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ru-KZ",
-            "header_data": {
-                "content": {
-                    "title": "Red Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#D72716",
-                                    "percentage": 18.5
-                                },
-                                {
-                                    "hexColorCode": "#E7574E",
-                                    "percentage": 6.7
-                                },
-                                {
-                                    "hexColorCode": "#D6E0E7",
-                                    "percentage": 4
-                                },
-                                {
-                                    "hexColorCode": "#BFC7D1",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#04953F",
-                                    "percentage": 1.1
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Red Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition со вкусом арбуза.",
-                    "brandingHexColorCode": "#e03c31",
-                    "image": {
-                        "altText": "Red Bull Red Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/o9bikeou4mmjh6ismiul/red-bull-red-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/kz-ru/energydrink/products/red-bull-red-edition"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-03-21T06:03:36.604273+00:00"
+    "collection_timestamp": "2026-03-22T19:15:19.360535+00:00"
 }

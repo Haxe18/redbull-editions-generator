@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travelers on long journeys",
             "sugarfree": false,
             "color": "#2F4682",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/pd8espfdaz98wptaakqy/red-bull-energy-drink",
@@ -22,5 +22,16 @@
             "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
             "product_url": "https://www.redbull.com/energydrink"
         }
-    ]
+    ],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-CN": "68720b1674e595afcfbbc533e5e8ea31fa5e75b2d3418450c21ae0a5c6085a7c"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-CN": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travelers on long journeys",
+            "sugarfree": false
+        }
+    }
 }

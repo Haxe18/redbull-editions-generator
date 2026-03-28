@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is loved by many people such as world-class athletes, professionals, college students, and travelers",
+            "flavor_description": "Red Bull Energy Drink is loved by many people around the world, including athletes, office workers, college students, and travelers",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/cbhn1gvwickvi1lyxwq5/red-bull-energy-drink",
@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "It is Red Bull Energy Drink without sugar",
+            "flavor_description": "It is a Red Bull Energy Drink without sugar",
             "sugarfree": true,
             "color": "#0596D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/6/furwpe9mufy0j9mwy5im/red-bull-sugarfree",
@@ -22,19 +22,9 @@
             "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-sugarfree"
         },
         {
-            "name": "The Pink Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Red Bull Pink Edition: Experience a new energy drink with the scent of Strawberry and the fruity notes of citrus!",
-            "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition",
-            "alt_text": "Red Bull Pink Edition",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
-        },
-        {
             "name": "The Green Edition",
             "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Green Edition is a new energy drink where tart currant and fruity notes meet floral scents",
+            "flavor_description": "Red Bull Green Edition combines refreshing tropical fruit notes with a sweet floral scent",
             "sugarfree": false,
             "color": "#79B942",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/12/bnvlk9mb5xizcjpxziwc/red-bull-green-edition",
@@ -42,9 +32,19 @@
             "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
         },
         {
+            "name": "The Pink Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Pink Edition features the crispness of citrus and a floral scent added to the aroma of Peach",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition",
+            "alt_text": "Red Bull Pink Edition",
+            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
+        },
+        {
             "name": "The Purple Edition",
             "flavor": "Grape",
-            "flavor_description": "Experience Red Bull Purple Edition with enhanced grape flavor",
+            "flavor_description": "Red Bull Purple Edition features an added grape flavor for a refreshing experience",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/2/27/ayou0mwalsltglytgbjr/red-bull-the-purple-edition",
@@ -53,42 +53,81 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KR.svg",
-    "_raw_hash": "c3ddbd011c9fb1fa3f3a3deed914a072489159b98257428b612a1f055f951d66",
+    "_raw_hash": "b734f56b4bc4d42528ed279adc96b9899e01e2d98cf66d6005fd09b6c1167e60",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR",
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is loved by many people such as world-class athletes, professionals, college students, and travelers.",
+            "description": "Red Bull Energy Drink is loved by many people around the world, including athletes, office workers, college students, and travelers.",
             "product_url": "https://www.redbull.com/kr-ko/energydrink"
         },
         {
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ko-KR",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "It is Red Bull Energy Drink without sugar.",
+            "description": "It is a Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR",
-            "name": "The Pink Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Pink Edition: Experience a new energy drink with the scent of strawberry and the fruity notes of citrus!",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR",
             "name": "The Green Edition",
             "flavor": "Curuba-Elderflower",
-            "description": "Red Bull Green Edition is a new energy drink where tart currant and fruity notes meet floral scents.",
+            "description": "Red Bull Green Edition is a new edition that combines refreshing tropical fruit notes with a sweet floral scent.",
             "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR",
+            "name": "The Pink Edition",
+            "flavor": "White Peach",
+            "description": "Red Bull Pink Edition: Meet the energy drink that adds the crispness of citrus and a floral scent to the peach scent!",
+            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ko-KR",
             "name": "The Purple Edition",
             "flavor": "Grape",
-            "description": "Experience Red Bull Purple Edition with enhanced grape flavor.",
+            "description": "Meet the Red Bull Purple Edition with added grape flavor.",
             "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-purple-edition"
         }
-    ]
+    ],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR": "3cf980d82ec7b53d47ada3e0b40e638847cd8458a3f6a6a6921925be7d96fed0",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ko-KR": "0fb38415632bb063f0a013e7cda91b615813929d3ae98c95e10566fb9b37ea0f",
+        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR": "77bd8e0dc8013390e82ad214a75d1505825dcf34f64d91d44ea7230b3fee86c4",
+        "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR": "4860ef52ff6a073644edfa7cc01efefe8643356d710166dc80c3616a6b8dfe30",
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ko-KR": "7a15313f555f31bee235ada48b9d250ad822ed1f443c62342a037a91a3440661"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is loved by many people around the world, including athletes, office workers, college students, and travelers",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ko-KR": {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "It is a Red Bull Energy Drink without sugar",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR": {
+            "name": "The Green Edition",
+            "flavor": "Curuba-Elderflower",
+            "flavor_description": "Red Bull Green Edition combines refreshing tropical fruit notes with a sweet floral scent",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR": {
+            "name": "The Pink Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Pink Edition features the crispness of citrus and a floral scent added to the aroma of Peach",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ko-KR": {
+            "name": "The Purple Edition",
+            "flavor": "Grape",
+            "flavor_description": "Red Bull Purple Edition features an added grape flavor for a refreshing experience",
+            "sugarfree": false
+        }
+    }
 }

@@ -2,6 +2,16 @@
     "flag": "🇮🇳",
     "editions": [
         {
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "flavor_description": "The Red Bull Red Edition with the taste of Watermelon",
+            "sugarfree": false,
+            "color": "#e03c31",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/eybnzphwwit6y9l3gtwx/red-bull-red-edition-image",
+            "alt_text": "Red Bull Red Edition - image",
+            "product_url": "https://www.redbull.com/in-en/energydrink/red-bull-red-edition"
+        },
+        {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
@@ -22,16 +32,6 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Pink Edition",
-            "flavor": "White Peach",
-            "flavor_description": "Wings for every taste: The Red Bull Pink Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
-            "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/26/fnrwphbh9enn79pm8wdh/red-bull-peach-edition-image",
-            "alt_text": "Red Bull Peach Edition - Image",
-            "product_url": "https://www.redbull.com/in-en/energydrink/products/red-bull-pink-edition"
-        },
-        {
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
             "flavor_description": "The Red Bull Yellow Edition. Experience the exotic taste of Tropical Fruits",
@@ -42,53 +42,56 @@
             "product_url": "https://www.redbull.com/in-en/energydrink/red-bull-yellow-edition"
         },
         {
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "flavor_description": "The Red Bull Red Edition with the taste of Watermelon",
+            "name": "The Pink Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Wings for every taste: The Red Bull Pink Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
             "sugarfree": false,
-            "color": "#e03c31",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/eybnzphwwit6y9l3gtwx/red-bull-red-edition-image",
-            "alt_text": "Red Bull Red Edition - image",
-            "product_url": "https://www.redbull.com/in-en/energydrink/red-bull-red-edition"
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/26/fnrwphbh9enn79pm8wdh/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/in-en/energydrink/products/red-bull-pink-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IN.svg",
-    "_raw_hash": "ca10948f34805da22ee96449690c8b842b7fd580d7481d21a638f080df3b8d3b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-IN",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IN",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-IN",
-            "name": "The Pink Edition",
-            "flavor": "White Peach",
-            "description": "Wings for every taste: The Red Bull Pink Edition Energy Drink with the taste of white peach, a touch of citrus peel and floral notes.",
-            "product_url": "https://www.redbull.com/in-en/energydrink/products/red-bull-pink-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-IN",
-            "name": "The Yellow Edition",
-            "flavor": "Tropical/Tropical Fruits",
-            "description": "The Red Bull Yellow Edition. Experience the exotic taste of tropical fruits.",
-            "product_url": "https://www.redbull.com/in-en/energydrink/red-bull-yellow-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-IN",
+    "_raw_hash": "2b29e6c198e25efe6e4d0e8a76f0ae23db1cbec2d1e68255e6a66594956cb732",
+    "_translated_editions": [],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-IN": "f822b8191e90ab31c527735851a015dd1fd8ea886984b4e99e4369675fe6139b",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-IN": "9f330cdba5de24d49660a26f1bb234c5894c9d6cb8fbdb36ceb0e0354d96e2f6",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IN": "d7101fae325bf773a77ca57005465e5bcb3d95c6f8f11fa9493e51765741fe46",
+        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-IN": "110cf9f64a17bdc2779fbe43d0d376761e8815560a15db0c5c1942486e521933",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-IN": "421b9eff7c0b7b94e089271dece246c04ca013d00693ee105207ea7a9cad5866"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-IN": {
             "name": "The Red Edition",
             "flavor": "Watermelon",
-            "description": "The Red Bull Red Edition with the taste of watermelon.",
-            "product_url": "https://www.redbull.com/in-en/energydrink/red-bull-red-edition"
+            "flavor_description": "The Red Bull Red Edition with the taste of Watermelon",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-IN": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IN": {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-IN": {
+            "name": "The Yellow Edition",
+            "flavor": "Tropical Fruits",
+            "flavor_description": "The Red Bull Yellow Edition. Experience the exotic taste of Tropical Fruits",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-IN": {
+            "name": "The Pink Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Wings for every taste: The Red Bull Pink Edition Energy Drink with the taste of White Peach, a touch of citrus peel and floral notes",
+            "sugarfree": false
         }
-    ]
+    }
 }

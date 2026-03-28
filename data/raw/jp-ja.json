@@ -8,6 +8,71 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
+            "header_data": {
+                "content": {
+                    "title": "チェリーエディション"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#EDF0F0",
+                                    "percentage": 14.8
+                                },
+                                {
+                                    "hexColorCode": "#FAF8F8",
+                                    "percentage": 7.3
+                                },
+                                {
+                                    "hexColorCode": "#D61E43",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#E6546D",
+                                    "percentage": 2.6
+                                },
+                                {
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.5
+                                },
+                                {
+                                    "hexColorCode": "#E0E3E7",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#EFF2F1",
+                                    "percentage": 1.2
+                                }
+                            ]
+                        },
+                        "altText": "Spring Edition 2026 Cherry"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "さくらんぼ",
+                    "standfirst": "レッドブル チェリーエディションがさくらんぼ味で新登場！",
+                    "brandingHexColorCode": "#0a3073",
+                    "image": {
+                        "altText": "Spring Edition 2026 Cherry",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
             "header_data": {
                 "content": {
@@ -146,124 +211,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
-            "header_data": {
-                "content": {
-                    "title": "チェリーエディション"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#EDF0F0",
-                                    "percentage": 14.8
-                                },
-                                {
-                                    "hexColorCode": "#FAF8F8",
-                                    "percentage": 7.3
-                                },
-                                {
-                                    "hexColorCode": "#D61E43",
-                                    "percentage": 4.8
-                                },
-                                {
-                                    "hexColorCode": "#E6546D",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#FCFCFB",
-                                    "percentage": 1.5
-                                },
-                                {
-                                    "hexColorCode": "#E0E3E7",
-                                    "percentage": 1.4
-                                },
-                                {
-                                    "hexColorCode": "#EFF2F1",
-                                    "percentage": 1.2
-                                }
-                            ]
-                        },
-                        "altText": "Spring Edition 2026 Cherry"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "さくらんぼ",
-                    "standfirst": "レッドブル チェリーエディションがさくらんぼ味で新登場！",
-                    "brandingHexColorCode": "#0a3073",
-                    "image": {
-                        "altText": "Spring Edition 2026 Cherry",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
-            "header_data": {
-                "content": {
-                    "title": "グ⁠⁠リ⁠ー⁠ン⁠エ⁠ディション"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#8DBE22",
-                                    "percentage": 15.6
-                                },
-                                {
-                                    "hexColorCode": "#AACB52",
-                                    "percentage": 9.5
-                                },
-                                {
-                                    "hexColorCode": "#D9E0E7",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#CED3E0",
-                                    "percentage": 3.7
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Green Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Curuba Elderflower",
-                    "standfirst": "マスカット味のレッドブル、再登場！",
-                    "brandingHexColorCode": "#6cc24a",
-                    "image": {
-                        "altText": "Red Bull Green Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
             "header_data": {
                 "content": {
@@ -335,7 +282,60 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
+            "header_data": {
+                "content": {
+                    "title": "グ⁠⁠リ⁠ー⁠ン⁠エ⁠ディション"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#8DBE22",
+                                    "percentage": 15.6
+                                },
+                                {
+                                    "hexColorCode": "#AACB52",
+                                    "percentage": 9.5
+                                },
+                                {
+                                    "hexColorCode": "#D9E0E7",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#CED3E0",
+                                    "percentage": 3.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Green Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Curuba Elderflower",
+                    "standfirst": "マスカット味のレッドブル、再登場！",
+                    "brandingHexColorCode": "#6cc24a",
+                    "image": {
+                        "altText": "Red Bull Green Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-03-20T06:15:59.366448+00:00"
+    "collection_timestamp": "2026-03-22T19:15:07.855828+00:00"
 }

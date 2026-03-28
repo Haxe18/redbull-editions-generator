@@ -2,29 +2,19 @@
     "flag": "🇳🇿",
     "editions": [
         {
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "flavor_description": "Wings without sugar: Red Bull Energy Drink without sugar",
-            "sugarfree": false,
-            "color": "#2F4582",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
-            "alt_text": "Red Bull Energy Drink",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/red-bull-energy-drink"
-        },
-        {
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "flavor_description": "Zero Calories. Zero Sugar. 100% Wings",
+            "name": "The Berry Edition Sugarfree",
+            "flavor": "Forest Fruits",
+            "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
             "sugarfree": true,
-            "color": "#2784C4",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/s5kmasklctz5s2rjsqpo/red-bull-sugarfree",
-            "alt_text": "Red Bull Sugarfree",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
+            "color": "#c72466",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image",
+            "alt_text": "Red Bull Pink Edition Image",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-berry-edition-sugarfree"
         },
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach, a touch of citrus peel and floral notes",
+            "flavor_description": "Zero Calories. Zero Sugar. 100% Wings",
             "sugarfree": true,
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/17/mmdrvovogibkl85dypdp/red-bull-zero-energy-drink",
@@ -32,9 +22,39 @@
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
         },
         {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "sugarfree": false,
+            "color": "#2F4582",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/17/akq6opoi8io1nlwdj7ft/red-bull-energy-drink",
+            "alt_text": "Red Bull Energy Drink",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/red-bull-energy-drink"
+        },
+        {
+            "name": "The Coconut Edition Sugarfree",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
+            "sugarfree": true,
+            "color": "#0070b8",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
+            "alt_text": "Coconut Edition Sugarfree half can",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+        },
+        {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "sugarfree": true,
+            "color": "#2784C4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/s5kmasklctz5s2rjsqpo/red-bull-sugarfree",
+            "alt_text": "Red Bull Sugarfree",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
+        },
+        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "The Red Bull Lilac Edition Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
+            "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach, a touch of citrus peel and floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/17/hctyjc8gd6wf8dg6584r/red-bull-peach-edition-image",
@@ -44,85 +64,68 @@
         {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
-            "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
+            "flavor_description": "The Red Bull Lilac Edition Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
             "sugarfree": true,
             "color": "#6952AD",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/9/qhn9km1mogiyjtkb1ijj/lilac-edition-sugarfree--grapefruit-and-blossom",
             "alt_text": "Lilac-Edition-Sugarfree Grapefruit & Blossom",
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-lilac-edition-sugarfree"
-        },
-        {
-            "name": "The Berry Edition Sugarfree",
-            "flavor": "Coconut-Blueberry",
-            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
-            "sugarfree": true,
-            "color": "#c72466",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/9/hturwvswhdbq2w3waa96/red-bull-pink-edition-image",
-            "alt_text": "Red Bull Pink Edition Image",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-berry-edition-sugarfree"
-        },
-        {
-            "name": "The Coconut Edition Sugarfree",
-            "flavor": "Coconut",
-            "flavor_description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
-            "sugarfree": true,
-            "color": "#0070b8",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/20/ibchxdh6jo6dmhvucnev/coconut-edition-sugarfree-half-can",
-            "alt_text": "Coconut Edition Sugarfree half can",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NZ.svg",
-    "_raw_hash": "d3b7af4d5918893c73ef14433d918f8495de7f578ec515bb8b00a25c3f825551",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NZ",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NZ",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero Calories. Zero Sugar. 100% Wings.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ",
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Grapefruit & Woodruff",
-            "description": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and herbal woodruff, topped with subtle floral notes.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-lilac-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ",
+    "_raw_hash": "6612103f8a81467030f714e26ba14f760da14b58711a6821ac4009f165d71713",
+    "_translated_editions": [],
+    "_edition_fingerprints": {
+        "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ": "e35307df1b278a4d4a88c6cc8eba4d1245f7d18854537f598ab6f892f1dc2e8b",
+        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ": "36435aa23ddec539670c943717377e2fda0e0811ad45312eb353e03f83721ddd",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NZ": "faa0d469e6b098099cb06ab539d035f102ec0a266d68fa9b87cce35225a689e7",
+        "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-NZ": "33fc049954bd2baea2ed00969625412ec40c407b42a1c8c61a7d7975a9e1414c",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NZ": "8446fcb2244b95df2d6c7fe4ceda710a7af92dfbf1879bdb69954c59ab5c0d9f",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-NZ": "1c9eed20b34c4b491004d1421410359ef9580b6e48ce1b30d16bca74c6799314",
+        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ": "4b10368507e807a819080ca32ae6965e45a347928318caaaf5c4444b65d34a37"
+    },
+    "_normalized_editions": {
+        "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ": {
             "name": "The Berry Edition Sugarfree",
             "flavor": "Forest Fruits",
-            "description": "The Sugarfree Energy Drink with the taste of forest fruits complemented by exciting herbal notes of verbena.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-berry-edition-sugarfree"
+            "flavor_description": "The Sugarfree Energy Drink with the taste of Forest Fruits complemented by exciting herbal notes of verbena",
+            "sugarfree": true
         },
-        {
-            "edition_id": "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-NZ",
+        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ": {
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "flavor_description": "Zero Calories. Zero Sugar. 100% Wings",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NZ": {
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-NZ": {
             "name": "The Coconut Edition Sugarfree",
-            "flavor": "Coconut",
-            "description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-coconut-edition-sugarfree"
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
+            "sugarfree": true
         },
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-NZ",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NZ": {
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-NZ": {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "description": "The Red Bull Peach Edition offers the taste of white peach, a touch of citrus peel and floral notes.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-peach-edition"
+            "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach, a touch of citrus peel and floral notes",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ": {
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Blossom",
+            "flavor_description": "The Red Bull Lilac Edition Sugarfree blends the tastes of Pink Grapefruit and herbal Woodruff, topped with subtle floral notes",
+            "sugarfree": true
         }
-    ]
+    }
 }

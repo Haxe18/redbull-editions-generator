@@ -146,59 +146,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR",
-            "header_data": {
-                "content": {
-                    "title": "핑크 에디션"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E25C94",
-                                    "percentage": 16.1
-                                },
-                                {
-                                    "hexColorCode": "#D32570",
-                                    "percentage": 9.1
-                                },
-                                {
-                                    "hexColorCode": "#D9E5EA",
-                                    "percentage": 5.3
-                                },
-                                {
-                                    "hexColorCode": "#C3CAD4",
-                                    "percentage": 2.3
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Pink Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "White Peach",
-                    "standfirst": "레드불 핑크 에디션: 복숭아 향에 시트러스의 산뜻함과 플로럴 향을 더한 에너지 드링크를 만나보세요!",
-                    "brandingHexColorCode": "#E24585",
-                    "image": {
-                        "altText": "Red Bull Pink Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR",
             "header_data": {
                 "content": {
@@ -267,6 +214,59 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR",
+            "header_data": {
+                "content": {
+                    "title": "핑크 에디션"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 16.1
+                                },
+                                {
+                                    "hexColorCode": "#D32570",
+                                    "percentage": 9.1
+                                },
+                                {
+                                    "hexColorCode": "#D9E5EA",
+                                    "percentage": 5.3
+                                },
+                                {
+                                    "hexColorCode": "#C3CAD4",
+                                    "percentage": 2.3
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pink Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "White Peach",
+                    "standfirst": "레드불 핑크 에디션: 복숭아 향에 시트러스의 산뜻함과 플로럴 향을 더한 에너지 드링크를 만나보세요!",
+                    "brandingHexColorCode": "#E24585",
+                    "image": {
+                        "altText": "Red Bull Pink Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/1/l6ak0syxk4dvp50dooid/red-bull-pink-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
                     }
                 }
             }
@@ -349,5 +349,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-21T06:03:53.369382+00:00"
+    "collection_timestamp": "2026-03-22T19:15:32.978032+00:00"
 }

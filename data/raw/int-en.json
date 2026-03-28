@@ -8,6 +8,67 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-INT",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/13/qiw0vax5yuhc1fiernfj/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.2
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.8
+                                },
+                                {
+                                    "hexColorCode": "#C80D34",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#DEE9F2",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8594",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FBF6F4",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/int-en/energydrink/red-bull-zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "Zero Calories. Zero Sugar. 100% Wiiings.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/13/qiw0vax5yuhc1fiernfj/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/int-en/energydrink/red-bull-zero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-INT",
             "header_data": {
                 "content": {
@@ -140,68 +201,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-INT",
-            "header_data": {
-                "content": {
-                    "title": "Zero"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/13/qiw0vax5yuhc1fiernfj/red-bull-zero-energy-drink",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#93BFE4",
-                                    "percentage": 14.2
-                                },
-                                {
-                                    "hexColorCode": "#C6D1DE",
-                                    "percentage": 10.8
-                                },
-                                {
-                                    "hexColorCode": "#C80D34",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#DEE9F2",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#7A8594",
-                                    "percentage": 1.7
-                                },
-                                {
-                                    "hexColorCode": "#FBF6F4",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Zero Energy Drink"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/int-en/energydrink/red-bull-zero"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Zero Sugar",
-                    "standfirst": "Zero Calories. Zero Sugar. 100% Wiiings.",
-                    "brandingHexColorCode": "#FFFFFF",
-                    "image": {
-                        "altText": "Red Bull Zero Energy Drink",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/13/qiw0vax5yuhc1fiernfj/red-bull-zero-energy-drink"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/int-en/energydrink/red-bull-zero"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-03-13T06:11:06.449238+00:00"
+    "collection_timestamp": "2026-03-22T19:14:16.053941+00:00"
 }

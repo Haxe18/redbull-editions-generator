@@ -8,6 +8,83 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-MX",
+            "header_data": {
+                "content": {
+                    "title": "Sandia Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/9/b5lxti8wjmb4lb03hrvm/red-bull-sandia-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#C53228",
+                                    "percentage": 14.6
+                                },
+                                {
+                                    "hexColorCode": "#D1D3D7",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#CD5047",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#98271C",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#191919",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#018637",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#983E36",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#E7EDEF",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#262727",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#F0F0EF",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Sandia Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/mx-es/energydrink/products/red-bull-sandia-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Watermelon",
+                    "standfirst": "Red Bull Sandía Edition con el fresco sabor de la sandía.",
+                    "brandingHexColorCode": "#e03c31",
+                    "image": {
+                        "altText": "Red Bull Sandia Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/9/b5lxti8wjmb4lb03hrvm/red-bull-sandia-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/mx-es/energydrink/products/red-bull-sandia-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-MX",
             "header_data": {
                 "content": {
@@ -225,84 +302,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-MX",
-            "header_data": {
-                "content": {
-                    "title": "Sandia Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/9/b5lxti8wjmb4lb03hrvm/red-bull-sandia-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#C53228",
-                                    "percentage": 14.6
-                                },
-                                {
-                                    "hexColorCode": "#D1D3D7",
-                                    "percentage": 5.2
-                                },
-                                {
-                                    "hexColorCode": "#CD5047",
-                                    "percentage": 5.2
-                                },
-                                {
-                                    "hexColorCode": "#98271C",
-                                    "percentage": 2.9
-                                },
-                                {
-                                    "hexColorCode": "#191919",
-                                    "percentage": 1.7
-                                },
-                                {
-                                    "hexColorCode": "#018637",
-                                    "percentage": 1.2
-                                },
-                                {
-                                    "hexColorCode": "#983E36",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#E7EDEF",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#262727",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#F0F0EF",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Sandia Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/mx-es/energydrink/products/red-bull-sandia-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Watermelon",
-                    "standfirst": "Red Bull Sandía Edition con el fresco sabor de la sandía.",
-                    "brandingHexColorCode": "#e03c31",
-                    "image": {
-                        "altText": "Red Bull Sandia Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/9/b5lxti8wjmb4lb03hrvm/red-bull-sandia-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/mx-es/energydrink/products/red-bull-sandia-edition"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-03-21T06:04:44.194169+00:00"
+    "collection_timestamp": "2026-03-22T19:16:16.053057+00:00"
 }
