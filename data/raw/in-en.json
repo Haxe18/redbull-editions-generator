@@ -126,7 +126,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/energydrink"
+                    "externalUrl": "https://www.redbull.com/in-en/energydrink/products/red-bull-energy-drink"
                 }
             },
             "graphql_data": {
@@ -141,7 +141,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/energydrink"
+                        "externalUrl": "https://www.redbull.com/in-en/energydrink/products/red-bull-energy-drink"
                     }
                 }
             }
@@ -330,5 +330,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:14:07.053265+00:00"
+    "collection_timestamp": "2026-04-01T07:03:44.908058+00:00"
 }
