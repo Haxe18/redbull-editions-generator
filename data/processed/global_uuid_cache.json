@@ -3470,5 +3470,19 @@
         "flavor": "Apricot-Strawberry",
         "flavor_description": "Red Bull Apricot Edition creates a perfect combination by mixing the flavor notes of Apricot and Strawberry, with a hint of Peach taste",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:hu-HU": {
+        "fingerprint": "d322ba6e39e406bba8d559612735e71bb7d47e8e8d00f0e3afdb3bfbcf87da07",
+        "name": "The Spring Edition",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "The Red Bull Spring Edition features the taste of Cherry combined with almond and Cherry Blossom notes",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-CL": {
+        "fingerprint": "92d017acee48fb42238b0871b9124303a31e4b4f6692ef86dd9491a64c015b58",
+        "name": "The Pomelo Edition Sugarfree",
+        "flavor": "Pomelo",
+        "flavor_description": "A sugarfree energy drink that combines the refreshing taste of Pomelo with subtle floral notes",
+        "sugarfree": true
     }
 }

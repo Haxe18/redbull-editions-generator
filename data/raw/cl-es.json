@@ -73,6 +73,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-CL",
+            "header_data": {
+                "content": {
+                    "title": "Pomelo Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/1/uly5rhisvf3rrwljn0xu/red-bull-pomelo-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#9A7ADD",
+                                    "percentage": 23.6
+                                },
+                                {
+                                    "hexColorCode": "#D9E1E8",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#C0C3D6",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#E7F2E9",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pomelo Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-pomelo-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pomelo",
+                    "standfirst": "Uno de tus sabores favoritos volvió para quedarse. Red Bull Pomelo Edition Sin Azúcar mezcla el sabor del pomelo con sutíles notas florales. 100% Aaalas, sin azucar.",
+                    "brandingHexColorCode": "#7d62ce",
+                    "image": {
+                        "altText": "Red Bull Pomelo Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/1/uly5rhisvf3rrwljn0xu/red-bull-pomelo-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-pomelo-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:es-CL",
             "header_data": {
                 "content": {
@@ -459,63 +512,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-CL",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/30/ovynp5dxwq8t7h1jnui2/red-bull-summer-edition-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E25C94",
-                                    "percentage": 15.6
-                                },
-                                {
-                                    "hexColorCode": "#D32570",
-                                    "percentage": 9
-                                },
-                                {
-                                    "hexColorCode": "#D9E4E9",
-                                    "percentage": 5.3
-                                },
-                                {
-                                    "hexColorCode": "#C0C8D2",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#51ADD7",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-summer-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "White Peach",
-                    "standfirst": "Aaalas para tu verano: Red Bull Summer Edition Sugarfree ofrece el sabor del durazno, con un toque cítrico y notas florales, todo sin azúcar.",
-                    "brandingHexColorCode": "#E24585",
-                    "image": {
-                        "altText": "Red Bull Summer Edition Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/30/ovynp5dxwq8t7h1jnui2/red-bull-summer-edition-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-summer-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:es-CL",
             "header_data": {
                 "content": {
@@ -589,5 +585,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:10:19.454867+00:00"
+    "collection_timestamp": "2026-04-02T06:22:38.768529+00:00"
 }

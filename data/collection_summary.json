@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-04-01T07:15:42.488902+00:00",
+        "collection_date": "2026-04-02T06:36:33.659580+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -187,7 +187,7 @@
                 "fi-fi"
             ],
             "flag_code": "FI",
-            "editions_count": 13,
+            "editions_count": 12,
             "data_file": "fi-fi.json"
         },
         "France": {
@@ -232,7 +232,7 @@
                 "hu-hu"
             ],
             "flag_code": "HU",
-            "editions_count": 7,
+            "editions_count": 8,
             "data_file": "hu-hu.json"
         },
         "India": {

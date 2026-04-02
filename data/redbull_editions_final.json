@@ -1075,6 +1075,16 @@
                 "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-green-edition"
             },
             {
+                "name": "The Pomelo Edition Sugarfree",
+                "flavor": "Pomelo",
+                "flavor_description": "A sugarfree energy drink that combines the refreshing taste of Pomelo with subtle floral notes",
+                "sugarfree": true,
+                "color": "#7d62ce",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/1/uly5rhisvf3rrwljn0xu/red-bull-pomelo-edition-sugarfree",
+                "alt_text": "Red Bull Pomelo Edition Sugarfree",
+                "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-pomelo-edition-sugarfree"
+            },
+            {
                 "name": "The Purple Edition",
                 "flavor": "Acai Berry",
                 "flavor_description": "Experience the unique and exotic taste of Acai",
@@ -1093,16 +1103,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/iiqnhjalm5dauslp0tii/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
                 "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-red-edition"
-            },
-            {
-                "name": "The Summer Edition Sugarfree",
-                "flavor": "White Peach",
-                "flavor_description": "Wings for your summer: The Red Bull Summer Edition Sugarfree offers the taste of Peach, with a citrus hint and floral notes, all without sugar",
-                "sugarfree": true,
-                "color": "#E24585",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/30/ovynp5dxwq8t7h1jnui2/red-bull-summer-edition-sugarfree",
-                "alt_text": "Red Bull Summer Edition Sugarfree",
-                "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-summer-edition-sugarfree"
             },
             {
                 "name": "The Yellow Edition",
@@ -1781,16 +1781,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/19/lhcf7gu8dxsvdufitjuf/red-bull-spring-edition-sugarfree-image",
                 "alt_text": "Red Bull Spring Edition Sugarfree Image",
                 "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-spring-edition-sugarfree"
-            },
-            {
-                "name": "The Winter Edition",
-                "flavor": "Fuji Apple & Ginger",
-                "flavor_description": "The Red Bull Winter Edition with the taste of Fuji Apple and spicy Ginger",
-                "sugarfree": false,
-                "color": "#ae132d",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/2/djjsqqgybwyve73lh3cn/red-bull-winter-edition-image",
-                "alt_text": "Red Bull Winter Edition Popsicle Image",
-                "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-winter-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FI.svg"
@@ -2251,6 +2241,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/11/nhcbltvcxhatrcn9ihbt/red-bull-the-sea-blue-edition-image",
                 "alt_text": "Red Bull The Sea Blue Edition - Image",
                 "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
+            },
+            {
+                "name": "The Spring Edition",
+                "flavor": "Cherry Sakura",
+                "flavor_description": "The Red Bull Spring Edition features the taste of Cherry combined with almond and Cherry Blossom notes",
+                "sugarfree": false,
+                "color": "#c72466",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/4/miiliblxlvnsgosku3ki/spring-edition-2026",
+                "alt_text": "Spring Edition 2026",
+                "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-spring-edition"
             },
             {
                 "name": "The White Edition",
