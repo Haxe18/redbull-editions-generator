@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-04-02T06:36:33.659580+00:00",
+        "collection_date": "2026-04-03T06:39:48.859401+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -278,7 +278,7 @@
                 "it-it"
             ],
             "flag_code": "IT",
-            "editions_count": 12,
+            "editions_count": 11,
             "data_file": "it-it.json"
         },
         "Japan": {

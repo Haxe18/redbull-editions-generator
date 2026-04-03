@@ -701,68 +701,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:it-IT",
-            "header_data": {
-                "content": {
-                    "title": "Apricot Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/ampmdvbrq7ozmf8i8lic/red-bull-apricot-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#F07F1E",
-                                    "percentage": 20.8
-                                },
-                                {
-                                    "hexColorCode": "#DBDCE0",
-                                    "percentage": 5.8
-                                },
-                                {
-                                    "hexColorCode": "#F4AB70",
-                                    "percentage": 3.2
-                                },
-                                {
-                                    "hexColorCode": "#F49430",
-                                    "percentage": 2.1
-                                },
-                                {
-                                    "hexColorCode": "#EEF3F7",
-                                    "percentage": 1.6
-                                },
-                                {
-                                    "hexColorCode": "#F6EDE6",
-                                    "percentage": 1.2
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Apricot Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/it-it/energydrink/red-bull-apricot-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Strawberry and apricot",
-                    "standfirst": "Red Bull Apricot Edition offre il perfetto mix tra albicocca e fragola con una nota di pesca. ",
-                    "brandingHexColorCode": "#f3911b",
-                    "image": {
-                        "altText": "Red Bull Apricot Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/13/ampmdvbrq7ozmf8i8lic/red-bull-apricot-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/it-it/energydrink/red-bull-apricot-edition"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:15:00.608858+00:00"
+    "collection_timestamp": "2026-04-03T06:29:00.113131+00:00"
 }
