@@ -73,63 +73,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:tr-TR",
-            "header_data": {
-                "content": {
-                    "title": "Pink Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/27/iy6une8gwh7sfwke1chn/red-bull-pink-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.7
-                                },
-                                {
-                                    "hexColorCode": "#D9E3E8",
-                                    "percentage": 5.1
-                                },
-                                {
-                                    "hexColorCode": "#C1C8D3",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#E47DAF",
-                                    "percentage": 1.5
-                                },
-                                {
-                                    "hexColorCode": "#E7BDD6",
-                                    "percentage": 1
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Pink Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-pink-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Forest Fruits",
-                    "standfirst": "Pink Edition Sugarfree ahududu lezzeti sunar.",
-                    "brandingHexColorCode": "#c72466",
-                    "image": {
-                        "altText": "Red Bull Pink Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/27/iy6une8gwh7sfwke1chn/red-bull-pink-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-pink-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:tr-TR",
             "header_data": {
                 "content": {
@@ -195,70 +138,62 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:tr-TR",
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR",
             "header_data": {
                 "content": {
-                    "title": "Apple Edition"
+                    "title": "Zero"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/27/qdm3kv8lyckzqgyhjvt3/red-bull-apple-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/7/ogncd7eceazpzteco7g6/red-bull-zero-energy-drink",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#DA5C63",
-                                    "percentage": 7.4
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
                                 },
                                 {
-                                    "hexColorCode": "#DFB154",
-                                    "percentage": 5.2
+                                    "hexColorCode": "#C7D1DE",
+                                    "percentage": 10.7
                                 },
                                 {
-                                    "hexColorCode": "#D6A11C",
-                                    "percentage": 4.8
+                                    "hexColorCode": "#C80D31",
+                                    "percentage": 3.1
                                 },
                                 {
-                                    "hexColorCode": "#D8E3EA",
-                                    "percentage": 4.6
-                                },
-                                {
-                                    "hexColorCode": "#C71F3A",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#DA8456",
-                                    "percentage": 3.3
-                                },
-                                {
-                                    "hexColorCode": "#C1C9D3",
+                                    "hexColorCode": "#DEE9F1",
                                     "percentage": 2.5
                                 },
                                 {
-                                    "hexColorCode": "#CD6427",
-                                    "percentage": 0.7
+                                    "hexColorCode": "#798493",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FCF8F6",
+                                    "percentage": 0.8
                                 }
                             ]
                         },
-                        "altText": "Red Bull Apple Edition - Image"
+                        "altText": "Red Bull Zero Energy Drink"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
+                    "externalUrl": "https://www.redbull.com/tr-tr/energydrink/red-bull-zero"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Fuji Apple-Ginger ",
-                    "standfirst": "Fuji elmasının ferahlığı ile zencefilin sıcak baharatını bir araya getiren Red Bull Apple Edition",
-                    "brandingHexColorCode": "#AE132D",
+                    "flavour": "Zero Sugar",
+                    "standfirst": "Red Bull Zero Energy Drink: Sıfır kaloriyle de kanatlandırııır.",
+                    "brandingHexColorCode": "#FFFFFF",
                     "image": {
-                        "altText": "Red Bull Apple Edition - Image",
+                        "altText": "Red Bull Zero Energy Drink",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/11/27/qdm3kv8lyckzqgyhjvt3/red-bull-apple-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/7/ogncd7eceazpzteco7g6/red-bull-zero-energy-drink"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
+                        "externalUrl": "https://www.redbull.com/tr-tr/energydrink/red-bull-zero"
                     }
                 }
             }
@@ -630,5 +565,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:22:01.785900+00:00"
+    "collection_timestamp": "2026-04-08T07:08:43.562175+00:00"
 }

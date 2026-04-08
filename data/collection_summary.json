@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-04-06T07:19:31.913815+00:00",
+        "collection_date": "2026-04-08T07:10:14.347750+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -39,7 +39,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 13,
+            "editions_count": 12,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -551,7 +551,7 @@
                 "tr-tr"
             ],
             "flag_code": "TR",
-            "editions_count": 10,
+            "editions_count": 9,
             "data_file": "tr-tr.json"
         },
         "Ukraine": {

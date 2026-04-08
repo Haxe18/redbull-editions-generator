@@ -3484,5 +3484,12 @@
         "flavor": "Pomelo",
         "flavor_description": "A sugarfree energy drink that combines the refreshing taste of Pomelo with subtle floral notes",
         "sugarfree": true
+    },
+    "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR": {
+        "fingerprint": "fa559425f9320a6c4abf008f617dd529eeb24f39dc027c3ec105a3af96c32f41",
+        "name": "Energy Drink Zero",
+        "flavor": "Zero Sugar",
+        "flavor_description": "Red Bull Zero Energy Drink provides the same wings as the original, but with zero sugar and zero calories",
+        "sugarfree": true
     }
 }
