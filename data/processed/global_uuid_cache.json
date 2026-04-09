@@ -413,10 +413,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:9c27f2d5-12cd-4185-af07-39c6a41edd74:pt-PT": {
-        "fingerprint": "3a71c406f1b838362680f95620448ae88a3562ef153e710c6553026001c81831",
-        "name": "The Purple Edition Sugarfree",
-        "flavor": "Acai Berry",
-        "flavor_description": "Experience the unique exotic taste of Acai. Red Bull The Purple Edition Sugarfree without sugar",
+        "fingerprint": "b59b5d7f9d27d1ec34f0416e21c3f6badf27008fe532b8a0031579ad198eadfc",
+        "name": "The Acai Edition Sugarfree",
+        "flavor": "Acai",
+        "flavor_description": "Experience the unique exotic taste of Acai. This is the sugarfree version",
         "sugarfree": true
     },
     "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pt-PT": {
@@ -427,10 +427,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-PT": {
-        "fingerprint": "002cc4c600a9e67b86e0edff0e39b0f4475c93b1a7d533d423d5512661813c8f",
+        "fingerprint": "e3a4cb11626e270c9ceb12290b4b281c91404aba79bc49fe927200992c9c0ad2",
         "name": "Energy Drink Sugarfree",
         "flavor": "Sugarfree",
-        "flavor_description": "Sugarfree Wings: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+        "flavor_description": "Red Bull Sugarfree is the classic Red Bull energy drink without any sugar",
         "sugarfree": true
     },
     "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-PT": {
@@ -3490,6 +3490,34 @@
         "name": "Energy Drink Zero",
         "flavor": "Zero Sugar",
         "flavor_description": "Red Bull Zero Energy Drink provides the same wings as the original, but with zero sugar and zero calories",
+        "sugarfree": true
+    },
+    "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL": {
+        "fingerprint": "b69f8d8bf6848b9a6fcda6b756ee0465f90452253832379f30dad21d2c776830",
+        "name": "Energy Drink",
+        "flavor": "Energy Drink",
+        "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, and busy professionals. It is perfect for consumption during long trips",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-KE": {
+        "fingerprint": "0355ec67a27fd8b558eab9ee5b03942d1d53d72ee06d08b0d8914a2f756fc8e5",
+        "name": "The Apricot Edition",
+        "flavor": "Apricot-Strawberry",
+        "flavor_description": "The Red Bull Apricot Edition with the taste of Apricot and Strawberry",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:da-DK": {
+        "fingerprint": "292b442c453aefe562483eaed5d478c096b1e1c079f8b0aa1fa15c58a1512f9c",
+        "name": "The White Edition",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull White Edition with the taste of Cherry sakura",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:da-DK": {
+        "fingerprint": "151b97c6c886b0aac8bad155fe39755081891c7009854fac3acc7a03760bb990",
+        "name": "The White Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "The Red Bull White Edition Sugarfree with the taste of Cherry sakura",
         "sugarfree": true
     }
 }

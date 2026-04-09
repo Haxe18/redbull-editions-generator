@@ -126,6 +126,75 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL",
+            "header_data": {
+                "content": {
+                    "title": "Energy Drink"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/d9jctivhc3bfwenahmz7/red-bull-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#263A81",
+                                    "percentage": 8.8
+                                },
+                                {
+                                    "hexColorCode": "#1A2D72",
+                                    "percentage": 8.5
+                                },
+                                {
+                                    "hexColorCode": "#C7CFD9",
+                                    "percentage": 7.2
+                                },
+                                {
+                                    "hexColorCode": "#CA0E37",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#E3EAEE",
+                                    "percentage": 1.8
+                                },
+                                {
+                                    "hexColorCode": "#5374B6",
+                                    "percentage": 1.8
+                                },
+                                {
+                                    "hexColorCode": "#758293",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#FCF9F7",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Energy Drink",
+                    "standfirst": "Red Bull Energy Drink është vlerësuar në mbarë botën nga atletë të nivelit më të lartë, studentë, punonjës me mbingarkesë profesionale, si edhe gjatë udhёtimeve të gjata.",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/d9jctivhc3bfwenahmz7/red-bull-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:sq-AL",
             "header_data": {
                 "content": {
@@ -256,5 +325,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:06:07.094378+00:00"
+    "collection_timestamp": "2026-04-09T06:48:54.214411+00:00"
 }

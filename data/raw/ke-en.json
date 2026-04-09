@@ -197,7 +197,68 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-KE",
+            "header_data": {
+                "content": {
+                    "title": "Apricot Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/gsdszu3du4hvwm1d7eyt/the-amber-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#EF7A16",
+                                    "percentage": 10.6
+                                },
+                                {
+                                    "hexColorCode": "#F1860F",
+                                    "percentage": 9.4
+                                },
+                                {
+                                    "hexColorCode": "#D7E1E9",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#F5A64D",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C0C9D3",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#F09A4F",
+                                    "percentage": 2.5
+                                }
+                            ]
+                        },
+                        "altText": "The Amber Edition image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-apricot-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Strawberry and apricot",
+                    "standfirst": "The Red Bull Apricot Edition with the taste of apricot and strawberry.",
+                    "brandingHexColorCode": "#f3911b",
+                    "image": {
+                        "altText": "The Amber Edition image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/gsdszu3du4hvwm1d7eyt/the-amber-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-apricot-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:15:24.854374+00:00"
+    "collection_timestamp": "2026-04-09T07:00:13.274205+00:00"
 }
