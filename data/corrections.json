@@ -247,6 +247,12 @@
             "replace": "Coconut-Blueberry"
         },
         {
+            "id": "41e97cb8-fb1f-41a3-a380-be2a75123e1a:fi-FI",
+            "field": "flavor",
+            "search": "Mehujää",
+            "replace": "Iced Vanilla Berry"
+        },
+        {
             "id": "41e97cb8-fb1f-41a3-a380-be2a75123e1a:fr-FR",
             "field": "flavor",
             "search": "Mûre givrée et vanille",
