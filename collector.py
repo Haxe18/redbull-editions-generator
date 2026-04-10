@@ -116,6 +116,7 @@ class RedBullDataCollector:
         rate_limit: bool = True,
         verbose: bool = False,
         debug: bool = False,
+        skip_url_verify: bool = False,
     ):
         """Initialize the collector.
 
@@ -124,12 +125,14 @@ class RedBullDataCollector:
             rate_limit: Whether to apply rate limiting
             verbose: Enable verbose output with detailed logging
             debug: Enable debug output for troubleshooting
+            skip_url_verify: Skip URL verification for removed editions (faster, but may lose temporarily missing editions)
         """
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
         self.raw_dir = self.output_dir / "raw"
         self.raw_dir.mkdir(exist_ok=True)
         self.rate_limit = rate_limit
+        self.skip_url_verify = skip_url_verify
 
         # Setup logger
         self.logger = setup_logger(
@@ -173,6 +176,29 @@ class RedBullDataCollector:
         session.headers.update(self.headers)
 
         return session
+
+    def _verify_edition_url(self, product_url: str) -> bool:
+        """Check if a product URL is still live.
+
+        Args:
+            product_url: The edition's product URL to verify.
+
+        Returns:
+            True if URL returns HTTP 200, False otherwise.
+        """
+        if not product_url:
+            return False
+        try:
+            response = self.session.head(product_url, timeout=10, allow_redirects=True)
+            if response.status_code == 200:
+                return True
+            if response.status_code == 405:
+                response = self.session.get(product_url, timeout=10, allow_redirects=True)
+                return response.status_code == 200
+            return False
+        except requests.exceptions.RequestException as exc:
+            self.logger.warning("URL verification failed for %s: %s", product_url, exc)
+            return False
 
     def _retry_request(
         self, request_func: Callable, *args, identifier: str = "request", **kwargs
@@ -941,12 +967,42 @@ class RedBullDataCollector:
                     country_name,
                 )
                 stable_merged_editions.append(old_energy_drink)
-                stable_merged_editions.sort(
-                    key=lambda e: (
-                        e.get("id", ""),
-                        e.get("header_data", {}).get("content", {}).get("title", ""),
+
+            # URL verification: retain other editions that vanished from API but still have live product pages
+            if not self.skip_url_verify:
+                new_ids = {e.get("id") for e in stable_merged_editions}
+                removed_editions = [
+                    e
+                    for e in existing_raw.get("editions", [])
+                    if e.get("id") not in new_ids
+                    and e.get("header_data", {}).get("content", {}).get("title")
+                    != "Energy Drink"
+                ]
+                for edition in removed_editions:
+                    product_url = (
+                        edition.get("header_data", {})
+                        .get("reference", {})
+                        .get("externalUrl", "")
                     )
+                    if self._verify_edition_url(product_url):
+                        title = (
+                            edition.get("header_data", {}).get("content", {}).get("title", "")
+                        )
+                        self.logger.warning(
+                            "Edition '%s' disappeared from API for %s but URL still live: %s — retaining",
+                            title,
+                            country_name,
+                            product_url,
+                        )
+                        stable_merged_editions.append(edition)
+                    time.sleep(0.5)
+
+            stable_merged_editions.sort(
+                key=lambda e: (
+                    e.get("id", ""),
+                    e.get("header_data", {}).get("content", {}).get("title", ""),
                 )
+            )
 
         country_raw_data = {
             "locale_info": {
@@ -1418,6 +1474,11 @@ def main():
         action="store_true",
         help="Enable debug mode for troubleshooting",
     )
+    parser.add_argument(
+        "--skip-url-verify",
+        action="store_true",
+        help="Skip URL verification for removed editions (faster, but may lose temporarily missing editions)",
+    )
 
     args = parser.parse_args()
 
@@ -1430,7 +1491,10 @@ def main():
 
     # Create collector with rate limit, verbose and debug settings
     collector = RedBullDataCollector(
-        rate_limit=not args.no_rate_limit, verbose=args.verbose, debug=args.debug
+        rate_limit=not args.no_rate_limit,
+        verbose=args.verbose,
+        debug=args.debug,
+        skip_url_verify=args.skip_url_verify,
     )
 
     # Setup logger for main function

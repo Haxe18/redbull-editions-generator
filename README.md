@@ -40,7 +40,7 @@ collector.py  →  raw data  →  processor.py  →  final JSON
    - **Logging**: Structured logging with appropriate levels
    - **Configuration**: Externalized config with frozen dataclass
    - **Type Safety**: Full type hints throughout the codebase
-   - **Energy Drink Protection**: Base edition re-injected from previous raw file if API drops it (logged with 🛡️)
+   - **Edition Retention**: Base Energy Drink unconditionally re-injected if API drops it; other editions retained if product URL is still live (🛡️)
 
 2. **processor.py**: Advanced data processor with AI normalization
    - **Independent Operation**: Works directly with raw files, no collection dependency

@@ -157,14 +157,20 @@ python -m py_compile collector.py processor.py
 - Enhanced debug mode with detailed cache statistics ("X cached, Y need translation")
 - Force reprocess option properly respected for single country processing
 
-### Energy Drink Protection (collector.py)
-- **Hard Protection**: The base "Energy Drink" edition can **never** disappear from raw data
-  - Applied in `_save_country_data()` before writing the raw file
-  - If the API stops returning the base edition, it is unconditionally re-injected from the previous raw file
+### Edition Retention (collector.py)
+Protection lives in `_save_country_data()` — before writing the raw file, compare old vs new editions. Both protections keep raw data complete so the full pipeline (Gemini, processor, final JSON) sees all editions naturally.
+
+- **Hard Protection — Energy Drink**: The base "Energy Drink" edition is unconditionally re-injected from the previous raw file if the API drops it
   - Logged with `🛡️` prefix: `Protected: 'Energy Drink' disappeared from API for X — retaining from previous raw data`
-  - Protects at the earliest point in the pipeline so all downstream processing (Gemini, processor, final JSON) sees the edition naturally
-  - **Why**: Red Bull APIs occasionally omit the base product (e.g. Azerbaijan lost it in 2026-03 while the product still exists)
-  - **Why collector and not processor**: The processor has no raw data (UUID, image URL `{op}` template, GraphQL data) to re-inject a missing edition — it can only work with what the raw file contains
+  - Triggered for Azerbaijan in 2026-03 when the API silently stopped returning the base product
+
+- **URL Verification — Other Editions**: Editions that vanish from the API are verified via HTTP HEAD request
+  - If the product URL returns HTTP 200, the edition is retained from the previous raw file
+  - Logged: `Edition 'X' disappeared from API for Y but URL still live — retaining`
+  - Uses `self.session` (existing connection pool + retry strategy), 0.5s delay between checks
+  - Skip with `--skip-url-verify` flag (faster, but may lose temporarily missing editions)
+
+- **Why collector and not processor**: The processor has no raw data (UUID, image URL `{op}` template, GraphQL data) to re-inject a missing edition — it can only work with what the raw file contains
 
 ### Error Handling & Recovery (processor.py)
 - **API Key Expiration Detection**:

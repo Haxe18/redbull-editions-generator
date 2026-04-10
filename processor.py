@@ -253,7 +253,6 @@ class RedBullDataProcessor:
         max_workers: int = 3,
         verbose: bool = False,
         single_country: bool = False,
-        skip_url_verify: bool = False,
     ) -> None:
         """
         Initialize the Red Bull Data Processor.
@@ -264,7 +263,6 @@ class RedBullDataProcessor:
             max_workers: Number of parallel workers for multi-country processing (default: 3)
             verbose: Enable verbose mode with full API request/response logging
             single_country: Whether processing only a single country (disables rate limiting)
-            skip_url_verify: Skip URL verification for removed editions (faster, but may lose temporarily missing editions)
 
         Raises:
             ValueError: If GEMINI_API_KEY is not found in environment
@@ -277,7 +275,6 @@ class RedBullDataProcessor:
         self.verbose = verbose
         self.debug = debug
         self.single_country = single_country
-        self.skip_url_verify = skip_url_verify
 
         # Thread safety - initialize early since _log_debug uses it
         self.print_lock = Lock()
@@ -330,7 +327,6 @@ class RedBullDataProcessor:
             "editions_added": defaultdict(list),
             "editions_updated": defaultdict(list),
             "editions_removed": defaultdict(list),
-            "editions_retained": defaultdict(list),
             "field_changes": defaultdict(list),
             "corrections_applied": [],
             "corrections_failed": [],
@@ -3240,51 +3236,19 @@ class RedBullDataProcessor:
                         }
                     )
 
-            # Find removed editions
+            # Find removed editions (URL verification now handled by collector)
             removed_candidates = [
                 (key, edition)
                 for key, edition in old_editions.items()
                 if key not in new_editions
             ]
-            if removed_candidates and not self.skip_url_verify:
-                session = self._create_verification_session()
-                try:
-                    for _key, edition in removed_candidates:
-                        product_url = edition.get("product_url", "")
-                        url_is_live = self._verify_edition_url(product_url, session)
-                        if url_is_live:
-                            self.logger.warning(
-                                "Edition '%s' disappeared from API for %s but URL still live: %s -- retaining",
-                                edition.get("name", ""),
-                                country_name,
-                                product_url,
-                            )
-                            new_data["editions"].append(edition)
-                            self.changelog["editions_retained"][country_name].append(
-                                {
-                                    "name": edition.get("name", ""),
-                                    "flavor": edition.get("flavor", ""),
-                                    "product_url": product_url,
-                                }
-                            )
-                        else:
-                            self.changelog["editions_removed"][country_name].append(
-                                {
-                                    "name": edition.get("name", ""),
-                                    "flavor": edition.get("flavor", ""),
-                                }
-                            )
-                        time.sleep(0.5)
-                finally:
-                    session.close()
-            else:
-                for _key, edition in removed_candidates:
-                    self.changelog["editions_removed"][country_name].append(
-                        {
-                            "name": edition.get("name", ""),
-                            "flavor": edition.get("flavor", ""),
-                        }
-                    )
+            for _key, edition in removed_candidates:
+                self.changelog["editions_removed"][country_name].append(
+                    {
+                        "name": edition.get("name", ""),
+                        "flavor": edition.get("flavor", ""),
+                    }
+                )
 
             # Find updated editions
             for key, new_edition in new_editions.items():
@@ -3347,54 +3311,6 @@ class RedBullDataProcessor:
                         "flavor": edition.get("flavor", ""),
                     }
                 )
-
-    def _create_verification_session(self) -> requests.Session:
-        """Create a requests session for URL verification of removed editions."""
-        session = requests.Session()
-        retry_strategy = Retry(
-            total=3,
-            status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=["HEAD", "GET"],
-            backoff_factor=1.0,
-            raise_on_status=False,
-        )
-        adapter = HTTPAdapter(max_retries=retry_strategy)
-        session.mount("http://", adapter)
-        session.mount("https://", adapter)
-        session.headers.update(
-            {
-                "User-Agent": (
-                    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-                    "(KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 "
-                    "(+https://github.com/Haxe18/redbull-editions-generator)"
-                )
-            }
-        )
-        return session
-
-    def _verify_edition_url(self, product_url: str, session: requests.Session) -> bool:
-        """Check if a product URL is still live.
-
-        Args:
-            product_url: The edition's product URL to verify.
-            session: Requests session to use.
-
-        Returns:
-            True if URL returns HTTP 200, False otherwise.
-        """
-        if not product_url:
-            return False
-        try:
-            response = session.head(product_url, timeout=10, allow_redirects=True)
-            if response.status_code == 200:
-                return True
-            if response.status_code == 405:
-                response = session.get(product_url, timeout=10, allow_redirects=True)
-                return response.status_code == 200
-            return False
-        except requests.exceptions.RequestException as exc:
-            self.logger.warning("URL verification failed for %s: %s", product_url, exc)
-            return False
 
     def _get_country_from_correction_id(self, correction_id: str) -> Optional[str]:
         """Extract country name from correction ID.
@@ -3460,14 +3376,9 @@ class RedBullDataProcessor:
         lines.append(f"- **Countries skipped:** {len(self.changelog['countries_skipped'])}")
         lines.append(f"- **Cache hits:** {self.changelog['cache_hits']}")
         lines.append(f"- **API calls made:** {self.changelog['api_calls_made']}")
-        total_retained = sum(
-            len(editions) for editions in self.changelog["editions_retained"].values()
-        )
         lines.append(f"- **Editions added:** {total_added}")
         lines.append(f"- **Editions updated:** {total_updated}")
         lines.append(f"- **Editions removed:** {total_removed}")
-        if total_retained:
-            lines.append(f"- **Editions retained (URL still live):** {total_retained}")
 
         # Corrections summary
         applied_corrections = len(
@@ -3609,22 +3520,6 @@ class RedBullDataProcessor:
                         edition_dict = cast(Dict[str, Any], edition)
                         lines.append(
                             f"- **{edition_dict['name']}** - {edition_dict['flavor']}"
-                        )
-                    lines.append("")
-                    has_changes = True
-
-                # Retained editions (disappeared from API but URL still live)
-                if (
-                    country in self.changelog["editions_retained"]
-                    and self.changelog["editions_retained"][country]
-                ):
-                    lines.append("#### Retained Editions (URL Still Live):")
-                    for edition in self.changelog["editions_retained"][country]:
-                        edition_dict = cast(Dict[str, Any], edition)
-                        url = edition_dict.get("product_url", "")
-                        url_part = f" ([product page]({url}))" if url else ""
-                        lines.append(
-                            f"- **{edition_dict['name']}** - {edition_dict['flavor']}{url_part}"
                         )
                     lines.append("")
                     has_changes = True
@@ -4939,12 +4834,6 @@ def main():
         action="store_true",
         help="Enable verbose mode with detailed console output",
     )
-    parser.add_argument(
-        "--skip-url-verify",
-        action="store_true",
-        help="Skip URL verification for removed editions (faster, but may lose temporarily missing editions)",
-    )
-
     args = parser.parse_args()
 
     try:
@@ -4955,7 +4844,6 @@ def main():
             max_workers=1 if args.country else args.workers,
             verbose=args.debug,
             single_country=bool(args.country),
-            skip_url_verify=args.skip_url_verify,
         )
 
         if args.country:
