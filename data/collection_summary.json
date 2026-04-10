@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-04-09T07:10:17.623696+00:00",
+        "collection_date": "2026-04-10T07:18:38.721339+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -39,7 +39,7 @@
                 "at-de"
             ],
             "flag_code": "AT",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "at-de.json"
         },
         "Azerbaijan": {
@@ -232,7 +232,7 @@
                 "hu-hu"
             ],
             "flag_code": "HU",
-            "editions_count": 8,
+            "editions_count": 7,
             "data_file": "hu-hu.json"
         },
         "India": {
@@ -495,7 +495,7 @@
                 "si-sl"
             ],
             "flag_code": "SI",
-            "editions_count": 12,
+            "editions_count": 11,
             "data_file": "si-sl.json"
         },
         "South Africa": {

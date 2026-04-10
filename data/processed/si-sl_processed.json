@@ -2,16 +2,6 @@
     "flag": "🇸🇮",
     "editions": [
         {
-            "name": "The Sea Blue Edition",
-            "flavor": "Juneberry",
-            "flavor_description": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry",
-            "sugarfree": false,
-            "color": "#0085C8",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/25/uemcikflvj2euwes7kb6/red-bull-the-sea-blue-edition-image",
-            "alt_text": "Red Bull The Sea Blue Edition - Image",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-sea-blue-edition"
-        },
-        {
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "Red Bull Red Edition with the fresh taste of Watermelon",
@@ -123,95 +113,9 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SI.svg",
-    "_raw_hash": "6b6e9aaba1d07ea5a7fd8adae4062089da0f27f8abdc078246f7e49f594d5861",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sl-SI",
-            "name": "The Sea Blue Edition",
-            "flavor": "Juneberry",
-            "description": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-sea-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sl-SI",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with the fresh taste of watermelon.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:sl-SI",
-            "name": "The Spring Edition",
-            "flavor": "Cherry-Sakura",
-            "description": "Red Bull Spring Edition with cherry taste, notes of almond and cherry blossom.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-spring-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sl-SI",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero sugar. 100% Wings.",
-            "product_url": "https://www.redbull.com/zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:783cad29-d07d-4cf5-9229-7a78b80759ee:sl-SI",
-            "name": "The Ice Edition",
-            "flavor": "Iced Vanilla-Berry",
-            "description": "The Red Bull Ice Edition has the taste of blueberries and vanilla, with a hint of eucalyptus.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-ice-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:7fb8538f-2111-4fa9-9c59-6297145e92bd:sl-SI",
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "description": "Red Bull Apricot Edition offers the ideal mixture of apricot and strawberry with a taste of peach.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-apricot-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sl-SI",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and those on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:sl-SI",
-            "name": "The Blue Edition",
-            "flavor": "Blueberry",
-            "description": "Red Bull Blue Edition. The classic, with the juicy taste of blueberry.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sl-SI",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sl-SI",
-            "name": "The Yellow Edition",
-            "flavor": "Tropical Fruits",
-            "description": "Red Bull Yellow Edition. Let the exotic taste of tropical fruits surprise you.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-yellow-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sl-SI",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition offers the taste of white peach with a hint of citrus peel and floral notes.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-peach-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:sl-SI",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry-Sakura",
-            "description": "The Spring Edition Sugarfree with cherry taste, notes of almond and cherry blossom.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-spring-edition-sugarfree"
-        }
-    ],
+    "_raw_hash": "36c71d22dcf457e4e604038ad82dd5ef06af20058883b04b7db529cdaebfb124",
+    "_translated_editions": [],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sl-SI": "8016d66d5947c06ad8bee0fd9f8a7fdc1f8b40c651ff480f27089ea523393ffb",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sl-SI": "b01178fa92a13e467d6c82fa5480f7748518f8dc0dc02c2959c82a7861aa6b70",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:sl-SI": "2a24ad94dedc6b0a6f1a63c73de935bbbf9d003952bad9d9b10c9a8f9be0a001",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sl-SI": "21f1ac5f99fddc3ed8668913cfa0d6e7140dff13784cdd5767d3ba6b00f7d55e",
@@ -225,12 +129,6 @@
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:sl-SI": "dd5c125412590d7c8a570a13bcc2fcd26cbd84a1c5227c26fb5429ff95701ad4"
     },
     "_normalized_editions": {
-        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sl-SI": {
-            "name": "The Sea Blue Edition",
-            "flavor": "Juneberry",
-            "flavor_description": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry",
-            "sugarfree": false
-        },
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sl-SI": {
             "name": "The Red Edition",
             "flavor": "Watermelon",
