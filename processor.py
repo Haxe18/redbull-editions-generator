@@ -1572,6 +1572,20 @@ class RedBullDataProcessor:
                 search = correction.get("search")
                 replace = correction.get("replace")
 
+                # Skip global correction if a locale-specific correction for the
+                # same UUID+field was already applied to this edition
+                is_global = ":" not in correction_id
+                if is_global:
+                    locale_specific_applied = any(
+                        key.startswith(f"{uuid_only}:") and f":{field}:" in key
+                        for key, val in self.corrections_tracking.items()
+                        if val.get("applied")
+                        and key.split(":")[0] == uuid_only
+                        and val.get("field") == field
+                    )
+                    if locale_specific_applied:
+                        continue
+
                 # Map the field name if needed
                 actual_field = field_mapping.get(field, field)
 

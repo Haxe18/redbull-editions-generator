@@ -175,6 +175,12 @@
             "replace": "Cherry & Wild Berries"
         },
         {
+            "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
+            "field": "flavor",
+            "search": "Strawberry and apricot",
+            "replace": "Strawberry & Peach"
+        },
+        {
             "id": "f900c5b7-d33e-4a8e-a186-5cee5bd291a1",
             "field": "flavor",
             "search": "Strawberry and apricot",
