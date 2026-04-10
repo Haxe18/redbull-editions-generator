@@ -157,6 +157,15 @@ python -m py_compile collector.py processor.py
 - Enhanced debug mode with detailed cache statistics ("X cached, Y need translation")
 - Force reprocess option properly respected for single country processing
 
+### Energy Drink Protection (collector.py)
+- **Hard Protection**: The base "Energy Drink" edition can **never** disappear from raw data
+  - Applied in `_save_country_data()` before writing the raw file
+  - If the API stops returning the base edition, it is unconditionally re-injected from the previous raw file
+  - Logged with `🛡️` prefix: `Protected: 'Energy Drink' disappeared from API for X — retaining from previous raw data`
+  - Protects at the earliest point in the pipeline so all downstream processing (Gemini, processor, final JSON) sees the edition naturally
+  - **Why**: Red Bull APIs occasionally omit the base product (e.g. Azerbaijan lost it in 2026-03 while the product still exists)
+  - **Why collector and not processor**: The processor has no raw data (UUID, image URL `{op}` template, GraphQL data) to re-inject a missing edition — it can only work with what the raw file contains
+
 ### Error Handling & Recovery (processor.py)
 - **API Key Expiration Detection**:
   - Detects "expired" in Gemini API error messages

@@ -12,6 +12,7 @@ Automated data collector and processor for Red Bull Energy Drink editions worldw
 - 🌐 Intelligent language prioritization (English > German/Dutch > Others)
 - 🔄 Parallel processing with threading (3 concurrent workers)
 - 📊 Change detection to minimize API calls and unnecessary commits
+- 🛡️ Base "Energy Drink" edition protected against accidental API omissions
 - 🛡️ Conservative rate limiting with random delays (1.0-2.5s)
 - 📝 Manual corrections system for data overrides
 - 💾 Efficient caching of raw data with intelligent per-edition cache invalidation
@@ -28,7 +29,7 @@ collector.py  →  raw data  →  processor.py  →  final JSON
 
 ### Components
 
-1. **collector.py**: Production-ready data collector
+1. **collector.py**: Production-ready data collector with base edition protection
    - **Architecture**: Clean separation of concerns with dataclasses and NamedTuples
    - **HTTP**: Session pooling with automatic retry strategy (exponential backoff)
    - **Multi-language**: Merges editions from multiple language versions per country
@@ -39,6 +40,7 @@ collector.py  →  raw data  →  processor.py  →  final JSON
    - **Logging**: Structured logging with appropriate levels
    - **Configuration**: Externalized config with frozen dataclass
    - **Type Safety**: Full type hints throughout the codebase
+   - **Energy Drink Protection**: Base edition re-injected from previous raw file if API drops it (logged with 🛡️)
 
 2. **processor.py**: Advanced data processor with AI normalization
    - **Independent Operation**: Works directly with raw files, no collection dependency
@@ -54,6 +56,7 @@ collector.py  →  raw data  →  processor.py  →  final JSON
    - Enhanced debug mode with cache hit/miss reporting
    - Force reprocess option properly respected for single country processing
    - Comprehensive docstrings for 40+ methods and all Pydantic models
+   - Force reprocess option properly respected for single country processing
 
 ## ⚙️ Setup
 

@@ -913,6 +913,41 @@ class RedBullDataCollector:
             ),
         )
 
+        # Save to file
+        raw_file = self.raw_dir / f"{primary_domain}.json"
+
+        # Hard protection: Energy Drink must NEVER disappear from raw data.
+        # If the API stops returning it (as happened with Azerbaijan in 2026-03),
+        # retain the previous raw edition so the full pipeline sees it normally.
+        if raw_file.exists():
+            with open(raw_file, "r", encoding="utf-8") as fh:
+                existing_raw = json.load(fh)
+            old_energy_drink = next(
+                (
+                    e
+                    for e in existing_raw.get("editions", [])
+                    if e.get("header_data", {}).get("content", {}).get("title")
+                    == "Energy Drink"
+                ),
+                None,
+            )
+            new_has_energy_drink = any(
+                e.get("header_data", {}).get("content", {}).get("title") == "Energy Drink"
+                for e in stable_merged_editions
+            )
+            if old_energy_drink and not new_has_energy_drink:
+                self.logger.warning(
+                    "🛡️ Protected: 'Energy Drink' disappeared from API for %s — retaining from previous raw data",
+                    country_name,
+                )
+                stable_merged_editions.append(old_energy_drink)
+                stable_merged_editions.sort(
+                    key=lambda e: (
+                        e.get("id", ""),
+                        e.get("header_data", {}).get("content", {}).get("title", ""),
+                    )
+                )
+
         country_raw_data = {
             "locale_info": {
                 "country_name": country_name,
@@ -922,9 +957,6 @@ class RedBullDataCollector:
             "editions": stable_merged_editions,
             "collection_timestamp": datetime.now(timezone.utc).isoformat(),
         }
-
-        # Save to file
-        raw_file = self.raw_dir / f"{primary_domain}.json"
 
         # Check for changes
         has_changed = True
