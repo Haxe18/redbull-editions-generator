@@ -24,22 +24,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PH.svg",
     "_raw_hash": "432b330586de188432868f6ad7ab224aa552bec6ffa82ad739050dcc2d59f8a2",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/ph-en/energydrink/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/ph-en/energydrink/red-bull-sugarfree"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": "58746d7295c4df8eb0575677420e104463bf273477f3cd041c4d702e0656af9d",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH": "24bd11c805d8d07664d4c1d08d844db790562926d272c6b1eaf3fb184d686074"

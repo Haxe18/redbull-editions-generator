@@ -54,43 +54,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AR.svg",
     "_raw_hash": "9a9f1ab0c72437813069921c9f3386d823d753329e9005b9b3009f61cc48ba40",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with the taste of Watermelon. With all the freshness of summer.",
-            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-AR",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-AR",
-            "name": "The Winter Edition",
-            "flavor": "Iced Vanilla Berry",
-            "description": "Red Bull Winter Edition with the exceptional taste of blueberries, vanilla and fresh eucalyptus notes.",
-            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-winter-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-AR",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-AR",
-            "name": "The Green Edition",
-            "flavor": "Dragon fruit",
-            "description": "Red Bull Green Edition with the exotic taste of Dragon fruit.",
-            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-green-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR": "5b3f0c504c4a2f207f406600fa16b9697c0966f790d17d45fc55bbc18454cb1c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-AR": "1dbe238a06a689d3ede99373f0e5d55cdad67c802990d37418ad101849c94d94",

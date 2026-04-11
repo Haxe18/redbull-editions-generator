@@ -94,71 +94,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-LT.svg",
     "_raw_hash": "f7cac4a26427631feec40f34f39899861bcd5349882907fe3b000f3a2c47a7b9",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:lt-LT",
-            "name": "The White Edition",
-            "flavor": "Coconut",
-            "description": "Prepare for a special taste experience! This is the Red Bull White Edition with an exotic coconut and rich blueberry taste.",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-white-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:lt-LT",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "The fresh watermelon taste of Red Bull Red Edition. Pink freshness reminiscent of warm lands and time-tested energy.",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:lt-LT",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero calories, 100% Wings.",
-            "product_url": "https://www.redbull.com/zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:7fb8538f-2111-4fa9-9c59-6297145e92bd:lt-LT",
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "description": "Red Bull Apricot Edition tempts with a perfect combination of apricot and strawberry, complemented by a hint of peach.",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-apricot-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:lt-LT",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull is appreciated by top athletes, busy professionals, university students and travelers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:lt-LT",
-            "name": "The Blue Edition",
-            "flavor": "Blueberry",
-            "description": "Red Bull Blue Edition. The classic with a pleasant blueberry taste.",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:lt-LT",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple",
-            "description": "The taste of the new Red Bull Winter Edition is juicy Fuji apples with a gently warming ginger hint.",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-winter-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:lt-LT",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is the same Red Bull, just without sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:lt-LT",
-            "name": "The Yellow Edition",
-            "flavor": "Tropical",
-            "description": "Red Bull Yellow Edition. Let the exotic tropical fruit taste surprise you!",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-yellow-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:lt-LT": "5609cf00d4677c076bbc437d55dc9dd249ea82818ba8ab8c1cfaf853212ccd06",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:lt-LT": "22e1021c3b523de9b9ac2be46482ea17032a7b798245a6ad5ed3d4cb079ce622",

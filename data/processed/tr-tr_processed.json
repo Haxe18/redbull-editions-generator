@@ -94,15 +94,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
     "_raw_hash": "b1d521181cf8e960aab44719b3d8a99c5492cacbbda8a1884f2674de0b997b26",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Red Bull Zero Energy Drink: Gives you wings even with zero calories.",
-            "product_url": "https://www.redbull.com/tr-tr/energydrink/red-bull-zero"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:tr-TR": "0bb3860512ebc16bbc5950ca9217daa8f2977dd6d9f28127208597857942715b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:tr-TR": "ed4e364913ae2435df82639358d4e402c676492316f4b1069cad3e80ff95572d",

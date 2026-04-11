@@ -44,36 +44,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
     "_raw_hash": "1d74803906525c49237261fbffeb64856504514256418bb867564504ce13ded8",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and long-distance travelers.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar. Red Bull Sugarfree is the sugar-free version of Red Bull Energy Drink.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:zh-HK",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "Sweet white peach taste, radiating a light and fresh citrus peel and floral aroma.",
-            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-peach-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK",
-            "name": "The Purple Edition",
-            "flavor": "Acai Berry",
-            "description": "Red Bull Purple Edition instantly bursts with the unique and tempting taste of giant grapes, with a sweet and sour flavor that hits your taste buds.",
-            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": "dcfd2b3a164e09741f9c27a461520fd3afecfaed6c648e58c73fa88429969f1a",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK": "79014c77e00161a6e75ec92af184d7221fd5657b4e96ebacb9a2d6073e34960f",

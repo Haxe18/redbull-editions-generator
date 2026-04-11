@@ -14,15 +14,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DZ.svg",
     "_raw_hash": "ca922c8101a01d5730fd7052114a90a67b618a7ca750adb0d28aa2be978c0842",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by athletes, students, and highly demanding professionals as well as those on long journeys.",
-            "product_url": "https://www.redbull.com/dz-fr/energydrink/red-bull-energy-drink"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ": "52ba48c550c73a272b4255c5cfa2c5a0df5212b27bfcfd5d84329d1fc391af15"
     },

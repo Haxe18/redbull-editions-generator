@@ -23,8 +23,8 @@
         },
         {
             "name": "The Cereja Edition",
-            "flavor": "Cherry & Wild Berries",
-            "flavor_description": "A drink with the extraordinary taste of Cherry and Wild Berries",
+            "flavor": "Juneberry",
+            "flavor_description": "The Red Bull Cereja Edition with the extraordinary taste of Juneberry and Forest Fruits",
             "sugarfree": false,
             "color": "#0072ce",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/29/djogy8xubw6jeyoqltnw/red-bull-summer-edition-image",
@@ -114,7 +114,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Strawberry & Peach",
-            "flavor_description": "The perfect mix of Peach and Strawberry flavors",
+            "flavor_description": "The Red Bull Pêssego Edition features the perfect blend of Strawberry and Peach taste, highlighting the best of each",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/29/swflluxzhve4nenljueo/red-bull-pessego-edition-image",
@@ -124,11 +124,26 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BR.svg",
     "_raw_hash": "3b50bbd586d370de9b95b14bd4418c8549718de984d4532743a6f1e33e8dcd91",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:pt-BR",
+            "name": "Cereja Edition",
+            "flavor": "Juneberry",
+            "description": "The Red Bull Cereja Edition with the extraordinary taste of Juneberry and forest fruits.",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-cereja-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
+            "name": "Pêssego Edition",
+            "flavor": "Strawberry & Peach",
+            "description": "The Red Bull Pêssego Edition features the perfect blend of strawberry and peach taste, highlighting the best of each.",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-apricot-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR": "6dc3e636b502ee98fa8a82f8366c986ebd52831dd0e60070d7ccf4d11ab94b7a",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-BR": "d97c91bb1a4608e3fa8838685ed4de255b3a945a2757788c623c293d7ced56c3",
-        "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:pt-BR": "3fb9ee1b93719113e4914bcc67f20bf6d8657af1f329119b24f9a9727e4791d7",
+        "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:pt-BR": "e70d4de064bdd1550552cd3eff67485e5460a059ac7a9c2f2d70e0dd203d76a9",
         "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:pt-BR": "4a94baba44e1874107331554678fa43dbe0de080a7b7120e9b230b98512954a1",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pt-BR": "6c20407bb97bf49fb17439dc5811019077a91351cdbbf18515def303fed72090",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pt-BR": "2c97b4032cab6c5e3f3903138f07d875a5e9f16b60276577c67202195c38e9d7",
@@ -154,8 +169,8 @@
         },
         "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:pt-BR": {
             "name": "The Cereja Edition",
-            "flavor": "Cherry & Wild Berries",
-            "flavor_description": "A drink with the extraordinary taste of Cherry and Wild Berries",
+            "flavor": "Juneberry",
+            "flavor_description": "The Red Bull Cereja Edition with the extraordinary taste of Juneberry and Forest Fruits",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:pt-BR": {
@@ -209,7 +224,7 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR": {
             "name": "The Apricot Edition",
             "flavor": "Strawberry & Peach",
-            "flavor_description": "The perfect mix of Peach and Strawberry flavors",
+            "flavor_description": "The Red Bull Pêssego Edition features the perfect blend of Strawberry and Peach taste, highlighting the best of each",
             "sugarfree": false
         }
     }

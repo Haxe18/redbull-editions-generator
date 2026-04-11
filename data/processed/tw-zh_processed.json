@@ -54,43 +54,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TW.svg",
     "_raw_hash": "fb5ad4b12fc8d4af300c472b828dddc1a7147822a5216ce9c68994d64de279fa",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:zh-TW",
-            "name": "The Pink Edition Sugarfree",
-            "flavor": "Forest Fruits",
-            "description": "Red Bull Pink Edition Forest Fruits taste sugarfree energy drink",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-TW",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, busy professionals and long-distance travelers.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-TW",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Energy Drink Sugarfree is the sugarfree version of Red Bull Energy Drink.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:zh-TW",
-            "name": "The Green Edition",
-            "flavor": "Dragon fruit",
-            "description": "Giving you a pair of dragon fruit taste Wings.",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-TW",
-            "name": "The Purple Edition",
-            "flavor": "Acai Berry",
-            "description": "Red Bull Purple Edition grape taste energy drink",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-purple-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:zh-TW": "ec719a314fc726247bdb9645392f0faabf20f0d790c854ff121f475e1f0476b4",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-TW": "59ff74aca95cc4a3bd4eeb230743f59280b9ff054f21fbb3addd45eb4a951501",

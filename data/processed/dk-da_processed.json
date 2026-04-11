@@ -114,22 +114,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DK.svg",
     "_raw_hash": "a8e6d205c694091afa0ad2185fb70c2998bcedb9a3656dc5494215abeb03c8be",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:da-DK",
-            "name": "The White Edition",
-            "flavor": "Cherry Sakura",
-            "description": "Red Bull White Edition with the taste of cherry sakura.",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-white-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:da-DK",
-            "name": "The White Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "description": "The Red Bull White Edition Sugarfree with the taste of cherry sakura.",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-white-edition-sugarfree"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:da-DK": "1b9ee1ad39f48eb78d2ab67cd38d28e480ddddcaabf955f31b3d49347dd37fb4",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:da-DK": "292b442c453aefe562483eaed5d478c096b1e1c079f8b0aa1fa15c58a1512f9c",

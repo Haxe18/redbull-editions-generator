@@ -34,7 +34,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "The Red Bull Apricot Edition with the taste of Apricot and Strawberry",
+            "flavor_description": "The Red Bull Apricot Edition with the refreshing taste of Apricot and Strawberry",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/8/gsdszu3du4hvwm1d7eyt/the-amber-edition-image",
@@ -48,7 +48,7 @@
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-KE",
             "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
+            "flavor": "Strawberry and apricot",
             "description": "The Red Bull Apricot Edition with the taste of apricot and strawberry.",
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-apricot-edition"
         }
@@ -57,7 +57,7 @@
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-KE": "1ea5d270cf00dcd8e2c1bdd57b3560a247bd270a96ed86ce110525e6582c202c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-KE": "967d300a73476ccd8be322088931e5143173e37779a3b65aa6985d153af67ca5",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-KE": "e17880e2ae2195dfecee6fb400a8518028940504f0d26a6e9897219ca9989350",
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-KE": "0355ec67a27fd8b558eab9ee5b03942d1d53d72ee06d08b0d8914a2f756fc8e5"
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-KE": "9da2bc9cd858029731a6be49dec4fd73c8ec611f3323aca78abe6d104cf0827b"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-KE": {
@@ -81,7 +81,7 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-KE": {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "The Red Bull Apricot Edition with the taste of Apricot and Strawberry",
+            "flavor_description": "The Red Bull Apricot Edition with the refreshing taste of Apricot and Strawberry",
             "sugarfree": false
         }
     }

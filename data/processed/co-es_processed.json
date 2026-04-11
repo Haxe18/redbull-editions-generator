@@ -34,29 +34,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CO.svg",
     "_raw_hash": "0a9c8e8ee68723f82306a04a5c45ad5f59ef4f99307e17ba21b35dce18fa6fd3",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CO",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with the fresh taste of watermelon.",
-            "product_url": "https://www.redbull.com/co-es/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CO",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/co-es/energydrink/products/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-CO",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/co-es/energydrink/products/red-bull-sugarfree"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CO": "b5b9d6675b6385c7f05239fd20ac98ff4e344afcaa7286eed7449d3fb1e5b69b",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CO": "aca5a558f4709015dc526eb6d1f1b12abbad1d4f1887ae8d20eeba1fafe52317",

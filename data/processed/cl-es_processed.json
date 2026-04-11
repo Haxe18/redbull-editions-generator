@@ -94,15 +94,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CL.svg",
     "_raw_hash": "41d8fcd20ed33a1c22c2516ca8e2899c5c0772e679dfdc566bfb68e8aae677c0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-CL",
-            "name": "The Pomelo Edition Sugarfree",
-            "flavor": "Pomelo",
-            "description": "One of your favorite flavors is back to stay. Red Bull Pomelo Edition without sugar mixes the taste of pomelo with subtle floral notes. 100% Wings, without sugar.",
-            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-pomelo-edition-sugarfree"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CL": "1e5af275968c651e63dc21357f0f42b4a04f904bab5ad00ce41937457abae2c0",
         "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-CL": "92d017acee48fb42238b0871b9124303a31e4b4f6692ef86dd9491a64c015b58",

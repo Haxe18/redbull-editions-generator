@@ -44,36 +44,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SG.svg",
     "_raw_hash": "8d14c5d42282597271320c9d84c083b9f1a4a185520248485298f1b39f435c16",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:en-SG",
-            "name": "The Peach Edition Sugarfree",
-            "flavor": "White Peach",
-            "description": "The Red Bull Peach Edition Sugarfree Energy Drink offers the taste of white peach, a touch of citrus peel and floral notes – all with no sugar.",
-            "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-peach-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-SG",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "In the Little Red Dot where ambition never sleeps, Red Bull Energy Drink powers those who push boundaries. Appreciated worldwide by top athletes, students, and professionals in fast-paced industries.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-SG",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-SG",
-            "name": "The Purple Edition",
-            "flavor": "Kyoho grape",
-            "description": "The Red Bull Purple Edition gives you Wings with the taste of Kyoho grape.",
-            "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-purple-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:en-SG": "b10ef17fc6ad0ea97e006e950e3c4abaee7be49b25f4cd203b5291889e1c07ab",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-SG": "394a50e14ef26146f9265f5c85dd4486dead5e0960edf4d8ce7adc25d29e3437",

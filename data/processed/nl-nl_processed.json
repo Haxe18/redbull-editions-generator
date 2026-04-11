@@ -114,7 +114,15 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NL.svg",
     "_raw_hash": "5a45504c7f46b42cc9d4e5b25bc7962ccdbbd067b0f12590539a9d1896414b47",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-NL",
+            "name": "The Apricot Edition",
+            "flavor": "Strawberry-Apricot",
+            "description": "Discover the Red Bull Apricot Edition with the fruity taste of apricot-strawberry",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/red-bull-apricot-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-NL": "5f15d837353fa19e4ae9d553d613e601e7f062671985169a696478665026f4c4",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:nl-NL": "7170af1279d9c9198eaa950557e968c5fc9ac22676f159d2af4e34ab86359e5a",
@@ -126,7 +134,7 @@
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:nl-NL": "0828f094e0bb0c47df79b3e135509b9ed7a28f7fc45b31d80c9d2feaa10b37fd",
         "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:nl-NL": "35e5dbf1de2052f833fa16496fe32bcd9fa69b6bce6efb8948b8b3e07a3136f7",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:nl-NL": "7f27416b5ff6b70c7fcbc4c3cb5a597eca4b09e329203a4e3946aa5152a956f1",
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-NL": "3a8a7905a5f3ebef60bcb9d4dc170bbc06c13099eb36e270b82eedc8c9f91e1a"
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-NL": "fa13a5d7377997b968d788fdbad826e9d4a85cace7b10bf49b09874c1833de9c"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-NL": {

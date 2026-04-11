@@ -54,43 +54,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
     "_raw_hash": "1f9b38f0b84c53aa7a95c2f8c4032fee02e69a02d5b5eee2fe49659097c810ab",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
-            "name": "The Cherry Edition",
-            "flavor": "Cherry",
-            "description": "Red Bull Cherry Edition is now available in a cherry taste!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travelers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Energy Drink Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
-            "name": "The Purple Edition",
-            "flavor": "Kyoho Grape",
-            "description": "A new addition from Red Bull, Kyoho grape taste Wings!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
-            "name": "The Green Edition",
-            "flavor": "Muscat",
-            "description": "Red Bull with muscat taste, back again!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": "7929c4b3f3e266d5a603b19942e854a8c713ecf0bb3872c5140d40f1429ea87c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": "038f531a7ef4c07fc89d8040cade4dbb949251731c65fc181b8310ec9fe07d23",

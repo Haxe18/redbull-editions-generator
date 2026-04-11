@@ -54,7 +54,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "A perfect blend of Apricot and Strawberry flavors with a subtle hint of Peach",
+            "flavor_description": "A refreshing blend of Apricot and Strawberry with a subtle hint of Peach",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/pcdzyw5csf8jibka5fs9/red-bull-apricot-edition-image",
@@ -66,44 +66,9 @@
     "_raw_hash": "a580b5548a00a49a652b14d6394c6e4b7ba80cc31cc79d1dc17daa74e1758085",
     "_translated_editions": [
         {
-            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA",
-            "name": "The Blue Edition",
-            "flavor": "Juneberry",
-            "description": "The Red Bull Blue Edition with the extraordinary taste of Juneberry",
-            "product_url": "https://www.redbull.com/za-en/energydrink/red-bull-blue-edition-juneberry"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-ZA",
-            "name": "The Xero Edition",
-            "flavor": "Xero",
-            "description": "New flavour, 100% Wings",
-            "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-xero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-ZA",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-ZA",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-ZA",
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "description": "Wings for your summer: The Red Bull Summer Edition Energy Drink with the taste of white peach, a touch of citrus peel and floral notes.",
-            "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-ZA",
             "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
+            "flavor": "Strawberry and apricot",
             "description": "The Red Bull Apricot Edition offers the perfect blend of apricot and strawberry with a touch of peach taste.",
             "product_url": "https://www.redbull.com/za-en/energydrink/red-bull-apricot-edition"
         }
@@ -114,7 +79,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-ZA": "2ad0595497e4fc05062c1bad81429e183d79589f16b6d16838cf0a22f767c036",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-ZA": "081ed6bef415ba94802f1f746980e87e8b0d90c10d10ff53676d22cfdadd362f",
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-ZA": "ec4283955b0ee042c0d7b4fbac6b2d41b91f2473c9ec60555a376674cc23ad29",
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-ZA": "4c20c455502ad420071c03caf935235757da35fac45ac56a83e81d7486bb9362"
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-ZA": "11a26b35d45ceb9d8d175540429332e10247df3e6df523d87aef7bc5606fabab"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA": {
@@ -150,7 +115,7 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-ZA": {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "A perfect blend of Apricot and Strawberry flavors with a subtle hint of Peach",
+            "flavor_description": "A refreshing blend of Apricot and Strawberry with a subtle hint of Peach",
             "sugarfree": false
         }
     }

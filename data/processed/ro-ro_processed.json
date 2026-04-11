@@ -84,64 +84,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RO.svg",
     "_raw_hash": "6e8222ff22afe375a206cb983c783098912d3d06c15ec83eab64b449272e04a2",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO",
-            "name": "The Blue Edition",
-            "flavor": "Blueberry",
-            "description": "Red Bull Blueberry with a refreshing taste of Canadian blueberry",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-afine-canadiene"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO",
-            "name": "The Pink Edition Sugarfree",
-            "flavor": "Forest Fruits",
-            "description": "Red Bull Forest Fruits without sugar: energy drink with a delicious taste of forest fruits.",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-fructe-de-padure-fara-zahar"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ro-RO",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull with a fresh taste of watermelon. For your summer.",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-pepene-rosu"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:ro-RO",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero calories, 100% Wings",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ro-RO",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, as well as in demanding professions and during long hours of driving.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ro-RO",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink, but without sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:ro-RO",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "description": "Red Bull Spring without sugar with tastes of cherry and sakura.",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-primavara-fara-zahar"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:ro-RO",
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "description": "The energy drink that combines delicious tastes of apricot and strawberry with a touch of peach taste.",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-caise-si-capsuni"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO": "8374fd6e653d96ecfb8f139b8653bba6c674591d8411a552e66435f605ab884e",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO": "6e530951f9640791cb2281a630eaf683fcfcd93795a8a808d05b0147f49344c0",

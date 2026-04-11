@@ -104,7 +104,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "A perfect blend of Apricot and Strawberry flavors with a delicate touch of Peach",
+            "flavor_description": "Red Bull Apricot Edition offers a perfect blend of Apricot and Strawberry with a subtle hint of Peach",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/cg71irc4dcpmjlmtblna/red-bull-apricot-edition-image",
@@ -114,7 +114,15 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SK.svg",
     "_raw_hash": "4c1ce0c3bfda90a72ddfde05538e255716e0bc6276e4b9b424beb4308ac1834f",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:sk-SK",
+            "name": "The Apricot Edition",
+            "flavor": "Strawberry and apricot",
+            "description": "Red Bull Apricot Edition offers a perfect blend of apricot and strawberry with a subtle hint of peach.",
+            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-apricot-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sk-SK": "5e5781ffda8bf8cf958e4a134406b00c2f4bea530d0e31804951a5f398d00409",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:sk-SK": "83186c15c7fb032c90bd5b7e1fc708f378cc35ff41bcdc4e5adbcc123cdad634",
@@ -126,7 +134,7 @@
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sk-SK": "f34206520d52af669d2822c7ab7869f8be561641a5f13552ea0865be160c633e",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sk-SK": "15785d088eb4aeab743879e1fcb070198476c4769b2ec1cabe52fccae36d6a48",
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:sk-SK": "bee2737adb6b045300d52f335713fb9613ffd2449b198bec956da69e9ebda309",
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:sk-SK": "5c32acb7ab5ca5f79c63d3991e4b7f1d7256ccfc27c850c31df897b86183f7c3"
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:sk-SK": "c2b4fd10e9b53a364fc6f21d88fd0d9e28596c615bd4fc92291505f860e636a1"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sk-SK": {
@@ -192,7 +200,7 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:sk-SK": {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "A perfect blend of Apricot and Strawberry flavors with a delicate touch of Peach",
+            "flavor_description": "Red Bull Apricot Edition offers a perfect blend of Apricot and Strawberry with a subtle hint of Peach",
             "sugarfree": false
         }
     }
