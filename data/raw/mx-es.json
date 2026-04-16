@@ -227,6 +227,75 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:es-MX",
+            "header_data": {
+                "content": {
+                    "title": "Red Bull Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/yjzeiysq1ugvdk1zkt0z/red-bull-summer-edition-mexico-2025",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#EF7916",
+                                    "percentage": 9.6
+                                },
+                                {
+                                    "hexColorCode": "#F1860F",
+                                    "percentage": 8.2
+                                },
+                                {
+                                    "hexColorCode": "#DAE4EC",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#F4A64D",
+                                    "percentage": 2.6
+                                },
+                                {
+                                    "hexColorCode": "#F09A50",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#C4CCD6",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#090909",
+                                    "percentage": 1.6
+                                },
+                                {
+                                    "hexColorCode": "#F1EEEB",
+                                    "percentage": 1.4
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition Mexico"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/mx-es/energydrink/red-bull-summer-edition2025"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Durazno y fresa",
+                    "standfirst": "Nuevo Red Bull Summer Edition con el sabor exótico de durazno y fresa",
+                    "brandingHexColorCode": "#6cc24a",
+                    "image": {
+                        "altText": "Red Bull Summer Edition Mexico",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/21/yjzeiysq1ugvdk1zkt0z/red-bull-summer-edition-mexico-2025"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/mx-es/energydrink/red-bull-summer-edition2025"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:es-MX",
             "header_data": {
                 "content": {
@@ -304,5 +373,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:16:16.053057+00:00"
+    "collection_timestamp": "2026-04-16T07:14:17.696657+00:00"
 }

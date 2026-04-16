@@ -178,7 +178,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/tr-tr/energydrink/red-bull-zero"
+                    "externalUrl": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-zero"
                 }
             },
             "graphql_data": {
@@ -193,7 +193,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/tr-tr/energydrink/red-bull-zero"
+                        "externalUrl": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-zero"
                     }
                 }
             }
@@ -565,5 +565,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-08T07:08:43.562175+00:00"
+    "collection_timestamp": "2026-04-16T07:21:03.061738+00:00"
 }

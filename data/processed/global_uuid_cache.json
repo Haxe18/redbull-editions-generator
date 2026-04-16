@@ -3486,10 +3486,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR": {
-        "fingerprint": "fa559425f9320a6c4abf008f617dd529eeb24f39dc027c3ec105a3af96c32f41",
+        "fingerprint": "af567d5a5bb535cd7b0ec6d02843ecffd0c0b06811bc2df87f78d527b9b4beec",
         "name": "Energy Drink Zero",
         "flavor": "Zero Sugar",
-        "flavor_description": "Red Bull Zero Energy Drink provides the same wings as the original, but with zero sugar and zero calories",
+        "flavor_description": "Red Bull Zero Energy Drink provides wings with no calories",
         "sugarfree": true
     },
     "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL": {
@@ -3539,6 +3539,13 @@
         "name": "Energy Drink",
         "flavor": "Energy Drink",
         "flavor_description": "Red Bull Energy Drink is a beverage appreciated by world-class athletes, busy professionals, students, and travelers on long journeys",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:es-MX": {
+        "fingerprint": "dd6700827d7c97616058b87fe990d5c721e36b0bcf2c8ea223855c2ccc772f24",
+        "name": "The Summer Edition",
+        "flavor": "Strawberry & Peach",
+        "flavor_description": "New Red Bull Summer Edition with the exotic taste of Peach and Strawberry",
         "sugarfree": false
     }
 }

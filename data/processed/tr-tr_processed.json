@@ -24,12 +24,12 @@
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "Red Bull Zero Energy Drink provides the same wings as the original, but with zero sugar and zero calories",
+            "flavor_description": "Red Bull Zero Energy Drink provides wings with no calories",
             "sugarfree": true,
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/7/ogncd7eceazpzteco7g6/red-bull-zero-energy-drink",
             "alt_text": "Red Bull Zero Energy Drink",
-            "product_url": "https://www.redbull.com/tr-tr/energydrink/red-bull-zero"
+            "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-zero"
         },
         {
             "name": "Energy Drink",
@@ -93,12 +93,20 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
-    "_raw_hash": "b1d521181cf8e960aab44719b3d8a99c5492cacbbda8a1884f2674de0b997b26",
-    "_translated_editions": [],
+    "_raw_hash": "36a7bce43ee080b6fafbd40f237a9918f4927fb3310c8c8660fa1235be5c2839",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "description": "Red Bull Zero Energy Drink: Gives you wings with zero calories.",
+            "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-zero"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:tr-TR": "0bb3860512ebc16bbc5950ca9217daa8f2977dd6d9f28127208597857942715b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:tr-TR": "ed4e364913ae2435df82639358d4e402c676492316f4b1069cad3e80ff95572d",
-        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR": "fa559425f9320a6c4abf008f617dd529eeb24f39dc027c3ec105a3af96c32f41",
+        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR": "af567d5a5bb535cd7b0ec6d02843ecffd0c0b06811bc2df87f78d527b9b4beec",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:tr-TR": "f961bb9575cba66994bf5573240f8408a9ef9b4dd98143d56fef62e6d433a1d7",
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:tr-TR": "181d89d455b519a1b0111ee835c2076d4dea2a3e623befe05cd2c98421ccf312",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:tr-TR": "57f526d6daefa280ef0f3a248317fce939551e71d0cf70313f3c88ba4c7a9658",
@@ -122,7 +130,7 @@
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR": {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "Red Bull Zero Energy Drink provides the same wings as the original, but with zero sugar and zero calories",
+            "flavor_description": "Red Bull Zero Energy Drink provides wings with no calories",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:tr-TR": {

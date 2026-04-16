@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-04-11T18:55:01.962928+00:00",
+        "collection_date": "2026-04-16T07:22:28.701003+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -350,7 +350,7 @@
                 "mx-es"
             ],
             "flag_code": "MX",
-            "editions_count": 4,
+            "editions_count": 5,
             "data_file": "mx-es.json"
         },
         "Middle East": {
