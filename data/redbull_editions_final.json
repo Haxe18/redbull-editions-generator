@@ -1195,6 +1195,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/z7yhltgxcyzdqhv1nzbc/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
                 "product_url": "https://www.redbull.com/co-es/energydrink/products/red-bull-red-edition"
+            },
+            {
+                "name": "The Yellow Edition",
+                "flavor": "Tropical Fruits",
+                "flavor_description": "The Red Bull Yellow Edition features a refreshing taste of Tropical Fruits",
+                "sugarfree": false,
+                "color": "#FFCD00",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/2/cef5su0w1ejqnut6kxgc/red-bull-yellow-edition-image",
+                "alt_text": "Red Bull Yellow Edition - image",
+                "product_url": "https://www.redbull.com/co-es/energydrink/red-bull-yellow-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CO.svg"
@@ -3411,6 +3421,16 @@
                 "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-apricot-edition"
             },
             {
+                "name": "The Peach Edition",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull Peach Edition offers you true enjoyment with the summer taste of White Peach. Enjoy the taste of summer!",
+                "sugarfree": false,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/16/ixjzqvdrfnd3dzhyhads/red-bull-peach-edition-image",
+                "alt_text": "Red Bull Peach Edition - Image",
+                "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-peach-edition"
+            },
+            {
                 "name": "The Red Edition",
                 "flavor": "Watermelon",
                 "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
@@ -4861,6 +4881,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/7/ogncd7eceazpzteco7g6/red-bull-zero-energy-drink",
                 "alt_text": "Red Bull Zero Energy Drink",
                 "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-zero"
+            },
+            {
+                "name": "The Apple Edition",
+                "flavor": "Fuji Apple & Ginger",
+                "flavor_description": "The Red Bull Apple Edition combines the freshness of Fuji Apple with the warm spice of Ginger",
+                "sugarfree": false,
+                "color": "#AE132D",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/27/qdm3kv8lyckzqgyhjvt3/red-bull-apple-edition-image",
+                "alt_text": "Red Bull Apple Edition - Image",
+                "product_url": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
             },
             {
                 "name": "The Blue Edition",

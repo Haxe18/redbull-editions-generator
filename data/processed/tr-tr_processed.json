@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/tr-tr/energydrink/red-bull-red-edition"
         },
         {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Apple Edition combines the freshness of Fuji Apple with the warm spice of Ginger",
+            "sugarfree": false,
+            "color": "#AE132D",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/27/qdm3kv8lyckzqgyhjvt3/red-bull-apple-edition-image",
+            "alt_text": "Red Bull Apple Edition - Image",
+            "product_url": "https://redbull.com/tr-tr/energydrink/products/red-bull-apple-edition"
+        },
+        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Red Bull Zero Energy Drink provides wings with no calories",
@@ -93,19 +103,12 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
-    "_raw_hash": "36a7bce43ee080b6fafbd40f237a9918f4927fb3310c8c8660fa1235be5c2839",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Red Bull Zero Energy Drink: Gives you wings with zero calories.",
-            "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-zero"
-        }
-    ],
+    "_raw_hash": "f7a7bbfb2f2132cf27860e65ead8425790d1c550f33f6fb3a5255c6e07c243f3",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:tr-TR": "0bb3860512ebc16bbc5950ca9217daa8f2977dd6d9f28127208597857942715b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:tr-TR": "ed4e364913ae2435df82639358d4e402c676492316f4b1069cad3e80ff95572d",
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:tr-TR": "2882170ba07dba4f355ea82a635aaf2498b74f2cd93bdd1dbd2e994f6b21cfa6",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR": "af567d5a5bb535cd7b0ec6d02843ecffd0c0b06811bc2df87f78d527b9b4beec",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:tr-TR": "f961bb9575cba66994bf5573240f8408a9ef9b4dd98143d56fef62e6d433a1d7",
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:tr-TR": "181d89d455b519a1b0111ee835c2076d4dea2a3e623befe05cd2c98421ccf312",
@@ -125,6 +128,12 @@
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "Red Bull Red Edition with Watermelon taste",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:tr-TR": {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Apple Edition combines the freshness of Fuji Apple with the warm spice of Ginger",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:tr-TR": {

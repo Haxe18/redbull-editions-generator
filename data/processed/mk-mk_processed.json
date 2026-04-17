@@ -62,6 +62,16 @@
             "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-summer-edition"
         },
         {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Peach Edition offers you true enjoyment with the summer taste of White Peach. Enjoy the taste of summer!",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/16/ixjzqvdrfnd3dzhyhads/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-peach-edition"
+        },
+        {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
             "flavor_description": "Red Bull Apricot Edition with the pleasant taste of Apricot and Strawberry",
@@ -73,14 +83,14 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-MK.svg",
-    "_raw_hash": "7cf062726254f8a069a1d16be960222c952d15368fd71167ad43d8e72bd1db87",
+    "_raw_hash": "cb48586e0550a210004622611d67d2e61056d39c412f34f108ff49b61b785ded",
     "_translated_editions": [
         {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:mk-MK",
-            "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot Edition with the pleasant taste of apricot and strawberry",
-            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-apricot-edition"
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:mk-MK",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition offers you true enjoyment with the summer taste of white peach. Enjoy the taste of summer!",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-peach-edition"
         }
     ],
     "_edition_fingerprints": {
@@ -90,6 +100,7 @@
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:mk-MK": "055441e36343de10fd844ea892d79a97b817aee0a056135186b775cc4757b2f1",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:mk-MK": "00094f5f31837668909a29b76941d03df85a170a80cfcc2b40012e95de33750c",
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:mk-MK": "af93a9b1292b7f4783a6bf531f83d9f0fbffef1d09f3a51652bdf993e9523a84",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:mk-MK": "dcb84456f8879a73ca19caefc3909e24f90965d4a181b53ed78501192b9f08b8",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:mk-MK": "fafcd8bbc8203e4259c2e4b0a74773efb0325e79e559650fc454e1199f8f581e"
     },
     "_normalized_editions": {
@@ -127,6 +138,12 @@
             "name": "The Summer Edition",
             "flavor": "White Peach",
             "flavor_description": "Is it prepared for summer? Because as you know: Red Bull gives you wings",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:mk-MK": {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Peach Edition offers you true enjoyment with the summer taste of White Peach. Enjoy the taste of summer!",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:mk-MK": {
