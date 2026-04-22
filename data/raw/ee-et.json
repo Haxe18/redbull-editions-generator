@@ -577,22 +577,22 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/17/rjahepesy7f9ohkzdqey/red-bull-peach-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/put4ipvdfkhgfmye9wns/red-bull-peach-edition-image",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#E25C94",
-                                    "percentage": 16.2
+                                    "percentage": 16.4
                                 },
                                 {
-                                    "hexColorCode": "#D22570",
-                                    "percentage": 9.2
+                                    "hexColorCode": "#D22670",
+                                    "percentage": 9.3
                                 },
                                 {
-                                    "hexColorCode": "#D9E5EA",
-                                    "percentage": 5.2
+                                    "hexColorCode": "#D9E4E9",
+                                    "percentage": 5.1
                                 },
                                 {
-                                    "hexColorCode": "#C1C8D3",
+                                    "hexColorCode": "#C0C8D3",
                                     "percentage": 2.4
                                 }
                             ]
@@ -612,7 +612,7 @@
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/17/rjahepesy7f9ohkzdqey/red-bull-peach-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/put4ipvdfkhgfmye9wns/red-bull-peach-edition-image"
                         }
                     },
                     "reference": {
@@ -691,5 +691,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:11:57.012022+00:00"
+    "collection_timestamp": "2026-04-22T07:11:02.693721+00:00"
 }
