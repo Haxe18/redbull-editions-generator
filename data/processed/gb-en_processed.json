@@ -47,7 +47,7 @@
             "flavor_description": "The Red Bull Spring Edition with the taste of cherries, Cherry Blossom and almond notes",
             "sugarfree": false,
             "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/5/u9lysfz8xulgwwizfkqj/spring-edition-2026",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/23/zzgnzf8i3tmgabkyvgo2/spring-edition-2026",
             "alt_text": "Spring Edition 2026",
             "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition"
         },
@@ -193,16 +193,8 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GB.svg",
-    "_raw_hash": "7e868ed8b1db02aa6941189aae64326c0b90b7865ed996e4dcfa2f99b4d0d6dc",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-GB",
-            "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "The Red Bull Apricot Edition offers the perfect blend of apricot and strawberry bringing out the best of each other.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-apricot-edition"
-        }
-    ],
+    "_raw_hash": "2a99d1dc59821a9380339f54203d7129f3c27f42e1069a610300c8532c605418",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-GB": "7ed7e03460e01115edb72c1427bfe2c687b047014f1bc31e6dd4ba559dabfc41",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-GB": "3b46056d144308faa92cf9626ee0862b832d48d9ef4e66d5f586fb9000cbabf0",

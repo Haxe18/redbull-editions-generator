@@ -2,6 +2,16 @@
     "flag": "🇳🇬",
     "editions": [
         {
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "flavor_description": "The Red Bull Red Edition offers the taste of Watermelon",
+            "sugarfree": false,
+            "color": "#e03c31",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/20/t0ocgk2ugkwsgastyqv2/red-bull-red-edition-image",
+            "alt_text": "Red Bull Red Edition - image",
+            "product_url": "https://www.redbull.com/ng-en/energydrink/products/red-bull-red-edition"
+        },
+        {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is a functional beverage designed to give you wings whenever you need them",
@@ -23,13 +33,28 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NG.svg",
-    "_raw_hash": "11792aa89f29523cac7978f18a4914f6388bc4470f81e9564bbad1d69b489bec",
-    "_translated_editions": [],
+    "_raw_hash": "81af340a6b06b56574f42ad7b464151c435360df06451858bf59e62574081a68",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-NG",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "The Red Bull Red Edition offers the taste of watermelon.",
+            "product_url": "https://www.redbull.com/ng-en/energydrink/products/red-bull-red-edition"
+        }
+    ],
     "_edition_fingerprints": {
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-NG": "5d60141c52501b6765c3be3d0e3f8228e965c2650a12e8ae921ed18d84dc4f83",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NG": "3985e390d514e38ce33f5e47e52316bdb3d346c269cbc2e3fa54a5104acd23dd",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NG": "1abf75742e72043e58679716401f93f3a461d4bee5b2e40661fb7866689237e8"
     },
     "_normalized_editions": {
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-NG": {
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "flavor_description": "The Red Bull Red Edition offers the taste of Watermelon",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-NG": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",

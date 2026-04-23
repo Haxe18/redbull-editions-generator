@@ -3561,5 +3561,12 @@
         "flavor": "Tropical Fruits",
         "flavor_description": "Red Bull Yellow Edition features a refreshing taste of Tropical Fruits",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-NG": {
+        "fingerprint": "5d60141c52501b6765c3be3d0e3f8228e965c2650a12e8ae921ed18d84dc4f83",
+        "name": "The Red Edition",
+        "flavor": "Watermelon",
+        "flavor_description": "The Red Bull Red Edition offers the taste of Watermelon",
+        "sugarfree": false
     }
 }
