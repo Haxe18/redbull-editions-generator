@@ -32,6 +32,16 @@
             "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-spring-edition"
         },
         {
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree offers a refreshing taste of Cherry with notes of almond and floral Cherry Blossom. This Edition provides the classic Red Bull energy kick without any sugar",
+            "sugarfree": true,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/rerqahsfsvqr1pm5xqiz/the-cherry-edition-sugarfree",
+            "alt_text": "The Cherry Edition Sugarfree",
+            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-cherry-edition-sugarfree"
+        },
+        {
             "name": "The Ice Edition",
             "flavor": "Iced Gummy Bear",
             "flavor_description": "A unique blend featuring Blueberry, Vanilla, and an icy-fresh eucalyptus note",
@@ -92,6 +102,16 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition features a vibrant flavor profile of sudachi and lime with subtle notes of Pomelo and citrus peel. It is designed to provide energy with a refreshing citrus finish",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/yeothxlz9vaocaw1l4qr/red-bull-summer-edition",
+            "alt_text": "Red Bull Summer Edition",
+            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-summer-edition"
+        },
+        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "A refreshing drink with the taste of White Peach, citrus peel, and delicate floral notes",
@@ -112,14 +132,14 @@
             "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-spring-edition-sugarfree"
         },
         {
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "flavor_description": "A refreshing blend of Apricot and Strawberry with subtle notes of Peach",
-            "sugarfree": false,
-            "color": "#f3911b",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/nu9ic2zsusksvzq23shx/red-bull-apricot-edition-image",
-            "alt_text": "Red Bull Apricot Edition - image",
-            "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-apricot-edition"
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition Sugarfree delivers the same invigorating taste of sudachi and lime with notes of Pomelo and citrus peel without the sugar. It provides wings while maintaining a sugarfree profile",
+            "sugarfree": true,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/ydgvvgflzwviehrk7dax/red-bull-summer-edition-sugarfree",
+            "alt_text": "Red Bull Summer Edition Sugarfree",
+            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-summer-edition-sugarfree"
         },
         {
             "name": "The Lilac Edition Sugarfree",
@@ -130,16 +150,47 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/22/hmcbrtn1xnrsqbqqf6qe/lilac-edition-sugarfree-wildflower-and-pink-grapefruit",
             "alt_text": "Lilac-Edition-Sugarfree Wildflower-and-Pink Grapefruit",
             "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-lilac-edition-sugarfree"
+        },
+        {
+            "name": "The Apricot Edition",
+            "flavor": "Apricot-Strawberry",
+            "flavor_description": "Red Bull Apricot Edition is a balanced blend of sweet Apricot and Strawberry with a subtle hint of Peach. It offers a fruity and refreshing taste experience",
+            "sugarfree": false,
+            "color": "#f3911b",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/nu9ic2zsusksvzq23shx/red-bull-apricot-edition-image",
+            "alt_text": "Red Bull Apricot Edition - image",
+            "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-apricot-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AT.svg",
-    "_raw_hash": "21bd768d43d5967f1dd5cd68722106a4d4d5b0fce2a407e1094bc3bb8238b9ca",
+    "_raw_hash": "9a03cf8c16eef6290643eb6273f0225ad519754822d149a1fef2dfe4ae317a06",
     "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:de-AT",
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Kirsche-Sakura",
+            "description": "Red Bull Cherry Edition Sugarfree gives you Wings with the taste of cherry with notes of almond and floral cherry blossom.",
+            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-cherry-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:de-AT",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Summer Edition gives you Wings with the taste of sudachi, lime and with notes of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-summer-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:de-AT",
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Summer Edition Sugarfree gives you Wings with the taste of sudachi, lime and with notes of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-summer-edition-sugarfree"
+        },
         {
             "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-AT",
             "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "The Red Bull Apricot Edition is the perfect blend of apricot and strawberry with a hint of peach taste.",
+            "flavor": "Apricot-Strawberry",
+            "description": "Red Bull Apricot Edition is the perfect blend of apricot and strawberry with a hint of peach taste.",
             "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-apricot-edition"
         }
     ],
@@ -147,16 +198,19 @@
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-AT": "8d897e6bb010abeab51b0b6b192b73576a2aa17c27c9a13278f519d35f5c0f09",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:de-AT": "674e88efecb9d772fe4fe0fe1807a216ddb14648963f185d2c2d75670a219e24",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:de-AT": "1932be205decf484d350b33fae07b1a2c13fb20ca73a270b22666b697974bd46",
+        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:de-AT": "d4993f8a74bb05c52f068bea723dd54a99dfc08f1766172c876dfb5654e970b4",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-AT": "4ff1bd4ced8d060618534e49cbc3e5b095348f25065acc3c17690f7c67183fb1",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-AT": "d844c641f87303d8b26a693676a7efcd97918f0fc3bde760cde95aa7bbff3e27",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-AT": "9dc9d12867e3ad689d84bbaaeb33bbdf62790855f134429f107f4cbe8c43f371",
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:de-AT": "ef530a440b68be478e8ddce32582e1d5e5d5fd688b1ce54cdd7c302be73ffc3d",
         "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:de-AT": "925e7dd70b71aab037153146b2d7b6fbaf5ddf90aa68898e50698de273adbbef",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:de-AT": "293616ffb40a1fea0b90dad8d52fa3574bbd1b42b5c05b1a00745e2ca535acce",
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:de-AT": "abedb66c9c8b832fc2300a8afb4d29d08325d87378ccd4eee39c5d756e44d6ad",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:de-AT": "89d004756aafd8aa10fb77304c8b1dbfa7c3dae889777888fccdbc2d5cf86ee1",
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:de-AT": "3ecc48ea81eed58b2955bf46f906c771801fed5ce478d132e28ddb1e999c6d10",
+        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:de-AT": "24bf73ba281c5fafff29c3ac49b6ecafa2b1b95af8100e8655910b26a7bbd83b",
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT": "e68fdacec133c6ca3c350666ee4156cfb24ec578e0d71bd61412492753540b15",
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-AT": "5fd54076104c839021b21a5c1b5945ea63544c8e1a268e360e3acbee06d31874"
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-AT": "1b16e47d7ffee550a16f676d172ea9f0f6757c230ed3b9155747d160a0236f23"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-AT": {
@@ -176,6 +230,12 @@
             "flavor": "Cherry Sakura",
             "flavor_description": "A refreshing energy drink with the taste of Cherry, almond, and floral Cherry Blossom",
             "sugarfree": false
+        },
+        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:de-AT": {
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree offers a refreshing taste of Cherry with notes of almond and floral Cherry Blossom. This Edition provides the classic Red Bull energy kick without any sugar",
+            "sugarfree": true
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-AT": {
             "name": "The Ice Edition",
@@ -213,6 +273,12 @@
             "flavor_description": "The classic Red Bull Energy Drink formula without sugar",
             "sugarfree": true
         },
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:de-AT": {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition features a vibrant flavor profile of sudachi and lime with subtle notes of Pomelo and citrus peel. It is designed to provide energy with a refreshing citrus finish",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:de-AT": {
             "name": "The Peach Edition",
             "flavor": "White Peach",
@@ -225,10 +291,22 @@
             "flavor_description": "A sugarfree energy drink featuring the taste of cherries, Cherry Blossom, and almond notes",
             "sugarfree": true
         },
+        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:de-AT": {
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition Sugarfree delivers the same invigorating taste of sudachi and lime with notes of Pomelo and citrus peel without the sugar. It provides wings while maintaining a sugarfree profile",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT": {
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Woodruff & Pink Grapefruit",
+            "flavor_description": "A refreshing sugarfree blend with the taste of Woodruff and Pink Grapefruit",
+            "sugarfree": true
+        },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-AT": {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "A refreshing blend of Apricot and Strawberry with subtle notes of Peach",
+            "flavor_description": "Red Bull Apricot Edition is a balanced blend of sweet Apricot and Strawberry with a subtle hint of Peach. It offers a fruity and refreshing taste experience",
             "sugarfree": false
         }
     }

@@ -769,6 +769,71 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:nl-BE",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/abfh4dfbfuujygbzxdtw/red-bull-summer-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 20.7
+                                },
+                                {
+                                    "hexColorCode": "#DECD25",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D5",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#937E5D",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#BCA874",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#8A7463",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/be-nl/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "De Red Bull Summer Edition geeft je vleugels met de krachtige smaak van sudachi en limoen.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/abfh4dfbfuujygbzxdtw/red-bull-summer-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/be-nl/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:nl-BE",
             "header_data": {
                 "content": {
@@ -817,6 +882,75 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/be-nl/energydrink/products/red-bull-peach-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:nl-BE",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/wdzyzv8rtsrvkcrj4bjr/red-bull-summer-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 19.7
+                                },
+                                {
+                                    "hexColorCode": "#DECD25",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#D7E0E7",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#C2CBD7",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#4FB0D9",
+                                    "percentage": 1.3
+                                },
+                                {
+                                    "hexColorCode": "#937E5D",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#BEAB73",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#8B7463",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/be-nl/energydrink/products/red-bull-summer-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "De Red Bull Summer Edition Sugarfree geeft je vleugels met de krachtige smaak van sudachi en limoen.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/wdzyzv8rtsrvkcrj4bjr/red-bull-summer-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/be-nl/energydrink/products/red-bull-summer-edition-sugarfree"
                     }
                 }
             }
@@ -887,5 +1021,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:08:03.308918+00:00"
+    "collection_timestamp": "2026-04-28T07:42:12.413778+00:00"
 }

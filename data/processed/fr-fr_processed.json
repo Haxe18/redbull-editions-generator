@@ -122,6 +122,16 @@
             "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-peach-edition"
         },
         {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "The Red Bull Summer Edition offers the refreshing and tangy taste of sudachi and lime",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/gbtveaosj6joovltutvu/red-bull-summer-edition",
+            "alt_text": "Red Bull Summer Edition",
+            "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-summer-edition"
+        },
+        {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
             "flavor_description": "The Red Bull Apricot Edition offers a perfect harmony of Apricot and Strawberry with a light hint of Peach",
@@ -133,14 +143,14 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FR.svg",
-    "_raw_hash": "57fbe500813aa4b207ee15dacdcec1a09c0f20c745168f84970f594e161a8fc6",
+    "_raw_hash": "ce3a040cbf3f3a6b32dfa6b43cdb2ed8302ee778bf009c83a819afdf1e157502",
     "_translated_editions": [
         {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:fr-FR",
-            "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot Edition is the perfect harmony of apricot and strawberry with a light hint of peach.",
-            "product_url": "https://www.redbull.com/fr-fr/energydrink/red-bull-apricot-edition"
+            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fr-FR",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Summer Edition gives you wings with its tangy taste of sudachi and lime.",
+            "product_url": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-summer-edition"
         }
     ],
     "_edition_fingerprints": {
@@ -156,6 +166,7 @@
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fr-FR": "f5e6fb920ae0fd06091b75dffaed7ffae62194cecfc0141914fe9a8bd268260a",
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:fr-FR": "4bc52214f0ecd9d3e77ec62bd36c47dc808fc840a073f9895de7867c776b30db",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:fr-FR": "c9936d6e067fff1a784994451395b82c08880470d73513e0c0c6438a7849533e",
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fr-FR": "ffe8cea574b84a014e9666eb2099aa9206880dc502a21b7de6b9c3f1c6fcb7a3",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:fr-FR": "88fded03e033f849b758a1fb0a0e76dc555a3834fa7f31d6fae325cb37747052"
     },
     "_normalized_editions": {
@@ -229,6 +240,12 @@
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "The Red Bull Peach Edition features the taste of White Peach enhanced by citrus and floral notes",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fr-FR": {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "The Red Bull Summer Edition offers the refreshing and tangy taste of sudachi and lime",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:fr-FR": {

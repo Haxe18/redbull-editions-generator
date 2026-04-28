@@ -195,6 +195,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-NZ",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/vrortjojsrdvven2kvzk/red-bull-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#439839",
+                                    "percentage": 18.4
+                                },
+                                {
+                                    "hexColorCode": "#6EB662",
+                                    "percentage": 6.1
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E6",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#CACFDB",
+                                    "percentage": 3.2
+                                },
+                                {
+                                    "hexColorCode": "#298C1C",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#B6D1BA",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Exotic Passionfruit",
+                    "standfirst": "The Red Bull Winter Edition with the exotic taste of passionfruit, rounded off with elderflower notes.",
+                    "brandingHexColorCode": "#78B941",
+                    "image": {
+                        "altText": "Red Bull Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/22/vrortjojsrdvven2kvzk/red-bull-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nz-en/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-NZ",
             "header_data": {
                 "content": {
@@ -439,5 +500,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:16:58.646000+00:00"
+    "collection_timestamp": "2026-04-28T07:52:59.966747+00:00"
 }

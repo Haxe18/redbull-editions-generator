@@ -92,6 +92,16 @@
             "product_url": "https://www.redbull.com/it-it/energydrink/red-bull-green-edition"
         },
         {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing summer drink that gives you wings. Inspired by the exotic taste of Sudachi Lime",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/mdzxyuv3dcs4qhv199ii/red-bull-summer-edition",
+            "alt_text": "Red Bull Summer Edition",
+            "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-summer-edition"
+        },
+        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "A delicate blend of White Peach, citrus zest, and floral notes",
@@ -100,21 +110,19 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/17/ubu7nev1o38og3prsy0i/red-bull-peach-edition",
             "alt_text": "Peach Edition Image",
             "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-peach-edition"
-        },
-        {
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Iced Vanilla Berry",
-            "flavor_description": "A sugarfree winter Edition with the taste of Fuji Apple and Ginger",
-            "sugarfree": true,
-            "color": "#53b2c2",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/22/eu1tevbzsmdxmqj2xgg6/winter-edition-half-can",
-            "alt_text": "Winter Edition half can",
-            "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-winter-edition-sugarfree"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IT.svg",
-    "_raw_hash": "c48c2599e5ca8c569b810d63fd431304661c6ecd5df4b0eefafc9185006cf8ea",
-    "_translated_editions": [],
+    "_raw_hash": "13b34ad03ad3c57d8b4f842b8dc6ac562370f90e5c69a94a18e30d6c540061f4",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:it-IT",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Ready for the summer? Because as you know: Red Bull gives you Wings.",
+            "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-summer-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:it-IT": "7f481f398b72925987b7391ec636041615fa6f039b1d5367446eb95d56d39aed",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:it-IT": "005a5e0dab9e5461f856b347ed212ba0acb92019b8599d618ebc9941b99edcb3",
@@ -125,8 +133,8 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:it-IT": "c6c30b47eadbb3cbeada76ed54310cb90d9ea491f924d5fdebbb2ca7c8f00b87",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:it-IT": "e2ea77d99ccb46ea82c7ee10a8944634dc6c66115c053132161fdcddadd569b2",
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:it-IT": "32506d8c521081af564d6766d3922aa1bf2f12f6be386d59ffb1b7a44531a54c",
-        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:it-IT": "72e8290bbab3311a5945a74bf3f84ef207fda2738271deaaab35aae837f50da6",
-        "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:it-IT": "c7b2b8461c295dc24ecd015de085336dab1289545b1e4fa446b41170efd89a99"
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:it-IT": "a5fb84b16abcf3ac2fad2e8af5c1e251c6b35423decd4be94d0f9335dbbe4737",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:it-IT": "72e8290bbab3311a5945a74bf3f84ef207fda2738271deaaab35aae837f50da6"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:it-IT": {
@@ -183,17 +191,17 @@
             "flavor_description": "An exotic energy drink featuring the taste of Dragon Fruit",
             "sugarfree": false
         },
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:it-IT": {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing summer drink that gives you wings. Inspired by the exotic taste of Sudachi Lime",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:it-IT": {
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "A delicate blend of White Peach, citrus zest, and floral notes",
             "sugarfree": false
-        },
-        "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:it-IT": {
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Iced Vanilla Berry",
-            "flavor_description": "A sugarfree winter Edition with the taste of Fuji Apple and Ginger",
-            "sugarfree": true
         }
     }
 }

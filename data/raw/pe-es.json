@@ -282,7 +282,145 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-PE",
+            "header_data": {
+                "content": {
+                    "title": "Green Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/14/detyrfbxwejxdeaifijv/red-bull-green-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#17933C",
+                                    "percentage": 12.7
+                                },
+                                {
+                                    "hexColorCode": "#D1D3D9",
+                                    "percentage": 5.4
+                                },
+                                {
+                                    "hexColorCode": "#5AB463",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#36A04F",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#D5D9DC",
+                                    "percentage": 1.6
+                                },
+                                {
+                                    "hexColorCode": "#41A44E",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#58B46C",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#F1E2F0",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#1E1E1D",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#B5CFBE",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Green Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Dragon fruit",
+                    "standfirst": "Red Bull Green Edition con sabor a Fruta del Dragón",
+                    "brandingHexColorCode": "#00c65e",
+                    "image": {
+                        "altText": "Red Bull Green Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/14/detyrfbxwejxdeaifijv/red-bull-green-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:es-PE",
+            "header_data": {
+                "content": {
+                    "title": "Lila Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/28/wz3c8dvuk0bjpjtwabjk/lila-edition-sugarfree--grapefruit-and-blossom",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#9A7ADD",
+                                    "percentage": 23.9
+                                },
+                                {
+                                    "hexColorCode": "#D8E1E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#C2C5D9",
+                                    "percentage": 3.3
+                                },
+                                {
+                                    "hexColorCode": "#229ED4",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#E7F2E9",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#5CB3D9",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Lila-Edition-Sugarfree  Grapefruit & Blossom"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-lila-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Grapefruit & Blossom",
+                    "standfirst": "The Red Bull Lila Edition Sugarfree con un delicioso sabor a pomelo.",
+                    "brandingHexColorCode": "#6952AD",
+                    "image": {
+                        "altText": "Lila-Edition-Sugarfree  Grapefruit & Blossom",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/28/wz3c8dvuk0bjpjtwabjk/lila-edition-sugarfree--grapefruit-and-blossom"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pe-es/energydrink/products/red-bull-lila-edition-sugarfree"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:17:48.231988+00:00"
+    "collection_timestamp": "2026-04-28T07:54:08.077542+00:00"
 }
