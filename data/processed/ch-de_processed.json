@@ -136,7 +136,7 @@
             "flavor": "Sudachi Lime",
             "flavor_description": "The sugarfree version of the Red Bull Summer Edition features the taste of Japanese Sudachi citrus and lime, refined with notes of Pomelo and lemon",
             "sugarfree": true,
-            "color": "#f2e853",
+            "color": "#F0E53B",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/9/dzzdjf8ojpk3cbvqz5iz/red-bull-summer-edition-sugarfree",
             "alt_text": "Red Bull Summer Edition Sugarfree",
             "product_url": "https://www.redbull.com/ch-de/energydrink/products/red-bull-summer-edition-sugarfree"
@@ -153,23 +153,8 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CH.svg",
-    "_raw_hash": "53019248572c808072e12c955973e3c76d7ed0aa9b7f0930801a7608c9cbd3a9",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:de-CH",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi-Lime",
-            "description": "The Red Bull Summer Edition with the taste of Sudachi, a Japanese citrus fruit, and lime, refined with a touch of pomelo and lemon.",
-            "product_url": "https://www.redbull.com/ch-de/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:de-CH",
-            "name": "The Summer Edition Sugarfree",
-            "flavor": "Sudachi-Lime",
-            "description": "The Red Bull Summer Edition Sugarfree with the taste of Sudachi, a Japanese citrus fruit, and lime, refined with a touch of pomelo and lemon.",
-            "product_url": "https://www.redbull.com/ch-de/energydrink/products/red-bull-summer-edition-sugarfree"
-        }
-    ],
+    "_raw_hash": "d5c7873bae103b852922915e98018a53d66ead3c9458a1d1776a15f413839373",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH": "6cf21030e303a963139f399b57e9b2f47a6244c26d4dcbeb938814f604a51e49",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:de-CH": "82d5b1d192378d4e51b563ab7028089ce500f7031a70f64419613a647a972e76",

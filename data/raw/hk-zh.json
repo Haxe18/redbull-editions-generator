@@ -8,6 +8,59 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK",
+            "header_data": {
+                "content": {
+                    "title": "Lilac Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/28/xgapzno578mnh34kpczf/the-lilac-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#997ADC",
+                                    "percentage": 23.3
+                                },
+                                {
+                                    "hexColorCode": "#DBE2E8",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#C2C5D8",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#E8F2EA",
+                                    "percentage": 1.2
+                                }
+                            ]
+                        },
+                        "altText": "The Lilac Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/hk-zh/energydrink/products/red-bull-lilac-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Grapefruit-Woodruff",
+                    "standfirst": "Red Bull Lilac Edition 西柚花香味帶出粉紅西柚的細膩清甜，融合薇甘菊的獨特香味。",
+                    "brandingHexColorCode": "#7d62ce",
+                    "image": {
+                        "altText": "The Lilac Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/28/xgapzno578mnh34kpczf/the-lilac-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/hk-zh/energydrink/products/red-bull-lilac-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK",
             "header_data": {
                 "content": {
@@ -272,5 +325,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:13:34.994479+00:00"
+    "collection_timestamp": "2026-04-29T07:43:13.229947+00:00"
 }

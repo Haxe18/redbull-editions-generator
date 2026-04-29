@@ -42,6 +42,16 @@
             "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-spring-edition"
         },
         {
+            "name": "The Ice Edition Sugarfree",
+            "flavor": "Iced Vanilla Berry",
+            "flavor_description": "A sugarfree energy drink with a refreshing taste of Blueberry, Vanilla, and hints of eucalyptus",
+            "sugarfree": true,
+            "color": "#53b2c2",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/k3ohzfqkkrpwqtlrtzpe/red-bull-ice-edition-sugarfree",
+            "alt_text": "Ice Edition sugarfree",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-ice-edition-sugarfree"
+        },
+        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "0% sugar. 100% Wings. Same Wings",
@@ -82,16 +92,6 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Lime Green Edition Sugarfree",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Green Edition Sugarfree gives you Wings with the taste of Curuba and Elderflower",
-            "sugarfree": true,
-            "color": "#6cc24a",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/22/kpcq3yipcqitbiqbx9wp/red-bull-lime-green-edition-sugarfree",
-            "alt_text": "Lime Green SF",
-            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-green-edition-sugarfree"
-        },
-        {
             "name": "The Tropical Edition",
             "flavor": "Tropical Fruits",
             "flavor_description": "Let yourself be surprised by the exotic taste of tropical fruit",
@@ -100,6 +100,16 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/zoqiy3mzrvz4hhhv1xdf/red-bull-tropical-edition-image",
             "alt_text": "Red Bull Tropical Edition - image",
             "product_url": "https://www.redbull.com/nl-nl/energydrink/red-bull-tropical-edition"
+        },
+        {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "A refreshing energy drink featuring the taste of White Peach with subtle hints of citrus and floral notes",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/rhwysmj5uuyvt2qyl1hg/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-peach-edition"
         },
         {
             "name": "The Summer Edition",
@@ -123,14 +133,21 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NL.svg",
-    "_raw_hash": "b46c161dfd619db0631622b81c63a9ff0ef521eaa8461c73c08841387219cc42",
+    "_raw_hash": "b21b0fe22089d652d849c999e4c0b2aec4885abde4582b0f4fb409ca5427f12e",
     "_translated_editions": [
         {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:nl-NL",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "The Red Bull Summer Edition gives you Wings with the unique taste of sudachi and lime.",
-            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-summer-edition"
+            "edition_id": "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:nl-NL",
+            "name": "The Ice Edition Sugarfree",
+            "flavor": "Iced Vanilla Berry",
+            "description": "The Ice Edition Sugarfree gives you wings with the taste of blueberry, vanilla, and fresh notes of eucalyptus.",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-ice-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:nl-NL",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition with the taste of white peach with a hint of citrus peel and floral notes.",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-peach-edition"
         }
     ],
     "_edition_fingerprints": {
@@ -138,12 +155,13 @@
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:nl-NL": "7170af1279d9c9198eaa950557e968c5fc9ac22676f159d2af4e34ab86359e5a",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:nl-NL": "c372be205b3c86b4b2c17817c5e9490a49286655cfcc9785330f3526e4f43c7e",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-NL": "538669dcd381e8c8c2f91b7b39ed99cc1b3b59292bb18743b892c75aac15299e",
+        "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:nl-NL": "ae55ad33ba296199ede827c7acbdacd867b567fa61fedc0bfa1d6faff1a311b5",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:nl-NL": "4730923e83660f2628486cf9123287d5f8937abe6298ad4caed3996bc278197f",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:nl-NL": "b3f3087258e2ede924e97459cdcfd6f6d17f2695a8931f82a63129b73645d965",
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:nl-NL": "02828380459c3d5ed8d7ad63ea0dbac1398243ef949c0ca7348f4a67b3b2253f",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:nl-NL": "0828f094e0bb0c47df79b3e135509b9ed7a28f7fc45b31d80c9d2feaa10b37fd",
-        "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:nl-NL": "35e5dbf1de2052f833fa16496fe32bcd9fa69b6bce6efb8948b8b3e07a3136f7",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:nl-NL": "7f27416b5ff6b70c7fcbc4c3cb5a597eca4b09e329203a4e3946aa5152a956f1",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:nl-NL": "4844a70c0044bbbbb1ca7b704014fb5207372e22f8a78136b4d87a15fd97979c",
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:nl-NL": "74aa6d85e0182e7d555caa88ee6d9599a04f61003166edfa6f73c72eafc29985",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-NL": "fa13a5d7377997b968d788fdbad826e9d4a85cace7b10bf49b09874c1833de9c"
     },
@@ -172,6 +190,12 @@
             "flavor_description": "Red Bull Spring Edition with the taste of Cherry, with notes of almond and Cherry Blossom",
             "sugarfree": false
         },
+        "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:nl-NL": {
+            "name": "The Ice Edition Sugarfree",
+            "flavor": "Iced Vanilla Berry",
+            "flavor_description": "A sugarfree energy drink with a refreshing taste of Blueberry, Vanilla, and hints of eucalyptus",
+            "sugarfree": true
+        },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:nl-NL": {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
@@ -196,16 +220,16 @@
             "flavor_description": "Wings without sugar. Red Bull Sugarfree is a Red Bull Energy Drink without sugar",
             "sugarfree": true
         },
-        "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:nl-NL": {
-            "name": "The Lime Green Edition Sugarfree",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Green Edition Sugarfree gives you Wings with the taste of Curuba and Elderflower",
-            "sugarfree": true
-        },
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:nl-NL": {
             "name": "The Tropical Edition",
             "flavor": "Tropical Fruits",
             "flavor_description": "Let yourself be surprised by the exotic taste of tropical fruit",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:nl-NL": {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "A refreshing energy drink featuring the taste of White Peach with subtle hints of citrus and floral notes",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:nl-NL": {

@@ -827,7 +827,7 @@
                 "data": {
                     "flavour": "Sudachi-Lime",
                     "standfirst": "Die Red Bull Summer Edition Sugarfree verleiht Flüüügel mit dem Geschmack von Sudachi und Limette.",
-                    "brandingHexColorCode": "#f2e853",
+                    "brandingHexColorCode": "#F0E53B",
                     "image": {
                         "altText": "Red Bull Summer Edition Sugarfree",
                         "imageEssence": {
@@ -967,5 +967,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-28T07:48:19.857443+00:00"
+    "collection_timestamp": "2026-04-29T07:42:43.202380+00:00"
 }

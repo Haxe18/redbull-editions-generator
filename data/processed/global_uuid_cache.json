@@ -3785,5 +3785,33 @@
         "flavor": "Sudachi Lime",
         "flavor_description": "The Red Bull Summer Edition Sugarfree features the refreshing taste of sudachi and lime, rounded out with hints of Pomelo and citrus",
         "sugarfree": true
+    },
+    "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:en-SE": {
+        "fingerprint": "ad4e016b35f98914fa6279d4d41c570b1d2fa0c798b73d8134556b2136b315b4",
+        "name": "The Summer Edition Sugarfree",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Red Bull Summer Edition Sugarfree with the refreshing taste of sudachi, lime, and hints of Pomelo",
+        "sugarfree": true
+    },
+    "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": {
+        "fingerprint": "089307fef6d5b560da4eeb37be72b594ba8020ea9cf31cdd3e3e7e8296d8c72d",
+        "name": "The Lilac Edition",
+        "flavor": "Woodruff & Pink Grapefruit",
+        "flavor_description": "The Red Bull Lilac Edition combines the subtle sweetness of Pink Grapefruit with the distinct, refreshing scent of Woodruff",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:nl-NL": {
+        "fingerprint": "ae55ad33ba296199ede827c7acbdacd867b567fa61fedc0bfa1d6faff1a311b5",
+        "name": "The Ice Edition Sugarfree",
+        "flavor": "Iced Vanilla Berry",
+        "flavor_description": "A sugarfree energy drink with a refreshing taste of Blueberry, Vanilla, and hints of eucalyptus",
+        "sugarfree": true
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:nl-NL": {
+        "fingerprint": "4844a70c0044bbbbb1ca7b704014fb5207372e22f8a78136b4d87a15fd97979c",
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "A refreshing energy drink featuring the taste of White Peach with subtle hints of citrus and floral notes",
+        "sugarfree": false
     }
 }

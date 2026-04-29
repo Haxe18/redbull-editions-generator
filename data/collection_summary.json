@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-04-28T08:00:47.526415+00:00",
+        "collection_date": "2026-04-29T07:55:34.663757+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -223,7 +223,7 @@
                 "hk-zh"
             ],
             "flag_code": "HK",
-            "editions_count": 4,
+            "editions_count": 5,
             "data_file": "hk-zh.json"
         },
         "Hungary": {
@@ -369,7 +369,7 @@
                 "nl-nl"
             ],
             "flag_code": "NL",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "nl-nl.json"
         },
         "New Zealand": {

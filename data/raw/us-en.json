@@ -1116,7 +1116,7 @@
                 "data": {
                     "flavour": "Sudachi Lime",
                     "standfirst": "The Red Bull Summer Edition Sugarfree with the taste of citrus notes: zesty lime, tangy sudachi (a Japanese citrus fruit), and the subtle hint of pomelo.*",
-                    "brandingHexColorCode": "#f2e853",
+                    "brandingHexColorCode": "#F0E53B",
                     "image": {
                         "altText": "Red Bull Summer Edition Sugarfree",
                         "imageEssence": {
@@ -1191,5 +1191,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-28T08:00:47.523360+00:00"
+    "collection_timestamp": "2026-04-29T07:55:34.660330+00:00"
 }
