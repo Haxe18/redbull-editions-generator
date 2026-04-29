@@ -1352,6 +1352,7 @@ class RedBullDataCollector:
 
         # Read old collection_date to preserve if no changes detected
         old_collection_date = None
+        existing_countries: Dict[str, Any] = {}
         summary_file = self.output_dir / "collection_summary.json"
         if summary_file.exists():
             try:
@@ -1360,6 +1361,7 @@ class RedBullDataCollector:
                     old_collection_date = old_summary.get("metadata", {}).get(
                         "collection_date"
                     )
+                    existing_countries = old_summary.get("countries", {})
             except (IOError, OSError, json.JSONDecodeError) as err:
                 self.logger.warning("Could not read old collection_date: %s", err)
 
@@ -1387,9 +1389,19 @@ class RedBullDataCollector:
             if has_changed:
                 changes_detected.append(country_name)
 
+        if country_filter and existing_countries:
+            merged_countries = dict(existing_countries)
+            merged_countries.update(all_raw_data["countries"])
+            all_raw_data["countries"] = merged_countries
+            self.logger.info(
+                "🔀 Single-country mode: merged with existing %d countries",
+                len(existing_countries),
+            )
+
         # Save collection summary
+        all_raw_data["metadata"]["total_countries"] = len(all_raw_data["countries"])
         all_raw_data["metadata"]["changes_detected"] = changes_detected
-        all_raw_data["metadata"]["successful_countries"] = len(countries_to_process)
+        all_raw_data["metadata"]["successful_countries"] = len(all_raw_data["countries"])
 
         # Update collection_date only if changes were detected
         if changes_detected:
