@@ -575,7 +575,68 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:lv-LV",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/ku3jcr1kjyvj3fvjqo1q/red-bull-summer-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 21.4
+                                },
+                                {
+                                    "hexColorCode": "#DECC25",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D5",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#927D5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BCA975",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "Red Bull Summer Edition ar sudači un laima garšu, ko papildina viegla pomelo un citrusaugļu miziņas nots.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/ku3jcr1kjyvj3fvjqo1q/red-bull-summer-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:15:49.299108+00:00"
+    "collection_timestamp": "2026-04-30T07:50:06.501346+00:00"
 }

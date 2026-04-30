@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-04-29T07:55:34.663757+00:00",
+        "collection_date": "2026-04-30T07:59:31.173177+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -323,7 +323,7 @@
                 "lv-lv"
             ],
             "flag_code": "LV",
-            "editions_count": 9,
+            "editions_count": 10,
             "data_file": "lv-lv.json"
         },
         "Lithuania": {
@@ -513,7 +513,7 @@
                 "es-es"
             ],
             "flag_code": "ES",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "es-es.json"
         },
         "Sweden": {

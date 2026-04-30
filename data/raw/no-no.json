@@ -615,7 +615,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition med smak av frisk sudachi lime, avrundtet med et subtilt hint av pomelo og sitrusskall.",
+                    "standfirst": "Red Bull Summer Edition med smak av frisk sudachi lime, avrundet med et subtilt hint av pomelo og sitrusskall.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -707,5 +707,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-28T07:53:49.614011+00:00"
+    "collection_timestamp": "2026-04-30T07:52:35.299773+00:00"
 }

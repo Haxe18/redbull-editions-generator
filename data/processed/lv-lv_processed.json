@@ -90,11 +90,29 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/19/ha654vcjme4cdhf4okfo/red-bull-peach-edition-image",
             "alt_text": "Red Bull Peach Edition - Image",
             "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-peach-edition"
+        },
+        {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition features the taste of sudachi and lime with a light note of Pomelo and citrus peel",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/ku3jcr1kjyvj3fvjqo1q/red-bull-summer-edition",
+            "alt_text": "Red Bull Summer Edition",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-summer-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-LV.svg",
-    "_raw_hash": "e05503c5adedd45f76ba1f487ff341396f4a0970553da270b3e220d66e463934",
-    "_translated_editions": [],
+    "_raw_hash": "510d6e03dba0039aec668c4dee634743bce614c43a671caee14f8c2d49841419",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:lv-LV",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Summer Edition with the taste of sudachi and lime, complemented by a light note of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-summer-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:lv-LV": "348624cf7c87bcebc7f125b8ed2071271a83780124564b6cd8202622586cdd99",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:lv-LV": "3e77f61913783cc47bf6b7015756e8ecae59a5f89ee765b57af339593e5bd523",
@@ -104,7 +122,8 @@
         "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:lv-LV": "e2c8618dec38bc9c686e18e1a92746e4e0089b4235bedac73c70e14b5acfb005",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:lv-LV": "a0f0f8a19a78834da7b799a939aee19179f12729ae84ac22137a082df6f98893",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:lv-LV": "3a04f4d95f4928ff5eb3a00758b2d780b7f856f5a274141fafd35bad0696744e",
-        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:lv-LV": "c1dd3fc20a485c0f2a1a29e77226d9b84e470d5000448386b026a567e24fbbb7"
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:lv-LV": "c1dd3fc20a485c0f2a1a29e77226d9b84e470d5000448386b026a567e24fbbb7",
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:lv-LV": "20f181107ff3132bd2e206725260fad3db09d2367ced9d1aaafa770b7d4d5050"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:lv-LV": {
@@ -159,6 +178,12 @@
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "Red Bull Peach Edition offers the taste of White Peach with light notes of citrus peel and flowers",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:lv-LV": {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition features the taste of sudachi and lime with a light note of Pomelo and citrus peel",
             "sugarfree": false
         }
     }

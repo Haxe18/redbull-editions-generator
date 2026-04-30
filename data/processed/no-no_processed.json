@@ -94,7 +94,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Red Bull Summer Edition features the fresh taste of sudachi lime, perfectly rounded off with subtle hints of Pomelo and citrus peel",
+            "flavor_description": "Red Bull Summer Edition with a taste of fresh sudachi lime, rounded off with a subtle hint of Pomelo and citrus peel",
             "sugarfree": false,
             "color": "#f2e853",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/j9msstjug7ttdq1rnnxb/red-bull-summer-edition",
@@ -113,20 +113,13 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NO.svg",
-    "_raw_hash": "48b468655886522c8009ccacabb6a719b9cae9e8e816c9e464973dea8cda821a",
+    "_raw_hash": "d68df26412fbd37acac0c6e0e38fd4e2fbe95221df9fe613d594b09db501c2b7",
     "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:no-NO",
-            "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
-            "description": "Get ready for a unique taste experience. Red Bull White Edition with the taste of coconut and blueberry.",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-white-edition"
-        },
         {
             "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:no-NO",
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "description": "Red Bull Summer Edition with the taste of fresh sudachi lime, rounded off with a subtle hint of pomelo and citrus peel.",
+            "description": "Red Bull Summer Edition with a taste of fresh sudachi lime, rounded off with a subtle hint of pomelo and citrus peel.",
             "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-summer-edition"
         }
     ],
@@ -140,7 +133,7 @@
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:no-NO": "5fd1c882de6d603b4f1581d56a5aa8dd5da48e317e77f2bc6de022bff269299c",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:no-NO": "e3d9b16496035829f6c9ea09baba667cb217e64421ec5fd8f7b071608f3f243a",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:no-NO": "96de2011d89bbe2611795a6e01d38f8e226e49fb127924bb329478bc939c00aa",
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:no-NO": "10b53aef61aa0fc001eae7bccbf4fdb4a713da9ecf6ce8d1746068fb713b78b1",
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:no-NO": "dd523a499bfe16a07f7877c268bd1766e702f8872ee6952a882ea57f0d8a3860",
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:no-NO": "d884a0ab0fac0307c647acbcfe100fbcebe7c6f5f8223e33669ac02ed834a625"
     },
     "_normalized_editions": {
@@ -201,7 +194,7 @@
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:no-NO": {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Red Bull Summer Edition features the fresh taste of sudachi lime, perfectly rounded off with subtle hints of Pomelo and citrus peel",
+            "flavor_description": "Red Bull Summer Edition with a taste of fresh sudachi lime, rounded off with a subtle hint of Pomelo and citrus peel",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:no-NO": {

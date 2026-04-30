@@ -3133,6 +3133,16 @@
                 "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-sea-blue-edition"
             },
             {
+                "name": "The Summer Edition",
+                "flavor": "Sudachi Lime",
+                "flavor_description": "The Red Bull Summer Edition features the taste of sudachi and lime with a light note of Pomelo and citrus peel",
+                "sugarfree": false,
+                "color": "#f2e853",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/ku3jcr1kjyvj3fvjqo1q/red-bull-summer-edition",
+                "alt_text": "Red Bull Summer Edition",
+                "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-summer-edition"
+            },
+            {
                 "name": "The Yellow Edition",
                 "flavor": "Tropical Fruits",
                 "flavor_description": "The Red Bull Yellow Edition offers the taste of Tropical Fruits",
@@ -3207,6 +3217,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/i0i37ivqkwzuf3acotxt/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
                 "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-red-edition"
+            },
+            {
+                "name": "The Summer Edition",
+                "flavor": "Sudachi Lime",
+                "flavor_description": "A refreshing summer taste featuring a blend of sudachi lime with subtle notes of Pomelo and citrus",
+                "sugarfree": false,
+                "color": "#F0E53B",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/nsxwjzty5xooz9vsqnlo/red-bull-summer-edition-image",
+                "alt_text": "Red Bull Summer Edition - image",
+                "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-summer-edition"
             },
             {
                 "name": "The White Edition",
@@ -3769,7 +3789,7 @@
             {
                 "name": "The Summer Edition",
                 "flavor": "Sudachi Lime",
-                "flavor_description": "The Red Bull Summer Edition features the fresh taste of sudachi lime, perfectly rounded off with subtle hints of Pomelo and citrus peel",
+                "flavor_description": "The Red Bull Summer Edition with a taste of fresh sudachi lime, rounded off with a subtle hint of Pomelo and citrus peel",
                 "sugarfree": false,
                 "color": "#f2e853",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/j9msstjug7ttdq1rnnxb/red-bull-summer-edition",
@@ -4691,7 +4711,7 @@
             {
                 "name": "The Apricot Edition",
                 "flavor": "Apricot-Strawberry",
-                "flavor_description": "The Red Bull Apricot Edition features a refreshing blend of Apricot and Strawberry with subtle Peach notes",
+                "flavor_description": "The Red Bull Apricot Edition features a delicious blend of Apricot and Strawberry with a subtle hint of Peach",
                 "sugarfree": false,
                 "color": "#f3911b",
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/izxcobdrzhm6xfel1aga/red-bull-apricot-edition-image",
@@ -4767,6 +4787,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/23/cqeojp0f0gwz22plqhxd/red-bull-spring-edition-sugarfree-image",
                 "alt_text": "Red Bull Spring Edition Sugarfree Image",
                 "product_url": "https://www.redbull.com/es-es/energydrink/red-bull-spring-edition-sugarfree"
+            },
+            {
+                "name": "The Summer Edition",
+                "flavor": "Curuba-Elderflower",
+                "flavor_description": "The Red Bull Summer Edition offers the refreshing and unique taste of Curuba and Elderflower",
+                "sugarfree": false,
+                "color": "#F0E53B",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/pbfha4tykes4wfkbq4c3/red-bull-summer-edition-image",
+                "alt_text": "Red Bull Summer Edition - image",
+                "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-summer-edition"
             },
             {
                 "name": "The Winter Edition Sugarfree",
