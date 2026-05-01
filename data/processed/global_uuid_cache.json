@@ -2065,10 +2065,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB": {
-        "fingerprint": "a5e5d6321eb21d40a0d182096e38acc57718eb6d628980e046fdbe35e0b72315",
-        "name": "The Spring Edition",
+        "fingerprint": "8e7049e5c568e9f521b520c8028d67011c1510551ce6b9537511fc8598a1f329",
+        "name": "The Cherry Edition",
         "flavor": "Cherry Sakura",
-        "flavor_description": "A seasonal Red Bull edition featuring the distinct taste of cherries, Cherry Blossom, and subtle almond notes",
+        "flavor_description": "A refreshing energy drink featuring the taste of Cherry with subtle notes of almond and delicate floral Cherry Blossom",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-GB": {
@@ -2163,10 +2163,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-GB": {
-        "fingerprint": "4daf5092210f78df57636539bc79d481d9f44018b473684013a29745603239d1",
+        "fingerprint": "bc9102f247f8fb2c078e6708b5e671db8096b329ad17ebcb3c870041afd1a372",
         "name": "The Apricot Edition",
         "flavor": "Apricot-Strawberry",
-        "flavor_description": "The Red Bull Apricot Edition offers the perfect blend of Apricot and Strawberry bringing out the best of each other",
+        "flavor_description": "A harmonious blend of sun-ripened Apricot and sweet Strawberry flavors providing a refreshing energy boost",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:no-NO": {
@@ -3833,6 +3833,13 @@
         "name": "The Summer Edition",
         "flavor": "Curuba-Elderflower",
         "flavor_description": "The Red Bull Summer Edition offers the refreshing and unique taste of Curuba and Elderflower",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:cs-CZ": {
+        "fingerprint": "0209749969e2b84b53971ff679a5f1038d56fc34aa858d9c206606d1be9f47ac",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Wings for your summer. This Summer Edition features the refreshing taste of Sudachi Lime, citrus peel, and floral notes",
         "sugarfree": false
     }
 }

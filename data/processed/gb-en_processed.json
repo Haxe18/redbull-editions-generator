@@ -42,14 +42,14 @@
             "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-ruby-edition"
         },
         {
-            "name": "The Spring Edition",
+            "name": "The Cherry Edition",
             "flavor": "Cherry Sakura",
-            "flavor_description": "A seasonal Red Bull Edition featuring the distinct taste of cherries, Cherry Blossom, and subtle almond notes",
+            "flavor_description": "A refreshing energy drink featuring the taste of Cherry with subtle notes of almond and delicate floral Cherry Blossom",
             "sugarfree": false,
             "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/dy083srszd1zhvem8sf8/red-bull-spring-edition",
-            "alt_text": "Spring Edition",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition"
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/30/wsmlzcrohwuob3q5snde/red-bull-cherry-edition",
+            "alt_text": "Cherry Edition",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-cherry-edition"
         },
         {
             "name": "The Apple Edition",
@@ -162,16 +162,6 @@
             "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-peach-edition"
         },
         {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of cherries, Cherry Blossom and almond notes",
-            "sugarfree": true,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/5/spubn8x1g97qyzpyajro/red-bull-spring-edition-sugarfree-image",
-            "alt_text": "Red Bull Spring Edition Sugarfree Image",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition-sugarfree"
-        },
-        {
             "name": "The Summer Edition",
             "flavor": "Citrus Zest",
             "flavor_description": "A vibrant summer Edition highlighting citrus zest notes, complemented by a subtle hint of Pomelo and citrus peel",
@@ -204,7 +194,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "The Red Bull Apricot Edition offers the perfect blend of Apricot and Strawberry bringing out the best of each other",
+            "flavor_description": "A harmonious blend of sun-ripened Apricot and sweet Strawberry flavors providing a refreshing energy boost",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/pqghrs9proynvibyylvz/the-amber-edition-image",
@@ -213,28 +203,21 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GB.svg",
-    "_raw_hash": "90d165dfd3e6fc20ee3c7b34fb00b3ce5f9d2c9816472beb63cc66992cf21fd2",
+    "_raw_hash": "7a3157c720ab218cbf1c0d6857d34d653e417ede9b72e57f7f6c60906bc1cb50",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB",
-            "name": "The Spring Edition",
+            "name": "The Cherry Edition",
             "flavor": "Cherry Sakura",
-            "description": "The Red Bull Spring Edition with the taste of cherries, cherry blossom and almond notes.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-spring-edition"
+            "description": "Red Bull Cherry Edition with the taste of cherry with notes of almond and floral cherry blossom.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-cherry-edition"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-GB",
-            "name": "The Summer Edition",
-            "flavor": "Citrus Zest",
-            "description": "The Red Bull Summer Edition with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:en-GB",
-            "name": "The Summer Edition Sugarfree",
-            "flavor": "Citrus Zest",
-            "description": "The Red Bull Summer Edition Sugarfree with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-summer-edition-sugarfree"
+            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-GB",
+            "name": "The Apricot Edition",
+            "flavor": "Apricot-Strawberry",
+            "description": "The Red Bull Apricot Edition offers the perfect blend of apricot and strawberry bringing out the best of each other.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-apricot-edition"
         }
     ],
     "_edition_fingerprints": {
@@ -242,7 +225,7 @@
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-GB": "3b46056d144308faa92cf9626ee0862b832d48d9ef4e66d5f586fb9000cbabf0",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-GB": "a4552afbc30d0b6295fde3800241199478b82ef6337f739611062b04eb9c9280",
         "rrn:content:energy-drinks:2da8ab01-52c2-4543-96d0-2a9757917c67:en-GB": "bf8ef7dea8e76b5e3ba506abdc8001529500829c9ccea2d8e56934f8da5bf6d6",
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB": "a5e5d6321eb21d40a0d182096e38acc57718eb6d628980e046fdbe35e0b72315",
+        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB": "8e7049e5c568e9f521b520c8028d67011c1510551ce6b9537511fc8598a1f329",
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-GB": "31cb25b1cda79c0a06af250a557742925f10f21c2fce5b738008b3a5f891246f",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-GB": "d19c489ea98b088e0d6c5eed3a8aa8a973f6efb36e1f957cebc505594a5aad3f",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-GB": "1994a078bf9aac3241ca74f148564c39b10e91e2b59738675b5fcf415f434a7d",
@@ -254,11 +237,10 @@
         "rrn:content:energy-drinks:b72f0639-7324-4c1b-9b22-9058ff040feb:en-GB": "3cf5e49e51ce613bb17d72bddd7978cb0a347a8ad9b962008669e67d2d289cec",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-GB": "da1fef872c9daba913de42984ed3bf7a3a8d03b6bbc728e98c5137c35ee6d231",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-GB": "8767b409d7f29ed8ce1555dfa135a4090ef8f6309756f383ff05529e42823f8b",
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB": "910889fb5c1423a965b8cec11985f82bcfbcf04bb96d96890cd65eb603981151",
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-GB": "fb289ef1ad5a3b275cf92605a1089b0d3d40332e941a6c0ac61772705421740e",
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:en-GB": "10af8b42b8f1fe230749c91c575971f3c97e4022d24c1d2fe088d83882d10ea7",
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-GB": "69671af849bed9ece8b5a011605fe41d04c8e7d80ef6dff74f85b4d834190cf7",
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-GB": "4daf5092210f78df57636539bc79d481d9f44018b473684013a29745603239d1"
+        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-GB": "bc9102f247f8fb2c078e6708b5e671db8096b329ad17ebcb3c870041afd1a372"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-GB": {
@@ -286,9 +268,9 @@
             "sugarfree": false
         },
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB": {
-            "name": "The Spring Edition",
+            "name": "The Cherry Edition",
             "flavor": "Cherry Sakura",
-            "flavor_description": "A seasonal Red Bull Edition featuring the distinct taste of cherries, Cherry Blossom, and subtle almond notes",
+            "flavor_description": "A refreshing energy drink featuring the taste of Cherry with subtle notes of almond and delicate floral Cherry Blossom",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-GB": {
@@ -357,12 +339,6 @@
             "flavor_description": "The Red Bull Peach Edition with the taste of White Peach, a touch of citrus peel and floral notes",
             "sugarfree": false
         },
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB": {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of cherries, Cherry Blossom and almond notes",
-            "sugarfree": true
-        },
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-GB": {
             "name": "The Summer Edition",
             "flavor": "Citrus Zest",
@@ -384,7 +360,7 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-GB": {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "The Red Bull Apricot Edition offers the perfect blend of Apricot and Strawberry bringing out the best of each other",
+            "flavor_description": "A harmonious blend of sun-ripened Apricot and sweet Strawberry flavors providing a refreshing energy boost",
             "sugarfree": false
         }
     }
