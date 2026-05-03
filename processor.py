@@ -1815,6 +1815,10 @@ class RedBullDataProcessor:
                             "fields": fields,
                         }
                     )
+                    self.thread_safe_print(
+                        f"      ⚠️  ID-Mapping not applied: source '{source_id}' not found "
+                        f"(target: {target_id}, fields: {', '.join(fields)})"
+                    )
                     break
 
                 for field in fields:
@@ -1948,7 +1952,8 @@ class RedBullDataProcessor:
 
         if self.verbose:
             self.thread_safe_print(
-                f"    🌍 Step 1: Translating {len(editions)} editions " f"for {country_name}..."
+                f"    🌍 Step 1: Translating {len(editions)} editions "
+                f"for {country_name}..."
             )
 
         editions_for_ai = []
@@ -3624,20 +3629,31 @@ class RedBullDataProcessor:
 
         return "\n".join(lines)
 
-    def _should_create_changelog(self) -> bool:
+    def _has_real_data_changes(self) -> bool:
+        """True if any country had editions added, updated, or removed.
+
+        Returns:
+            True when actual edition data changed, False for no-op reruns.
         """
-        Determine if a changelog should be created based on actual changes.
+        return (
+            any(self.changelog["editions_added"].values())
+            or any(self.changelog["editions_updated"].values())
+            or any(self.changelog["editions_removed"].values())
+        )
+
+    def _should_create_changelog(self) -> bool:
+        """Determine if a changelog should be created.
+
+        Only creates a changelog when actual data changed, a processing error
+        occurred, or the daily API limit was hit (incomplete run).
 
         Returns:
             bool: True if changelog should be created, False otherwise
         """
         return (
-            len(self.changelog["countries_processed"]) > 0
-            or len(self.changelog["corrections_applied"]) > 0  # Actual processing happened
-            or len(self.changelog["corrections_failed"]) > 0  # Corrections were applied
-            or len(self.changelog["errors"]) > 0  # Errors occurred
-            or len(self.changelog.get("countries_skipped_daily_limit", []))
-            > 0  # Daily limit hit
+            self._has_real_data_changes()
+            or len(self.changelog["errors"]) > 0
+            or len(self.changelog.get("countries_skipped_daily_limit", [])) > 0
         )
 
     def _save_changelog(self) -> Path:
@@ -4851,26 +4867,61 @@ class RedBullDataProcessor:
             print(f"  • Countries checked: {len(countries_to_process)}")
 
         print(f"  • Total editions: {total_editions}")
-        print(f"💾 Final data saved to: {final_file}")
+
+        if self._has_real_data_changes():
+            print(f"💾 Final data saved to: {final_file}")
+        else:
+            print(f"💾 Final data unchanged: {final_file}")
 
         if changelog_file:
             print(f"📝 Changelog saved to: {changelog_file}")
         else:
             print("📝 No changes made - changelog skipped")
 
-        # Print warnings if there are failed corrections
+        # Print warnings for failed corrections
         if self.changelog["corrections_failed"]:
-            print(
-                f"\n⚠️  WARNING: {len(self.changelog['corrections_failed'])} corrections "
-                f"could not be applied!"
-            )
-            if changelog_file:
+            seen: set = set()
+            unique_failures = []
+            for failure in self.changelog["corrections_failed"]:
+                key = (failure.get("id"), failure.get("field"), failure.get("search"))
+                if key not in seen:
+                    seen.add(key)
+                    unique_failures.append(failure)
+
+            print(f"\n⚠️  WARNING: {len(unique_failures)} corrections could not be applied!")
+            for failure in unique_failures:
                 print(
-                    f"   Check the changelog for details: {self.data_dir / 'latest_changelog.md'}"
+                    f"   • {failure.get('id', '?')}: {failure.get('field', '?')} "
+                    f"'{failure.get('search', '')}' — {failure.get('reason', '')}"
                 )
-            else:
-                # This shouldn't happen since corrections_failed triggers changelog creation
-                print("   Correction failures should have triggered changelog creation.")
+            if changelog_file:
+                print(f"   See also: {self.data_dir / 'latest_changelog.md'}")
+
+        # Print warnings for failed ID mappings
+        if self.changelog["id_mappings_failed"]:
+            seen_mappings: set = set()
+            unique_mapping_failures = []
+            for failure in self.changelog["id_mappings_failed"]:
+                key = (
+                    failure.get("source_id"),
+                    failure.get("target_id"),
+                    tuple(failure.get("fields", [])),
+                )
+                if key not in seen_mappings:
+                    seen_mappings.add(key)
+                    unique_mapping_failures.append(failure)
+
+            print(
+                f"\n⚠️  WARNING: {len(unique_mapping_failures)} ID mappings could not be applied!"
+            )
+            for failure in unique_mapping_failures:
+                print(
+                    f"   • source '{failure.get('source_id', '?')}' → "
+                    f"target '{failure.get('target_id', '?')}' "
+                    f"(fields: {', '.join(failure.get('fields', []))})"
+                )
+            if changelog_file:
+                print(f"   See also: {self.data_dir / 'latest_changelog.md'}")
 
         return final_data
 

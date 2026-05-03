@@ -48,7 +48,7 @@ collector.py  →  raw data  →  processor.py  →  final JSON
    - **Enhanced Per-Edition Caching**: Smart cache reuse for mixed scenarios with detailed statistics
    - **Robust Error Handling**: Automatic validation and retry mechanism for incomplete processing
    - **Translation Priority System**: Flavor field prioritized as source of truth over descriptions
-   - **Intelligent Changelog Creation**: Only creates changelog files when actual changes occur (skips pure cache runs)
+   - **Intelligent Changelog Creation**: Only creates changelog files when edition data actually changed — reruns with identical output produce no changelog
    - **Legacy Mode**: `--separate-file` flag for backward compatibility
    - Parallel processing (3 countries simultaneously)
    - Manual corrections via `data/corrections.json`
@@ -220,10 +220,17 @@ The workflow runs daily at 5:11 AM UTC and:
 
 ## 📝 Changelog Behavior
 
-The processor intelligently creates changelog files:
-- **Creates changelog**: When countries are processed, corrections applied, or errors occur
-- **Skips changelog**: When all data is current (cache hits only)
-- **Output**: Shows "📝 Changelog saved" or "📝 No changes made - changelog skipped"
+The processor only creates changelog files when edition data actually changed:
+- **Creates changelog**: When editions were added, updated, or removed — or when errors/daily-limit-hit occur
+- **Skips changelog**: When all data is current, or when a rerun produced byte-identical output (e.g. after reformatting `corrections.json`)
+- **Warnings** (`corrections_failed`, `id_mappings_failed`): Always printed to the console during the run; listed in detail at the end if no changelog was written
+- **Output**:
+  ```
+  💾 Final data saved to: ...      # data changed
+  💾 Final data unchanged: ...     # no diff
+  📝 Changelog saved to: ...       # changes recorded
+  📝 No changes made - changelog skipped
+  ```
 
 ## ⏱️ Rate Limiting
 
@@ -275,9 +282,10 @@ The collector implements conservative rate limiting to respect API limits and av
 - Try `--force` to bypass cache and reprocess all data
 
 **Changelog not created**
-- This is normal when all data uses cached translations (no changes)
-- Changelogs are only created when actual processing occurs
-- Use `--force` to force processing and generate changelog
+- This is normal when the output data is identical to the previous run
+- Changelogs are only created when editions were actually added, updated, or removed
+- Warnings (failed corrections, failed ID mappings) are printed to the console even without a changelog
+- Use `--force` to reprocess; a changelog is only written if the resulting data differs
 
 ### GitHub Actions Issues
 

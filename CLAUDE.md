@@ -149,7 +149,7 @@ python -m py_compile collector.py processor.py
 - **Enhanced Per-Edition Cache Intelligence**: Smart cache reuse for mixed scenarios (cached + new editions)
 - **Robust Error Handling**: Automatic validation and retry mechanism for incomplete normalization (up to 2 attempts)
 - **Translation Priority System**: Flavor field is SOURCE OF TRUTH, prioritized over description text
-- **Intelligent Changelog Creation**: Only creates changelog files when actual changes are made (skips when all cache hits)
+- **Intelligent Changelog Creation**: Only creates changelog files when edition data actually changed (not on reruns with identical output)
 - **Legacy Mode**: `--separate-file` flag for backward compatibility (separate output files)
 - Processes 3 countries simultaneously using ThreadPoolExecutor
 - Manual corrections system via `data/corrections.json`
@@ -373,25 +373,31 @@ This approach reduces API costs by ~90% for incremental changes while ensuring d
 
 ### Intelligent Changelog System
 
-The processor now intelligently determines when to create changelog files:
+The processor only creates changelog files when the output data actually changed.
 
 **Changelog is created when:**
-- Countries are actually processed (not just cache hits)
-- Manual corrections are applied or fail
-- Processing errors occur
+- Edition data differs from previous run (`editions_added`, `editions_updated`, or `editions_removed` non-empty)
+- Processing errors occurred
+- Daily API limit was hit (incomplete run)
 
 **Changelog is skipped when:**
-- All countries use cached data (no changes)
-- No corrections applied
-- No errors occurred
+- All countries used cached data (no data diff)
+- Countries were reprocessed but produced byte-identical output (e.g. reformatted `corrections.json` invalidated cache but data unchanged)
+- Only correction/ID-mapping warnings occurred — those are printed to the console instead
 
 **Output messages:**
 ```
+💾 Final data saved to: data/redbull_editions_final.json    # Data changed
+💾 Final data unchanged: data/redbull_editions_final.json   # No diff
+
 📝 Changelog saved to: data/changelogs/changelog_20250909_143022.md  # Changes made
-📝 No changes made - changelog skipped                                # All cache hits
+📝 No changes made - changelog skipped                                # No diff
 ```
 
-This prevents unnecessary changelog files while ensuring important changes and errors are still documented.
+**Warning surfacing:**
+- `corrections_failed` and `id_mappings_failed` are printed to the console during the run regardless of whether a changelog is written
+- If a changelog IS written, they also appear there
+- If no changelog is written, the end-of-run summary lists each failure explicitly
 
 ### Validation System
 
