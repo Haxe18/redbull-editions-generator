@@ -272,14 +272,6 @@
             "replace": "Blue Edition"
         }
     ],
-    "id_mappings": [
-        {
-            "comment": "AT Spring Edition Sugarfree liefert falsche API-Daten (Waldmeister & Pink Grapefruit), UK hat korrekt Cherry Sakura",
-            "source_id": "dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB",
-            "target_id": "dad80e1f-c37e-4b2b-bea7-d080dc0f439f:de-AT",
-            "fields": ["flavor", "flavor_description"]
-        }
-    ],
     "comments": [
         "This file contains manual corrections to be applied before Gemini processing",
         "id: GraphQL ID of the edition",
