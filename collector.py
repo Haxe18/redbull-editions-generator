@@ -180,21 +180,33 @@ class RedBullDataCollector:
     def _verify_edition_url(self, product_url: str) -> bool:
         """Check if a product URL is still live.
 
+        A URL is considered live only if it returns HTTP 200 directly, without
+        any redirect. 3xx responses indicate the product page no longer exists —
+        Red Bull redirects retired products to the generic editions overview page.
+
         Args:
             product_url: The edition's product URL to verify.
 
         Returns:
-            True if URL returns HTTP 200, False otherwise.
+            True if URL returns HTTP 200 without redirect, False otherwise.
         """
         if not product_url:
             return False
         try:
-            response = self.session.head(product_url, timeout=10, allow_redirects=True)
+            response = self.session.head(product_url, timeout=10, allow_redirects=False)
             if response.status_code == 200:
                 return True
             if response.status_code == 405:
-                response = self.session.get(product_url, timeout=10, allow_redirects=True)
-                return response.status_code == 200
+                response = self.session.get(product_url, timeout=10, allow_redirects=False)
+                if response.status_code == 200:
+                    return True
+            if 300 <= response.status_code < 400:
+                self.logger.debug(
+                    "URL %s redirects (HTTP %s) to %s — treating as offline",
+                    product_url,
+                    response.status_code,
+                    response.headers.get("Location", "?"),
+                )
             return False
         except requests.exceptions.RequestException as exc:
             self.logger.warning("URL verification failed for %s: %s", product_url, exc)
