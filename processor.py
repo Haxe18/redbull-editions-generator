@@ -4375,25 +4375,6 @@ class RedBullDataProcessor:
             if edition.get("alt_text"):
                 edition["alt_text"] = " ".join(edition["alt_text"].split())
 
-        # Persist per-edition cache data to stabilize future runs.
-        edition_fingerprints = {}
-        normalized_cache = {}
-        for edition in editions_to_process:
-            edition_id = edition.get("_graphql_id", "")
-            if not edition_id:
-                continue
-
-            edition_fingerprint = edition.get(
-                "_fingerprint"
-            ) or self._build_edition_fingerprint(edition)
-            edition_fingerprints[edition_id] = edition_fingerprint
-            normalized_cache[edition_id] = {
-                "name": edition.get("name", ""),
-                "flavor": edition.get("flavor", ""),
-                "flavor_description": edition.get("flavor_description", ""),
-                "sugarfree": edition.get("sugarfree", False),
-            }
-
         # Build deterministic translation cache by edition_id
         translated_by_id = {}
         for translation in translated_editions:
@@ -4417,6 +4398,26 @@ class RedBullDataProcessor:
         # Mirrors the collector's edition-retention pattern: don't lose data just because
         # an upstream API stopped returning the flavor field for an existing edition.
         self._preserve_known_flavors(editions_to_process, country_name, processed_file)
+
+        # Persist per-edition cache AFTER corrections and flavor preservation so
+        # _normalized_editions always reflects the final authoritative values.
+        edition_fingerprints = {}
+        normalized_cache = {}
+        for edition in editions_to_process:
+            edition_id = edition.get("_graphql_id", "")
+            if not edition_id:
+                continue
+
+            edition_fingerprint = edition.get(
+                "_fingerprint"
+            ) or self._build_edition_fingerprint(edition)
+            edition_fingerprints[edition_id] = edition_fingerprint
+            normalized_cache[edition_id] = {
+                "name": edition.get("name", ""),
+                "flavor": edition.get("flavor", ""),
+                "flavor_description": edition.get("flavor_description", ""),
+                "sugarfree": edition.get("sugarfree", False),
+            }
 
         # Clean up temporary fields
         for edition in editions_to_process:
