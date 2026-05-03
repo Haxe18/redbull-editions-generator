@@ -22,16 +22,6 @@
             "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-pink-edition-sugarfree"
         },
         {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition with the taste of Cherry and Blossom",
-            "sugarfree": false,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/17/ex7dr90byq3s2xawfrss/spring-edition-2026",
-            "alt_text": "Spring Edition 2026",
-            "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-spring-edition"
-        },
-        {
             "name": "The Ice Edition",
             "flavor": "Iced Gummy Bear",
             "flavor_description": "Red Bull Ice Edition with the taste of Vanilla and iced Blueberry",
@@ -123,20 +113,12 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CZ.svg",
-    "_raw_hash": "e32ac6a06b63485e2dfb49bf13f6c044f8d9cd72367d92c2ca1002b2dc58c9ec",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:cs-CZ",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi and Lime",
-            "description": "Wings for your summer. Red Bull Summer Edition with the taste of white peach, a hint of citrus peel and floral notes. Find out more!",
-            "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-summer-edition"
-        }
-    ],
+    "_raw_hash": "99336e2b436e126fb7e02d0b9c9c3ef1908b1be3a497ee1073476c07d570abc1",
+    "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:cs-CZ": "89d92b07d468c77b1534e067f7e891f28df440b54282a896c3d0e115a70bef69",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:cs-CZ": "da09e4d16916acf3b8a6bec69a9c5850f722a68dbf254ed41084d0d9baf24bce",
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:cs-CZ": "2620abd4faddf323d1f0c6461addb47c53fb06e9abab8a6dae8053d3f81ca549",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:cs-CZ": "05b9cbf7c0c2477c27f237ab4fd73c0cdb31be0b1691bcf28ee01ab17b05e1f4",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:cs-CZ": "99d74214f5fab22fb8d86896b2d00064a81ca65ed9d0531cb25022e319361843",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:cs-CZ": "a89d91820accba5741942c484fe494c0365329aba6ac8426c13bec1d94bc9804",
@@ -159,12 +141,6 @@
             "flavor": "Forest Fruits",
             "flavor_description": "Red Bull Pink Edition Sugarfree gives you wings with the taste of Forest Fruits and zero sugar",
             "sugarfree": true
-        },
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:cs-CZ": {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition with the taste of Cherry and Blossom",
-            "sugarfree": false
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:cs-CZ": {
             "name": "The Ice Edition",
