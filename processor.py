@@ -16,6 +16,7 @@ import logging
 import os
 import re
 import sys
+import threading
 import time
 import traceback
 import unicodedata
@@ -280,6 +281,9 @@ class RedBullDataProcessor:
         self.print_lock = Lock()
         self.api_call_lock = Lock()
         self._global_cache_lock = Lock()
+        # Per-thread log buffer: when active, thread_safe_print accumulates lines
+        # instead of writing immediately, so each country's logs flush as one block.
+        self._log_buffer = threading.local()
         self._abort_flag = False  # Flag to abort all processing on critical errors
         self._daily_limit_reached = False  # Flag when daily API quota is exhausted
         self._skipped_due_to_limit: List[str] = []  # Countries skipped due to daily limit
@@ -339,7 +343,7 @@ class RedBullDataProcessor:
         }
 
         # Load corrections
-        self.corrections, self.id_mappings = self._load_corrections()
+        self.corrections, self.id_mappings, self.corrections_hash = self._load_corrections()
         self.corrections_tracking = {}
 
         # Initialize Gemini client
@@ -368,7 +372,7 @@ class RedBullDataProcessor:
             self.logger.debug("  🤖 Model: %s", self.GEMINI_MODEL)
             self.logger.debug("  🔄 Max parallel workers: %d", self.max_workers)
 
-    def _load_corrections(self) -> tuple[List[Dict], List[Dict]]:
+    def _load_corrections(self) -> tuple[List[Dict], List[Dict], str]:
         """Load manual corrections and ID mappings from JSON file.
 
         Loads corrections.json which contains manual overrides for
@@ -376,27 +380,38 @@ class RedBullDataProcessor:
         id_mappings entries that replace raw fields from another locale.
 
         Returns:
-            Tuple of (corrections list, id_mappings list).
+            Tuple of (corrections list, id_mappings list, sha256 hash string).
         """
         corrections_file = self.data_dir / "corrections.json"
+        corrections = []
+        id_mappings = []
+        corrections_hash = ""
+
         if corrections_file.exists():
             try:
                 with open(corrections_file, "r", encoding="utf-8") as file:
+                    content = file.read()
+                    # Calculate hash of raw file content to detect any changes (including formatting)
+                    corrections_hash = hashlib.sha256(content.encode()).hexdigest()
+
+                    # Reset file pointer and load JSON
+                    file.seek(0)
                     data = json.load(file)
                     corrections = data.get("corrections", [])
                     id_mappings = data.get("id_mappings", [])
+
                     if corrections and self.debug:
                         self.logger.info("📝 Loaded %d manual corrections", len(corrections))
                     if id_mappings and self.debug:
                         self.logger.info("🔀 Loaded %d ID mappings", len(id_mappings))
-                    return corrections, id_mappings
             except json.JSONDecodeError as err:
                 self.logger.error("\n❌ INVALID JSON in %s", corrections_file)
                 self.logger.error("   Error at line %d, column %d", err.lineno, err.colno)
                 self.logger.error("   %s", err.msg)
                 self.logger.error("\n   Please fix the JSON syntax in corrections.json")
                 sys.exit(1)
-        return [], []
+
+        return corrections, id_mappings, corrections_hash
 
     def _get_word_set(self, flavor: str) -> tuple:
         """Extract sorted word tuple for order-insensitive comparison.
@@ -536,6 +551,7 @@ class RedBullDataProcessor:
             # Remove raw processing fields
             clean_data = dict(country_data)
             clean_data.pop("_raw_hash", None)
+            clean_data.pop("_corrections_hash", None)
             clean_data.pop("_translated_editions", None)
             clean_data.pop("_edition_fingerprints", None)
             clean_data.pop("_normalized_editions", None)
@@ -600,13 +616,33 @@ class RedBullDataProcessor:
     def thread_safe_print(self, message: str) -> None:
         """Thread-safe printing to console.
 
-        Ensures output doesn't get interleaved when using parallel processing.
+        When a per-thread country buffer is active, lines accumulate and are
+        flushed atomically when the country finishes processing — keeping the
+        output of parallel workers from interleaving on stdout.
 
         Args:
             message: Message to print.
         """
+        buffer = getattr(self._log_buffer, "lines", None)
+        if buffer is not None:
+            buffer.append(message)
+            return
         with self.print_lock:
             self.logger.info(message)
+
+    def _start_country_buffer(self) -> None:
+        """Begin buffering log output for the current worker thread."""
+        self._log_buffer.lines = []
+
+    def _flush_country_buffer(self) -> None:
+        """Flush buffered country logs as one atomic block and clear the buffer."""
+        lines = getattr(self._log_buffer, "lines", None)
+        self._log_buffer.lines = None
+        if not lines:
+            return
+        with self.print_lock:
+            for line in lines:
+                self.logger.info(line)
 
     def _log_debug(self, message: str) -> None:
         """Write debug message to log file (thread-safe).
@@ -1509,7 +1545,8 @@ class RedBullDataProcessor:
     # region Corrections Methods
     def apply_corrections(self, edition: Dict, graphql_id: str) -> Dict:
         """
-        Apply manual corrections to an edition before processing.
+        Apply manual corrections to an edition.
+        Called twice: once before AI (raw) and once after AI (final fields).
 
         Args:
             edition: Edition dictionary to correct
@@ -1518,20 +1555,20 @@ class RedBullDataProcessor:
         Returns:
             Corrected edition dictionary
         """
-        # First normalize Açai variations in raw data before AI processing
+        # Normalize Açai variations in raw fields to ensure consistency
         # This ensures consistent handling regardless of source language
+        # (Handles: açai, açaí, açaï, açaì -> Acai)
         for field in ["_raw_flavor", "_standfirst"]:
             if field in edition and edition[field]:
                 # Normalize all Açai variations to 'Acai'
-                # This handles: açai, açaí, açaï, açaì, Açai, Açaí, etc.
-                text_normalized = unicodedata.normalize("NFD", edition[field])
+                text_normalized = unicodedata.normalize("NFD", str(edition[field]))
 
-                # Pattern matches all variations of açai with different diacritics in NFD form
                 # After NFD normalization: ç becomes c + \u0327, í becomes i + \u0301
+                # This allows the regex to match variations regardless of their composed form
                 pattern = r"[aA][çc]\u0327?[aA][iI]\u0301?"
                 text_acai_fix = re.sub(pattern, "Acai", text_normalized, flags=re.IGNORECASE)
 
-                # Normalize back to composed form
+                # Normalize back to composed form (NFC)
                 edition[field] = unicodedata.normalize("NFC", text_acai_fix)
 
                 if self.verbose and "acai" in edition[field].lower():
@@ -1542,9 +1579,14 @@ class RedBullDataProcessor:
         if not self.corrections:
             return edition
 
-        # Map user-friendly field names to actual raw field names
-        # This allows corrections.json to use logical field names
-        field_mapping = {"flavor": "_raw_flavor", "flavor_description": "_standfirst"}
+        # Map user-friendly field names to actual field names
+        # This allows corrections.json to use logical field names.
+        # We check both the raw fields (pre-AI) and the final fields (post-AI/cache).
+        field_mapping = {
+            "flavor": ["flavor", "_raw_flavor"],
+            "flavor_description": ["flavor_description", "_standfirst"],
+            "name": ["name"],
+        }
 
         # Extract the short ID format for matching
         # Convert "rrn:content:energy-drinks:UUID:locale" to "UUID:locale"
@@ -1555,158 +1597,109 @@ class RedBullDataProcessor:
                 # Get UUID and locale parts
                 short_id = f"{parts[3]}:{parts[4]}"
 
-        applied = 0
         for correction in self.corrections:
-            correction_id = correction.get("id")
+            correction_id = correction.get("id", "")
+            if not correction_id:
+                continue
 
-            # Extract UUID from short_id for partial matching
+            # Extract UUID from short_id for matching
             uuid_only = short_id.split(":")[0] if ":" in short_id else short_id
 
-            # Match if:
-            # 1. Exact match with full IDs (e.g., "UUID:de-DE"), OR
-            # 2. correction_id has no locale AND matches UUID part (e.g., "UUID")
-            if correction_id in (graphql_id, short_id) or (
-                ":" not in correction_id and correction_id == uuid_only
-            ):
+            # FLEXIBLE MATCHING
+            match_exact = False
+            c_id_lower = correction_id.lower()
+            g_id_lower = graphql_id.lower()
+            s_id_lower = short_id.lower()
+
+            if c_id_lower in (g_id_lower, s_id_lower):
+                match_exact = True
+            elif ":" in correction_id and ":" in short_id:
+                c_uuid, c_loc = c_id_lower.split(":", 1)
+                s_uuid, s_loc = s_id_lower.split(":", 1)
+                if c_uuid == s_uuid:
+                    c_parts = set(c_loc.replace("-", " ").replace("_", " ").split())
+                    s_parts = set(s_loc.replace("-", " ").replace("_", " ").split())
+                    if c_parts == s_parts:
+                        match_exact = True
+
+            match_uuid_only = ":" not in correction_id and c_id_lower == uuid_only.lower()
+
+            if match_exact or match_uuid_only:
                 field = correction.get("field")
                 search = correction.get("search")
                 replace = correction.get("replace")
 
-                # Skip global correction if a locale-specific correction for the
-                # same UUID+field was already applied to this edition
-                is_global = ":" not in correction_id
-                if is_global:
+                # RESTORE PROTECTION: Skip global correction if a locale-specific
+                # one for the same UUID+field was already applied
+                if ":" not in correction_id:
                     locale_specific_applied = any(
                         key.startswith(f"{uuid_only}:") and f":{field}:" in key
                         for key, val in self.corrections_tracking.items()
                         if val.get("applied")
-                        and key.split(":")[0] == uuid_only
-                        and val.get("field") == field
                     )
                     if locale_specific_applied:
                         continue
 
-                # Map the field name if needed
-                actual_field = field_mapping.get(field, field)
+                # Check if this correction for this edition was already applied to avoid double logging
+                correction_key = f"{short_id}:{field}:{search}:{replace}"
 
-                # Mark this correction as checked
-                correction_key = f"{correction_id}:{field}:{search}"
-                if correction_key not in self.corrections_tracking:
-                    self.corrections_tracking[correction_key] = {
-                        "id": correction_id,
-                        "field": field,
-                        "search": search,
-                        "replace": replace,
-                        "applied": False,
-                        "attempted": True,
-                    }
+                actual_fields = field_mapping.get(field, [field])
+                applied_in_this_step = False
 
-                if actual_field in edition and search and replace:
-                    original = edition[actual_field]
-                    match_mode = correction.get("match_mode", "exact")
+                for actual_field in actual_fields:
+                    if actual_field in edition and search and replace:
+                        original = str(edition[actual_field])
+                        match_mode = correction.get("match_mode", "exact")
 
-                    if match_mode == "partial":
-                        # Substring-Replace: search muss im Feldwert enthalten sein
-                        if search.lower() not in original.lower():
+                        if match_mode == "partial":
+                            if search.lower() in original.lower():
+                                edition[actual_field] = original.replace(search, replace)
+                                applied_in_this_step = True
+                        elif original.strip().lower() == search.strip().lower():
+                            edition[actual_field] = replace
+                            applied_in_this_step = True
+
+                if applied_in_this_step:
+                    # Track that this field was corrected
+                    if "_corrected_fields" not in edition:
+                        edition["_corrected_fields"] = set()
+                    edition["_corrected_fields"].add(field)
+
+                    # Only log to changelog if not already logged for this edition
+                    if (
+                        correction_key not in self.corrections_tracking
+                        or not self.corrections_tracking[correction_key].get("applied")
+                    ):
+                        self.changelog["corrections_applied"].append(
+                            {
+                                "id": correction_id,
+                                "field": field,
+                                "search": search,
+                                "replace": replace,
+                            }
+                        )
+                        self.corrections_tracking[correction_key] = {"applied": True}
+                        if self.verbose:
+                            self.thread_safe_print(
+                                f"      🔧 Applied correction: {field} - '{search}' → '{replace}'"
+                            )
+                else:
+                    # Restore failure logging
+                    if correction_key not in self.corrections_tracking:
+                        has_any_target_field = any(f in edition for f in actual_fields)
+                        if has_any_target_field:
                             self.changelog["corrections_failed"].append(
                                 {
                                     "id": correction_id,
                                     "field": field,
                                     "search": search,
-                                    "reason": "Text not found in field (partial match)",
+                                    "reason": "Text not found in any target field",
                                 }
                             )
-                            if self.verbose:
-                                self.thread_safe_print(
-                                    f"      ⚠️ Correction not applied for {correction_id}: "
-                                    f"'{search}' not found in {field} (partial match, checking {actual_field})"
-                                )
-                        else:
-                            edition[actual_field] = original.replace(search, replace)
-
-                            # Track that this field was corrected (especially important for flavor)
-                            if "_corrected_fields" not in edition:
-                                edition["_corrected_fields"] = set()
-                            # Track the logical field name (e.g., "flavor" not "_raw_flavor")
-                            edition["_corrected_fields"].add(field)
-
-                            # If we corrected _raw_flavor, also set the flavor field immediately
-                            if field == "flavor" and actual_field == "_raw_flavor":
-                                edition["flavor"] = edition[actual_field]
-
-                            # If we corrected _standfirst, also set the
-                            # flavor_description field immediately
-                            if field == "flavor_description" and actual_field == "_standfirst":
-                                edition["flavor_description"] = edition[actual_field]
-
-                            applied += 1
-                            self.corrections_tracking[correction_key]["applied"] = True
-                            self.changelog["corrections_applied"].append(
-                                {
-                                    "id": correction_id,
-                                    "field": field,  # Log the user-friendly field name
-                                    "search": search,
-                                    "replace": replace,
-                                }
-                            )
-                            if self.verbose:
-                                self.thread_safe_print(
-                                    f"      🔧 Applied correction: {field} - "
-                                    f"'{search}' → '{replace}'"
-                                )
-                    elif original.strip().lower() == search.strip().lower():
-                        # EXACT MATCH: Compare case-insensitively but match entire field value
-                        # This prevents partial matches (e.g., "Peach" matching inside "White Peach")
-                        edition[actual_field] = replace
-
-                        # Track that this field was corrected (especially important for flavor)
-                        if "_corrected_fields" not in edition:
-                            edition["_corrected_fields"] = set()
-                        # Track the logical field name (e.g., "flavor" not "_raw_flavor")
-                        edition["_corrected_fields"].add(field)
-
-                        # If we corrected _raw_flavor, also set the flavor field immediately
-                        if field == "flavor" and actual_field == "_raw_flavor":
-                            edition["flavor"] = edition[actual_field]
-
-                        # If we corrected _standfirst, also set the
-                        # flavor_description field immediately
-                        if field == "flavor_description" and actual_field == "_standfirst":
-                            edition["flavor_description"] = edition[actual_field]
-
-                        applied += 1
-                        self.corrections_tracking[correction_key]["applied"] = True
-                        self.changelog["corrections_applied"].append(
-                            {
-                                "id": correction_id,
-                                "field": field,  # Log the user-friendly field name
-                                "search": search,
-                                "replace": replace,
+                            self.corrections_tracking[correction_key] = {
+                                "applied": False,
+                                "failed": True,
                             }
-                        )
-                        if self.verbose:
-                            self.thread_safe_print(
-                                f"      🔧 Applied correction: {field} - "
-                                f"'{search}' → '{replace}'"
-                            )
-                    else:
-                        # Correction couldn't be applied - text not found
-                        self.changelog["corrections_failed"].append(
-                            {
-                                "id": correction_id,
-                                "field": field,  # Log the user-friendly field name
-                                "search": search,
-                                "reason": "Text not found in field",
-                            }
-                        )
-                        if self.verbose:
-                            self.thread_safe_print(
-                                f"      ⚠️ Correction not applied for {correction_id}: "
-                                f"'{search}' not found in {field} (checking {actual_field})"
-                            )
-
-        if applied > 0 and self.verbose:
-            self.thread_safe_print(f"      ✅ Applied {applied} corrections for {short_id}")
 
         return edition
 
@@ -1955,8 +1948,7 @@ class RedBullDataProcessor:
 
         if self.verbose:
             self.thread_safe_print(
-                f"    🌍 Step 1: Translating {len(editions)} editions "
-                f"for {country_name}..."
+                f"    🌍 Step 1: Translating {len(editions)} editions " f"for {country_name}..."
             )
 
         editions_for_ai = []
@@ -3213,6 +3205,57 @@ class RedBullDataProcessor:
     # endregion
 
     # region Change Tracking Methods
+    def _preserve_known_flavors(
+        self, editions: List[Dict], country_name: str, processed_file: Path
+    ) -> None:
+        """Restore previously known fields when the new processing yields empty values.
+
+        When Red Bull's API stops returning a source field (flavor or standfirst)
+        for an edition that previously had one, the AI cannot translate what isn't
+        there and produces an empty string. Without this guard, the empty value
+        silently overwrites a non-empty historical value. We match by edition name
+        (unique per country) and preserve both 'flavor' and 'flavor_description'.
+
+        Args:
+            editions: Newly processed editions for the country (mutated in place).
+            country_name: Country display name (for logging).
+            processed_file: Path to the previous processed JSON file.
+        """
+        if not processed_file.exists():
+            return
+
+        try:
+            with open(processed_file, "r", encoding="utf-8") as file:
+                old_data = json.load(file)
+        except (OSError, json.JSONDecodeError):
+            return
+
+        preservable_fields = ("flavor", "flavor_description")
+        old_values: Dict[str, Dict[str, str]] = {}
+        for old_edition in old_data.get("editions", []):
+            name = old_edition.get("name", "")
+            if not name:
+                continue
+            old_values[name] = {
+                field: old_edition.get(field, "") for field in preservable_fields
+            }
+
+        for edition in editions:
+            old_for_edition = old_values.get(edition.get("name", ""), {})
+            for field in preservable_fields:
+                if edition.get(field, "").strip():
+                    continue
+                preserved = old_for_edition.get(field, "").strip()
+                if not preserved:
+                    continue
+                edition[field] = preserved
+                preview = preserved if len(preserved) <= 60 else preserved[:57] + "..."
+                self.thread_safe_print(
+                    f"      🛡️ Preserved {field} '{preview}' for "
+                    f"'{edition.get('name', '')}' in {country_name} "
+                    f"(API returned empty)"
+                )
+
     def _track_country_changes(
         self, country_name: str, new_data: Dict, processed_file: Path
     ) -> None:
@@ -3232,12 +3275,10 @@ class RedBullDataProcessor:
                 old_data = json.load(file)
 
             old_editions = {
-                edition.get("name", "") + edition.get("flavor", ""): edition
-                for edition in old_data.get("editions", [])
+                edition.get("name", ""): edition for edition in old_data.get("editions", [])
             }
             new_editions = {
-                edition.get("name", "") + edition.get("flavor", ""): edition
-                for edition in new_data.get("editions", [])
+                edition.get("name", ""): edition for edition in new_data.get("editions", [])
             }
 
             # Find added editions
@@ -3814,8 +3855,8 @@ class RedBullDataProcessor:
         fingerprint_payload = {
             "edition_id": edition.get("_graphql_id", ""),
             "name": edition.get("name", ""),
-            "raw_flavor": edition.get("_raw_flavor", ""),
-            "standfirst": edition.get("_standfirst", ""),
+            "raw_flavor": edition.get("_original_raw_flavor", edition.get("_raw_flavor", "")),
+            "standfirst": edition.get("_original_standfirst", edition.get("_standfirst", "")),
             "product_url": edition.get("product_url", ""),
             "alt_text": edition.get("alt_text", ""),
         }
@@ -4015,33 +4056,46 @@ class RedBullDataProcessor:
             json.dumps(raw_data["editions"], sort_keys=True).encode()
         ).hexdigest()
 
-        # Check if already processed and unchanged
+        # Check if already processed
         processed_file = self.processed_dir / f"{domain}_processed.json"
         existing: Dict[str, Any] = {}
         existing_fingerprints: Dict[str, str] = {}
         existing_normalized_cache: Dict[str, Dict[str, Any]] = {}
         existing_translation_cache: Dict[str, Dict[str, Any]] = {}
 
-        if not force and processed_file.exists():
-            with open(processed_file, "r", encoding="utf-8") as file:
-                existing = json.load(file)
+        if processed_file.exists():
+            try:
+                with open(processed_file, "r", encoding="utf-8") as file:
+                    existing = json.load(file)
 
-            # Check if raw data hasn't changed
-            if existing.get("_raw_hash") == raw_hash:
-                self.thread_safe_print(f"  ⏭️  {country_name}: No changes, using cached")
-                self.changelog["cache_hits"] += 1
-                self.changelog["countries_skipped"].append(country_name)
-                return existing, False
+                # Populate edition-level caches for reuse (even if we don't skip the whole country)
+                existing_fingerprints = existing.get("_edition_fingerprints", {}) or {}
+                existing_normalized_cache = existing.get("_normalized_editions", {}) or {}
+                existing_translation_cache = {
+                    item.get("edition_id"): item
+                    for item in existing.get("_translated_editions", [])
+                    if item.get("edition_id")
+                }
 
-            existing_fingerprints = existing.get("_edition_fingerprints", {}) or {}
-            existing_normalized_cache = existing.get("_normalized_editions", {}) or {}
-            existing_translation_cache = {
-                item.get("edition_id"): item
-                for item in existing.get("_translated_editions", [])
-                if item.get("edition_id")
-            }
+                # Check if raw data and corrections haven't changed
+                if not force:
+                    raw_match = existing.get("_raw_hash") == raw_hash
+                    # If file has no corrections_hash, we force re-process once to establish it
+                    corr_match = existing.get("_corrections_hash") == self.corrections_hash
 
-        elif force and self.verbose:
+                    if raw_match and corr_match:
+                        self.thread_safe_print(
+                            f"  ⏭️  {country_name}: No changes, using cached"
+                        )
+                        self.changelog["cache_hits"] += 1
+                        self.changelog["countries_skipped"].append(country_name)
+                        return existing, False
+            except (json.JSONDecodeError, IOError) as err:
+                self.logger.warning(
+                    "  ⚠️  Failed to read/parse existing cache for %s: %s", country_name, err
+                )
+
+        if force and self.verbose:
             self.thread_safe_print(
                 f"    🔧 Debug: Forcing reprocess for {country_name}, " "ignoring cache"
             )
@@ -4123,7 +4177,11 @@ class RedBullDataProcessor:
             # Sugarfree will be determined by AI, not by simple keyword search
             edition["sugarfree"] = False  # Default, will be updated by AI
 
-            # Apply manual corrections before processing
+            # Store original raw data for stable fingerprinting before any corrections
+            edition["_original_raw_flavor"] = edition["_raw_flavor"]
+            edition["_original_standfirst"] = edition["_standfirst"]
+
+            # Apply manual corrections before processing (to guide Gemini if needed)
             edition = self.apply_corrections(edition, graphql_id)
 
             editions_to_process.append(edition)
@@ -4331,10 +4389,25 @@ class RedBullDataProcessor:
             translated_by_id[edition_id] for edition_id in sorted(translated_by_id.keys())
         ]
 
+        # RE-APPLY manual corrections to the finalized fields (flavor, name, etc.)
+        # This ensures that corrections in corrections.json work on top of
+        # cached data WITHOUT requiring a new Gemini translation.
+        for edition in editions_to_process:
+            graphql_id = edition.get("_graphql_id", "")
+            if graphql_id:
+                self.apply_corrections(edition, graphql_id)
+
+        # Preserve previously known flavors when new processing yields empty values.
+        # Mirrors the collector's edition-retention pattern: don't lose data just because
+        # an upstream API stopped returning the flavor field for an existing edition.
+        self._preserve_known_flavors(editions_to_process, country_name, processed_file)
+
         # Clean up temporary fields
         for edition in editions_to_process:
             edition.pop("_raw_flavor", None)
             edition.pop("_standfirst", None)
+            edition.pop("_original_raw_flavor", None)
+            edition.pop("_original_standfirst", None)
             edition.pop("_graphql_id", None)
             edition.pop("_raw_alt_text", None)
             edition.pop("_corrected_fields", None)
@@ -4349,6 +4422,7 @@ class RedBullDataProcessor:
             "flag_url": f"https://rbds-static.redbull.com/@cosmos/foundation/latest/"
             f"flags/cosmos-flag-{flag_url_code}.svg",
             "_raw_hash": raw_hash,
+            "_corrections_hash": self.corrections_hash,
             "_translated_editions": translated_editions,
             "_edition_fingerprints": edition_fingerprints,
             "_normalized_editions": normalized_cache,
@@ -4387,8 +4461,14 @@ class RedBullDataProcessor:
             return country_name, None, False
 
         country_name, domain, flag_code, force = args
-        result, was_processed = self.process_country(country_name, domain, flag_code, force)
-        return country_name, result, was_processed
+        self._start_country_buffer()
+        try:
+            result, was_processed = self.process_country(
+                country_name, domain, flag_code, force
+            )
+            return country_name, result, was_processed
+        finally:
+            self._flush_country_buffer()
 
     # endregion
 
@@ -4548,7 +4628,9 @@ class RedBullDataProcessor:
         start_time = time.time()
 
         # Retry tracking: {country_name: attempt_count}
-        retry_attempts = {}
+        retry_attempts: Dict[str, int] = {}
+        # Pending errors: only committed to changelog on final failure
+        pending_errors: Dict[str, List[str]] = {}
 
         with ThreadPoolExecutor(max_workers=self.max_workers) as executor:
             # Submit all tasks
@@ -4585,6 +4667,7 @@ class RedBullDataProcessor:
                             # Remove internal fields before adding to final
                             processed_copy = processed.copy()
                             processed_copy.pop("_raw_hash", None)
+                            processed_copy.pop("_corrections_hash", None)
                             processed_copy.pop("_translated_editions", None)
                             processed_copy.pop("_edition_fingerprints", None)
                             processed_copy.pop("_normalized_editions", None)
@@ -4603,9 +4686,10 @@ class RedBullDataProcessor:
                             # Only calculate meaningful ETA if we have actual processing time
                             remaining = len(tasks) - completed_count
 
-                            # Check if this was a successful retry
+                            # Check if this was a successful retry — clear any pending errors
                             attempt = retry_attempts.get(country_name, 1)
                             if attempt > 1:
+                                pending_errors.pop(country_name, None)
                                 self.thread_safe_print(
                                     f"  ✅ {country_name} retry successful after {attempt} attempts!"
                                 )
@@ -4662,15 +4746,17 @@ class RedBullDataProcessor:
                         attempt = retry_attempts.get(country_name, 0) + 1
                         retry_attempts[country_name] = attempt
 
-                        # Enhanced error logging with clearer messages
-                        error_summary = str(err)[:100].replace("\n", " ")
+                        # Build full error summary without truncation (only logged on final failure)
+                        error_summary = str(err).replace("\n", " ")
                         self.thread_safe_print(
-                            f"  ❌ {country_name} failed (attempt {attempt}/3): {error_summary}"
+                            f"  ❌ {country_name} failed (attempt {attempt}/3): {error_summary[:150]}"
                         )
 
-                        # Log error to changelog
-                        self.changelog["errors"].append(
-                            f"{country_name} (attempt {attempt}): {error_summary}"
+                        # Buffer per-country errors — only written to changelog on final failure
+                        if country_name not in pending_errors:
+                            pending_errors[country_name] = []
+                        pending_errors[country_name].append(
+                            f"attempt {attempt}: {error_summary}"
                         )
 
                         if attempt < 3:
@@ -4692,12 +4778,14 @@ class RedBullDataProcessor:
                                 f"{remaining_countries} countries still processing..."
                             )
                         else:
-                            # Failed 3 times - abort entire processing
+                            # Failed 3 times — commit buffered errors to changelog, then abort
                             self._abort_flag = True
                             self.thread_safe_print(
                                 f"  ❌ {country_name} failed 3 times. Aborting all processing."
                             )
-                            self.thread_safe_print(f"     Final error: {error_summary}")
+                            self.thread_safe_print(f"     Final error: {error_summary[:150]}")
+                            for buffered in pending_errors.pop(country_name, []):
+                                self.changelog["errors"].append(f"{country_name}: {buffered}")
                             # Cancel pending futures
                             for pending_future in future_to_task:
                                 if not pending_future.done():
@@ -4869,13 +4957,16 @@ def main():
 
             if args.country in available_countries:
                 country_info = available_countries[args.country]
-                result, _ = processor.process_country(
+                result, was_fresh = processor.process_country(
                     args.country,
                     country_info["domain"],
                     country_info["flag_code"],
                     force=args.force,  # Use force flag from arguments
                 )
                 if result:
+                    if not was_fresh:
+                        print(f"  ℹ️  Using cached data for {args.country}")
+
                     if args.separate_file:
                         # Save to separate file (old behavior)
                         if "editions" in result:
@@ -4885,6 +4976,7 @@ def main():
 
                         output = {args.country: result}
                         output[args.country].pop("_raw_hash", None)
+                        output[args.country].pop("_corrections_hash", None)
                         output[args.country].pop("_translated_editions", None)
                         output[args.country].pop("_edition_fingerprints", None)
                         output[args.country].pop("_normalized_editions", None)
