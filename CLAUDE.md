@@ -67,7 +67,10 @@ python collector.py --country Netherlands --custom-url "https://web.archive.org/
 # Basic processing
 python processor.py
 
-# Force reprocess all (ignore cache)
+# Force reprocess all: invalidates per-country cache hashes upfront, bypasses global UUID
+# cache and per-edition cache so every edition goes through Gemini again.
+# Resumable on abort: re-running without --force continues from where it left off —
+# completed countries have fresh hashes (cache hit), unprocessed ones still miss.
 python processor.py --force
 
 # Verbose mode with detailed console output

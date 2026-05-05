@@ -163,12 +163,6 @@
             "replace": "White Peach"
         },
         {
-            "id": "add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:mk-MK",
-            "field": "flavor",
-            "search": "Curuba",
-            "replace": "White Peach"
-        },
-        {
             "id": "2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd",
             "field": "flavor",
             "search": "Juneberry",
@@ -253,6 +247,12 @@
             "replace": "Iced Vanilla Berry"
         },
         {
+            "id": "3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:fi-FI",
+            "field": "flavor",
+            "search": "Kirsikan maku",
+            "replace": "Cherry Sakura"
+        },
+        {
             "id": "41e97cb8-fb1f-41a3-a380-be2a75123e1a:fr-FR",
             "field": "flavor",
             "search": "Mûre givrée et vanille",
@@ -263,13 +263,6 @@
             "field": "flavor",
             "search": "Јаболко-ѓумбир",
             "replace": "Fuji Apple & Ginger"
-        },
-        {
-            "id": "22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA",
-            "field": "flavor_description",
-            "match_mode": "partial",
-            "search": "Sea Blue Edition",
-            "replace": "Blue Edition"
         }
     ],
     "comments": [
