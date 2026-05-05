@@ -508,6 +508,132 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/4/qfiistteg28pfszcrpuf/red-bull-summer-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 21
+                                },
+                                {
+                                    "hexColorCode": "#DECC25",
+                                    "percentage": 4.3
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D5",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#927D5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BCA875",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/hr-hr/energydrink/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "Kriiila za tvoje ljeto: Red Bull Summer Edition Energy Drink s okusom sudachija i limete, zaokružen nježnim notama pomela i kore citrusa.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/4/qfiistteg28pfszcrpuf/red-bull-summer-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/hr-hr/energydrink/red-bull-summer-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:hr-HR",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/4/ykbspfclrikhdlssnxpr/red-bull-summer-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 20
+                                },
+                                {
+                                    "hexColorCode": "#DECD25",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#D7E0E7",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#C2CBD7",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#50B0DA",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#927D5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BFAB74",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "Kriiila za tvoje ljeto: Red Bull Summer Edition Sugarfree Energy Drink s okusom sudachija i limete, zaokružen nježnim notama pomela i kore citrusa.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/4/ykbspfclrikhdlssnxpr/red-bull-summer-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hr-HR",
             "header_data": {
                 "content": {
@@ -569,5 +695,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-28T20:20:27.276221+00:00"
+    "collection_timestamp": "2026-05-05T07:32:54.150996+00:00"
 }

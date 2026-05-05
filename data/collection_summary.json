@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-05-04T08:25:08.121260+00:00",
+        "collection_date": "2026-05-05T07:49:19.835069+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -140,7 +140,7 @@
                 "hr-hr"
             ],
             "flag_code": "HR",
-            "editions_count": 9,
+            "editions_count": 11,
             "data_file": "hr-hr.json"
         },
         "Czech Republic": {
@@ -149,7 +149,7 @@
                 "cz-cs"
             ],
             "flag_code": "CZ",
-            "editions_count": 11,
+            "editions_count": 10,
             "data_file": "cz-cs.json"
         },
         "Denmark": {
@@ -196,7 +196,7 @@
                 "fr-fr"
             ],
             "flag_code": "FR",
-            "editions_count": 14,
+            "editions_count": 12,
             "data_file": "fr-fr.json"
         },
         "Germany": {
@@ -504,7 +504,7 @@
                 "za-en"
             ],
             "flag_code": "ZA",
-            "editions_count": 6,
+            "editions_count": 5,
             "data_file": "za-en.json"
         },
         "Spain": {

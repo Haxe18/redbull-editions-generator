@@ -394,6 +394,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hu-HU",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/4/tslcej6lwfd8sockhpr2/red-bull-summer-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 21
+                                },
+                                {
+                                    "hexColorCode": "#DECC25",
+                                    "percentage": 4.3
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D5",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#927D5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BCA975",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "A Red Bull Summer Edition szudacsi és lime ízvilággal, amelyet egy finom pomelo- és citrushéj-aroma tesz teljessé.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/4/tslcej6lwfd8sockhpr2/red-bull-summer-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hu-HU",
             "header_data": {
                 "content": {
@@ -455,5 +516,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-10T07:08:04.317535+00:00"
+    "collection_timestamp": "2026-05-05T07:36:57.241536+00:00"
 }

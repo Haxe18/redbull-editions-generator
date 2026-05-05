@@ -2793,10 +2793,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:fr-FR": {
-        "fingerprint": "4566bce2707cf2f01abdd5b7f132060c20d995f9bbaee3cafceb4b1322c3a5b0",
+        "fingerprint": "c5aa5d8e1a845e60ac9451d7904d2ade1991fb5cff53c61463f13659ecef90e8",
         "name": "The White Edition",
-        "flavor": "Coconut-Blueberry",
-        "flavor_description": "The Red Bull White Edition combines the exotic taste of Coconut and the fruity taste of Acai",
+        "flavor": "",
+        "flavor_description": "A refreshing blend featuring the exotic taste of Coconut combined with fruity notes of Acai",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:fr-FR": {
@@ -2821,10 +2821,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fr-FR": {
-        "fingerprint": "8e9e4bc2fd73ddf26d0518ece3ba5b5fa1309c48847d90e6de11bfd54b6988c7",
+        "fingerprint": "fb03d04274aadc375b3544a3bbd27156ecc24cb139a0af049ef70b62fca7fb98",
         "name": "The Ice Edition",
-        "flavor": "Iced Vanilla Berry",
-        "flavor_description": "The Red Bull Ice Edition features the taste of blackberry and Vanilla with a frosted note of eucalyptus",
+        "flavor": "",
+        "flavor_description": "Features the distinct taste of blackberry and Vanilla with a cooling eucalyptus note",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:fr-FR": {
@@ -3847,6 +3847,34 @@
         "name": "The Summer Edition",
         "flavor": "Sudachi Lime",
         "flavor_description": "Red Bull Summer Edition gives you wings with the fresh taste of Sudachi lime",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR": {
+        "fingerprint": "7d0dc54fb3e05040d981cef9636e38555ba35367b81be3d0dccb845a120c9c66",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "A refreshing summer energy drink with the taste of sudachi and lime, featuring subtle notes of Pomelo and citrus peel",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:hr-HR": {
+        "fingerprint": "56b0d33024d5acccaff43fa69a04bd55badc9a1cbdc842be42fa7c642f4dbe52",
+        "name": "The Summer Edition Sugarfree",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "A sugarfree summer energy drink with the taste of sudachi and lime, featuring subtle notes of Pomelo and citrus peel",
+        "sugarfree": true
+    },
+    "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hu-HU": {
+        "fingerprint": "fc2c526d2addd44222a663c67b5c43ca6442b447d92988decdcf45f24af123f2",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "A refreshing summer drink featuring the distinct tastes of sudachi and lime with hints of Pomelo and citrus",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:nl-NL": {
+        "fingerprint": "c88aa571d205bbad911460f603308ed11bd24375deeebaf1a7a6e286eaabe786",
+        "name": "The Cherry Edition",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Cherry Edition features the taste of Cherry with notes of almond and Cherry Blossom",
         "sugarfree": false
     }
 }

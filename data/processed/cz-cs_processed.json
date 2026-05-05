@@ -92,16 +92,6 @@
             "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-summer-edition"
         },
         {
-            "name": "The Tropical Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "Red Bull Tropical Edition features the refreshing taste of Tropical Fruits",
-            "sugarfree": false,
-            "color": "#FFCD00",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/jtywyplref794cm9n3cx/red-bull-tropical-edition-image",
-            "alt_text": "Red Bull Tropical Edition - image",
-            "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-tropical-edition"
-        },
-        {
             "name": "The Peach Edition",
             "flavor": "Peach",
             "flavor_description": "Red Bull Peach Edition with the taste of White Peach",
@@ -113,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CZ.svg",
-    "_raw_hash": "99336e2b436e126fb7e02d0b9c9c3ef1908b1be3a497ee1073476c07d570abc1",
+    "_raw_hash": "4802cd72f8f8c2c5d2ceb691fbf82c539cd1cc005033787b8ddaa09012fcbf20",
     "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
     "_translated_editions": [],
     "_edition_fingerprints": {
@@ -126,7 +116,6 @@
         "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:cs-CZ": "be04a7cd7e666e11c3f6d524d91784a141c2630630a26f443e62aa40b0097753",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:cs-CZ": "bfaabc83d5e05e3fa63b61d82e8984b3805e5192e712b7b316819fb17f03a5fd",
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:cs-CZ": "0209749969e2b84b53971ff679a5f1038d56fc34aa858d9c206606d1be9f47ac",
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:cs-CZ": "556ca23970e99eb700bff20412fa360d1097d8aaf0c5036e8cc3dff9d2b9d6fe",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:cs-CZ": "1de5e8a41cef365af8a942fb95f30dfeaaf337ee0acd9ff99e1382ee4b0c4d05"
     },
     "_normalized_editions": {
@@ -182,12 +171,6 @@
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
             "flavor_description": "Wings for your summer. This Summer Edition features the refreshing taste of Sudachi Lime, citrus peel, and floral notes",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:cs-CZ": {
-            "name": "The Tropical Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "Red Bull Tropical Edition features the refreshing taste of Tropical Fruits",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:cs-CZ": {
