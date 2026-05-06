@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-05-05T07:49:19.835069+00:00",
+        "collection_date": "2026-05-06T08:02:55.742512+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -504,7 +504,7 @@
                 "za-en"
             ],
             "flag_code": "ZA",
-            "editions_count": 5,
+            "editions_count": 8,
             "data_file": "za-en.json"
         },
         "Spain": {

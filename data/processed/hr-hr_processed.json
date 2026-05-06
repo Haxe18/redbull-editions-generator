@@ -84,12 +84,12 @@
         {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "A refreshing summer energy drink with the taste of sudachi and lime, featuring subtle notes of Pomelo and citrus peel",
+            "flavor_description": "A refreshing energy drink with the taste of sudachi and lime, featuring gentle notes of Pomelo and citrus peel. Perfect for summer refreshment",
             "sugarfree": false,
             "color": "#f2e853",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/4/qfiistteg28pfszcrpuf/red-bull-summer-edition",
             "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/hr-hr/energydrink/red-bull-summer-edition"
+            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition"
         },
         {
             "name": "The Summer Edition Sugarfree",
@@ -113,22 +113,15 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HR.svg",
-    "_raw_hash": "e820c211136b764a8f420a6083bd86920f86edd494b83d471b923bb4a33bdd40",
+    "_raw_hash": "6ca0bcece6883d461a15bedcbc4a98f6fa1fd8e6650c42488907d9007d29619d",
     "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR",
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "description": "Wings for your summer: Red Bull Summer Edition Energy Drink with a taste of sudachi and lime, rounded off with gentle notes of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/hr-hr/energydrink/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:hr-HR",
-            "name": "The Summer Edition Sugarfree",
-            "flavor": "Sudachi Lime",
-            "description": "Wings for your summer: Red Bull Summer Edition Sugarfree Energy Drink with a taste of sudachi and lime, rounded off with gentle notes of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition-sugarfree"
+            "description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition"
         }
     ],
     "_edition_fingerprints": {
@@ -140,7 +133,7 @@
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hr-HR": "3dd09651240084cc5fce52f2a01d2e702b91aa7e452ffcf9967c6b8d7e7cf819",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:hr-HR": "2c40b304235f5da0f650728d1ba347e869b8b1c65bff93bbb6ea30936ee44f8d",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:hr-HR": "2f9d07bd053270244d4ffdf0aac9b624057879392ffc57ae6b0d736a533bf534",
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR": "7d0dc54fb3e05040d981cef9636e38555ba35367b81be3d0dccb845a120c9c66",
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR": "cd3af891fc78cf63644650bc884fce2eead9440576a50d5bd6e47bff002c4f7c",
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:hr-HR": "56b0d33024d5acccaff43fa69a04bd55badc9a1cbdc842be42fa7c642f4dbe52",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hr-HR": "2e2e7adad5b78671527581f82e8810685ec42cd5c00659154c34a9892002ca85"
     },
@@ -196,7 +189,7 @@
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR": {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "A refreshing summer energy drink with the taste of sudachi and lime, featuring subtle notes of Pomelo and citrus peel",
+            "flavor_description": "A refreshing energy drink with the taste of sudachi and lime, featuring gentle notes of Pomelo and citrus peel. Perfect for summer refreshment",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:hr-HR": {

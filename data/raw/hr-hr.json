@@ -548,7 +548,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/hr-hr/energydrink/red-bull-summer-edition"
+                    "externalUrl": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition"
                 }
             },
             "graphql_data": {
@@ -563,7 +563,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/hr-hr/energydrink/red-bull-summer-edition"
+                        "externalUrl": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition"
                     }
                 }
             }
@@ -695,5 +695,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-05T07:32:54.150996+00:00"
+    "collection_timestamp": "2026-05-06T07:48:34.681985+00:00"
 }
