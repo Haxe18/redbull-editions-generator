@@ -134,16 +134,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NL.svg",
     "_raw_hash": "2bef1899f1dd4aa8adfb712dc10b775273b421602c370f01a9a7deb23642a272",
-    "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:nl-NL",
-            "name": "The Cherry Edition",
-            "flavor": "Cherry Sakura",
-            "description": "Red Bull Cherry Edition with the taste of cherry, with notes of almond and cherry blossom.",
-            "product_url": "https://www.redbull.com/nl-nl/energydrink/products/red-bull-cherry-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-NL": "5f15d837353fa19e4ae9d553d613e601e7f062671985169a696478665026f4c4",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:nl-NL": "7170af1279d9c9198eaa950557e968c5fc9ac22676f159d2af4e34ab86359e5a",

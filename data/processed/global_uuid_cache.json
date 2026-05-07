@@ -329,17 +329,17 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR": {
-        "fingerprint": "2712576ddf4d227c198477db7f1b0a2a27912b2bd320adfc00ceb92e79e4c500",
+        "fingerprint": "a2dcd6e7923b92ab2bba963f673c1ca33e820315078a31b33b23527fd895a156",
         "name": "The Peach Edition",
         "flavor": "White Peach",
-        "flavor_description": "Red Bull Peach Edition combines refreshing White Peach aroma with a hint of citrus peel and floral notes",
+        "flavor_description": "Red Bull Peach Edition combines the refreshing taste of White Peach with a touch of citrus peel and floral notes",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR": {
-        "fingerprint": "47c2de14af8374b369273e9e81540711ef72a002b692c2da14a9db901cc059fc",
+        "fingerprint": "3268471b6856fdf4311f87fdf9836100c3f86c26e2027bc9cfc13cb3723b114d",
         "name": "The Lilac Edition Sugarfree",
         "flavor": "Grapefruit & Blossom",
-        "flavor_description": "Red Bull Lilac Edition Sugarfree Energy Drink combines Pomelo flavor with floral notes",
+        "flavor_description": "Red Bull Lilac Edition Sugarfree energy drink combines the taste of Pomelo with floral notes",
         "sugarfree": true
     },
     "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:mk-MK": {
@@ -553,10 +553,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:es-ES": {
-        "fingerprint": "0b0ab16b8ed973465c19ed1a3ccc0f93df17ac04fcec9d2b0258d837a38c482c",
+        "fingerprint": "d7f3742f6125dd6ab5790a63763b2ac8ab4136d4b7a5e6d25a220a41da30967d",
         "name": "The Apricot Edition",
         "flavor": "Apricot-Strawberry",
-        "flavor_description": "The Red Bull Apricot Edition features a delicious blend of Apricot and Strawberry with a subtle hint of Peach",
+        "flavor_description": "A refreshing blend of Apricot and Strawberry with a subtle hint of Peach",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE": {
@@ -567,10 +567,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:es-PE": {
-        "fingerprint": "2d459066c0188548480a0950a317a2575d3d473977e7062c9cebc6db043f825a",
+        "fingerprint": "04feb312d6d1593e2661a0ad93ae320cb5aeaf12d92e55f0b0a0db79914f5c8b",
         "name": "The Summer Edition",
         "flavor": "Cherry & Wild Berries",
-        "flavor_description": "Red Bull Summer Edition with extraordinary taste of Wild Berries and Cherry",
+        "flavor_description": "Red Bull Summer Edition with the extraordinary taste of blackberry and Cherry",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE": {
@@ -868,7 +868,7 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH": {
-        "fingerprint": "6cf21030e303a963139f399b57e9b2f47a6244c26d4dcbeb938814f604a51e49",
+        "fingerprint": "9347add15fe58c4367ec466d7e9d1fa0d31d515a95588ebf6d0e0be2480d5c31",
         "name": "The White Edition",
         "flavor": "Coconut-Blueberry",
         "flavor_description": "The Red Bull White Edition with the taste of exotic Coconut and fruity Blueberry",
@@ -924,10 +924,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:de-CH": {
-        "fingerprint": "e75c9ac8172d08667e087a697a557672595c7243960c8137f15e7f8a1164c689",
+        "fingerprint": "4d0dd538faf1d0ef4a4aa08aa7d8237efd94cabaef8c634036e143647fe01cb5",
         "name": "The Glacier Edition",
         "flavor": "Glacier Ice",
-        "flavor_description": "The Red Bull Glacier Edition with an icy-fresh taste",
+        "flavor_description": "The Red Bull Glacier Edition with an icy fresh taste",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:de-CH": {
@@ -1050,10 +1050,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR": {
-        "fingerprint": "7f2ad6f9d335dd0a56af8bdade1b03de16c84794bee7dacf6c299e24ea7e1749",
+        "fingerprint": "be77c365c5af26c23f61985b86a2fa5628d0107c587bed2754828a0e940d5853",
         "name": "The Apricot Edition",
         "flavor": "Strawberry & Peach",
-        "flavor_description": "The Red Bull Pêssego Edition features the perfect blend of Strawberry and Peach taste, highlighting the best of each",
+        "flavor_description": "The Red Bull Apricot Edition presents the perfect blend of the Strawberry and Peach taste, highlighting the best of each",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:da-DK": {
@@ -2037,10 +2037,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-GB": {
-        "fingerprint": "7ed7e03460e01115edb72c1427bfe2c687b047014f1bc31e6dd4ba559dabfc41",
+        "fingerprint": "8e2d361fe1ec6b2288b973e3d202d961eb65974f7bee95a9a05c1364aa21abab",
         "name": "The Coconut Edition",
         "flavor": "Coconut-Blueberry",
-        "flavor_description": "The Red Bull White Edition Energy Drink with the taste of exotic Coconut and fruity Blueberry",
+        "flavor_description": "The Red Bull Coconut Edition Energy Drink with the taste of exotic Coconut and fruity Blueberry",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-GB": {
@@ -2079,10 +2079,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-GB": {
-        "fingerprint": "d19c489ea98b088e0d6c5eed3a8aa8a973f6efb36e1f957cebc505594a5aad3f",
+        "fingerprint": "f919b73128e82ecb9a71e1be253ea36c3ce8db149878c2aa3cdd4893de92f51a",
         "name": "The Ice Edition",
         "flavor": "Iced Vanilla Berry",
-        "flavor_description": "The Red Bull Ice Edition: The Energy Drink with the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
+        "flavor_description": "The Red Bull Ice Edition features the exceptional taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-GB": {
@@ -2114,10 +2114,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB": {
-        "fingerprint": "66b1c44978313fbe2938307a6b732afa493d828c7ae247fc5e5dabfc0d013890",
+        "fingerprint": "cd8ada9d31e02f734c4d362a2c696658aab4f1d9cbe8eed5f6c05ea65679b574",
         "name": "The Green Edition",
         "flavor": "Curuba-Elderflower",
-        "flavor_description": "The Red Bull Green Edition Energy Drink with the exotic taste of Dragon Fruit",
+        "flavor_description": "The Red Bull Green Edition Energy Drink featuring the exotic taste of Dragon Fruit",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-GB": {
@@ -2142,10 +2142,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-GB": {
-        "fingerprint": "8767b409d7f29ed8ce1555dfa135a4090ef8f6309756f383ff05529e42823f8b",
+        "fingerprint": "10831bfd2701dbca1dbeaf085474063b1b7ae0a20e729cb4bbdbd2a5ad569708",
         "name": "The Peach Edition",
         "flavor": "White Peach",
-        "flavor_description": "The Red Bull Peach Edition with the taste of White Peach, a touch of citrus peel and floral notes",
+        "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach, complemented by a touch of citrus peel and floral notes",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:en-GB": {
@@ -2163,10 +2163,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-GB": {
-        "fingerprint": "bc9102f247f8fb2c078e6708b5e671db8096b329ad17ebcb3c870041afd1a372",
+        "fingerprint": "4daf5092210f78df57636539bc79d481d9f44018b473684013a29745603239d1",
         "name": "The Apricot Edition",
         "flavor": "Apricot-Strawberry",
-        "flavor_description": "A harmonious blend of sun-ripened Apricot and sweet Strawberry flavors providing a refreshing energy boost",
+        "flavor_description": "The Red Bull Apricot Edition offers the perfect blend of Apricot and Strawberry",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:no-NO": {
@@ -2191,10 +2191,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:no-NO": {
-        "fingerprint": "181594b7a782c1e3cf074082b8fd3d249d9080ce0ec3dc1a417a4d300d8b2690",
+        "fingerprint": "28b9d93cac6182bb9aad76b25aa5cf57e4deb6aab6cc8852f7fb41a137374390",
         "name": "The Lilac Edition",
         "flavor": "Woodruff & Pink Grapefruit",
-        "flavor_description": "An energy drink featuring the taste of Pink Grapefruit, complemented by subtle floral notes",
+        "flavor_description": "An energy drink with a lovely taste of Pink Grapefruit, topped with subtle floral notes",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:no-NO": {
@@ -2233,10 +2233,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:no-NO": {
-        "fingerprint": "d884a0ab0fac0307c647acbcfe100fbcebe7c6f5f8223e33669ac02ed834a625",
+        "fingerprint": "9034c8fbc7e335ab674a311e8a047c89b02b9fa8e2e35830223e4816f0b14322",
         "name": "The Purple Edition",
         "flavor": "Forest Berry",
-        "flavor_description": "Experience the unique and refreshing taste of forest berries",
+        "flavor_description": "Experience the Norwegian taste of forest berries with the Red Bull Purple Edition",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-MX": {
@@ -2282,10 +2282,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": {
-        "fingerprint": "9256cd5ddf6a131881d0c1fc92b0d4e034cfd49aba6b70097242ef46d1b4296e",
+        "fingerprint": "18aae4c9179c7310ded5ddd95e66b457a1627d6baec0a7554bbdad13678253df",
         "name": "The Ice Edition",
         "flavor": "Iced Vanilla Berry",
-        "flavor_description": "An energy drink with a unique blend of berry and Vanilla, finished with an icy eucalyptus note",
+        "flavor_description": "An energy drink with a unique taste of berry, Vanilla, and an iced eucalyptus note",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pl-PL": {
@@ -2317,7 +2317,7 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:pl-PL": {
-        "fingerprint": "ca9aebbc64a94f41dead7f56ce3b500cc6c179e8141232cc6fca5d896157a825",
+        "fingerprint": "88cd66cbd356891654d6d69e0e8229ead1bd0f37b3036da2d1ed971ae2ff6cb2",
         "name": "The Green Edition",
         "flavor": "Cactus Fruit",
         "flavor_description": "An energy drink with an exotic Cactus Fruit taste",
@@ -2457,7 +2457,7 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-SE": {
-        "fingerprint": "b5554c79f1cf333ca1218dd3fb4b6decd92f671ee43f771e45ee807299a143a0",
+        "fingerprint": "e554227b3d26051846d12c0ee54d2ba5ac5ff5688721d4bf5e9b16ba97a25187",
         "name": "The Purple Edition",
         "flavor": "Acai",
         "flavor_description": "Experience the unique taste of exotic Acai Berry",
@@ -2583,10 +2583,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:et-EE": {
-        "fingerprint": "e8baf16b36c6a1fc7acb103aaaa28d729fa2cb075fee2b3de638ff12526cee32",
+        "fingerprint": "6a759311d5dcf3e954a206aa066385ba7dab20dc7a9fdcf400a48b16d7d3c7f0",
         "name": "The Peach Edition",
         "flavor": "White Peach",
-        "flavor_description": "Red Bull Peach Edition is an energy drink featuring the fresh taste of Peach and nectarine",
+        "flavor_description": "Red Bull Peach Edition is an energy drink with the fresh taste of White Peach and nectarine",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:et-EE": {
@@ -2772,10 +2772,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR": {
-        "fingerprint": "77bd8e0dc8013390e82ad214a75d1505825dcf34f64d91d44ea7230b3fee86c4",
+        "fingerprint": "b28b28a051a3afb16561ea3c0b580eacae9557ff9288d49efc56defcf6b2dca9",
         "name": "The Green Edition",
         "flavor": "Curuba-Elderflower",
-        "flavor_description": "Red Bull Green Edition combines refreshing tropical fruit notes with a sweet floral scent",
+        "flavor_description": "A refreshing drink combining a tropical fruit flavor with a sweet floral scent",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR": {
@@ -2786,17 +2786,17 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ko-KR": {
-        "fingerprint": "7a15313f555f31bee235ada48b9d250ad822ed1f443c62342a037a91a3440661",
+        "fingerprint": "ba29e501a84663badacd7c01fe9769c83a53f51bc5f8c350c43ac0d25db5fcd1",
         "name": "The Purple Edition",
         "flavor": "Grape",
-        "flavor_description": "Red Bull Purple Edition features an added grape flavor for a refreshing experience",
+        "flavor_description": "An energy drink with a distinct grape flavor",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:fr-FR": {
-        "fingerprint": "c5aa5d8e1a845e60ac9451d7904d2ade1991fb5cff53c61463f13659ecef90e8",
+        "fingerprint": "39c81524c635a1dd7b85ce2c6a0abd4617548c86c606a2e45857c54fe9d233ae",
         "name": "The White Edition",
-        "flavor": "",
-        "flavor_description": "A refreshing blend featuring the exotic taste of Coconut combined with fruity notes of Acai",
+        "flavor": "Coconut-Blueberry",
+        "flavor_description": "The White Edition combines the exotic taste of Coconut with the fruity notes of Acai berries",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:fr-FR": {
@@ -2905,17 +2905,17 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": {
-        "fingerprint": "42b2325dd52d5c254e66b6eaa5b36ea8e360ef76042458453df38dfc2f4d86d3",
+        "fingerprint": "3ddc47f6303d09acb217c665683d73e51b992cb8c47aafabb2e5da604047cfe9",
         "name": "The Purple Edition",
         "flavor": "Kyoho Grape",
-        "flavor_description": "A refreshing Red Bull edition featuring the taste of Kyoho grapes",
+        "flavor_description": "A refreshing Red Bull with the distinct, sweet taste of Kyoho grapes",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": {
-        "fingerprint": "4417070b313787daf73d6a5c0434af2a4812030fb32da1cd6fd9735068df4225",
+        "fingerprint": "88ef57d08fb09c01de062729364bbd33d9192741ef7f8b25e328101b74f54dd0",
         "name": "The Green Edition",
         "flavor": "Muscat",
-        "flavor_description": "Red Bull Green Edition returns with a crisp muscat flavor",
+        "flavor_description": "A revitalizing Red Bull featuring the crisp and aromatic taste of Muscat grapes",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR": {
@@ -2954,10 +2954,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO": {
-        "fingerprint": "8374fd6e653d96ecfb8f139b8653bba6c674591d8411a552e66435f605ab884e",
+        "fingerprint": "94d1bd389b65db0d6020a1624fa301473828580f6a47b74f9fe0165d4f35f66f",
         "name": "The Blue Edition",
         "flavor": "Blueberry",
-        "flavor_description": "Red Bull Blueberry offers a refreshing taste of Canadian blueberries",
+        "flavor_description": "Red Bull Blueberry offers a refreshing taste inspired by Canadian blueberries",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO": {

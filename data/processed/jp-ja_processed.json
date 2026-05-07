@@ -34,7 +34,7 @@
         {
             "name": "The Purple Edition",
             "flavor": "Kyoho Grape",
-            "flavor_description": "A refreshing Red Bull Edition featuring the taste of Kyoho grapes",
+            "flavor_description": "A refreshing Red Bull with the distinct, sweet taste of Kyoho grapes",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/10/15/neplp18e5cmwoftksfr3/red-bull-purple-edition-image",
@@ -44,7 +44,7 @@
         {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "Red Bull Green Edition returns with a crisp muscat flavor",
+            "flavor_description": "A revitalizing Red Bull featuring the crisp and aromatic taste of Muscat grapes",
             "sugarfree": false,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
@@ -54,13 +54,14 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
     "_raw_hash": "1f9b38f0b84c53aa7a95c2f8c4032fee02e69a02d5b5eee2fe49659097c810ab",
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": "7929c4b3f3e266d5a603b19942e854a8c713ecf0bb3872c5140d40f1429ea87c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": "038f531a7ef4c07fc89d8040cade4dbb949251731c65fc181b8310ec9fe07d23",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP": "07d794a7b43c3a6429cb994c803784167906e9a766045ab03de4d7f27114ed56",
-        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": "42b2325dd52d5c254e66b6eaa5b36ea8e360ef76042458453df38dfc2f4d86d3",
-        "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": "4417070b313787daf73d6a5c0434af2a4812030fb32da1cd6fd9735068df4225"
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": "3ddc47f6303d09acb217c665683d73e51b992cb8c47aafabb2e5da604047cfe9",
+        "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": "88ef57d08fb09c01de062729364bbd33d9192741ef7f8b25e328101b74f54dd0"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": {
@@ -84,13 +85,13 @@
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": {
             "name": "The Purple Edition",
             "flavor": "Kyoho Grape",
-            "flavor_description": "A refreshing Red Bull Edition featuring the taste of Kyoho grapes",
+            "flavor_description": "A refreshing Red Bull with the distinct, sweet taste of Kyoho grapes",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "Red Bull Green Edition returns with a crisp muscat flavor",
+            "flavor_description": "A revitalizing Red Bull featuring the crisp and aromatic taste of Muscat grapes",
             "sugarfree": false
         }
     }

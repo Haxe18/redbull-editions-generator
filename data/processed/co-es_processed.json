@@ -44,15 +44,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CO.svg",
     "_raw_hash": "0dba071b8accb371ff25bca9f7720fbf9304db2d75cb799276a84cc90778db87",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:es-CO",
-            "name": "The Yellow Edition",
-            "flavor": "Tropical/Tropical Fruits",
-            "description": "Red Bull Yellow Edition with tropical fruits taste",
-            "product_url": "https://www.redbull.com/co-es/energydrink/red-bull-yellow-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CO": "b5b9d6675b6385c7f05239fd20ac98ff4e344afcaa7286eed7449d3fb1e5b69b",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CO": "aca5a558f4709015dc526eb6d1f1b12abbad1d4f1887ae8d20eeba1fafe52317",

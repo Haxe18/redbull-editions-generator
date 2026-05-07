@@ -104,7 +104,7 @@
         {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Peach Edition is an energy drink featuring the fresh taste of Peach and nectarine",
+            "flavor_description": "Red Bull Peach Edition is an energy drink with the fresh taste of White Peach and nectarine",
             "sugarfree": false,
             "color": "#81312F",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/22/put4ipvdfkhgfmye9wns/red-bull-peach-edition-image",
@@ -134,22 +134,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EE.svg",
     "_raw_hash": "5b27228e8eaa1c3afed25a41a37ab928e55f7ea7ae5fdc62eaff8f1cba6ba0fe",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:et-EE",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "Red Bull Summer Edition gives you wings with a zesty sudachi and lime taste",
-            "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:et-EE",
-            "name": "The Summer Edition Sugarfree",
-            "flavor": "Sudachi Lime",
-            "description": "Red Bull Summer Edition Sugarfree gives you wings with a zesty sudachi and lime taste.",
-            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-summer-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:et-EE": "6ab1c27d9e4d89dc74af4983f845da7d603cb3e679a875cd8b901006f484e1d4",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:et-EE": "1fdfd5d25528ac49a07960bac57a2707d4aa6847803e850809a145a2668b0845",
@@ -161,7 +147,7 @@
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:et-EE": "c3686853e320234229c9fb02b87da0dc84695532613f19b7155c73f385238eb5",
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:et-EE": "aededc6ccf054dc35041eff9894c979192983a23965bc5df26c08c40b013f4fd",
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:et-EE": "ab9c5a785922ed22824b17a72f1598510fc0ee117648df251c4a627f84bf24a2",
-        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:et-EE": "e8baf16b36c6a1fc7acb103aaaa28d729fa2cb075fee2b3de638ff12526cee32",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:et-EE": "6a759311d5dcf3e954a206aa066385ba7dab20dc7a9fdcf400a48b16d7d3c7f0",
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:et-EE": "4eaa268b4f6fc3dfed130f8bcf1322ce5a333def146f61b52ae971c001eabbba",
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:et-EE": "a1ce69cb3f86ddef0e1dc640968a95d26b44ae296e9ff8368a689d0d7462c6f9"
     },
@@ -229,7 +215,7 @@
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:et-EE": {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Peach Edition is an energy drink featuring the fresh taste of Peach and nectarine",
+            "flavor_description": "Red Bull Peach Edition is an energy drink with the fresh taste of White Peach and nectarine",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:et-EE": {

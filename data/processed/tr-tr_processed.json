@@ -84,7 +84,7 @@
         {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Peach Edition combines refreshing White Peach aroma with a hint of citrus peel and floral notes",
+            "flavor_description": "Red Bull Peach Edition combines the refreshing taste of White Peach with a touch of citrus peel and floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/14/rtjsijgtshdlt5c7b1v9/red-bull-peach-edition-image",
@@ -94,7 +94,7 @@
         {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
-            "flavor_description": "Red Bull Lilac Edition Sugarfree Energy Drink combines Pomelo flavor with floral notes",
+            "flavor_description": "Red Bull Lilac Edition Sugarfree energy drink combines the taste of Pomelo with floral notes",
             "sugarfree": true,
             "color": "#6952AD",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/16/qjir7xwoqlrjiualqpyg/lilac-edition-sugarfree--grapefruit-and-blossom",
@@ -104,6 +104,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
     "_raw_hash": "f7a7bbfb2f2132cf27860e65ead8425790d1c550f33f6fb3a5255c6e07c243f3",
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:tr-TR": "0bb3860512ebc16bbc5950ca9217daa8f2977dd6d9f28127208597857942715b",
@@ -114,8 +115,8 @@
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:tr-TR": "181d89d455b519a1b0111ee835c2076d4dea2a3e623befe05cd2c98421ccf312",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:tr-TR": "57f526d6daefa280ef0f3a248317fce939551e71d0cf70313f3c88ba4c7a9658",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:tr-TR": "65032b2a1e574d456941e67df4cb15f95963beeaacdbca13da71b2d08e33e0f6",
-        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR": "2712576ddf4d227c198477db7f1b0a2a27912b2bd320adfc00ceb92e79e4c500",
-        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR": "47c2de14af8374b369273e9e81540711ef72a002b692c2da14a9db901cc059fc"
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR": "a2dcd6e7923b92ab2bba963f673c1ca33e820315078a31b33b23527fd895a156",
+        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR": "3268471b6856fdf4311f87fdf9836100c3f86c26e2027bc9cfc13cb3723b114d"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:tr-TR": {
@@ -169,13 +170,13 @@
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR": {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Peach Edition combines refreshing White Peach aroma with a hint of citrus peel and floral notes",
+            "flavor_description": "Red Bull Peach Edition combines the refreshing taste of White Peach with a touch of citrus peel and floral notes",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR": {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
-            "flavor_description": "Red Bull Lilac Edition Sugarfree Energy Drink combines Pomelo flavor with floral notes",
+            "flavor_description": "Red Bull Lilac Edition Sugarfree energy drink combines the taste of Pomelo with floral notes",
             "sugarfree": true
         }
     }

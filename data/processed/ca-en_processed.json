@@ -144,16 +144,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CA.svg",
     "_raw_hash": "e2b45eda30409c5949aee44d438afedadd971a8f71a9957d501f8bc08b411b1c",
-    "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-CA",
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Woodruff & Pink Grapefruit",
-            "description": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and blossom, topped with subtle floral notes.",
-            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-lilac-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-CA": "1f76814718f6eea00fbfc02cc05959f648e11376c2c66d6dc58aa85996737a4a",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-CA": "29781031fc8a582973fcde8e79777cc2a50a9c76e883ef7e5b744894e01200e5",

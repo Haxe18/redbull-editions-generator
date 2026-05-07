@@ -54,15 +54,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
     "_raw_hash": "21ae1a701b03972fc5e9c05ea3b970c62e5edc11c808e2c90acdbf033ddfaa3b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK",
-            "name": "The Lilac Edition",
-            "flavor": "Grapefruit-Woodruff",
-            "description": "Red Bull Lilac Edition brings out the subtle sweetness of pink grapefruit, blended with the unique scent of woodruff.",
-            "product_url": "https://www.redbull.com/hk-zh/energydrink/products/red-bull-lilac-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": "089307fef6d5b560da4eeb37be72b594ba8020ea9cf31cdd3e3e7e8296d8c72d",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": "dcfd2b3a164e09741f9c27a461520fd3afecfaed6c648e58c73fa88429969f1a",

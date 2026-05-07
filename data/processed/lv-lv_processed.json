@@ -94,16 +94,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-LV.svg",
     "_raw_hash": "ea86132639b20789845b1c767ebd169b6337468480c431143a302e65c06ad5c7",
-    "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:lv-LV",
-            "name": "The Green Edition",
-            "flavor": "Cactus Fruit",
-            "description": "Red Bull Green edition with the exotic taste of cactus fruit.",
-            "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-green-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:lv-LV": "348624cf7c87bcebc7f125b8ed2071271a83780124564b6cd8202622586cdd99",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:lv-LV": "4218763f6aaf145cc633703cd226451ed8ad0ea091d9a4bf603e1b276668965b",

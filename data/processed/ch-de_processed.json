@@ -84,7 +84,7 @@
         {
             "name": "The Glacier Edition",
             "flavor": "Glacier Ice",
-            "flavor_description": "The Red Bull Glacier Edition with an icy-fresh taste",
+            "flavor_description": "The Red Bull Glacier Edition with an icy fresh taste",
             "sugarfree": false,
             "color": "#97D5F7",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/12/1/or15unlkaqstihkmqvxq/red-bull-glacier-edition-image",
@@ -154,9 +154,10 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CH.svg",
     "_raw_hash": "d5c7873bae103b852922915e98018a53d66ead3c9458a1d1776a15f413839373",
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
     "_translated_editions": [],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH": "6cf21030e303a963139f399b57e9b2f47a6244c26d4dcbeb938814f604a51e49",
+        "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH": "9347add15fe58c4367ec466d7e9d1fa0d31d515a95588ebf6d0e0be2480d5c31",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:de-CH": "82d5b1d192378d4e51b563ab7028089ce500f7031a70f64419613a647a972e76",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:de-CH": "903c4ca4ada3b98a172aa364fdd29ece0c36884bf45007277ea091e52c837437",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:de-CH": "681f735bc810df027a95c5f017a66d2796c0d35e8aca4c74476d38fb74547933",
@@ -164,7 +165,7 @@
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-CH": "71959432723a34f4708193e2eb494b74e28eea575c320cb11a39869038469f4b",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-CH": "dcb93de70cc6aab7a08313f484d9648c2af8a92ebd1689f6b0667f60c1854537",
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:de-CH": "ed9e7ca5729c90b08471c0f6b40ed9fa09c91490f5f8b72d47f50a11d0c3c08f",
-        "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:de-CH": "e75c9ac8172d08667e087a697a557672595c7243960c8137f15e7f8a1164c689",
+        "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:de-CH": "4d0dd538faf1d0ef4a4aa08aa7d8237efd94cabaef8c634036e143647fe01cb5",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:de-CH": "57059006f86a14af99899b39e04b2f40dce900ae6af48eda56c79af4a2bcf133",
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:de-CH": "d5334689e2d33dd834d1d48e89306b0e63aa1d0bb42597384946d9d8102cc741",
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:de-CH": "579ba478cc762d3d4562206047923e781c9436f8a2279a258e102118fdc6bd76",
@@ -224,7 +225,7 @@
         "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:de-CH": {
             "name": "The Glacier Edition",
             "flavor": "Glacier Ice",
-            "flavor_description": "The Red Bull Glacier Edition with an icy-fresh taste",
+            "flavor_description": "The Red Bull Glacier Edition with an icy fresh taste",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:de-CH": {

@@ -24,7 +24,7 @@
         {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
-            "flavor_description": "An energy drink with a unique blend of berry and Vanilla, finished with an icy eucalyptus note",
+            "flavor_description": "An energy drink with a unique taste of berry, Vanilla, and an iced eucalyptus note",
             "sugarfree": false,
             "color": "#53b2c2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/2/kyrmkwvownk54lzvoghe/red-bull-iced-edition",
@@ -124,16 +124,17 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
     "_raw_hash": "b09ad8e0b063121991c0881579e24383954d24aa656922421932c257cd70cc38",
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL": "7c2603b0db36132344a2785ff0e6addac7375560c917591a8dbf182a13d2cf0b",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:pl-PL": "5c2479cc695d6ee30136bcc368a267f7d4432d2cdd21270ab6d98c5160550d5b",
-        "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": "9256cd5ddf6a131881d0c1fc92b0d4e034cfd49aba6b70097242ef46d1b4296e",
+        "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": "18aae4c9179c7310ded5ddd95e66b457a1627d6baec0a7554bbdad13678253df",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pl-PL": "7694217faa89e91e5855ca5052aaae19b17ef14d2d57312842e51d3814448117",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL": "b1b54730d883e749b04fc642e5605c1c74660790fbe186b38919a35673894b99",
         "rrn:content:energy-drinks:9c27f2d5-12cd-4185-af07-39c6a41edd74:pl-PL": "65fd9085dc400eda047fed8a8b940ee94595a91eae632536395cc75d4376db52",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pl-PL": "c976d8875438ab28d6fb7a8cd99b1a3ca00104c97b368ed3b14e8f3ce47c030e",
-        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:pl-PL": "ca9aebbc64a94f41dead7f56ce3b500cc6c179e8141232cc6fca5d896157a825",
+        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:pl-PL": "88cd66cbd356891654d6d69e0e8229ead1bd0f37b3036da2d1ed971ae2ff6cb2",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pl-PL": "e98570aa19fc5cfed2db784afde8ffca90b75e32652f39b4622cfa3cfbc3a198",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:pl-PL": "f837d879b3c29dba55eed517fcf62729b759e8c2254f1d3435dc12910acabf9d",
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:pl-PL": "1a0dbc88938cd4157212226b600af60b65bc8189a0b0dab994e1c9f3d19e3656",
@@ -155,7 +156,7 @@
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
-            "flavor_description": "An energy drink with a unique blend of berry and Vanilla, finished with an icy eucalyptus note",
+            "flavor_description": "An energy drink with a unique taste of berry, Vanilla, and an iced eucalyptus note",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pl-PL": {

@@ -144,37 +144,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AT.svg",
     "_raw_hash": "8d06288e6b5af11035a66f5b9f308fc997e4e87df32b960eebb5f5e689dc2bac",
-    "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-AT",
-            "name": "The White Edition",
-            "flavor": "Coconut-Blueberry",
-            "description": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry.",
-            "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-white-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-AT",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "100% Wings. 0% Sugar.",
-            "product_url": "https://www.redbull.com/zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT",
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Woodruff & Pink Grapefruit",
-            "description": "The Red Bull Lilac Edition Sugarfree with the taste of Woodruff and Pink Grapefruit.",
-            "product_url": "https://www.redbull.com/at-de/energydrink/products/red-bull-lilac-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-AT",
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "description": "The Red Bull Apricot Edition is the perfect blend of apricot and strawberry with a hint of peach taste.",
-            "product_url": "https://www.redbull.com/at-de/energydrink/red-bull-apricot-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-AT": "eb8a3220df818f29d0105674ecb87266ecae6b15a9ef2a68a12485587d56e1ec",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:de-AT": "674e88efecb9d772fe4fe0fe1807a216ddb14648963f185d2c2d75670a219e24",

@@ -114,15 +114,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IT.svg",
     "_raw_hash": "13b34ad03ad3c57d8b4f842b8dc6ac562370f90e5c69a94a18e30d6c540061f4",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:it-IT",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "Ready for the summer? Because as you know: Red Bull gives you Wings.",
-            "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-summer-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:it-IT": "7f481f398b72925987b7391ec636041615fa6f039b1d5367446eb95d56d39aed",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:it-IT": "005a5e0dab9e5461f856b347ed212ba0acb92019b8599d618ebc9941b99edcb3",

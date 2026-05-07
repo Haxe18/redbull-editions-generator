@@ -94,15 +94,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PT.svg",
     "_raw_hash": "b2729ea62d8465479422d42fc3c00b09067413cca15714a78be09384b10d1684",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-PT",
-            "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot offers the perfect fusion of apricot and strawberry tastes with notes of peach.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-apricot-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-PT": "ead7abdcece9feadd9fbddeb986114023b4a8ca5df1d09f4d136a3179be5049f",
         "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:pt-PT": "7c8ddd360eb090e498778805fd9ffe303c7747bd23d691adeeacc0bbf34e8f64",

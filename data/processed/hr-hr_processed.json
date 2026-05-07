@@ -114,16 +114,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HR.svg",
     "_raw_hash": "6ca0bcece6883d461a15bedcbc4a98f6fa1fd8e6650c42488907d9007d29619d",
-    "_corrections_hash": "360823805a05ee72f79a4e908a2a0d35641991c7a029dc5d3ea8fc09c5393a52",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hr-HR": "3f8aaccce6ae2d56571cfddb4d2b29dadf699a6f0fca36df8d97f452ad56f8bd",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:hr-HR": "0deb4ceabbc7dcc776c0c33e4f220b670b97e0d3cbc8e9ab1a04f4672f2a02d5",

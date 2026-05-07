@@ -84,15 +84,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NZ.svg",
     "_raw_hash": "7e53f38f9d4a58a225dfdb8425566abc9e874a4af8b6f52e77042ac6094ab65d",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-NZ",
-            "name": "The Winter Edition",
-            "flavor": "Exotic Passionfruit",
-            "description": "The Red Bull Winter Edition with the exotic taste of passionfruit, rounded off with elderflower notes.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ": "e35307df1b278a4d4a88c6cc8eba4d1245f7d18854537f598ab6f892f1dc2e8b",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ": "36435aa23ddec539670c943717377e2fda0e0811ad45312eb353e03f83721ddd",
