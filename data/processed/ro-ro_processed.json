@@ -4,7 +4,7 @@
         {
             "name": "The Blue Edition",
             "flavor": "Blueberry",
-            "flavor_description": "Red Bull Blueberry offers a refreshing taste of Canadian blueberries",
+            "flavor_description": "Red Bull Blueberry offers a refreshing taste inspired by Canadian blueberries",
             "sugarfree": false,
             "color": "#0072CE",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/9/18/bmmrf4fuqodwlrsjiocn/red-bull-afine-canadiene-imagine",
@@ -84,9 +84,10 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RO.svg",
     "_raw_hash": "6e8222ff22afe375a206cb983c783098912d3d06c15ec83eab64b449272e04a2",
+    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
     "_translated_editions": [],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO": "8374fd6e653d96ecfb8f139b8653bba6c674591d8411a552e66435f605ab884e",
+        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO": "94d1bd389b65db0d6020a1624fa301473828580f6a47b74f9fe0165d4f35f66f",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO": "6e530951f9640791cb2281a630eaf683fcfcd93795a8a808d05b0147f49344c0",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:ro-RO": "c9b53c769cf4f7b46bc3d9c9b078e050460cd6688839bdd207eaeb0a8ea672c2",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:ro-RO": "57153256cf3f508574ca8a7e63c8fe79ea5cba75d9b266207256972514988ad0",
@@ -99,7 +100,7 @@
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO": {
             "name": "The Blue Edition",
             "flavor": "Blueberry",
-            "flavor_description": "Red Bull Blueberry offers a refreshing taste of Canadian blueberries",
+            "flavor_description": "Red Bull Blueberry offers a refreshing taste inspired by Canadian blueberries",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO": {
