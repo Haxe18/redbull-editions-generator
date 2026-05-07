@@ -715,6 +715,132 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pl-PL",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/6/u1jwwkrw7cbykc95lauo/red-bull-summer-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 20.9
+                                },
+                                {
+                                    "hexColorCode": "#DECC25",
+                                    "percentage": 4.3
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D5",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#937E5E",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BCA975",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "Red Bull Summer Edition o smaku sudachi i limonki z lekką nutą pomelo oraz skórki cytrusowej.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/6/u1jwwkrw7cbykc95lauo/red-bull-summer-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:pl-PL",
+            "header_data": {
+                "content": {
+                    "title": "Summer Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/6/jl5dbetpltqmkbqkecwy/red-bull-summer-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 19.9
+                                },
+                                {
+                                    "hexColorCode": "#DECD25",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#D7DFE7",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#C2CAD7",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#4FB0DA",
+                                    "percentage": 1.5
+                                },
+                                {
+                                    "hexColorCode": "#937E5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BFAB74",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Summer Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "Red Bull Summer Edition Sugarfree o smaku sudachi i limonki z lekką nutą pomelo oraz skórki cytrusowej.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Summer Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/6/jl5dbetpltqmkbqkecwy/red-bull-summer-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pl-PL",
             "header_data": {
                 "content": {
@@ -776,5 +902,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:18:11.268865+00:00"
+    "collection_timestamp": "2026-05-07T00:21:55.180230+00:00"
 }

@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-05-06T08:02:55.742512+00:00",
+        "collection_date": "2026-05-07T00:28:16.826359+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -441,7 +441,7 @@
                 "pl-pl"
             ],
             "flag_code": "PL",
-            "editions_count": 12,
+            "editions_count": 14,
             "data_file": "pl-pl.json"
         },
         "Portugal": {
