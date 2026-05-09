@@ -413,10 +413,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:9c27f2d5-12cd-4185-af07-39c6a41edd74:pt-PT": {
-        "fingerprint": "db0ac7f7cebd4990b5e23adfe6145df1397daf4e18de5311b7d9e0551da07472",
+        "fingerprint": "ae48c1c699fd1a931ad56e4cf21a0f5fb962f59406a60b0ef2e83eed90ce8268",
         "name": "The Acai Edition Sugarfree",
         "flavor": "Acai",
-        "flavor_description": "Experience the unique exotic taste of Acai. Red Bull Acai Edition without sugar",
+        "flavor_description": "Red Bull Acai Edition Sugarfree with the unique exotic taste of Acai",
         "sugarfree": true
     },
     "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pt-PT": {
@@ -3917,6 +3917,13 @@
         "name": "The Summer Edition Sugarfree",
         "flavor": "Sudachi Lime",
         "flavor_description": "Red Bull Summer Edition Sugarfree features a taste of sudachi and lime with hints of Pomelo and citrus peel",
+        "sugarfree": true
+    },
+    "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:pt-PT": {
+        "fingerprint": "d778d49b3c295117281ca31a7fcf986cd33527c496dbd419b2601d4e151f76ce",
+        "name": "The Green Edition Sugarfree",
+        "flavor": "Maracuja & Melon",
+        "flavor_description": "Red Bull Green Edition Sugarfree with the taste of Maracuja Banana",
         "sugarfree": true
     }
 }

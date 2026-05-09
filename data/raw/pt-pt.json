@@ -334,7 +334,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Açai Berry",
-                    "standfirst": "Experiencia o sabor exótico único do Açaí. Red Bull Açaí Edition Sem açúcar.",
+                    "standfirst": "Red Bull Açaí Edition Sugarfree com sabor exótico único do Açaí.",
                     "brandingHexColorCode": "#702082",
                     "image": {
                         "altText": "Red Bull Purple Edition Sugarfree - image",
@@ -418,6 +418,71 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:pt-PT",
+            "header_data": {
+                "content": {
+                    "title": "Green Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/8/us7dakauwquis0nifut3/red-bull-green-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#85BB44",
+                                    "percentage": 10.8
+                                },
+                                {
+                                    "hexColorCode": "#74B541",
+                                    "percentage": 9.5
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.6
+                                },
+                                {
+                                    "hexColorCode": "#D0D5E1",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#5BA830",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#54B1DA",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#71B222",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Green SF"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-green-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Maracujá-Banana",
+                    "standfirst": "Red Bull Green Edition Sugarfree com sabor de Maracujá-Banana",
+                    "brandingHexColorCode": "#6cc24a",
+                    "image": {
+                        "altText": "Green SF",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/8/us7dakauwquis0nifut3/red-bull-green-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-green-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-PT",
             "header_data": {
                 "content": {
@@ -473,129 +538,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pt-PT",
-            "header_data": {
-                "content": {
-                    "title": "Lilac Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/16/cb1wmgxldfqfhck2srcw/lilac-edition-sugarfree--grapefruit-and-blossom",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#9A7ADD",
-                                    "percentage": 23.6
-                                },
-                                {
-                                    "hexColorCode": "#D8E1E7",
-                                    "percentage": 3.4
-                                },
-                                {
-                                    "hexColorCode": "#C2C4D9",
-                                    "percentage": 3.3
-                                },
-                                {
-                                    "hexColorCode": "#239FD4",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#59B3D8",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#E7F2E9",
-                                    "percentage": 0.8
-                                }
-                            ]
-                        },
-                        "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-lilac-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Grapefruit & Blossom",
-                    "standfirst": "Red Bull Lilac Edition Sugarfree com sabor a pomelo e notas florais.",
-                    "brandingHexColorCode": "#6952AD",
-                    "image": {
-                        "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/16/cb1wmgxldfqfhck2srcw/lilac-edition-sugarfree--grapefruit-and-blossom"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-lilac-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-PT",
-            "header_data": {
-                "content": {
-                    "title": "Apricot Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/14/lu68unmu0nr7o0mja80p/red-bull-apricot-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#F07F1E",
-                                    "percentage": 20.7
-                                },
-                                {
-                                    "hexColorCode": "#D9DBDF",
-                                    "percentage": 5.3
-                                },
-                                {
-                                    "hexColorCode": "#F4AA6F",
-                                    "percentage": 3.2
-                                },
-                                {
-                                    "hexColorCode": "#EEF2F5",
-                                    "percentage": 2.2
-                                },
-                                {
-                                    "hexColorCode": "#F4942F",
-                                    "percentage": 1.7
-                                },
-                                {
-                                    "hexColorCode": "#F6EFE8",
-                                    "percentage": 1.2
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Apricot Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-apricot-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Strawberry and apricot",
-                    "standfirst": "Red Bull Apricot oferece a fusão perfeita entre os sabores de alperce e morango com notas de pêssego.",
-                    "brandingHexColorCode": "#f3911b",
-                    "image": {
-                        "altText": "Red Bull Apricot Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/14/lu68unmu0nr7o0mja80p/red-bull-apricot-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-apricot-edition"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-04-10T10:47:54.759444+00:00"
+    "collection_timestamp": "2026-05-09T07:35:15.085419+00:00"
 }

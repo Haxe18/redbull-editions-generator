@@ -70,20 +70,10 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/4/wamvu9vxg4agy6brlvbp/red-bull-yellow-edition-image",
             "alt_text": "Red Bull Yellow Edition - image",
             "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-yellow-edition"
-        },
-        {
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "flavor_description": "A refreshing blend of Apricot and Strawberry with a subtle hint of Peach",
-            "sugarfree": false,
-            "color": "#f3911b",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/pcdzyw5csf8jibka5fs9/red-bull-apricot-edition-image",
-            "alt_text": "Red Bull Apricot Edition - image",
-            "product_url": "https://www.redbull.com/za-en/energydrink/red-bull-apricot-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ZA.svg",
-    "_raw_hash": "ed90d9ca00b171cb962cc2c4e4b037bd2edf35cc91cbd39424ca198537cbaf1f",
+    "_raw_hash": "828ac58f9c2462eb0e92f3c55f05ae4ff32fcd790d7a5d7f7cfebccc038526ca",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
     "_translated_editions": [],
     "_edition_fingerprints": {
@@ -93,8 +83,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-ZA": "2ad0595497e4fc05062c1bad81429e183d79589f16b6d16838cf0a22f767c036",
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-ZA": "0983252c5cc2a504db8b20370584d0a50307fdc060d11c73b5faae56fac2c8de",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-ZA": "081ed6bef415ba94802f1f746980e87e8b0d90c10d10ff53676d22cfdadd362f",
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-ZA": "225c43b39613b1e7bd87341210a48eb5586a84d24d2c9abc897669c234525ed4",
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-ZA": "11a26b35d45ceb9d8d175540429332e10247df3e6df523d87aef7bc5606fabab"
+        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-ZA": "225c43b39613b1e7bd87341210a48eb5586a84d24d2c9abc897669c234525ed4"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA": {
@@ -137,12 +126,6 @@
             "name": "The Yellow Edition",
             "flavor": "Tropical Fruits",
             "flavor_description": "The Red Bull Yellow Edition offers the taste of Tropical Fruits",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-ZA": {
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "flavor_description": "A refreshing blend of Apricot and Strawberry with a subtle hint of Peach",
             "sugarfree": false
         }
     }
