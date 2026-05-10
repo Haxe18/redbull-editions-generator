@@ -188,7 +188,6 @@ class RedBullDataProcessor:
         "Juneberry",
         "Maracuja & Melon",
         "Strawberry & Peach",
-        "Peach",
         "Pear Cinnamon",
         "Pomelo",
         "Pomegranate",
@@ -2464,10 +2463,12 @@ class RedBullDataProcessor:
         FLAVOR HANDLING:
         - Return the translated flavor AS-IS - normalization is handled by post-processing code
         - DO NOT try to match flavors to an approved list - the code will normalize them
+        - NEVER drop qualifying adjectives from flavor names (translate them, but keep the full phrase)
         - SPECIAL RULES (these distinctions are important for accurate translation!):
            - curuba ≠ cuban (different things!)
            - Forest Berry ≠ Forest Fruits (keep distinct)
            - Pomelo ≠ Grapefruit & Blossom (keep distinct)
+           - White Peach ≠ Peach (distinct variety — "White Peach" must NEVER be shortened to "Peach")
            - Waldbeere/Waldbeeren → Forest Berry (NOT Raspberry)
            - Gletschereis → Glacier Ice (German for Glacier Ice)
            - Yellow + tropical → "Tropical Fruits"
@@ -2586,9 +2587,20 @@ class RedBullDataProcessor:
         VALIDATION RULES TO CHECK:
 
         FLAVOR VALIDATION:
-        1. Mark flavors as VALID - flavor normalization is handled by post-processing code
-           - Do NOT correct flavors, the code will normalize them via similarity matching
-           - Exception: Energy Drink base variants need correct flavors:
+        1. Check flavors against the APPROVED FLAVORS LIST above:
+           - If the flavor IS in the approved list → mark as VALID, leave corrected_flavor empty
+           - If the flavor is NOT in the approved list:
+             * First check if the raw_flavor tokens appear in the flavor_description
+             * If yes: you MAY propose a corrected_flavor from the approved list ONLY if every
+               significant noun token in your proposal appears in raw_flavor or flavor_description
+               (e.g. raw_flavor="Coconut", description mentions "coconut" and "blueberry"
+               → "Coconut-Blueberry" is valid; "White Peach" is NOT valid because neither
+               "white" as a fruit nor "peach" appears in raw_flavor or description)
+             * If you are unsure: leave corrected_flavor empty — post-processing similarity
+               matching will handle it. A wrong guess is worse than leaving it empty.
+           - CRITICAL: NEVER pick a flavour just because it sounds similar or shares a word with
+             the edition description (e.g. "White Edition" does NOT imply "White Peach")
+           - Exception: Energy Drink base variants MUST have their exact canonical flavor:
              - "Energy Drink Sugarfree" → flavor MUST be "Sugarfree"
              - "Energy Drink Zero" → flavor MUST be "Zero Sugar"
              - "Energy Drink" → flavor MUST be "Energy Drink"
@@ -4130,7 +4142,7 @@ class RedBullDataProcessor:
                     # (like Coconut Edition with Coconut flavor)
                     acceptable_matches = [
                         "Coconut",
-                        "Peach",
+                        "White Peach",
                         "Watermelon",
                         "Tropical Fruits",
                     ]

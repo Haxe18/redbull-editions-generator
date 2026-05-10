@@ -24,7 +24,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, busy professionals, and travelers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, professionals, and travelers on long journeys",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/vkoctymbnhggh9tnojli/red-bull-energy-drink",
@@ -34,7 +34,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull Energy Drink without sugar",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true,
             "color": "#0595D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/ptiyqmqtolvlcfzyvxyu/red-bull-sugarfree",
@@ -43,8 +43,8 @@
         },
         {
             "name": "The Peach Edition",
-            "flavor": "Peach",
-            "flavor_description": "Red Bull Peach Edition offers a refreshing taste of Peach and floral notes",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition offers a refreshing taste of Peach with floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/2/qmdlulsaauplrfegxlwq/red-bull-peach-edition-image",
@@ -64,7 +64,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Wings for your summer with the taste of Peach, mild citrus peel, and floral notes",
+            "flavor_description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of Peach, mild notes of citrus peel, and floral notes",
             "sugarfree": false,
             "color": "#f2e853",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/28/uzvtwa20schlfku3anki/red-bull-summer-edition",
@@ -74,13 +74,55 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RS.svg",
     "_raw_hash": "5a669eb5e08a2ecbd02faf438677d136ad758ec3a6ad3345979c68d2298478a0",
-    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
     "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sr-RS",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "Red Bull Red Edition with the taste of watermelon.",
+            "product_url": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sr-RS",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "description": "Zero Calories. Zero Sugar. 100% Wings.",
+            "product_url": "https://www.redbull.com/int-en/energydrink/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sr-RS",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, professionals, and travelers on long journeys.",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sr-RS",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sr-RS",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition offers a refreshing taste of peach with floral notes.",
+            "product_url": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-peach-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:sr-RS",
+            "name": "The Spring Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "description": "Red Bull Spring Edition Sugarfree has the taste of cherry with mild notes of almond and cherry blossom.",
+            "product_url": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-spring-edition-sugarfree"
+        },
         {
             "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sr-RS",
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of peach, mild notes of citrus peel and floral tones.",
+            "description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of peach, mild notes of citrus peel, and floral notes.",
             "product_url": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-summer-edition"
         }
     ],
@@ -109,19 +151,19 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sr-RS": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, busy professionals, and travelers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, professionals, and travelers on long journeys",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sr-RS": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull Energy Drink without sugar",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sr-RS": {
             "name": "The Peach Edition",
-            "flavor": "Peach",
-            "flavor_description": "Red Bull Peach Edition offers a refreshing taste of Peach and floral notes",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition offers a refreshing taste of Peach with floral notes",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:sr-RS": {
@@ -133,7 +175,7 @@
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sr-RS": {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Wings for your summer with the taste of Peach, mild citrus peel, and floral notes",
+            "flavor_description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of Peach, mild notes of citrus peel, and floral notes",
             "sugarfree": false
         }
     }

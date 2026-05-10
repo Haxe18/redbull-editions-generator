@@ -199,6 +199,12 @@
             "replace": "100% Wings. 0% Sugar."
         },
         {
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:sr-RS",
+            "field": "flavor",
+            "search": "Breskva",
+            "replace": "White Peach"
+        },
+        {
             "id": "9484225a-90a3-4082-85c5-b6a189556e5b",
             "field": "flavor",
             "search": "Gletschereis",
