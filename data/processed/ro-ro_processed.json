@@ -62,14 +62,14 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "A sugarfree Spring Edition featuring the delicate tastes of Cherry and sakura",
-            "sugarfree": true,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/16/wawcz62pkd96jkepko4z/red-bull-spring-edition-sugarfree-image",
-            "alt_text": "Red Bull Spring Edition Sugarfree Image",
-            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-primavara-fara-zahar"
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing summer drink featuring intense lime, tart sudachi, and a subtle note of Pomelo",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/11/lcatknexwk3veyl9mfiw/red-bull-estival",
+            "alt_text": "Red Bull Estival",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-estival"
         },
         {
             "name": "The Apricot Edition",
@@ -83,9 +83,17 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RO.svg",
-    "_raw_hash": "6e8222ff22afe375a206cb983c783098912d3d06c15ec83eab64b449272e04a2",
+    "_raw_hash": "039355aa5adf3f1915493edb220051d6236c9e713c07f07963ff87ed7c471879",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:ro-RO",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Wings for your summer: Red Bull Summer Edition with citrus flavors: intense lime, tart sudachi (a Japanese citrus fruit) and a subtle note of pomelo.",
+            "product_url": "https://www.redbull.com/ro-ro/energydrink/products/red-bull-estival"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ro-RO": "94d1bd389b65db0d6020a1624fa301473828580f6a47b74f9fe0165d4f35f66f",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:ro-RO": "6e530951f9640791cb2281a630eaf683fcfcd93795a8a808d05b0147f49344c0",
@@ -93,7 +101,7 @@
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:ro-RO": "57153256cf3f508574ca8a7e63c8fe79ea5cba75d9b266207256972514988ad0",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ro-RO": "1981f2cc9dbc25bdcd0aa4d1d7d11f273b4f4dbf8092a183276e44a1bdd3187c",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ro-RO": "18bd529176ca3abcbf8f90ea7ce8c46a58092b2e159afbebfe2063833edc37d9",
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:ro-RO": "ae4e236ea339e27dd0d00d941e09230969e91c2b606652429f33cd8eb8aee212",
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:ro-RO": "5818e09c4a4c7500e6e0aba7971eba429d42f2194c4ceb1f177b0b2bd2a14229",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:ro-RO": "cfb7e2634b70c0515dcf78dcd58d5714c2d2b01f7b8e7ea5572daba2f4f59c09"
     },
     "_normalized_editions": {
@@ -133,11 +141,11 @@
             "flavor_description": "Red Bull Sugarfree provides the same energy as the original, but without any sugar",
             "sugarfree": true
         },
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:ro-RO": {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "A sugarfree Spring Edition featuring the delicate tastes of Cherry and sakura",
-            "sugarfree": true
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:ro-RO": {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing summer drink featuring intense lime, tart sudachi, and a subtle note of Pomelo",
+            "sugarfree": false
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:ro-RO": {
             "name": "The Apricot Edition",

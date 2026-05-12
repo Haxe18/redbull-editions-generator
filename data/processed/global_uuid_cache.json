@@ -3925,5 +3925,19 @@
         "flavor": "Maracuja & Melon",
         "flavor_description": "Red Bull Green Edition Sugarfree with the taste of Maracuja Banana",
         "sugarfree": true
+    },
+    "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:ro-RO": {
+        "fingerprint": "5818e09c4a4c7500e6e0aba7971eba429d42f2194c4ceb1f177b0b2bd2a14229",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "A refreshing summer drink featuring intense lime, tart sudachi, and a subtle note of Pomelo",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-ZA": {
+        "fingerprint": "9648595d1731ce7c848f1c576d6879e04b49a7d7331527f73d3eb9fa875427b4",
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
+        "sugarfree": false
     }
 }
