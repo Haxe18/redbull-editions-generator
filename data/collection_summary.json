@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-05-12T08:15:51.348091+00:00",
+        "collection_date": "2026-05-14T08:16:28.105737+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -85,7 +85,7 @@
                 "bg-bg"
             ],
             "flag_code": "BG",
-            "editions_count": 7,
+            "editions_count": 6,
             "data_file": "bg-bg.json"
         },
         "Canada": {

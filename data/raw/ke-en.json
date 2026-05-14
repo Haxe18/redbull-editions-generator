@@ -239,7 +239,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-apricot-edition"
+                    "externalUrl": "https://www.redbull.com/ke-en/energydrink/products/red-bull-apricot-edition"
                 }
             },
             "graphql_data": {
@@ -254,11 +254,11 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-apricot-edition"
+                        "externalUrl": "https://www.redbull.com/ke-en/energydrink/products/red-bull-apricot-edition"
                     }
                 }
             }
         }
     ],
-    "collection_timestamp": "2026-04-09T07:00:13.274205+00:00"
+    "collection_timestamp": "2026-05-14T08:06:13.144082+00:00"
 }
