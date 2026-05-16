@@ -3939,5 +3939,19 @@
         "flavor": "White Peach",
         "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:uk-UA": {
+        "fingerprint": "c5574c8d39a967ca012c19f3d4ec3d51f859399e2ac7dc00b88c579b7ab41a20",
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "Red Bull The Peach Edition features the refreshing taste of White Peach with subtle hints of citrus and floral notes",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-IE": {
+        "fingerprint": "1bc351f71508ddb0849184ae0070dadd2b7c1c9e51417b9df305e54e2e90fdca",
+        "name": "The Summer Edition",
+        "flavor": "Citrus Zest",
+        "flavor_description": "A refreshing summer drink featuring the taste of citrus zest, with subtle hints of Pomelo and citrus peel",
+        "sugarfree": false
     }
 }
