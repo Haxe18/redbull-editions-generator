@@ -3535,10 +3535,10 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:az-AZ": {
-        "fingerprint": "f8767a32730931fb6068bf3f19f8a34e2e25ce5e26afd4ea58d8b4b78308deac",
+        "fingerprint": "c82ddedbdca1588bf7dc7a2f70b158e5fda16d383d2d28d4c5920b7602f90078",
         "name": "Energy Drink",
         "flavor": "Energy Drink",
-        "flavor_description": "Red Bull Energy Drink is a beverage appreciated by world-class athletes, busy professionals, students, and travelers on long journeys",
+        "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and travelers on long journeys",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:es-MX": {
@@ -3952,6 +3952,20 @@
         "name": "The Summer Edition",
         "flavor": "Citrus Zest",
         "flavor_description": "A refreshing summer drink featuring the taste of citrus zest, with subtle hints of Pomelo and citrus peel",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:7b350335-d4f3-419d-9a00-ad1ef9bfe111:az-AZ": {
+        "fingerprint": "41342367feb338365b5a2ae3f10850a76912e035389dc835817973e227412827",
+        "name": "The Blue Edition",
+        "flavor": "Forest Fruits",
+        "flavor_description": "Red Bull Blue Edition with the taste of Cherry and Forest Fruits",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:az-AZ": {
+        "fingerprint": "8dc92d7166b84f0416470c19f1f45dffd8c93da9b85ee9dfdb0653770999824d",
+        "name": "The Apricot Edition",
+        "flavor": "Apricot-Strawberry",
+        "flavor_description": "Red Bull Apricot Edition with the taste of Apricot, Strawberry and Peach notes",
         "sugarfree": false
     }
 }

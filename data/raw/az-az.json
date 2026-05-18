@@ -65,62 +65,66 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:7fb8538f-2111-4fa9-9c59-6297145e92bd:az-AZ",
+            "id": "rrn:content:energy-drinks:7b350335-d4f3-419d-9a00-ad1ef9bfe111:az-AZ",
             "header_data": {
                 "content": {
-                    "title": "Summer Edition"
+                    "title": "Blue Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/24/zhkmihd9fsvktkartmrn/red-bull-summer-edition",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/18/m9jpnqc56k275cuogggx/blue-edition",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#F07F1E",
-                                    "percentage": 20.5
+                                    "hexColorCode": "#1F7EBE",
+                                    "percentage": 19.2
                                 },
                                 {
-                                    "hexColorCode": "#DADBDF",
-                                    "percentage": 5.6
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 4.5
                                 },
                                 {
-                                    "hexColorCode": "#F4A96E",
-                                    "percentage": 3.2
+                                    "hexColorCode": "#175AA4",
+                                    "percentage": 2.7
                                 },
                                 {
-                                    "hexColorCode": "#F4942F",
-                                    "percentage": 2
+                                    "hexColorCode": "#BFC7D1",
+                                    "percentage": 2.4
                                 },
                                 {
-                                    "hexColorCode": "#EFF4F8",
-                                    "percentage": 1.9
+                                    "hexColorCode": "#1661A6",
+                                    "percentage": 2.3
                                 },
                                 {
-                                    "hexColorCode": "#F7EEE7",
-                                    "percentage": 1.3
+                                    "hexColorCode": "#5AA6D2",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#F7F3F0",
+                                    "percentage": 0.7
                                 }
                             ]
                         },
-                        "altText": "Red Bull Summer Edition"
+                        "altText": "Blue Edition"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/az-az/energydrink/products/red-bull-summer-edition"
+                    "externalUrl": "https://www.redbull.com/az-az/energydrink/products/red-bull-blue-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Apricot-Strawberry",
-                    "standfirst": "Red Bull Summer Edition with the taste of apricot and strawberry.",
-                    "brandingHexColorCode": "#f3911b",
+                    "flavour": "Cherry and Forest Fruits",
+                    "standfirst": "Red Bull Blue Edition albalı və meşə meyvələrinin dadı ilə.",
+                    "brandingHexColorCode": "#008ACB",
                     "image": {
-                        "altText": "Red Bull Summer Edition",
+                        "altText": "Blue Edition",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/5/24/zhkmihd9fsvktkartmrn/red-bull-summer-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/18/m9jpnqc56k275cuogggx/blue-edition"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/az-az/energydrink/products/red-bull-summer-edition"
+                        "externalUrl": "https://www.redbull.com/az-az/energydrink/products/red-bull-blue-edition"
                     }
                 }
             }
@@ -134,7 +138,7 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/h7ufrkdbtvilbnhgqvkp/red-bull",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/19/hj9xhno9rx0bzh7gspln/red-bull-energy-drink",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#263A80",
@@ -170,7 +174,7 @@
                                 }
                             ]
                         },
-                        "altText": "Red Bull"
+                        "altText": "Red Bull Energy Drink"
                     }
                 },
                 "reference": {
@@ -183,9 +187,9 @@
                     "standfirst": "Red Bull Energy Drink dünya miqyasında yüksək səviyyəli atletlər, məşğul peşəkar, universitet tələbələri və uzun səyahətlərdə olan səyahətçilər tərəfindən qiymətləndirilən içkidir.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
-                        "altText": "Red Bull",
+                        "altText": "Red Bull Energy Drink",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/h7ufrkdbtvilbnhgqvkp/red-bull"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/19/hj9xhno9rx0bzh7gspln/red-bull-energy-drink"
                         }
                     },
                     "reference": {
@@ -319,7 +323,68 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:az-AZ",
+            "header_data": {
+                "content": {
+                    "title": "Apricot Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/18/n6y6mdh5nckziiadrhjo/red-bull-apricot-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#EF7A17",
+                                    "percentage": 10.7
+                                },
+                                {
+                                    "hexColorCode": "#F1860F",
+                                    "percentage": 9.1
+                                },
+                                {
+                                    "hexColorCode": "#D7E2E9",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#F5A64D",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C1C9D4",
+                                    "percentage": 2.8
+                                },
+                                {
+                                    "hexColorCode": "#F09A4F",
+                                    "percentage": 2.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Apricot Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/az-az/energydrink/products/red-bull-apricot-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Apricot-Strawberry",
+                    "standfirst": "Red Bull Apricot Edition - ərik, çiyələk dadı və şaftalı notları ilə.",
+                    "brandingHexColorCode": "#f3911b",
+                    "image": {
+                        "altText": "Red Bull Apricot Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/18/n6y6mdh5nckziiadrhjo/red-bull-apricot-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/az-az/energydrink/products/red-bull-apricot-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-04-10T19:18:17.810912+00:00"
+    "collection_timestamp": "2026-05-18T08:52:40.627129+00:00"
 }

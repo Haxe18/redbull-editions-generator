@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-05-16T07:47:13.252246+00:00",
+        "collection_date": "2026-05-18T09:13:54.148436+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -48,7 +48,7 @@
                 "az-az"
             ],
             "flag_code": "AZ",
-            "editions_count": 4,
+            "editions_count": 6,
             "data_file": "az-az.json"
         },
         "Belgium": {
