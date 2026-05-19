@@ -3967,5 +3967,12 @@
         "flavor": "Apricot-Strawberry",
         "flavor_description": "Red Bull Apricot Edition with the taste of Apricot, Strawberry and Peach notes",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:lt-LT": {
+        "fingerprint": "6a0dbd8e8284fb3fb5dbc408524cb3a858c1c3e689826c58c3d082536d3e2bfc",
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "The Red Bull Peach Edition features a refreshing White Peach flavor with subtle notes of citrus peel and flowers",
+        "sugarfree": false
     }
 }
