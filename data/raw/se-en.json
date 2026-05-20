@@ -2,7 +2,8 @@
     "locale_info": {
         "country_name": "Sweden",
         "domains": [
-            "se-en"
+            "se-en",
+            "se-sv"
         ],
         "flag_code": "SE"
     },
@@ -610,6 +611,63 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:sv-SE",
+            "header_data": {
+                "content": {
+                    "title": "Pink Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/19/uxvuhdq9kttqhurts4fv/red-bull-pink-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DF7EB0",
+                                    "percentage": 22.9
+                                },
+                                {
+                                    "hexColorCode": "#D9E2E8",
+                                    "percentage": 5.1
+                                },
+                                {
+                                    "hexColorCode": "#C1C8D3",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#E47DAF",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#E6BDD6",
+                                    "percentage": 1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pink Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-pink-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Waldbeere",
+                    "standfirst": "Red Bull Pink Edition Sugarfree ger dig viiingar med smak av hallon och spännande noter av verbena.           ",
+                    "brandingHexColorCode": "#c72466",
+                    "image": {
+                        "altText": "Red Bull Pink Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/19/uxvuhdq9kttqhurts4fv/red-bull-pink-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-pink-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:en-SE",
             "header_data": {
                 "content": {
@@ -813,5 +871,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-03T20:18:08.780111+00:00"
+    "collection_timestamp": "2026-05-20T08:51:21.703945+00:00"
 }

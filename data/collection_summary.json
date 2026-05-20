@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-05-19T08:59:34.271333+00:00",
+        "collection_date": "2026-05-20T08:54:17.350650+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -296,7 +296,7 @@
                 "kz-ru"
             ],
             "flag_code": "KZ",
-            "editions_count": 6,
+            "editions_count": 5,
             "data_file": "kz-ru.json"
         },
         "Kenya": {
@@ -519,10 +519,11 @@
         "Sweden": {
             "domain": "se-en",
             "all_domains": [
-                "se-en"
+                "se-en",
+                "se-sv"
             ],
             "flag_code": "SE",
-            "editions_count": 13,
+            "editions_count": 14,
             "data_file": "se-en.json"
         },
         "Switzerland": {

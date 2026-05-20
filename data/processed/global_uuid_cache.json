@@ -3974,5 +3974,12 @@
         "flavor": "White Peach",
         "flavor_description": "The Red Bull Peach Edition features a refreshing White Peach flavor with subtle notes of citrus peel and flowers",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:sv-SE": {
+        "fingerprint": "f22fd936bac085cdeb31ba8b8fec781a1df058ddcdc7f8b8666f862ce281bb7b",
+        "name": "The Pink Edition",
+        "flavor": "Forest Berry",
+        "flavor_description": "The Red Bull Pink Edition Sugarfree features a refreshing taste of Raspberry with pleasant notes of verbena",
+        "sugarfree": true
     }
 }
