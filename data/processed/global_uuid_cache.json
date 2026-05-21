@@ -3981,5 +3981,19 @@
         "flavor": "Forest Berry",
         "flavor_description": "The Red Bull Pink Edition Sugarfree features a refreshing taste of Raspberry with pleasant notes of verbena",
         "sugarfree": true
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sk-SK": {
+        "fingerprint": "3659827305c67d42903752def92dca5bf68612734a8d94bd97f4b7b535450b58",
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "The Red Bull Peach Edition features the delicate flavor of White Peach balanced with notes of citrus and flowers",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA": {
+        "fingerprint": "c83336ef1a6870831d8763a8b03afc9464838cf19467113fa0ad5e70f19c7a51",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Red Bull Summer Edition gives you wings with the refreshing taste of Japanese citrus and lime",
+        "sugarfree": false
     }
 }

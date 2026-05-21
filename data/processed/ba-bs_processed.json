@@ -62,6 +62,16 @@
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-sugarfree"
         },
         {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition gives you wings with the refreshing taste of Japanese citrus and lime",
+            "sugarfree": false,
+            "color": "#F0E53B",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/yvsblhfzzpgqxpkxleih/red-bull-summer-edition-image",
+            "alt_text": "Red Bull Summer Edition - image",
+            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
+        },
+        {
             "name": "The Spring Edition Sugarfree",
             "flavor": "Cherry Sakura",
             "flavor_description": "Red Bull Spring Edition with the taste of Cherry fruit and Blossom, finished with creamy almond notes",
@@ -73,9 +83,17 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg",
-    "_raw_hash": "2f659e90c20362aab96bb3960277e03ab1e87f138492620d62d3574e5508e0c5",
+    "_raw_hash": "054b269658dbc00815d179905e9a55f77bf7cae79c76a350c281b97360431719",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Summer Edition gives you wings with the refreshing taste of Japanese citrus and lime.",
+            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:bs-BA": "b3ada4d3aadec1d6751c665a16baf0982ac16413737e588905a4c0c7b634a18b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:bs-BA": "be572aa35c5fe15205e72e3dfa92cfd6ef0170775d53f793cd677797f1d3ed9d",
@@ -83,6 +101,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bs-BA": "bcd66a0c61e7d891811e9a2a05a5a055b8866d9235c9c47894e07f8f92899189",
         "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:bs-BA": "a0d5ff3f2aed8644bc644addcbeb50b9d200a0257c776ccf57231e5a151dee49",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:bs-BA": "0d429d505bc3ffb9031c6d6cb11d3fc518589049077e0c1185112707d6652d33",
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA": "c83336ef1a6870831d8763a8b03afc9464838cf19467113fa0ad5e70f19c7a51",
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:bs-BA": "c9d85e14cfedb35bab36d9f98ba2df3e60cfc3b007bb11462ba621f402c07fe6"
     },
     "_normalized_editions": {
@@ -121,6 +140,12 @@
             "flavor": "Sugarfree",
             "flavor_description": "The classic Red Bull Energy Drink formula, but completely without sugar",
             "sugarfree": true
+        },
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA": {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition gives you wings with the refreshing taste of Japanese citrus and lime",
+            "sugarfree": false
         },
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:bs-BA": {
             "name": "The Spring Edition Sugarfree",

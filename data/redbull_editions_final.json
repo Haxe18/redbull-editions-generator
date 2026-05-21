@@ -693,6 +693,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/5/qv1un0ssy18iwubsyzfa/red-bull-spring-edition-sugarfree-image",
                 "alt_text": "Red Bull Spring Edition Sugarfree Image",
                 "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-spring-sugarfree-edition"
+            },
+            {
+                "name": "The Summer Edition",
+                "flavor": "Sudachi Lime",
+                "flavor_description": "The Red Bull Summer Edition gives you wings with the refreshing taste of Japanese citrus and lime",
+                "sugarfree": false,
+                "color": "#F0E53B",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/yvsblhfzzpgqxpkxleih/red-bull-summer-edition-image",
+                "alt_text": "Red Bull Summer Edition - image",
+                "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg"
@@ -2577,16 +2587,6 @@
                 "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-blue-edition"
             },
             {
-                "name": "The Cherry Edition Sugarfree",
-                "flavor": "Cherry Sakura",
-                "flavor_description": "The Red Bull Cherry Edition Sugarfree offers the taste of Cherry with notes of almond and floral Cherry Blossom",
-                "sugarfree": true,
-                "color": "#52abd6",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/rerqahsfsvqr1pm5xqiz/the-cherry-edition-sugarfree",
-                "alt_text": "The Cherry Edition Sugarfree",
-                "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-cherry-edition-sugarfree"
-            },
-            {
                 "name": "The Peach Edition",
                 "flavor": "White Peach",
                 "flavor_description": "The Red Bull Peach Edition with the taste of White Peach, a touch of citrus peel and floral notes",
@@ -4341,6 +4341,16 @@
                 "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-ice-edition"
             },
             {
+                "name": "The Peach Edition",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull Peach Edition features the delicate flavor of White Peach balanced with notes of citrus and flowers",
+                "sugarfree": false,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/15/fyas3v0394tpycogeqvf/red-bull-peach-edition-image",
+                "alt_text": "Red Bull Peach Edition - Image",
+                "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-peach-edition"
+            },
+            {
                 "name": "The Pink Edition Sugarfree",
                 "flavor": "Forest Fruits",
                 "flavor_description": "A sugarfree energy drink with a taste of raspberries and other fruits complemented by herbal notes of verbena",
@@ -4379,16 +4389,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/4/t0dklo7yayztc91xx2kr/red-bull-summer-edition",
                 "alt_text": "Red Bull Summer Edition",
                 "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-summer-edition"
-            },
-            {
-                "name": "The Tropical Edition",
-                "flavor": "Tropical Fruits",
-                "flavor_description": "The Tropical Edition brings the fresh and vibrant taste of Tropical Fruits",
-                "sugarfree": false,
-                "color": "#FFCD00",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/cbt5jt0j4nk43x93xesa/red-bull-tropical-edition-image",
-                "alt_text": "Red Bull Tropical Edition - image",
-                "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-tropical-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SK.svg"

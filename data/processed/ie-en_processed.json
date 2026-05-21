@@ -32,16 +32,6 @@
             "product_url": "https://www.redbull.com/ie-en/energydrink/red-bull-red-edition"
         },
         {
-            "name": "The Cherry Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull Cherry Edition Sugarfree offers the taste of Cherry with notes of almond and floral Cherry Blossom",
-            "sugarfree": true,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/rerqahsfsvqr1pm5xqiz/the-cherry-edition-sugarfree",
-            "alt_text": "The Cherry Edition Sugarfree",
-            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-cherry-edition-sugarfree"
-        },
-        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Zero Calories. Zero Sugar. 100% Wings",
@@ -113,22 +103,13 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IE.svg",
-    "_raw_hash": "03299234b445b23368d172af624d44169fce7e99393d0699fcec2e0ccbfc5a46",
+    "_raw_hash": "60cebcca4ab6a5c0815c0b8849039192835341f835a472452558db0c3847def6",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-IE",
-            "name": "The Summer Edition",
-            "flavor": "Citrus Zest",
-            "description": "The Red Bull Summer Edition with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-summer-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-IE": "88e7240114f80fbf0cbc51ece94c67b26b8674bd1b2ff8b2d07e02b11fbf4f68",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-IE": "ed4c36af8e329f33c189e5e30f481b01f272fb2156a62705d9ff9ae248b5e68b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-IE": "d037082b0cef1800ebacf87b24fadf1ccfbb0636a74812b53fb521c0ee11d0d7",
-        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:en-IE": "334fd4aec6018e89ee4b9230ace5c7871e6eb8d1131e49b00c7523bba348abe3",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-IE": "66a10867986fff02afac81d7d83c41599974b771b69cdcc1ec30522ccaa29dbc",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-IE": "36b5022f8e4e2e907461de568a4ff6880f6d66f10d8fda6be10a26868e55175b",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IE": "18a0dc51caabc129fd4c141099ecc3d32f474e56e5ef33848eaa08d0ade98a6d",
@@ -155,12 +136,6 @@
             "flavor": "Watermelon",
             "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
             "sugarfree": false
-        },
-        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:en-IE": {
-            "name": "The Cherry Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull Cherry Edition Sugarfree offers the taste of Cherry with notes of almond and floral Cherry Blossom",
-            "sugarfree": true
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-IE": {
             "name": "Energy Drink Zero",

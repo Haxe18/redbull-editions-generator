@@ -72,14 +72,14 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Tropical Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "The Tropical Edition brings the fresh and vibrant taste of Tropical Fruits",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Peach Edition features the delicate flavor of White Peach balanced with notes of citrus and flowers",
             "sugarfree": false,
-            "color": "#FFCD00",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/cbt5jt0j4nk43x93xesa/red-bull-tropical-edition-image",
-            "alt_text": "Red Bull Tropical Edition - image",
-            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-tropical-edition"
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/15/fyas3v0394tpycogeqvf/red-bull-peach-edition-image",
+            "alt_text": "Red Bull Peach Edition - Image",
+            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-peach-edition"
         },
         {
             "name": "The Summer Edition",
@@ -103,9 +103,17 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SK.svg",
-    "_raw_hash": "853d8e92e6906d3d7d80b4c3568db78f07c82347633b6daa70d78384e9855b56",
+    "_raw_hash": "729d7955735b222e1d219c2f48c1c7163558f595bdea88017d8e2910c461e690",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sk-SK",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition combines the taste of white peach with a hint of citrus peel and floral notes.",
+            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-peach-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sk-SK": "5e5781ffda8bf8cf958e4a134406b00c2f4bea530d0e31804951a5f398d00409",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:sk-SK": "83186c15c7fb032c90bd5b7e1fc708f378cc35ff41bcdc4e5adbcc123cdad634",
@@ -114,7 +122,7 @@
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sk-SK": "e84d7d6e5e4e36374b681f4ed6fac5dba08201291a8175a4ecf1506037956a9c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sk-SK": "62958c0f6abb16db97e5768fb8bd8bed67ee08dc8153ef2762ac96e37dd715df",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sk-SK": "f34206520d52af669d2822c7ab7869f8be561641a5f13552ea0865be160c633e",
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sk-SK": "15785d088eb4aeab743879e1fcb070198476c4769b2ec1cabe52fccae36d6a48",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sk-SK": "3659827305c67d42903752def92dca5bf68612734a8d94bd97f4b7b535450b58",
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sk-SK": "bf967d79dfcf75f7a7c59e5c878ab4bcf2c330410faf60e77710b44df4c6ab6e",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:sk-SK": "c2b4fd10e9b53a364fc6f21d88fd0d9e28596c615bd4fc92291505f860e636a1"
     },
@@ -161,10 +169,10 @@
             "flavor_description": "The classic Red Bull energy drink formulated completely without sugar",
             "sugarfree": true
         },
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sk-SK": {
-            "name": "The Tropical Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "The Tropical Edition brings the fresh and vibrant taste of Tropical Fruits",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sk-SK": {
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "flavor_description": "The Red Bull Peach Edition features the delicate flavor of White Peach balanced with notes of citrus and flowers",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sk-SK": {

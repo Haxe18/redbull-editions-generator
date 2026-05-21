@@ -447,62 +447,54 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sk-SK",
+            "id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:sk-SK",
             "header_data": {
                 "content": {
-                    "title": "Tropical Edition"
+                    "title": "Peach Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/cbt5jt0j4nk43x93xesa/red-bull-tropical-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/15/fyas3v0394tpycogeqvf/red-bull-peach-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#F6C20E",
-                                    "percentage": 23.1
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 16.4
                                 },
                                 {
-                                    "hexColorCode": "#CDD1DD",
-                                    "percentage": 5.5
+                                    "hexColorCode": "#D22670",
+                                    "percentage": 9.3
                                 },
                                 {
-                                    "hexColorCode": "#FDDD2A",
-                                    "percentage": 1.6
+                                    "hexColorCode": "#D9E4E9",
+                                    "percentage": 5.1
                                 },
                                 {
-                                    "hexColorCode": "#F0CE50",
-                                    "percentage": 1.4
-                                },
-                                {
-                                    "hexColorCode": "#FBFCFE",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#576882",
-                                    "percentage": 1
+                                    "hexColorCode": "#C0C8D3",
+                                    "percentage": 2.4
                                 }
                             ]
                         },
-                        "altText": "Red Bull Tropical Edition - image"
+                        "altText": "Red Bull Peach Edition - Image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-tropical-edition"
+                    "externalUrl": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-peach-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Tropical Edition. Nechajte sa prekvapiť sviežou chuťou tropického ovocia.",
-                    "brandingHexColorCode": "#FFCD00",
+                    "flavour": "White Peach",
+                    "standfirst": "Red Bull Peach Edition kombinuje chuť bielej broskyne s nádychom citrusovej kôry a kvetinových tónov.",
+                    "brandingHexColorCode": "#E24585",
                     "image": {
-                        "altText": "Red Bull Tropical Edition - image",
+                        "altText": "Red Bull Peach Edition - Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/cbt5jt0j4nk43x93xesa/red-bull-tropical-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/15/fyas3v0394tpycogeqvf/red-bull-peach-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-tropical-edition"
+                        "externalUrl": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-peach-edition"
                     }
                 }
             }
@@ -630,5 +622,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-04T08:20:23.400061+00:00"
+    "collection_timestamp": "2026-05-21T08:57:02.709654+00:00"
 }
