@@ -3995,5 +3995,19 @@
         "flavor": "Sudachi Lime",
         "flavor_description": "Red Bull Summer Edition gives you wings with the refreshing taste of Japanese citrus and lime",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bg-BG": {
+        "fingerprint": "101acdce043c711e640cefd087598ca7c5cfa7bc56b44784a001d9c2a72a08b1",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Red Bull Summer Edition gives you wings with the taste of sudachi and lime",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:pt-PT": {
+        "fingerprint": "007062b6ec919f1c4f31f059aeda1033fad8aa369ce83a676768f1b9b09ad543",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime",
+        "sugarfree": false
     }
 }
