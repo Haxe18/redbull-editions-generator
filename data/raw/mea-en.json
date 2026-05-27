@@ -126,7 +126,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/mea-en/energydrink/products/red-bull-sugarfree"
+                    "externalUrl": "https://www.redbull.com/sugarfree"
                 }
             },
             "graphql_data": {
@@ -141,11 +141,11 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/mea-en/energydrink/products/red-bull-sugarfree"
+                        "externalUrl": "https://www.redbull.com/sugarfree"
                     }
                 }
             }
         }
     ],
-    "collection_timestamp": "2025-12-18T05:47:44.703525+00:00"
+    "collection_timestamp": "2026-05-27T23:13:06.496960+00:00"
 }

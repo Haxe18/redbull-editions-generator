@@ -32,16 +32,6 @@
             "product_url": "https://www.redbull.com/be-nl/energydrink/red-bull-red-edition"
         },
         {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "A floral energy drink with the taste of Cherry and notes of almond and Cherry Blossom",
-            "sugarfree": false,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/ipjuvqo22uxz5ozibbvr/spring-edition-2026",
-            "alt_text": "Spring Edition 2026",
-            "product_url": "https://www.redbull.com/be-nl/energydrink/products/red-bull-spring-edition"
-        },
-        {
             "name": "The Apple Edition",
             "flavor": "Fuji Apple & Ginger",
             "flavor_description": "A crisp energy drink with the taste of Fuji Apple and a warm touch of Ginger",
@@ -152,6 +142,16 @@
             "product_url": "https://www.redbull.com/be-nl/energydrink/products/red-bull-summer-edition-sugarfree"
         },
         {
+            "name": "The Cherry Edition",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Cherry Edition offers the taste of Cherry, enhanced by subtle notes of almond and Cherry Blossom",
+            "sugarfree": false,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/26/bip4u6ki3bp0mjz5qciz/red-bull-cherry-edition-image",
+            "alt_text": "Red Bull Cherry Edition - Image",
+            "product_url": "https://www.redbull.com/be-nl/energydrink/products/red-bull-cherry-edition"
+        },
+        {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
             "flavor_description": "An energy drink offering the perfect mix of Apricot and Strawberry with a touch of Peach",
@@ -163,14 +163,21 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BE.svg",
-    "_raw_hash": "7de7f28caa3a095be39e2ad0bce448334b9fc605c360e40307a11382e8a36fd5",
+    "_raw_hash": "81d808abedddf8dfa856ce626b6d6d2f752bf459483fee976ceeeac30cac8f7d",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:nl-BE",
+            "name": "The Cherry Edition",
+            "flavor": "Cherry & Sakura",
+            "description": "Red Bull Cherry Edition with the taste of cherry, with notes of almond and cherry blossom.",
+            "product_url": "https://www.redbull.com/be-nl/energydrink/products/red-bull-cherry-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-BE": "d9cf0ccc950e1a36e9d4e3865504afa5758e46e774abb242213a067fe692fd90",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:nl-BE": "9b5ea5f4a08aa53fda18a0d645f91684fcf24f3bcee14fad81fa21165db368e4",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:nl-BE": "45e8856281569da9e9b3a51a2a5787262d425ee679682b744e9901e31c1edc2f",
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-BE": "4f3640a93e54fb79953bf4efd27302db21fc5a3dc45957d90000966b0dd652f4",
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:nl-BE": "d3e5254f40a9a080fdbbcd1656a029e5c2c1f9da4054262046d41d811c451673",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:nl-BE": "6d6ed9b342c64f78225e735a8f0de9c18e768b877cbf13cfe6b6d99fdf4cf04a",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:nl-BE": "f1c5f311ece908aa89510f695a441d2442fdf5cf01a6720b78f462e072d76061",
@@ -182,6 +189,7 @@
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:nl-BE": "ce811323bdd1e8ddabde8d64b7a94573242797d53cafab86f6a88de93d148329",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:nl-BE": "5267a87967569468f653e87280e311bee50ba638f0e8aabc1e5489292383c1d9",
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:nl-BE": "3cde546024191019b2455aee274dc609d1c7e5dea90441bb73c86207470185ed",
+        "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:nl-BE": "96ed4a68ecdbcf9fb8cd9a443cfbaa5d56011e42c1b067e98d67270c4a222123",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-BE": "cce25efbe75f30b63b513575f086c2b8799ccbf66c16c8fb96773bd0add9a95f"
     },
     "_normalized_editions": {
@@ -201,12 +209,6 @@
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "A refreshing energy drink featuring the distinct and sweet taste of Watermelon",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:nl-BE": {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "A floral energy drink with the taste of Cherry and notes of almond and Cherry Blossom",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:nl-BE": {
@@ -274,6 +276,12 @@
             "flavor": "Sudachi Lime",
             "flavor_description": "The Red Bull Summer Edition Sugarfree gives you wings with the powerful taste of sudachi and lime",
             "sugarfree": true
+        },
+        "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:nl-BE": {
+            "name": "The Cherry Edition",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Cherry Edition offers the taste of Cherry, enhanced by subtle notes of almond and Cherry Blossom",
+            "sugarfree": false
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:nl-BE": {
             "name": "The Apricot Edition",

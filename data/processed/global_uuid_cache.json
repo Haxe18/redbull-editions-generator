@@ -1764,10 +1764,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-MEA": {
-        "fingerprint": "014231df3edd9a86fb321aefc8f5daea652cf0b1197c0ca615f3629d54fa3544",
+        "fingerprint": "34a608475e9ae075665974392c89cedc81ec1dde3c539e3f1f6536092194ca03",
         "name": "Energy Drink Sugarfree",
         "flavor": "Sugarfree",
-        "flavor_description": "Red Bull Sugarfree offers the same benefits as the original energy drink but without the sugar",
+        "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
         "sugarfree": true
     },
     "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fr-DZ": {
@@ -4008,6 +4008,13 @@
         "name": "The Summer Edition",
         "flavor": "Sudachi Lime",
         "flavor_description": "Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:nl-BE": {
+        "fingerprint": "96ed4a68ecdbcf9fb8cd9a443cfbaa5d56011e42c1b067e98d67270c4a222123",
+        "name": "The Cherry Edition",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Cherry Edition offers the taste of Cherry, enhanced by subtle notes of almond and Cherry Blossom",
         "sugarfree": false
     }
 }
