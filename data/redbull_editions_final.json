@@ -4257,6 +4257,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/2/argpn3qfye3shuacxwny/red-bull-spring-edition-sugarfree-image",
                 "alt_text": "Red Bull Spring Edition Sugarfree Image",
                 "product_url": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-spring-edition-sugarfree"
+            },
+            {
+                "name": "The Summer Edition",
+                "flavor": "Sudachi Lime",
+                "flavor_description": "Wings for your summer with the taste of Peach, mild citrus peel, and floral notes",
+                "sugarfree": false,
+                "color": "#f2e853",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/28/uzvtwa20schlfku3anki/red-bull-summer-edition",
+                "alt_text": "Red Bull Summer Edition",
+                "product_url": "https://www.redbull.com/rs-sr/energydrink/products/red-bull-summer-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-RS.svg"

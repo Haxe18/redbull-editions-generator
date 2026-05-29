@@ -4016,5 +4016,12 @@
         "flavor": "Cherry Sakura",
         "flavor_description": "Red Bull Cherry Edition offers the taste of Cherry, enhanced by subtle notes of almond and Cherry Blossom",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:sr-RS": {
+        "fingerprint": "555926ddd3ab24e73aa6ee83222aca17d0268159679060322dd3c87a98e491fd",
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Wings for your summer with the taste of Peach, mild citrus peel, and floral notes",
+        "sugarfree": false
     }
 }
