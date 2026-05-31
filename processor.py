@@ -2221,8 +2221,7 @@ class RedBullDataProcessor:
 
         if self.verbose:
             self.thread_safe_print(
-                f"    🌍 Step 1: Translating {len(editions)} editions "
-                f"for {country_name}..."
+                f"    🌍 Step 1: Translating {len(editions)} editions " f"for {country_name}..."
             )
 
         editions_for_ai = []
@@ -3036,10 +3035,20 @@ class RedBullDataProcessor:
             processed_file: Path to processed file for comparison.
         """
         # Check if we have existing data to compare
+        old_data: Optional[Dict] = None
         if processed_file.exists():
-            with open(processed_file, "r", encoding="utf-8") as file:
-                old_data = json.load(file)
+            try:
+                with open(processed_file, "r", encoding="utf-8") as file:
+                    old_data = json.load(file)
+            except (OSError, json.JSONDecodeError) as err:
+                self.logger.warning(
+                    "  ⚠️  Cannot compare changes for %s (corrupt/unreadable cache), "
+                    "treating all editions as new: %s",
+                    country_name,
+                    err,
+                )
 
+        if old_data is not None:
             old_editions = {
                 edition.get("name", ""): edition for edition in old_data.get("editions", [])
             }
@@ -3912,8 +3921,19 @@ class RedBullDataProcessor:
                         return existing, False
             except (json.JSONDecodeError, IOError) as err:
                 self.logger.warning(
-                    "  ⚠️  Failed to read/parse existing cache for %s: %s", country_name, err
+                    "  🗑️  Corrupt cache for %s deleted, reprocessing from scratch: %s",
+                    country_name,
+                    err,
                 )
+                existing = {}
+                existing_fingerprints = {}
+                existing_normalized_cache = {}
+                existing_translation_cache = {}
+                corrections_hash_changed = True
+                try:
+                    processed_file.unlink()
+                except OSError:
+                    pass
 
         if force and self.verbose:
             self.thread_safe_print(
