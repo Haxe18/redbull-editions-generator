@@ -69,6 +69,9 @@ python processor.py
 
 # Force reprocess all: invalidates per-country cache hashes upfront, bypasses global UUID
 # cache and per-edition cache so every edition goes through Gemini again.
+# Regression-safe: a previously APPROVED flavor whose raw input is unchanged is anchored
+# (never overwritten by non-deterministic AI drift) — see _anchor_approved_flavors.
+# Gemini runs at temperature=0 for reproducible output.
 # Resumable on abort: re-running without --force continues from where it left off —
 # completed countries have fresh hashes (cache hit), unprocessed ones still miss.
 python processor.py --force
@@ -236,8 +239,13 @@ Protection lives in `_save_country_data()` — before writing the raw file, comp
 - **Specific Mappings**: 
   - Maracujá → Maracuja (NOT Passion Fruit)
   - Curuba → Curuba (NOT cuban)
-- **Active Validation**: Step 3 validation now actively corrects flavors against APPROVED_FLAVORS list
-- **Automatic Corrections**: Invalid flavors are automatically corrected during processing
+- **Guarded Validation**: Step 3 may only replace a flavor when the current value is NOT approved
+  AND the proposed value IS approved (`_should_apply_validation_flavor_correction`) — it can never
+  overwrite an already-correct flavor (prevents e.g. "Citrus Zest" → "Pomelo")
+- **Regression Anchor**: `_anchor_approved_flavors` restores a previously approved flavor when the
+  raw input is unchanged, protecting curated values from non-deterministic AI drift on `--force`
+- **Step 2 normalize** returns the translated flavor AS-IS (no approved-list matching in the prompt);
+  flavor normalization is handled by post-processing (`clean_flavor_name`)
 
 ### Region Emoji System
 - **Unique emojis** for regions with "INT" flag code

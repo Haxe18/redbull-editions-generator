@@ -172,6 +172,7 @@ class RedBullDataProcessor:
         "Cactus Fruit",
         "Cherry Sakura",
         "Cherry & Wild Berries",
+        "Citrus Zest",
         "Coconut-Blueberry",
         "Curuba-Elderflower",
         "Dragon Fruit",
@@ -705,6 +706,7 @@ class RedBullDataProcessor:
                     config=GenerateContentConfig(
                         response_mime_type="application/json",
                         response_schema=response_schema,
+                        temperature=0,
                     ),
                 )
 
@@ -1064,7 +1066,9 @@ class RedBullDataProcessor:
             """
 
             response = self.client.models.generate_content(
-                model=self.GEMINI_MODEL, contents=prompt
+                model=self.GEMINI_MODEL,
+                contents=prompt,
+                config=GenerateContentConfig(temperature=0),
             )
 
             if response and response.text:
@@ -2325,6 +2329,7 @@ class RedBullDataProcessor:
 
         FLAVOR TRANSLATIONS (ONLY these specific translations allowed):
         - Waldmeister → Woodruff
+        - Lievevrouwebedstro (Dutch) → Woodruff (NOT Galium!)
         - Waldbeeren → Forest Berry
         - Waldfrüchte → Forest Fruits
         - Forest fruit (English, singular, any case) → Forest Fruits
@@ -2406,8 +2411,8 @@ class RedBullDataProcessor:
                 f"translated editions for {country_name}..."
             )
 
-        # Convert approved lists to strings for prompt
-        approved_flavors_str = json.dumps(self.APPROVED_FLAVORS, indent=4)
+        # Convert approved editions list to string for prompt (flavors are NOT matched here;
+        # post-processing handles flavor normalization — see clean_flavor_name)
         approved_editions_str = json.dumps(self.APPROVED_EDITIONS, indent=4)
 
         prompt = f"""
@@ -2419,7 +2424,7 @@ class RedBullDataProcessor:
            Example: "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sk-SK"
            → MUST return exactly: "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sk-SK"
         2. name: PRESERVE the original edition name from input (Pink Edition stays Pink Edition, White Edition stays White Edition, etc.)
-        3. flavor: Match to approved list or create normalized
+        3. flavor: return the translated flavor EXACTLY as provided (do NOT match to any list)
         4. flavor_description: Translated description
         5. sugarfree: Determine based on these indicators:
            - TRUE if name contains "Sugarfree" or "Zero"
@@ -2430,9 +2435,6 @@ class RedBullDataProcessor:
 
         APPROVED EDITIONS (for validation):
         {approved_editions_str}
-
-        APPROVED FLAVORS:
-        {approved_flavors_str}
 
         CRITICAL EDITION ID PRESERVATION:
         - The edition_id field is MANDATORY and MUST be preserved EXACTLY as provided
@@ -2923,6 +2925,9 @@ class RedBullDataProcessor:
                             "flavor" not in corrected_fields
                             and validation.corrected_flavor
                             and validation.corrected_flavor.strip()
+                            and self._should_apply_validation_flavor_correction(
+                                edition, validation.corrected_flavor.strip()
+                            )
                         ):
                             old_flavor = edition.get("flavor", "")
                             # Apply clean_flavor_name to ensure APPROVED_FLAVORS matching
@@ -3020,6 +3025,64 @@ class RedBullDataProcessor:
                     f"'{edition.get('name', '')}' in {country_name} "
                     f"(API returned empty)"
                 )
+
+    def _anchor_approved_flavors(
+        self, editions: List[Dict], country_name: str, processed_file: Path
+    ) -> None:
+        """Anchor a previously approved flavor against non-deterministic AI drift.
+
+        The 3-step Gemini pipeline is non-deterministic, so a re-run (e.g. ``--force``)
+        can turn a correct, curated flavor into a wrong one (e.g. "Citrus Zest" → "Pomelo").
+        When an edition's raw input has NOT changed since the last run (identical
+        fingerprint) and the previously stored flavor was already approved, that previous
+        value is authoritative — the fresh AI output must not replace it.
+
+        Matches by ``edition_id`` against the previous processed file. Manual corrections
+        (``_corrected_fields``) are respected and never overridden.
+
+        Args:
+            editions: Newly processed editions for the country (mutated in place).
+            country_name: Country display name (for logging).
+            processed_file: Path to the previous processed JSON file.
+        """
+        if not processed_file.exists():
+            return
+
+        try:
+            with open(processed_file, "r", encoding="utf-8") as file:
+                old_data = json.load(file)
+        except (OSError, json.JSONDecodeError):
+            return
+
+        old_fingerprints = old_data.get("_edition_fingerprints", {}) or {}
+        old_normalized = old_data.get("_normalized_editions", {}) or {}
+
+        for edition in editions:
+            edition_id = edition.get("_graphql_id", "")
+            if not edition_id or "flavor" in edition.get("_corrected_fields", set()):
+                continue
+
+            # Raw input changed (or no baseline) → allow the freshly derived flavor.
+            old_fingerprint = old_fingerprints.get(edition_id)
+            if not old_fingerprint or old_fingerprint != edition.get("_fingerprint"):
+                continue
+
+            old_flavor = (old_normalized.get(edition_id) or {}).get("flavor", "")
+            # Only anchor known-good values; a non-approved previous value may legitimately
+            # be improved by re-derivation.
+            if old_flavor not in self.APPROVED_FLAVORS:
+                continue
+
+            new_flavor = edition.get("flavor", "")
+            if new_flavor == old_flavor:
+                continue
+
+            edition["flavor"] = old_flavor
+            self.thread_safe_print(
+                f"      🛡️ Anchored approved flavor '{old_flavor}' for "
+                f"'{edition.get('name', '')}' in {country_name} "
+                f"(AI drifted to '{new_flavor}', raw input unchanged)"
+            )
 
     def _track_country_changes(
         self, country_name: str, new_data: Dict, processed_file: Path
@@ -3768,6 +3831,39 @@ class RedBullDataProcessor:
 
         return has_forbidden_phrase or has_non_english or has_name_mismatch
 
+    def _should_apply_validation_flavor_correction(
+        self, edition: Dict, corrected_flavor: str
+    ) -> bool:
+        """Decide whether a validation-suggested flavor correction should be applied.
+
+        Mirrors :meth:`_should_apply_validation_description_correction` for the flavor
+        field. The Step-3 validator is non-deterministic and tends to "improve" already
+        correct flavors into wrong ones (e.g. "Citrus Zest" → "Pomelo"). A correction is
+        therefore only permitted when it is genuinely plausible:
+
+        * the *current* flavor is NOT already in :attr:`APPROVED_FLAVORS` (so there is
+          something to fix), AND
+        * the proposed flavor resolves (via :meth:`clean_flavor_name`) to an approved
+          flavor (so we replace an unknown value with a known-good one, never the reverse).
+
+        Args:
+            edition: The edition whose ``flavor`` field would be replaced.
+            corrected_flavor: The replacement flavor proposed by the validation step.
+
+        Returns:
+            True if the correction should be applied, False if it should be skipped.
+        """
+        if not corrected_flavor or not corrected_flavor.strip():
+            return False
+
+        current_flavor = edition.get("flavor", "").strip()
+        # An already-approved flavor is authoritative — never let the validator touch it.
+        if current_flavor in self.APPROVED_FLAVORS:
+            return False
+
+        # Only accept a correction that lands on an approved flavor.
+        return self.clean_flavor_name(corrected_flavor.strip()) in self.APPROVED_FLAVORS
+
     def _load_global_uuid_cache(self) -> None:
         """Load the cross-country UUID translation cache from disk.
 
@@ -4216,6 +4312,10 @@ class RedBullDataProcessor:
         # an upstream API stopped returning the flavor field for an existing edition.
         self._preserve_known_flavors(editions_to_process, country_name, processed_file)
 
+        # Anchor previously approved flavors against non-deterministic AI drift: if the raw
+        # input is unchanged, a re-run must not regress a known-good flavor (e.g. --force).
+        self._anchor_approved_flavors(editions_to_process, country_name, processed_file)
+
         # Persist per-edition cache AFTER corrections and flavor preservation so
         # _normalized_editions always reflects the final authoritative values.
         edition_fingerprints = {}
@@ -4451,10 +4551,10 @@ class RedBullDataProcessor:
         )
         if force_reprocess:
             print(
-                f"   ℹ️  All {len(countries_to_process)} country caches invalidated — every country re-evaluates"
+                f"   ⚡ Force mode: all cache tiers bypassed — every edition in {len(countries_to_process)} countries re-translated by Gemini"
             )
             print(
-                f"   ✅ Edition cache active ({global_cache_size} UUID entries) — Gemini only called for new/changed editions"
+                f"   ⏳ Worst case: {worst_case_calls} API calls — this is slow and descriptions may differ between runs"
             )
         else:
             print(f"   Global UUID cache: {global_cache_size} editions cached")
@@ -4470,13 +4570,12 @@ class RedBullDataProcessor:
                         f"   ⚠️  Daily limit: only {max_countries_no_cache} countries without cache "
                         f"— build the cache first with a full run"
                     )
-        if not force_reprocess:
-            estimated_time = (
-                (len(countries_to_process) * 3 * self.MIN_DELAY_BETWEEN_REQUESTS)
-                / 60
-                / self.max_workers
-            )
-            print(f"   Estimated processing time (worst case): ~{estimated_time:.1f} minutes")
+        estimated_time = (
+            (len(countries_to_process) * 3 * self.MIN_DELAY_BETWEEN_REQUESTS)
+            / 60
+            / self.max_workers
+        )
+        print(f"   Estimated processing time (worst case): ~{estimated_time:.1f} minutes")
 
         # Prepare tasks
         tasks = []
@@ -4486,13 +4585,12 @@ class RedBullDataProcessor:
             flag_code = country_info.get("flag_code")
 
             if domain:
-                # Global --force only invalidates per-country hashes (done above via
-                # _invalidate_country_caches). Edition-level cache is preserved so Gemini
-                # is not called for editions whose raw data hasn't changed — avoiding
-                # non-deterministic description drift and 30+ minute runtimes.
-                # Single-country --force passes force=True directly (bypasses edition cache
-                # to allow fixing a specific bad cached entry via Gemini).
-                tasks.append((country_name, domain, flag_code, False))
+                # --force propagates force=True to each country so every edition bypasses
+                # all cache tiers (global UUID cache + per-country normalized cache) and is
+                # re-translated by Gemini. This is the documented --force semantics; the
+                # global UUID cache is refreshed as a side effect, reconciling any drift.
+                # Without --force, force=False keeps the edition cache active (fast reruns).
+                tasks.append((country_name, domain, flag_code, force_reprocess))
 
         # Process countries (parallel if no rate limit, sequential otherwise)
         processed_count = 0  # Count of actually processed (not cached)
