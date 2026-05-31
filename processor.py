@@ -10,7 +10,6 @@ import argparse
 import hashlib
 import json
 import logging
-
 # region Imports
 # Standard library imports
 import os
@@ -31,7 +30,6 @@ from typing import Any, Dict, List, Optional, Tuple, cast
 
 import requests
 from babel import Locale, UnknownLocaleError
-
 # Third-party imports
 from dotenv import load_dotenv
 from google import genai
@@ -251,19 +249,27 @@ class RedBullDataProcessor:
     def __init__(
         self,
         data_dir: str = "data",
-        debug: bool = False,
+        console_verbose: bool = False,
         max_workers: int = 3,
-        verbose: bool = False,
+        api_file_logging: bool = False,
         single_country: bool = False,
     ) -> None:
         """
         Initialize the Red Bull Data Processor.
 
+        Note:
+            The internal attributes ``self.debug`` and ``self.verbose`` are historical
+            and read inverted relative to the CLI flags: ``self.debug`` holds the
+            *console verbosity* (CLI ``--verbose``) and ``self.verbose`` holds the
+            *API-to-file logging* (CLI ``--debug``). The constructor parameters below
+            are named after their actual effect to avoid that trap at call sites.
+
         Args:
             data_dir: Base directory for data storage
-            debug: Enable debug output
+            console_verbose: Enable detailed console output (stored as ``self.debug``)
             max_workers: Number of parallel workers for multi-country processing (default: 3)
-            verbose: Enable verbose mode with full API request/response logging
+            api_file_logging: Enable full API request/response logging to a debug file
+                (stored as ``self.verbose``)
             single_country: Whether processing only a single country (disables rate limiting)
 
         Raises:
@@ -274,14 +280,18 @@ class RedBullDataProcessor:
         self.processed_dir = self.data_dir / "processed"
         self.verbose_dir = self.data_dir / "debug"
         self.processed_dir.mkdir(exist_ok=True)
-        self.verbose = verbose
-        self.debug = debug
+        self.verbose = api_file_logging
+        self.debug = console_verbose
         self.single_country = single_country
 
         # Thread safety - initialize early since _log_debug uses it
         self.print_lock = Lock()
         self.api_call_lock = Lock()
         self._global_cache_lock = Lock()
+        # Guards corrections_tracking (check-then-set) and changelog mutations that
+        # run from parallel worker threads (apply_corrections, _apply_id_mappings,
+        # cache-hit counter) against lost updates / duplicate entries.
+        self._changelog_lock = Lock()
         # Per-thread log buffer: when active, thread_safe_print accumulates lines
         # instead of writing immediately, so each country's logs flush as one block.
         self._log_buffer = threading.local()
@@ -294,7 +304,9 @@ class RedBullDataProcessor:
 
         # Setup logger
         self.logger = setup_logger(
-            self.__class__.__name__, enable_verbose=verbose, debug=debug
+            self.__class__.__name__,
+            enable_verbose=api_file_logging,
+            debug=console_verbose,
         )
         if self.debug:
             logging.getLogger().setLevel(logging.DEBUG)
@@ -854,11 +866,9 @@ class RedBullDataProcessor:
                 if "editions" in data:
                     data["editions"] = self.add_description_prefix(data["editions"])
 
-            # Save updated final data (sorted alphabetically by country and edition name)
-            with open(final_file, "w", encoding="utf-8") as file:
-                json.dump(
-                    self._sort_final_data(final_data), file, indent=4, ensure_ascii=False
-                )
+            # Save updated final data (sorted alphabetically by country and edition name).
+            # Atomic write so a crash mid-write can never corrupt the final output file.
+            self._atomic_write_json(final_file, self._sort_final_data(final_data))
 
             return True
 
@@ -1035,8 +1045,7 @@ class RedBullDataProcessor:
         if "_metadata" not in emoji_data:
             emoji_data["_metadata"] = {}
         emoji_data["_metadata"]["last_updated"] = datetime.now().isoformat()
-        with open(emoji_file, "w", encoding="utf-8") as file:
-            json.dump(emoji_data, file, indent=4, ensure_ascii=False)
+        self._atomic_write_json(emoji_file, emoji_data)
 
     def get_region_emoji_from_gemini(
         self, region_name: str, used_emojis: set
@@ -1073,8 +1082,16 @@ class RedBullDataProcessor:
 
             if response and response.text:
                 emoji = response.text.strip()
-                # Validate it's a single emoji and not already used
-                if emoji and len(emoji) <= 4 and emoji not in used_emojis:
+                # Validate it's an emoji (not a text answer) and not already used.
+                # `not emoji.isascii()` rejects plain-text replies like "Europe";
+                # the length cap (in code points) allows flag pairs and ZWJ sequences
+                # while still excluding longer prose.
+                if (
+                    emoji
+                    and not emoji.isascii()
+                    and len(emoji) <= 8
+                    and emoji not in used_emojis
+                ):
                     return emoji
 
         except (errors.APIError, ValueError, AttributeError) as err:
@@ -1367,11 +1384,15 @@ class RedBullDataProcessor:
                 best_match = approved
 
         if best_match and best_ratio >= self.SIMILARITY_THRESHOLD:
-            if self.verbose:
-                self.thread_safe_print(
-                    f"      🔄 Similarity match: '{flavor}' → '{best_match}' "
-                    f"(ratio: {best_ratio:.2f})"
-                )
+            # Always surface this — unlike the exact/word-order matches above, a
+            # similarity match is a fuzzy best guess that can land on a wrong flavor
+            # (e.g. distinct "Forest Berry"/"Forest Fruits"). Logging it unconditionally
+            # makes such mismatches reviewable in CI instead of failing silently.
+            self.thread_safe_print(
+                f"      ⚠️  Fuzzy similarity match: '{flavor}' → '{best_match}' "
+                f"(ratio: {best_ratio:.2f}, threshold: {self.SIMILARITY_THRESHOLD}) "
+                f"— verify this mapping is correct"
+            )
             return best_match
 
         # For flavors not in the approved list, check if it should keep the &
@@ -1463,10 +1484,7 @@ class RedBullDataProcessor:
                 normalized_words.append("Red Bull")
             # Handle all-caps words (including short ones like FOR)
             elif word.isupper() and len(word) > 1:
-                if "EDITION" in word.upper():
-                    normalized_words.append(word.capitalize())
-                else:
-                    normalized_words.append(word.capitalize())
+                normalized_words.append(word.capitalize())
             else:
                 normalized_words.append(word)
 
@@ -1901,11 +1919,15 @@ class RedBullDataProcessor:
                 # RESTORE PROTECTION: Skip global correction if a locale-specific
                 # one for the same UUID+field was already applied
                 if ":" not in correction_id:
-                    locale_specific_applied = any(
-                        key.startswith(f"{uuid_only}:") and f":{field}:" in key
-                        for key, val in self.corrections_tracking.items()
-                        if val.get("applied")
-                    )
+                    # Iterating the shared tracking dict must be locked: a concurrent
+                    # write from another worker would raise "dictionary changed size
+                    # during iteration".
+                    with self._changelog_lock:
+                        locale_specific_applied = any(
+                            key.startswith(f"{uuid_only}:") and f":{field}:" in key
+                            for key, val in self.corrections_tracking.items()
+                            if val.get("applied")
+                        )
                     if locale_specific_applied:
                         continue
 
@@ -1935,44 +1957,48 @@ class RedBullDataProcessor:
                             applied_in_this_step = True
                             break
 
-                if applied_in_this_step:
-                    if "_corrected_fields" not in edition:
-                        edition["_corrected_fields"] = set()
-                    edition["_corrected_fields"].add(field)
+                # The changelog appends and corrections_tracking check-then-set below
+                # are shared across parallel workers — lock to avoid lost updates and
+                # duplicate changelog entries.
+                with self._changelog_lock:
+                    if applied_in_this_step:
+                        if "_corrected_fields" not in edition:
+                            edition["_corrected_fields"] = set()
+                        edition["_corrected_fields"].add(field)
 
-                    # Only log to changelog if not already logged for this edition
-                    if (
-                        correction_key not in self.corrections_tracking
-                        or not self.corrections_tracking[correction_key].get("applied")
-                    ):
-                        self.changelog["corrections_applied"].append(
-                            {
-                                "id": correction_id,
-                                "field": field,
-                                "search": search,
-                                "replace": replace,
-                            }
-                        )
-                        self.corrections_tracking[correction_key] = {"applied": True}
-                        if self.verbose:
-                            self.thread_safe_print(
-                                f"      🔧 Applied correction: {field} - '{search}' → '{replace}'"
-                            )
-                else:
-                    if log_failures and correction_key not in self.corrections_tracking:
-                        if any(s in edition for s in sources):
-                            self.changelog["corrections_failed"].append(
+                        # Only log to changelog if not already logged for this edition
+                        if (
+                            correction_key not in self.corrections_tracking
+                            or not self.corrections_tracking[correction_key].get("applied")
+                        ):
+                            self.changelog["corrections_applied"].append(
                                 {
                                     "id": correction_id,
                                     "field": field,
                                     "search": search,
-                                    "reason": "Text not found in any target field",
+                                    "replace": replace,
                                 }
                             )
-                            self.corrections_tracking[correction_key] = {
-                                "applied": False,
-                                "failed": True,
-                            }
+                            self.corrections_tracking[correction_key] = {"applied": True}
+                            if self.verbose:
+                                self.thread_safe_print(
+                                    f"      🔧 Applied correction: {field} - '{search}' → '{replace}'"
+                                )
+                    else:
+                        if log_failures and correction_key not in self.corrections_tracking:
+                            if any(s in edition for s in sources):
+                                self.changelog["corrections_failed"].append(
+                                    {
+                                        "id": correction_id,
+                                        "field": field,
+                                        "search": search,
+                                        "reason": "Text not found in any target field",
+                                    }
+                                )
+                                self.corrections_tracking[correction_key] = {
+                                    "applied": False,
+                                    "failed": True,
+                                }
 
         return edition
 
@@ -2152,37 +2178,40 @@ class RedBullDataProcessor:
         Raises:
             RuntimeError: When the daily API request limit is exceeded.
         """
-        self.changelog["api_calls_made"] += 1
+        # All counter mutation and rate-limit timing happens under a single lock so
+        # parallel workers cannot corrupt the daily counter (non-atomic +=) or race
+        # the RPM delay window.
+        with self.api_call_lock:
+            self.changelog["api_calls_made"] += 1
 
-        # Daily limit check – always enforced, even for single country (-1 = unlimited)
-        if self.MAX_REQUESTS_PER_DAY != -1:
-            if self.changelog["api_calls_made"] > self.MAX_REQUESTS_PER_DAY:
-                if not self._daily_limit_reached:
-                    self._daily_limit_reached = True
+            # Daily limit check – always enforced, even for single country (-1 = unlimited)
+            if self.MAX_REQUESTS_PER_DAY != -1:
+                if self.changelog["api_calls_made"] > self.MAX_REQUESTS_PER_DAY:
+                    if not self._daily_limit_reached:
+                        self._daily_limit_reached = True
+                        self.logger.warning(
+                            "⚠️  Daily API limit reached (%d/%d requests). "
+                            "Stopping – results so far will be saved.",
+                            self.MAX_REQUESTS_PER_DAY,
+                            self.MAX_REQUESTS_PER_DAY,
+                        )
+                    raise RuntimeError(
+                        f"Daily API limit of {self.MAX_REQUESTS_PER_DAY} requests reached"
+                    )
+
+                # Warn at 80% of daily limit
+                warning_threshold = int(self.MAX_REQUESTS_PER_DAY * 0.8)
+                if self.changelog["api_calls_made"] == warning_threshold:
                     self.logger.warning(
-                        "⚠️  Daily API limit reached (%d/%d requests). "
-                        "Stopping – results so far will be saved.",
-                        self.MAX_REQUESTS_PER_DAY,
+                        "⚠️  API limit warning: %d/%d daily requests used",
+                        self.changelog["api_calls_made"],
                         self.MAX_REQUESTS_PER_DAY,
                     )
-                raise RuntimeError(
-                    f"Daily API limit of {self.MAX_REQUESTS_PER_DAY} requests reached"
-                )
 
-            # Warn at 80% of daily limit
-            warning_threshold = int(self.MAX_REQUESTS_PER_DAY * 0.8)
-            if self.changelog["api_calls_made"] == warning_threshold:
-                self.logger.warning(
-                    "⚠️  API limit warning: %d/%d daily requests used",
-                    self.changelog["api_calls_made"],
-                    self.MAX_REQUESTS_PER_DAY,
-                )
+            # Skip RPM delay when processing a single country
+            if self.single_country:
+                return
 
-        # Skip RPM delay when processing a single country
-        if self.single_country:
-            return
-
-        with self.api_call_lock:
             if self.last_api_call_time:
                 time_since_last_call = time.time() - self.last_api_call_time
                 if time_since_last_call < self.MIN_DELAY_BETWEEN_REQUESTS:
@@ -2647,22 +2676,22 @@ class RedBullDataProcessor:
         self,
         editions: List[Dict],
         country_name: str,
-        translated_cache: Optional[List[Dict]] = None,
-        editions_to_translate: Optional[List[Dict]] = None,
         source_language: str = "Unknown",
     ) -> Tuple[List[Dict], List[Dict]]:
         """Use a multistep Gemini process to translate and normalize edition data.
 
         Orchestrates the 3-step AI processing pipeline:
-        1. Translation to English (with intelligent partial caching)
+        1. Translation to English
         2. Normalization and standardization
         3. Validation against approved lists
 
+        Per-edition caching is handled upstream in :meth:`process_country`, which only
+        forwards editions that actually need AI processing — so every edition passed
+        here is translated.
+
         Args:
-            editions: List of editions to process.
+            editions: List of editions to process (all are translated).
             country_name: Country name for context.
-            translated_cache: Optional cached translations.
-            editions_to_translate: Optional list of editions that need fresh translation.
             source_language: Source language name for translation context.
 
         Returns:
@@ -2674,53 +2703,20 @@ class RedBullDataProcessor:
         if not self.client or not editions:
             return editions, []
 
-        # Step 1: Translate (using intelligent partial cache)
-        translated_editions_models = []
-
-        # First, add any cached translations
-        if translated_cache:
-            if self.verbose:
-                self.thread_safe_print(
-                    f"    ✅ Using {len(translated_cache)} cached translations for {country_name}."
-                )
-            # Convert dict cache to Pydantic models
-            translated_editions_models = [
-                TranslatedEdition(**item) for item in translated_cache
-            ]
-
-        # Then, translate any new/changed editions
-        if editions_to_translate:
-            if self.verbose:
-                self.thread_safe_print(
-                    f"    🔄 Translating {len(editions_to_translate)} new/changed editions "
-                    f"for {country_name}."
-                )
-            try:
-                new_translations = self._gemini_step_1_translate(
-                    editions_to_translate, country_name, source_language
-                )
-                translated_editions_models.extend(new_translations)
-            except (RuntimeError, ValueError, AttributeError) as err:
-                self.thread_safe_print(
-                    f"  ❌ Translation error for {country_name}: {str(err)[:200]}"
-                )
-                raise
-        elif not translated_cache:
-            # No cache and no specific editions to translate - translate everything
-            if self.verbose:
-                self.thread_safe_print(
-                    f"    🔄 No cache found, performing live translation "
-                    f"for {country_name}."
-                )
-            try:
-                translated_editions_models = self._gemini_step_1_translate(
-                    editions, country_name, source_language
-                )
-            except (RuntimeError, ValueError, AttributeError) as err:
-                self.thread_safe_print(
-                    f"  ❌ Translation error for {country_name}: {str(err)[:200]}"
-                )
-                raise
+        # Step 1: Translate
+        if self.verbose:
+            self.thread_safe_print(
+                f"    🔄 Translating {len(editions)} editions for {country_name}."
+            )
+        try:
+            translated_editions_models = self._gemini_step_1_translate(
+                editions, country_name, source_language
+            )
+        except (RuntimeError, ValueError, AttributeError) as err:
+            self.thread_safe_print(
+                f"  ❌ Translation error for {country_name}: {str(err)[:200]}"
+            )
+            raise
 
         if not translated_editions_models:
             self.thread_safe_print(f"  ❌ No translations received for {country_name}")
@@ -3565,7 +3561,6 @@ class RedBullDataProcessor:
             "uten sukker",
             "uden sukker",
             "sokeriton",
-            "sugarlane",
         ]
 
         for edition in editions:
@@ -3887,8 +3882,7 @@ class RedBullDataProcessor:
         Called once at the end of :meth:`process_all` after all countries are processed.
         """
         cache_file = self.processed_dir / self.GLOBAL_UUID_CACHE_FILE
-        with open(cache_file, "w", encoding="utf-8") as file:
-            json.dump(self._global_uuid_cache, file, indent=4, ensure_ascii=False)
+        self._atomic_write_json(cache_file, self._global_uuid_cache)
         self.logger.info("Saved global UUID cache: %d entries", len(self._global_uuid_cache))
 
     def process_country(
@@ -3932,7 +3926,7 @@ class RedBullDataProcessor:
                 source_language = parts[1]
 
         raw_hash = hashlib.sha256(
-            json.dumps(raw_data["editions"], sort_keys=True).encode()
+            json.dumps(raw_data.get("editions", []), sort_keys=True).encode()
         ).hexdigest()
 
         # Check if already processed
@@ -4012,7 +4006,9 @@ class RedBullDataProcessor:
                         self.thread_safe_print(
                             f"  ⏭️  {country_name}: No changes, using cached"
                         )
-                        self.changelog["cache_hits"] += 1
+                        # cache_hits is a non-atomic counter shared across workers.
+                        with self._changelog_lock:
+                            self.changelog["cache_hits"] += 1
                         self.changelog["countries_skipped"].append(country_name)
                         return existing, False
             except (json.JSONDecodeError, IOError) as err:
@@ -4179,8 +4175,6 @@ class RedBullDataProcessor:
             editions_for_ai, ai_translated_editions = self.normalize_with_gemini(
                 editions_for_ai,
                 country_name,
-                translated_cache=None,
-                editions_to_translate=editions_for_ai,
                 source_language=source_language,
             )
             translated_editions.extend(ai_translated_editions)
@@ -4475,6 +4469,7 @@ class RedBullDataProcessor:
 
         # Try to load collection summary for change detection (optional)
         changes_detected = []
+        summary: Dict[str, Any] = {}
         summary_file = self.data_dir / "collection_summary.json"
         if summary_file.exists():
             try:
@@ -4786,9 +4781,9 @@ class RedBullDataProcessor:
                     country_data["editions"]
                 )
 
-        # Save final data (sorted alphabetically by country and edition name)
-        with open(final_file, "w", encoding="utf-8") as file:
-            json.dump(self._sort_final_data(final_data), file, indent=4, ensure_ascii=False)
+        # Save final data (sorted alphabetically by country and edition name).
+        # Atomic write so a crash mid-write can never corrupt the final output file.
+        self._atomic_write_json(final_file, self._sort_final_data(final_data))
 
         # Clear changes_detected in summary after successful processing
         if summary.get("metadata", {}).get("changes_detected"):
@@ -4947,9 +4942,9 @@ def main():
         # Create processor with appropriate settings
         # For single country, use 1 worker since we only process 1 country
         processor = RedBullDataProcessor(
-            debug=args.verbose,
+            console_verbose=args.verbose,
             max_workers=1 if args.country else args.workers,
-            verbose=args.debug,
+            api_file_logging=args.debug,
             single_country=bool(args.country),
         )
 
