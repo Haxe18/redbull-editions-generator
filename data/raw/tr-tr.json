@@ -512,17 +512,17 @@
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition. Tropikal Meyvelerin egzotik tadını deneyimle",
-                    "brandingHexColorCode": "#FFCD00",
+                    "flavour": "Sudachi Lime",
+                    "standfirst": "Red Bull Yellow Edition. Sudachi ve lime tadı, hafif pomelo ve narenciye kabuğu notalarıyla tamamlandı.",
+                    "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/17/lrnf0cqhgisvzazkz4uo/red-bull-yellow-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/1/l85iyf1j5yd9kwelwxlg/red-bull-yellow-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/tr-tr/energydrink/red-bull-yellow-edition"
+                        "externalUrl": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-yellow-edition"
                     }
                 }
             }
@@ -634,5 +634,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-17T07:21:26.752937+00:00"
+    "collection_timestamp": "2026-06-01T10:49:15.222711+00:00"
 }

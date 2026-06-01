@@ -73,13 +73,13 @@
         },
         {
             "name": "The Yellow Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "Red Bull Yellow Edition. Experience the exotic taste of Tropical Fruits",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing blend of sudachi and lime with subtle notes of Pomelo and citrus peel",
             "sugarfree": false,
-            "color": "#FFCD00",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/lrnf0cqhgisvzazkz4uo/red-bull-yellow-edition-image",
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/1/l85iyf1j5yd9kwelwxlg/red-bull-yellow-edition-image",
             "alt_text": "Red Bull Yellow Edition - image",
-            "product_url": "https://www.redbull.com/tr-tr/energydrink/red-bull-yellow-edition"
+            "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-yellow-edition"
         },
         {
             "name": "The Peach Edition",
@@ -103,9 +103,17 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg",
-    "_raw_hash": "f7a7bbfb2f2132cf27860e65ead8425790d1c550f33f6fb3a5255c6e07c243f3",
+    "_raw_hash": "0f2e8aac7e6867e9612900eaff6fc166673b5811bb87ed2f4b3b5f7f8d6119e8",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:tr-TR",
+            "name": "The Yellow Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Yellow Edition. Sudachi and lime taste, completed with light notes of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-yellow-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:tr-TR": "0bb3860512ebc16bbc5950ca9217daa8f2977dd6d9f28127208597857942715b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:tr-TR": "ed4e364913ae2435df82639358d4e402c676492316f4b1069cad3e80ff95572d",
@@ -114,7 +122,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:tr-TR": "f961bb9575cba66994bf5573240f8408a9ef9b4dd98143d56fef62e6d433a1d7",
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:tr-TR": "181d89d455b519a1b0111ee835c2076d4dea2a3e623befe05cd2c98421ccf312",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:tr-TR": "57f526d6daefa280ef0f3a248317fce939551e71d0cf70313f3c88ba4c7a9658",
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:tr-TR": "65032b2a1e574d456941e67df4cb15f95963beeaacdbca13da71b2d08e33e0f6",
+        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:tr-TR": "ccf77f14778cf2867565429f2541b6744eb3cfc2d285b4f708e39160187d778f",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR": "a2dcd6e7923b92ab2bba963f673c1ca33e820315078a31b33b23527fd895a156",
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:tr-TR": "3268471b6856fdf4311f87fdf9836100c3f86c26e2027bc9cfc13cb3723b114d"
     },
@@ -163,8 +171,8 @@
         },
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:tr-TR": {
             "name": "The Yellow Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "Red Bull Yellow Edition. Experience the exotic taste of Tropical Fruits",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing blend of sudachi and lime with subtle notes of Pomelo and citrus peel",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR": {

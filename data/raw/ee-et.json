@@ -691,11 +691,11 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/17/hcduyx8opncvmklitjs5/the-red-bull-spring-edition-sugarfree",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/1/fqgdchwnc2crjmaqmlco/the-red-bull-spring-edition-sugarfree",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#E9ECEE",
-                                    "percentage": 17.3
+                                    "percentage": 17
                                 },
                                 {
                                     "hexColorCode": "#FBF9F9",
@@ -710,19 +710,23 @@
                                     "percentage": 1.9
                                 },
                                 {
-                                    "hexColorCode": "#50B0D9",
+                                    "hexColorCode": "#51B0D9",
                                     "percentage": 1.4
                                 },
                                 {
-                                    "hexColorCode": "#D5173C",
-                                    "percentage": 1.1
+                                    "hexColorCode": "#D4173D",
+                                    "percentage": 1.2
                                 },
                                 {
                                     "hexColorCode": "#757B7F",
                                     "percentage": 0.8
                                 },
                                 {
-                                    "hexColorCode": "#EFF2F0",
+                                    "hexColorCode": "#EEF1F0",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#E4677E",
                                     "percentage": 0.7
                                 }
                             ]
@@ -742,7 +746,7 @@
                     "image": {
                         "altText": "The Red Bull Spring Edition Sugarfree",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/17/hcduyx8opncvmklitjs5/the-red-bull-spring-edition-sugarfree"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/1/fqgdchwnc2crjmaqmlco/the-red-bull-spring-edition-sugarfree"
                         }
                     },
                     "reference": {
@@ -817,5 +821,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-28T07:46:47.206955+00:00"
+    "collection_timestamp": "2026-06-01T10:36:39.455596+00:00"
 }

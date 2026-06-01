@@ -1772,7 +1772,7 @@
                 "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of Cherry and notes of almond and Cherry Blossom",
                 "sugarfree": true,
                 "color": "#52abd6",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/17/hcduyx8opncvmklitjs5/the-red-bull-spring-edition-sugarfree",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/1/fqgdchwnc2crjmaqmlco/the-red-bull-spring-edition-sugarfree",
                 "alt_text": "The Red Bull Spring Edition Sugarfree",
                 "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-spring-edition-sugarfree"
             },
@@ -5204,13 +5204,13 @@
             },
             {
                 "name": "The Yellow Edition",
-                "flavor": "Tropical Fruits",
-                "flavor_description": "The Red Bull Yellow Edition. Experience the exotic taste of Tropical Fruits",
+                "flavor": "Sudachi Lime",
+                "flavor_description": "A refreshing blend of sudachi and lime with subtle notes of Pomelo and citrus peel",
                 "sugarfree": false,
-                "color": "#FFCD00",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/lrnf0cqhgisvzazkz4uo/red-bull-yellow-edition-image",
+                "color": "#f2e853",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/1/l85iyf1j5yd9kwelwxlg/red-bull-yellow-edition-image",
                 "alt_text": "Red Bull Yellow Edition - image",
-                "product_url": "https://www.redbull.com/tr-tr/energydrink/red-bull-yellow-edition"
+                "product_url": "https://www.redbull.com/tr-tr/energydrink/products/red-bull-yellow-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TR.svg"
