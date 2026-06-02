@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-06-01T10:50:47.212783+00:00",
+        "collection_date": "2026-06-02T09:39:43.225801+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -177,7 +177,7 @@
                 "ee-et"
             ],
             "flag_code": "EE",
-            "editions_count": 13,
+            "editions_count": 14,
             "data_file": "ee-et.json"
         },
         "Europe": {},
@@ -552,7 +552,7 @@
                 "tr-tr"
             ],
             "flag_code": "TR",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "tr-tr.json"
         },
         "Ukraine": {

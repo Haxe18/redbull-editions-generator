@@ -819,7 +819,68 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:et-EE",
+            "header_data": {
+                "content": {
+                    "title": "Purple Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/1/ere2nzcwbj6pwiyvnmz0/red-bull-the-purple-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#803987",
+                                    "percentage": 11.9
+                                },
+                                {
+                                    "hexColorCode": "#5F1466",
+                                    "percentage": 11.9
+                                },
+                                {
+                                    "hexColorCode": "#D6E2E9",
+                                    "percentage": 4.9
+                                },
+                                {
+                                    "hexColorCode": "#B8BDCF",
+                                    "percentage": 2
+                                },
+                                {
+                                    "hexColorCode": "#45044B",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#62778A",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull The Purple Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-purple-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Açai Berry",
+                    "standfirst": " Red Bull Purple Edition värske ja eksootilise acai-maitsega.",
+                    "brandingHexColorCode": "#702082",
+                    "image": {
+                        "altText": "Red Bull The Purple Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/1/ere2nzcwbj6pwiyvnmz0/red-bull-the-purple-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ee-et/energydrink/products/red-bull-purple-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-06-01T10:36:39.455596+00:00"
+    "collection_timestamp": "2026-06-02T09:24:38.569175+00:00"
 }

@@ -280,10 +280,10 @@
         "sugarfree": false
     },
     "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:tr-TR": {
-        "fingerprint": "039ddcc2c14d007fc90af8b69b9b9ad1ae4659e716395e8702019f65af0a9a87",
+        "fingerprint": "d20f54a98e62aa86a5df9412d0f13128b0e27afd11143bfbbbdbd7e238803702",
         "name": "The Pink Edition Sugarfree",
-        "flavor": "Raspberry",
-        "flavor_description": "Pink Edition Sugarfree offers the taste of Raspberry",
+        "flavor": "Forest Fruits",
+        "flavor_description": "The Pink Edition Sugarfree offers a refreshing Raspberry taste",
         "sugarfree": true
     },
     "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:tr-TR": {
@@ -4022,6 +4022,13 @@
         "name": "The Summer Edition",
         "flavor": "Sudachi Lime",
         "flavor_description": "Wings for your summer with the taste of Peach, mild citrus peel, and floral notes",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:et-EE": {
+        "fingerprint": "ed9c92ad47854266195e2f8983873690db3614bd4aea5344374d3481a9c6b5eb",
+        "name": "The Purple Edition",
+        "flavor": "Acai",
+        "flavor_description": "Red Bull Purple Edition with a fresh and exotic Acai taste",
         "sugarfree": false
     }
 }
