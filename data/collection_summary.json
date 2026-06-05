@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-06-02T09:39:43.225801+00:00",
+        "collection_date": "2026-06-05T09:13:52.866621+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -369,7 +369,7 @@
                 "nl-nl"
             ],
             "flag_code": "NL",
-            "editions_count": 13,
+            "editions_count": 12,
             "data_file": "nl-nl.json"
         },
         "New Zealand": {
