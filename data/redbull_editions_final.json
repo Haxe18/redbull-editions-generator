@@ -5077,24 +5077,24 @@
                 "product_url": "https://www.redbull.com/sugarfree"
             },
             {
-                "name": "The Green Edition",
-                "flavor": "Dragon Fruit",
-                "flavor_description": "An energy drink with a refreshing Dragon Fruit taste",
-                "sugarfree": false,
-                "color": "#00c65e",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/7/3/f8xh0t1cpyy19cfchokq/red-bull-green-edition-image",
-                "alt_text": "Red Bull Green Edition - image",
-                "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
+                "name": "Energy Drink Zero",
+                "flavor": "Zero Sugar",
+                "flavor_description": "A sugarfree energy drink with zero calories, providing the classic Red Bull kick",
+                "sugarfree": true,
+                "color": "#93BFE4",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/5/il7ugf9wv2etg0srtcic/red-bull-zero-energy-drink",
+                "alt_text": "Red Bull Zero Energy Drink",
+                "product_url": "https://www.redbull.com/zero"
             },
             {
-                "name": "The Pink Edition Sugarfree",
-                "flavor": "Forest Fruits",
-                "flavor_description": "A sugarfree energy drink featuring the taste of Forest Fruits",
+                "name": "The Apple Edition Sugarfree",
+                "flavor": "Fuji Apple & Ginger",
+                "flavor_description": "A sugarfree energy drink featuring a crisp Fuji Apple and Ginger flavor profile",
                 "sugarfree": true,
-                "color": "#c72466",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/2/25/izu2so1ohrddco3lzf87/red-bull-pink-edition-image",
-                "alt_text": "Red Bull Pink Edition Image",
-                "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
+                "color": "#ae132d",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/5/qetjffg70sk5fi69ek8b/the-apple-edition-sugarfree",
+                "alt_text": "The Apple Edition Sugarfree",
+                "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-apple-edition-sugarfree"
             },
             {
                 "name": "The Purple Edition",
@@ -5105,6 +5105,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/jwu2fcwbhenkapuqzcta/red-bull-purple-edition-image",
                 "alt_text": "Red Bull Purple Edition - image",
                 "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-purple-edition"
+            },
+            {
+                "name": "The White Edition",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull White Edition is a refreshing energy drink with the flavor of White Peach",
+                "sugarfree": false,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/20/nldufsgjbosnrtjczaja/red-bull-white-edition-image",
+                "alt_text": "Red Bull White Edition - image",
+                "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-white-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TW.svg"

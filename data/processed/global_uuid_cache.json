@@ -4030,5 +4030,26 @@
         "flavor": "Acai",
         "flavor_description": "Red Bull Purple Edition with a fresh and exotic Acai taste",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:zh-TW": {
+        "fingerprint": "62468728dd3b2981aedf98b867086cba7238de9e760a11f4906846d8f6156a39",
+        "name": "The White Edition",
+        "flavor": "White Peach",
+        "flavor_description": "Red Bull White Edition is a refreshing energy drink with the flavor of White Peach",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:zh-TW": {
+        "fingerprint": "6d562cb5bce9c8a42adedbc19d404c1807afbc9caf5850e3dac304464ca7c088",
+        "name": "Energy Drink Zero",
+        "flavor": "Zero Sugar",
+        "flavor_description": "A sugarfree energy drink with zero calories, providing the classic Red Bull kick",
+        "sugarfree": true
+    },
+    "rrn:content:energy-drinks:8cc467b7-a5fb-4a2d-be4d-3dc916680c31:zh-TW": {
+        "fingerprint": "b14a441837475beb05a16bca457ad92fad9d98b23bc424face680bbc449f282e",
+        "name": "The Apple Edition Sugarfree",
+        "flavor": "Fuji Apple & Ginger",
+        "flavor_description": "A sugarfree energy drink featuring a crisp Fuji Apple and Ginger flavor profile",
+        "sugarfree": true
     }
 }

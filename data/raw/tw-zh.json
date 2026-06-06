@@ -8,58 +8,119 @@
     },
     "editions": [
         {
-            "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:zh-TW",
+            "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:zh-TW",
             "header_data": {
                 "content": {
-                    "title": "Pink Edition Sugarfree"
+                    "title": "White Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/izu2so1ohrddco3lzf87/red-bull-pink-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/20/nldufsgjbosnrtjczaja/red-bull-white-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.8
+                                    "hexColorCode": "#E7E8E9",
+                                    "percentage": 15.5
                                 },
                                 {
-                                    "hexColorCode": "#D9E2E8",
-                                    "percentage": 5.1
+                                    "hexColorCode": "#FAF9F9",
+                                    "percentage": 7.8
                                 },
                                 {
-                                    "hexColorCode": "#C1C8D3",
-                                    "percentage": 2.4
+                                    "hexColorCode": "#85898B",
+                                    "percentage": 4.8
                                 },
                                 {
-                                    "hexColorCode": "#E47DAF",
-                                    "percentage": 1.4
+                                    "hexColorCode": "#F2F2F4",
+                                    "percentage": 4.1
                                 },
                                 {
-                                    "hexColorCode": "#E6BDD6",
-                                    "percentage": 1
+                                    "hexColorCode": "#FBFBFA",
+                                    "percentage": 1.2
                                 }
                             ]
                         },
-                        "altText": "Red Bull Pink Edition Image"
+                        "altText": "Red Bull White Edition - image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
+                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-white-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Forest Fruits",
-                    "standfirst": "Red Bull Pink Edition 野莓風味無糖能量飲料",
-                    "brandingHexColorCode": "#c72466",
+                    "flavour": "白桃",
+                    "standfirst": "Red Bull White Edition是白桃風味的Red Bull",
+                    "brandingHexColorCode": "#E24585",
                     "image": {
-                        "altText": "Red Bull Pink Edition Image",
+                        "altText": "Red Bull White Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/2/25/izu2so1ohrddco3lzf87/red-bull-pink-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/20/nldufsgjbosnrtjczaja/red-bull-white-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-pink-edition-sugarfree"
+                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-white-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:zh-TW",
+            "header_data": {
+                "content": {
+                    "title": "零卡能量飲料"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/5/il7ugf9wv2etg0srtcic/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 14.1
+                                },
+                                {
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.9
+                                },
+                                {
+                                    "hexColorCode": "#C90D32",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#DEE9F2",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#7A8594",
+                                    "percentage": 1.8
+                                },
+                                {
+                                    "hexColorCode": "#FCF9F7",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "http://www.redbull.com/zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "零卡路里，100%翅膀",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/5/il7ugf9wv2etg0srtcic/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "http://www.redbull.com/zero"
                     }
                 }
             }
@@ -138,6 +199,79 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:8cc467b7-a5fb-4a2d-be4d-3dc916680c31:zh-TW",
+            "header_data": {
+                "content": {
+                    "title": "Apple Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/5/qetjffg70sk5fi69ek8b/the-apple-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DB5C64",
+                                    "percentage": 7.2
+                                },
+                                {
+                                    "hexColorCode": "#D8E3EA",
+                                    "percentage": 5
+                                },
+                                {
+                                    "hexColorCode": "#E0B254",
+                                    "percentage": 4.7
+                                },
+                                {
+                                    "hexColorCode": "#D7A21C",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#C71F3B",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#DA8255",
+                                    "percentage": 3.2
+                                },
+                                {
+                                    "hexColorCode": "#C3CBD4",
+                                    "percentage": 2.7
+                                },
+                                {
+                                    "hexColorCode": "#CE6528",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#E7D5D1",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "The Apple Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-apple-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Fuji Apple-Ginger",
+                    "standfirst": "Red Bull Apple Edition 富士蘋果風味無糖能量飲料",
+                    "brandingHexColorCode": "#ae132d",
+                    "image": {
+                        "altText": "The Apple Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/5/qetjffg70sk5fi69ek8b/the-apple-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-apple-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-TW",
             "header_data": {
                 "content": {
@@ -198,71 +332,6 @@
                     },
                     "reference": {
                         "externalUrl": "http://www.redbull.com/sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:zh-TW",
-            "header_data": {
-                "content": {
-                    "title": "Green Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/f8xh0t1cpyy19cfchokq/red-bull-green-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#0E9740",
-                                    "percentage": 13.3
-                                },
-                                {
-                                    "hexColorCode": "#D2D4D9",
-                                    "percentage": 6.6
-                                },
-                                {
-                                    "hexColorCode": "#60B769",
-                                    "percentage": 6.5
-                                },
-                                {
-                                    "hexColorCode": "#4BB163",
-                                    "percentage": 3.5
-                                },
-                                {
-                                    "hexColorCode": "#33A651",
-                                    "percentage": 3.1
-                                },
-                                {
-                                    "hexColorCode": "#FCF7FC",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#EFF1F2",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Green Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Dragon fruit",
-                    "standfirst": " 給你一對火龍果風味的翅膀.",
-                    "brandingHexColorCode": "#00c65e",
-                    "image": {
-                        "altText": "Red Bull Green Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/f8xh0t1cpyy19cfchokq/red-bull-green-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-green-edition"
                     }
                 }
             }
@@ -345,5 +414,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:21:36.523952+00:00"
+    "collection_timestamp": "2026-06-06T08:19:59.546635+00:00"
 }
