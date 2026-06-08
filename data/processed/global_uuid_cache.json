@@ -4051,5 +4051,12 @@
         "flavor": "Fuji Apple & Ginger",
         "flavor_description": "A sugarfree energy drink featuring a crisp Fuji Apple and Ginger flavor profile",
         "sugarfree": true
+    },
+    "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:mk-MK": {
+        "fingerprint": "9aab3192dc334d62fae4fd55ed7eaef927728cb274c4a0481c5fdbb43ef86e01",
+        "name": "The Summer Edition",
+        "flavor": "Citrus",
+        "flavor_description": "The Red Bull Summer Edition provides a refreshing taste of citrus and lime",
+        "sugarfree": false
     }
 }
