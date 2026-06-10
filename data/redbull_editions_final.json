@@ -201,6 +201,16 @@
                 "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-lilac-edition-sugarfree"
             },
             {
+                "name": "The Peach Edition",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
+                "sugarfree": false,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/5/sdolmwrozefzfaabonqf/red-bull-peach-edition-image",
+                "alt_text": "Red Bull Peach Edition - Image",
+                "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-peach-edition"
+            },
+            {
                 "name": "The Red Edition",
                 "flavor": "Watermelon",
                 "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
@@ -209,16 +219,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/cdlccyn4zppwvmjsbr8a/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
                 "product_url": "https://www.redbull.com/au-en/energydrink/red-bull-red-edition"
-            },
-            {
-                "name": "The Summer Edition",
-                "flavor": "White Peach",
-                "flavor_description": "The Red Bull Summer Edition: The Energy Drink with the mouthwatering new flavour that offers the taste of White Peach, highlighted by a touch of citrus peel and floral notes",
-                "sugarfree": false,
-                "color": "#E24585",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/29/fzrmzftokavy5ghtknta/red-bull-summer-edition",
-                "alt_text": "Red Bull Summer Edition",
-                "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-summer-edition"
             },
             {
                 "name": "The Tropical Edition",
