@@ -1651,6 +1651,16 @@
                 "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
             },
             {
+                "name": "The Summer Edition",
+                "flavor": "Cherry & Wild Berries",
+                "flavor_description": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild Berries",
+                "sugarfree": false,
+                "color": "#0072ce",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/11/hyukbucpe3toct6yerqr/red-bull-the-summer-edition-image",
+                "alt_text": "Red Bull Summer Edition White Peach - Image",
+                "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
+            },
+            {
                 "name": "The White Edition",
                 "flavor": "Coconut-Blueberry",
                 "flavor_description": "A refreshing blend featuring the distinctive taste of Coconut and berries",
@@ -1659,16 +1669,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
                 "alt_text": "Red Bull White Edition - image",
                 "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-white-edition"
-            },
-            {
-                "name": "The Winter Edition",
-                "flavor": "Fuji Apple & Ginger",
-                "flavor_description": "A crisp and refreshing winter seasonal flavor featuring apple and Ginger notes",
-                "sugarfree": false,
-                "color": "#ae132d",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/15/ciceac6gct6zfqf3hf1m/the-winter-edition",
-                "alt_text": "Winter Edition",
-                "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-winter-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EG.svg"
