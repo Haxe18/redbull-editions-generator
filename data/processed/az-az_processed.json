@@ -37,7 +37,7 @@
             "flavor_description": "Red Bull Sugarfree is the sugarfree version of the classic Red Bull Energy Drink",
             "sugarfree": true,
             "color": "#248FCB",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/okjho81j5iwyqfev1b83/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/sugarfree"
         },
@@ -63,31 +63,9 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AZ.svg",
-    "_raw_hash": "1320f72b6576edf616c45bdb223fd52bce3e8827be47cb2de027923342642232",
+    "_raw_hash": "86c76c24a14734de96d22fe07f10740a14273006b69c50fc83d43099f7539d50",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:7b350335-d4f3-419d-9a00-ad1ef9bfe111:az-AZ",
-            "name": "The Blue Edition",
-            "flavor": "Cherry-Forest Fruits",
-            "description": "Red Bull Blue Edition with the taste of cherry and forest fruits.",
-            "product_url": "https://www.redbull.com/az-az/energydrink/products/red-bull-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:az-AZ",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and travelers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:az-AZ",
-            "name": "The Apricot Edition",
-            "flavor": "Apricot-Strawberry",
-            "description": "Red Bull Apricot Edition with the taste of apricot, strawberry and peach notes.",
-            "product_url": "https://www.redbull.com/az-az/energydrink/products/red-bull-apricot-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:az-AZ": "5b636c385a11fb02f0c6d47c81e7f9d6cd7a91dd9229390d6a427029830ec36c",
         "rrn:content:energy-drinks:7b350335-d4f3-419d-9a00-ad1ef9bfe111:az-AZ": "41342367feb338365b5a2ae3f10850a76912e035389dc835817973e227412827",

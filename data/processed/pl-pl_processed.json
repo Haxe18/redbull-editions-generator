@@ -47,7 +47,7 @@
             "flavor_description": "The classic Red Bull energy drink enjoyed worldwide by athletes, students, and busy professionals",
             "sugarfree": false,
             "color": "#263A80",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/bp5pntsnht1co8fjmyww/red-bull-energy-drink",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/yzjcu9my8iipuaa89oil/red-bull-energy-drink",
             "alt_text": "Red Bull Energy Drink",
             "product_url": "https://www.redbull.com/energydrink"
         },
@@ -67,7 +67,7 @@
             "flavor_description": "The classic Red Bull energy drink formula without sugar",
             "sugarfree": true,
             "color": "#248FCB",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/okjho81j5iwyqfev1b83/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/sugarfree"
         },
@@ -143,24 +143,9 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "9b9851cf469434c36706f0e8b57fe060cd7501f13d0e9534c1ba1f955bd5201f",
+    "_raw_hash": "f0f449d08ffd566847529f307ac899fcb01c8d3dc9d548f4d539f29a48f79c56",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pl-PL",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "Red Bull Summer Edition with a taste of sudachi and lime with a light note of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:pl-PL",
-            "name": "The Summer Edition Sugarfree",
-            "flavor": "Sudachi Lime",
-            "description": "Red Bull Summer Edition Sugarfree with a taste of sudachi and lime with a light note of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition-sugarfree"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL": "7c2603b0db36132344a2785ff0e6addac7375560c917591a8dbf182a13d2cf0b",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:pl-PL": "5c2479cc695d6ee30136bcc368a267f7d4432d2cdd21270ab6d98c5160550d5b",

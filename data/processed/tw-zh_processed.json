@@ -47,7 +47,7 @@
             "flavor_description": "The sugarfree version of the original Red Bull energy drink",
             "sugarfree": true,
             "color": "#248FCB",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/okjho81j5iwyqfev1b83/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/sugarfree"
         },
@@ -63,31 +63,9 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TW.svg",
-    "_raw_hash": "080e17fe9b56900df005b2cf800d8991dba060781b4f3e87d184685b31f86c68",
+    "_raw_hash": "fbaf9e8ba37d0d983beceb8f6db50b0533e8fec7fbfe431494540f45c466b89e",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:zh-TW",
-            "name": "The White Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull White Edition is a White Peach flavored Red Bull",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-white-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:zh-TW",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero calories, 100% Wings",
-            "product_url": "https://www.redbull.com/zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:8cc467b7-a5fb-4a2d-be4d-3dc916680c31:zh-TW",
-            "name": "The Apple Edition Sugarfree",
-            "flavor": "Fuji Apple-Ginger",
-            "description": "Red Bull Apple Edition Fuji Apple flavor sugarfree energy drink",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-apple-edition-sugarfree"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:zh-TW": "62468728dd3b2981aedf98b867086cba7238de9e760a11f4906846d8f6156a39",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:zh-TW": "6d562cb5bce9c8a42adedbc19d404c1807afbc9caf5850e3dac304464ca7c088",

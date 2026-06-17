@@ -27,7 +27,7 @@
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink without sugar",
             "sugarfree": true,
             "color": "#248FCB",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/22/ur0mvj1wdnzik0jceu0l/red-bull-sugarfree",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/okjho81j5iwyqfev1b83/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-sugarfree"
         },
@@ -53,17 +53,9 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-UA.svg",
-    "_raw_hash": "4a17910f33d4e53ed14bc6551d1d9999ca0e156bb8feb1de11400bc1fa4ca36a",
+    "_raw_hash": "fd52d8ba2b915582b646e4fa5739b8d5c821b6d46d1759c0e9035d2b32365f5c",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:uk-UA",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition offers the taste of white peach with a hint of citrus zest and floral notes.",
-            "product_url": "https://www.redbull.com/ua-uk/energydrink/products/red-bull-peach-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:uk-UA": "9633c241caf633d43a2c05bdb94f51b7996afc6374bdeed8d62a16b70de455b8",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:uk-UA": "57d6224e3c538113ab1ed32d9c1358d8e4881a09e1de7355ca1e93f93346a401",
