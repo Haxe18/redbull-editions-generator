@@ -211,74 +211,123 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
+            "id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP",
             "header_data": {
                 "content": {
-                    "title": "パープルエディション"
+                    "title": "すだちエディション"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/neplp18e5cmwoftksfr3/red-bull-purple-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/2/psrehv0whx6te692cdfk/red-bull-sudachi-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#7E3484",
-                                    "percentage": 18.6
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 20.3
                                 },
                                 {
-                                    "hexColorCode": "#D3D3DA",
-                                    "percentage": 5.5
+                                    "hexColorCode": "#DECD25",
+                                    "percentage": 4.3
                                 },
                                 {
-                                    "hexColorCode": "#FEFEFE",
-                                    "percentage": 3
+                                    "hexColorCode": "#D7DFE7",
+                                    "percentage": 3.5
                                 },
                                 {
-                                    "hexColorCode": "#60215E",
-                                    "percentage": 1.8
+                                    "hexColorCode": "#BFC8D4",
+                                    "percentage": 2.5
                                 },
                                 {
-                                    "hexColorCode": "#50184C",
-                                    "percentage": 1.6
+                                    "hexColorCode": "#937E5E",
+                                    "percentage": 1.4
                                 },
                                 {
-                                    "hexColorCode": "#ECEEEF",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#AB7AB2",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#CFBAD2",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#63126C",
+                                    "hexColorCode": "#BAA673",
                                     "percentage": 0.7
                                 }
                             ]
                         },
-                        "altText": "Red Bull Purple Edition - image"
+                        "altText": "Red Bull Sudachi Edition - image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
+                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-sudachi-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Açai Berry",
-                    "standfirst": "レッドブルから新定番、巨峰味の翼！",
-                    "brandingHexColorCode": "#702082",
+                    "flavour": "柑橘すだち",
+                    "standfirst": "レッドブル、翼をさずける。",
+                    "brandingHexColorCode": "#08285E",
                     "image": {
-                        "altText": "Red Bull Purple Edition - image",
+                        "altText": "Red Bull Sudachi Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/10/15/neplp18e5cmwoftksfr3/red-bull-purple-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/2/psrehv0whx6te692cdfk/red-bull-sudachi-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
+                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-sudachi-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
+            "header_data": {
+                "content": {
+                    "title": "グレープエディション"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/z1dasrzz9slfoo7gmz0e/red-bull-grape-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#853B8C",
+                                    "percentage": 12
+                                },
+                                {
+                                    "hexColorCode": "#601567",
+                                    "percentage": 10.5
+                                },
+                                {
+                                    "hexColorCode": "#DAE3E8",
+                                    "percentage": 5.2
+                                },
+                                {
+                                    "hexColorCode": "#C1C4D1",
+                                    "percentage": 2.9
+                                },
+                                {
+                                    "hexColorCode": "#49064E",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#AA75B2",
+                                    "percentage": 0.8
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Grape Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-grape-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Grape",
+                    "standfirst": "レッドブル パープルエディションがレッドブル グレープエディションに生まれ変わりました！",
+                    "brandingHexColorCode": "#702082",
+                    "image": {
+                        "altText": "Red Bull Grape Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/z1dasrzz9slfoo7gmz0e/red-bull-grape-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-grape-edition"
                     }
                 }
             }
@@ -287,55 +336,55 @@
             "id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
             "header_data": {
                 "content": {
-                    "title": "グ⁠⁠リ⁠ー⁠ン⁠エ⁠ディション"
+                    "title": "マスカットエディション"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/ku4mvyqrtzs3oydiwudu/red-bull-muscat-edition---image",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#8DBE22",
-                                    "percentage": 15.6
+                                    "percentage": 15.3
                                 },
                                 {
                                     "hexColorCode": "#AACB52",
-                                    "percentage": 9.5
+                                    "percentage": 9.3
                                 },
                                 {
                                     "hexColorCode": "#D9E0E7",
-                                    "percentage": 4.1
+                                    "percentage": 4.4
                                 },
                                 {
-                                    "hexColorCode": "#CED3E0",
-                                    "percentage": 3.7
+                                    "hexColorCode": "#CFD4E2",
+                                    "percentage": 3.8
                                 }
                             ]
                         },
-                        "altText": "Red Bull Green Edition - image"
+                        "altText": "Red Bull Muscat Edition - image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
+                    "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-muscat-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Curuba Elderflower",
-                    "standfirst": "マスカット味のレッドブル、再登場！",
+                    "flavour": "Muscat",
+                    "standfirst": "レッドブル グリーンエディションがレッドブル マスカットエディションに生まれ変わりました！",
                     "brandingHexColorCode": "#6cc24a",
                     "image": {
-                        "altText": "Red Bull Green Edition - image",
+                        "altText": "Red Bull Muscat Edition - image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/ku4mvyqrtzs3oydiwudu/red-bull-muscat-edition---image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
+                        "externalUrl": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-muscat-edition"
                     }
                 }
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:15:07.855828+00:00"
+    "collection_timestamp": "2026-06-18T09:54:02.055635+00:00"
 }

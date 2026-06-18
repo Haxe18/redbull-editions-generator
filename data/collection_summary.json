@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-06-17T10:20:20.823892+00:00",
+        "collection_date": "2026-06-18T10:04:55.077841+00:00",
         "total_countries": 66,
         "changes_detected": [],
         "successful_countries": 66
@@ -287,7 +287,7 @@
                 "jp-ja"
             ],
             "flag_code": "JP",
-            "editions_count": 5,
+            "editions_count": 6,
             "data_file": "jp-ja.json"
         },
         "Kazakhstan": {

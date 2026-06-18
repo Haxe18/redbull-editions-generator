@@ -2905,17 +2905,17 @@
         "sugarfree": true
     },
     "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": {
-        "fingerprint": "3ddc47f6303d09acb217c665683d73e51b992cb8c47aafabb2e5da604047cfe9",
+        "fingerprint": "2bf7c96898c3f7f900c0d9928a13fe4c6f4ed35ba40b65c926086a7efe1bbb3d",
         "name": "The Purple Edition",
-        "flavor": "Kyoho Grape",
-        "flavor_description": "A refreshing Red Bull with the distinct, sweet taste of Kyoho grapes",
+        "flavor": "Grape",
+        "flavor_description": "A vibrant energy drink with the bold and sweet flavor of purple grapes",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": {
-        "fingerprint": "88ef57d08fb09c01de062729364bbd33d9192741ef7f8b25e328101b74f54dd0",
+        "fingerprint": "742a2360559693810bbf9fd3a48c2d75e499a47081ae37147e3367165596ee1c",
         "name": "The Green Edition",
         "flavor": "Muscat",
-        "flavor_description": "A revitalizing Red Bull featuring the crisp and aromatic taste of Muscat grapes",
+        "flavor_description": "A refreshing energy drink featuring the delicate and sweet taste of Muscat grapes",
         "sugarfree": false
     },
     "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR": {
@@ -4071,6 +4071,13 @@
         "name": "The Summer Edition",
         "flavor": "Cherry & Wild Berries",
         "flavor_description": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild Berries",
+        "sugarfree": false
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP": {
+        "fingerprint": "678fd2a6cbc4ae5bafe4f286b72e057444ef42f3443423f04237f931944100e3",
+        "name": "The Sudachi Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "A refreshing energy drink featuring the unique and tangy taste of Japanese Sudachi citrus",
         "sugarfree": false
     }
 }

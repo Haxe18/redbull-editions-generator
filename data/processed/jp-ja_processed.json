@@ -32,36 +32,69 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "The Sudachi Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing energy drink featuring the unique and tangy taste of Japanese Sudachi citrus",
+            "sugarfree": false,
+            "color": "#08285E",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/2/psrehv0whx6te692cdfk/red-bull-sudachi-edition-image",
+            "alt_text": "Red Bull Sudachi Edition - image",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-sudachi-edition"
+        },
+        {
             "name": "The Purple Edition",
-            "flavor": "Kyoho Grape",
-            "flavor_description": "A refreshing Red Bull with the distinct, sweet taste of Kyoho grapes",
+            "flavor": "Grape",
+            "flavor_description": "A vibrant energy drink with the bold and sweet flavor of purple grapes",
             "sugarfree": false,
             "color": "#702082",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/10/15/neplp18e5cmwoftksfr3/red-bull-purple-edition-image",
-            "alt_text": "Red Bull Purple Edition - image",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/red-bull-purple-edition"
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/z1dasrzz9slfoo7gmz0e/red-bull-grape-edition-image",
+            "alt_text": "Red Bull Grape Edition - image",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-grape-edition"
         },
         {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "A revitalizing Red Bull featuring the crisp and aromatic taste of Muscat grapes",
+            "flavor_description": "A refreshing energy drink featuring the delicate and sweet taste of Muscat grapes",
             "sugarfree": false,
             "color": "#6cc24a",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/7/akl9xufy7iobkgk3quyl/red-bull-green-edition---image",
-            "alt_text": "Red Bull Green Edition - image",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-green-edition"
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/ku4mvyqrtzs3oydiwudu/red-bull-muscat-edition---image",
+            "alt_text": "Red Bull Muscat Edition - image",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-muscat-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
-    "_raw_hash": "1f9b38f0b84c53aa7a95c2f8c4032fee02e69a02d5b5eee2fe49659097c810ab",
+    "_raw_hash": "b34976818d90bb652a5448601228cd891ae5f7e5c825a26709a69ccfe525424e",
     "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP",
+            "name": "The Sudachi Edition",
+            "flavor": "Citrus Sudachi",
+            "description": "Red Bull, gives you wings.",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-sudachi-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
+            "name": "The Purple Edition",
+            "flavor": "Grape",
+            "description": "Red Bull Purple Edition has been reborn as Red Bull Grape Edition!",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-grape-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
+            "name": "The Green Edition",
+            "flavor": "Muscat",
+            "description": "Red Bull Green Edition has been reborn as Red Bull Muscat Edition!",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-muscat-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": "7929c4b3f3e266d5a603b19942e854a8c713ecf0bb3872c5140d40f1429ea87c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": "038f531a7ef4c07fc89d8040cade4dbb949251731c65fc181b8310ec9fe07d23",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP": "07d794a7b43c3a6429cb994c803784167906e9a766045ab03de4d7f27114ed56",
-        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": "3ddc47f6303d09acb217c665683d73e51b992cb8c47aafabb2e5da604047cfe9",
-        "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": "88ef57d08fb09c01de062729364bbd33d9192741ef7f8b25e328101b74f54dd0"
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP": "678fd2a6cbc4ae5bafe4f286b72e057444ef42f3443423f04237f931944100e3",
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": "2bf7c96898c3f7f900c0d9928a13fe4c6f4ed35ba40b65c926086a7efe1bbb3d",
+        "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": "742a2360559693810bbf9fd3a48c2d75e499a47081ae37147e3367165596ee1c"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": {
@@ -82,16 +115,22 @@
             "flavor_description": "Red Bull Energy Drink Sugarfree provides the same energy with no sugar",
             "sugarfree": true
         },
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP": {
+            "name": "The Sudachi Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "A refreshing energy drink featuring the unique and tangy taste of Japanese Sudachi citrus",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": {
             "name": "The Purple Edition",
-            "flavor": "Kyoho Grape",
-            "flavor_description": "A refreshing Red Bull with the distinct, sweet taste of Kyoho grapes",
+            "flavor": "Grape",
+            "flavor_description": "A vibrant energy drink with the bold and sweet flavor of purple grapes",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "A revitalizing Red Bull featuring the crisp and aromatic taste of Muscat grapes",
+            "flavor_description": "A refreshing energy drink featuring the delicate and sweet taste of Muscat grapes",
             "sugarfree": false
         }
     }
