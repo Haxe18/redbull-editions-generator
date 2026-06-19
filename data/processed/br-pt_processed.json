@@ -23,7 +23,7 @@
         },
         {
             "name": "The Cereja Edition",
-            "flavor": "Juneberry",
+            "flavor": "Cherry & Wild Berries",
             "flavor_description": "The Red Bull Cereja Edition with the extraordinary taste of Juneberry and Forest Fruits",
             "sugarfree": false,
             "color": "#0072ce",
@@ -155,7 +155,7 @@
         },
         "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:pt-BR": {
             "name": "The Cereja Edition",
-            "flavor": "Juneberry",
+            "flavor": "Cherry & Wild Berries",
             "flavor_description": "The Red Bull Cereja Edition with the extraordinary taste of Juneberry and Forest Fruits",
             "sugarfree": false
         },
