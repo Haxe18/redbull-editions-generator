@@ -4079,5 +4079,12 @@
         "flavor": "Sudachi Lime",
         "flavor_description": "A refreshing energy drink featuring the unique and tangy taste of Japanese Sudachi citrus",
         "sugarfree": false
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:de-DE": {
+        "fingerprint": "eb48da35bca6cd1ac88cf478eca165c361a5e5f362d6d5f2d1942375ec5bb6b8",
+        "name": "The Cherry Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "The Red Bull Cherry Edition Sugarfree offers the flavor of Cherry combined with delicate notes of almond and floral Cherry Blossom",
+        "sugarfree": true
     }
 }
