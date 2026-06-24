@@ -54,44 +54,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AL.svg",
     "_raw_hash": "252271c34387a318871249043799605fd610994e0aaf284981825e27977f0cd5",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sq-AL",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with the taste of Watermelon.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sq-AL",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero calories. 100% Wings",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, busy professionals, and during long journeys.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:sq-AL",
-            "name": "The Green Edition",
-            "flavor": "Dragon Fruit",
-            "description": "Red Bull Green Edition with the exotic taste of dragon fruit.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sq-AL",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-sugarfree"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sq-AL": "e5e5e2b220f6a2c1ab1cff36c6b679bf26a4af3c901adf113f0c4e48a669d624",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sq-AL": "88598622e91a387ab2724f827b2154ec45ed5017c4ae82a3f0d20e8802f4c559",

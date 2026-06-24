@@ -64,51 +64,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
     "_raw_hash": "b34976818d90bb652a5448601228cd891ae5f7e5c825a26709a69ccfe525424e",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
-            "name": "The Cherry Edition",
-            "flavor": "Cherry",
-            "description": "Red Bull Cherry Edition is now available with a cherry taste!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and long-distance travelers.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is a Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP",
-            "name": "The Sudachi Edition",
-            "flavor": "Sudachi",
-            "description": "Red Bull, gives you Wings.",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-sudachi-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
-            "name": "The Purple Edition",
-            "flavor": "Grape",
-            "description": "Red Bull Purple Edition has been reborn as Red Bull Grape Edition!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-grape-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
-            "name": "The Green Edition",
-            "flavor": "Muscat",
-            "description": "Red Bull Green Edition has been reborn as Red Bull Muscat Edition!",
-            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-muscat-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": "7929c4b3f3e266d5a603b19942e854a8c713ecf0bb3872c5140d40f1429ea87c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": "038f531a7ef4c07fc89d8040cade4dbb949251731c65fc181b8310ec9fe07d23",

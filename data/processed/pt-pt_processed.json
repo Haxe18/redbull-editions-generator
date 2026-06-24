@@ -94,72 +94,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PT.svg",
     "_raw_hash": "88b21e8be3adda658a3cad4e336fa9cf2d80636c18d898c4dd61a487af5e40bf",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-PT",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with watermelon taste.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:pt-PT",
-            "name": "The Cherry Edition Sugarfree",
-            "flavor": "Cereja Sakura",
-            "description": "Red Bull Cherry Edition Sugarfree with the taste of cherry blossom, fruity cherries and creamy almond notes.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-cherry-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pt-PT",
-            "name": "Energy Drink Zero",
-            "flavor": "ZERO CALORIAS",
-            "description": "Zero calories. 100% Wings. Enjoy the taste of Red Bull Zero.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pt-PT",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travelers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9c27f2d5-12cd-4185-af07-39c6a41edd74:pt-PT",
-            "name": "The Acai Edition Sugarfree",
-            "flavor": "Acai Berry",
-            "description": "Red Bull Acai Edition Sugarfree with the unique exotic taste of Acai.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-acai-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-PT",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:pt-PT",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:pt-PT",
-            "name": "The Green Edition Sugarfree",
-            "flavor": "Maracuja-Banana",
-            "description": "Red Bull Green Edition Sugarfree with Maracuja-Banana taste.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-green-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-PT",
-            "name": "The Yellow Edition",
-            "flavor": "Tropical/Tropical Fruits",
-            "description": "Red Bull Yellow Edition. Get ready to be surprised by the exotic taste of tropical fruits.",
-            "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-yellow-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-PT": "ead7abdcece9feadd9fbddeb986114023b4a8ca5df1d09f4d136a3179be5049f",
         "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:pt-PT": "7c8ddd360eb090e498778805fd9ffe303c7747bd23d691adeeacc0bbf34e8f64",

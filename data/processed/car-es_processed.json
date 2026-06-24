@@ -54,44 +54,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-Worldwide.svg",
     "_raw_hash": "927bb6a14f034b7410967223dfabe07ad9b5c224cff3dfae4955f178a6222794",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CAR",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with the fresh taste of watermelon.",
-            "product_url": "https://www.redbull.com/car-es/energydrink/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CAR",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:es-CAR",
-            "name": "The Green Edition",
-            "flavor": "Dragon Fruit",
-            "description": "Dragon fruit will become your new favorite edition with its sweet and exotic taste.",
-            "product_url": "https://www.redbull.com/us-en/energydrink/red-bull-green-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-CAR",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:es-CAR",
-            "name": "The Yellow Edition",
-            "flavor": "Tropical",
-            "description": "The tropical edition of Red Bull. Let yourself be surprised by the exotic taste of tropical fruits.",
-            "product_url": "https://www.redbull.com/car-es/energydrink/red-bull-yellow-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CAR": "9ffbe0f2684a290c4f482c68f6765f1bee82ad87cb9f2a6689af2f3814122ce3",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CAR": "2153adb85d71b0f5cc402e8f938b4edd0b6863f8b7ba19df3955b9b286946884",

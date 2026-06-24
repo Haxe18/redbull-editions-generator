@@ -64,51 +64,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TW.svg",
     "_raw_hash": "46f93c77de685081a2916f4a01ec8352b7dfee584f350ab622d190a0032028b2",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:zh-TW",
-            "name": "The White Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull White Edition is a White Peach flavored Red Bull.",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-white-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:zh-TW",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero calories, 100% Wings.",
-            "product_url": "https://www.redbull.com/zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-TW",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, busy professionals and travelers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:8cc467b7-a5fb-4a2d-be4d-3dc916680c31:zh-TW",
-            "name": "The Apple Edition Sugarfree",
-            "flavor": "Fuji Apple-Ginger",
-            "description": "Red Bull Apple Edition Fuji Apple-Ginger flavored sugarfree energy drink.",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-apple-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-TW",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Energy Drink Sugarfree is the sugarfree version of Red Bull Energy Drink.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-TW",
-            "name": "The Purple Edition",
-            "flavor": "Acai Berry",
-            "description": "Red Bull Purple Edition Kyoho Grape flavored energy drink.",
-            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-purple-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:zh-TW": "62468728dd3b2981aedf98b867086cba7238de9e760a11f4906846d8f6156a39",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:zh-TW": "6d562cb5bce9c8a42adedbc19d404c1807afbc9caf5850e3dac304464ca7c088",

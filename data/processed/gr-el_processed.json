@@ -84,65 +84,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GR.svg",
     "_raw_hash": "022b6196cecacf7a9c912635af9fabebdb3ba3c5fbd01037f3ff32de5283694a",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:el-GR",
-            "name": "The White Edition",
-            "flavor": "Coconut",
-            "description": "Red Bull White Edition with coconut and berry taste.",
-            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-white-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:el-GR",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition. Enjoy the refreshing watermelon taste.",
-            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:el-GR",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero Sugar",
-            "description": "Zero Sugar. 100% Wings",
-            "product_url": "https://www.redbull.com/zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:el-GR",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:el-GR",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:el-GR",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition with white peach taste.",
-            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-peach-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:el-GR",
-            "name": "The Summer Edition",
-            "flavor": "Pink Grapefruit & Blossom",
-            "description": "Wings for your summer: Red Bull Summer Edition with unique pink grapefruit taste.",
-            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:el-GR",
-            "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "Red Bull Apricot Edition. Enjoy the incredible apricot and strawberry taste.",
-            "product_url": "https://www.redbull.com/gr-el/energydrink/products/red-bull-apricot-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:el-GR": "22d5559fd0c4f6d9aea6954e42a9bf43776780cb466a13929b4350f86767706c",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:el-GR": "6922897f3a9981a54b9f4d4e824606265cd482d61d6c3c8e22511bda99ca91da",

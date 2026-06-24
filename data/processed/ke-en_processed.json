@@ -44,37 +44,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KE.svg",
     "_raw_hash": "ab6192c0ae59c9147cebdc54c9f9cd27e1c9eb76d0a635a2006900b1eb180e64",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-KE",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "The Red Bull Red Edition with the taste of watermelon.",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-KE",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-KE",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-KE",
-            "name": "The Apricot Edition",
-            "flavor": "Strawberry and apricot",
-            "description": "The Red Bull Apricot Edition with the taste of apricot and strawberry.",
-            "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-apricot-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-KE": "1ea5d270cf00dcd8e2c1bdd57b3560a247bd270a96ed86ce110525e6582c202c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-KE": "967d300a73476ccd8be322088931e5143173e37779a3b65aa6985d153af67ca5",

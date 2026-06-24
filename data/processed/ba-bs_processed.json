@@ -84,65 +84,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg",
     "_raw_hash": "fe3da50b92af05998016f77a1de3c8113bb0a1d5941ae2b768ad2335084dc598",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:bs-BA",
-            "name": "The Blue Edition",
-            "flavor": "Juneberry",
-            "description": "Red Bull Blue Edition with the tempting taste of berries, juneberry.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-blue-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:bs-BA",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with a refreshing watermelon taste.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:bs-BA",
-            "name": "Energy Drink Zero",
-            "flavor": "Zero",
-            "description": "Zero sugar. 100% Wings.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-zero"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bs-BA",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull is appreciated worldwide by top athletes, in demanding professions, by students and travelers on long journeys.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:bs-BA",
-            "name": "The Green Edition",
-            "flavor": "Dragon Fruit",
-            "description": "Red Bull Green Edition with the taste of exotic fruit, dragon fruit.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:bs-BA",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA",
-            "name": "The Summer Edition",
-            "flavor": "Citrus",
-            "description": "Red Bull Summer Edition gives you wings with a refreshing taste of Japanese citrus and lime.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:bs-BA",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Blossom",
-            "description": "Red Bull Spring Sugarfree Edition with the taste of cherry fruit and blossom and creamy almond notes.",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-spring-sugarfree-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:bs-BA": "b3ada4d3aadec1d6751c665a16baf0982ac16413737e588905a4c0c7b634a18b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:bs-BA": "be572aa35c5fe15205e72e3dfa92cfd6ef0170775d53f793cd677797f1d3ed9d",

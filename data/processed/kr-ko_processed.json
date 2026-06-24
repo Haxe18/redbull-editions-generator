@@ -54,44 +54,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KR.svg",
     "_raw_hash": "0cf07b32bce6f2a4c96a8672bf00db28a33b3ce79642bd447737760d8dd1d421",
-    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and travelers.",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ko-KR",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR",
-            "name": "The Green Edition",
-            "flavor": "Curuba-Elderflower",
-            "description": "Red Bull Green Edition is a new edition that combines refreshing tropical fruit notes with sweet floral scents.",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR",
-            "name": "The Pink Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Pink Edition: Meet the energy drink that adds the freshness of citrus and floral scents to the peach scent!",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-pink-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ko-KR",
-            "name": "The Purple Edition",
-            "flavor": "Grape",
-            "description": "Meet the Red Bull Purple Edition with added grape flavor.",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-purple-edition"
-        }
-    ],
+    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR": "3cf980d82ec7b53d47ada3e0b40e638847cd8458a3f6a6a6921925be7d96fed0",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ko-KR": "0fb38415632bb063f0a013e7cda91b615813929d3ae98c95e10566fb9b37ea0f",
