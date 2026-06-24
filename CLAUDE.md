@@ -204,6 +204,7 @@ Protection lives in `_save_country_data()` — before writing the raw file, comp
 - **Names**:
   - "Sugarfree" → "Energy Drink Sugarfree"
   - "Zero" → "Energy Drink Zero"
+  - **"Xero"** (South Africa branding for Red Bull Zero) → "Energy Drink Zero" (flavor "Zero Sugar", `sugarfree: true`). Recognized as a Zero variant in `_get_energy_drink_variant`; `enforce_sugarfree_logic` also lists "xero" as a sugarfree keyword as a safety net.
   - **NEVER**: "The Original Edition" (must be "Energy Drink")
   - **NEVER**: "The Zero Edition" (must be "Energy Drink Zero")
   - **AI Name Validation** (prevents hallucinations like Apple→Apricot):

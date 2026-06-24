@@ -4,7 +4,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The signature Red Bull energy drink enjoyed worldwide by athletes and professionals. It provides a reliable boost of energy for busy days",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/vqd5iv0syljvqkbyhltt/red-bull-energy-drink",
@@ -14,8 +14,16 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-MY.svg",
     "_raw_hash": "d3ee33aa9906f5df029c1242ccbe0f19bab31c963f93d32f552c1b269ec1be01",
-    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
-    "_translated_editions": [],
+    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-MY",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+            "product_url": "https://www.redbull.com/energydrink"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-MY": "f4645958de47708db01dd2544f2acc345daa07982f3f9cfe6c431e94de7f54f3"
     },
@@ -23,7 +31,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-MY": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The signature Red Bull energy drink enjoyed worldwide by athletes and professionals. It provides a reliable boost of energy for busy days",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false
         }
     }

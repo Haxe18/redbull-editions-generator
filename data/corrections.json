@@ -79,18 +79,6 @@
             "replace": "Raspberry"
         },
         {
-            "id": "f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP",
-            "field": "flavor",
-            "search": "Curuba Elderflower",
-            "replace": "Muscat"
-        },
-        {
-            "id": "f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP",
-            "field": "flavor",
-            "search": "Acai Berry",
-            "replace": "Kyoho Grape"
-        },
-        {
             "id": "ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR",
             "field": "flavor",
             "search": "열대과일향",

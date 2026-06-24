@@ -4,7 +4,7 @@
         {
             "name": "The White Edition",
             "flavor": "Coconut-Blueberry",
-            "flavor_description": "A refreshing blend featuring the distinctive taste of Coconut and berries",
+            "flavor_description": "Experience a unique taste with the wonderful flavor of Coconut and berry",
             "sugarfree": false,
             "color": "#0070b8",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/xrkgnblcmtmefdeo01cx/red-bull-white-edition-image",
@@ -14,7 +14,7 @@
         {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
-            "flavor_description": "Experience the unique and delicious taste of Juneberry",
+            "flavor_description": "Offers the refreshing taste of Cherry and Wild Berries",
             "sugarfree": false,
             "color": "#0072CE",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/9/tlohh1hbk8iyflml0bmq/red-bull-the-sea-blue-edition-image",
@@ -24,7 +24,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "Cherry & Wild Berries",
-            "flavor_description": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild Berries",
+            "flavor_description": "Features the extraordinary taste of Cherry and Wild Berries",
             "sugarfree": false,
             "color": "#0072ce",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/11/hyukbucpe3toct6yerqr/red-bull-the-summer-edition-image",
@@ -34,7 +34,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The classic Red Bull Energy Drink formula loved worldwide by high performers",
+            "flavor_description": "The classic Red Bull energy drink appreciated worldwide by athletes and professionals",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/12/f3djrcqlufxhxg3b6adq/red-bull-energy-drink",
@@ -44,7 +44,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "The classic Red Bull energy experience without any sugar",
+            "flavor_description": "Enjoy the classic Red Bull energy drink without sugar",
             "sugarfree": true,
             "color": "#0595D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/ls8ljayofa3phe0h5yvl/red-bull-sugarfree",
@@ -54,7 +54,7 @@
         {
             "name": "The Purple Edition",
             "flavor": "Acai",
-            "flavor_description": "A vibrant and unique flavor experience featuring the taste of exotic Acai berries",
+            "flavor_description": "A unique taste featuring the special flavor of Acai berry",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/2/aueelk9hj9ayzoj3tl5l/red-bull-the-purple-edition",
@@ -64,14 +64,49 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EG.svg",
     "_raw_hash": "2533d1f18bd4d284fd110a246bfd252a80c812d47960857d779164af457de7cf",
-    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
     "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:ar-EG",
+            "name": "The White Edition",
+            "flavor": "Coconut",
+            "description": "Get ready to experience a unique taste. Red Bull White Edition with the wonderful taste of coconut and berry.",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-white-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ar-EG",
+            "name": "The Sea Blue Edition",
+            "flavor": "Juneberry",
+            "description": "Red Bull Sea Blue Edition offers the taste of cherry and wild berries.",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sea-blue-edition"
+        },
         {
             "edition_id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:ar-EG",
             "name": "The Summer Edition",
-            "flavor": "Cherry & Wild Berries",
+            "flavor": "Juneberry",
             "description": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild berries.",
             "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-summer-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ar-EG",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and travelers on long journeys.",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ar-EG",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Red Bull Sugarfree: Enjoy Red Bull Energy Drink without sugar.",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ar-EG",
+            "name": "The Purple Edition",
+            "flavor": "Acai Berry",
+            "description": "Try the unique taste of special Acai berry.",
+            "product_url": "https://www.redbull.com/eg-ar/energydrink/products/red-bull-purple-edition"
         }
     ],
     "_edition_fingerprints": {
@@ -86,37 +121,37 @@
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:ar-EG": {
             "name": "The White Edition",
             "flavor": "Coconut-Blueberry",
-            "flavor_description": "A refreshing blend featuring the distinctive taste of Coconut and berries",
+            "flavor_description": "Experience a unique taste with the wonderful flavor of Coconut and berry",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:ar-EG": {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
-            "flavor_description": "Experience the unique and delicious taste of Juneberry",
+            "flavor_description": "Offers the refreshing taste of Cherry and Wild Berries",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:ar-EG": {
             "name": "The Summer Edition",
             "flavor": "Cherry & Wild Berries",
-            "flavor_description": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild Berries",
+            "flavor_description": "Features the extraordinary taste of Cherry and Wild Berries",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ar-EG": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The classic Red Bull Energy Drink formula loved worldwide by high performers",
+            "flavor_description": "The classic Red Bull energy drink appreciated worldwide by athletes and professionals",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ar-EG": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "The classic Red Bull energy experience without any sugar",
+            "flavor_description": "Enjoy the classic Red Bull energy drink without sugar",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ar-EG": {
             "name": "The Purple Edition",
             "flavor": "Acai",
-            "flavor_description": "A vibrant and unique flavor experience featuring the taste of exotic Acai berries",
+            "flavor_description": "A unique taste featuring the special flavor of Acai berry",
             "sugarfree": false
         }
     }

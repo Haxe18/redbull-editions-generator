@@ -10,6 +10,7 @@ import argparse
 import hashlib
 import json
 import logging
+
 # region Imports
 # Standard library imports
 import os
@@ -30,6 +31,7 @@ from typing import Any, Dict, List, Optional, Tuple, cast
 
 import requests
 from babel import Locale, UnknownLocaleError
+
 # Third-party imports
 from dotenv import load_dotenv
 from google import genai
@@ -646,6 +648,12 @@ class RedBullDataProcessor:
             "zero edition",
             "the zero edition",
             "energy drink zero",
+            # South Africa branding: Red Bull Zero is sold as "Xero"
+            "xero",
+            "red bull xero",
+            "xero edition",
+            "the xero edition",
+            "energy drink xero",
         ]:
             return "Energy Drink Zero"
 
@@ -2254,7 +2262,8 @@ class RedBullDataProcessor:
 
         if self.verbose:
             self.thread_safe_print(
-                f"    🌍 Step 1: Translating {len(editions)} editions " f"for {country_name}..."
+                f"    🌍 Step 1: Translating {len(editions)} editions "
+                f"for {country_name}..."
             )
 
         editions_for_ai = []
@@ -3550,6 +3559,7 @@ class RedBullDataProcessor:
             "sugarfree",
             "sugar-free",
             "zero",
+            "xero",  # South Africa: Red Bull Zero branded as "Xero"
             "zuckerfrei",
             "sem açúcar",
             "sin azúcar",

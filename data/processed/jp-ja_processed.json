@@ -4,7 +4,7 @@
         {
             "name": "The Cherry Edition",
             "flavor": "Cherry",
-            "flavor_description": "Red Bull Cherry Edition features a distinct Cherry taste",
+            "flavor_description": "Red Bull Cherry Edition features a refreshing Cherry taste",
             "sugarfree": false,
             "color": "#0a3073",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/16/somtpg4luatyq7kwizvt/spring-edition-2026-cherry",
@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The classic Red Bull Energy Drink formula enjoyed by people worldwide",
+            "flavor_description": "The classic Red Bull Energy Drink enjoyed by athletes and professionals worldwide",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/ddxrv40jpnynaufsy4fq/red-bull-energy-drink",
@@ -24,7 +24,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Red Bull Energy Drink Sugarfree provides the same energy with no sugar",
+            "flavor_description": "Red Bull Sugarfree provides the same energy boost without any sugar",
             "sugarfree": true,
             "color": "#0596D3",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/wihqwfys6ai1hr1elc3e/red-bull-sugarfree",
@@ -34,7 +34,7 @@
         {
             "name": "The Sudachi Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "A refreshing energy drink featuring the unique and tangy taste of Japanese Sudachi citrus",
+            "flavor_description": "A unique Edition featuring the refreshing taste of Japanese Sudachi citrus",
             "sugarfree": false,
             "color": "#08285E",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/2/psrehv0whx6te692cdfk/red-bull-sudachi-edition-image",
@@ -44,7 +44,7 @@
         {
             "name": "The Purple Edition",
             "flavor": "Grape",
-            "flavor_description": "A vibrant energy drink with the bold and sweet flavor of purple grapes",
+            "flavor_description": "The Purple Edition offers a delicious and bold grape flavor",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/z1dasrzz9slfoo7gmz0e/red-bull-grape-edition-image",
@@ -54,7 +54,7 @@
         {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "A refreshing energy drink featuring the delicate and sweet taste of Muscat grapes",
+            "flavor_description": "The Green Edition features the sweet and crisp taste of Muscat grapes",
             "sugarfree": false,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/17/ku4mvyqrtzs3oydiwudu/red-bull-muscat-edition---image",
@@ -64,13 +64,34 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
     "_raw_hash": "b34976818d90bb652a5448601228cd891ae5f7e5c825a26709a69ccfe525424e",
-    "_corrections_hash": "7812b05d86c2a799af33483e5796bb2c5bffd5e4c550a274b8368ec90febca81",
+    "_corrections_hash": "8f66bf43ff4ad3943b7228efa0694b1a8f1c63c5de97f30874a6bd9b9c06a4b0",
     "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP",
+            "name": "The Cherry Edition",
+            "flavor": "Cherry",
+            "description": "Red Bull Cherry Edition is now available with a cherry taste!",
+            "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and long-distance travelers.",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is a Red Bull Energy Drink without sugar.",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
         {
             "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP",
             "name": "The Sudachi Edition",
-            "flavor": "Citrus Sudachi",
-            "description": "Red Bull, gives you wings.",
+            "flavor": "Sudachi",
+            "description": "Red Bull, gives you Wings.",
             "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-sudachi-edition"
         },
         {
@@ -100,37 +121,37 @@
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": {
             "name": "The Cherry Edition",
             "flavor": "Cherry",
-            "flavor_description": "Red Bull Cherry Edition features a distinct Cherry taste",
+            "flavor_description": "Red Bull Cherry Edition features a refreshing Cherry taste",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The classic Red Bull Energy Drink formula enjoyed by people worldwide",
+            "flavor_description": "The classic Red Bull Energy Drink enjoyed by athletes and professionals worldwide",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Red Bull Energy Drink Sugarfree provides the same energy with no sugar",
+            "flavor_description": "Red Bull Sugarfree provides the same energy boost without any sugar",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP": {
             "name": "The Sudachi Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "A refreshing energy drink featuring the unique and tangy taste of Japanese Sudachi citrus",
+            "flavor_description": "A unique Edition featuring the refreshing taste of Japanese Sudachi citrus",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ja-JP": {
             "name": "The Purple Edition",
             "flavor": "Grape",
-            "flavor_description": "A vibrant energy drink with the bold and sweet flavor of purple grapes",
+            "flavor_description": "The Purple Edition offers a delicious and bold grape flavor",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f78cf50c-38e3-423a-ba25-045cbfb7eb50:ja-JP": {
             "name": "The Green Edition",
             "flavor": "Muscat",
-            "flavor_description": "A refreshing energy drink featuring the delicate and sweet taste of Muscat grapes",
+            "flavor_description": "The Green Edition features the sweet and crisp taste of Muscat grapes",
             "sugarfree": false
         }
     }
