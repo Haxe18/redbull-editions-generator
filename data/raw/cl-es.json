@@ -317,6 +317,79 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-CL",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/l1ox3mtg63tskdyvgtzx/red-bull-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DA5B62",
+                                    "percentage": 7.5
+                                },
+                                {
+                                    "hexColorCode": "#DFAF54",
+                                    "percentage": 4.7
+                                },
+                                {
+                                    "hexColorCode": "#D6A01C",
+                                    "percentage": 4.7
+                                },
+                                {
+                                    "hexColorCode": "#D8E3EA",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#C71F3A",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#DA8355",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D3",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#CD6428",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#E7D7D5",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Manzana y Jengibre",
+                    "standfirst": "Red Bull Winter Edition con sabor a Manzana y el toque cálido y especiado del Jengibre.",
+                    "brandingHexColorCode": "#ae132d",
+                    "image": {
+                        "altText": "Red Bull Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/l1ox3mtg63tskdyvgtzx/red-bull-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:es-CL",
             "header_data": {
                 "content": {
@@ -512,6 +585,83 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:es-CL",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/g0exeicyabgebgfncrh9/winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DA5C63",
+                                    "percentage": 7.3
+                                },
+                                {
+                                    "hexColorCode": "#E0B254",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#D7A31C",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#D7E3EA",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#C7203B",
+                                    "percentage": 4
+                                },
+                                {
+                                    "hexColorCode": "#DA8155",
+                                    "percentage": 3.2
+                                },
+                                {
+                                    "hexColorCode": "#C4CBD5",
+                                    "percentage": 2
+                                },
+                                {
+                                    "hexColorCode": "#50B1DA",
+                                    "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#CD6328",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#EADAD8",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-winter-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Manzana y Jengibre",
+                    "standfirst": "Red Bull Winter Edition Sugarfree con sabor a Manzana y el toque cálido y especiado del Jengibre.",
+                    "brandingHexColorCode": "#ae132d",
+                    "image": {
+                        "altText": "Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/17/g0exeicyabgebgfncrh9/winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/cl-es/energydrink/products/red-bull-winter-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:es-CL",
             "header_data": {
                 "content": {
@@ -585,5 +735,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-02T06:22:38.768529+00:00"
+    "collection_timestamp": "2026-06-25T08:35:28.271840+00:00"
 }
