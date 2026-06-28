@@ -34,7 +34,7 @@
         {
             "name": "The Spring Edition",
             "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition with the taste of Cherry and notes of almond and floral Cherry Blossom",
+            "flavor_description": "Red Bull Spring Edition with the taste of Cherry as well as notes of almond and floral Cherry Blossom",
             "sugarfree": false,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/17/rnqcem7qnayclffwx5nd/spring-edition-2026",
@@ -54,7 +54,7 @@
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "0% sugar. 100% Wings",
+            "flavor_description": "Zero sugar. 100% Wings",
             "sugarfree": true,
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/6/u2pusdgdsbtu72cz4e9y/red-bull-zero-energy-drink",
@@ -124,7 +124,7 @@
         {
             "name": "The Spring Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of Cherry and notes of almond and floral Cherry Blossom",
+            "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of Cherry as well as notes of almond and floral Cherry Blossom",
             "sugarfree": true,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/17/ryul7tbcx5v1bjog7lpz/the-red-bull-spring-edition-sugarfree",
@@ -154,7 +154,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CH.svg",
     "_raw_hash": "d5c7873bae103b852922915e98018a53d66ead3c9458a1d1776a15f413839373",
-    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH": "9347add15fe58c4367ec466d7e9d1fa0d31d515a95588ebf6d0e0be2480d5c31",
@@ -195,7 +195,7 @@
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:de-CH": {
             "name": "The Spring Edition",
             "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition with the taste of Cherry and notes of almond and floral Cherry Blossom",
+            "flavor_description": "Red Bull Spring Edition with the taste of Cherry as well as notes of almond and floral Cherry Blossom",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-CH": {
@@ -207,7 +207,7 @@
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-CH": {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "0% sugar. 100% Wings",
+            "flavor_description": "Zero sugar. 100% Wings",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-CH": {
@@ -249,7 +249,7 @@
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:de-CH": {
             "name": "The Spring Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of Cherry and notes of almond and floral Cherry Blossom",
+            "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of Cherry as well as notes of almond and floral Cherry Blossom",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:de-CH": {

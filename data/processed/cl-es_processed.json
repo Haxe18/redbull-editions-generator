@@ -114,23 +114,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CL.svg",
     "_raw_hash": "53473c7a098b168c799807fa484866c5035dcd08d32a43fe7655a3a730b3a02e",
-    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-CL",
-            "name": "The Winter Edition",
-            "flavor": "Apple-Ginger",
-            "description": "Red Bull Winter Edition with the taste of Apple and the warm and spicy touch of Ginger.",
-            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-winter-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:es-CL",
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Apple-Ginger",
-            "description": "Red Bull Winter Edition Sugarfree with the taste of Apple and the warm and spicy touch of Ginger.",
-            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-winter-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CL": "1e5af275968c651e63dc21357f0f42b4a04f904bab5ad00ce41937457abae2c0",
         "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-CL": "92d017acee48fb42238b0871b9124303a31e4b4f6692ef86dd9491a64c015b58",

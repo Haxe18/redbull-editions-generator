@@ -24,7 +24,7 @@
         {
             "name": "The Cherry Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "A sugarfree drink with the taste of Cherry, almond notes, and floral Cherry Blossom",
+            "flavor_description": "A Cherry flavor with notes of almond and floral Cherry Blossom",
             "sugarfree": true,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/rerqahsfsvqr1pm5xqiz/the-cherry-edition-sugarfree",
@@ -34,7 +34,7 @@
         {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
-            "flavor_description": "An extraordinary taste of Blueberry and Vanilla with an icy fresh eucalyptus note",
+            "flavor_description": "A blend of Blueberry, Vanilla, and an icy-fresh eucalyptus note",
             "sugarfree": false,
             "color": "#53b2c2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/2/12/lowxjrejpbxofoysste1/red-bull-iced-edition",
@@ -54,7 +54,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The classic Red Bull Energy Drink appreciated worldwide by athletes, professionals, and travelers",
+            "flavor_description": "The classic Red Bull Energy Drink appreciated worldwide",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/qkfjelti2tmh7xvspnmg/red-bull-energy-drink",
@@ -74,7 +74,7 @@
         {
             "name": "The Green Edition",
             "flavor": "Cactus Fruit",
-            "flavor_description": "An exotic taste of Cactus Fruit",
+            "flavor_description": "Features the exotic taste of Cactus Fruit",
             "sugarfree": false,
             "color": "#2ca44a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/4/13/ws4eewgpzni1z62isgut/red-bull-green-edition",
@@ -114,7 +114,7 @@
         {
             "name": "The Summer Edition Sugarfree",
             "flavor": "Sudachi Lime",
-            "flavor_description": "A sugarfree summer Edition with the taste of sudachi, lime, Pomelo, and citrus peel",
+            "flavor_description": "A sugarfree version with the taste of sudachi, lime, Pomelo, and citrus peel",
             "sugarfree": true,
             "color": "#F0E53B",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/ydgvvgflzwviehrk7dax/red-bull-summer-edition-sugarfree",
@@ -124,7 +124,7 @@
         {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Woodruff & Pink Grapefruit",
-            "flavor_description": "A sugarfree Edition with the taste of Woodruff and Pink Grapefruit",
+            "flavor_description": "Features the taste of Woodruff and Pink Grapefruit",
             "sugarfree": true,
             "color": "#6952AD",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/7/22/hmcbrtn1xnrsqbqqf6qe/lilac-edition-sugarfree-wildflower-and-pink-grapefruit",
@@ -134,7 +134,7 @@
         {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "A perfect mix of Apricot and Strawberry with a hint of Peach taste",
+            "flavor_description": "A mix of Apricot and Strawberry with a hint of Peach",
             "sugarfree": false,
             "color": "#f3911b",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/nu9ic2zsusksvzq23shx/red-bull-apricot-edition-image",
@@ -144,7 +144,7 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AT.svg",
     "_raw_hash": "8d06288e6b5af11035a66f5b9f308fc997e4e87df32b960eebb5f5e689dc2bac",
-    "_corrections_hash": "34de1c3b67d34046318e593e4ad3ce125245e4a32703c1cbfde04dff30c52ac5",
+    "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-AT": "eb8a3220df818f29d0105674ecb87266ecae6b15a9ef2a68a12485587d56e1ec",
@@ -178,13 +178,13 @@
         "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:de-AT": {
             "name": "The Cherry Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "A sugarfree drink with the taste of Cherry, almond notes, and floral Cherry Blossom",
+            "flavor_description": "A Cherry flavor with notes of almond and floral Cherry Blossom",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-AT": {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
-            "flavor_description": "An extraordinary taste of Blueberry and Vanilla with an icy fresh eucalyptus note",
+            "flavor_description": "A blend of Blueberry, Vanilla, and an icy-fresh eucalyptus note",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-AT": {
@@ -196,7 +196,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-AT": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "The classic Red Bull Energy Drink appreciated worldwide by athletes, professionals, and travelers",
+            "flavor_description": "The classic Red Bull Energy Drink appreciated worldwide",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:de-AT": {
@@ -208,7 +208,7 @@
         "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:de-AT": {
             "name": "The Green Edition",
             "flavor": "Cactus Fruit",
-            "flavor_description": "An exotic taste of Cactus Fruit",
+            "flavor_description": "Features the exotic taste of Cactus Fruit",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:de-AT": {
@@ -232,19 +232,19 @@
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:de-AT": {
             "name": "The Summer Edition Sugarfree",
             "flavor": "Sudachi Lime",
-            "flavor_description": "A sugarfree summer Edition with the taste of sudachi, lime, Pomelo, and citrus peel",
+            "flavor_description": "A sugarfree version with the taste of sudachi, lime, Pomelo, and citrus peel",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT": {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Woodruff & Pink Grapefruit",
-            "flavor_description": "A sugarfree Edition with the taste of Woodruff and Pink Grapefruit",
+            "flavor_description": "Features the taste of Woodruff and Pink Grapefruit",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:de-AT": {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
-            "flavor_description": "A perfect mix of Apricot and Strawberry with a hint of Peach taste",
+            "flavor_description": "A mix of Apricot and Strawberry with a hint of Peach",
             "sugarfree": false
         }
     }
