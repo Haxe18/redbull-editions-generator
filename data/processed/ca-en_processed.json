@@ -23,7 +23,7 @@
         },
         {
             "name": "The Ice Edition",
-            "flavor": "Iced Gummy Bear",
+            "flavor": "Iced Vanilla Berry",
             "flavor_description": "The Red Bull Ice Edition offers the taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
             "sugarfree": false,
             "color": "#53b2c2",
@@ -177,7 +177,7 @@
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-CA": {
             "name": "The Ice Edition",
-            "flavor": "Iced Gummy Bear",
+            "flavor": "Iced Vanilla Berry",
             "flavor_description": "The Red Bull Ice Edition offers the taste of Blueberry, Vanilla, and icy fresh notes of eucalyptus",
             "sugarfree": false
         },

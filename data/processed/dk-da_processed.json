@@ -23,7 +23,7 @@
         },
         {
             "name": "The Ice Edition",
-            "flavor": "Iced Gummy Bear",
+            "flavor": "Iced Vanilla Berry",
             "flavor_description": "Red Bull Ice Edition combines the sweet taste of Vanilla with a fresh hint of frosted berries",
             "sugarfree": false,
             "color": "#53b2c2",
@@ -34,7 +34,7 @@
         {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "Zero sugar. 100% Wings",
+            "flavor_description": "Zero sugar energy drink. 100% Wings",
             "sugarfree": true,
             "color": "#93BFE4",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/12/19/er2izmcfvfevdlhkusd0/red-bull-zero-energy-drink",
@@ -54,7 +54,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "flavor_description": "The classic Red Bull Energy Drink appreciated worldwide by top athletes and busy professionals",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/bh1doqxjfnqbtb3h9b4s/red-bull-energy-drink",
@@ -74,7 +74,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "flavor_description": "Red Bull Sugarfree is the classic Red Bull Energy Drink without sugar",
             "sugarfree": true,
             "color": "#0495D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/sgnwxpxjfccqeqpodelr/red-bull-sugarfree",
@@ -84,7 +84,7 @@
         {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
+            "flavor_description": "Red Bull Peach Edition offers the taste of White Peach with a hint of citrus peel and floral notes",
             "sugarfree": false,
             "color": "#E24585",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/16/nf7tzve2pplwqkcqtvwo/red-bull-peach-edition-image",
@@ -144,14 +144,14 @@
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:da-DK": {
             "name": "The Ice Edition",
-            "flavor": "Iced Gummy Bear",
+            "flavor": "Iced Vanilla Berry",
             "flavor_description": "Red Bull Ice Edition combines the sweet taste of Vanilla with a fresh hint of frosted berries",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:da-DK": {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
-            "flavor_description": "Zero sugar. 100% Wings",
+            "flavor_description": "Zero sugar energy drink. 100% Wings",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:da-DK": {
@@ -163,7 +163,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:da-DK": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "flavor_description": "The classic Red Bull Energy Drink appreciated worldwide by top athletes and busy professionals",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:da-DK": {
@@ -175,13 +175,13 @@
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:da-DK": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
+            "flavor_description": "Red Bull Sugarfree is the classic Red Bull Energy Drink without sugar",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:da-DK": {
             "name": "The Peach Edition",
             "flavor": "White Peach",
-            "flavor_description": "Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
+            "flavor_description": "Red Bull Peach Edition offers the taste of White Peach with a hint of citrus peel and floral notes",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:da-DK": {
