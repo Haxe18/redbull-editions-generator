@@ -4100,5 +4100,19 @@
         "flavor_description": "Red Bull Winter Edition Sugarfree with the taste of Apple and the warm and spicy touch of Ginger",
         "sugarfree": true,
         "fingerprint": "22f4487a1bbd44ebde27ef9f514109aa9463514186523ad2a74e387257e6a771"
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:en-AU": {
+        "name": "The Cherry Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "A sugarfree energy drink featuring the taste of Cherry with notes of almond and floral Cherry Blossom",
+        "sugarfree": true,
+        "fingerprint": "53b938cc0dda6f632e34f4ac880fd3d6d95d8af2b7fe548efcd8d8598591dceb"
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-AU": {
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "A refreshing energy drink with the vibrant taste of sudachi and lime",
+        "sugarfree": false,
+        "fingerprint": "1a46e29fddd38830a077b0548548896d44a7805d0f3140ec739412f5de9c20cd"
     }
 }

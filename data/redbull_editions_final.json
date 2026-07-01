@@ -181,6 +181,16 @@
                 "product_url": "https://www.redbull.com/au-en/energydrink/red-bull-blue-edition"
             },
             {
+                "name": "The Cherry Edition Sugarfree",
+                "flavor": "Cherry Sakura",
+                "flavor_description": "A sugarfree energy drink featuring the taste of Cherry with notes of almond and floral Cherry Blossom",
+                "sugarfree": true,
+                "color": "#52abd6",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/1/z4d7qorhrcwzkswwzgnq/the-cherry-edition-sugarfree",
+                "alt_text": "The Cherry Edition Sugarfree",
+                "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-cherry-edition-sugarfree"
+            },
+            {
                 "name": "The Coconut Edition Sugarfree",
                 "flavor": "Coconut-Blueberry",
                 "flavor_description": "A sugarfree energy drink with the taste of exotic Coconut and fruity Blueberry",
@@ -219,6 +229,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/cdlccyn4zppwvmjsbr8a/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
                 "product_url": "https://www.redbull.com/au-en/energydrink/red-bull-red-edition"
+            },
+            {
+                "name": "The Summer Edition",
+                "flavor": "Sudachi Lime",
+                "flavor_description": "A refreshing energy drink with the vibrant taste of sudachi and lime",
+                "sugarfree": false,
+                "color": "#f2e853",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/1/qqvmgbzljwf6ylw5pfdt/red-bull-summer-edition",
+                "alt_text": "Red Bull Summer Edition",
+                "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-summer-edition"
             },
             {
                 "name": "The Tropical Edition",
@@ -3905,8 +3925,8 @@
                 "flavor": "Sugarfree",
                 "flavor_description": "The classic Red Bull energy drink formula without sugar",
                 "sugarfree": true,
-                "color": "#248FCC",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/23/popjsctijgfconzxy83u/red-bull-sugarfree",
+                "color": "#248FCB",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/30/mu3eo2vln6zjxcnvm5ad/red-bull-sugarfree",
                 "alt_text": "Red Bull Sugarfree",
                 "product_url": "https://www.redbull.com/sugarfree"
             },
