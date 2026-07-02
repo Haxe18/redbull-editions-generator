@@ -4114,5 +4114,12 @@
         "flavor_description": "A refreshing energy drink with the vibrant taste of sudachi and lime",
         "sugarfree": false,
         "fingerprint": "1a46e29fddd38830a077b0548548896d44a7805d0f3140ec739412f5de9c20cd"
+    },
+    "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:en-SG": {
+        "name": "The Ice Edition Sugarfree",
+        "flavor": "Iced Gummy Bear",
+        "flavor_description": "The Red Bull Ice Edition Sugarfree gives you wings with the taste of iced gummy bear",
+        "sugarfree": true,
+        "fingerprint": "0a7ffb8ce90c65d0f8cfd9f1914959a11071158e1e410e5930566973ca7f7ca5"
     }
 }
