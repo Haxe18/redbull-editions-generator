@@ -62,6 +62,19 @@ logging.getLogger("google_genai.models").setLevel(logging.WARNING)
 # endregion
 
 
+# region Exceptions
+class DailyLimitError(RuntimeError):
+    """Raised when the daily Gemini API request limit is reached.
+
+    Permanent for the current run — must never be retried. Subclasses
+    RuntimeError so existing handlers that defer countries on RuntimeError
+    keep working, while retry logic can single it out.
+    """
+
+
+# endregion
+
+
 # region Pydantic Models
 class Edition(BaseModel):
     """Represents a normalized Red Bull edition.
@@ -708,6 +721,7 @@ class RedBullDataProcessor:
 
         Raises:
             SystemExit: If quota is exceeded.
+            DailyLimitError: If the daily API request limit is reached (not retried).
             RuntimeError: If the task fails after all retries.
         """
         for attempt in range(max_retries + 1):
@@ -802,6 +816,11 @@ class RedBullDataProcessor:
                     f"    ❌ {step_name} failed for {country_name} after {attempt + 1} attempts: {err.message[:150]}"
                 )
                 raise RuntimeError(f"{step_name} failed: {err.message}") from err
+
+            except DailyLimitError:
+                # Permanent for this run — never retry, never wrap. process_all
+                # defers the country based on this exception.
+                raise
 
             except Exception as err:
                 if attempt < max_retries:
@@ -1139,17 +1158,14 @@ class RedBullDataProcessor:
         """
 
         try:
-            # max_retries=0 mirrors the single-attempt behavior of the other
-            # Gemini steps and avoids retry-looping on the daily-limit
-            # RuntimeError (which would inflate the api_calls_made counter).
             suggestion = self._execute_gemini_task(
-                region_name, "Region Emoji", prompt, RegionEmojiSuggestion, max_retries=0
+                region_name, "Region Emoji", prompt, RegionEmojiSuggestion
             )
+        except DailyLimitError:
+            # Propagate so process_all defers this country instead of
+            # silently stamping it with the fallback emoji.
+            raise
         except RuntimeError as err:
-            if "Daily API limit" in str(err):
-                # Propagate so process_all defers this country instead of
-                # silently stamping it with the fallback emoji.
-                raise
             # Non-fatal — SystemExit (quota) propagates, everything else falls
             # back to the 📍 emoji in the caller.
             self.thread_safe_print(f"    ⚠️ Gemini emoji request failed: {str(err)[:100]}")
@@ -2261,17 +2277,16 @@ class RedBullDataProcessor:
         RPM delay is skipped when processing single country, but daily limit is always enforced.
 
         Raises:
-            RuntimeError: When the daily API request limit is exceeded.
+            DailyLimitError: When the daily API request limit is exceeded.
         """
         # All counter mutation and rate-limit timing happens under a single lock so
         # parallel workers cannot corrupt the daily counter (non-atomic +=) or race
         # the RPM delay window.
         with self.api_call_lock:
-            self.changelog["api_calls_made"] += 1
-
-            # Daily limit check – always enforced, even for single country (-1 = unlimited)
+            # Daily limit check – always enforced, even for single country (-1 = unlimited).
+            # Checked BEFORE incrementing so rejected attempts don't inflate the counter.
             if self.MAX_REQUESTS_PER_DAY != -1:
-                if self.changelog["api_calls_made"] > self.MAX_REQUESTS_PER_DAY:
+                if self.changelog["api_calls_made"] >= self.MAX_REQUESTS_PER_DAY:
                     if not self._daily_limit_reached:
                         self._daily_limit_reached = True
                         self.logger.warning(
@@ -2280,10 +2295,14 @@ class RedBullDataProcessor:
                             self.MAX_REQUESTS_PER_DAY,
                             self.MAX_REQUESTS_PER_DAY,
                         )
-                    raise RuntimeError(
+                    raise DailyLimitError(
                         f"Daily API limit of {self.MAX_REQUESTS_PER_DAY} requests reached"
                     )
 
+            # Count only calls that actually proceed to the API
+            self.changelog["api_calls_made"] += 1
+
+            if self.MAX_REQUESTS_PER_DAY != -1:
                 # Warn at 80% of daily limit
                 warning_threshold = int(self.MAX_REQUESTS_PER_DAY * 0.8)
                 if self.changelog["api_calls_made"] == warning_threshold:
@@ -2314,7 +2333,6 @@ class RedBullDataProcessor:
         editions: List[Dict],
         country_name: str,
         source_language: str = "Unknown",
-        retry_count: int = 0,
     ) -> List[TranslatedEdition]:
         """Step 1: Translate edition data to English using Gemini.
 
@@ -2325,7 +2343,6 @@ class RedBullDataProcessor:
             editions: List of editions to translate.
             country_name: Country name for context.
             source_language: Source language name for translation context.
-            retry_count: Current retry attempt (for internal use).
 
         Returns:
             List of TranslatedEdition objects.
@@ -2472,7 +2489,7 @@ class RedBullDataProcessor:
         """
 
         translated_editions = self._execute_gemini_task(
-            country_name, "Translation", prompt, list[TranslatedEdition], retry_count
+            country_name, "Translation", prompt, list[TranslatedEdition]
         )
 
         if self.debug:
@@ -2493,7 +2510,6 @@ class RedBullDataProcessor:
         self,
         translated_editions: List[TranslatedEdition],
         country_name: str,
-        retry_count: int = 0,
     ) -> List[Edition]:
         """Step 2: Normalize translated data using Gemini.
 
@@ -2503,7 +2519,6 @@ class RedBullDataProcessor:
         Args:
             translated_editions: List of translated editions.
             country_name: Country name for context.
-            retry_count: Current retry attempt (for internal use).
 
         Returns:
             List of normalized Edition objects.
@@ -2599,7 +2614,7 @@ class RedBullDataProcessor:
         """
 
         normalized_editions = self._execute_gemini_task(
-            country_name, "Normalization", prompt, list[Edition], retry_count
+            country_name, "Normalization", prompt, list[Edition]
         )
 
         # Validate that we received normalization for all input editions
@@ -2642,7 +2657,7 @@ class RedBullDataProcessor:
         return normalized_editions
 
     def _gemini_step_3_validate(
-        self, editions: List[Dict], country_name: str, retry_count: int = 0
+        self, editions: List[Dict], country_name: str
     ) -> List[ValidationResult]:
         """Step 3: Validate the processed editions against approved list and rules.
 
@@ -2652,7 +2667,6 @@ class RedBullDataProcessor:
         Args:
             editions: List of processed editions to validate.
             country_name: Country name for context.
-            retry_count: Current retry attempt (for internal use).
 
         Returns:
             List of ValidationResult objects.
@@ -2755,7 +2769,7 @@ class RedBullDataProcessor:
         """
 
         return self._execute_gemini_task(
-            country_name, "Validation", prompt, list[ValidationResult], retry_count
+            country_name, "Validation", prompt, list[ValidationResult]
         )
 
     def normalize_with_gemini(
@@ -2868,8 +2882,8 @@ class RedBullDataProcessor:
                     f"Input: {len(editions)}, Normalized: {len(normalized_map)}"
                 )
 
-        # Combine results using ID-based mapping with fallbacks
-        for idx, edition in enumerate(editions):
+        # Combine results using ID-based mapping with name fallback
+        for edition in editions:
             # Use GraphQL ID for matching
             edition_id = edition.get("_graphql_id", "")
             edition_name = edition.get("name", "")
@@ -2893,15 +2907,10 @@ class RedBullDataProcessor:
                             )
                         break
 
-            # Fallback 2: Try index-based matching if counts match
-            if not norm_data and normalized_data and len(normalized_data) == len(editions):
-                if idx < len(normalized_data):
-                    norm_data = normalized_data[idx]
-                    if self.verbose:
-                        self.thread_safe_print(
-                            f"      🔢 Using INDEX-based matching for '{edition_name}' "
-                            f"at position {idx} (ID and name matching failed)"
-                        )
+            # No positional (index-based) fallback: if the AI mangled both IDs
+            # and names, matching by position would silently attach flavors and
+            # descriptions to the wrong editions. Failing loudly below is safer —
+            # the country-level retry in process_all re-runs the whole country.
 
             if norm_data:
                 # Only update flavor if it wasn't manually corrected
@@ -3045,6 +3054,10 @@ class RedBullDataProcessor:
                                     f"{edition.get('name', 'unknown')}"
                                 )
 
+        except DailyLimitError:
+            # Propagate so process_all defers the country instead of finishing
+            # it without validation.
+            raise
         except Exception as err:  # pylint: disable=broad-exception-caught
             # Always surface this — a silently skipped validation step would hide
             # unapproved flavors, especially in non-verbose CI runs.
@@ -3180,44 +3193,46 @@ class RedBullDataProcessor:
         field_change_entries: List[Tuple[str, Dict[str, Any]]] = []
 
         if old_data is not None:
-            old_editions = {
-                edition.get("name", ""): edition for edition in old_data.get("editions", [])
-            }
-            new_editions = {
-                edition.get("name", ""): edition for edition in new_data.get("editions", [])
-            }
+            # Group by name instead of a plain name→edition dict: duplicate or
+            # empty names would silently overwrite each other and their
+            # additions/removals/updates would never be tracked. Within a name
+            # group, editions are paired by product_url order.
+            old_by_name: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+            for edition in old_data.get("editions", []):
+                old_by_name[edition.get("name", "")].append(edition)
+            new_by_name: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+            for edition in new_data.get("editions", []):
+                new_by_name[edition.get("name", "")].append(edition)
 
-            # Find added editions
-            for key, edition in new_editions.items():
-                if key not in old_editions:
+            for name in sorted(set(old_by_name) | set(new_by_name)):
+                old_group = sorted(
+                    old_by_name.get(name, []), key=lambda e: e.get("product_url", "")
+                )
+                new_group = sorted(
+                    new_by_name.get(name, []), key=lambda e: e.get("product_url", "")
+                )
+
+                # Editions beyond the paired range are plain additions/removals.
+                # (URL verification for removals is handled by the collector.)
+                for edition in new_group[len(old_group) :]:
                     added.append(
                         {
                             "name": edition.get("name", ""),
                             "flavor": edition.get("flavor", ""),
                         }
                     )
+                for edition in old_group[len(new_group) :]:
+                    removed.append(
+                        {
+                            "name": edition.get("name", ""),
+                            "flavor": edition.get("flavor", ""),
+                        }
+                    )
 
-            # Find removed editions (URL verification now handled by collector)
-            removed_candidates = [
-                (key, edition)
-                for key, edition in old_editions.items()
-                if key not in new_editions
-            ]
-            for _key, edition in removed_candidates:
-                removed.append(
-                    {
-                        "name": edition.get("name", ""),
-                        "flavor": edition.get("flavor", ""),
-                    }
-                )
-
-            # Find updated editions
-            for key, new_edition in new_editions.items():
-                if key in old_editions:
-                    old_edition = old_editions[key]
+                # Compare paired editions field by field
+                for old_edition, new_edition in zip(old_group, new_group):
                     changes = []
 
-                    # Check each field for changes
                     fields_to_check = [
                         "flavor",
                         "flavor_description",
@@ -3306,11 +3321,12 @@ class RedBullDataProcessor:
 
         locale = correction_id.split(":", 1)[1]  # Get the locale part (e.g., 'de-AT')
 
-        # Map locale to file pattern (e.g., 'de-AT' -> 'at-de')
+        # Correction locales are lang-COUNTRY ('de-AT'), raw files are
+        # country-lang ('at-de') — swap the parts to build the file pattern.
         if "-" in locale:
             parts = locale.split("-")
             if len(parts) == 2:
-                country_code, lang_code = parts
+                lang_code, country_code = parts
                 file_pattern = f"{country_code.lower()}-{lang_code.lower()}"
 
                 # Check if this corresponds to any processed country
@@ -4783,9 +4799,7 @@ class RedBullDataProcessor:
                         RuntimeError,
                     ) as err:
                         # Graceful skip when daily API limit is reached
-                        is_daily_limit_error = (
-                            self._daily_limit_reached and "Daily API limit" in str(err)
-                        )
+                        is_daily_limit_error = isinstance(err, DailyLimitError)
                         is_new_skip = country_name not in self._skipped_due_to_limit
                         if is_daily_limit_error and is_new_skip:
                             self._skipped_due_to_limit.append(country_name)

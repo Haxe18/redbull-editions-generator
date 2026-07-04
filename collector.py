@@ -1373,12 +1373,20 @@ class RedBullDataCollector:
             if has_changed:
                 changes_detected.append(country_name)
 
-        if country_filter and existing_countries:
+        # Any partial run (--country or a limit) must merge with the previous
+        # summary — otherwise the countries not processed this run would be
+        # wiped from collection_summary.json.
+        is_partial_run = len(countries_to_process) < len(countries_grouped)
+        if is_partial_run and existing_countries:
             merged_countries = dict(existing_countries)
             merged_countries.update(all_raw_data["countries"])
+            # A country processed this run that yielded no editions must not
+            # survive via its stale entry from the previous summary.
+            for country_name in countries_without_editions:
+                merged_countries.pop(country_name, None)
             all_raw_data["countries"] = merged_countries
             self.logger.info(
-                "🔀 Single-country mode: merged with existing %d countries",
+                "🔀 Partial run: merged with existing %d countries from previous summary",
                 len(existing_countries),
             )
 

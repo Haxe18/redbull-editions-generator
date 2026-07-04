@@ -21,3 +21,7 @@ packages = []
 [tool.black]
 line-length = 95
 target-version = ["py313"]
+
+[tool.isort]
+profile = "black"
+line_length = 95
