@@ -6,7 +6,7 @@ on:
       - 'main'
     paths:
       - '**.py'
-      - 'requirements.txt'
+      - 'pyproject.toml'
       - 'data/corrections.json'
 
   schedule:
@@ -46,7 +46,7 @@ jobs:
       uses: actions/cache@v5
       with:
         path: ~/.cache/pip
-        key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+        key: ${{ runner.os }}-pip-${{ hashFiles('pyproject.toml') }}
         restore-keys: |
           ${{ runner.os }}-pip-
 

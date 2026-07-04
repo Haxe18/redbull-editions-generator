@@ -26,6 +26,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # Local imports
+from lib.locale_priority import get_language_priority
 from lib.logging_utils import setup_basic_logging, setup_logger
 
 
@@ -94,6 +95,21 @@ class EditionProcessingContext(NamedTuple):
     lang_priority: int
 
 
+def _edition_sort_key(edition: Dict[str, Any]) -> Tuple[str, str]:
+    """Stable sort key (id, title) so hashing/diffing is deterministic across runs.
+
+    Args:
+        edition: Raw edition dict with 'id' and nested header data.
+
+    Returns:
+        Tuple of (edition id, header title).
+    """
+    return (
+        edition.get("id", ""),
+        edition.get("header_data", {}).get("content", {}).get("title", ""),
+    )
+
+
 class RedBullDataCollector:
     """Main data collector for Red Bull editions from multiple locales.
 
@@ -153,10 +169,13 @@ class RedBullDataCollector:
         """
         session = requests.Session()
 
-        # Configure retry strategy
+        # Configure retry strategy for connection-level failures only. HTTP status
+        # retries (502/503/504) are deliberately NOT handled here: a status_forcelist
+        # would make urllib3 swallow those responses and raise RetryError before
+        # raise_for_status() ever sees them, bypassing the logged exponential-backoff
+        # retry in _retry_request.
         retry_strategy = Retry(
             total=config.MAX_RETRIES_ADAPTER,
-            status_forcelist=list(config.RETRY_STATUS_CODES),
             allowed_methods=["GET"],
             backoff_factor=config.BASE_DELAY,
         )
@@ -193,11 +212,15 @@ class RedBullDataCollector:
         if not product_url:
             return False
         try:
-            response = self.session.head(product_url, timeout=10, allow_redirects=False)
+            response = self.session.head(
+                product_url, timeout=config.TIMEOUT, allow_redirects=False
+            )
             if response.status_code == 200:
                 return True
             if response.status_code == 405:
-                response = self.session.get(product_url, timeout=10, allow_redirects=False)
+                response = self.session.get(
+                    product_url, timeout=config.TIMEOUT, allow_redirects=False
+                )
                 if response.status_code == 200:
                     return True
             if 300 <= response.status_code < 400:
@@ -345,12 +368,18 @@ class RedBullDataCollector:
 
     @staticmethod
     def clean_proxy_url(url: str) -> str:
-        """Remove proxy prefixes by finding the second http(s) occurrence.
+        """Remove proxy prefixes by finding an embedded http(s) path segment.
 
-        Works generically for any proxy service that prepends to the original URL.
+        Works generically for any proxy service that prepends its own URL to the
+        original one as a path segment. A second scheme is only treated as the
+        proxied target when it directly follows a '/', so URLs that merely carry
+        another URL in a query parameter (e.g. ``?redirect=https://...``) are
+        left untouched.
+
         Examples:
         - https://web.archive.org/web/123/https://example.com -> https://example.com
         - https://proxy.com/cache/http://site.com -> http://site.com
+        - https://example.com/p?redirect=https://foo.com -> unchanged
 
         Args:
             url: URL that may contain proxy prefix.
@@ -361,12 +390,10 @@ class RedBullDataCollector:
         if not url:
             return url
 
-        # Find all occurrences of http:// or https://
-        matches = list(re.finditer(r"https?://", url))
-
-        if len(matches) >= 2:
-            # Return from the second http(s) onwards
-            return url[matches[1].start() :]
+        # Find an embedded scheme that starts a path segment (preceded by '/')
+        embedded_scheme = re.search(r"(?<=/)https?://", url)
+        if embedded_scheme:
+            return url[embedded_scheme.start() :]
 
         return url
 
@@ -443,16 +470,17 @@ class RedBullDataCollector:
 
         filtered = {}
 
-        # Keep content.title
-        if "content" in data and "title" in data["content"]:
+        # Keep content.title (truthiness guards: the API may return fields
+        # present but null, e.g. "content": null)
+        if data.get("content") and "title" in data["content"]:
             filtered["content"] = {"title": data["content"]["title"]}
 
         # Keep media.mainImage fields we need
-        if "media" in data and "mainImage" in data["media"]:
+        if data.get("media") and data["media"].get("mainImage"):
             main_image = data["media"]["mainImage"]
             filtered_image = {}
 
-            if "imageEssence" in main_image:
+            if main_image.get("imageEssence"):
                 filtered_image["imageEssence"] = {}
                 if "imageURL" in main_image["imageEssence"]:
                     # Clean proxy URL if present
@@ -471,7 +499,7 @@ class RedBullDataCollector:
                 filtered["media"] = {"mainImage": filtered_image}
 
         # Keep reference.externalUrl
-        if "reference" in data and "externalUrl" in data["reference"]:
+        if data.get("reference") and "externalUrl" in data["reference"]:
             # Clean proxy URL if present
             filtered["reference"] = {
                 "externalUrl": self.clean_proxy_url(data["reference"]["externalUrl"])
@@ -525,25 +553,7 @@ class RedBullDataCollector:
         Returns:
             Priority number (lower = higher priority).
         """
-        if not domain or "-" not in domain:
-            return 999
-
-        lang = domain.split("-")[-1].lower()
-        # Priority: English first, then German/Dutch, then others
-        priorities = {
-            "en": 1,  # English
-            "gb": 1,  # UK English
-            "us": 1,  # US English
-            "de": 2,  # German
-            "nl": 2,  # Dutch
-            "at": 3,  # Austrian German
-            "ch": 3,  # Swiss German
-            "fr": 4,  # French
-            "es": 5,  # Spanish
-            "pt": 6,  # Portuguese
-            "it": 7,  # Italian
-        }
-        return priorities.get(lang, 99)
+        return get_language_priority(domain)
 
     def get_base_edition_id(self, edition_id: str) -> str:
         """Extract UUID from edition ID.
@@ -787,13 +797,7 @@ class RedBullDataCollector:
         filtered_editions = self._filter_int_editions(final_editions, flag_code)
 
         # Keep ordering stable so hashing/diffing is deterministic across runs.
-        return sorted(
-            filtered_editions,
-            key=lambda edition: (
-                edition.get("id", ""),
-                edition.get("header_data", {}).get("content", {}).get("title", ""),
-            ),
-        )
+        return sorted(filtered_editions, key=_edition_sort_key)
 
     def _group_locales_by_country(self, locales: List[Dict]) -> Dict[str, List[Dict]]:
         """Group locales by country and sort by language priority.
@@ -943,23 +947,33 @@ class RedBullDataCollector:
             Tuple of (file name, has_changed boolean).
         """
         primary_domain = valid_domains[0] if valid_domains else "unknown"
-        stable_merged_editions = sorted(
-            merged_editions,
-            key=lambda edition: (
-                edition.get("id", ""),
-                edition.get("header_data", {}).get("content", {}).get("title", ""),
-            ),
-        )
+        # merge_editions already returns a stably sorted list; copy so retention
+        # below can append without mutating the caller's list.
+        stable_merged_editions = list(merged_editions)
 
         # Save to file
         raw_file = self.raw_dir / f"{primary_domain}.json"
 
+        # Read the previous raw file once — used by both the edition-retention
+        # protections and the change detection below.
+        existing_raw: Optional[Dict[str, Any]] = None
+        if raw_file.exists():
+            try:
+                with open(raw_file, "r", encoding="utf-8") as file_handle:
+                    existing_raw = json.load(file_handle)
+            except (OSError, json.JSONDecodeError) as err:
+                self.logger.warning(
+                    "Could not read previous raw file %s (%s) — "
+                    "treating as first collection for %s",
+                    raw_file.name,
+                    err,
+                    country_name,
+                )
+
         # Hard protection: Energy Drink must NEVER disappear from raw data.
         # If the API stops returning it (as happened with Azerbaijan in 2026-03),
         # retain the previous raw edition so the full pipeline sees it normally.
-        if raw_file.exists():
-            with open(raw_file, "r", encoding="utf-8") as fh:
-                existing_raw = json.load(fh)
+        if existing_raw is not None:
             old_energy_drink = next(
                 (
                     e
@@ -1009,12 +1023,8 @@ class RedBullDataCollector:
                         stable_merged_editions.append(edition)
                     time.sleep(0.5)
 
-            stable_merged_editions.sort(
-                key=lambda e: (
-                    e.get("id", ""),
-                    e.get("header_data", {}).get("content", {}).get("title", ""),
-                )
-            )
+            # Re-sort only here, where retention may have appended editions.
+            stable_merged_editions.sort(key=_edition_sort_key)
 
         country_raw_data = {
             "locale_info": {
@@ -1028,16 +1038,14 @@ class RedBullDataCollector:
 
         # Check for changes
         has_changed = True
-        if raw_file.exists():
-            with open(raw_file, "r", encoding="utf-8") as file_handle:
-                existing = json.load(file_handle)
-                existing_hash = hashlib.sha256(
-                    json.dumps(existing.get("editions", []), sort_keys=True).encode()
-                ).hexdigest()
-                new_hash = hashlib.sha256(
-                    json.dumps(stable_merged_editions, sort_keys=True).encode()
-                ).hexdigest()
-                has_changed = existing_hash != new_hash
+        if existing_raw is not None:
+            existing_hash = hashlib.sha256(
+                json.dumps(existing_raw.get("editions", []), sort_keys=True).encode()
+            ).hexdigest()
+            new_hash = hashlib.sha256(
+                json.dumps(stable_merged_editions, sort_keys=True).encode()
+            ).hexdigest()
+            has_changed = existing_hash != new_hash
 
         if has_changed:
             with open(raw_file, "w", encoding="utf-8") as file_handle:
@@ -1049,51 +1057,6 @@ class RedBullDataCollector:
             self.logger.info("No changes detected for %s", country_name)
 
         return raw_file.name, has_changed
-
-    def _print_collection_stats(
-        self,
-        countries_processed: int,
-        failed_countries: List[str],
-        changes_detected: List[str],
-        skipped_countries: List[str],
-    ) -> None:
-        """Print collection statistics.
-
-        Args:
-            countries_processed: Number of countries processed.
-            failed_countries: List of failed countries.
-            changes_detected: List of countries with changes.
-            skipped_countries: List of countries with no data.
-        """
-        self.logger.info("\n✨ Collection complete!")
-        self.logger.info("📊 Stats:")
-        self.logger.info("  • Countries processed: %d", countries_processed)
-        self.logger.info(
-            "  • Successful countries: %d",
-            countries_processed - len(failed_countries) - len(skipped_countries),
-        )
-        self.logger.info("  • Skipped countries (no data): %d", len(skipped_countries))
-        self.logger.info("  • Failed countries: %d", len(failed_countries))
-
-        if skipped_countries:
-            skipped_str = ", ".join(skipped_countries[:5])
-            if len(skipped_countries) > 5:
-                skipped_str += f" and {len(skipped_countries) - 5} more"
-            self.logger.info("  • Skipped: %s", skipped_str)
-
-        if failed_countries:
-            failed_str = ", ".join(failed_countries[:5])
-            if len(failed_countries) > 5:
-                failed_str += f" and {len(failed_countries) - 5} more"
-            self.logger.info("  • Failed: %s", failed_str)
-
-        self.logger.info("  • Changes detected in: %d countries", len(changes_detected))
-
-        if changes_detected:
-            changes_str = ", ".join(changes_detected[:5])
-            if len(changes_detected) > 5:
-                changes_str += f" and {len(changes_detected) - 5} more"
-            self.logger.info("  • Changed countries: %s", changes_str)
 
     @staticmethod
     def _initialize_collection_metadata(
@@ -1157,12 +1120,11 @@ class RedBullDataCollector:
         valid_domains = []
 
         for domain in domains:
-            # Use custom URL only for the specified country
-            custom_url_for_domain = (
-                custom_url
-                if custom_url and country_filter and country_name == country_filter
-                else None
-            )
+            # Use custom URL only in single-country mode. --custom-url requires
+            # --country, and the country filter already reduced processing to the
+            # single matched country, so no name comparison is needed here (an
+            # exact string compare would break case-insensitive/partial matches).
+            custom_url_for_domain = custom_url if custom_url and country_filter else None
 
             domain_editions, success = self._collect_domain_editions(
                 domain, country_name, custom_url_for_domain
@@ -1354,7 +1316,7 @@ class RedBullDataCollector:
                     "countries": {},
                 }
         # Apply limit if specified
-        elif limit:
+        elif limit is not None:
             countries_to_process = dict(list(countries_grouped.items())[:limit])
         else:
             countries_to_process = countries_grouped
@@ -1382,6 +1344,7 @@ class RedBullDataCollector:
         )
 
         changes_detected = []
+        countries_without_editions: List[str] = []
 
         for country_idx, (country_name, country_locales) in enumerate(
             countries_to_process.items(), 1
@@ -1396,7 +1359,16 @@ class RedBullDataCollector:
                 country_filter,
             )
 
-            # Only reached if successful
+            # Only reached if successful. Countries that yield no editions are
+            # excluded from the results instead of being stored as empty entries
+            # that would inflate the success count.
+            if not country_data:
+                self.logger.warning(
+                    "  ⚠️  %s yielded no editions — excluded from results", country_name
+                )
+                countries_without_editions.append(country_name)
+                continue
+
             all_raw_data["countries"][country_name] = country_data
             if has_changed:
                 changes_detected.append(country_name)
@@ -1414,6 +1386,7 @@ class RedBullDataCollector:
         all_raw_data["metadata"]["total_countries"] = len(all_raw_data["countries"])
         all_raw_data["metadata"]["changes_detected"] = changes_detected
         all_raw_data["metadata"]["successful_countries"] = len(all_raw_data["countries"])
+        all_raw_data["metadata"]["countries_without_editions"] = countries_without_editions
 
         # Update collection_date only if changes were detected
         if changes_detected:
@@ -1435,7 +1408,16 @@ class RedBullDataCollector:
         self.logger.info("\n✨ Collection complete!")
         self.logger.info("📊 Stats:")
         self.logger.info("  • Countries processed: %d", len(countries_to_process))
-        self.logger.info("  • Successful countries: %d", len(countries_to_process))
+        self.logger.info(
+            "  • Successful countries: %d",
+            len(countries_to_process) - len(countries_without_editions),
+        )
+        if countries_without_editions:
+            self.logger.info(
+                "  • Countries without editions: %d (%s)",
+                len(countries_without_editions),
+                ", ".join(countries_without_editions),
+            )
         self.logger.info("  • Changes detected in: %d countries", len(changes_detected))
 
         if changes_detected:
@@ -1511,7 +1493,8 @@ def main():
         parser.error("--custom-url requires --country option")
 
     # Determine limit
-    limit = args.limit if args.limit else None
+    # Keep 0 distinct from "no limit" — a falsy check would turn limit=0 into a full run
+    limit = args.limit
 
     # Create collector with rate limit, verbose and debug settings
     collector = RedBullDataCollector(

@@ -13,7 +13,8 @@ The project follows a pipeline architecture:
    - **Clean Architecture**: Dataclasses, NamedTuples, separation of concerns
    - **HTTP Optimization**: Connection pooling with retry strategy (exponential backoff)
    - **Multi-Language**: Merges editions from multiple language versions per country
-   - **Language Priority**: English > German/Dutch > Others
+   - **Language Priority**: English > German/Dutch > Others (shared logic in `lib/locale_priority.py`, used by both collector and processor)
+   - **Empty Countries**: Countries yielding no editions are excluded from the summary (listed in metadata as `countries_without_editions`, not counted as successful)
    - **Error Handling**: Custom exception hierarchy (CollectorError, APIError, DataProcessingError)
    - **Configuration**: Externalized frozen dataclass for all constants
 2. **processor.py** - Processes raw data with AI normalization

@@ -7,6 +7,7 @@ Processes raw data and normalizes it using Google Gemini AI.
 """
 
 import argparse
+import copy
 import hashlib
 import json
 import logging
@@ -42,6 +43,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 # Local imports
+from lib.locale_priority import get_language_priority
 from lib.logging_utils import setup_basic_logging, setup_logger
 
 # endregion
@@ -130,6 +132,18 @@ class ValidationResult(BaseModel):
     corrected_description: Optional[str] = Field(
         description="The corrected description if non-English text was found"
     )
+
+
+class RegionEmojiSuggestion(BaseModel):
+    """Represents a Gemini emoji suggestion for a region.
+
+    Pydantic model for the region emoji generation step.
+
+    Attributes:
+        emoji: The suggested emoji for the region.
+    """
+
+    emoji: str = Field(description="The single suggested emoji for the region")
 
 
 # endregion
@@ -290,10 +304,16 @@ class RedBullDataProcessor:
         self.print_lock = Lock()
         self.api_call_lock = Lock()
         self._global_cache_lock = Lock()
-        # Guards corrections_tracking (check-then-set) and changelog mutations that
-        # run from parallel worker threads (apply_corrections, _apply_id_mappings,
-        # cache-hit counter) against lost updates / duplicate entries.
+        # Guards corrections_tracking (check-then-set) and all changelog mutations
+        # that run from parallel worker threads (apply_corrections, _apply_id_mappings,
+        # cache-hit counter, change-tracking lists, countries_processed/_skipped)
+        # against lost updates / duplicate entries.
         self._changelog_lock = Lock()
+        # Serializes the read-modify-write cycle on region_emojis.json
+        # (get_unique_region_emoji) so parallel workers can neither lose
+        # dynamic mappings nor assign the same emoji twice. Separate from
+        # _global_cache_lock because the cycle may include a slow Gemini call.
+        self._region_emoji_lock = Lock()
         # Per-thread log buffer: when active, thread_safe_print accumulates lines
         # instead of writing immediately, so each country's logs flush as one block.
         self._log_buffer = threading.local()
@@ -303,6 +323,9 @@ class RedBullDataProcessor:
 
         # Cross-country UUID translation cache (loaded/saved around process_all)
         self._global_uuid_cache: Dict[str, Dict[str, Any]] = {}
+
+        # Lazily built country → raw-file-domain map (see _get_domain_country_map)
+        self._domain_country_map: Optional[Dict[str, str]] = None
 
         # Setup logger
         self.logger = setup_logger(
@@ -468,24 +491,7 @@ class RedBullDataProcessor:
         Returns:
             Priority number (lower = higher priority).
         """
-        if not domain or "-" not in domain:
-            return 999
-
-        lang = domain.split("-")[-1].lower()
-        priorities = {
-            "en": 1,
-            "gb": 1,
-            "us": 1,  # English
-            "de": 2,
-            "nl": 2,  # German/Dutch
-            "at": 3,
-            "ch": 3,  # Austrian/Swiss German
-            "fr": 4,  # French
-            "es": 5,
-            "pt": 6,
-            "it": 7,  # Other European
-        }
-        return priorities.get(lang, 99)
+        return get_language_priority(domain)
 
     def discover_raw_files(self) -> Dict[str, Dict[str, Any]]:
         """Discover and load metadata from all raw files in data/raw/ directory.
@@ -833,6 +839,53 @@ class RedBullDataProcessor:
             os.unlink(tmp_path)
             raise
 
+    def _load_json_file(self, source: Path, default: Any = None) -> Any:
+        """Load JSON from *source*, returning *default* when missing or unreadable.
+
+        Read counterpart to :meth:`_atomic_write_json` for regenerable files
+        (caches, previous outputs) where a missing or corrupt file should mean
+        "start fresh" rather than abort.
+
+        Args:
+            source: Path to the JSON file.
+            default: Value returned when the file does not exist or cannot be parsed.
+
+        Returns:
+            Parsed JSON data, or *default* on missing/corrupt file.
+        """
+        if not source.exists():
+            return default
+        try:
+            with open(source, "r", encoding="utf-8") as file:
+                return json.load(file)
+        except (OSError, json.JSONDecodeError) as err:
+            self.logger.warning("  ⚠️  Could not read %s: %s", source, err)
+            return default
+
+    # Internal cache/bookkeeping keys that must never leak into public output JSON.
+    INTERNAL_CACHE_FIELDS = (
+        "_raw_hash",
+        "_corrections_hash",
+        "_translated_editions",
+        "_edition_fingerprints",
+        "_normalized_editions",
+    )
+
+    @classmethod
+    def strip_internal_fields(cls, country_data: Dict[str, Any]) -> Dict[str, Any]:
+        """Return a shallow copy of *country_data* without internal cache keys.
+
+        Args:
+            country_data: Processed country data possibly containing internal keys.
+
+        Returns:
+            Shallow copy without the keys listed in ``INTERNAL_CACHE_FIELDS``.
+        """
+        clean_data = dict(country_data)
+        for internal_field in cls.INTERNAL_CACHE_FIELDS:
+            clean_data.pop(internal_field, None)
+        return clean_data
+
     def update_final_json_with_country(
         self, country_name: str, country_data: Dict[str, Any]
     ) -> bool:
@@ -859,12 +912,7 @@ class RedBullDataProcessor:
                 final_data = {}
 
             # Remove raw processing fields
-            clean_data = dict(country_data)
-            clean_data.pop("_raw_hash", None)
-            clean_data.pop("_corrections_hash", None)
-            clean_data.pop("_translated_editions", None)
-            clean_data.pop("_edition_fingerprints", None)
-            clean_data.pop("_normalized_editions", None)
+            clean_data = self.strip_internal_fields(country_data)
 
             # Update the country data
             final_data[country_name] = clean_data
@@ -1034,14 +1082,14 @@ class RedBullDataProcessor:
             Dictionary with flag_mappings, characteristic_mappings, and dynamic_mappings.
         """
         emoji_file = self.data_dir / "region_emojis.json"
-        if emoji_file.exists():
-            with open(emoji_file, "r", encoding="utf-8") as file:
-                return json.load(file)
-        return {
-            "flag_mappings": {},
-            "characteristic_mappings": {},
-            "dynamic_mappings": {},
-        }
+        return self._load_json_file(
+            emoji_file,
+            default={
+                "flag_mappings": {},
+                "characteristic_mappings": {},
+                "dynamic_mappings": {},
+            },
+        )
 
     def save_region_emojis(self, emoji_data: Dict[str, Any]) -> None:
         """Save region emoji mappings to cache file.
@@ -1058,58 +1106,83 @@ class RedBullDataProcessor:
     def get_region_emoji_from_gemini(
         self, region_name: str, used_emojis: set
     ) -> Optional[str]:
-        """Ask Gemini for a unique emoji for the region"""
+        """Ask Gemini for a unique emoji for the region.
+
+        Routed through :meth:`_execute_gemini_task` so the shared rate limiting,
+        quota-abort and API-key-expired handling apply. Failures are non-fatal —
+        the caller falls back to the 📍 emoji.
+
+        Args:
+            region_name: Name of the region (e.g., 'Caribbean').
+            used_emojis: Emojis already assigned to other countries/regions.
+
+        Returns:
+            A unique emoji, or None if generation failed.
+        """
         if not self.client:
             return None
 
+        prompt = f"""
+        Suggest ONE emoji for the region "{region_name}".
+
+        Rules:
+        1. If this region has its own flag emoji (like 🇪🇺 for Europe), use that
+        2. Otherwise choose a characteristic symbol for the region
+        3. Do NOT use these already used emojis: {', '.join(sorted(used_emojis))}
+        4. Do NOT use the globe emoji 🌍 unless specifically for "Worldwide"
+        5. Reply with ONLY the emoji, nothing else
+
+        Examples:
+        - Europe → 🇪🇺 (has flag)
+        - Caribbean → 🌴 (characteristic)
+        - Middle East → 🐪 (characteristic)
+        """
+
         try:
-            # Apply rate limiting if needed
-            self._apply_rate_limiting()
-
-            prompt = f"""
-            Suggest ONE emoji for the region "{region_name}".
-
-            Rules:
-            1. If this region has its own flag emoji (like 🇪🇺 for Europe), use that
-            2. Otherwise choose a characteristic symbol for the region
-            3. Do NOT use these already used emojis: {', '.join(sorted(used_emojis))}
-            4. Do NOT use the globe emoji 🌍 unless specifically for "Worldwide"
-            5. Reply with ONLY the emoji, nothing else
-
-            Examples:
-            - Europe → 🇪🇺 (has flag)
-            - Caribbean → 🌴 (characteristic)
-            - Middle East → 🐪 (characteristic)
-            """
-
-            response = self.client.models.generate_content(
-                model=self.GEMINI_MODEL,
-                contents=prompt,
-                config=GenerateContentConfig(temperature=0),
+            # max_retries=0 mirrors the single-attempt behavior of the other
+            # Gemini steps and avoids retry-looping on the daily-limit
+            # RuntimeError (which would inflate the api_calls_made counter).
+            suggestion = self._execute_gemini_task(
+                region_name, "Region Emoji", prompt, RegionEmojiSuggestion, max_retries=0
             )
+        except RuntimeError as err:
+            if "Daily API limit" in str(err):
+                # Propagate so process_all defers this country instead of
+                # silently stamping it with the fallback emoji.
+                raise
+            # Non-fatal — SystemExit (quota) propagates, everything else falls
+            # back to the 📍 emoji in the caller.
+            self.thread_safe_print(f"    ⚠️ Gemini emoji request failed: {str(err)[:100]}")
+            return None
 
-            if response and response.text:
-                emoji = response.text.strip()
-                # Validate it's an emoji (not a text answer) and not already used.
-                # `not emoji.isascii()` rejects plain-text replies like "Europe";
-                # the length cap (in code points) allows flag pairs and ZWJ sequences
-                # while still excluding longer prose.
-                if (
-                    emoji
-                    and not emoji.isascii()
-                    and len(emoji) <= 8
-                    and emoji not in used_emojis
-                ):
-                    return emoji
-
-        except (errors.APIError, ValueError, AttributeError) as err:
-            if self.verbose:
-                self.thread_safe_print(f"    ⚠️ Gemini emoji request failed: {str(err)[:100]}")
+        emoji = suggestion.emoji.strip() if suggestion and suggestion.emoji else ""
+        # Validate it's an emoji (not a text answer) and not already used.
+        # `not emoji.isascii()` rejects plain-text replies like "Europe";
+        # the length cap (in code points) allows flag pairs and ZWJ sequences
+        # while still excluding longer prose.
+        if emoji and not emoji.isascii() and len(emoji) <= 8 and emoji not in used_emojis:
+            return emoji
 
         return None
 
     def get_unique_region_emoji(self, country_name: str) -> str:
-        """Get unique emoji for a region with INT flag code"""
+        """Get unique emoji for a region with INT flag code (thread-safe).
+
+        The whole load → lookup → generate → save cycle runs under one lock:
+        two workers resolving new regions concurrently could otherwise assign
+        duplicate emojis or overwrite each other's saved dynamic mappings.
+
+        Args:
+            country_name: Name of the region (e.g., 'Caribbean').
+
+        Returns:
+            Unique emoji for the region, or the 📍 fallback.
+        """
+        with self._region_emoji_lock:
+            return self._resolve_region_emoji(country_name)
+
+    def _resolve_region_emoji(self, country_name: str) -> str:
+        """Resolve a region emoji from cache or Gemini. Caller must hold _region_emoji_lock."""
         emoji_data = self.load_region_emojis()
 
         # Check flag mappings first (e.g., Europe → 🇪🇺)
@@ -2048,8 +2121,12 @@ class RedBullDataProcessor:
             )
             return None
 
-        with raw_file.open(encoding="utf-8") as f:
-            raw_data = json.load(f)
+        raw_data = self._load_json_file(raw_file)
+        if raw_data is None:
+            self.logger.warning(
+                "ID-Mapping: Raw file '%s' for source_id '%s' unreadable", filename, edition_id
+            )
+            return None
 
         uuid_part = edition_id.split(":")[0]
         for edition in raw_data.get("editions", []):
@@ -2969,11 +3046,12 @@ class RedBullDataProcessor:
                                 )
 
         except Exception as err:  # pylint: disable=broad-exception-caught
-            if self.verbose:
-                self.thread_safe_print(
-                    f"    ⚠️ Validation step failed for {country_name}: {str(err)[:200]}"
-                )
-                self.thread_safe_print("    Continuing without validation corrections...")
+            # Always surface this — a silently skipped validation step would hide
+            # unapproved flavors, especially in non-verbose CI runs.
+            self.thread_safe_print(
+                f"    ⚠️ Validation step failed for {country_name}: {str(err)[:200]}"
+            )
+            self.thread_safe_print("    Continuing without validation corrections...")
 
         return editions, [t.model_dump() for t in translated_editions_models]
 
@@ -2981,7 +3059,7 @@ class RedBullDataProcessor:
 
     # region Change Tracking Methods
     def _preserve_known_flavors(
-        self, editions: List[Dict], country_name: str, processed_file: Path
+        self, editions: List[Dict], country_name: str, previous_data: Optional[Dict]
     ) -> None:
         """Restore previously known fields when the new processing yields empty values.
 
@@ -2994,16 +3072,11 @@ class RedBullDataProcessor:
         Args:
             editions: Newly processed editions for the country (mutated in place).
             country_name: Country display name (for logging).
-            processed_file: Path to the previous processed JSON file.
+            previous_data: Previously processed country data, or None if unavailable.
         """
-        if not processed_file.exists():
+        if not previous_data:
             return
-
-        try:
-            with open(processed_file, "r", encoding="utf-8") as file:
-                old_data = json.load(file)
-        except (OSError, json.JSONDecodeError):
-            return
+        old_data = previous_data
 
         preservable_fields = ("flavor", "flavor_description")
         old_values: Dict[str, Dict[str, str]] = {}
@@ -3032,7 +3105,7 @@ class RedBullDataProcessor:
                 )
 
     def _anchor_approved_flavors(
-        self, editions: List[Dict], country_name: str, processed_file: Path
+        self, editions: List[Dict], country_name: str, previous_data: Optional[Dict]
     ) -> None:
         """Anchor a previously approved flavor against non-deterministic AI drift.
 
@@ -3042,22 +3115,17 @@ class RedBullDataProcessor:
         fingerprint) and the previously stored flavor was already approved, that previous
         value is authoritative — the fresh AI output must not replace it.
 
-        Matches by ``edition_id`` against the previous processed file. Manual corrections
+        Matches by ``edition_id`` against the previous processed data. Manual corrections
         (``_corrected_fields``) are respected and never overridden.
 
         Args:
             editions: Newly processed editions for the country (mutated in place).
             country_name: Country display name (for logging).
-            processed_file: Path to the previous processed JSON file.
+            previous_data: Previously processed country data, or None if unavailable.
         """
-        if not processed_file.exists():
+        if not previous_data:
             return
-
-        try:
-            with open(processed_file, "r", encoding="utf-8") as file:
-                old_data = json.load(file)
-        except (OSError, json.JSONDecodeError):
-            return
+        old_data = previous_data
 
         old_fingerprints = old_data.get("_edition_fingerprints", {}) or {}
         old_normalized = old_data.get("_normalized_editions", {}) or {}
@@ -3090,7 +3158,7 @@ class RedBullDataProcessor:
             )
 
     def _track_country_changes(
-        self, country_name: str, new_data: Dict, processed_file: Path
+        self, country_name: str, new_data: Dict, old_data: Optional[Dict]
     ) -> None:
         """Track changes made to a country's data.
 
@@ -3100,21 +3168,16 @@ class RedBullDataProcessor:
         Args:
             country_name: Name of the country.
             new_data: New processed data.
-            processed_file: Path to processed file for comparison.
+            old_data: Previously processed country data, or None (all editions
+                are then tracked as new).
         """
-        # Check if we have existing data to compare
-        old_data: Optional[Dict] = None
-        if processed_file.exists():
-            try:
-                with open(processed_file, "r", encoding="utf-8") as file:
-                    old_data = json.load(file)
-            except (OSError, json.JSONDecodeError) as err:
-                self.logger.warning(
-                    "  ⚠️  Cannot compare changes for %s (corrupt/unreadable cache), "
-                    "treating all editions as new: %s",
-                    country_name,
-                    err,
-                )
+        # Compute the diff lock-free into local collections, then commit to the
+        # shared changelog under _changelog_lock — this method runs on worker
+        # threads and field_changes lists are shared across all countries.
+        added: List[Dict[str, Any]] = []
+        removed: List[Dict[str, Any]] = []
+        updated: List[Dict[str, Any]] = []
+        field_change_entries: List[Tuple[str, Dict[str, Any]]] = []
 
         if old_data is not None:
             old_editions = {
@@ -3127,7 +3190,7 @@ class RedBullDataProcessor:
             # Find added editions
             for key, edition in new_editions.items():
                 if key not in old_editions:
-                    self.changelog["editions_added"][country_name].append(
+                    added.append(
                         {
                             "name": edition.get("name", ""),
                             "flavor": edition.get("flavor", ""),
@@ -3141,7 +3204,7 @@ class RedBullDataProcessor:
                 if key not in new_editions
             ]
             for _key, edition in removed_candidates:
-                self.changelog["editions_removed"][country_name].append(
+                removed.append(
                     {
                         "name": edition.get("name", ""),
                         "flavor": edition.get("flavor", ""),
@@ -3182,7 +3245,7 @@ class RedBullDataProcessor:
                             )
 
                     if changes:
-                        self.changelog["editions_updated"][country_name].append(
+                        updated.append(
                             {
                                 "name": new_edition.get("name", ""),
                                 "flavor": new_edition.get("flavor", ""),
@@ -3192,23 +3255,39 @@ class RedBullDataProcessor:
 
                         # Also track in field_changes for summary
                         for change in changes:
-                            self.changelog["field_changes"][change["field"]].append(
-                                {
-                                    "country": country_name,
-                                    "edition": new_edition.get("name", ""),
-                                    "old": change["old"],
-                                    "new": change["new"],
-                                }
+                            field_change_entries.append(
+                                (
+                                    change["field"],
+                                    {
+                                        "country": country_name,
+                                        "edition": new_edition.get("name", ""),
+                                        "old": change["old"],
+                                        "new": change["new"],
+                                    },
+                                )
                             )
         else:
             # All editions are new
             for edition in new_data.get("editions", []):
-                self.changelog["editions_added"][country_name].append(
+                added.append(
                     {
                         "name": edition.get("name", ""),
                         "flavor": edition.get("flavor", ""),
                     }
                 )
+
+        if not (added or removed or updated or field_change_entries):
+            return
+
+        with self._changelog_lock:
+            if added:
+                self.changelog["editions_added"][country_name].extend(added)
+            if removed:
+                self.changelog["editions_removed"][country_name].extend(removed)
+            if updated:
+                self.changelog["editions_updated"][country_name].extend(updated)
+            for field, entry in field_change_entries:
+                self.changelog["field_changes"][field].append(entry)
 
     def _get_country_from_correction_id(self, correction_id: str) -> Optional[str]:
         """Extract country name from correction ID.
@@ -3235,12 +3314,27 @@ class RedBullDataProcessor:
                 file_pattern = f"{country_code.lower()}-{lang_code.lower()}"
 
                 # Check if this corresponds to any processed country
-                available_countries = self.discover_raw_files()
-                for country_name, country_info in available_countries.items():
-                    if country_info["domain"] == file_pattern:
+                for country_name, domain in self._get_domain_country_map().items():
+                    if domain == file_pattern:
                         return country_name
 
         return None
+
+    def _get_domain_country_map(self) -> Dict[str, str]:
+        """Get the country → domain mapping, built once per run.
+
+        Avoids re-globbing the raw directory (discover_raw_files) for every
+        correction during changelog generation.
+
+        Returns:
+            Mapping of country name to its raw-file domain (e.g., 'ch-de').
+        """
+        if self._domain_country_map is None:
+            self._domain_country_map = {
+                country_name: country_info["domain"]
+                for country_name, country_info in self.discover_raw_files().items()
+            }
+        return self._domain_country_map
 
     def _generate_changelog_markdown(self) -> str:
         """Generate a markdown changelog from tracked changes.
@@ -3347,10 +3441,11 @@ class RedBullDataProcessor:
         processed_countries = set(self.changelog["countries_processed"])
 
         for corr in self.corrections:
-            correction_country = self._get_country_from_correction_id(corr["id"])
+            correction_id = corr.get("id", "")
+            correction_country = self._get_country_from_correction_id(correction_id)
             # Only include corrections for countries that were actually processed
             if correction_country in processed_countries:
-                relevant_correction_ids.add(corr["id"])
+                relevant_correction_ids.add(correction_id)
 
         used_correction_ids = set()
         for corr in self.changelog["corrections_applied"]:
@@ -3876,14 +3971,11 @@ class RedBullDataProcessor:
         if the file exists.  Called once at the start of :meth:`process_all`.
         """
         cache_file = self.processed_dir / self.GLOBAL_UUID_CACHE_FILE
-        if cache_file.exists():
-            with open(cache_file, "r", encoding="utf-8") as file:
-                self._global_uuid_cache = json.load(file)
+        self._global_uuid_cache = self._load_json_file(cache_file, default={})
+        if self._global_uuid_cache:
             self.logger.info(
                 "Loaded global UUID cache: %d entries", len(self._global_uuid_cache)
             )
-        else:
-            self._global_uuid_cache = {}
 
     def _save_global_uuid_cache(self) -> None:
         """Persist the cross-country UUID translation cache to disk.
@@ -3978,6 +4070,9 @@ class RedBullDataProcessor:
                         # _normalized_editions is keyed by edition_id (full RRN), which is needed
                         # for apply_corrections to match the UUID in corrections.json.
                         corrections_changed = False
+                        # Snapshot before the re-apply loop mutates `existing` in
+                        # place — needed as the old side of the changelog diff.
+                        pre_correction_data = copy.deepcopy(existing)
                         cached_output_by_name: Dict[str, Dict[str, Any]] = {
                             e.get("name", ""): e for e in existing.get("editions", [])
                         }
@@ -4010,16 +4105,26 @@ class RedBullDataProcessor:
                             self.thread_safe_print(
                                 f"  🔧 {country_name}: Corrections re-applied to cached data"
                             )
+                            # Track the diff before overwriting the file — otherwise
+                            # correction-driven changes are invisible to
+                            # _has_real_data_changes() and the changelog is skipped
+                            # even though the final JSON changed.
+                            self._track_country_changes(
+                                country_name, existing, pre_correction_data
+                            )
                             self._atomic_write_json(processed_file, existing)
+                            with self._changelog_lock:
+                                self.changelog["countries_processed"].append(country_name)
                             return existing, True
 
                         self.thread_safe_print(
                             f"  ⏭️  {country_name}: No changes, using cached"
                         )
-                        # cache_hits is a non-atomic counter shared across workers.
+                        # cache_hits is a non-atomic counter and countries_skipped
+                        # a shared list — both mutated from parallel workers.
                         with self._changelog_lock:
                             self.changelog["cache_hits"] += 1
-                        self.changelog["countries_skipped"].append(country_name)
+                            self.changelog["countries_skipped"].append(country_name)
                         return existing, False
             except (json.JSONDecodeError, IOError) as err:
                 self.logger.warning(
@@ -4046,7 +4151,8 @@ class RedBullDataProcessor:
         if not raw_data.get("editions"):
             if self.verbose:
                 self.thread_safe_print(f"  ⏭️  {country_name}: No editions found, skipping")
-            self.changelog["countries_skipped"].append(f"{country_name} (no editions)")
+            with self._changelog_lock:
+                self.changelog["countries_skipped"].append(f"{country_name} (no editions)")
             return None, False
 
         self.thread_safe_print(f"  🔄 Processing {country_name}...")
@@ -4121,10 +4227,6 @@ class RedBullDataProcessor:
             # Check sugar-free
             # Sugarfree will be determined by AI, not by simple keyword search
             edition["sugarfree"] = False  # Default, will be updated by AI
-
-            # Store original raw data for stable fingerprinting before any corrections
-            edition["_original_raw_flavor"] = edition["_raw_flavor"]
-            edition["_original_standfirst"] = edition["_standfirst"]
 
             # Apply manual corrections before processing (to guide Gemini if needed)
             edition = self.apply_corrections(edition, graphql_id)
@@ -4314,11 +4416,11 @@ class RedBullDataProcessor:
         # Preserve previously known flavors when new processing yields empty values.
         # Mirrors the collector's edition-retention pattern: don't lose data just because
         # an upstream API stopped returning the flavor field for an existing edition.
-        self._preserve_known_flavors(editions_to_process, country_name, processed_file)
+        self._preserve_known_flavors(editions_to_process, country_name, existing or None)
 
         # Anchor previously approved flavors against non-deterministic AI drift: if the raw
         # input is unchanged, a re-run must not regress a known-good flavor (e.g. --force).
-        self._anchor_approved_flavors(editions_to_process, country_name, processed_file)
+        self._anchor_approved_flavors(editions_to_process, country_name, existing or None)
 
         # Persist per-edition cache AFTER corrections and flavor preservation so
         # _normalized_editions always reflects the final authoritative values.
@@ -4339,8 +4441,6 @@ class RedBullDataProcessor:
         for edition in editions_to_process:
             edition.pop("_raw_flavor", None)
             edition.pop("_standfirst", None)
-            edition.pop("_original_raw_flavor", None)
-            edition.pop("_original_standfirst", None)
             edition.pop("_graphql_id", None)
             edition.pop("_raw_alt_text", None)
             edition.pop("_corrected_fields", None)
@@ -4362,12 +4462,13 @@ class RedBullDataProcessor:
         }
 
         # Track changes for changelog
-        self._track_country_changes(country_name, country_data, processed_file)
+        self._track_country_changes(country_name, country_data, existing or None)
 
         # Save processed data
         self._atomic_write_json(processed_file, country_data)
 
-        self.changelog["countries_processed"].append(country_name)
+        with self._changelog_lock:
+            self.changelog["countries_processed"].append(country_name)
 
         # Show completion message
         self.thread_safe_print(f"  ✅ Processed {country_name}")
@@ -4497,17 +4598,14 @@ class RedBullDataProcessor:
 
         # Load existing final data if exists
         final_file = self.data_dir / "redbull_editions_final.json"
-        if final_file.exists():
-            with open(final_file, "r", encoding="utf-8") as file:
-                final_data = json.load(file)
+        final_data = self._load_json_file(final_file, default={})
+        if final_data:
             # Remove any countries with empty editions from existing data
             final_data = {
                 country: data
                 for country, data in final_data.items()
                 if data.get("editions") and len(data.get("editions", [])) > 0
             }
-        else:
-            final_data = {}
 
         # Determine countries to process
         if force_reprocess:
@@ -4640,13 +4738,7 @@ class RedBullDataProcessor:
                                 continue
 
                             # Remove internal fields before adding to final
-                            processed_copy = processed.copy()
-                            processed_copy.pop("_raw_hash", None)
-                            processed_copy.pop("_corrections_hash", None)
-                            processed_copy.pop("_translated_editions", None)
-                            processed_copy.pop("_edition_fingerprints", None)
-                            processed_copy.pop("_normalized_editions", None)
-                            final_data[country_name] = processed_copy
+                            final_data[country_name] = self.strip_internal_fields(processed)
 
                             # Only increment processed_count if actually processed (not cached)
                             if was_actually_processed:
@@ -4711,11 +4803,15 @@ class RedBullDataProcessor:
                             self.thread_safe_print(
                                 f"  ⏹️  Aborting {country_name} due to critical error"
                             )
-                            # Cancel all pending futures
+                            # Cancel all pending futures and drop them so the outer
+                            # while loop terminates — otherwise the next iteration
+                            # would call .result() on cancelled futures and die with
+                            # an uncaught CancelledError (a BaseException).
                             for pending_future in future_to_task:
                                 if not pending_future.done():
                                     pending_future.cancel()
-                            break  # Exit the while loop
+                            future_to_task.clear()
+                            break
 
                         # Track retry attempts
                         attempt = retry_attempts.get(country_name, 0) + 1
@@ -4984,12 +5080,7 @@ def main():
                                 result["editions"]
                             )
 
-                        output = {args.country: result}
-                        output[args.country].pop("_raw_hash", None)
-                        output[args.country].pop("_corrections_hash", None)
-                        output[args.country].pop("_translated_editions", None)
-                        output[args.country].pop("_edition_fingerprints", None)
-                        output[args.country].pop("_normalized_editions", None)
+                        output = {args.country: processor.strip_internal_fields(result)}
 
                         single_file = (
                             processor.data_dir / f"single_{country_info['domain']}.json"
