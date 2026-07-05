@@ -1,9 +1,14 @@
 {
     "metadata": {
         "collection_date": "2026-07-02T08:42:38.565079+00:00",
-        "total_countries": 66,
+        "total_countries": 63,
         "changes_detected": [],
-        "successful_countries": 66
+        "successful_countries": 63,
+        "countries_without_editions": [
+            "Dominican Republic",
+            "Europe",
+            "Thailand"
+        ]
     },
     "countries": {
         "Albania": {
@@ -161,7 +166,6 @@
             "editions_count": 11,
             "data_file": "dk-da.json"
         },
-        "Dominican Republic": {},
         "Egypt": {
             "domain": "eg-ar",
             "all_domains": [
@@ -180,7 +184,6 @@
             "editions_count": 14,
             "data_file": "ee-et.json"
         },
-        "Europe": {},
         "Finland": {
             "domain": "fi-fi",
             "all_domains": [
@@ -545,7 +548,6 @@
             "editions_count": 6,
             "data_file": "tw-zh.json"
         },
-        "Thailand": {},
         "Türkiye": {
             "domain": "tr-tr",
             "all_domains": [
