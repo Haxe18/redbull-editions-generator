@@ -211,7 +211,7 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/31/armtibtyrexsukntlhgk/red-bull-zero-energy-drink",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/7/qlws1b23guh4tfmiqkjc/red-bull-zero-energy-drink",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#93BFE4",
@@ -226,7 +226,7 @@
                                     "percentage": 3
                                 },
                                 {
-                                    "hexColorCode": "#DEE9F1",
+                                    "hexColorCode": "#DEE9F2",
                                     "percentage": 2.5
                                 },
                                 {
@@ -254,7 +254,7 @@
                     "image": {
                         "altText": "Red Bull Zero Energy Drink",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/31/armtibtyrexsukntlhgk/red-bull-zero-energy-drink"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/7/qlws1b23guh4tfmiqkjc/red-bull-zero-energy-drink"
                         }
                     },
                     "reference": {
@@ -695,5 +695,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-06T07:48:34.681985+00:00"
+    "collection_timestamp": "2026-07-08T07:45:50.582074+00:00"
 }
