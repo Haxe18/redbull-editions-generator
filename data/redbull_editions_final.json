@@ -792,12 +792,12 @@
             },
             {
                 "name": "The Maçã Edition Sugarfree",
-                "flavor": "Maçã",
-                "flavor_description": "A sugarfree energy drink with the taste of apple",
+                "flavor": "Apple",
+                "flavor_description": "The Red Bull Apple Edition Sugarfree provides wings for your Carnival",
                 "sugarfree": true,
                 "color": "#AE132D",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/20/oa6cfnllu8bpbarc5crd/winter-edition-half-can",
-                "alt_text": "Maçã Edition half can",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/8/dyebynbzpaxvgmjcnmjs/ice-edition-half-can",
+                "alt_text": "Ice Edition half can",
                 "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-maca-edition-sugarfree"
             },
             {
@@ -2463,16 +2463,6 @@
                 "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
             },
             {
-                "name": "The Spring Edition",
-                "flavor": "Cherry Sakura",
-                "flavor_description": "The Red Bull Spring Edition combines the taste of Cherry with notes of almond and Cherry Blossom",
-                "sugarfree": false,
-                "color": "#c72466",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/4/miiliblxlvnsgosku3ki/spring-edition-2026",
-                "alt_text": "Spring Edition 2026",
-                "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-spring-edition"
-            },
-            {
                 "name": "The Summer Edition",
                 "flavor": "Sudachi Lime",
                 "flavor_description": "The Red Bull Summer Edition with a sudachi and lime taste, completed by a subtle Pomelo and citrus peel aroma",
@@ -3979,6 +3969,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/z0vvvc0zbc7b0afsqt7m/red-bull-peach-edition-image",
                 "alt_text": "Red Bull Peach Edition - Image",
                 "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition"
+            },
+            {
+                "name": "The Peach Edition Sugarfree",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull Peach Edition Sugarfree with the taste of White Peach with a hint of citrus peel and floral accents",
+                "sugarfree": true,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/8/se5tquxqkrkjjb4wvisj/red-bull-peach-edition-sugarfree-half-can",
+                "alt_text": "Red Bull Peach Edition Sugarfree half can",
+                "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition-sugarfree"
             },
             {
                 "name": "The Pink Edition Sugarfree",

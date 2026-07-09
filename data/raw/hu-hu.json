@@ -130,71 +130,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:hu-HU",
-            "header_data": {
-                "content": {
-                    "title": "Spring Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/4/miiliblxlvnsgosku3ki/spring-edition-2026",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E9ECED",
-                                    "percentage": 18.5
-                                },
-                                {
-                                    "hexColorCode": "#FBFAFA",
-                                    "percentage": 7.3
-                                },
-                                {
-                                    "hexColorCode": "#BEC4CD",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#FCFCFB",
-                                    "percentage": 1.9
-                                },
-                                {
-                                    "hexColorCode": "#D4173D",
-                                    "percentage": 1.2
-                                },
-                                {
-                                    "hexColorCode": "#777E83",
-                                    "percentage": 1
-                                },
-                                {
-                                    "hexColorCode": "#EFF2F1",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "Spring Edition 2026"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-spring-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Cseresznye",
-                    "standfirst": "A Red Bull Spring Edition a cseresznye ízét ötvözi a mandula és a cseresznyevirág karakterjegyeivel.",
-                    "brandingHexColorCode": "#c72466",
-                    "image": {
-                        "altText": "Spring Edition 2026",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/3/4/miiliblxlvnsgosku3ki/spring-edition-2026"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-spring-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU",
             "header_data": {
                 "content": {
@@ -516,5 +451,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-05T07:36:57.241536+00:00"
+    "collection_timestamp": "2026-07-09T08:48:40.954071+00:00"
 }

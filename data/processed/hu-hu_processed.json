@@ -22,16 +22,6 @@
             "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-blue-edition"
         },
         {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition combines the taste of Cherry with notes of almond and Cherry Blossom",
-            "sugarfree": false,
-            "color": "#c72466",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/4/miiliblxlvnsgosku3ki/spring-edition-2026",
-            "alt_text": "Spring Edition 2026",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-spring-edition"
-        },
-        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Zero sugar. 100% Wings",
@@ -83,13 +73,12 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HU.svg",
-    "_raw_hash": "e20adb8878eaab964c7d08fddf7ec8b8bd793549873d4be639d5588dd8d43b2b",
+    "_raw_hash": "bc5b61c6982adbff713e950c525c16d9d822296980f4420211a9c56faa26ccd2",
     "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU": "1993d9df31dc3c8a6cebe954ec44174d03aeaab0e40b26c9715e3d25a9ce56a7",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU": "c2b7ad74e1c77ce7b465c16f0ed9cd7f618f567d10b2b6163d7b58069f6eb470",
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:hu-HU": "d322ba6e39e406bba8d559612735e71bb7d47e8e8d00f0e3afdb3bfbcf87da07",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU": "45aa84a33953c2e59954c710959af9e907a855cf42e5ce0558e4fae0ec62315e",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hu-HU": "29bf48986b023336cfaad7bf328071815688c212355aed6c4fdfb0c3ef905e13",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hu-HU": "1d1840991ba19a298ddbca411fcae3e49affbe4ce792524d9a7c0350969c0ea8",
@@ -107,12 +96,6 @@
             "name": "The Blue Edition",
             "flavor": "Juneberry",
             "flavor_description": "Red Bull Blue Edition with the tempting fruity taste of Juneberry",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:hu-HU": {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition combines the taste of Cherry with notes of almond and Cherry Blossom",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:hu-HU": {

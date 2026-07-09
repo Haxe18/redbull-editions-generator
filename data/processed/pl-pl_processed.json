@@ -42,6 +42,16 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/red-bull-zero"
         },
         {
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition Sugarfree with the taste of White Peach with a hint of citrus peel and floral accents",
+            "sugarfree": true,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/8/se5tquxqkrkjjb4wvisj/red-bull-peach-edition-sugarfree-half-can",
+            "alt_text": "Red Bull Peach Edition Sugarfree half can",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition-sugarfree"
+        },
+        {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "flavor_description": "The classic Red Bull energy drink appreciated worldwide by athletes and professionals",
@@ -143,14 +153,23 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "e19c01ed581297c16735746d30caf0c3832f34fce913e83887c2ec11aaadb55b",
+    "_raw_hash": "ad2d66e45d1d963743b0e52cf1c283b2f672a990d1a3ddcd17965c6eb8089c33",
     "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:pl-PL",
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition Sugarfree with the taste of white peach with a hint of citrus peel and floral accents.",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL": "7c2603b0db36132344a2785ff0e6addac7375560c917591a8dbf182a13d2cf0b",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:pl-PL": "5c2479cc695d6ee30136bcc368a267f7d4432d2cdd21270ab6d98c5160550d5b",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": "18aae4c9179c7310ded5ddd95e66b457a1627d6baec0a7554bbdad13678253df",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pl-PL": "7694217faa89e91e5855ca5052aaae19b17ef14d2d57312842e51d3814448117",
+        "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:pl-PL": "6c57ac754730f7201a2f4d638fd173ab03c1035bc38d8092ed5c99a81e36fcc0",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL": "b1b54730d883e749b04fc642e5605c1c74660790fbe186b38919a35673894b99",
         "rrn:content:energy-drinks:9c27f2d5-12cd-4185-af07-39c6a41edd74:pl-PL": "65fd9085dc400eda047fed8a8b940ee94595a91eae632536395cc75d4376db52",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pl-PL": "c976d8875438ab28d6fb7a8cd99b1a3ca00104c97b368ed3b14e8f3ce47c030e",
@@ -185,6 +204,12 @@
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "A calorie-free and sugarfree energy drink",
+            "sugarfree": true
+        },
+        "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:pl-PL": {
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition Sugarfree with the taste of White Peach with a hint of citrus peel and floral accents",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pl-PL": {
