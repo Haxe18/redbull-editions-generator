@@ -32,16 +32,6 @@
             "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
         },
         {
-            "name": "The Green Edition",
-            "flavor": "Dragon Fruit",
-            "flavor_description": "Red Bull Green Edition with Dragon Fruit taste",
-            "sugarfree": false,
-            "color": "#00c65e",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/14/detyrfbxwejxdeaifijv/red-bull-green-edition-image",
-            "alt_text": "Red Bull Green Edition - image",
-            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-green-edition"
-        },
-        {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Grapefruit & Blossom",
             "flavor_description": "The Red Bull Lilac Edition Sugarfree with a delicious Grapefruit taste",
@@ -53,14 +43,13 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PE.svg",
-    "_raw_hash": "c89c2c42332e5f757fc33cfcccd4aa8cc4d99e76f28f8e6fe4728115916812cb",
+    "_raw_hash": "839f363cc8d846637c097f613c0bb5b350d1decfc13656897af53cbf81a9b030",
     "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE": "bb09e84514a522a0d9e86a0323ee3e35c26b17bfa9d483d608c561a084dc0334",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE": "73c703bc2d7a0f5ce1e82dbda34a7ec9743c526919f26783448bf0e72383c98d",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-PE": "58a8bf134735969942cc7357546c13393a9f585ff3276d25482bb4f717f6380c",
-        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-PE": "fef8cd344368fee3b22e6a1a5ba1e830ac51216c75f9ecf71a24ae05a652d5da",
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:es-PE": "bb8f461cfc3fcc50f6fe462b82f5aa7a6df9604e2129a9f82b307f4a626f543c"
     },
     "_normalized_editions": {
@@ -81,12 +70,6 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true
-        },
-        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-PE": {
-            "name": "The Green Edition",
-            "flavor": "Dragon Fruit",
-            "flavor_description": "Red Bull Green Edition with Dragon Fruit taste",
-            "sugarfree": false
         },
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:es-PE": {
             "name": "The Lilac Edition Sugarfree",
