@@ -338,6 +338,14 @@ Create/edit `data/corrections.json`:
 - Use `"flavor"` in corrections → internally maps to `"_raw_flavor"`
 - Use `"flavor_description"` → internally maps to `"_standfirst"`
 - This allows intuitive field names while the processor handles the technical details
+- **`"image_url"` and `"alt_text"`** are also correctable: they target the final output fields directly (no raw-field mapping). Both are re-extracted from raw data every run (never cached), so corrections apply reliably even on cache hits. Use `match_mode: "partial"` for `image_url` since the value contains the image transformation prefix.
+
+**Active Locale-Specific Corrections**:
+- **Maçã Edition Sugarfree Brazil** (UUID `d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR`, since 2026-07-14):
+  - Red Bull's API delivers the Ice Edition image + altText for the Maçã Edition (title/flavor/URL still Maçã)
+  - Two corrections restore the previous Maçã can image (`winter-edition-half-can` slug) and altText
+  - Self-cleanup signal: once Red Bull fixes the data, both corrections appear as `corrections_failed` in the console → remove them
+  - Note: same UUID is used correctly by Chile (`es-CL`) for its Winter Edition, hence locale-specific
 
 **Active Global Corrections** (as of 2025-10-22):
 - **Apricot/Amber/Summer Edition** (UUID `f900c5b7-d33e-4a8e-a186-5cee5bd291a1`):

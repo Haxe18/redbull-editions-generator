@@ -227,12 +227,25 @@
             "field": "flavor",
             "search": "Curuba",
             "replace": "Sudachi Lime"
+        },
+        {
+            "id": "d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR",
+            "field": "alt_text",
+            "search": "Ice Edition half can",
+            "replace": "Maçã Edition half can"
+        },
+        {
+            "id": "d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR",
+            "field": "image_url",
+            "match_mode": "partial",
+            "search": "redbullcom/2026/7/8/dyebynbzpaxvgmjcnmjs/ice-edition-half-can",
+            "replace": "redbullcom/2026/1/20/oa6cfnllu8bpbarc5crd/winter-edition-half-can"
         }
     ],
     "comments": [
         "This file contains manual corrections to be applied before Gemini processing",
         "id: GraphQL ID of the edition",
-        "field: Which field to modify (flavor, flavor_description, name, etc.)",
+        "field: Which field to modify (flavor, flavor_description, name, image_url, alt_text, etc.)",
         "search: Text to search for",
         "replace: Text to replace with",
         "id_mappings: Replace raw fields of a target edition with data from a source locale"

@@ -143,6 +143,7 @@ Create/edit `data/corrections.json` to override specific fields before AI proces
 **Field Mapping**: The processor automatically maps user-friendly field names to internal fields:
 - `"flavor"` → `"_raw_flavor"` (original flavor text)
 - `"flavor_description"` → `"_standfirst"` (original description text)
+- `"image_url"` / `"alt_text"` → correct the final output fields directly (use `"match_mode": "partial"` for `image_url`)
 
 This allows you to use intuitive field names in corrections while the processor handles the technical mapping internally.
 
