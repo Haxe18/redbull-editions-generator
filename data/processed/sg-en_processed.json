@@ -44,16 +44,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SG.svg",
     "_raw_hash": "a236a4f0a768b1173d3f5860e39f21e686a6116f6d2da61c5038b9ca99ec23df",
-    "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:en-SG",
-            "name": "The Ice Edition Sugarfree",
-            "flavor": "Iced Gummy Bear",
-            "description": "The Red Bull Ice Edition Sugarfree gives you Wings with the taste of iced Gummy bear.",
-            "product_url": "https://www.redbull.com/sg-en/energydrink/products/red-bull-ice-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:en-SG": "0a7ffb8ce90c65d0f8cfd9f1914959a11071158e1e410e5930566973ca7f7ca5",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-SG": "394a50e14ef26146f9265f5c85dd4486dead5e0960edf4d8ce7adc25d29e3437",

@@ -154,16 +154,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
     "_raw_hash": "ad2d66e45d1d963743b0e52cf1c283b2f672a990d1a3ddcd17965c6eb8089c33",
-    "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:pl-PL",
-            "name": "The Peach Edition Sugarfree",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition Sugarfree with the taste of white peach with a hint of citrus peel and floral accents.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL": "7c2603b0db36132344a2785ff0e6addac7375560c917591a8dbf182a13d2cf0b",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:pl-PL": "5c2479cc695d6ee30136bcc368a267f7d4432d2cdd21270ab6d98c5160550d5b",

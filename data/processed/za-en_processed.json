@@ -94,16 +94,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ZA.svg",
     "_raw_hash": "13a21877acd7f44f11b2d57d65a0150799654cf15fe06ee31dbe851ab52f740b",
-    "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:en-ZA",
-            "name": "The Cherry Edition",
-            "flavor": "Cherry & Blossom",
-            "description": "The Red Bull Cherry Edition gives you wings with the taste of cherry with notes of almond and floral cherry blossom.",
-            "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-cherry-edition"
-        }
-    ],
+    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA": "80c01aabcdbfdf0ead741553f9d72887e967f16b24d1cbd66bf46e4761bcacb5",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-ZA": "0b0d0ff7f2256ed53341a5c39ab26199fb0fb366bd31030fe7a4783e7d116e59",

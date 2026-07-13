@@ -134,23 +134,8 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AU.svg",
     "_raw_hash": "1d92cf9ed77fe8ffc3d0f980f63ba89c8e20e3aca16f6c5147df47e22bb97286",
-    "_corrections_hash": "f8bde6c6146dc423d3795f3bcbed155fdb56d91bef7c13f45fac394eb9d2cde4",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:en-AU",
-            "name": "The Cherry Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "description": "The Red Bull Cherry Edition Sugarfree gives you wings with the taste of cherry with notes of almond and floral cherry blossom.",
-            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-cherry-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-AU",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "The Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime.",
-            "product_url": "https://www.redbull.com/au-en/energydrink/products/red-bull-summer-edition"
-        }
-    ],
+    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-AU": "daf12c3d240c4d581928c5580761b655874de80df717ccbe8f3732eaa9bd9643",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-AU": "22a60c2c64b7e954e1f386882fe085170eb081f80464ea64f3cfecf323dc7c7a",
