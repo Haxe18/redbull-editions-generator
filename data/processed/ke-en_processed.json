@@ -26,8 +26,8 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true,
-            "color": "#248FCC",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/23/popjsctijgfconzxy83u/red-bull-sugarfree",
+            "color": "#248FCB",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/21/mfcn7ijiggccqst9rs9c/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/ke-en/energydrink/products/red-bull-sugarfree"
         },
@@ -43,7 +43,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KE.svg",
-    "_raw_hash": "ab6192c0ae59c9147cebdc54c9f9cd27e1c9eb76d0a635a2006900b1eb180e64",
+    "_raw_hash": "a7dd9d5e4b51060fbc4f53592c91b9bfcad0c21817a602d88abd196d94d86daa",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {

@@ -256,34 +256,34 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/29/ma1tupfbtfqgjkizegux/red-bull-zero-energy-drink",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/21/svgakhiltljy6k9m0tkj/red-bull-zero-energy-drink",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#95C0E5",
-                                    "percentage": 14
+                                    "hexColorCode": "#93BFE4",
+                                    "percentage": 13.9
                                 },
                                 {
-                                    "hexColorCode": "#C7D1DE",
-                                    "percentage": 10.6
+                                    "hexColorCode": "#C6D1DE",
+                                    "percentage": 10.7
                                 },
                                 {
                                     "hexColorCode": "#C80D32",
-                                    "percentage": 3.1
+                                    "percentage": 3
                                 },
                                 {
                                     "hexColorCode": "#DDE8F1",
-                                    "percentage": 2.8
+                                    "percentage": 2.6
                                 },
                                 {
-                                    "hexColorCode": "#7B8695",
-                                    "percentage": 1.6
+                                    "hexColorCode": "#7A8594",
+                                    "percentage": 1.7
                                 },
                                 {
-                                    "hexColorCode": "#F9F4F1",
+                                    "hexColorCode": "#FAF6F3",
                                     "percentage": 0.7
                                 },
                                 {
-                                    "hexColorCode": "#E5C175",
+                                    "hexColorCode": "#E5C075",
                                     "percentage": 0.6
                                 }
                             ]
@@ -303,7 +303,7 @@
                     "image": {
                         "altText": "Red Bull Zero Energy Drink",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/29/ma1tupfbtfqgjkizegux/red-bull-zero-energy-drink"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/21/svgakhiltljy6k9m0tkj/red-bull-zero-energy-drink"
                         }
                     },
                     "reference": {
@@ -455,35 +455,39 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qi3pa5urmhoynobr6sct/red-bull-sugarfree",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/21/w4gwychu7wryyocirwzx/red-bull-sugarfree",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#0496D3",
-                                    "percentage": 13.8
+                                    "hexColorCode": "#248FCC",
+                                    "percentage": 11.9
                                 },
                                 {
-                                    "hexColorCode": "#D7DBDF",
-                                    "percentage": 7.4
+                                    "hexColorCode": "#C8D0DA",
+                                    "percentage": 7.7
                                 },
                                 {
-                                    "hexColorCode": "#E3E6E9",
-                                    "percentage": 3.7
+                                    "hexColorCode": "#68BCE2",
+                                    "percentage": 5.1
                                 },
                                 {
-                                    "hexColorCode": "#D42148",
-                                    "percentage": 2.9
+                                    "hexColorCode": "#CA0D36",
+                                    "percentage": 2.8
                                 },
                                 {
-                                    "hexColorCode": "#58BEE7",
-                                    "percentage": 2.6
+                                    "hexColorCode": "#E0E9EF",
+                                    "percentage": 2.2
                                 },
                                 {
-                                    "hexColorCode": "#016498",
-                                    "percentage": 1.9
-                                },
-                                {
-                                    "hexColorCode": "#E9C66B",
+                                    "hexColorCode": "#E7BA6B",
                                     "percentage": 1.4
+                                },
+                                {
+                                    "hexColorCode": "#768394",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#FAF6F3",
+                                    "percentage": 0.7
                                 }
                             ]
                         },
@@ -502,7 +506,7 @@
                     "image": {
                         "altText": "Red Bull Sugarfree",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2023/8/21/qi3pa5urmhoynobr6sct/red-bull-sugarfree"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/21/w4gwychu7wryyocirwzx/red-bull-sugarfree"
                         }
                     },
                     "reference": {
@@ -687,5 +691,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-19T08:45:33.844233+00:00"
+    "collection_timestamp": "2026-07-22T07:49:50.847433+00:00"
 }

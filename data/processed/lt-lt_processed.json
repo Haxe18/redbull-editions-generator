@@ -66,8 +66,8 @@
             "flavor": "Sugarfree",
             "flavor_description": "The same Red Bull energy drink, just without sugar",
             "sugarfree": true,
-            "color": "#248FCC",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/23/popjsctijgfconzxy83u/red-bull-sugarfree",
+            "color": "#248FCB",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/21/mfcn7ijiggccqst9rs9c/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/sugarfree"
         },
@@ -103,7 +103,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-LT.svg",
-    "_raw_hash": "aca5b057093454ca304cb486748bbeec5a350e975d596280c300b61d5fe082c7",
+    "_raw_hash": "304396628507464e4c1bb474bd54ed9fe24b7b866e121aff684383f060c4af72",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {

@@ -447,38 +447,34 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/23/popjsctijgfconzxy83u/red-bull-sugarfree",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/21/mfcn7ijiggccqst9rs9c/red-bull-sugarfree",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#248FCC",
-                                    "percentage": 11.9
+                                    "hexColorCode": "#248FCB",
+                                    "percentage": 12.4
                                 },
                                 {
                                     "hexColorCode": "#C8D0DA",
-                                    "percentage": 7.7
+                                    "percentage": 8
                                 },
                                 {
-                                    "hexColorCode": "#68BCE2",
-                                    "percentage": 5.1
+                                    "hexColorCode": "#69BEE3",
+                                    "percentage": 5.5
                                 },
                                 {
                                     "hexColorCode": "#CA0D36",
                                     "percentage": 2.8
                                 },
                                 {
-                                    "hexColorCode": "#E0E9EF",
-                                    "percentage": 2.2
+                                    "hexColorCode": "#DEE9EF",
+                                    "percentage": 2.3
                                 },
                                 {
-                                    "hexColorCode": "#E7BB6C",
-                                    "percentage": 1.5
-                                },
-                                {
-                                    "hexColorCode": "#768394",
+                                    "hexColorCode": "#768494",
                                     "percentage": 1.2
                                 },
                                 {
-                                    "hexColorCode": "#FAF5F2",
+                                    "hexColorCode": "#FBF8F6",
                                     "percentage": 0.7
                                 }
                             ]
@@ -498,7 +494,7 @@
                     "image": {
                         "altText": "Red Bull Sugarfree",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/6/23/popjsctijgfconzxy83u/red-bull-sugarfree"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/21/mfcn7ijiggccqst9rs9c/red-bull-sugarfree"
                         }
                     },
                     "reference": {
@@ -886,5 +882,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-06-24T08:38:37.264167+00:00"
+    "collection_timestamp": "2026-07-22T07:48:53.467750+00:00"
 }

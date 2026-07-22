@@ -46,8 +46,8 @@
             "flavor": "Zero Sugar",
             "flavor_description": "Find the taste and the Wings of Red Bull. 0% sugar",
             "sugarfree": true,
-            "color": "#95C0E5",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/1/29/ma1tupfbtfqgjkizegux/red-bull-zero-energy-drink",
+            "color": "#93BFE4",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/21/svgakhiltljy6k9m0tkj/red-bull-zero-energy-drink",
             "alt_text": "Red Bull Zero Energy Drink",
             "product_url": "https://www.redbull.com/zero"
         },
@@ -76,8 +76,8 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink but without sugar",
             "sugarfree": true,
-            "color": "#0496D3",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/qi3pa5urmhoynobr6sct/red-bull-sugarfree",
+            "color": "#248FCC",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/21/w4gwychu7wryyocirwzx/red-bull-sugarfree",
             "alt_text": "Red Bull Sugarfree",
             "product_url": "https://www.redbull.com/sugarfree"
         },
@@ -113,7 +113,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FR.svg",
-    "_raw_hash": "40a2db9d7f00945101e19bf5d31b0a8b6e1e80523bdb8c56cac9bb22cd0d7c14",
+    "_raw_hash": "e3078eb12752f4d739bf1d772c9c7dd381e123983875d92ad67499b5f0846b2b",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
