@@ -4135,5 +4135,12 @@
         "flavor_description": "The Red Bull Cherry Edition gives you wings with the taste of Cherry with notes of almond and floral Cherry Blossom",
         "sugarfree": false,
         "fingerprint": "3763f48edabb7e23f8cba6b658c8c5acff0c591a61b25b0a786bfb34608d2dcd"
+    },
+    "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:pl-PL": {
+        "name": "The Cherry Edition",
+        "flavor": "Cherry-Blossom",
+        "flavor_description": "Red Bull Cherry Edition with the taste of Cherry Blossom and sakura with a hint of creamy almonds",
+        "sugarfree": false,
+        "fingerprint": "ac2ab4ae310aa09fceb60c2a9e7561489627011dd601b335ede9ce420bc15743"
     }
 }

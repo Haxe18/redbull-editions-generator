@@ -12,16 +12,6 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/red-bull-pink-edition-sugarfree"
         },
         {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "An energy drink with the taste of Cherry complemented by delicate floral and almond notes",
-            "sugarfree": false,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/ld8q53vfcqmofpnukhaz/spring-edition-2026",
-            "alt_text": "Spring Edition 2026",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition"
-        },
-        {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
             "flavor_description": "A unique energy drink combining berry and Vanilla flavors with a refreshing iced eucalyptus note",
@@ -112,16 +102,6 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-peach-edition"
         },
         {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "A sugarfree energy drink with the taste of Cherry and delicate floral and almond notes",
-            "sugarfree": true,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/18/sxstksruga9tebskonr4/the-red-bull-spring-edition-sugarfree",
-            "alt_text": "The Red Bull Spring Edition Sugarfree",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-spring-edition-sugarfree"
-        },
-        {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
             "flavor_description": "An energy drink with the taste of sudachi and lime, finished with light notes of Pomelo and citrus peel",
@@ -142,6 +122,16 @@
             "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-summer-edition-sugarfree"
         },
         {
+            "name": "The Cherry Edition",
+            "flavor": "Cherry-Blossom",
+            "flavor_description": "Red Bull Cherry Edition with the taste of Cherry Blossom and sakura with a hint of creamy almonds",
+            "sugarfree": false,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/22/lrhxi1a6lhjrf64u1kiv/red-bull-cherry-edition-image",
+            "alt_text": "Red Bull Cherry Edition - Image",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-cherry-edition"
+        },
+        {
             "name": "The Lilac Edition Sugarfree",
             "flavor": "Wildflower & Pink Grapefruit",
             "flavor_description": "A sugarfree energy drink offering the taste of Pink Grapefruit with a hint of herbs",
@@ -153,12 +143,19 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
-    "_raw_hash": "ad2d66e45d1d963743b0e52cf1c283b2f672a990d1a3ddcd17965c6eb8089c33",
+    "_raw_hash": "f60a1eb898b18da5dbff30052b1489287b0f17dbe7e06fd30f44399de26a98b8",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:pl-PL",
+            "name": "The Cherry Edition",
+            "flavor": "Cherry & Blossom",
+            "description": "Red Bull Cherry Edition with the taste of cherry blossom and sakura with a hint of creamy almonds.",
+            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-cherry-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL": "7c2603b0db36132344a2785ff0e6addac7375560c917591a8dbf182a13d2cf0b",
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:pl-PL": "5c2479cc695d6ee30136bcc368a267f7d4432d2cdd21270ab6d98c5160550d5b",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": "18aae4c9179c7310ded5ddd95e66b457a1627d6baec0a7554bbdad13678253df",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pl-PL": "7694217faa89e91e5855ca5052aaae19b17ef14d2d57312842e51d3814448117",
         "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:pl-PL": "6c57ac754730f7201a2f4d638fd173ab03c1035bc38d8092ed5c99a81e36fcc0",
@@ -168,9 +165,9 @@
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:pl-PL": "88cd66cbd356891654d6d69e0e8229ead1bd0f37b3036da2d1ed971ae2ff6cb2",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pl-PL": "e98570aa19fc5cfed2db784afde8ffca90b75e32652f39b4622cfa3cfbc3a198",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:pl-PL": "f837d879b3c29dba55eed517fcf62729b759e8c2254f1d3435dc12910acabf9d",
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:pl-PL": "1a0dbc88938cd4157212226b600af60b65bc8189a0b0dab994e1c9f3d19e3656",
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pl-PL": "df60cbb40d2ac096cb9145703364bffacb716436cd878bfbc00dafe0d05f08eb",
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:pl-PL": "e4e301eb9cf439c76119109458d9230965e53fff148dc63e36267b11813d08d4",
+        "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:pl-PL": "ac2ab4ae310aa09fceb60c2a9e7561489627011dd601b335ede9ce420bc15743",
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pl-PL": "4ceeae6067904aa1aec9275a99904e0ab8e491d1aec7301f81096050e2ccbd98"
     },
     "_normalized_editions": {
@@ -179,12 +176,6 @@
             "flavor": "Forest Berry",
             "flavor_description": "A sugarfree energy drink featuring the taste of Raspberry and Forest Fruits with herbal notes of verbena",
             "sugarfree": true
-        },
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:pl-PL": {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "An energy drink with the taste of Cherry complemented by delicate floral and almond notes",
-            "sugarfree": false
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": {
             "name": "The Ice Edition",
@@ -240,12 +231,6 @@
             "flavor_description": "An energy drink with the taste of White Peach, accented by citrus peel and floral notes",
             "sugarfree": false
         },
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:pl-PL": {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "A sugarfree energy drink with the taste of Cherry and delicate floral and almond notes",
-            "sugarfree": true
-        },
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pl-PL": {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
@@ -257,6 +242,12 @@
             "flavor": "Sudachi Lime",
             "flavor_description": "A sugarfree energy drink with the taste of sudachi and lime, finished with light notes of Pomelo and citrus peel",
             "sugarfree": true
+        },
+        "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:pl-PL": {
+            "name": "The Cherry Edition",
+            "flavor": "Cherry-Blossom",
+            "flavor_description": "Red Bull Cherry Edition with the taste of Cherry Blossom and sakura with a hint of creamy almonds",
+            "sugarfree": false
         },
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:pl-PL": {
             "name": "The Lilac Edition Sugarfree",
