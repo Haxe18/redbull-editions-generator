@@ -174,71 +174,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-AR",
-            "header_data": {
-                "content": {
-                    "title": "Winter Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/27/hzrpshsnq3buirq0x3kf/red-bull-winter-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#71C6D1",
-                                    "percentage": 20.6
-                                },
-                                {
-                                    "hexColorCode": "#CCD9DF",
-                                    "percentage": 4.4
-                                },
-                                {
-                                    "hexColorCode": "#050505",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#FCF9FA",
-                                    "percentage": 1.2
-                                },
-                                {
-                                    "hexColorCode": "#C5CBD4",
-                                    "percentage": 1.2
-                                },
-                                {
-                                    "hexColorCode": "#070607",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#7B858B",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Winter Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ar-es/energydrink/red-bull-winter-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": " Iced Vanilla Berry",
-                    "standfirst": "Red Bull Winter Edition con el excepcional sabor a arándanos, vainilla y notas frescas de eucalipto.",
-                    "brandingHexColorCode": "#53b2c2",
-                    "image": {
-                        "altText": "Red Bull Winter Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/27/hzrpshsnq3buirq0x3kf/red-bull-winter-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ar-es/energydrink/red-bull-winter-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-AR",
             "header_data": {
                 "content": {
@@ -405,5 +340,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-22T19:06:16.196868+00:00"
+    "collection_timestamp": "2026-07-24T07:41:09.266249+00:00"
 }

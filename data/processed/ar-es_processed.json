@@ -22,16 +22,6 @@
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
-            "name": "The Winter Edition",
-            "flavor": "Iced Vanilla Berry",
-            "flavor_description": "Red Bull Winter Edition with the exceptional taste of blueberries, Vanilla and fresh notes of eucalyptus",
-            "sugarfree": false,
-            "color": "#53b2c2",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/27/hzrpshsnq3buirq0x3kf/red-bull-winter-edition",
-            "alt_text": "Red Bull Winter Edition",
-            "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-winter-edition"
-        },
-        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
@@ -53,13 +43,12 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AR.svg",
-    "_raw_hash": "9a9f1ab0c72437813069921c9f3386d823d753329e9005b9b3009f61cc48ba40",
+    "_raw_hash": "f0d6ac1fbd339761ffa3cb5552db852615d104e4c35794bbb52329851e6a7c17",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR": "5b3f0c504c4a2f207f406600fa16b9697c0966f790d17d45fc55bbc18454cb1c",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-AR": "1dbe238a06a689d3ede99373f0e5d55cdad67c802990d37418ad101849c94d94",
-        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-AR": "32b94b36c359d96fd19e4c17a7397c08310b0de16c7713562a6520ca974fb2b4",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-AR": "41f98abe01d3dec1453d64853cbc2f49b47fec2c69c416a615b2f7c8b6ea48c3",
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-AR": "c35b4363f1bbfafb698cec4ab9088eb45907655428319203d06e4f49f353117e"
     },
@@ -74,12 +63,6 @@
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-AR": {
-            "name": "The Winter Edition",
-            "flavor": "Iced Vanilla Berry",
-            "flavor_description": "Red Bull Winter Edition with the exceptional taste of blueberries, Vanilla and fresh notes of eucalyptus",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-AR": {

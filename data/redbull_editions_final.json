@@ -113,16 +113,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/11/oomno7lam0wobt6gmzyw/red-bull-red-edition-image",
                 "alt_text": "Red Bull Red Edition - image",
                 "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-red-edition"
-            },
-            {
-                "name": "The Winter Edition",
-                "flavor": "Iced Vanilla Berry",
-                "flavor_description": "The Red Bull Winter Edition with the exceptional taste of blueberries, Vanilla and fresh notes of eucalyptus",
-                "sugarfree": false,
-                "color": "#53b2c2",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/27/hzrpshsnq3buirq0x3kf/red-bull-winter-edition",
-                "alt_text": "Red Bull Winter Edition",
-                "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-winter-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AR.svg"
