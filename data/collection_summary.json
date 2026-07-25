@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-07-24T08:02:57.309426+00:00",
+        "collection_date": "2026-07-25T07:47:48.673985+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -208,7 +208,7 @@
                 "de-de"
             ],
             "flag_code": "DE",
-            "editions_count": 14,
+            "editions_count": 15,
             "data_file": "de-de.json"
         },
         "Greece": {
