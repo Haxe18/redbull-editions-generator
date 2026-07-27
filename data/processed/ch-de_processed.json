@@ -32,16 +32,6 @@
             "product_url": "https://www.redbull.com/ch-de/energydrink/red-bull-pink-edition-sugarfree"
         },
         {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition with the taste of Cherry as well as notes of almond and floral Cherry Blossom",
-            "sugarfree": false,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/17/rnqcem7qnayclffwx5nd/spring-edition-2026",
-            "alt_text": "Spring Edition 2026",
-            "product_url": "https://www.redbull.com/ch-de/energydrink/products/red-bull-spring-edition"
-        },
-        {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
             "flavor_description": "The Red Bull Ice Edition: the energy drink with the extraordinary taste of blueberries, Vanilla and an icy fresh eucalyptus note",
@@ -153,14 +143,13 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CH.svg",
-    "_raw_hash": "d5c7873bae103b852922915e98018a53d66ead3c9458a1d1776a15f413839373",
+    "_raw_hash": "b66cb0f7f17dfaee9db9de5d4a8881acba74e278b3286b850cd4a35c552e7795",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:de-CH": "9347add15fe58c4367ec466d7e9d1fa0d31d515a95588ebf6d0e0be2480d5c31",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:de-CH": "82d5b1d192378d4e51b563ab7028089ce500f7031a70f64419613a647a972e76",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:de-CH": "903c4ca4ada3b98a172aa364fdd29ece0c36884bf45007277ea091e52c837437",
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:de-CH": "681f735bc810df027a95c5f017a66d2796c0d35e8aca4c74476d38fb74547933",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-CH": "5ad93ea0de017594cbe473210b952bb4c0e448e195b659dd91fcd4cfed78da03",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:de-CH": "71959432723a34f4708193e2eb494b74e28eea575c320cb11a39869038469f4b",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-CH": "dcb93de70cc6aab7a08313f484d9648c2af8a92ebd1689f6b0667f60c1854537",
@@ -191,12 +180,6 @@
             "flavor": "Forest Berry",
             "flavor_description": "The Red Bull Pink Edition with the fruity taste of forest berries",
             "sugarfree": true
-        },
-        "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:de-CH": {
-            "name": "The Spring Edition",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition with the taste of Cherry as well as notes of almond and floral Cherry Blossom",
-            "sugarfree": false
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:de-CH": {
             "name": "The Ice Edition",

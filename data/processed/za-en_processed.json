@@ -62,16 +62,6 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
-            "name": "The Yellow Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "The Red Bull Yellow Edition offers the taste of tropical",
-            "sugarfree": false,
-            "color": "#FFCD00",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/11/4/wamvu9vxg4agy6brlvbp/red-bull-yellow-edition-image",
-            "alt_text": "Red Bull Yellow Edition - image",
-            "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-yellow-edition"
-        },
-        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach with a touch of citrus peel and floral notes",
@@ -93,7 +83,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ZA.svg",
-    "_raw_hash": "13a21877acd7f44f11b2d57d65a0150799654cf15fe06ee31dbe851ab52f740b",
+    "_raw_hash": "b21b4c710b6381d66828a7126c13bc92159e6537e8d054c38e3d88d19c6cbb17",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
@@ -103,7 +93,6 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-ZA": "2ad0595497e4fc05062c1bad81429e183d79589f16b6d16838cf0a22f767c036",
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-ZA": "0983252c5cc2a504db8b20370584d0a50307fdc060d11c73b5faae56fac2c8de",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-ZA": "081ed6bef415ba94802f1f746980e87e8b0d90c10d10ff53676d22cfdadd362f",
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-ZA": "56f0e28c8d77505264f373b13e3d9f37ae369956b1a2ab0338075f43cd4429bd",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-ZA": "9648595d1731ce7c848f1c576d6879e04b49a7d7331527f73d3eb9fa875427b4",
         "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:en-ZA": "3763f48edabb7e23f8cba6b658c8c5acff0c591a61b25b0a786bfb34608d2dcd"
     },
@@ -143,12 +132,6 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true
-        },
-        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-ZA": {
-            "name": "The Yellow Edition",
-            "flavor": "Tropical Fruits",
-            "flavor_description": "The Red Bull Yellow Edition offers the taste of tropical",
-            "sugarfree": false
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-ZA": {
             "name": "The Peach Edition",
