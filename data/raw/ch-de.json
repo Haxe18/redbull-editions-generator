@@ -688,79 +688,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:de-CH",
-            "header_data": {
-                "content": {
-                    "title": "Spring Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/17/ryul7tbcx5v1bjog7lpz/the-red-bull-spring-edition-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E9ECEE",
-                                    "percentage": 16.9
-                                },
-                                {
-                                    "hexColorCode": "#FBF9F9",
-                                    "percentage": 7.4
-                                },
-                                {
-                                    "hexColorCode": "#BFC5CE",
-                                    "percentage": 2.3
-                                },
-                                {
-                                    "hexColorCode": "#FCFCFB",
-                                    "percentage": 1.8
-                                },
-                                {
-                                    "hexColorCode": "#D4163B",
-                                    "percentage": 1.4
-                                },
-                                {
-                                    "hexColorCode": "#51B0D9",
-                                    "percentage": 1.4
-                                },
-                                {
-                                    "hexColorCode": "#E5687F",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#757B7F",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#EEF2F0",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "The Red Bull Spring Edition Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-spring-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Kirsche-Sakura",
-                    "standfirst": "Die Red Bull Spring Edition Sugarfree mit dem Geschmack von Kirsche sowie Noten von Mandel und floraler Kirschblüte. ",
-                    "brandingHexColorCode": "#52abd6",
-                    "image": {
-                        "altText": "The Red Bull Spring Edition Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/2/17/ryul7tbcx5v1bjog7lpz/the-red-bull-spring-edition-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-spring-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:de-CH",
             "header_data": {
                 "content": {
@@ -887,5 +814,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-27T09:02:41.671367+00:00"
+    "collection_timestamp": "2026-07-29T08:10:15.442601+00:00"
 }

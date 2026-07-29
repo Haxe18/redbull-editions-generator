@@ -781,16 +781,6 @@
                 "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-cereja-edition"
             },
             {
-                "name": "The Maçã Edition Sugarfree",
-                "flavor": "Apple",
-                "flavor_description": "The Red Bull Apple Edition Sugarfree provides wings for your Carnival",
-                "sugarfree": true,
-                "color": "#AE132D",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/20/oa6cfnllu8bpbarc5crd/winter-edition-half-can",
-                "alt_text": "Maçã Edition half can",
-                "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-maca-edition-sugarfree"
-            },
-            {
                 "name": "The Melancia Edition",
                 "flavor": "Watermelon",
                 "flavor_description": "A refreshing energy drink with the taste of Watermelon",
@@ -5009,16 +4999,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/17/qgaag5arzjliwudwa1ke/red-bull-sea-blue-edition-image",
                 "alt_text": "Red Bull Sea Blue Edition - image",
                 "product_url": "https://www.redbull.com/ch-de/energydrink/red-bull-sea-blue-edition-juneberry"
-            },
-            {
-                "name": "The Spring Edition Sugarfree",
-                "flavor": "Cherry Sakura",
-                "flavor_description": "The Red Bull Spring Edition Sugarfree with the taste of Cherry as well as notes of almond and floral Cherry Blossom",
-                "sugarfree": true,
-                "color": "#52abd6",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/17/ryul7tbcx5v1bjog7lpz/the-red-bull-spring-edition-sugarfree",
-                "alt_text": "The Red Bull Spring Edition Sugarfree",
-                "product_url": "https://www.redbull.com/ch-de/energydrink/products/red-bull-spring-edition-sugarfree"
             },
             {
                 "name": "The Summer Edition",
