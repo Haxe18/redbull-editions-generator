@@ -8,6 +8,83 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK",
+            "header_data": {
+                "content": {
+                    "title": "Apple Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/10/xyekgfpguoboub5mtjgg/red-bull-apple-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#D95C62",
+                                    "percentage": 6
+                                },
+                                {
+                                    "hexColorCode": "#D9E4EB",
+                                    "percentage": 5.6
+                                },
+                                {
+                                    "hexColorCode": "#DFB253",
+                                    "percentage": 5.3
+                                },
+                                {
+                                    "hexColorCode": "#D6A11C",
+                                    "percentage": 4.7
+                                },
+                                {
+                                    "hexColorCode": "#C71F3B",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#DA8356",
+                                    "percentage": 3.3
+                                },
+                                {
+                                    "hexColorCode": "#C5CDD6",
+                                    "percentage": 3
+                                },
+                                {
+                                    "hexColorCode": "#CD6426",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#E2CBCA",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#6F7579",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Apple Edition - Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://redbull.com/hk-zh/energydrink/products/red-bull-apple-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Fuji Apple & Ginger",
+                    "standfirst": "RED BULL APPLE EDITION富士蘋果味—富士蘋果的清甜果香，遇上微辛的薑，交織出剛剛好的暖心滋味！",
+                    "brandingHexColorCode": "#ae132d",
+                    "image": {
+                        "altText": "Red Bull Apple Edition - Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/7/10/xyekgfpguoboub5mtjgg/red-bull-apple-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://redbull.com/hk-zh/energydrink/products/red-bull-apple-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK",
             "header_data": {
                 "content": {
@@ -325,5 +402,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-29T07:43:13.229947+00:00"
+    "collection_timestamp": "2026-07-31T08:17:17.328824+00:00"
 }

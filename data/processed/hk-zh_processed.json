@@ -2,6 +2,16 @@
     "flag": "🇭🇰",
     "editions": [
         {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "The sweet and fresh fruit aroma of Fuji Apples meets slightly spicy Ginger, creating a perfectly balanced and heartwarming taste",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/10/xyekgfpguoboub5mtjgg/red-bull-apple-edition-image",
+            "alt_text": "Red Bull Apple Edition - Image",
+            "product_url": "https://redbull.com/hk-zh/energydrink/products/red-bull-apple-edition"
+        },
+        {
             "name": "The Lilac Edition",
             "flavor": "Woodruff & Pink Grapefruit",
             "flavor_description": "Red Bull Lilac Edition brings out the delicate and refreshing sweetness of Pink Grapefruit, combined with the unique flavor of Woodruff",
@@ -53,10 +63,19 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
-    "_raw_hash": "21ae1a701b03972fc5e9c05ea3b970c62e5edc11c808e2c90acdbf033ddfaa3b",
+    "_raw_hash": "d4448d647d36916a96c8f15caca0e1619faa063e0878ec70bef4f89e458da7ab",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK",
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "description": "Red Bull Apple Edition Fuji Apple taste, the sweet and fresh fruit aroma of Fuji apples meets slightly spicy ginger, weaving together a just right heartwarming taste!",
+            "product_url": "https://redbull.com/hk-zh/energydrink/products/red-bull-apple-edition"
+        }
+    ],
     "_edition_fingerprints": {
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK": "a9c36bdfac665627c7b7375c0c8175502af77d105e6d04eb26e3e8e9ee0cfcdd",
         "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": "089307fef6d5b560da4eeb37be72b594ba8020ea9cf31cdd3e3e7e8296d8c72d",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": "dcfd2b3a164e09741f9c27a461520fd3afecfaed6c648e58c73fa88429969f1a",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK": "79014c77e00161a6e75ec92af184d7221fd5657b4e96ebacb9a2d6073e34960f",
@@ -64,6 +83,12 @@
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK": "f2dec31d0a63d8cdb7aa4edbb40f35876dab1e9cdbfdd5da41ee4183cf04f951"
     },
     "_normalized_editions": {
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK": {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "The sweet and fresh fruit aroma of Fuji Apples meets slightly spicy Ginger, creating a perfectly balanced and heartwarming taste",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": {
             "name": "The Lilac Edition",
             "flavor": "Woodruff & Pink Grapefruit",
