@@ -4156,5 +4156,12 @@
         "flavor_description": "The sweet and fresh fruit aroma of Fuji Apples meets slightly spicy Ginger, creating a perfectly balanced and heartwarming taste",
         "sugarfree": false,
         "fingerprint": "a9c36bdfac665627c7b7375c0c8175502af77d105e6d04eb26e3e8e9ee0cfcdd"
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:de-CH": {
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "The Red Bull Peach Edition with the taste of White Peach, a hint of citrus peel and delicate floral notes",
+        "sugarfree": false,
+        "fingerprint": "2d0b505d74eb9055dc1424ea0e756ec3c82dc8d73e4169e550dc2374ab0bdf54"
     }
 }
