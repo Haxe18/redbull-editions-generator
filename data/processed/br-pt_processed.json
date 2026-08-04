@@ -62,6 +62,16 @@
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
+            "name": "The Nectarina Edition Sugarfree",
+            "flavor": "Nectarine",
+            "flavor_description": "Red Bull Nectarine Edition with the taste of nectarine and sugarfree",
+            "sugarfree": true,
+            "color": "#e24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/4/m7ff1tos2bs9pfgub8eg/red-bull-nectarina-edition-sugarfree",
+            "alt_text": "Red Bull Nectarina SF",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-nectarina-edition-sugarfree"
+        },
+        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "flavor_description": "The classic Red Bull Energy Drink formula without sugar",
@@ -92,16 +102,6 @@
             "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-melao-edition"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "A refreshing energy drink with the taste of White Peach",
-            "sugarfree": false,
-            "color": "#E24585",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/10/13/e3ihgp5a1aasptfmh1o5/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "name": "The Apricot Edition",
             "flavor": "Strawberry & Peach",
             "flavor_description": "An energy drink featuring a perfect blend of Peach and Strawberry flavors",
@@ -113,9 +113,17 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BR.svg",
-    "_raw_hash": "489f82cffb74cdda794c441ec5e666e076a55842ef52712bd08993c967aaf59f",
+    "_raw_hash": "15ada347593732c5d26cc882fd8557189612c6e63673e649a430785657f1f747",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:8ebfdf4b-d28a-4f4a-b6b8-569b0340f874:pt-BR",
+            "name": "The Nectarina Edition Sugarfree",
+            "flavor": "Nectarina",
+            "description": "Red Bull Nectarina Edition with the taste of Nectarina and without sugar.",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-nectarina-edition-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR": "6dc3e636b502ee98fa8a82f8366c986ebd52831dd0e60070d7ccf4d11ab94b7a",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-BR": "d97c91bb1a4608e3fa8838685ed4de255b3a945a2757788c623c293d7ced56c3",
@@ -123,10 +131,10 @@
         "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:pt-BR": "4a94baba44e1874107331554678fa43dbe0de080a7b7120e9b230b98512954a1",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pt-BR": "6c20407bb97bf49fb17439dc5811019077a91351cdbbf18515def303fed72090",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pt-BR": "2c97b4032cab6c5e3f3903138f07d875a5e9f16b60276577c67202195c38e9d7",
+        "rrn:content:energy-drinks:8ebfdf4b-d28a-4f4a-b6b8-569b0340f874:pt-BR": "c7b83864b2a53eabf8ecb70c49e9fa18f679848bb36079c070196f675b83cf39",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-BR": "0f1b1fba3934fa0f4b20eed696a39e2b485985f034afd762e503b39390342d02",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-BR": "cbebed7ea54c40a530a9257dbeb234e60072ccb93b04aec51ee7663f4b54c5b1",
         "rrn:content:energy-drinks:e2b2d3e1-eed4-4a3b-a87e-8a97bc96c246:pt-BR": "3d2344bb3b1b5346e181289e443350879088e8e1a7dfb272392bfe3f0a8cd1f8",
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pt-BR": "977eddfc354f6a269eb7633cc7ebfe18786fd8ce3fd616655842ecbebf49110d",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR": "be77c365c5af26c23f61985b86a2fa5628d0107c587bed2754828a0e940d5853"
     },
     "_normalized_editions": {
@@ -166,6 +174,12 @@
             "flavor_description": "The classic Red Bull Energy Drink appreciated worldwide by athletes and professionals",
             "sugarfree": false
         },
+        "rrn:content:energy-drinks:8ebfdf4b-d28a-4f4a-b6b8-569b0340f874:pt-BR": {
+            "name": "The Nectarina Edition Sugarfree",
+            "flavor": "Nectarine",
+            "flavor_description": "Red Bull Nectarine Edition with the taste of nectarine and sugarfree",
+            "sugarfree": true
+        },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-BR": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
@@ -182,12 +196,6 @@
             "name": "The Melão Edition",
             "flavor": "Maracuja & Melon",
             "flavor_description": "An energy drink featuring the combined taste of passion fruit and Melon",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pt-BR": {
-            "name": "The Summer Edition",
-            "flavor": "White Peach",
-            "flavor_description": "A refreshing energy drink with the taste of White Peach",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR": {

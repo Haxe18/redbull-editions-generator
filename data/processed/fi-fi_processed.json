@@ -122,16 +122,6 @@
             "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-summer-edition-sugarfree"
         },
         {
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Woodruff & Pink Grapefruit",
-            "flavor_description": "A fresh energy drink with a taste of Pink Grapefruit and Woodruff",
-            "sugarfree": true,
-            "color": "#6952AD",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/4/8/s26wdggynkrua1wpmxb4/lilac-edition-sugarfree-wildflower-and-pink-grapefruit",
-            "alt_text": "Lilac-Edition-Sugarfree Wildflower-and-Pink Grapefruit",
-            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/lilac-edition-sugarfree"
-        },
-        {
             "name": "The Purple Edition",
             "flavor": "Forest Berry",
             "flavor_description": "Experience the wonderful taste of Forest Berry",
@@ -143,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FI.svg",
-    "_raw_hash": "d394dc9c245183d48b5608ab5c7b12d4e64a3f085e352f654aab77e7be209970",
+    "_raw_hash": "82d22c7a4f2a2adad34935c50434faf22127e8d53a9be9d9d1fad3cec066c37e",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
@@ -159,7 +149,6 @@
         "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:fi-FI": "0cd85ad9e4089e8f3a14fe4a1a47165988a362322a6c70d89073968a598f0788",
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fi-FI": "43f662d4c52fb5dbec5b3cce2add0c384dbf3a0d35a9bb015ca116cb1eb66caf",
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:fi-FI": "e292634f3e8fc1a322c7f81a0cec91f12e5399878cb293732933f9ebe1dda786",
-        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:fi-FI": "6540efa31db5705742a38a9fdf4cf39e1354502f286d1588c66a6326198d4a34",
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:fi-FI": "4e62964fc1747b10648d3c3cd95b1bdab72ab7c73f4aa3d4d5e2bbffebc6793e"
     },
     "_normalized_editions": {
@@ -233,12 +222,6 @@
             "name": "The Summer Edition Sugarfree",
             "flavor": "Sudachi Lime",
             "flavor_description": "Red Bull Summer Edition Sugarfree with a taste of Sudachi and lime, with a hint of Pomelo and citrus peel",
-            "sugarfree": true
-        },
-        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:fi-FI": {
-            "name": "The Lilac Edition Sugarfree",
-            "flavor": "Woodruff & Pink Grapefruit",
-            "flavor_description": "A fresh energy drink with a taste of Pink Grapefruit and Woodruff",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:fi-FI": {

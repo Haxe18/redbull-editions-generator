@@ -394,6 +394,63 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:8ebfdf4b-d28a-4f4a-b6b8-569b0340f874:pt-BR",
+            "header_data": {
+                "content": {
+                    "title": "The Nectarina Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/4/m7ff1tos2bs9pfgub8eg/red-bull-nectarina-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E25C94",
+                                    "percentage": 15.7
+                                },
+                                {
+                                    "hexColorCode": "#D32470",
+                                    "percentage": 9.1
+                                },
+                                {
+                                    "hexColorCode": "#D9E5E9",
+                                    "percentage": 4.7
+                                },
+                                {
+                                    "hexColorCode": "#C4CBD5",
+                                    "percentage": 2
+                                },
+                                {
+                                    "hexColorCode": "#50B0DA",
+                                    "percentage": 1.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Nectarina SF"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-nectarina-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Nectarina",
+                    "standfirst": "Red Bull Nectarina Edition com o sabor de Nectarina e sem açúcar.           ",
+                    "brandingHexColorCode": "#e24585",
+                    "image": {
+                        "altText": "Red Bull Nectarina SF",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/4/m7ff1tos2bs9pfgub8eg/red-bull-nectarina-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-nectarina-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-BR",
             "header_data": {
                 "content": {
@@ -585,63 +642,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:pt-BR",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/13/e3ihgp5a1aasptfmh1o5/red-bull-summer-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E25B93",
-                                    "percentage": 15.4
-                                },
-                                {
-                                    "hexColorCode": "#D32671",
-                                    "percentage": 9.3
-                                },
-                                {
-                                    "hexColorCode": "#D9E5EA",
-                                    "percentage": 5.2
-                                },
-                                {
-                                    "hexColorCode": "#C1C8D3",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#F5EEF1",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-summer-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "White Peach",
-                    "standfirst": "Aaasas para o seu verão: Energia com o sabor de Nectarina",
-                    "brandingHexColorCode": "#E24585",
-                    "image": {
-                        "altText": "Red Bull Summer Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/10/13/e3ihgp5a1aasptfmh1o5/red-bull-summer-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-summer-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
             "header_data": {
                 "content": {
@@ -707,5 +707,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-29T07:54:41.089481+00:00"
+    "collection_timestamp": "2026-08-04T07:50:29.633023+00:00"
 }

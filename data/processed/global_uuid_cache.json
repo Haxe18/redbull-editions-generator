@@ -4163,5 +4163,12 @@
         "flavor_description": "The Red Bull Peach Edition with the taste of White Peach, a hint of citrus peel and delicate floral notes",
         "sugarfree": false,
         "fingerprint": "2d0b505d74eb9055dc1424ea0e756ec3c82dc8d73e4169e550dc2374ab0bdf54"
+    },
+    "rrn:content:energy-drinks:8ebfdf4b-d28a-4f4a-b6b8-569b0340f874:pt-BR": {
+        "name": "The Nectarina Edition Sugarfree",
+        "flavor": "Nectarine",
+        "flavor_description": "Red Bull Nectarine Edition with the taste of nectarine and sugarfree",
+        "sugarfree": true,
+        "fingerprint": "c7b83864b2a53eabf8ecb70c49e9fa18f679848bb36079c070196f675b83cf39"
     }
 }

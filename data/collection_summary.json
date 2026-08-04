@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-08-03T09:03:39.995042+00:00",
+        "collection_date": "2026-08-04T08:09:48.601309+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -190,7 +190,7 @@
                 "fi-fi"
             ],
             "flag_code": "FI",
-            "editions_count": 14,
+            "editions_count": 13,
             "data_file": "fi-fi.json"
         },
         "France": {

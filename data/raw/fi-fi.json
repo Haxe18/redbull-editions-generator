@@ -756,59 +756,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:fi-FI",
-            "header_data": {
-                "content": {
-                    "title": "Lilac Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/8/s26wdggynkrua1wpmxb4/lilac-edition-sugarfree-wildflower-and-pink-grapefruit",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#9A7ADD",
-                                    "percentage": 23.7
-                                },
-                                {
-                                    "hexColorCode": "#D9E1E8",
-                                    "percentage": 3.9
-                                },
-                                {
-                                    "hexColorCode": "#C0C3D6",
-                                    "percentage": 3.9
-                                },
-                                {
-                                    "hexColorCode": "#E7F2E9",
-                                    "percentage": 0.8
-                                }
-                            ]
-                        },
-                        "altText": "Lilac-Edition-Sugarfree Wildflower-and-Pink Grapefruit"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/fi-fi/energydrink/products/lilac-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Wildflower-and-Pink Grapefruit",
-                    "standfirst": "Raikas verigreipin- ja tuoksumataranmakuinen energiajuoma",
-                    "brandingHexColorCode": "#6952AD",
-                    "image": {
-                        "altText": "Lilac-Edition-Sugarfree Wildflower-and-Pink Grapefruit",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/4/8/s26wdggynkrua1wpmxb4/lilac-edition-sugarfree-wildflower-and-pink-grapefruit"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/fi-fi/energydrink/products/lilac-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:fi-FI",
             "header_data": {
                 "content": {
@@ -870,5 +817,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-03T20:07:35.665924+00:00"
+    "collection_timestamp": "2026-08-04T07:55:10.895654+00:00"
 }
