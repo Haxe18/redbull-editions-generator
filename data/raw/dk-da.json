@@ -16,27 +16,27 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/22/gmitus2s99nujla1re2f/red-bull-pink-edition-sugarfree",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/7/flnoiufttbyqovydaro9/red-bull-pink-edition-sugarfree",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#E07FB1",
-                                    "percentage": 22.7
+                                    "hexColorCode": "#DF7DB0",
+                                    "percentage": 20.8
                                 },
                                 {
-                                    "hexColorCode": "#DAE3E9",
-                                    "percentage": 5.1
+                                    "hexColorCode": "#D8E2E8",
+                                    "percentage": 4.5
                                 },
                                 {
-                                    "hexColorCode": "#C1C8D3",
-                                    "percentage": 2.5
+                                    "hexColorCode": "#BFC6D1",
+                                    "percentage": 2.3
                                 },
                                 {
-                                    "hexColorCode": "#E274AA",
-                                    "percentage": 1.6
+                                    "hexColorCode": "#E67BAF",
+                                    "percentage": 1.1
                                 },
                                 {
-                                    "hexColorCode": "#E6BCD5",
-                                    "percentage": 1
+                                    "hexColorCode": "#E5BCD5",
+                                    "percentage": 0.8
                                 }
                             ]
                         },
@@ -55,7 +55,7 @@
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/1/22/gmitus2s99nujla1re2f/red-bull-pink-edition-sugarfree"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/7/flnoiufttbyqovydaro9/red-bull-pink-edition-sugarfree"
                         }
                     },
                     "reference": {
@@ -683,5 +683,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-09T06:55:15.426981+00:00"
+    "collection_timestamp": "2026-08-08T06:00:02.354549+00:00"
 }
