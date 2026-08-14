@@ -4170,5 +4170,19 @@
         "flavor_description": "Red Bull Nectarine Edition with the taste of nectarine and sugarfree",
         "sugarfree": true,
         "fingerprint": "c7b83864b2a53eabf8ecb70c49e9fa18f679848bb36079c070196f675b83cf39"
+    },
+    "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:pl-PL": {
+        "name": "The Coconut Edition",
+        "flavor": "Coconut",
+        "flavor_description": "Red Bull Coconut Edition with the taste of Coconut and berries",
+        "sugarfree": false,
+        "fingerprint": "1b2640fcc55ed935946e4fe412cbbac88c1cea3ad525f8962d3c466f93b442a0"
+    },
+    "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:pl-PL": {
+        "name": "The Coconut Edition Sugarfree",
+        "flavor": "Coconut",
+        "flavor_description": "Red Bull Coconut Edition Sugarfree with the taste of Coconut and berries",
+        "sugarfree": true,
+        "fingerprint": "58794639e917513a1ab1b33c36a7aab091540347d10b3b02960e4a956361c459"
     }
 }

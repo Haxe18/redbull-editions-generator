@@ -258,7 +258,7 @@
                     "image": {
                         "altText": "Red Bull Energy Drink",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/12/mi196vao1z8nzun2plbl/red-bull-energy-drink"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/13/dcmpm80bea94873qby4e/red-bull-energy-drink"
                         }
                     },
                     "reference": {
@@ -394,5 +394,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-08-13T06:48:09.032322+00:00"
+    "collection_timestamp": "2026-08-14T06:45:43.061413+00:00"
 }

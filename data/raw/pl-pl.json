@@ -8,6 +8,63 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:pl-PL",
+            "header_data": {
+                "content": {
+                    "title": "Coconut Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/12/dduolongtnrnsspbjmur/red-bull-coconut-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E7E8E9",
+                                    "percentage": 15.1
+                                },
+                                {
+                                    "hexColorCode": "#FBFAFA",
+                                    "percentage": 7.9
+                                },
+                                {
+                                    "hexColorCode": "#85898B",
+                                    "percentage": 5
+                                },
+                                {
+                                    "hexColorCode": "#F2F2F4",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#FBFBFA",
+                                    "percentage": 1.4
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Coconut Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-coconut-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Coconut",
+                    "standfirst": "Red Bull Coconut Edition o smaku kokosa i jagód. ",
+                    "brandingHexColorCode": "#0070b8",
+                    "image": {
+                        "altText": "Red Bull Coconut Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/12/dduolongtnrnsspbjmur/red-bull-coconut-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-coconut-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL",
             "header_data": {
                 "content": {
@@ -389,6 +446,67 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/pl-pl/energydrink/red-bull-purple-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:pl-PL",
+            "header_data": {
+                "content": {
+                    "title": "Coconut Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/12/ijwxyk4udq2vvcl529ty/coconut-edition-sugarfree-half-can",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E7E8E9",
+                                    "percentage": 13.7
+                                },
+                                {
+                                    "hexColorCode": "#FBFAFA",
+                                    "percentage": 8.9
+                                },
+                                {
+                                    "hexColorCode": "#868A8C",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#F2F2F4",
+                                    "percentage": 3.9
+                                },
+                                {
+                                    "hexColorCode": "#51AED8",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#FCFCFA",
+                                    "percentage": 1.4
+                                }
+                            ]
+                        },
+                        "altText": "Coconut Edition Sugarfree half can"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/red-bull-coconut-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Coconut",
+                    "standfirst": "Red Bull Coconut Edition Sugarfree o smaku kokosa i jagód. ",
+                    "brandingHexColorCode": "#0070b8",
+                    "image": {
+                        "altText": "Coconut Edition Sugarfree half can",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/12/ijwxyk4udq2vvcl529ty/coconut-edition-sugarfree-half-can"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/red-bull-coconut-edition-sugarfree"
                     }
                 }
             }
@@ -878,5 +996,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-23T07:59:15.139278+00:00"
+    "collection_timestamp": "2026-08-14T06:53:25.568467+00:00"
 }
