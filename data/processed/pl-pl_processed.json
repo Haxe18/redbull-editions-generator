@@ -3,7 +3,7 @@
     "editions": [
         {
             "name": "The Coconut Edition",
-            "flavor": "Coconut",
+            "flavor": "Coconut-Blueberry",
             "flavor_description": "Red Bull Coconut Edition with the taste of Coconut and berries",
             "sugarfree": false,
             "color": "#0070b8",
@@ -202,7 +202,7 @@
     "_normalized_editions": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:pl-PL": {
             "name": "The Coconut Edition",
-            "flavor": "Coconut",
+            "flavor": "Coconut-Blueberry",
             "flavor_description": "Red Bull Coconut Edition with the taste of Coconut and berries",
             "sugarfree": false
         },
