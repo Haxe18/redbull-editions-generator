@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-08-15T06:00:41.162754+00:00",
+        "collection_date": "2026-08-18T06:04:30.565398+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -100,7 +100,7 @@
                 "ca-fr"
             ],
             "flag_code": "CA",
-            "editions_count": 14,
+            "editions_count": 15,
             "data_file": "ca-en.json"
         },
         "Caribbean": {

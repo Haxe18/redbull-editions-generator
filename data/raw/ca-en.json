@@ -925,7 +925,88 @@
                     }
                 }
             }
+        },
+        {
+            "id": "rrn:content:energy-drinks:f357263c-df51-4a94-8eb4-a1d0b13d88a5:en-CA",
+            "header_data": {
+                "content": {
+                    "title": "Apple Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/17/xalnbotqwjve2gclpkor/red-bull-apple-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#D9595F",
+                                    "percentage": 6
+                                },
+                                {
+                                    "hexColorCode": "#DFB254",
+                                    "percentage": 5.1
+                                },
+                                {
+                                    "hexColorCode": "#D6A21B",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#DAE4EB",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#C8203C",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#DA8456",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C4CCD6",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#F2EEED",
+                                    "percentage": 1.7
+                                },
+                                {
+                                    "hexColorCode": "#CD6427",
+                                    "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#0F0F0F",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#6F7578",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Apple Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-apple-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Apple & Ginger",
+                    "standfirst": "Red Bull Apple Edition: the Energy Drink with the taste of Fuji apples and the warm spiciness of ginger.*",
+                    "brandingHexColorCode": "#ae132d",
+                    "image": {
+                        "altText": "Red Bull Apple Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/17/xalnbotqwjve2gclpkor/red-bull-apple-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ca-en/energydrink/products/red-bull-apple-edition"
+                    }
+                }
+            }
         }
     ],
-    "collection_timestamp": "2026-05-03T20:04:22.507394+00:00"
+    "collection_timestamp": "2026-08-18T05:46:36.279849+00:00"
 }

@@ -4205,5 +4205,12 @@
         "flavor_description": "Red Bull Cherry Edition features the distinct taste of Cherry and sakura with subtle notes of almond",
         "sugarfree": false,
         "fingerprint": "35f3f2bcb00fb402732997fa563d68278967d696d6fc9d4bb2846e99c74c679f"
+    },
+    "rrn:content:energy-drinks:f357263c-df51-4a94-8eb4-a1d0b13d88a5:en-CA": {
+        "name": "The Apple Edition",
+        "flavor": "Fuji Apple & Ginger",
+        "flavor_description": "Red Bull Apple Edition features the crisp taste of Fuji Apples combined with the warm spiciness of Ginger",
+        "sugarfree": false,
+        "fingerprint": "230c2e89af439bc34cf253043843de5cadec9b21b127277cac37b87230840eb9"
     }
 }
