@@ -20,15 +20,34 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/ap8b1ymuo2xsrpu2n0i1/red-bull-sugarfree-image",
             "alt_text": "Red Bull Sugarfree - image",
             "product_url": "https://www.redbull.com/ph-en/energydrink/red-bull-sugarfree"
+        },
+        {
+            "name": "The Purple Edition",
+            "flavor": "Kyoho Grape",
+            "flavor_description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste",
+            "sugarfree": false,
+            "color": "#702082",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/18/fm5t7e7vjyfryeclad9s/red-bull-the-purple-edition",
+            "alt_text": "Red Bull The Purple Edition",
+            "product_url": "https://www.redbull.com/ph-en/energydrink/products/red-bull-purple-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PH.svg",
-    "_raw_hash": "432b330586de188432868f6ad7ab224aa552bec6ffa82ad739050dcc2d59f8a2",
+    "_raw_hash": "4366989a257e13497a0b71e45ae6949abc694a7ecec87b78c750890a790eb9b2",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH",
+            "name": "The Purple Edition",
+            "flavor": "Kyoho Grape",
+            "description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste.",
+            "product_url": "https://www.redbull.com/ph-en/energydrink/products/red-bull-purple-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": "58746d7295c4df8eb0575677420e104463bf273477f3cd041c4d702e0656af9d",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH": "24bd11c805d8d07664d4c1d08d844db790562926d272c6b1eaf3fb184d686074"
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH": "24bd11c805d8d07664d4c1d08d844db790562926d272c6b1eaf3fb184d686074",
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH": "259f6b7d0e59991509fbc84d3502a3a2020aa55f3dcfd09a95c42dff1c44bcb8"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": {
@@ -42,6 +61,12 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true
+        },
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH": {
+            "name": "The Purple Edition",
+            "flavor": "Kyoho Grape",
+            "flavor_description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste",
+            "sugarfree": false
         }
     }
 }

@@ -4212,5 +4212,12 @@
         "flavor_description": "Red Bull Apple Edition features the crisp taste of Fuji Apples combined with the warm spiciness of Ginger",
         "sugarfree": false,
         "fingerprint": "230c2e89af439bc34cf253043843de5cadec9b21b127277cac37b87230840eb9"
+    },
+    "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH": {
+        "name": "The Purple Edition",
+        "flavor": "Kyoho Grape",
+        "flavor_description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste",
+        "sugarfree": false,
+        "fingerprint": "259f6b7d0e59991509fbc84d3502a3a2020aa55f3dcfd09a95c42dff1c44bcb8"
     }
 }

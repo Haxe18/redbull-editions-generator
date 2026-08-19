@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-08-18T06:04:30.565398+00:00",
+        "collection_date": "2026-08-19T06:05:40.200008+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -435,7 +435,7 @@
                 "ph-en"
             ],
             "flag_code": "PH",
-            "editions_count": 2,
+            "editions_count": 3,
             "data_file": "ph-en.json"
         },
         "Poland": {
