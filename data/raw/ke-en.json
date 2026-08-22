@@ -207,18 +207,18 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/gsdszu3du4hvwm1d7eyt/the-amber-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/21/faayeknepkxbcjesr9cq/the-amber-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#EF7A16",
-                                    "percentage": 10.6
+                                    "hexColorCode": "#EF7A17",
+                                    "percentage": 10.7
                                 },
                                 {
                                     "hexColorCode": "#F1860F",
-                                    "percentage": 9.4
+                                    "percentage": 9.1
                                 },
                                 {
-                                    "hexColorCode": "#D7E1E9",
+                                    "hexColorCode": "#D7E2E9",
                                     "percentage": 4.5
                                 },
                                 {
@@ -226,7 +226,7 @@
                                     "percentage": 3.4
                                 },
                                 {
-                                    "hexColorCode": "#C0C9D3",
+                                    "hexColorCode": "#C1C9D4",
                                     "percentage": 2.8
                                 },
                                 {
@@ -250,7 +250,7 @@
                     "image": {
                         "altText": "The Amber Edition image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/gsdszu3du4hvwm1d7eyt/the-amber-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/21/faayeknepkxbcjesr9cq/the-amber-edition-image"
                         }
                     },
                     "reference": {
@@ -260,5 +260,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-22T07:52:49.067931+00:00"
+    "collection_timestamp": "2026-08-22T05:50:25.066494+00:00"
 }
