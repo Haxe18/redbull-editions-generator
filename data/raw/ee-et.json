@@ -126,71 +126,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:et-EE",
-            "header_data": {
-                "content": {
-                    "title": "Red Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/kcantfvwmap5yokrjwbt/red-bull-red-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#C53329",
-                                    "percentage": 16.8
-                                },
-                                {
-                                    "hexColorCode": "#D0D2D7",
-                                    "percentage": 5.7
-                                },
-                                {
-                                    "hexColorCode": "#D05149",
-                                    "percentage": 5.5
-                                },
-                                {
-                                    "hexColorCode": "#99271C",
-                                    "percentage": 3
-                                },
-                                {
-                                    "hexColorCode": "#E7ECEF",
-                                    "percentage": 1.4
-                                },
-                                {
-                                    "hexColorCode": "#983E34",
-                                    "percentage": 1.2
-                                },
-                                {
-                                    "hexColorCode": "#048D3B",
-                                    "percentage": 1.1
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Red Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ee-et/energydrink/red-bull-red-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition värske arbuusi maitsega.",
-                    "brandingHexColorCode": "#e03c31",
-                    "image": {
-                        "altText": "Red Bull Red Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/6/12/kcantfvwmap5yokrjwbt/red-bull-red-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ee-et/energydrink/red-bull-red-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:et-EE",
             "header_data": {
                 "content": {
@@ -882,5 +817,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-22T07:48:53.467750+00:00"
+    "collection_timestamp": "2026-08-26T05:54:56.795920+00:00"
 }

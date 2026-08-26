@@ -22,16 +22,6 @@
             "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-sea-blue-edition"
         },
         {
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "flavor_description": "Red Bull Red Edition with a fresh Watermelon taste",
-            "sugarfree": false,
-            "color": "#e03c31",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/kcantfvwmap5yokrjwbt/red-bull-red-edition-image",
-            "alt_text": "Red Bull Red Edition - image",
-            "product_url": "https://www.redbull.com/ee-et/energydrink/red-bull-red-edition"
-        },
-        {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
             "flavor_description": "Red Bull Ice Edition: Energy drink with Blueberry, Vanilla and iced fresh eucalyptus notes",
@@ -143,13 +133,12 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EE.svg",
-    "_raw_hash": "9b0998d4317cc070ebb64582372675c7a29f4359da127d62a17a039bdb561920",
+    "_raw_hash": "b02a963ecdaac657fdf576c15bebba9f2dba758ddeefef55221feebf1ab30e15",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:et-EE": "6ab1c27d9e4d89dc74af4983f845da7d603cb3e679a875cd8b901006f484e1d4",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:et-EE": "1fdfd5d25528ac49a07960bac57a2707d4aa6847803e850809a145a2668b0845",
-        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:et-EE": "e3d4a9bae121531380578ffaf18c41b073708cbfe5e5ebb24cbf36cb157329c0",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:et-EE": "015770c4f088c568817a1df0f78c2c96a7620fbf48c42b15c1d6ed28e859072e",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:et-EE": "72a5ae7a980aeb2a213a707e36ce0d8708fa5347dfbd6e355f037df7f0931bf0",
         "rrn:content:energy-drinks:7fb8538f-2111-4fa9-9c59-6297145e92bd:et-EE": "d6497af9ca9d30fcf205aefeaa22ed893c01fe3d0de4d02119d3846336828673",
@@ -173,12 +162,6 @@
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
             "flavor_description": "Red Bull Sea Blue Edition with an exciting Juneberry taste",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:et-EE": {
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "flavor_description": "Red Bull Red Edition with a fresh Watermelon taste",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:et-EE": {

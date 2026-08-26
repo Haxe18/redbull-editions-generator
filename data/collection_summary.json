@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-08-22T06:01:20.190704+00:00",
+        "collection_date": "2026-08-26T06:11:10.251653+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -181,7 +181,7 @@
                 "ee-et"
             ],
             "flag_code": "EE",
-            "editions_count": 13,
+            "editions_count": 12,
             "data_file": "ee-et.json"
         },
         "Finland": {
