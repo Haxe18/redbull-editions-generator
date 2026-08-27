@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-sea-blue-edition"
         },
         {
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree features notes of juicy Cherry, floral Cherry Blossom, and creamy almond",
+            "sugarfree": true,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/7/obrgku1zafwvfpk0appz/the-cherry-edition-sugarfree",
+            "alt_text": "The Cherry Edition Sugarfree",
+            "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-cherry-edition-sugarfree"
+        },
+        {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
             "flavor_description": "Red Bull Ice Edition: Energy drink with Blueberry, Vanilla and iced fresh eucalyptus notes",
@@ -102,16 +112,6 @@
             "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-peach-edition"
         },
         {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition Sugarfree with Cherry taste and almond and Cherry Blossom notes",
-            "sugarfree": true,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/6/1/fqgdchwnc2crjmaqmlco/the-red-bull-spring-edition-sugarfree",
-            "alt_text": "The Red Bull Spring Edition Sugarfree",
-            "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-spring-edition-sugarfree"
-        },
-        {
             "name": "The Summer Edition Sugarfree",
             "flavor": "Sudachi Lime",
             "flavor_description": "Red Bull Summer Edition Sugarfree gives you Wings with a zesty sudachi and lime taste",
@@ -133,12 +133,21 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-EE.svg",
-    "_raw_hash": "b02a963ecdaac657fdf576c15bebba9f2dba758ddeefef55221feebf1ab30e15",
+    "_raw_hash": "48a33fd7bdf4a4d76a05fc2210e42fe0181b5bbb372bd98724586dc5156c4a9f",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:et-EE",
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry",
+            "description": "Red Bull Cherry Edition Sugarfree with notes of juicy cherry, floral cherry blossom and creamy almond.",
+            "product_url": "https://www.redbull.com/ee-et/energydrink/products/red-bull-cherry-edition-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:et-EE": "6ab1c27d9e4d89dc74af4983f845da7d603cb3e679a875cd8b901006f484e1d4",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:et-EE": "1fdfd5d25528ac49a07960bac57a2707d4aa6847803e850809a145a2668b0845",
+        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:et-EE": "03f2ffd6f6cf03aaedd0933cb4f7555619af20496201045ed3d54b222c362d28",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:et-EE": "015770c4f088c568817a1df0f78c2c96a7620fbf48c42b15c1d6ed28e859072e",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:et-EE": "72a5ae7a980aeb2a213a707e36ce0d8708fa5347dfbd6e355f037df7f0931bf0",
         "rrn:content:energy-drinks:7fb8538f-2111-4fa9-9c59-6297145e92bd:et-EE": "d6497af9ca9d30fcf205aefeaa22ed893c01fe3d0de4d02119d3846336828673",
@@ -147,7 +156,6 @@
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:et-EE": "aededc6ccf054dc35041eff9894c979192983a23965bc5df26c08c40b013f4fd",
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:et-EE": "ab9c5a785922ed22824b17a72f1598510fc0ee117648df251c4a627f84bf24a2",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:et-EE": "6a759311d5dcf3e954a206aa066385ba7dab20dc7a9fdcf400a48b16d7d3c7f0",
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:et-EE": "4eaa268b4f6fc3dfed130f8bcf1322ce5a333def146f61b52ae971c001eabbba",
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:et-EE": "a1ce69cb3f86ddef0e1dc640968a95d26b44ae296e9ff8368a689d0d7462c6f9",
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:et-EE": "ed9c92ad47854266195e2f8983873690db3614bd4aea5344374d3481a9c6b5eb"
     },
@@ -163,6 +171,12 @@
             "flavor": "Juneberry",
             "flavor_description": "Red Bull Sea Blue Edition with an exciting Juneberry taste",
             "sugarfree": false
+        },
+        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:et-EE": {
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree features notes of juicy Cherry, floral Cherry Blossom, and creamy almond",
+            "sugarfree": true
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:et-EE": {
             "name": "The Ice Edition",
@@ -211,12 +225,6 @@
             "flavor": "White Peach",
             "flavor_description": "Red Bull Peach Edition: Energy drink with a fresh Peach and nectarine taste",
             "sugarfree": false
-        },
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:et-EE": {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Edition Sugarfree with Cherry taste and almond and Cherry Blossom notes",
-            "sugarfree": true
         },
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:et-EE": {
             "name": "The Summer Edition Sugarfree",

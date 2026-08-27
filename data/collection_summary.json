@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-08-26T06:11:10.251653+00:00",
+        "collection_date": "2026-08-27T16:51:41.780114+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -118,7 +118,7 @@
                 "cl-es"
             ],
             "flag_code": "CL",
-            "editions_count": 11,
+            "editions_count": 13,
             "data_file": "cl-es.json"
         },
         "China": {
@@ -181,7 +181,7 @@
                 "ee-et"
             ],
             "flag_code": "EE",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "ee-et.json"
         },
         "Finland": {

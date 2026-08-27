@@ -4219,5 +4219,26 @@
         "flavor_description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste",
         "sugarfree": false,
         "fingerprint": "259f6b7d0e59991509fbc84d3502a3a2020aa55f3dcfd09a95c42dff1c44bcb8"
+    },
+    "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:es-CL": {
+        "name": "The Spring Edition",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Spring Edition with Cherry taste, notes of almond and Cherry Blossom",
+        "sugarfree": false,
+        "fingerprint": "117a37bade90c8f5ea5243312b15973e6bb0302a5afc57a0a6993946711724b2"
+    },
+    "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:es-CL": {
+        "name": "The Spring Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Spring Edition with Cherry taste, notes of almond and Cherry Blossom",
+        "sugarfree": true,
+        "fingerprint": "c6a5433c3d773a87b1b801c4e7e79bd91035d81968ec6f10186922e05f5e8551"
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:et-EE": {
+        "name": "The Cherry Edition Sugarfree",
+        "flavor": "Cherry",
+        "flavor_description": "Red Bull Cherry Edition Sugarfree features notes of juicy Cherry, floral Cherry Blossom, and creamy almond",
+        "sugarfree": true,
+        "fingerprint": "03f2ffd6f6cf03aaedd0933cb4f7555619af20496201045ed3d54b222c362d28"
     }
 }
