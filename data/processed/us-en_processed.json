@@ -42,6 +42,16 @@
             "product_url": "https://www.redbull.com/us-en/energydrink/red-bull-red-edition"
         },
         {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "The Red Bull Apple Edition with the taste of Fuji Apples and the warm spiciness of Ginger",
+            "sugarfree": false,
+            "color": "#ae132d",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/17/cjrxnievcaiwbmow2c8g/red-bull-apple-edition-image",
+            "alt_text": "Red Bull Apple Edition - Image",
+            "product_url": "https://redbull.com/us-en/energydrink/products/red-bull-apple-edition"
+        },
+        {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
             "flavor_description": "The Red Bull Ice Edition with the taste of Blueberry, Vanilla and icy fresh notes of eucalyptus",
@@ -173,14 +183,23 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-US.svg",
-    "_raw_hash": "2fbb208d1188321ef15fc840553ca6ba6ec4a8ba186d722c1213a6a4d64508fd",
+    "_raw_hash": "a6dd4e524c483e0ecf1388a034252d846f47801341669f46a3b35f0bc3af3476",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-US",
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "description": "The Red Bull Apple Edition with the taste of Fuji apples and the warm spiciness of ginger.",
+            "product_url": "https://redbull.com/us-en/energydrink/products/red-bull-apple-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-US": "5d682e7030e84b292bce3032beeb82ed6e21ddf7685023aabd37b4d07a381df7",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-US": "df8e76e9bc8d736915562b342137e58dc16fe1be57df4b3df52c5dfd713b7691",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-US": "fa0d1c01e5b2a5a1ae9ba8de39113611c6078e664fb88340a46a41193600a746",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-US": "40b1176e0a89558aef0d3e57e45aeccfa61fe350ac4f6512409a3e729831d0b5",
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-US": "5c2fd0c5826af3d83d411aeefbb7cdeaf419eb6ef94343fb2e3f27582b4a9e92",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-US": "b84794b42b068cdeed524368bcd24535e219268d5474a29c82157d2268f8b01b",
         "rrn:content:energy-drinks:5380482f-630c-48b1-b366-38b78582b57b:en-US": "b1547a024d926d96976b842589467191f6735cd855f0be152021af2fec7f7e24",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-US": "e128ce05e43fd7febfa64095c6f3825726fb9a783da0dd8e68963ef705d93f01",
@@ -218,6 +237,12 @@
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "The Red Bull Red Edition with the taste of Watermelon",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-US": {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "The Red Bull Apple Edition with the taste of Fuji Apples and the warm spiciness of Ginger",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-US": {

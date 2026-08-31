@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-08-27T16:51:41.780114+00:00",
+        "collection_date": "2026-08-31T11:55:06.530414+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -581,7 +581,7 @@
                 "us-en"
             ],
             "flag_code": "US",
-            "editions_count": 17,
+            "editions_count": 18,
             "data_file": "us-en.json"
         }
     }
