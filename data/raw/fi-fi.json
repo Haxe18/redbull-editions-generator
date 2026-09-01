@@ -77,39 +77,39 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/dqvbxrbrph984f9pnc6q/the-cherry-edition-sugarfree",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/1/texldophmzajch0d7doe/the-cherry-edition-sugarfree",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#E8EBED",
-                                    "percentage": 18.1
+                                    "hexColorCode": "#EEF0F1",
+                                    "percentage": 15.3
                                 },
                                 {
-                                    "hexColorCode": "#FBF9FA",
-                                    "percentage": 7.2
+                                    "hexColorCode": "#FBF8F9",
+                                    "percentage": 7.5
                                 },
                                 {
-                                    "hexColorCode": "#BCC3CB",
-                                    "percentage": 2.6
+                                    "hexColorCode": "#D61E44",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#E7536D",
+                                    "percentage": 2.4
                                 },
                                 {
                                     "hexColorCode": "#FCFCFB",
                                     "percentage": 1.8
                                 },
                                 {
-                                    "hexColorCode": "#D6163C",
-                                    "percentage": 1.1
+                                    "hexColorCode": "#4FB0D9",
+                                    "percentage": 1.3
                                 },
                                 {
-                                    "hexColorCode": "#767C81",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#EFF2F0",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#E56B82",
+                                    "hexColorCode": "#EFF2F1",
                                     "percentage": 0.7
+                                },
+                                {
+                                    "hexColorCode": "#6F7274",
+                                    "percentage": 0.6
                                 }
                             ]
                         },
@@ -128,7 +128,7 @@
                     "image": {
                         "altText": "The Cherry Edition Sugarfree",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/8/dqvbxrbrph984f9pnc6q/the-cherry-edition-sugarfree"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/1/texldophmzajch0d7doe/the-cherry-edition-sugarfree"
                         }
                     },
                     "reference": {
@@ -581,11 +581,11 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/23/hxhfs21c9wetxxvlmces/red-bull-pink-edition",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/1/wnmcaqz0dlisqmofo65h/red-bull-pink-edition",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.9
+                                    "percentage": 23
                                 },
                                 {
                                     "hexColorCode": "#D9E2E8",
@@ -600,7 +600,7 @@
                                     "percentage": 1.4
                                 },
                                 {
-                                    "hexColorCode": "#E6BBD5",
+                                    "hexColorCode": "#E7BBD5",
                                     "percentage": 0.9
                                 }
                             ]
@@ -620,7 +620,7 @@
                     "image": {
                         "altText": "Red Bull Pink Edition",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/8/23/hxhfs21c9wetxxvlmces/red-bull-pink-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/1/wnmcaqz0dlisqmofo65h/red-bull-pink-edition"
                         }
                     },
                     "reference": {
@@ -817,5 +817,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-08-04T07:55:10.895654+00:00"
+    "collection_timestamp": "2026-09-01T10:09:11.971442+00:00"
 }
