@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-01T10:23:12.051218+00:00",
+        "collection_date": "2026-09-02T09:55:12.495154+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -163,7 +163,7 @@
                 "dk-da"
             ],
             "flag_code": "DK",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "dk-da.json"
         },
         "Egypt": {

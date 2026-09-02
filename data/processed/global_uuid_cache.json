@@ -4247,5 +4247,12 @@
         "flavor_description": "The Red Bull Apple Edition with the taste of Fuji Apples and the warm spiciness of Ginger",
         "sugarfree": false,
         "fingerprint": "5c2fd0c5826af3d83d411aeefbb7cdeaf419eb6ef94343fb2e3f27582b4a9e92"
+    },
+    "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:da-DK": {
+        "name": "The Yellow Edition",
+        "flavor": "Citrus Zest",
+        "flavor_description": "Red Bull Yellow Edition provides a fresh and invigorating taste of sudachi and lime",
+        "sugarfree": false,
+        "fingerprint": "9f6011c5bca777239bf825232d84f1f4b45a7b154fa15e620cec47e4d2696e21"
     }
 }

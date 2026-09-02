@@ -2,6 +2,16 @@
     "flag": "🇩🇰",
     "editions": [
         {
+            "name": "The Yellow Edition",
+            "flavor": "Citrus Zest",
+            "flavor_description": "Red Bull Yellow Edition provides a fresh and invigorating taste of sudachi and lime",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/1/f9hzroz0zq9qrobd86rd/red-bull-yellow-edition",
+            "alt_text": "Red Bull Yellow Edition",
+            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-yellow-edition"
+        },
+        {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Raspberry",
             "flavor_description": "A sugarfree energy drink with the taste of Raspberry and fruit, balanced with notes of verbena",
@@ -113,10 +123,19 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DK.svg",
-    "_raw_hash": "7732445412ba553a4e7ce5d5139558e8b1672c5697c14dfb5832bbff3e2db7ff",
+    "_raw_hash": "ad2b74fd33ea7e8c05125da414192c9ea9d7d2b767b0b934d1338b4b153bcfc6",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:da-DK",
+            "name": "The Yellow Edition",
+            "flavor": "Citrus Zest",
+            "description": "Red Bull Yellow Edition gives you wings with the new and fresh taste of sudachi and lime.",
+            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-yellow-edition"
+        }
+    ],
     "_edition_fingerprints": {
+        "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:da-DK": "9f6011c5bca777239bf825232d84f1f4b45a7b154fa15e620cec47e4d2696e21",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:da-DK": "2fe79c6afd25b90fb9321ad02ef2d8ddbe2c866bc00620c78c75187112bb95b8",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:da-DK": "292b442c453aefe562483eaed5d478c096b1e1c079f8b0aa1fa15c58a1512f9c",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:da-DK": "3563ec84eef276002194a87c749d6a13b2d6d4721f941ba190094d9f6991fa4a",
@@ -130,6 +149,12 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:da-DK": "a0c89d4015d48cbee0bc2929bf3f6c1db79601c58e3f79f62745fa0cbc9b955c"
     },
     "_normalized_editions": {
+        "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:da-DK": {
+            "name": "The Yellow Edition",
+            "flavor": "Citrus Zest",
+            "flavor_description": "Red Bull Yellow Edition provides a fresh and invigorating taste of sudachi and lime",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:da-DK": {
             "name": "The Pink Edition Sugarfree",
             "flavor": "Raspberry",
