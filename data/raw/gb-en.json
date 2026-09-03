@@ -69,6 +69,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-GB",
+            "header_data": {
+                "content": {
+                    "title": "Yellow Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/28/y3xcctkw98ahkj26wkjy/red-bull-yellow-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 21.6
+                                },
+                                {
+                                    "hexColorCode": "#DECC25",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D5",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#927D5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BDA975",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Yellow Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-yellow-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Citrus Zest",
+                    "standfirst": "The Red Bull Yellow Edition with the taste of sudachi and lime, rounded up with a subtle hint of pomelo and citrus peel.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Yellow Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/28/y3xcctkw98ahkj26wkjy/red-bull-yellow-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-yellow-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-GB",
             "header_data": {
                 "content": {
@@ -125,6 +186,71 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-blue-edition"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:25876e0b-de8f-4623-a15e-2a4349b14c82:en-GB",
+            "header_data": {
+                "content": {
+                    "title": "Yellow Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/28/xfl3lkzevpnp6jhxbbfw/yellow-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 20.7
+                                },
+                                {
+                                    "hexColorCode": "#DECD25",
+                                    "percentage": 4.3
+                                },
+                                {
+                                    "hexColorCode": "#D7E0E7",
+                                    "percentage": 3.2
+                                },
+                                {
+                                    "hexColorCode": "#C2CAD7",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#53B2DA",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#917C5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BEAA73",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Yellow Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-yellow-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Citrus Zest",
+                    "standfirst": "Red Bull Yellow Edition Sugarfree ger dig viiingar med smak av sudachi och lime.        ",
+                    "brandingHexColorCode": "#F0E53B",
+                    "image": {
+                        "altText": "Yellow Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/8/28/xfl3lkzevpnp6jhxbbfw/yellow-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-yellow-edition-sugarfree"
                     }
                 }
             }
@@ -996,127 +1122,62 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-GB",
+            "id": "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:en-GB",
             "header_data": {
                 "content": {
-                    "title": "Summer Edition"
+                    "title": "Cherry Edition"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/ntuq5smgy3v0dmxqyows/red-bull-summer-edition",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/2/vjkgt3cyem7tkvwpskeg/red-bull-cherry-edition-image",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#E5D866",
-                                    "percentage": 21
+                                    "hexColorCode": "#EFF1F1",
+                                    "percentage": 15.9
                                 },
                                 {
-                                    "hexColorCode": "#DECC25",
-                                    "percentage": 4.3
+                                    "hexColorCode": "#FBF9F9",
+                                    "percentage": 7.5
                                 },
                                 {
-                                    "hexColorCode": "#D8E0E7",
-                                    "percentage": 3.5
+                                    "hexColorCode": "#D61F44",
+                                    "percentage": 5
                                 },
                                 {
-                                    "hexColorCode": "#BFC8D5",
-                                    "percentage": 2.5
+                                    "hexColorCode": "#E7556E",
+                                    "percentage": 2.8
                                 },
                                 {
-                                    "hexColorCode": "#927D5D",
-                                    "percentage": 1
+                                    "hexColorCode": "#FCFCFB",
+                                    "percentage": 1.8
                                 },
                                 {
-                                    "hexColorCode": "#BCA875",
-                                    "percentage": 0.6
+                                    "hexColorCode": "#EEF2F1",
+                                    "percentage": 0.7
                                 }
                             ]
                         },
-                        "altText": "Red Bull Summer Edition"
+                        "altText": "Red Bull Cherry Edition - Image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-summer-edition"
+                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-cherry-edition"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Citrus Zest",
-                    "standfirst": "The Red Bull Summer Edition with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
-                    "brandingHexColorCode": "#f2e853",
+                    "flavour": "Cherry & Blossom Flavour",
+                    "standfirst": "Red Bull Cherry Edition with the taste of cherry with notes of almond and floral cherry blossom.",
+                    "brandingHexColorCode": "#52abd6",
                     "image": {
-                        "altText": "Red Bull Summer Edition",
+                        "altText": "Red Bull Cherry Edition - Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/ntuq5smgy3v0dmxqyows/red-bull-summer-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/2/vjkgt3cyem7tkvwpskeg/red-bull-cherry-edition-image"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-summer-edition"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:en-GB",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/otg4lw6jpqbqlshhsxhu/red-bull-summer-edition-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E5D866",
-                                    "percentage": 20.3
-                                },
-                                {
-                                    "hexColorCode": "#DECC25",
-                                    "percentage": 4.2
-                                },
-                                {
-                                    "hexColorCode": "#D8E0E7",
-                                    "percentage": 3.6
-                                },
-                                {
-                                    "hexColorCode": "#BFC8D4",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#927D5D",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#BFAC74",
-                                    "percentage": 0.6
-                                },
-                                {
-                                    "hexColorCode": "#51ADD7",
-                                    "percentage": 0.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-summer-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Citrus Zest",
-                    "standfirst": "The Red Bull Summer Edition Sugarfree with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
-                    "brandingHexColorCode": "#f2e853",
-                    "image": {
-                        "altText": "Red Bull Summer Edition Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/otg4lw6jpqbqlshhsxhu/red-bull-summer-edition-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-summer-edition-sugarfree"
+                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-cherry-edition"
                     }
                 }
             }
@@ -1236,5 +1297,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-01T07:55:53.438701+00:00"
+    "collection_timestamp": "2026-09-03T10:03:00.865740+00:00"
 }

@@ -707,11 +707,11 @@
         "fingerprint": "f34206520d52af669d2822c7ab7869f8be561641a5f13552ea0865be160c633e"
     },
     "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:sk-SK": {
-        "fingerprint": "15785d088eb4aeab743879e1fcb070198476c4769b2ec1cabe52fccae36d6a48",
-        "name": "The Tropical Edition",
-        "flavor": "Tropical Fruits",
-        "flavor_description": "The Tropical Edition brings the fresh and vibrant taste of Tropical Fruits",
-        "sugarfree": false
+        "name": "The Yellow Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Red Bull Yellow Edition provides energy with the fresh taste of sudachi lime",
+        "sugarfree": false,
+        "fingerprint": "80146249fb48ad808c82aad5ec625fff6c461fc24e10003ea2e1119c2c43c0b2"
     },
     "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:sk-SK": {
         "fingerprint": "bee2737adb6b045300d52f335713fb9613ffd2449b198bec956da69e9ebda309",
@@ -4254,5 +4254,33 @@
         "flavor_description": "Red Bull Yellow Edition provides a fresh and invigorating taste of sudachi and lime",
         "sugarfree": false,
         "fingerprint": "9f6011c5bca777239bf825232d84f1f4b45a7b154fa15e620cec47e4d2696e21"
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:sk-SK": {
+        "name": "The Cherry Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Cherry Edition Sugarfree provides energy with the taste of Japanese Cherry and subtle almond notes",
+        "sugarfree": true,
+        "fingerprint": "9b4ff7927feb74f55dd5cd03b57e1d619152ea9e71a1539840b42bc0c7ea77a7"
+    },
+    "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-GB": {
+        "name": "The Yellow Edition",
+        "flavor": "Citrus Zest",
+        "flavor_description": "The Red Bull Yellow Edition features the taste of sudachi and lime, rounded out with a subtle hint of Pomelo and citrus peel",
+        "sugarfree": false,
+        "fingerprint": "7b37d8d6dfe45007519acf3c569375ee70e1cb53269ab2c58d44bba11a1bccc0"
+    },
+    "rrn:content:energy-drinks:25876e0b-de8f-4623-a15e-2a4349b14c82:en-GB": {
+        "name": "The Yellow Edition Sugarfree",
+        "flavor": "Citrus Zest",
+        "flavor_description": "Red Bull Yellow Edition Sugarfree provides the taste of sudachi and lime without the sugar",
+        "sugarfree": true,
+        "fingerprint": "442c3e4ef7653248b59b4c686722f8c094a6923194646591fe2968b24af1ef00"
+    },
+    "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:en-GB": {
+        "name": "The Cherry Edition",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Cherry Edition offers the taste of Cherry with notes of almond and floral Cherry Blossom",
+        "sugarfree": false,
+        "fingerprint": "591620dad936c819c24f973b7e01a20cdbe600aba19264475c0e059cf5187cd2"
     }
 }

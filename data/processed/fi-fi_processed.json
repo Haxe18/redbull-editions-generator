@@ -97,7 +97,7 @@
             "flavor_description": "Red Bull gives you wings. Also sugarfree",
             "sugarfree": true,
             "color": "#c72466",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/1/wnmcaqz0dlisqmofo65h/red-bull-pink-edition",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/3/wmx61uvyum17v1qhrgnj/red-bull-pink-edition",
             "alt_text": "Red Bull Pink Edition",
             "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-pink-edition-sugarfree"
         },
@@ -133,7 +133,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FI.svg",
-    "_raw_hash": "4586854d9c297fcd01031dbe2bc037b78bf71a5b48b1e992fefbb155a4f6fe2a",
+    "_raw_hash": "973cbaebc38359f34c86a1191f01b79175d0cc617c9703133e06c5b7c1dfc66d",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
