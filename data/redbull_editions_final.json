@@ -3727,6 +3727,16 @@
                 "product_url": "https://www.redbull.com/no-no/energydrink/red-bull-blue-edition"
             },
             {
+                "name": "The Cherry Edition Sugarfree",
+                "flavor": "Cherry Sakura",
+                "flavor_description": "The Red Bull Cherry Edition with a taste of fresh Cherry and soft almond. Zero sugar, just Wings",
+                "sugarfree": true,
+                "color": "#52abd6",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/17/h4msdyy8p7b9xqgei9z6/the-cherry-edition-sugarfree",
+                "alt_text": "The Cherry Edition Sugarfree",
+                "product_url": "https://www.redbull.com/no-en/energydrink/products/red-bull-cherry-edition-sugarfree"
+            },
+            {
                 "name": "The Lilac Edition",
                 "flavor": "Woodruff & Pink Grapefruit",
                 "flavor_description": "An energy drink with a lovely taste of Pink Grapefruit and subtle floral notes",
@@ -3735,6 +3745,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/19/wvds1nqjtssjqjy0yuv0/red-bull-lilac-edition-packshot",
                 "alt_text": "red-bull-lilac-edition-packshot",
                 "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-lilac-edition"
+            },
+            {
+                "name": "The Peach Edition Sugarfree",
+                "flavor": "White Peach",
+                "flavor_description": "The Red Bull Peach Edition Sugarfree with a fresh taste of White Peach. Zero sugar, just Wings",
+                "sugarfree": true,
+                "color": "#E24585",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/23/nc8i29tkgd7xmh4vgbwa/red-bull-peach-edition-sugarfree-half-can",
+                "alt_text": "Red Bull Peach Edition Sugarfree half can",
+                "product_url": "https://rb-pcs-dev.herokuapp.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
             },
             {
                 "name": "The Pink Edition Sugarfree",

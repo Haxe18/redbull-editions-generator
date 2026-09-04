@@ -22,6 +22,16 @@
             "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-pink-edition-sugarfree"
         },
         {
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Cherry Edition with a taste of fresh Cherry and soft almond. Zero sugar, just Wings",
+            "sugarfree": true,
+            "color": "#52abd6",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/17/h4msdyy8p7b9xqgei9z6/the-cherry-edition-sugarfree",
+            "alt_text": "The Cherry Edition Sugarfree",
+            "product_url": "https://www.redbull.com/no-en/energydrink/products/red-bull-cherry-edition-sugarfree"
+        },
+        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Zero calories and 100% wings",
@@ -50,6 +60,16 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/19/wvds1nqjtssjqjy0yuv0/red-bull-lilac-edition-packshot",
             "alt_text": "red-bull-lilac-edition-packshot",
             "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-lilac-edition"
+        },
+        {
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition Sugarfree with a fresh taste of White Peach. Zero sugar, just Wings",
+            "sugarfree": true,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/1/23/nc8i29tkgd7xmh4vgbwa/red-bull-peach-edition-sugarfree-half-can",
+            "alt_text": "Red Bull Peach Edition Sugarfree half can",
+            "product_url": "https://rb-pcs-dev.herokuapp.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
         },
         {
             "name": "Energy Drink",
@@ -113,15 +133,32 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NO.svg",
-    "_raw_hash": "61f9704e2ad731715fe88698b318a7e4eb5795916f4569a89524c67324652088",
+    "_raw_hash": "1861df1454397276b474cb3eb65a6f807a2597cbb6aa8ec3d7a55b2673e57336",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:no-NO",
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "description": "Red Bull Cherry Edition with a taste of fresh cherry and soft almond. Zero sugar, just Wings.",
+            "product_url": "https://www.redbull.com/no-en/energydrink/products/red-bull-cherry-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:no-NO",
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition Sugarfree with a fresh taste of white peach. Zero sugar, just Wings.",
+            "product_url": "https://rb-pcs-dev.herokuapp.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:no-NO": "2daa71f53ca2449a35c7a4c12b83e369ff6430e844cf1cb914baa940a9ad25a5",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:no-NO": "9b1579ceb14fb03e4f4b083b116b8595b303e48c69bd94956790fe894e1d3837",
+        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:no-NO": "2bd56eca947d216d05227559611e7627c2cc0292b5a36baf8b2834d2cc808807",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:no-NO": "af79b1cb5e0f3ff50ce6b5a32a0334c4f36cd76793f5b0b26003d4ca5211f726",
         "rrn:content:energy-drinks:5f608c0a-9aa5-453e-bad5-5d5a02a8d723:no-NO": "8b3cd61fa54474da0c5171df12d67e8f7a88934593a05820074b24e97f849584",
         "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:no-NO": "28b9d93cac6182bb9aad76b25aa5cf57e4deb6aab6cc8852f7fb41a137374390",
+        "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:no-NO": "7b07093172dbb27a1bc0fb4768c58b48a7d4d172d247b9d753ce066f14a49c33",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:no-NO": "b0af7a0042ee99733322a174ffc61af402e80f30127f5967cb498bc2b7ead22b",
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:no-NO": "5fd1c882de6d603b4f1581d56a5aa8dd5da48e317e77f2bc6de022bff269299c",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:no-NO": "e3d9b16496035829f6c9ea09baba667cb217e64421ec5fd8f7b071608f3f243a",
@@ -142,6 +179,12 @@
             "flavor_description": "A sugarfree energy drink with a refreshing Raspberry taste",
             "sugarfree": true
         },
+        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:no-NO": {
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "flavor_description": "Red Bull Cherry Edition with a taste of fresh Cherry and soft almond. Zero sugar, just Wings",
+            "sugarfree": true
+        },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:no-NO": {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
@@ -159,6 +202,12 @@
             "flavor": "Woodruff & Pink Grapefruit",
             "flavor_description": "An energy drink with a lovely taste of Pink Grapefruit and subtle floral notes",
             "sugarfree": false
+        },
+        "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:no-NO": {
+            "name": "The Peach Edition Sugarfree",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Peach Edition Sugarfree with a fresh taste of White Peach. Zero sugar, just Wings",
+            "sugarfree": true
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:no-NO": {
             "name": "Energy Drink",

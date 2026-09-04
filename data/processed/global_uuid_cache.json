@@ -4282,5 +4282,19 @@
         "flavor_description": "Red Bull Cherry Edition offers the taste of Cherry with notes of almond and floral Cherry Blossom",
         "sugarfree": false,
         "fingerprint": "591620dad936c819c24f973b7e01a20cdbe600aba19264475c0e059cf5187cd2"
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:no-NO": {
+        "name": "The Cherry Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Cherry Edition with a taste of fresh Cherry and soft almond. Zero sugar, just Wings",
+        "sugarfree": true,
+        "fingerprint": "2bd56eca947d216d05227559611e7627c2cc0292b5a36baf8b2834d2cc808807"
+    },
+    "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:no-NO": {
+        "name": "The Peach Edition Sugarfree",
+        "flavor": "White Peach",
+        "flavor_description": "Red Bull Peach Edition Sugarfree with a fresh taste of White Peach. Zero sugar, just Wings",
+        "sugarfree": true,
+        "fingerprint": "7b07093172dbb27a1bc0fb4768c58b48a7d4d172d247b9d753ce066f14a49c33"
     }
 }

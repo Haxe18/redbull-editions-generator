@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-03T10:03:39.553472+00:00",
+        "collection_date": "2026-09-04T09:55:27.427005+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -408,7 +408,7 @@
                 "no-no"
             ],
             "flag_code": "NO",
-            "editions_count": 11,
+            "editions_count": 13,
             "data_file": "no-no.json"
         },
         "Pakistan": {
