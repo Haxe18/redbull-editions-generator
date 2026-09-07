@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-04T09:55:27.427005+00:00",
+        "collection_date": "2026-09-07T10:33:57.636830+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -136,7 +136,7 @@
                 "co-es"
             ],
             "flag_code": "CO",
-            "editions_count": 4,
+            "editions_count": 5,
             "data_file": "co-es.json"
         },
         "Croatia": {

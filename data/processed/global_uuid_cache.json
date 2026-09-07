@@ -4296,5 +4296,12 @@
         "flavor_description": "Red Bull Peach Edition Sugarfree with a fresh taste of White Peach. Zero sugar, just Wings",
         "sugarfree": true,
         "fingerprint": "7b07093172dbb27a1bc0fb4768c58b48a7d4d172d247b9d753ce066f14a49c33"
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:es-CO": {
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "Red Bull Peach Edition offers the refreshing taste of White Peach",
+        "sugarfree": false,
+        "fingerprint": "5bdf89d124134a478344c3f6218923cf05b3030151ff1177776bf1cebb505426"
     }
 }
