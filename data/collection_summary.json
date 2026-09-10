@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-07T10:33:57.636830+00:00",
+        "collection_date": "2026-09-10T10:00:41.823793+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -381,7 +381,7 @@
                 "nz-en"
             ],
             "flag_code": "NZ",
-            "editions_count": 8,
+            "editions_count": 9,
             "data_file": "nz-en.json"
         },
         "Nigeria": {

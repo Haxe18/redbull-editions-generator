@@ -62,6 +62,16 @@
             "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-sugar-free-energy-drinks"
         },
         {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "The Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/2/jvd7edicaodhycwqanfc/red-bull-summer-edition",
+            "alt_text": "Red Bull Summer Edition",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
+        },
+        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach, a touch of citrus peel and floral notes",
@@ -83,9 +93,17 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NZ.svg",
-    "_raw_hash": "7e53f38f9d4a58a225dfdb8425566abc9e874a4af8b6f52e77042ac6094ab65d",
+    "_raw_hash": "f4c01b88b18c50f3ee0d291c44612300f87e96fa62cca572d9f33dbdc9cb70ac",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-NZ",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "The Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime.",
+            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ": "e35307df1b278a4d4a88c6cc8eba4d1245f7d18854537f598ab6f892f1dc2e8b",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ": "36435aa23ddec539670c943717377e2fda0e0811ad45312eb353e03f83721ddd",
@@ -93,6 +111,7 @@
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-NZ": "d77b2006a1c9d56ccb95563bd6ed11df9108ab9300aa54ef6fd7e101617cbbb4",
         "rrn:content:energy-drinks:a1253be0-075a-48bf-a4e7-60a9f2da0545:en-NZ": "33fc049954bd2baea2ed00969625412ec40c407b42a1c8c61a7d7975a9e1414c",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-NZ": "8446fcb2244b95df2d6c7fe4ceda710a7af92dfbf1879bdb69954c59ab5c0d9f",
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-NZ": "883a2d33bcd20a31d57fe208d522c8e22fb7ef52ceb2b041780d35ab93ddf09f",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-NZ": "1c9eed20b34c4b491004d1421410359ef9580b6e48ce1b30d16bca74c6799314",
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-NZ": "4b10368507e807a819080ca32ae6965e45a347928318caaaf5c4444b65d34a37"
     },
@@ -132,6 +151,12 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true
+        },
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-NZ": {
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "The Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime",
+            "sugarfree": false
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-NZ": {
             "name": "The Peach Edition",

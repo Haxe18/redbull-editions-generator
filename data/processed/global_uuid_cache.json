@@ -4303,5 +4303,12 @@
         "flavor_description": "Red Bull Peach Edition offers the refreshing taste of White Peach",
         "sugarfree": false,
         "fingerprint": "5bdf89d124134a478344c3f6218923cf05b3030151ff1177776bf1cebb505426"
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-NZ": {
+        "name": "The Summer Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "The Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime",
+        "sugarfree": false,
+        "fingerprint": "883a2d33bcd20a31d57fe208d522c8e22fb7ef52ceb2b041780d35ab93ddf09f"
     }
 }
