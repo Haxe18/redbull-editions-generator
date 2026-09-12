@@ -2,16 +2,6 @@
     "flag": "🇿🇦",
     "editions": [
         {
-            "name": "The Blue Edition",
-            "flavor": "Juneberry",
-            "flavor_description": "The Red Bull Blue Edition with the extraordinary taste of Juneberry",
-            "sugarfree": false,
-            "color": "#0072CE",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/18/y8emafvwnjpysptqhw5m/red-bull-blue-edition-image",
-            "alt_text": "Red Bull Blue Edition - image",
-            "product_url": "https://www.redbull.com/za-en/energydrink/red-bull-blue-edition-juneberry"
-        },
-        {
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
@@ -83,11 +73,10 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ZA.svg",
-    "_raw_hash": "b21b4c710b6381d66828a7126c13bc92159e6537e8d054c38e3d88d19c6cbb17",
+    "_raw_hash": "90e6728e65d2b30b04b64388031bf93234e5b9561a7f59be6f82582aeb7022d9",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA": "80c01aabcdbfdf0ead741553f9d72887e967f16b24d1cbd66bf46e4761bcacb5",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-ZA": "0b0d0ff7f2256ed53341a5c39ab26199fb0fb366bd31030fe7a4783e7d116e59",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-ZA": "c7f63159cb7a1a1fb6c1f94dadf16d7a3c460b585bcecbdd6cc2a56d074d0eef",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-ZA": "2ad0595497e4fc05062c1bad81429e183d79589f16b6d16838cf0a22f767c036",
@@ -97,12 +86,6 @@
         "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:en-ZA": "3763f48edabb7e23f8cba6b658c8c5acff0c591a61b25b0a786bfb34608d2dcd"
     },
     "_normalized_editions": {
-        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-ZA": {
-            "name": "The Blue Edition",
-            "flavor": "Juneberry",
-            "flavor_description": "The Red Bull Blue Edition with the extraordinary taste of Juneberry",
-            "sugarfree": false
-        },
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-ZA": {
             "name": "The Red Edition",
             "flavor": "Watermelon",
