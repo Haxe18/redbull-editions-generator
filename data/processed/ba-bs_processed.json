@@ -70,20 +70,10 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/22/uxtbpjjzinslkkktjcsx/red-bull-summer-edition-image",
             "alt_text": "Red Bull Summer Edition - image",
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Sugarfree Edition with the taste of Cherry fruit and Blossom and creamy almond notes",
-            "sugarfree": true,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/5/qv1un0ssy18iwubsyzfa/red-bull-spring-edition-sugarfree-image",
-            "alt_text": "Red Bull Spring Edition Sugarfree Image",
-            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-spring-sugarfree-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg",
-    "_raw_hash": "fe3da50b92af05998016f77a1de3c8113bb0a1d5941ae2b768ad2335084dc598",
+    "_raw_hash": "a22eeb20bdb73fef01ba74d4ef3c61a4b79ce0490c7486e398653f5f6d58baac",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
     "_translated_editions": [],
     "_edition_fingerprints": {
@@ -93,8 +83,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bs-BA": "bcd66a0c61e7d891811e9a2a05a5a055b8866d9235c9c47894e07f8f92899189",
         "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:bs-BA": "a0d5ff3f2aed8644bc644addcbeb50b9d200a0257c776ccf57231e5a151dee49",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:bs-BA": "0d429d505bc3ffb9031c6d6cb11d3fc518589049077e0c1185112707d6652d33",
-        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA": "e9f1473bc5423849a07f1ff2bb5fda1b0ec79346097f0ddfca233fad9f603d02",
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:bs-BA": "c9d85e14cfedb35bab36d9f98ba2df3e60cfc3b007bb11462ba621f402c07fe6"
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA": "e9f1473bc5423849a07f1ff2bb5fda1b0ec79346097f0ddfca233fad9f603d02"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:bs-BA": {
@@ -138,12 +127,6 @@
             "flavor": "Citrus Zest",
             "flavor_description": "Red Bull Summer Edition gives you wings with a refreshing taste of Japanese citrus and lime",
             "sugarfree": false
-        },
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:bs-BA": {
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Spring Sugarfree Edition with the taste of Cherry fruit and Blossom and creamy almond notes",
-            "sugarfree": true
         }
     }
 }
