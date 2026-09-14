@@ -72,6 +72,16 @@
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
+            "name": "The Winter Edition",
+            "flavor": "Pistachio-Forest Fruits",
+            "flavor_description": "Red Bull Winter Edition gives you wings with the rich taste of pistachio and Forest Fruits",
+            "sugarfree": false,
+            "color": "#0a1c43",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/9/wywrm4lboyprtprdfrs7/red-bull-winter-edition",
+            "alt_text": "Red Bull Winter Edition",
+            "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "flavor_description": "Red Bull Energy Drink without sugar",
@@ -92,16 +102,6 @@
             "product_url": "https://www.redbull.com/it-it/energydrink/red-bull-green-edition"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "A refreshing summer Edition featuring the unique taste of Sudachi lime",
-            "sugarfree": false,
-            "color": "#f2e853",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/mdzxyuv3dcs4qhv199ii/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "The Red Bull Peach Edition offers the taste of White Peach with a touch of citrus zest and floral notes",
@@ -113,9 +113,17 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IT.svg",
-    "_raw_hash": "bcf954c0a671830c6fb53857adafb1c8c282b8fe846c9627e2d2d387a41b74f7",
+    "_raw_hash": "5c1684a5d03ce572cd22a04aedcd5c2f8c3557231b8188b1a346c6691a670f75",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:it-IT",
+            "name": "The Winter Edition",
+            "flavor": "Pistachio and Forest Fruits",
+            "description": "Red Bull Winter Edition gives you Wings thanks to the rich taste of pistachio and forest fruits",
+            "product_url": "https://www.redbull.com/it-it/energydrink/products/red-bull-winter-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:it-IT": "7f481f398b72925987b7391ec636041615fa6f039b1d5367446eb95d56d39aed",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:it-IT": "005a5e0dab9e5461f856b347ed212ba0acb92019b8599d618ebc9941b99edcb3",
@@ -124,9 +132,9 @@
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:it-IT": "e7131a646f36c1aa2e0685d1c9d4b22e226f4e7515493624bf7efc8a80555f04",
         "rrn:content:energy-drinks:7b350335-d4f3-419d-9a00-ad1ef9bfe111:it-IT": "d12c4de4f522511aa28b142a0a6ac7009909f5288b9462a8801d47f6bb57ea09",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:it-IT": "c6c30b47eadbb3cbeada76ed54310cb90d9ea491f924d5fdebbb2ca7c8f00b87",
+        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:it-IT": "126c7a039cb33b0f9709fe2080bc2e5bef4b2bc7c246309b5c2d59b2ecb5c11f",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:it-IT": "e2ea77d99ccb46ea82c7ee10a8944634dc6c66115c053132161fdcddadd569b2",
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:it-IT": "32506d8c521081af564d6766d3922aa1bf2f12f6be386d59ffb1b7a44531a54c",
-        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:it-IT": "a5fb84b16abcf3ac2fad2e8af5c1e251c6b35423decd4be94d0f9335dbbe4737",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:it-IT": "72e8290bbab3311a5945a74bf3f84ef207fda2738271deaaab35aae837f50da6"
     },
     "_normalized_editions": {
@@ -172,6 +180,12 @@
             "flavor_description": "The original Red Bull Energy Drink, appreciated worldwide by top athletes and professionals",
             "sugarfree": false
         },
+        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:it-IT": {
+            "name": "The Winter Edition",
+            "flavor": "Pistachio-Forest Fruits",
+            "flavor_description": "Red Bull Winter Edition gives you wings with the rich taste of pistachio and Forest Fruits",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:it-IT": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
@@ -182,12 +196,6 @@
             "name": "The Green Edition",
             "flavor": "Dragon Fruit",
             "flavor_description": "Red Bull Green Edition featuring the exotic taste of Dragon Fruit",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:it-IT": {
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "A refreshing summer Edition featuring the unique taste of Sudachi lime",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:it-IT": {
