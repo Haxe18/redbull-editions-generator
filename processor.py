@@ -217,6 +217,7 @@ class RedBullDataProcessor:
         "Maracuja & Melon",
         "Strawberry & Peach",
         "Pear Cinnamon",
+        "Pistachio-Berries",
         "Pomelo",
         "Pomegranate",
         "Sudachi Lime",
