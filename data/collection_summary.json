@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-14T23:55:34.733411+00:00",
+        "collection_date": "2026-09-16T10:13:46.008410+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -199,7 +199,7 @@
                 "fr-fr"
             ],
             "flag_code": "FR",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "fr-fr.json"
         },
         "Germany": {
@@ -335,7 +335,7 @@
                 "lt-lt"
             ],
             "flag_code": "LT",
-            "editions_count": 10,
+            "editions_count": 9,
             "data_file": "lt-lt.json"
         },
         "Malaysia": {
@@ -444,7 +444,7 @@
                 "pl-pl"
             ],
             "flag_code": "PL",
-            "editions_count": 16,
+            "editions_count": 12,
             "data_file": "pl-pl.json"
         },
         "Portugal": {
@@ -489,7 +489,7 @@
                 "sk-sk"
             ],
             "flag_code": "SK",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "sk-sk.json"
         },
         "Slovenia": {
@@ -498,7 +498,7 @@
                 "si-sl"
             ],
             "flag_code": "SI",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "si-sl.json"
         },
         "South Africa": {
@@ -516,7 +516,7 @@
                 "es-es"
             ],
             "flag_code": "ES",
-            "editions_count": 13,
+            "editions_count": 12,
             "data_file": "es-es.json"
         },
         "Sweden": {

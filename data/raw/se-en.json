@@ -558,6 +558,75 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-SE",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/rogwilofviifd8lnsowi/red-bull-winter-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DA5B62",
+                                    "percentage": 7.5
+                                },
+                                {
+                                    "hexColorCode": "#DFB154",
+                                    "percentage": 5.1
+                                },
+                                {
+                                    "hexColorCode": "#D6A11C",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#D8E3EA",
+                                    "percentage": 4.5
+                                },
+                                {
+                                    "hexColorCode": "#C71F3A",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#DA8355",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D2",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#CD6428",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition Popsicle Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pistachio & Berries",
+                    "standfirst": "Red Bull Winter Edition med smak av söta fuji äpplen och kryddiga noter av ingefära.",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "Red Bull Winter Edition Popsicle Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/9/2/rogwilofviifd8lnsowi/red-bull-winter-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-SE",
             "header_data": {
                 "content": {
@@ -786,71 +855,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:en-SE",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition Sugarfree"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/15/yqao4rjrai0zf5jsta8t/red-bull-summer-edition-sugarfree",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E5D866",
-                                    "percentage": 20.1
-                                },
-                                {
-                                    "hexColorCode": "#DECC25",
-                                    "percentage": 4.2
-                                },
-                                {
-                                    "hexColorCode": "#D8E0E7",
-                                    "percentage": 3.6
-                                },
-                                {
-                                    "hexColorCode": "#BFC8D4",
-                                    "percentage": 2.6
-                                },
-                                {
-                                    "hexColorCode": "#937E5D",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#BFAB74",
-                                    "percentage": 0.7
-                                },
-                                {
-                                    "hexColorCode": "#51ADD7",
-                                    "percentage": 0.5
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition Sugarfree"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-summer-edition-sugarfree"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition Sugarfree med smak av sudachi och lime som rundas av med en hint av pomelo och citrusskal.",
-                    "brandingHexColorCode": "#F0E53B",
-                    "image": {
-                        "altText": "Red Bull Summer Edition Sugarfree",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/15/yqao4rjrai0zf5jsta8t/red-bull-summer-edition-sugarfree"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/se-sv/energydrink/products/red-bull-summer-edition-sugarfree"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:e996845a-a204-4d07-a842-ddf12dbe0280:sv-SE",
             "header_data": {
                 "content": {
@@ -1050,5 +1054,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-08-15T05:57:13.725558+00:00"
+    "collection_timestamp": "2026-09-16T10:10:41.722747+00:00"
 }

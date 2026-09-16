@@ -447,6 +447,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fr-FR",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/11/fwhzdvy7gvjhiaip4u30/red-bull-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#B8C85F",
+                                    "percentage": 18.6
+                                },
+                                {
+                                    "hexColorCode": "#B2C661",
+                                    "percentage": 5.7
+                                },
+                                {
+                                    "hexColorCode": "#D9E0E7",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#C9D0DD",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#A7BC1C",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#D3DCB6",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pistache & fruits des bois",
+                    "standfirst": "Red Bull Winter Edition te donne des aiiiles avec son goût généreux de pistache et de fruits des bois.  ",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "Red Bull Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/11/fwhzdvy7gvjhiaip4u30/red-bull-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fr-FR",
             "header_data": {
                 "content": {
@@ -569,62 +630,66 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fr-FR",
+            "id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:fr-FR",
             "header_data": {
                 "content": {
-                    "title": "Summer Edition"
+                    "title": "Winter Edition Sugarfree"
                 },
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/gbtveaosj6joovltutvu/red-bull-summer-edition",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/11/r4znus9yoz6c7djzkac8/winter-edition",
                             "predominantColors": [
                                 {
-                                    "hexColorCode": "#E5D866",
-                                    "percentage": 21
+                                    "hexColorCode": "#B8C85F",
+                                    "percentage": 17.6
                                 },
                                 {
-                                    "hexColorCode": "#DECC25",
-                                    "percentage": 4.3
+                                    "hexColorCode": "#B2C662",
+                                    "percentage": 5.5
                                 },
                                 {
                                     "hexColorCode": "#D8E0E7",
-                                    "percentage": 3.5
+                                    "percentage": 3.7
                                 },
                                 {
-                                    "hexColorCode": "#BFC8D5",
-                                    "percentage": 2.5
+                                    "hexColorCode": "#CDD3E0",
+                                    "percentage": 3
                                 },
                                 {
-                                    "hexColorCode": "#937E5D",
+                                    "hexColorCode": "#4FB0D9",
+                                    "percentage": 1.3
+                                },
+                                {
+                                    "hexColorCode": "#A7BC1C",
                                     "percentage": 1
                                 },
                                 {
-                                    "hexColorCode": "#BCA875",
+                                    "hexColorCode": "#D2DBB5",
                                     "percentage": 0.6
                                 }
                             ]
                         },
-                        "altText": "Red Bull Summer Edition"
+                        "altText": "Red Bull Winter Edition SF Image"
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-summer-edition"
+                    "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition-sugarfree"
                 }
             },
             "graphql_data": {
                 "data": {
-                    "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition te donne des aiiiles avec son goût acidulé de sudachi et de citron vert.",
-                    "brandingHexColorCode": "#f2e853",
+                    "flavour": "Pistachio & Berries",
+                    "standfirst": "Red Bull Winter Edition Sugarfree te donne des aiiiles avec son goût généreux de pistache et de fruits des bois.  ",
+                    "brandingHexColorCode": "#0a1c43",
                     "image": {
-                        "altText": "Red Bull Summer Edition",
+                        "altText": "Red Bull Winter Edition SF Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/4/27/gbtveaosj6joovltutvu/red-bull-summer-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/11/r4znus9yoz6c7djzkac8/winter-edition"
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-summer-edition"
+                        "externalUrl": "https://www.redbull.com/fr-fr/energydrink/products/red-bull-winter-edition-sugarfree"
                     }
                 }
             }
@@ -691,5 +756,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-22T07:49:50.847433+00:00"
+    "collection_timestamp": "2026-09-16T10:00:55.253895+00:00"
 }
