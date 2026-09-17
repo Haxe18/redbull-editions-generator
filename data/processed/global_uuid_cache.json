@@ -4443,5 +4443,40 @@
         "flavor_description": "The Red Bull Winter Edition with the taste of Pistachio and Forest Berry, refined with a hint of caramel with nutty and creamy notes",
         "sugarfree": false,
         "fingerprint": "425f1155e002e4ce3e24576027ae1cfb5389639e96e627654f4056fe1a4fcedf"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pl-PL": {
+        "name": "The Winter Edition",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Winter Edition gives you wings with the taste of Pistachio and berry",
+        "sugarfree": false,
+        "fingerprint": "e2f2105fb2bde8d2bd12a7e0abe574fe3e2e096e8f4656ca9e5a7f2d58bfe31a"
+    },
+    "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pl-PL": {
+        "name": "The Winter Edition Sugarfree",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Winter Edition Sugarfree gives you wings with the taste of Pistachio and berry",
+        "sugarfree": true,
+        "fingerprint": "441b6472c168915911409e77700ff016e02694d565fd9571493fa003ee6f394d"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:et-EE": {
+        "name": "The Winter Edition",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Winter Edition with Pistachio and berry taste, balanced by a nutty and creamy caramel undertone",
+        "sugarfree": false,
+        "fingerprint": "b964dba8f1b1b77051fd04897d77e42bc9421c4e08d37be2c943bb58162bc344"
+    },
+    "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-AR": {
+        "name": "The Pomelo Edition Sugarfree",
+        "flavor": "Pomelo",
+        "flavor_description": "Red Bull Pomelo Edition without sugar mixes the taste of Pomelo with subtle floral notes",
+        "sugarfree": true,
+        "fingerprint": "8893479073f4209f37502df5b619a77f4a61761855fe06d13472e441ef6dba1a"
+    },
+    "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:es-AR": {
+        "name": "Energy Drink Zero",
+        "flavor": "Zero Sugar",
+        "flavor_description": "Red Bull Zero: zero sugar, 100% wings",
+        "sugarfree": true,
+        "fingerprint": "0a98b97f355f8a182a68d1c0f10d808434720b28c95ebc3f0e0fa00ab4c2f7a5"
     }
 }

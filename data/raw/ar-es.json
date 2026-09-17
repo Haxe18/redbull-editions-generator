@@ -89,6 +89,144 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-AR",
+            "header_data": {
+                "content": {
+                    "title": "Pomelo Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/10/zx1iodokigvqriehm8kr/red-bull-pomelo-edition-sugarfree",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#9A7BDD",
+                                    "percentage": 20.9
+                                },
+                                {
+                                    "hexColorCode": "#030303",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#D9E2E7",
+                                    "percentage": 2.6
+                                },
+                                {
+                                    "hexColorCode": "#C1C3D8",
+                                    "percentage": 2.1
+                                },
+                                {
+                                    "hexColorCode": "#239FD4",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#FEFCFB",
+                                    "percentage": 1
+                                },
+                                {
+                                    "hexColorCode": "#E4F0E6",
+                                    "percentage": 0.6
+                                },
+                                {
+                                    "hexColorCode": "#5EB4D8",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pomelo Edition Sugarfree"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ar-es/energydrink/products/red-bull-pomelo-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pomelo",
+                    "standfirst": "Uno de tus sabores favoritos volvió para quedarse. Red Bull Pomelo Edition Sin Azúcar mezcla el sabor del pomelo con sutíles notas florales. 100% Aaalas, sin azucar.",
+                    "brandingHexColorCode": "#7d62ce",
+                    "image": {
+                        "altText": "Red Bull Pomelo Edition Sugarfree",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/10/zx1iodokigvqriehm8kr/red-bull-pomelo-edition-sugarfree"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ar-es/energydrink/products/red-bull-pomelo-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
+            "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:es-AR",
+            "header_data": {
+                "content": {
+                    "title": "Zero"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/10/x49cpmkibwxzuddshlgi/red-bull-zero-energy-drink",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#92BFE4",
+                                    "percentage": 11.3
+                                },
+                                {
+                                    "hexColorCode": "#C6CFDC",
+                                    "percentage": 8.6
+                                },
+                                {
+                                    "hexColorCode": "#F9F7F7",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#E1EBF2",
+                                    "percentage": 2.4
+                                },
+                                {
+                                    "hexColorCode": "#1E1F1F",
+                                    "percentage": 2.3
+                                },
+                                {
+                                    "hexColorCode": "#798493",
+                                    "percentage": 2.3
+                                },
+                                {
+                                    "hexColorCode": "#CA0D31",
+                                    "percentage": 1.9
+                                },
+                                {
+                                    "hexColorCode": "#101010",
+                                    "percentage": 1.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Zero Energy Drink"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "http://www.redbull.com/zero"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Zero Sugar",
+                    "standfirst": "Red Bull Zero: zero azúcar, 100% aaalas ",
+                    "brandingHexColorCode": "#FFFFFF",
+                    "image": {
+                        "altText": "Red Bull Zero Energy Drink",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/10/x49cpmkibwxzuddshlgi/red-bull-zero-energy-drink"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "http://www.redbull.com/zero"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-AR",
             "header_data": {
                 "content": {
@@ -340,5 +478,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-24T07:41:09.266249+00:00"
+    "collection_timestamp": "2026-09-17T09:57:34.723875+00:00"
 }
