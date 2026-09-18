@@ -70,12 +70,30 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/22/uxtbpjjzinslkkktjcsx/red-bull-summer-edition-image",
             "alt_text": "Red Bull Summer Edition - image",
             "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-summer-edition"
+        },
+        {
+            "name": "The Pink Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Pink Edition: energy drink with the fresh taste of White Peach",
+            "sugarfree": false,
+            "color": "#E24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/17/alexy66cshi1tmwtihwn/red-bull-pink-edition-image",
+            "alt_text": "Red Bull Pink Edition - Image",
+            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-peach-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BA.svg",
-    "_raw_hash": "a22eeb20bdb73fef01ba74d4ef3c61a4b79ce0490c7486e398653f5f6d58baac",
+    "_raw_hash": "e9b853594a233bbf68e57256862ed97b134c119b0ab9cec758904c688422ce44",
     "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:bs-BA",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Red Bull Peach Edition: energy drink with the fresh taste of white peach.",
+            "product_url": "https://www.redbull.com/ba-bs/energydrink/products/red-bull-peach-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:bs-BA": "b3ada4d3aadec1d6751c665a16baf0982ac16413737e588905a4c0c7b634a18b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:bs-BA": "be572aa35c5fe15205e72e3dfa92cfd6ef0170775d53f793cd677797f1d3ed9d",
@@ -83,7 +101,8 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:bs-BA": "bcd66a0c61e7d891811e9a2a05a5a055b8866d9235c9c47894e07f8f92899189",
         "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:bs-BA": "a0d5ff3f2aed8644bc644addcbeb50b9d200a0257c776ccf57231e5a151dee49",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:bs-BA": "0d429d505bc3ffb9031c6d6cb11d3fc518589049077e0c1185112707d6652d33",
-        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA": "e9f1473bc5423849a07f1ff2bb5fda1b0ec79346097f0ddfca233fad9f603d02"
+        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:bs-BA": "e9f1473bc5423849a07f1ff2bb5fda1b0ec79346097f0ddfca233fad9f603d02",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:bs-BA": "d36f8cb960151c9363bb1b3a8bf822915895d512cdff37b496f2161099cf1200"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:bs-BA": {
@@ -126,6 +145,12 @@
             "name": "The Summer Edition",
             "flavor": "Citrus Zest",
             "flavor_description": "Red Bull Summer Edition gives you wings with a refreshing taste of Japanese citrus and lime",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:bs-BA": {
+            "name": "The Pink Edition",
+            "flavor": "White Peach",
+            "flavor_description": "Red Bull Pink Edition: energy drink with the fresh taste of White Peach",
             "sugarfree": false
         }
     }
