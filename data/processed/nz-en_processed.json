@@ -94,16 +94,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NZ.svg",
     "_raw_hash": "f4c01b88b18c50f3ee0d291c44612300f87e96fa62cca572d9f33dbdc9cb70ac",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-NZ",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "The Red Bull Summer Edition gives you wings with the vibrant taste of sudachi and lime.",
-            "product_url": "https://www.redbull.com/nz-en/energydrink/products/red-bull-summer-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-NZ": "e35307df1b278a4d4a88c6cc8eba4d1245f7d18854537f598ab6f892f1dc2e8b",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-NZ": "36435aa23ddec539670c943717377e2fda0e0811ad45312eb353e03f83721ddd",

@@ -214,23 +214,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GB.svg",
     "_raw_hash": "3455df251eec2abffa09b5b540e3fa2e833acd4db7d2bea622405a94f7676152",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-GB",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio & Berries",
-            "description": "The Red Bull Winter Edition with the taste of pistachio and berries, balanced by a blend of caramel with nutty and creamy undertones.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-winter-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:en-GB",
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Pistachio & Berries",
-            "description": "The Red Bull Winter Edition Sugarfree with the taste of pistachio and berries, balanced by a blend of caramel with nutty and creamy undertones.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-winter-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-GB": "8e2d361fe1ec6b2288b973e3d202d961eb65974f7bee95a9a05c1364aa21abab",
         "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-GB": "7b37d8d6dfe45007519acf3c569375ee70e1cb53269ab2c58d44bba11a1bccc0",

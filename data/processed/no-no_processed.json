@@ -134,30 +134,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-NO.svg",
     "_raw_hash": "1ead56f5d89a4d202cf004c89ef221ba8c904728ca1bcef273938dcc691119b9",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:no-NO",
-            "name": "The Cherry Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "description": "Red Bull Cherry Edition with the taste of fresh cherry and soft almond. Zero sugar, just wings.",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-cherry-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:no-NO",
-            "name": "The Peach Edition Sugarfree",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition Sugarfree with the fresh taste of white peach. Zero sugar, only wings.",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:no-NO",
-            "name": "The Blue Edition",
-            "flavor": "Blueberry",
-            "description": "Red Bull Blue Edition with fruity blueberry taste.",
-            "product_url": "https://www.redbull.com/no-no/energydrink/products/red-bull-blue-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:no-NO": "2daa71f53ca2449a35c7a4c12b83e369ff6430e844cf1cb914baa940a9ad25a5",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:no-NO": "9b1579ceb14fb03e4f4b083b116b8595b303e48c69bd94956790fe894e1d3837",

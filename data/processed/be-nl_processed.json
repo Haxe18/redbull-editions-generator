@@ -174,16 +174,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BE.svg",
     "_raw_hash": "740e0ac8c7ad3f654491a600c31e38113c1209513b03d983b65e9a6006e168e9",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:nl-BE",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio & Berries",
-            "description": "The Red Bull Winter Edition gives you wings with the rich taste of pistachio and berries.",
-            "product_url": "https://www.redbull.com/be-nl/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-BE": "d9cf0ccc950e1a36e9d4e3865504afa5758e46e774abb242213a067fe692fd90",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:nl-BE": "9b5ea5f4a08aa53fda18a0d645f91684fcf24f3bcee14fad81fa21165db368e4",

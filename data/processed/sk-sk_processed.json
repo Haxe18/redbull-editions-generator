@@ -124,16 +124,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SK.svg",
     "_raw_hash": "6e311ff0fef5435ec80320f62368345053d12bda3866877036e4cc86cbc92ebd",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:sk-SK",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio & Berries",
-            "description": "Red Bull Winter Edition with Pistachio & Berries flavor",
-            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sk-SK": "5e5781ffda8bf8cf958e4a134406b00c2f4bea530d0e31804951a5f398d00409",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:sk-SK": "83186c15c7fb032c90bd5b7e1fc708f378cc35ff41bcdc4e5adbcc123cdad634",

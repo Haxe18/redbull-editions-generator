@@ -34,16 +34,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PH.svg",
     "_raw_hash": "4366989a257e13497a0b71e45ae6949abc694a7ecec87b78c750890a790eb9b2",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH",
-            "name": "The Purple Edition",
-            "flavor": "Kyoho Grape",
-            "description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste.",
-            "product_url": "https://www.redbull.com/ph-en/energydrink/products/red-bull-purple-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": "58746d7295c4df8eb0575677420e104463bf273477f3cd041c4d702e0656af9d",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH": "24bd11c805d8d07664d4c1d08d844db790562926d272c6b1eaf3fb184d686074",

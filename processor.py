@@ -2078,15 +2078,20 @@ class RedBullDataProcessor:
                 search = correction.get("search")
                 replace = correction.get("replace")
 
-                # RESTORE PROTECTION: Skip global correction if a locale-specific
-                # one for the same UUID+field was already applied
+                # RESTORE PROTECTION: Skip the global correction when a locale-specific
+                # one for *this* edition (same UUID **and** locale) plus field already
+                # applied, so the global cannot overwrite the more specific result.
+                # Scoped to short_id, not to the bare UUID: corrections_tracking lives
+                # for the whole run, so a UUID-wide check let one country's locale
+                # correction suppress the global correction for every country processed
+                # afterwards (order-dependent and, with parallel workers, flaky).
                 if ":" not in correction_id:
                     # Iterating the shared tracking dict must be locked: a concurrent
                     # write from another worker would raise "dictionary changed size
                     # during iteration".
                     with self._changelog_lock:
                         locale_specific_applied = any(
-                            key.startswith(f"{uuid_only}:") and f":{field}:" in key
+                            key.startswith(f"{short_id}:") and f":{field}:" in key
                             for key, val in self.corrections_tracking.items()
                             if val.get("applied")
                         )
@@ -2147,7 +2152,17 @@ class RedBullDataProcessor:
                                     f"      🔧 Applied correction: {field} - '{search}' → '{replace}'"
                                 )
                     else:
-                        if log_failures and correction_key not in self.corrections_tracking:
+                        # A global correction (no locale in the id) deliberately targets
+                        # every edition sharing the UUID, so most of them will not match
+                        # its `search` text — that is by design, not a failure. Such a
+                        # correction is only worth reporting when it matched *nothing*
+                        # in the whole run, which the "Unused Corrections" section covers.
+                        is_global = ":" not in correction_id
+                        if (
+                            log_failures
+                            and not is_global
+                            and correction_key not in self.corrections_tracking
+                        ):
                             if any(s in edition for s in sources):
                                 self.changelog["corrections_failed"].append(
                                     {
@@ -3523,6 +3538,11 @@ class RedBullDataProcessor:
 
         for corr in self.corrections:
             correction_id = corr.get("id", "")
+            if ":" not in correction_id:
+                # Global correction: relevant to every run, so a rule that never matched
+                # anywhere surfaces here instead of as a per-edition failure.
+                relevant_correction_ids.add(correction_id)
+                continue
             correction_country = self._get_country_from_correction_id(correction_id)
             # Only include corrections for countries that were actually processed
             if correction_country in processed_countries:

@@ -114,16 +114,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BR.svg",
     "_raw_hash": "15ada347593732c5d26cc882fd8557189612c6e63673e649a430785657f1f747",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:8ebfdf4b-d28a-4f4a-b6b8-569b0340f874:pt-BR",
-            "name": "The Nectarina Edition Sugarfree",
-            "flavor": "Nectarina",
-            "description": "Red Bull Nectarina Edition with the taste of Nectarina and without sugar.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-nectarina-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR": "6dc3e636b502ee98fa8a82f8366c986ebd52831dd0e60070d7ccf4d11ab94b7a",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-BR": "d97c91bb1a4608e3fa8838685ed4de255b3a945a2757788c623c293d7ced56c3",

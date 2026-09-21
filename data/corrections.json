@@ -7,7 +7,7 @@
             "replace": "Grapefruit & Blossom"
         },
         {
-            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-AT",
+            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414",
             "field": "flavor",
             "search": "Wildflower-and-Pink Grapefruit",
             "replace": "Woodruff & Pink Grapefruit"
@@ -16,18 +16,6 @@
             "id": "77e43776-f55c-4250-a143-f126e7b543ed:da-DK",
             "field": "flavor",
             "search": "Wildflower & Pink Grapefruit-smag",
-            "replace": "Woodruff & Pink Grapefruit"
-        },
-        {
-            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:fi-FI",
-            "field": "flavor",
-            "search": "Wildflower-and-Pink Grapefruit",
-            "replace": "Woodruff & Pink Grapefruit"
-        },
-        {
-            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:en-CA",
-            "field": "flavor",
-            "search": "Wildflower-and-Pink Grapefruit",
             "replace": "Woodruff & Pink Grapefruit"
         },
         {
@@ -47,12 +35,6 @@
             "field": "flavor",
             "search": "Dragon fruit",
             "replace": "Cactus Fruit"
-        },
-        {
-            "id": "eb9c22db-6c3d-4a68-b4e3-c915c59b1414:de-DE",
-            "field": "flavor",
-            "search": "Wildflower-and-Pink Grapefruit",
-            "replace": "Woodruff & Pink Grapefruit"
         },
         {
             "id": "9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB",
@@ -109,37 +91,7 @@
             "replace": "Blueberry"
         },
         {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:de-DE",
-            "field": "flavor",
-            "search": "Peach",
-            "replace": "White Peach"
-        },
-        {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:et-EE",
-            "field": "flavor",
-            "search": "Peach",
-            "replace": "White Peach"
-        },
-        {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:fi-FI",
-            "field": "flavor",
-            "search": "Peach",
-            "replace": "White Peach"
-        },
-        {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:en-GB",
-            "field": "flavor",
-            "search": "Peach",
-            "replace": "White Peach"
-        },
-        {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:en-SE",
-            "field": "flavor",
-            "search": "Peach",
-            "replace": "White Peach"
-        },
-        {
-            "id": "c55e5804-ce3c-4289-8d89-930b6d678501:tr-TR",
+            "id": "c55e5804-ce3c-4289-8d89-930b6d678501",
             "field": "flavor",
             "search": "Peach",
             "replace": "White Peach"
@@ -217,29 +169,10 @@
             "replace": "Iced Vanilla Berry"
         },
         {
-            "id": "9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:mk-MK",
-            "field": "flavor",
-            "search": "Јаболко-ѓумбир",
-            "replace": "Fuji Apple & Ginger"
-        },
-        {
             "id": "add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:es-ES",
             "field": "flavor",
             "search": "Curuba",
             "replace": "Sudachi Lime"
-        },
-        {
-            "id": "d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR",
-            "field": "alt_text",
-            "search": "Ice Edition half can",
-            "replace": "Maçã Edition half can"
-        },
-        {
-            "id": "d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR",
-            "field": "image_url",
-            "match_mode": "partial",
-            "search": "redbullcom/2026/7/8/dyebynbzpaxvgmjcnmjs/ice-edition-half-can",
-            "replace": "redbullcom/2026/1/20/oa6cfnllu8bpbarc5crd/winter-edition-half-can"
         }
     ],
     "comments": [

@@ -144,23 +144,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PL.svg",
     "_raw_hash": "d630b38574b1e8feffe3d65931c20c15afcb5286ddc43e98f841aad2f891124f",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pl-PL",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio-Berry",
-            "description": "Red Bull Winter Edition gives you wings with the taste of pistachio and berry.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pl-PL",
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Pistachio-Berry",
-            "description": "Red Bull Winter Edition Sugarfree gives you wings with the taste of pistachio and berry.",
-            "product_url": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-winter-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pl-PL": "7c2603b0db36132344a2785ff0e6addac7375560c917591a8dbf182a13d2cf0b",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:pl-PL": "18aae4c9179c7310ded5ddd95e66b457a1627d6baec0a7554bbdad13678253df",

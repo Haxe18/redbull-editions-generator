@@ -54,16 +54,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CO.svg",
     "_raw_hash": "38492f8bf1b5054870efa07b11eea94f40d9502caa8d97cf908f2ce5b7e60961",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:es-CO",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition: the energy drink with a white peach taste.",
-            "product_url": "https://www.redbull.com/co-es/energydrink/products/red-bull-peach-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CO": "b5b9d6675b6385c7f05239fd20ac98ff4e344afcaa7286eed7449d3fb1e5b69b",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CO": "aca5a558f4709015dc526eb6d1f1b12abbad1d4f1887ae8d20eeba1fafe52317",

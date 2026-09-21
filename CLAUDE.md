@@ -352,20 +352,29 @@ Create/edit `data/corrections.json`:
 - This allows intuitive field names while the processor handles the technical details
 - **`"image_url"` and `"alt_text"`** are also correctable: they target the final output fields directly (no raw-field mapping). Both are re-extracted from raw data every run (never cached), so corrections apply reliably even on cache hits. Use `match_mode: "partial"` for `image_url` since the value contains the image transformation prefix.
 
-**Active Locale-Specific Corrections**:
-- **Maçã Edition Sugarfree Brazil** (UUID `d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR`, since 2026-07-14):
-  - Red Bull's API delivers the Ice Edition image + altText for the Maçã Edition (title/flavor/URL still Maçã)
-  - Two corrections restore the previous Maçã can image (`winter-edition-half-can` slug) and altText
-  - Self-cleanup signal: once Red Bull fixes the data, both corrections appear as `corrections_failed` in the console → remove them
-  - Note: same UUID is used correctly by Chile (`es-CL`) for its Winter Edition, hence locale-specific
+**Prefer a global correction over duplicated locale-specific ones**: if the same `search` → `replace`
+is needed for several locales of one UUID, use a single global entry. It covers locales that do not
+carry the edition yet, so a returning seasonal edition is corrected without a new entry.
 
-**Active Global Corrections** (as of 2025-10-22):
-- **Apricot/Amber/Summer Edition** (UUID `f900c5b7-d33e-4a8e-a186-5cee5bd291a1`):
-  - Two corrections ensure "Apricot-Strawberry" flavor order (not "Strawberry-Apricot")
-  - Corrects both raw API data and Gemini-translated data
-  - Applied automatically before Gemini processing on every run
-  - Affects: AT, DK, EE, ES, FR, GB, HU, IT, LV, MEA, MK, NL, NO, PT, RO, SE, SI, SK, US
-  - Details: See `data/changelogs/changelog_20251022_135339_manual.md`
+**Active Global Corrections**:
+- **Apricot/Amber/Summer Edition** (`f900c5b7-d33e-4a8e-a186-5cee5bd291a1`): enforces
+  "Apricot-Strawberry" order. Brazil overrides it locale-specifically with "Strawberry & Peach".
+- **Peach Edition** (`c55e5804-ce3c-4289-8d89-930b6d678501`): `Peach` → `White Peach`.
+  Serbia overrides locale-specifically (`Breskva`).
+- **Lilac Edition Sugarfree** (`eb9c22db-6c3d-4a68-b4e3-c915c59b1414`):
+  `Wildflower-and-Pink Grapefruit` → `Woodruff & Pink Grapefruit`. Turkey overrides (`Pomelo`).
+- Plus `41e97cb8` (Iced Gummy Bear → Iced Vanilla Berry), `1ad9d76b` (Coconut → Coconut-Blueberry),
+  `2b3e7c7e` (Juneberry → Cherry & Wild Berries), `9484225a` (Gletschereis → Glacier Ice).
+
+**Restore Protection**: when an edition has both a global and a locale-specific correction for the
+same UUID + field, the locale-specific one wins and the global is skipped **for that edition only**.
+The check is scoped to `UUID:locale`, not to the bare UUID — `corrections_tracking` lives for the
+whole run, so a UUID-wide check let one country's locale correction suppress the global correction
+for every country processed afterwards (order-dependent, and flaky with parallel workers).
+
+**Auditing corrections**: a correction that no longer matches anything is dead weight. Check with
+`_raw_flavor` / `_standfirst` from `data/raw/`, remembering that `apply_corrections` normalizes Açai
+variants (`Açai` → `Acai`) *before* matching — raw data alone gives false negatives.
 
 ## Flavor Rules File
 
@@ -462,6 +471,9 @@ The processor only creates changelog files when the output data actually changed
 
 **Warning surfacing:**
 - `corrections_failed` and `id_mappings_failed` are printed to the console during the run regardless of whether a changelog is written
+- A **global** correction is never reported as failed per edition: it targets every edition sharing the
+  UUID, so most will not match its `search` text by design. It surfaces under *Unused Corrections*
+  only when it matched nothing in the entire run
 - If a changelog IS written, they also appear there
 - If no changelog is written, the end-of-run summary lists each failure explicitly
 

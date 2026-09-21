@@ -64,16 +64,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
     "_raw_hash": "d4448d647d36916a96c8f15caca0e1619faa063e0878ec70bef4f89e458da7ab",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK",
-            "name": "The Apple Edition",
-            "flavor": "Fuji Apple & Ginger",
-            "description": "Red Bull Apple Edition Fuji Apple taste, the sweet and fresh fruit aroma of Fuji apples meets slightly spicy ginger, weaving together a just right heartwarming taste!",
-            "product_url": "https://redbull.com/hk-zh/energydrink/products/red-bull-apple-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK": "a9c36bdfac665627c7b7375c0c8175502af77d105e6d04eb26e3e8e9ee0cfcdd",
         "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": "089307fef6d5b560da4eeb37be72b594ba8020ea9cf31cdd3e3e7e8296d8c72d",

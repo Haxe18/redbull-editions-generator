@@ -134,23 +134,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CL.svg",
     "_raw_hash": "62e3dc5e3b2106262ddd63e00473130309aa74db9b204aaf7181c33eebd13ab2",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:es-CL",
-            "name": "The Spring Edition",
-            "flavor": "Cherry and Sakura",
-            "description": "Red Bull Spring Edition with cherry taste, notes of almond and cherry blossom.",
-            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-spring-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:es-CL",
-            "name": "The Spring Edition Sugarfree",
-            "flavor": "Cherry and Sakura",
-            "description": "Red Bull Spring Edition with cherry taste, notes of almond and cherry blossom.",
-            "product_url": "https://www.redbull.com/cl-es/energydrink/products/red-bull-spring-edition-sugarfree"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CL": "1e5af275968c651e63dc21357f0f42b4a04f904bab5ad00ce41937457abae2c0",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:es-CL": "117a37bade90c8f5ea5243312b15973e6bb0302a5afc57a0a6993946711724b2",

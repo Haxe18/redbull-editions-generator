@@ -124,16 +124,9 @@
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DK.svg",
     "_raw_hash": "ad2b74fd33ea7e8c05125da414192c9ea9d7d2b767b0b934d1338b4b153bcfc6",
-    "_corrections_hash": "2c9975947d1a8d08e2cc153b45714288ca863fe57e377cb5301f98eb81d26485",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:da-DK",
-            "name": "The Yellow Edition",
-            "flavor": "Citrus Zest",
-            "description": "Red Bull Yellow Edition gives you wings with the new and fresh taste of sudachi and lime.",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-yellow-edition"
-        }
-    ],
+    "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
+    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:da-DK": "9f6011c5bca777239bf825232d84f1f4b45a7b154fa15e620cec47e4d2696e21",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:da-DK": "2fe79c6afd25b90fb9321ad02ef2d8ddbe2c866bc00620c78c75187112bb95b8",
