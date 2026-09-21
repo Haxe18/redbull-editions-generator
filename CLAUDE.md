@@ -248,6 +248,17 @@ Protection lives in `_save_country_data()` — before writing the raw file, comp
   raw input is unchanged, protecting curated values from non-deterministic AI drift on `--force`
 - **Step 2 normalize** returns the translated flavor AS-IS (no approved-list matching in the prompt);
   flavor normalization is handled by post-processing (`clean_flavor_name`)
+- **Flavor rules live in `data/flavors.json`**, not in the code (see *Flavor Rules File* below)
+- **Flavor Alias Map** (`aliases`): the approved list is only an allow-list — it cannot pull a
+  locale variant onto the canonical name. Variants arise because every locale words the same product
+  differently ("fruits des bois", "gozdni sadeži", "berries") and the AI translates 1:1 as instructed.
+  Fuzzy matching in `clean_flavor_name` cannot bridge them (e.g. "Pistachio-Forest Fruits" scores 0.65
+  against "Pistachio-Berries", below `SIMILARITY_THRESHOLD` 0.75), so Step 3 was the only safety net —
+  and that is a non-deterministic AI step. Explicit aliases make the mapping deterministic.
+  Aliases are applied *before* all other matching and ignore case, hyphens, ampersands and whitespace,
+  so one entry covers "Pistachio & Forest Fruits" and "Pistachio-Forest Fruits" alike.
+  **When a new edition name is standardized, add the locale variants to `aliases` — not only to
+  `approved_flavors`.**
 
 ### Region Emoji System
 - **Unique emojis** for regions with "INT" flag code
@@ -270,6 +281,7 @@ Protection lives in `_save_country_data()` — before writing the raw file, comp
    - `data/raw/` - Raw API responses per country
    - `data/processed/` - Normalized data after Gemini processing
    - `data/corrections.json` - Manual corrections configuration
+   - `data/flavors.json` - Approved flavor list and alias map (source of truth)
    - `data/redbull_editions_final.json` - Final consolidated output
    - `data/collection_summary.json` - Statistics and metadata
 
@@ -354,6 +366,39 @@ Create/edit `data/corrections.json`:
   - Applied automatically before Gemini processing on every run
   - Affects: AT, DK, EE, ES, FR, GB, HU, IT, LV, MEA, MK, NL, NO, PT, RO, SE, SI, SK, US
   - Details: See `data/changelogs/changelog_20251022_135339_manual.md`
+
+## Flavor Rules File
+
+`data/flavors.json` is the source of truth for flavor normalization. `processor.py` holds no flavor
+list of its own — it loads this file at startup into `self.approved_flavors` / `self.flavor_aliases`.
+
+```json
+{
+    "approved_flavors": ["Apricot-Strawberry", "Pistachio-Berries", "..."],
+    "aliases": {
+        "Pistachio-Forest Fruits": "Pistachio-Berries",
+        "Pistachio-Forest Berry": "Pistachio-Berries",
+        "Curuba": "Curuba-Elderflower"
+    }
+}
+```
+
+- **`approved_flavors`**: allow-list. A flavor matching an entry (exact, fuzzy, word-order, or
+  similarity ≥ `SIMILARITY_THRESHOLD`) is kept or normalized to that spelling.
+- **`aliases`**: explicit variant → canonical mapping, applied before all other matching.
+- **`_comment`**: free-text array, ignored by the loader.
+
+**Cache coupling**: the SHA256 of the file is stored per country as `_flavors_hash`. Editing the file
+invalidates every country's cache, so a new rule takes effect on the next run **without `--force`** —
+the same guarantee `corrections.json` has via `_corrections_hash`. The trade-off is that the first run
+after an edit reprocesses all countries through Gemini once (watch `MAX_REQUESTS_PER_DAY`).
+
+**Fail-fast validation** (all exit code 1): file missing, invalid JSON, empty `approved_flavors`, or an
+alias pointing at a target that is not in `approved_flavors`.
+
+**Why this matters**: on 2025-09-15 a new canonical name was added to the approved list only. That is
+an allow-list entry, not a rule — France and Slovenia kept producing their own literal translations for
+days, and the eventual "fix" was a lucky roll of the non-deterministic Step 3 validation.
 
 ## Intelligent Caching System
 

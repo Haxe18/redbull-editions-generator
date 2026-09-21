@@ -189,47 +189,7 @@ class RedBullDataProcessor:
     MAX_REQUESTS_PER_DAY = 250
     SIMILARITY_THRESHOLD = 0.75  # Minimum similarity for flavor matching
     GLOBAL_UUID_CACHE_FILE = "global_uuid_cache.json"
-
-    # APPROVED FLAVOR LIST (Source of Truth)
-    APPROVED_FLAVORS = [
-        "Apricot-Strawberry",
-        "Acai",
-        "Blueberry",
-        "Blueberry & Vanilla",
-        "Cactus Fruit",
-        "Cherry Sakura",
-        "Cherry & Wild Berries",
-        "Citrus Zest",
-        "Coconut-Blueberry",
-        "Curuba-Elderflower",
-        "Dragon Fruit",
-        "Energy Drink",
-        "Exotic Passion Fruit",
-        "Raspberry",
-        "Forest Berry",
-        "Forest Fruits",
-        "Fuji Apple & Ginger",
-        "Glacier Ice",
-        "Grapefruit & Blossom",
-        "Iced Gummy Bear",
-        "Iced Vanilla Berry",
-        "Juneberry",
-        "Maracuja & Melon",
-        "Strawberry & Peach",
-        "Pear Cinnamon",
-        "Pistachio-Berries",
-        "Pomelo",
-        "Pomegranate",
-        "Sudachi Lime",
-        "Sugarfree",
-        "Tropical Fruits",
-        "Watermelon",
-        "White Peach",
-        "Wild Berries",
-        "Wildflower & Pink Grapefruit",
-        "Woodruff & Pink Grapefruit",
-        "Zero Sugar",
-    ]
+    FLAVORS_FILE = "flavors.json"
 
     # APPROVED EDITION LIST (Known editions for guidance - not strict enforcement)
     APPROVED_EDITIONS = [
@@ -394,6 +354,11 @@ class RedBullDataProcessor:
             "countries_skipped_daily_limit": [],
         }
 
+        # Load flavor rules (source of truth for normalization) before anything uses them
+        self.approved_flavors, self.flavor_aliases, self.flavors_hash = (
+            self._load_flavor_rules()
+        )
+
         # Load corrections
         self.corrections, self.id_mappings, self.corrections_hash = self._load_corrections()
         self.corrections_tracking = {}
@@ -423,6 +388,61 @@ class RedBullDataProcessor:
             self.logger.debug("  📍 API Key: %s...", api_key[:10])
             self.logger.debug("  🤖 Model: %s", self.GEMINI_MODEL)
             self.logger.debug("  🔄 Max parallel workers: %d", self.max_workers)
+
+    def _load_flavor_rules(self) -> tuple[List[str], Dict[str, str], str]:
+        """Load the approved flavor list and alias map from ``data/flavors.json``.
+
+        The file is the source of truth for flavor normalization and is mandatory —
+        without it every flavor would pass through unnormalized, silently corrupting
+        the output. The run therefore aborts if it is missing or malformed.
+
+        Returns:
+            Tuple of (approved flavors, alias map, sha256 hash of the raw file content).
+            The hash feeds ``_flavors_hash`` so that editing the file invalidates the
+            per-country cache and new rules take effect without ``--force``.
+        """
+        flavors_file = self.data_dir / self.FLAVORS_FILE
+
+        if not flavors_file.exists():
+            self.logger.error("\n❌ MISSING %s", flavors_file)
+            self.logger.error("   This file is required — it holds the approved flavor list.")
+            sys.exit(1)
+
+        try:
+            with open(flavors_file, "r", encoding="utf-8") as file:
+                content = file.read()
+                flavors_hash = hashlib.sha256(content.encode()).hexdigest()
+                data = json.loads(content)
+        except json.JSONDecodeError as err:
+            self.logger.error("\n❌ INVALID JSON in %s", flavors_file)
+            self.logger.error("   Error at line %d, column %d", err.lineno, err.colno)
+            self.logger.error("   %s", err.msg)
+            sys.exit(1)
+
+        approved_flavors = data.get("approved_flavors", [])
+        aliases = data.get("aliases", {})
+
+        if not approved_flavors:
+            self.logger.error("\n❌ %s contains no 'approved_flavors' entries", flavors_file)
+            sys.exit(1)
+
+        unknown_targets = sorted(set(aliases.values()) - set(approved_flavors))
+        if unknown_targets:
+            self.logger.error(
+                "\n❌ %s: alias targets missing from 'approved_flavors':", flavors_file
+            )
+            for target in unknown_targets:
+                self.logger.error("   - %s", target)
+            sys.exit(1)
+
+        if self.debug:
+            self.logger.info(
+                "🍓 Loaded %d approved flavors and %d aliases",
+                len(approved_flavors),
+                len(aliases),
+            )
+
+        return approved_flavors, aliases, flavors_hash
 
     def _load_corrections(self) -> tuple[List[Dict], List[Dict], str]:
         """Load manual corrections and ID mappings from JSON file.
@@ -481,6 +501,41 @@ class RedBullDataProcessor:
         normalized = flavor.lower().replace("-", " ").replace("&", " ")
         words = sorted([w for w in normalized.split() if w])
         return tuple(words)
+
+    def _resolve_flavor_alias(self, flavor: str) -> Optional[str]:
+        """Resolve a flavor against :attr:`flavor_aliases`.
+
+        Comparison ignores case, hyphens, ampersands and whitespace, so a single alias
+        entry covers every spelling the AI may emit for the same literal translation
+        (e.g. "Pistachio & Forest Fruits" and "Pistachio-Forest Fruits").
+
+        Args:
+            flavor: Flavor string to resolve.
+
+        Returns:
+            The canonical flavor name, or ``None`` if no alias matches.
+        """
+        lookup_key = self._get_alias_key(flavor)
+        if not lookup_key:
+            return None
+
+        for alias, canonical in self.flavor_aliases.items():
+            if self._get_alias_key(alias) == lookup_key:
+                return canonical
+
+        return None
+
+    @staticmethod
+    def _get_alias_key(flavor: str) -> str:
+        """Normalize a flavor for alias lookup (lowercase, no separators).
+
+        Args:
+            flavor: Flavor string to normalize.
+
+        Returns:
+            Normalized lookup key, e.g. "Pistachio & Forest Fruits" → "pistachioforestfruits".
+        """
+        return flavor.lower().replace("-", "").replace("&", "").replace(" ", "").strip()
 
     @staticmethod
     def _get_language_priority(domain: str) -> int:
@@ -886,6 +941,7 @@ class RedBullDataProcessor:
     INTERNAL_CACHE_FIELDS = (
         "_raw_hash",
         "_corrections_hash",
+        "_flavors_hash",
         "_translated_editions",
         "_edition_fingerprints",
         "_normalized_editions",
@@ -1377,15 +1433,21 @@ class RedBullDataProcessor:
         # CRITICAL: Strip whitespace FIRST before any processing
         original_flavor = self._clean_whitespace(flavor)
 
-        # HARDCODED CORRECTION: Curuba -> Curuba-Elderflower
-        if original_flavor == "Curuba":
-            return "Curuba-Elderflower"
-
-        # CRITICAL CHECK: If it's in the approved list - RETURN IMMEDIATELY, DO NOT MODIFY
-        if original_flavor in self.APPROVED_FLAVORS:
+        # ALIAS MAP: collapse known locale variants onto their canonical approved flavor
+        # before any other matching runs (see data/flavors.json for the why).
+        alias_target = self._resolve_flavor_alias(original_flavor)
+        if alias_target:
             if self.verbose:
                 self.thread_safe_print(
-                    f"      ✅ Flavor '{original_flavor}' is in APPROVED_FLAVORS - keeping as is"
+                    f"      🔗 Alias match: '{original_flavor}' → '{alias_target}'"
+                )
+            return alias_target
+
+        # CRITICAL CHECK: If it's in the approved list - RETURN IMMEDIATELY, DO NOT MODIFY
+        if original_flavor in self.approved_flavors:
+            if self.verbose:
+                self.thread_safe_print(
+                    f"      ✅ Flavor '{original_flavor}' is in approved list - keeping as is"
                 )
             return original_flavor
 
@@ -1395,7 +1457,7 @@ class RedBullDataProcessor:
             parts = [p.strip() for p in original_flavor.split("/")]
             # Check if any part is in approved list
             for part in parts:
-                if part in self.APPROVED_FLAVORS:
+                if part in self.approved_flavors:
                     return part
             # If "Tropical Fruits" is one of the parts, use it
             if "Tropical Fruits" in parts:
@@ -1436,14 +1498,14 @@ class RedBullDataProcessor:
         flavor = re.sub(r"(?<=[A-Za-z])&", " &", flavor)
 
         # Check if the cleaned version is in approved list
-        if flavor.strip() in self.APPROVED_FLAVORS:
+        if flavor.strip() in self.approved_flavors:
             return flavor.strip()
 
         # FUZZY MATCHING: Try to match against approved flavors by normalizing both sides
         # This handles cases like "Fuji Apple-Ginger" → "Fuji Apple & Ginger"
         normalized_input = flavor.lower().replace("-", "").replace("&", "").replace(" ", "")
 
-        for approved in self.APPROVED_FLAVORS:
+        for approved in self.approved_flavors:
             normalized_approved = (
                 approved.lower().replace("-", "").replace("&", "").replace(" ", "")
             )
@@ -1458,7 +1520,7 @@ class RedBullDataProcessor:
         # WORD-ORDER MATCHING: Match when same words in any order
         # This handles cases like "Apple Fuji-Ginger" → "Fuji Apple & Ginger"
         input_words = self._get_word_set(flavor)
-        for approved in self.APPROVED_FLAVORS:
+        for approved in self.approved_flavors:
             if input_words == self._get_word_set(approved):
                 if self.verbose:
                     self.thread_safe_print(
@@ -1471,7 +1533,7 @@ class RedBullDataProcessor:
         best_match = None
         best_ratio = 0.0
 
-        for approved in self.APPROVED_FLAVORS:
+        for approved in self.approved_flavors:
             normalized_approved = (
                 approved.lower().replace("-", "").replace("&", "").replace(" ", "")
             )
@@ -1495,7 +1557,7 @@ class RedBullDataProcessor:
 
         # For flavors not in the approved list, check if it should keep the &
         # Check against all approved flavors that contain &
-        approved_with_ampersand = [f for f in self.APPROVED_FLAVORS if "&" in f]
+        approved_with_ampersand = [f for f in self.approved_flavors if "&" in f]
         should_keep_ampersand = False
 
         for approved in approved_with_ampersand:
@@ -1634,7 +1696,7 @@ class RedBullDataProcessor:
             return description
 
         # Process each flavor from the approved list
-        for flavor in self.APPROVED_FLAVORS:
+        for flavor in self.approved_flavors:
             # Skip generic ones that shouldn't be capitalized everywhere
             if flavor in ["Energy Drink", "Sugarfree", "Zero Sugar"]:
                 continue
@@ -1643,15 +1705,17 @@ class RedBullDataProcessor:
             if "-" in flavor:
                 parts = flavor.split("-")
                 for part in parts:
-                    # Case-insensitive replacement while preserving the correct capitalization
-                    pattern = re.compile(re.escape(part.lower()), re.IGNORECASE)
+                    # Case-insensitive replacement while preserving the correct capitalization.
+                    # Word boundaries are required: without them a part like "Berries"
+                    # (from "Pistachio-Berries") rewrites "blueberries" into "blueBerries".
+                    pattern = re.compile(rf"\b{re.escape(part.lower())}\b", re.IGNORECASE)
                     description = pattern.sub(part, description)
 
             # Also handle special compound flavors with spaces
             if " & " in flavor:
                 parts = flavor.split(" & ")
                 for part in parts:
-                    pattern = re.compile(re.escape(part.lower()), re.IGNORECASE)
+                    pattern = re.compile(rf"\b{re.escape(part.lower())}\b", re.IGNORECASE)
                     description = pattern.sub(part, description)
             elif " " in flavor and flavor not in [
                 "Energy Drink",
@@ -1669,7 +1733,7 @@ class RedBullDataProcessor:
                 continue
 
             # Replace the full flavor name (case-insensitive)
-            pattern = re.compile(re.escape(flavor.lower()), re.IGNORECASE)
+            pattern = re.compile(rf"\b{re.escape(flavor.lower())}\b", re.IGNORECASE)
             description = pattern.sub(flavor, description)
 
         # Handle specific multi-word flavors that should be capitalized
@@ -1685,7 +1749,7 @@ class RedBullDataProcessor:
         ]
 
         for flavor in multi_word_flavors:
-            pattern = re.compile(re.escape(flavor.lower()), re.IGNORECASE)
+            pattern = re.compile(rf"\b{re.escape(flavor.lower())}\b", re.IGNORECASE)
             description = pattern.sub(flavor, description)
 
         return description
@@ -2687,7 +2751,7 @@ class RedBullDataProcessor:
             )
 
         # Convert approved flavors list to string for prompt
-        approved_flavors_str = json.dumps(self.APPROVED_FLAVORS, indent=4)
+        approved_flavors_str = json.dumps(self.approved_flavors, indent=4)
 
         # Prepare editions for validation
         editions_to_validate = [
@@ -2918,9 +2982,9 @@ class RedBullDataProcessor:
                 corrected_fields = edition.get("_corrected_fields", set())
                 if "flavor" not in corrected_fields:
                     # CRITICAL: Check if original flavor (cleaned) was in
-                    # APPROVED_FLAVORS
+                    # the approved flavor list
                     original_raw_flavor = edition.get("_raw_flavor", "").strip()
-                    if original_raw_flavor in self.APPROVED_FLAVORS:
+                    if original_raw_flavor in self.approved_flavors:
                         # Original was already approved - DO NOT let AI change it!
                         edition["flavor"] = original_raw_flavor
                         if self.verbose:
@@ -3022,7 +3086,7 @@ class RedBullDataProcessor:
                             )
                         ):
                             old_flavor = edition.get("flavor", "")
-                            # Apply clean_flavor_name to ensure APPROVED_FLAVORS matching
+                            # Apply clean_flavor_name to ensure approved-list matching
                             new_flavor = self.clean_flavor_name(
                                 validation.corrected_flavor.strip()
                             )
@@ -3157,7 +3221,7 @@ class RedBullDataProcessor:
             old_flavor = (old_normalized.get(edition_id) or {}).get("flavor", "")
             # Only anchor known-good values; a non-approved previous value may legitimately
             # be improved by re-derivation.
-            if old_flavor not in self.APPROVED_FLAVORS:
+            if old_flavor not in self.approved_flavors:
                 continue
 
             new_flavor = edition.get("flavor", "")
@@ -3958,7 +4022,7 @@ class RedBullDataProcessor:
         correct flavors into wrong ones (e.g. "Citrus Zest" → "Pomelo"). A correction is
         therefore only permitted when it is genuinely plausible:
 
-        * the *current* flavor is NOT already in :attr:`APPROVED_FLAVORS` (so there is
+        * the *current* flavor is NOT already in :attr:`approved_flavors` (so there is
           something to fix), AND
         * the proposed flavor resolves (via :meth:`clean_flavor_name`) to an approved
           flavor (so we replace an unknown value with a known-good one, never the reverse).
@@ -3975,11 +4039,11 @@ class RedBullDataProcessor:
 
         current_flavor = edition.get("flavor", "").strip()
         # An already-approved flavor is authoritative — never let the validator touch it.
-        if current_flavor in self.APPROVED_FLAVORS:
+        if current_flavor in self.approved_flavors:
             return False
 
         # Only accept a correction that lands on an approved flavor.
-        return self.clean_flavor_name(corrected_flavor.strip()) in self.APPROVED_FLAVORS
+        return self.clean_flavor_name(corrected_flavor.strip()) in self.approved_flavors
 
     def _load_global_uuid_cache(self) -> None:
         """Load the cross-country UUID translation cache from disk.
@@ -4080,8 +4144,12 @@ class RedBullDataProcessor:
                     raw_match = existing.get("_raw_hash") == raw_hash
                     # If file has no corrections_hash, we force re-process once to establish it
                     corr_match = existing.get("_corrections_hash") == self.corrections_hash
+                    # Flavor rules are normalization logic, not raw input: an edited
+                    # flavors.json must take effect without --force, otherwise a new
+                    # rule silently never reaches the already-cached countries.
+                    flavors_match = existing.get("_flavors_hash") == self.flavors_hash
 
-                    if raw_match and corr_match:
+                    if raw_match and corr_match and flavors_match:
                         # Always re-apply corrections to cached normalized entries —
                         # corrections must take effect without --force, even when cache is current.
                         # _normalized_editions is keyed by edition_id (full RRN), which is needed
@@ -4473,6 +4541,7 @@ class RedBullDataProcessor:
             f"flags/cosmos-flag-{flag_url_code}.svg",
             "_raw_hash": raw_hash,
             "_corrections_hash": self.corrections_hash,
+            "_flavors_hash": self.flavors_hash,
             "_translated_editions": translated_editions,
             "_edition_fingerprints": edition_fingerprints,
             "_normalized_editions": normalized_cache,
@@ -4526,8 +4595,9 @@ class RedBullDataProcessor:
     def _invalidate_country_caches(self) -> None:
         """Invalidate per-country cache hashes in all processed files.
 
-        Called once at the start of a force-reprocess run. Removes ``_raw_hash``
-        and ``_corrections_hash`` from every ``data/processed/<domain>_processed.json``.
+        Called once at the start of a force-reprocess run. Removes ``_raw_hash``,
+        ``_corrections_hash`` and ``_flavors_hash`` from every
+        ``data/processed/<domain>_processed.json``.
         This makes the run resumable: if processing aborts mid-way, restarting
         without ``--force`` will hit cache for countries that completed successfully
         (they wrote fresh hashes) and miss cache for countries that did not get
@@ -4550,9 +4620,12 @@ class RedBullDataProcessor:
                 )
                 continue
 
-            had_hashes = "_raw_hash" in data or "_corrections_hash" in data
+            had_hashes = any(
+                key in data for key in ("_raw_hash", "_corrections_hash", "_flavors_hash")
+            )
             data.pop("_raw_hash", None)
             data.pop("_corrections_hash", None)
+            data.pop("_flavors_hash", None)
 
             if had_hashes:
                 self._atomic_write_json(processed_file, data)
