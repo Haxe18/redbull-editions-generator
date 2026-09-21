@@ -178,7 +178,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/no-en/energydrink/products/red-bull-cherry-edition-sugarfree"
+                    "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-cherry-edition-sugarfree"
                 }
             },
             "graphql_data": {
@@ -193,7 +193,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/no-en/energydrink/products/red-bull-cherry-edition-sugarfree"
+                        "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-cherry-edition-sugarfree"
                     }
                 }
             }
@@ -418,7 +418,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://rb-pcs-dev.herokuapp.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
+                    "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
                 }
             },
             "graphql_data": {
@@ -433,7 +433,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://rb-pcs-dev.herokuapp.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
+                        "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-peach-edition-sugarfree"
                     }
                 }
             }
@@ -552,7 +552,7 @@
                     }
                 },
                 "reference": {
-                    "externalUrl": "https://www.redbull.com/no-no/energydrink/red-bull-blue-edition"
+                    "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-blue-edition"
                 }
             },
             "graphql_data": {
@@ -567,7 +567,7 @@
                         }
                     },
                     "reference": {
-                        "externalUrl": "https://www.redbull.com/no-no/energydrink/red-bull-blue-edition"
+                        "externalUrl": "https://www.redbull.com/no-no/energydrink/products/red-bull-blue-edition"
                     }
                 }
             }
@@ -837,5 +837,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-14T10:50:02.544123+00:00"
+    "collection_timestamp": "2026-09-21T10:53:34.837524+00:00"
 }
