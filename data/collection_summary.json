@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-21T11:01:12.653155+00:00",
+        "collection_date": "2026-09-22T10:15:34.058453+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -317,7 +317,7 @@
                 "kr-ko"
             ],
             "flag_code": "KR",
-            "editions_count": 5,
+            "editions_count": 4,
             "data_file": "kr-ko.json"
         },
         "Latvia": {
@@ -545,7 +545,7 @@
                 "tw-zh"
             ],
             "flag_code": "TW",
-            "editions_count": 6,
+            "editions_count": 7,
             "data_file": "tw-zh.json"
         },
         "Türkiye": {

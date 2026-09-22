@@ -52,6 +52,16 @@
             "product_url": "https://www.redbull.com/sugarfree"
         },
         {
+            "name": "The Yellow Edition",
+            "flavor": "Japanese Citrus",
+            "flavor_description": "Red Bull Yellow Edition gives you wings with a Japanese citrus taste. Enjoy a unique formula made with high-quality ingredients",
+            "sugarfree": false,
+            "color": "#f0e53b",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/25/q4yf98iayo6uhb0jidpx/red-bull-yellow-edition-image",
+            "alt_text": "Red Bull Yellow Edition - image",
+            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-yellow-edition"
+        },
+        {
             "name": "The Purple Edition",
             "flavor": "Acai",
             "flavor_description": "Red Bull Purple Edition Kyoho Grape flavored energy drink",
@@ -63,16 +73,25 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TW.svg",
-    "_raw_hash": "f9d9b9ea1117ab9ef304903e4f8b4a2610aeeb0e0c198bb654fff36ed7a64eaa",
+    "_raw_hash": "785a8b96f0e23b387e5d3fd053335a6616b7778c9fb7bb73b42335a10d59d555",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:zh-TW",
+            "name": "The Yellow Edition",
+            "flavor": "Japanese Citrus",
+            "description": "Red Bull Yellow Edition gives you wings with a Japanese citrus taste. Enjoy a unique formula made with high-quality ingredients.",
+            "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-yellow-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:zh-TW": "62468728dd3b2981aedf98b867086cba7238de9e760a11f4906846d8f6156a39",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:zh-TW": "6d562cb5bce9c8a42adedbc19d404c1807afbc9caf5850e3dac304464ca7c088",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-TW": "59ff74aca95cc4a3bd4eeb230743f59280b9ff054f21fbb3addd45eb4a951501",
         "rrn:content:energy-drinks:8cc467b7-a5fb-4a2d-be4d-3dc916680c31:zh-TW": "b14a441837475beb05a16bca457ad92fad9d98b23bc424face680bbc449f282e",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-TW": "3af54743ab63208f4d74650db2d3101c4ef79733114b16ba70e547b31b072bca",
+        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:zh-TW": "7e4947446927811a2c5ebf51d19faea65ec69d89e965889f24a1282224cf55e3",
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-TW": "59a494e680f5b6b9b0fcee4b6d71b3344329fc72997b8382a8267961d51ab8fe"
     },
     "_normalized_editions": {
@@ -105,6 +124,12 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Energy Drink Sugarfree is the sugarfree version of Red Bull Energy Drink",
             "sugarfree": true
+        },
+        "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:zh-TW": {
+            "name": "The Yellow Edition",
+            "flavor": "Japanese Citrus",
+            "flavor_description": "Red Bull Yellow Edition gives you wings with a Japanese citrus taste. Enjoy a unique formula made with high-quality ingredients",
+            "sugarfree": false
         },
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-TW": {
             "name": "The Purple Edition",

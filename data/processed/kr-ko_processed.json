@@ -22,16 +22,6 @@
             "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-sugarfree"
         },
         {
-            "name": "The Green Edition",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Green Edition combines refreshing tropical fruit notes with sweet floral scents",
-            "sugarfree": false,
-            "color": "#79B942",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/12/bnvlk9mb5xizcjpxziwc/red-bull-green-edition",
-            "alt_text": "Red Bull Green Edition",
-            "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
-        },
-        {
             "name": "The Pink Edition",
             "flavor": "White Peach",
             "flavor_description": "Red Bull Pink Edition adds the freshness of citrus and floral scents to the Peach scent",
@@ -53,14 +43,13 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-KR.svg",
-    "_raw_hash": "0cf07b32bce6f2a4c96a8672bf00db28a33b3ce79642bd447737760d8dd1d421",
+    "_raw_hash": "042ea9ec31d34cc6c336bad8c6033f0f649fcb7b2d378daa20a0b7e45a7af165",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ko-KR": "3cf980d82ec7b53d47ada3e0b40e638847cd8458a3f6a6a6921925be7d96fed0",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ko-KR": "0fb38415632bb063f0a013e7cda91b615813929d3ae98c95e10566fb9b37ea0f",
-        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR": "b28b28a051a3afb16561ea3c0b580eacae9557ff9288d49efc56defcf6b2dca9",
         "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR": "4860ef52ff6a073644edfa7cc01efefe8643356d710166dc80c3616a6b8dfe30",
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:ko-KR": "ba29e501a84663badacd7c01fe9769c83a53f51bc5f8c350c43ac0d25db5fcd1"
     },
@@ -76,12 +65,6 @@
             "flavor": "Sugarfree",
             "flavor_description": "Red Bull Energy Drink without sugar",
             "sugarfree": true
-        },
-        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR": {
-            "name": "The Green Edition",
-            "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Green Edition combines refreshing tropical fruit notes with sweet floral scents",
-            "sugarfree": false
         },
         "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR": {
             "name": "The Pink Edition",

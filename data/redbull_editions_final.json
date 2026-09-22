@@ -1579,14 +1579,14 @@
                 "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-sea-blue-edition"
             },
             {
-                "name": "The Summer Edition",
-                "flavor": "Sudachi Lime",
-                "flavor_description": "Wings for your summer. The Red Bull Summer Edition with the taste of White Peach, a hint of citrus peel and floral notes",
+                "name": "The Winter Edition",
+                "flavor": "Pistachio-Berries",
+                "flavor_description": "Wings for your winter: The Red Bull Winter Edition with the taste of Pistachio and Forest Fruits",
                 "sugarfree": false,
-                "color": "#F0E53B",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/29/e49weziftbmsdl9c2izb/red-bull-summer-edition-image",
-                "alt_text": "Red Bull Summer Edition - image",
-                "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-summer-edition"
+                "color": "#0a1c43",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/21/tvc5e69ajbu9nitzh0mm/red-bull-winter-edition",
+                "alt_text": "Red Bull Winter Edition",
+                "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-winter-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CZ.svg"
@@ -3095,16 +3095,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/8/6/furwpe9mufy0j9mwy5im/red-bull-sugarfree",
                 "alt_text": "Red Bull Sugarfree",
                 "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-sugarfree"
-            },
-            {
-                "name": "The Green Edition",
-                "flavor": "Curuba-Elderflower",
-                "flavor_description": "The Red Bull Green Edition combines refreshing tropical fruit notes with sweet floral scents",
-                "sugarfree": false,
-                "color": "#79B942",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/5/12/bnvlk9mb5xizcjpxziwc/red-bull-green-edition",
-                "alt_text": "Red Bull Green Edition",
-                "product_url": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
             },
             {
                 "name": "The Pink Edition",
@@ -5285,6 +5275,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/8/20/nldufsgjbosnrtjczaja/red-bull-white-edition-image",
                 "alt_text": "Red Bull White Edition - image",
                 "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-white-edition"
+            },
+            {
+                "name": "The Yellow Edition",
+                "flavor": "Japanese Citrus",
+                "flavor_description": "The Red Bull Yellow Edition gives you wings with a Japanese citrus taste. Enjoy a unique formula made with high-quality ingredients",
+                "sugarfree": false,
+                "color": "#f0e53b",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/25/q4yf98iayo6uhb0jidpx/red-bull-yellow-edition-image",
+                "alt_text": "Red Bull Yellow Edition - image",
+                "product_url": "https://www.redbull.com/tw-zh/energydrink/products/red-bull-yellow-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-TW.svg"

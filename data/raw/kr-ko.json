@@ -146,79 +146,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:ko-KR",
-            "header_data": {
-                "content": {
-                    "title": "그린 에디션"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/12/bnvlk9mb5xizcjpxziwc/red-bull-green-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#86BB44",
-                                    "percentage": 10.4
-                                },
-                                {
-                                    "hexColorCode": "#74B542",
-                                    "percentage": 9.8
-                                },
-                                {
-                                    "hexColorCode": "#D9E1E7",
-                                    "percentage": 4
-                                },
-                                {
-                                    "hexColorCode": "#CFD4E1",
-                                    "percentage": 3.4
-                                },
-                                {
-                                    "hexColorCode": "#5BA830",
-                                    "percentage": 2.2
-                                },
-                                {
-                                    "hexColorCode": "#71B222",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#E4630D",
-                                    "percentage": 0.8
-                                },
-                                {
-                                    "hexColorCode": "#4DA41A",
-                                    "percentage": 0.6
-                                },
-                                {
-                                    "hexColorCode": "#C6D9C0",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Green Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "열대과일향",
-                    "standfirst": "레드불 그린 에디션은 상큼한 열대과일향과 달콤한 꽃향이 어우러진 새로운 에디션입니다. ",
-                    "brandingHexColorCode": "#79B942",
-                    "image": {
-                        "altText": "Red Bull Green Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/5/12/bnvlk9mb5xizcjpxziwc/red-bull-green-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/kr-ko/energydrink/products/red-bull-green-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:ko-KR",
             "header_data": {
                 "content": {
@@ -349,5 +276,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-06-05T09:03:08.892025+00:00"
+    "collection_timestamp": "2026-09-22T10:05:16.216195+00:00"
 }

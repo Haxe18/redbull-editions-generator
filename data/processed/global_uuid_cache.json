@@ -4485,5 +4485,19 @@
         "flavor_description": "Red Bull Pink Edition: energy drink with the fresh taste of White Peach",
         "sugarfree": false,
         "fingerprint": "d36f8cb960151c9363bb1b3a8bf822915895d512cdff37b496f2161099cf1200"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:cs-CZ": {
+        "name": "The Winter Edition",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Wings for your winter: Red Bull Winter Edition with the taste of Pistachio and Forest Fruits",
+        "sugarfree": false,
+        "fingerprint": "1dcbc7c709222b13684e1ded16fd0c413b955b191a79e51fff751a5714f497f3"
+    },
+    "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:zh-TW": {
+        "name": "The Yellow Edition",
+        "flavor": "Japanese Citrus",
+        "flavor_description": "Red Bull Yellow Edition gives you wings with a Japanese citrus taste. Enjoy a unique formula made with high-quality ingredients",
+        "sugarfree": false,
+        "fingerprint": "7e4947446927811a2c5ebf51d19faea65ec69d89e965889f24a1282224cf55e3"
     }
 }
