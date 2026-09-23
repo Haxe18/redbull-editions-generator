@@ -1820,11 +1820,11 @@
         "fingerprint": "0f4214807c393e4032c4f047379b780b6ea4e483efd6c78188f570a08952a16c"
     },
     "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:lt-LT": {
-        "fingerprint": "1d6c8d1ee31a6c826e148a3e3fbbe54f7fa133eb5ea4a63121b904b9e77ea407",
         "name": "The Winter Edition",
-        "flavor": "Fuji Apple & Ginger",
-        "flavor_description": "A refreshing blend of juicy Fuji Apples with a gently warming Ginger hint",
-        "sugarfree": false
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Winter Edition with Pistachio and Berries taste, complemented by caramel, nutty and creamy notes",
+        "sugarfree": false,
+        "fingerprint": "af0053e60eab8855bf700515bf42122ab4341933800c959eb13b979065e95865"
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:lt-LT": {
         "name": "Energy Drink Sugarfree",
@@ -4499,5 +4499,19 @@
         "flavor_description": "Red Bull Yellow Edition gives you wings with a Japanese citrus taste. Enjoy a unique formula made with high-quality ingredients",
         "sugarfree": false,
         "fingerprint": "7e4947446927811a2c5ebf51d19faea65ec69d89e965889f24a1282224cf55e3"
+    },
+    "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:lt-LT": {
+        "name": "The Yellow Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "Red Bull Yellow Edition with sudachi and lime taste, complemented by subtle notes of Pomelo and citrus zest",
+        "sugarfree": false,
+        "fingerprint": "324df45e51e164d0c9e9bb67471a6f9ee9378a9961ad5f395c417e332aed240c"
+    },
+    "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:sl-SI": {
+        "name": "The Ice Edition",
+        "flavor": "Iced Vanilla Berry",
+        "flavor_description": "The Red Bull Ice Edition has a taste of blueberries and Vanilla, with a hint of eucalyptus",
+        "sugarfree": false,
+        "fingerprint": "2dfab0ecff0b90ac356963adc0a731539a196fcb320b0b01c0f9c7d1dbad3be4"
     }
 }

@@ -3299,14 +3299,24 @@
                 "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-white-edition"
             },
             {
-                "name": "The Yellow Edition",
-                "flavor": "Tropical Fruits",
-                "flavor_description": "An exotic tropical fruit taste that surprises the palate",
+                "name": "The Winter Edition",
+                "flavor": "Pistachio-Berries",
+                "flavor_description": "The Red Bull Winter Edition with Pistachio and Berries taste, complemented by caramel, nutty and creamy notes",
                 "sugarfree": false,
-                "color": "#FFCD00",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/eppjqdw816wjeeol0s4n/red-bull-yellow-edition-image",
-                "alt_text": "Red Bull Yellow Edition - image",
-                "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-yellow-edition"
+                "color": "#0a1c43",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/7/dvvc7msarez8lyve7gev/red-bull-winter-edition",
+                "alt_text": "Red Bull Winter Edition",
+                "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-winter-edition"
+            },
+            {
+                "name": "The Yellow Edition",
+                "flavor": "Sudachi Lime",
+                "flavor_description": "The Red Bull Yellow Edition with sudachi and lime taste, complemented by subtle notes of Pomelo and citrus zest",
+                "sugarfree": false,
+                "color": "#f2e853",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/23/er34q4pymyzwaelzqq4e/red-bull-yellow-edition",
+                "alt_text": "Red Bull Yellow Edition",
+                "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-yellow-edition"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-LT.svg"
@@ -4615,6 +4625,16 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/11/12/sgqnctvxamzbpdxa4k4a/red-bull-blue-edition-image",
                 "alt_text": "Red Bull Blue Edition - image",
                 "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-blue-edition"
+            },
+            {
+                "name": "The Ice Edition",
+                "flavor": "Iced Vanilla Berry",
+                "flavor_description": "The Red Bull Ice Edition has a taste of blueberries and Vanilla, with a hint of eucalyptus",
+                "sugarfree": false,
+                "color": "#53b2c2",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/23/rteuutb1srbnihvzjpuc/red-bull-iced-edition",
+                "alt_text": "Red Bull Ice Edition",
+                "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-ice-edition"
             },
             {
                 "name": "The Ice Edition",

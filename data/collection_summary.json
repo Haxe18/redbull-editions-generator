@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-22T10:15:34.058453+00:00",
+        "collection_date": "2026-09-23T10:18:43.129636+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -335,7 +335,7 @@
                 "lt-lt"
             ],
             "flag_code": "LT",
-            "editions_count": 9,
+            "editions_count": 10,
             "data_file": "lt-lt.json"
         },
         "Malaysia": {
