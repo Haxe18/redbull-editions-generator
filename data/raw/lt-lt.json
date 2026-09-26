@@ -187,6 +187,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:lt-LT",
+            "header_data": {
+                "content": {
+                    "title": "Ice Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/23/wdd5jggqnhozktcdbwab/red-bull-ice-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#72C6D1",
+                                    "percentage": 24.6
+                                },
+                                {
+                                    "hexColorCode": "#D0DBE1",
+                                    "percentage": 6.4
+                                },
+                                {
+                                    "hexColorCode": "#C9CFD7",
+                                    "percentage": 1.2
+                                },
+                                {
+                                    "hexColorCode": "#F8F1F2",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Ice Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-ice-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Iced Gummy Bear",
+                    "standfirst": "- išskirtinis mėlynių, vanilės ir gaiviai šaldančių eukalipto natų skonis.",
+                    "brandingHexColorCode": "#53b2c2",
+                    "image": {
+                        "altText": "Red Bull Ice Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/23/wdd5jggqnhozktcdbwab/red-bull-ice-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-ice-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:lt-LT",
             "header_data": {
                 "content": {
@@ -618,5 +671,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-23T10:08:47.018431+00:00"
+    "collection_timestamp": "2026-09-26T10:03:11.842845+00:00"
 }

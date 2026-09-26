@@ -3269,6 +3269,16 @@
                 "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-blue-edition"
             },
             {
+                "name": "The Ice Edition",
+                "flavor": "Iced Vanilla Berry",
+                "flavor_description": "An exclusive taste of blueberries, Vanilla, and refreshingly cooling eucalyptus notes",
+                "sugarfree": false,
+                "color": "#53b2c2",
+                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/23/wdd5jggqnhozktcdbwab/red-bull-ice-edition",
+                "alt_text": "Red Bull Ice Edition",
+                "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-ice-edition"
+            },
+            {
                 "name": "The Peach Edition",
                 "flavor": "White Peach",
                 "flavor_description": "A refreshing White Peach taste with notes of citrus zest and flowers",

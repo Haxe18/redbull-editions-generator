@@ -32,6 +32,16 @@
             "product_url": "https://www.redbull.com/lt-lt/energydrink/red-bull-red-edition"
         },
         {
+            "name": "The Ice Edition",
+            "flavor": "Iced Vanilla Berry",
+            "flavor_description": "An exclusive taste of blueberries, Vanilla, and refreshingly cooling eucalyptus notes",
+            "sugarfree": false,
+            "color": "#53b2c2",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/23/wdd5jggqnhozktcdbwab/red-bull-ice-edition",
+            "alt_text": "Red Bull Ice Edition",
+            "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-ice-edition"
+        },
+        {
             "name": "Energy Drink Zero",
             "flavor": "Zero Sugar",
             "flavor_description": "Zero calories, 100% Wings",
@@ -103,29 +113,23 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-LT.svg",
-    "_raw_hash": "d34ad8bdf4525c2ab606642af099641dc6603c861bc7007cdcde5079fd3aa723",
+    "_raw_hash": "f6fe3406d6c9f620c94aa7e272e999c3db70f1ad8b80c500c80b8db2a1c76c58",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
     "_translated_editions": [
         {
-            "edition_id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:lt-LT",
-            "name": "The Yellow Edition",
-            "flavor": "Sudachi-Lime",
-            "description": "Red Bull Yellow Edition with sudachi and lime taste, complemented by subtle notes of pomelo and citrus zest.",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-yellow-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:lt-LT",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio & Berries",
-            "description": "Red Bull Winter Edition with pistachio and berries taste, complemented by caramel, nutty and creamy notes.",
-            "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-winter-edition"
+            "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:lt-LT",
+            "name": "The Ice Edition",
+            "flavor": "Iced Vanilla Berry",
+            "description": "An exclusive taste of blueberries, vanilla, and refreshingly cooling eucalyptus notes.",
+            "product_url": "https://www.redbull.com/lt-lt/energydrink/products/red-bull-ice-edition"
         }
     ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:lt-LT": "5609cf00d4677c076bbc437d55dc9dd249ea82818ba8ab8c1cfaf853212ccd06",
         "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:lt-LT": "324df45e51e164d0c9e9bb67471a6f9ee9378a9961ad5f395c417e332aed240c",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:lt-LT": "22e1021c3b523de9b9ac2be46482ea17032a7b798245a6ad5ed3d4cb079ce622",
+        "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:lt-LT": "35a22db830ea593fcf04bab401b6657f03485b502d0a260ed20ea88021e3b18c",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:lt-LT": "07780cde3bd1c931cf9fb71a05ea1407fbd0f1290df4cef17596b51ba50dcb1a",
         "rrn:content:energy-drinks:7fb8538f-2111-4fa9-9c59-6297145e92bd:lt-LT": "4ee2cf1b8cfd079249e1ec002079bd141ecbb23ea3b3610066b2675c30211b69",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:lt-LT": "ac5015d692cb89b4157753414921157372640152c18520de706a392a616e1b2f",
@@ -151,6 +155,12 @@
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "A refreshing Watermelon taste that provides a burst of energy",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:lt-LT": {
+            "name": "The Ice Edition",
+            "flavor": "Iced Vanilla Berry",
+            "flavor_description": "An exclusive taste of blueberries, Vanilla, and refreshingly cooling eucalyptus notes",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:lt-LT": {
