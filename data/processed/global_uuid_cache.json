@@ -4520,5 +4520,26 @@
         "flavor_description": "An exclusive taste of blueberries, Vanilla, and refreshingly cooling eucalyptus notes",
         "sugarfree": false,
         "fingerprint": "35a22db830ea593fcf04bab401b6657f03485b502d0a260ed20ea88021e3b18c"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-ES": {
+        "name": "The Winter Edition",
+        "flavor": "Pistachio-Red Fruits",
+        "flavor_description": "Red Bull Winter Edition features an irresistible taste of Pistachio and red fruits, balanced with delicate notes of caramel and a creamy touch",
+        "sugarfree": false,
+        "fingerprint": "0eb18dbef344d6b0360e5caf70fbfbb7cce80cd2acc3b9e1a6fde27b63c523c7"
+    },
+    "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:nl-BE": {
+        "name": "The Yellow Edition",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "The Red Bull Yellow Edition gives you wings with the powerful taste of sudachi and lime",
+        "sugarfree": false,
+        "fingerprint": "48cc02c4b6df88eeb58a09a616b07b9ac057b0c03a2f934152eae3fb18c638e5"
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:de-CH": {
+        "name": "The Cherry Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "The Red Bull Cherry Edition Sugarfree with the taste of Cherry and Japanese Cherry Blossom with a hint of almond",
+        "sugarfree": true,
+        "fingerprint": "25b5dbea0ff66d4aa87592b57a30f067bb036ee49c0d322835da194148585be3"
     }
 }

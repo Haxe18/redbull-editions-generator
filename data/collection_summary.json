@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-09-26T10:13:29.190750+00:00",
+        "collection_date": "2026-09-29T11:41:48.187013+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -63,7 +63,7 @@
                 "be-fr"
             ],
             "flag_code": "BE",
-            "editions_count": 17,
+            "editions_count": 16,
             "data_file": "be-nl.json"
         },
         "Bosnia and Herzegovina": {
@@ -516,7 +516,7 @@
                 "es-es"
             ],
             "flag_code": "ES",
-            "editions_count": 12,
+            "editions_count": 13,
             "data_file": "es-es.json"
         },
         "Sweden": {
@@ -536,7 +536,7 @@
                 "ch-fr"
             ],
             "flag_code": "CH",
-            "editions_count": 13,
+            "editions_count": 14,
             "data_file": "ch-de.json"
         },
         "Taiwan": {
