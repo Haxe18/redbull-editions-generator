@@ -2,16 +2,6 @@
     "flag": "🇪🇸",
     "editions": [
         {
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Features the crisp taste of apple combined with a warm touch of Ginger",
-            "sugarfree": true,
-            "color": "#ae132d",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/22/to61sl4atmsyy0vstzoo/red-bull-winter-edition-sugarfree",
-            "alt_text": "Red Bull Winter Edition Sugarfree",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-winter-edition-sugarfree"
-        },
-        {
             "name": "The Coconut Edition",
             "flavor": "Coconut-Blueberry",
             "flavor_description": "An exotic taste experience blending Coconut and Blueberry",
@@ -143,20 +133,11 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg",
-    "_raw_hash": "e5ff7d6bfc46817866fc7d9effe9ac0d3ff5b6a29b3eeac80f16ba1482ba02e8",
+    "_raw_hash": "2a6f8ad23864dc7307224a53a4c6311a4f034ae31b938f0681e5b5b9d77ac348",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-ES",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio & Red Fruits",
-            "description": "Red Bull Winter Edition, with an irresistible taste of pistachio and red fruits, balanced with delicate notes of caramel and a creamy touch.",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:181dddbb-9ff6-46c4-ab03-d15db79fff48:es-ES": "c37d2a8d25f16d391d78ba59e2d99b1d4bf1f2643ea24dfc8047a435d549b6bc",
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:es-ES": "d022757da70cb34f5d0fcc5e7b05977825c6e8351aacffcc58a8f5362eeb9923",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:es-ES": "5cf1ef8ea7abbed95027317bd4f6cecc0954899adcfc53e7abd3c0b849ccd061",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-ES": "f59a31c0a25125cc4c4f18fed1e7d045aa6e06ff6f1f8279706f3b1c47467a4d",
@@ -172,12 +153,6 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:es-ES": "d7f3742f6125dd6ab5790a63763b2ac8ab4136d4b7a5e6d25a220a41da30967d"
     },
     "_normalized_editions": {
-        "rrn:content:energy-drinks:181dddbb-9ff6-46c4-ab03-d15db79fff48:es-ES": {
-            "name": "The Winter Edition Sugarfree",
-            "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "Features the crisp taste of apple combined with a warm touch of Ginger",
-            "sugarfree": true
-        },
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:es-ES": {
             "name": "The Coconut Edition",
             "flavor": "Coconut-Blueberry",

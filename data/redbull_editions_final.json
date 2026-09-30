@@ -4907,16 +4907,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/27/hzrpshsnq3buirq0x3kf/red-bull-winter-edition",
                 "alt_text": "Red Bull Winter Edition",
                 "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-winter-edition"
-            },
-            {
-                "name": "The Winter Edition Sugarfree",
-                "flavor": "Fuji Apple & Ginger",
-                "flavor_description": "Features the crisp taste of apple combined with a warm touch of Ginger",
-                "sugarfree": true,
-                "color": "#ae132d",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/9/22/to61sl4atmsyy0vstzoo/red-bull-winter-edition-sugarfree",
-                "alt_text": "Red Bull Winter Edition Sugarfree",
-                "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-winter-edition-sugarfree"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg"
