@@ -420,11 +420,11 @@
         "fingerprint": "ae48c1c699fd1a931ad56e4cf21a0f5fb962f59406a60b0ef2e83eed90ce8268"
     },
     "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pt-PT": {
-        "fingerprint": "31b6574c4a8ddd3dbf28e043941e4c0dd162e99f8a228aba5403a3b5fda7dcca",
         "name": "The Winter Edition",
-        "flavor": "Fuji Apple & Ginger",
-        "flavor_description": "Red Bull Winter Edition with apple taste and a spicy touch of Ginger",
-        "sugarfree": false
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Winter Edition gives you wings with the intense taste of Pistachio and Forest Fruits",
+        "sugarfree": false,
+        "fingerprint": "1b93a4233335b3fb0fc97ea61c554fecd25a519323cdb3b281071fc700113876"
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-PT": {
         "name": "Energy Drink Sugarfree",
@@ -3451,11 +3451,11 @@
         "fingerprint": "29bf48986b023336cfaad7bf328071815688c212355aed6c4fdfb0c3ef905e13"
     },
     "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU": {
-        "fingerprint": "8a334801fbbd13e5d0ac956a4c63a51cbbf5f2f71ea34a0a4b05a5d21835feb6",
         "name": "The Winter Edition",
-        "flavor": "Fuji Apple & Ginger",
-        "flavor_description": "Red Bull Winter Edition with the freshness of Fuji Apple and the warm spice of Ginger",
-        "sugarfree": false
+        "flavor": "Pistachio-Forest Fruits",
+        "flavor_description": "The Red Bull Winter Edition with the freshness of Fuji Apple and the warm spice of Ginger",
+        "sugarfree": false,
+        "fingerprint": "a5cf6b1d9bfadcf25eaf87e59def89ba56c69bcec6d1ddb6ae3b1c64719d947f"
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hu-HU": {
         "name": "Energy Drink Sugarfree",

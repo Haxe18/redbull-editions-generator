@@ -437,7 +437,7 @@
                     "image": {
                         "altText": "Red Bull Winter Edition",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/6/27/hzrpshsnq3buirq0x3kf/red-bull-winter-edition"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/29/gghqtkpc6r7i5lrtdzge/red-bull-winter-edition"
                         }
                     },
                     "reference": {
@@ -825,5 +825,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-30T11:25:41.410117+00:00"
+    "collection_timestamp": "2026-10-01T11:54:58.075171+00:00"
 }

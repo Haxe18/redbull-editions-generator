@@ -349,6 +349,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:pt-PT",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/29/ugtzviqmsom94sprsfwl/the-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#B8C85F",
+                                    "percentage": 18.5
+                                },
+                                {
+                                    "hexColorCode": "#B2C662",
+                                    "percentage": 5.8
+                                },
+                                {
+                                    "hexColorCode": "#D9E0E7",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#C9D0DD",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#A7BC1C",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#D3DCB6",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pistácio & Frutos Vermelhos",
+                    "standfirst": "Red Bull Winter Edition dá-te aaasas com o sabor intenso a pistácio e frutos vermelhos.",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/29/ugtzviqmsom94sprsfwl/the-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-PT",
             "header_data": {
                 "content": {
@@ -413,67 +474,6 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-sugarfree"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:pt-PT",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/20/hp2zb60t85wrmcobdl6z/red-bull-summer-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E5D866",
-                                    "percentage": 21.3
-                                },
-                                {
-                                    "hexColorCode": "#DECC25",
-                                    "percentage": 4.4
-                                },
-                                {
-                                    "hexColorCode": "#D8E0E7",
-                                    "percentage": 3.5
-                                },
-                                {
-                                    "hexColorCode": "#BFC8D5",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#927D5D",
-                                    "percentage": 1.1
-                                },
-                                {
-                                    "hexColorCode": "#BCA975",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-summer-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition dá-te aaasas com o sabor vibrante a sudachi e lima.",
-                    "brandingHexColorCode": "#F0E53B",
-                    "image": {
-                        "altText": "Red Bull Summer Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/20/hp2zb60t85wrmcobdl6z/red-bull-summer-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-summer-edition"
                     }
                 }
             }
@@ -601,5 +601,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-22T08:46:25.682308+00:00"
+    "collection_timestamp": "2026-10-01T11:52:25.252683+00:00"
 }
