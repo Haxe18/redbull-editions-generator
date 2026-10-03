@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-10-01T11:59:34.523626+00:00",
+        "collection_date": "2026-10-03T10:44:18.276860+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -399,7 +399,7 @@
                 "mk-mk"
             ],
             "flag_code": "MK",
-            "editions_count": 7,
+            "editions_count": 6,
             "data_file": "mk-mk.json"
         },
         "Norway": {

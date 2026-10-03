@@ -384,68 +384,7 @@
                     }
                 }
             }
-        },
-        {
-            "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:mk-MK",
-            "header_data": {
-                "content": {
-                    "title": "Apricot Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/ndrv9uea3kkzf7tsrylj/red-bull-apricot-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#F07F1E",
-                                    "percentage": 20.7
-                                },
-                                {
-                                    "hexColorCode": "#DADCE0",
-                                    "percentage": 5.5
-                                },
-                                {
-                                    "hexColorCode": "#F4AB72",
-                                    "percentage": 3.2
-                                },
-                                {
-                                    "hexColorCode": "#EDF2F5",
-                                    "percentage": 1.9
-                                },
-                                {
-                                    "hexColorCode": "#F49430",
-                                    "percentage": 1.9
-                                },
-                                {
-                                    "hexColorCode": "#F6EEE8",
-                                    "percentage": 1.2
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Apricot Edition - image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-apricot-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Strawberry and apricot",
-                    "standfirst": "Red Bull Apricot Edition со пријатниот вкус на кајсија и јагода",
-                    "brandingHexColorCode": "#f3911b",
-                    "image": {
-                        "altText": "Red Bull Apricot Edition - image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/7/3/ndrv9uea3kkzf7tsrylj/red-bull-apricot-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-apricot-edition"
-                    }
-                }
-            }
         }
     ],
-    "collection_timestamp": "2026-06-08T10:07:20.921209+00:00"
+    "collection_timestamp": "2026-10-03T10:36:19.869090+00:00"
 }
