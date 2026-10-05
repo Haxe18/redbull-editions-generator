@@ -4541,5 +4541,12 @@
         "flavor_description": "The Red Bull Cherry Edition Sugarfree with the taste of Cherry and Japanese Cherry Blossom with a hint of almond",
         "sugarfree": true,
         "fingerprint": "25b5dbea0ff66d4aa87592b57a30f067bb036ee49c0d322835da194148585be3"
+    },
+    "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:sv-SE": {
+        "name": "The Winter Edition Sugarfree",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Winter Edition Sugarfree with taste of Pistachio and berry, balanced by a blend of caramel with nutty and creamy undertones",
+        "sugarfree": true,
+        "fingerprint": "6ac8062cda9d574bad021685246bd2b507da0e322dea1f8e7b3207981fa9388c"
     }
 }

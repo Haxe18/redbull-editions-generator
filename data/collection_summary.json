@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-10-03T10:44:18.276860+00:00",
+        "collection_date": "2026-10-05T12:36:28.403402+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -526,7 +526,7 @@
                 "se-sv"
             ],
             "flag_code": "SE",
-            "editions_count": 17,
+            "editions_count": 18,
             "data_file": "se-en.json"
         },
         "Switzerland": {
