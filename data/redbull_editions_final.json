@@ -4869,16 +4869,6 @@
                 "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-red-edition"
             },
             {
-                "name": "The Spring Edition Sugarfree",
-                "flavor": "Cherry",
-                "flavor_description": "A sugarfree blend featuring the taste of Cherry with creamy almond notes",
-                "sugarfree": true,
-                "color": "#52abd6",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/23/cqeojp0f0gwz22plqhxd/red-bull-spring-edition-sugarfree-image",
-                "alt_text": "Red Bull Spring Edition Sugarfree Image",
-                "product_url": "https://www.redbull.com/es-es/energydrink/red-bull-spring-edition-sugarfree"
-            },
-            {
                 "name": "The Summer Edition",
                 "flavor": "Sudachi Lime",
                 "flavor_description": "A vibrant and refreshing taste experience",
