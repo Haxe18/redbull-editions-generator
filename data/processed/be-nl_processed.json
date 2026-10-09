@@ -147,7 +147,7 @@
             "flavor_description": "Red Bull Cherry Edition with the taste of Cherry, with notes of almond and Cherry Blossom",
             "sugarfree": false,
             "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/26/bip4u6ki3bp0mjz5qciz/red-bull-cherry-edition-image",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/16/grwe7dqg1ordr6h5v8mc/red-bull-cherry-edition-image",
             "alt_text": "Red Bull Cherry Edition - Image",
             "product_url": "https://www.redbull.com/be-nl/energydrink/products/red-bull-cherry-edition"
         },
@@ -163,18 +163,10 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BE.svg",
-    "_raw_hash": "e8b2aa149dbca55ed02094be7669af0154ff8ca1bcc0f9d6b904d08c2956ee55",
+    "_raw_hash": "d8a6ec5b62fb969a653b79b5f4ea55acbcfcf0e59746b50fe86aac0ee795da7f",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:nl-BE",
-            "name": "The Yellow Edition",
-            "flavor": "Sudachi Lime",
-            "description": "The Red Bull Yellow Edition gives you wings with the powerful taste of sudachi and lime.",
-            "product_url": "https://www.redbull.com/be-nl/energydrink/products/red-bull-yellow-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:nl-BE": "48cc02c4b6df88eeb58a09a616b07b9ac057b0c03a2f934152eae3fb18c638e5",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:nl-BE": "d9cf0ccc950e1a36e9d4e3865504afa5758e46e774abb242213a067fe692fd90",
