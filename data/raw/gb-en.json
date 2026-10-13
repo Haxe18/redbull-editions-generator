@@ -764,6 +764,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:en-GB",
+            "header_data": {
+                "content": {
+                    "title": "Glacier Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/rhqbgfesayqxw0es7i1q/red-bull-glacier-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#8DBED5",
+                                    "percentage": 19
+                                },
+                                {
+                                    "hexColorCode": "#B4D3E1",
+                                    "percentage": 7.3
+                                },
+                                {
+                                    "hexColorCode": "#17307C",
+                                    "percentage": 6
+                                },
+                                {
+                                    "hexColorCode": "#2F4684",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Glacier Edition - Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-glacier-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Frosty Raspberry",
+                    "standfirst": "The Red Bull Glacier Edition with an icey-fresh taste and a hint of raspberry.",
+                    "brandingHexColorCode": "#97D5F7",
+                    "image": {
+                        "altText": "Red Bull Glacier Edition - Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/rhqbgfesayqxw0es7i1q/red-bull-glacier-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-glacier-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-GB",
             "header_data": {
                 "content": {
@@ -820,67 +873,6 @@
                     },
                     "reference": {
                         "externalUrl": "https://www.redbull.com/gb-en/energydrink/products/red-bull-winter-edition"
-                    }
-                }
-            }
-        },
-        {
-            "id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB",
-            "header_data": {
-                "content": {
-                    "title": "Green Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/3/sfkrop9s7vhjue6tdilp/red-bull-green-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#85BB44",
-                                    "percentage": 11.1
-                                },
-                                {
-                                    "hexColorCode": "#74B541",
-                                    "percentage": 9.9
-                                },
-                                {
-                                    "hexColorCode": "#D8E0E7",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#CCD1DE",
-                                    "percentage": 3.4
-                                },
-                                {
-                                    "hexColorCode": "#5CA82F",
-                                    "percentage": 2.4
-                                },
-                                {
-                                    "hexColorCode": "#72B223",
-                                    "percentage": 0.7
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Green Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/red-bull-green-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Dragon Fruit",
-                    "standfirst": "The Red Bull Green Edition Energy Drink with the exotic taste of Dragon Fruit.",
-                    "brandingHexColorCode": "#6cc24a",
-                    "image": {
-                        "altText": "Red Bull Green Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/12/3/sfkrop9s7vhjue6tdilp/red-bull-green-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/red-bull-green-edition"
                     }
                 }
             }
@@ -1305,5 +1297,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-14T10:57:50.512730+00:00"
+    "collection_timestamp": "2026-10-13T13:02:00.255646+00:00"
 }

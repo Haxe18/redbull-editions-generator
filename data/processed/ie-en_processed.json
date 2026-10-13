@@ -2,6 +2,16 @@
     "flag": "🇮🇪",
     "editions": [
         {
+            "name": "The Yellow Edition",
+            "flavor": "Citrus Zest",
+            "flavor_description": "The Red Bull Yellow Edition with the taste of citrus zest, rounded up with a subtle hint of Pomelo and citrus peel",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/10/12/ttvxmg9rrmwrdprnajsq/red-bull-yellow-edition",
+            "alt_text": "Red Bull Yellow Edition",
+            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-yellow-edition"
+        },
+        {
             "name": "The Blue Edition",
             "flavor": "Juneberry",
             "flavor_description": "The Red Bull Blue Edition with the extraordinary taste of Juneberry",
@@ -52,6 +62,16 @@
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
+            "name": "The Winter Edition",
+            "flavor": "Pistachio-Berries",
+            "flavor_description": "The Red Bull Winter Edition with the taste of Pistachio and Berries, balanced by a blend of caramel with nutty and creamy undertones",
+            "sugarfree": false,
+            "color": "#0a1c43",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/10/12/xgypy3soltts2w45q91h/red-bull-winter-edition-2026",
+            "alt_text": "Red Bull Winter Edition 2026",
+            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition"
+        },
+        {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
@@ -82,16 +102,6 @@
             "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-peach-edition"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "Citrus Zest",
-            "flavor_description": "The Red Bull Summer Edition with the taste of citrus zest, rounded up with a subtle hint of Pomelo and citrus peel",
-            "sugarfree": false,
-            "color": "#f2e853",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/15/esoxhbrbogxkvagdbsaf/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
             "flavor_description": "The Red Bull Apricot Edition offers the perfect blend of Apricot and Strawberry with a touch of Peach taste",
@@ -103,23 +113,45 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IE.svg",
-    "_raw_hash": "004abf36f0c88bd6ccabf769145ce1b28f25c30a77376337236fc86112d2aaca",
+    "_raw_hash": "4080edd0fff45802134927ab4f3d30bc99d7b23b9fbe0a815337684a710c0b37",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-IE",
+            "name": "The Yellow Edition",
+            "flavor": "Citrus Zest",
+            "description": "The Red Bull Yellow Edition with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-yellow-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-IE",
+            "name": "The Winter Edition",
+            "flavor": "Pistachio & Berries",
+            "description": "The Red Bull Winter Edition with the taste of pistachio and berries, balanced by a blend of caramel with nutty and creamy undertones.",
+            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition"
+        }
+    ],
     "_edition_fingerprints": {
+        "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-IE": "8813a7dd90231779f7141a6c2cf568fabb1b0592bd4c758cde79f6c5489fb604",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-IE": "88e7240114f80fbf0cbc51ece94c67b26b8674bd1b2ff8b2d07e02b11fbf4f68",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:en-IE": "ed4c36af8e329f33c189e5e30f481b01f272fb2156a62705d9ff9ae248b5e68b",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-IE": "d037082b0cef1800ebacf87b24fadf1ccfbb0636a74812b53fb521c0ee11d0d7",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-IE": "66a10867986fff02afac81d7d83c41599974b771b69cdcc1ec30522ccaa29dbc",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-IE": "36b5022f8e4e2e907461de568a4ff6880f6d66f10d8fda6be10a26868e55175b",
+        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-IE": "f80e946a0471ae380a18846f4d983150f7b75492bbe5693c7e75ed0ac36ba7e1",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IE": "18a0dc51caabc129fd4c141099ecc3d32f474e56e5ef33848eaa08d0ade98a6d",
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:en-IE": "2bdb0af5cb256243e0ab5a0b7e7f6fae6326d405284bb057afb8010b5f0edd71",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-IE": "5f62fc74abd7a1390bd9b6f3a249c0d2481945a7b799aabbd1a9956c05499000",
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-IE": "1bc351f71508ddb0849184ae0070dadd2b7c1c9e51417b9df305e54e2e90fdca",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-IE": "d24b49e8c3980a842a230f7c2970d995ac62936bd41ca2b8df52aa3d0149aa1a"
     },
     "_normalized_editions": {
+        "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-IE": {
+            "name": "The Yellow Edition",
+            "flavor": "Citrus Zest",
+            "flavor_description": "The Red Bull Yellow Edition with the taste of citrus zest, rounded up with a subtle hint of Pomelo and citrus peel",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-IE": {
             "name": "The Blue Edition",
             "flavor": "Juneberry",
@@ -150,6 +182,12 @@
             "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false
         },
+        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-IE": {
+            "name": "The Winter Edition",
+            "flavor": "Pistachio-Berries",
+            "flavor_description": "The Red Bull Winter Edition with the taste of Pistachio and Berries, balanced by a blend of caramel with nutty and creamy undertones",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IE": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
@@ -166,12 +204,6 @@
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "The Red Bull Peach Edition with the taste of White Peach, a touch of citrus peel and floral notes",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-IE": {
-            "name": "The Summer Edition",
-            "flavor": "Citrus Zest",
-            "flavor_description": "The Red Bull Summer Edition with the taste of citrus zest, rounded up with a subtle hint of Pomelo and citrus peel",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-IE": {

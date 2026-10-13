@@ -73,6 +73,63 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:ja-JP",
+            "header_data": {
+                "content": {
+                    "title": "アップルエディション"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/vrxheq7ekzk7rlbu56kn/red-bull-apple-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#DB5756",
+                                    "percentage": 20.4
+                                },
+                                {
+                                    "hexColorCode": "#DAE5EB",
+                                    "percentage": 5.8
+                                },
+                                {
+                                    "hexColorCode": "#C8282F",
+                                    "percentage": 4.8
+                                },
+                                {
+                                    "hexColorCode": "#C0C8D2",
+                                    "percentage": 2.3
+                                },
+                                {
+                                    "hexColorCode": "#E3C9CB",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Apple Edition - Image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://redbull.com/jp-ja/energydrink/products/red-bull-apple-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "アップルジンジャーフレーバー",
+                    "standfirst": "レッドブルアップルエディションがアップルジンジャー味で再登場！",
+                    "brandingHexColorCode": "#0a3073",
+                    "image": {
+                        "altText": "Red Bull Apple Edition - Image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/vrxheq7ekzk7rlbu56kn/red-bull-apple-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://redbull.com/jp-ja/energydrink/products/red-bull-apple-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP",
             "header_data": {
                 "content": {
@@ -386,5 +443,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-06-18T09:54:02.055635+00:00"
+    "collection_timestamp": "2026-10-13T12:51:38.973370+00:00"
 }

@@ -12,6 +12,16 @@
             "product_url": "https://www.redbull.com/jp-ja/energydrink/products/red-bull-cherry-edition"
         },
         {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Apple Edition is back with an apple-Ginger taste!",
+            "sugarfree": false,
+            "color": "#0a3073",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/10/12/vrxheq7ekzk7rlbu56kn/red-bull-apple-edition-image",
+            "alt_text": "Red Bull Apple Edition - Image",
+            "product_url": "https://redbull.com/jp-ja/energydrink/products/red-bull-apple-edition"
+        },
+        {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
             "flavor_description": "The classic Red Bull Energy Drink enjoyed by athletes and professionals worldwide",
@@ -63,12 +73,21 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
-    "_raw_hash": "b34976818d90bb652a5448601228cd891ae5f7e5c825a26709a69ccfe525424e",
+    "_raw_hash": "bc11294f1242f63b647f71c823098eac1f21119f476769291cb1e169bd834512",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:ja-JP",
+            "name": "The Apple Edition",
+            "flavor": "Apple-Ginger",
+            "description": "Red Bull Apple Edition is back with an apple-ginger taste!",
+            "product_url": "https://redbull.com/jp-ja/energydrink/products/red-bull-apple-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": "7929c4b3f3e266d5a603b19942e854a8c713ecf0bb3872c5140d40f1429ea87c",
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:ja-JP": "4f9592b6779614d0ba387789a96ca0297f0d11e7716c63e4e4c8979ffd326150",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": "038f531a7ef4c07fc89d8040cade4dbb949251731c65fc181b8310ec9fe07d23",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:ja-JP": "07d794a7b43c3a6429cb994c803784167906e9a766045ab03de4d7f27114ed56",
         "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:ja-JP": "678fd2a6cbc4ae5bafe4f286b72e057444ef42f3443423f04237f931944100e3",
@@ -80,6 +99,12 @@
             "name": "The Cherry Edition",
             "flavor": "Cherry",
             "flavor_description": "Red Bull Cherry Edition features a refreshing Cherry taste",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:ja-JP": {
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "flavor_description": "Red Bull Apple Edition is back with an apple-Ginger taste!",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:ja-JP": {

@@ -1540,11 +1540,11 @@
         "fingerprint": "36b5022f8e4e2e907461de568a4ff6880f6d66f10d8fda6be10a26868e55175b"
     },
     "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-IE": {
-        "fingerprint": "d50d453157d33041dc3af3c67a08370c2583de01e93a9c861a6fa07cc99aeb28",
         "name": "The Winter Edition",
-        "flavor": "Fuji Apple & Ginger",
-        "flavor_description": "The Red Bull Winter Edition Sugarfree with the taste of Fuji Apples and the warm spiciness of Ginger",
-        "sugarfree": true
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "The Red Bull Winter Edition with the taste of Pistachio and Berries, balanced by a blend of caramel with nutty and creamy undertones",
+        "sugarfree": false,
+        "fingerprint": "f80e946a0471ae380a18846f4d983150f7b75492bbe5693c7e75ed0ac36ba7e1"
     },
     "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IE": {
         "name": "Energy Drink Sugarfree",
@@ -4548,5 +4548,33 @@
         "flavor_description": "Red Bull Winter Edition Sugarfree with taste of Pistachio and berry, balanced by a blend of caramel with nutty and creamy undertones",
         "sugarfree": true,
         "fingerprint": "6ac8062cda9d574bad021685246bd2b507da0e322dea1f8e7b3207981fa9388c"
+    },
+    "rrn:content:energy-drinks:25876e0b-de8f-4623-a15e-2a4349b14c82:de-DE": {
+        "name": "The Yellow Edition Sugarfree",
+        "flavor": "Sudachi Lime",
+        "flavor_description": "The Red Bull Yellow Edition Sugarfree gives wings with the taste of sudachi, lime and with notes of Pomelo and citrus peel",
+        "sugarfree": true,
+        "fingerprint": "6c0ca7bfafc2a9bafaaeec2172d0e95af6cf8290139e51c76d95653e55115ff1"
+    },
+    "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-IE": {
+        "name": "The Yellow Edition",
+        "flavor": "Citrus Zest",
+        "flavor_description": "The Red Bull Yellow Edition with the taste of citrus zest, rounded up with a subtle hint of Pomelo and citrus peel",
+        "sugarfree": false,
+        "fingerprint": "8813a7dd90231779f7141a6c2cf568fabb1b0592bd4c758cde79f6c5489fb604"
+    },
+    "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:en-GB": {
+        "name": "The Glacier Edition",
+        "flavor": "Raspberry",
+        "flavor_description": "The Red Bull Glacier Edition with an icy-fresh taste and a hint of Raspberry",
+        "sugarfree": false,
+        "fingerprint": "f5bd6f72aa7253569c0e4bdd7fb36066f64c0167186958f3e6340a0cc7157389"
+    },
+    "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:ja-JP": {
+        "name": "The Apple Edition",
+        "flavor": "Fuji Apple & Ginger",
+        "flavor_description": "Red Bull Apple Edition is back with an apple-Ginger taste!",
+        "sugarfree": false,
+        "fingerprint": "4f9592b6779614d0ba387789a96ca0297f0d11e7716c63e4e4c8979ffd326150"
     }
 }

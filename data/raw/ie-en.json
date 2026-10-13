@@ -8,6 +8,67 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-IE",
+            "header_data": {
+                "content": {
+                    "title": "Yellow Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/ttvxmg9rrmwrdprnajsq/red-bull-yellow-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 21.6
+                                },
+                                {
+                                    "hexColorCode": "#DECC25",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#D8E0E7",
+                                    "percentage": 3.5
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D5",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#927D5D",
+                                    "percentage": 1.1
+                                },
+                                {
+                                    "hexColorCode": "#BDA975",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Yellow Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-yellow-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Citrus Zest",
+                    "standfirst": "The Red Bull Yellow Edition with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
+                    "brandingHexColorCode": "#f2e853",
+                    "image": {
+                        "altText": "Red Bull Yellow Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/ttvxmg9rrmwrdprnajsq/red-bull-yellow-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-yellow-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-IE",
             "header_data": {
                 "content": {
@@ -325,6 +386,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-IE",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/xgypy3soltts2w45q91h/red-bull-winter-edition-2026",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#B8C85F",
+                                    "percentage": 18.9
+                                },
+                                {
+                                    "hexColorCode": "#B1C561",
+                                    "percentage": 5.6
+                                },
+                                {
+                                    "hexColorCode": "#D9E0E7",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#C9D0DD",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#A7BC1C",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#D3DCB6",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition 2026"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pistachio & Berries",
+                    "standfirst": "The Red Bull Winter Edition with the taste of pistachio and berries, balanced by a blend of caramel with nutty and creamy undertones.",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "Red Bull Winter Edition 2026",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/12/xgypy3soltts2w45q91h/red-bull-winter-edition-2026"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-IE",
             "header_data": {
                 "content": {
@@ -500,67 +622,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:en-IE",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/15/esoxhbrbogxkvagdbsaf/red-bull-summer-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#E5D866",
-                                    "percentage": 21
-                                },
-                                {
-                                    "hexColorCode": "#DECC25",
-                                    "percentage": 4.3
-                                },
-                                {
-                                    "hexColorCode": "#D8E0E7",
-                                    "percentage": 3.5
-                                },
-                                {
-                                    "hexColorCode": "#BFC8D5",
-                                    "percentage": 2.5
-                                },
-                                {
-                                    "hexColorCode": "#927D5D",
-                                    "percentage": 1
-                                },
-                                {
-                                    "hexColorCode": "#BCA875",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-summer-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Citrus Zest",
-                    "standfirst": "The RedBull Summer Edition with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
-                    "brandingHexColorCode": "#f2e853",
-                    "image": {
-                        "altText": "Red Bull Summer Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/15/esoxhbrbogxkvagdbsaf/red-bull-summer-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ie-en/energydrink/products/red-bull-summer-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:en-IE",
             "header_data": {
                 "content": {
@@ -622,5 +683,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-06-27T08:14:24.539889+00:00"
+    "collection_timestamp": "2026-10-13T12:50:58.506940+00:00"
 }

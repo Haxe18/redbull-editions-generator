@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-10-09T12:15:04.417164+00:00",
+        "collection_date": "2026-10-13T13:02:35.267395+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -272,7 +272,7 @@
                 "ie-en"
             ],
             "flag_code": "IE",
-            "editions_count": 10,
+            "editions_count": 11,
             "data_file": "ie-en.json"
         },
         "Italy": {
@@ -290,7 +290,7 @@
                 "jp-ja"
             ],
             "flag_code": "JP",
-            "editions_count": 6,
+            "editions_count": 7,
             "data_file": "jp-ja.json"
         },
         "Kazakhstan": {
