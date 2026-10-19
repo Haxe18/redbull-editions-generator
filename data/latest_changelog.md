@@ -1,15 +1,15 @@
 # Red Bull Editions Processing Changelog
-## 2026-10-13T13:02:36.041984
+## 2026-10-19T11:03:18.423745
 
 ## Summary
-- **Countries processed:** 4
+- **Countries processed:** 2
 - **Countries skipped:** 0
 - **Cache hits:** 0
-- **API calls made:** 28
-- **Editions added:** 5
+- **API calls made:** 3
+- **Editions added:** 1
 - **Editions updated:** 0
-- **Editions removed:** 3
-- **Corrections applied:** 6
+- **Editions removed:** 2
+- **Corrections applied:** 5
 - **Corrections failed:** 0
 
 ## 📝 Unused Corrections
@@ -17,33 +17,18 @@
 The following corrections were not checked (no matching editions found):
 
 - `2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd`
-- `9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB`
+- `41e97cb8-fb1f-41a3-a380-be2a75123e1a`
 - `eb9c22db-6c3d-4a68-b4e3-c915c59b1414`
 
 ## Countries Processed
 
 ### Germany
+#### Removed Editions:
+- **The Pink Edition Sugarfree** - Forest Berry
+
+### South Africa
 #### Added Editions:
-- **The Yellow Edition Sugarfree** - Sudachi Lime
+- **The Summer Edition** - Sudachi Lime
 
 #### Removed Editions:
-- **The Lilac Edition Sugarfree** - Woodruff & Pink Grapefruit
-
-### Ireland
-#### Added Editions:
-- **The Winter Edition** - Pistachio-Berries
-- **The Yellow Edition** - Citrus Zest
-
-#### Removed Editions:
-- **The Summer Edition** - Citrus Zest
-
-### Japan
-#### Added Editions:
-- **The Apple Edition** - Fuji Apple & Ginger
-
-### United Kingdom
-#### Added Editions:
-- **The Glacier Edition** - Raspberry
-
-#### Removed Editions:
-- **The Green Edition** - Curuba-Elderflower
+- **The Winter Edition** - Fuji Apple & Ginger
