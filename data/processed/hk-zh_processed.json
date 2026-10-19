@@ -4,7 +4,7 @@
         {
             "name": "The Apple Edition",
             "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "The sweet and fresh fruit aroma of Fuji Apples meets slightly spicy Ginger, creating a perfectly balanced and heartwarming taste",
+            "flavor_description": "Red Bull Apple Edition Fuji Apple taste features the fresh and sweet fruit aroma of Fuji Apple meeting slightly spicy Ginger for a heartwarming flavor",
             "sugarfree": false,
             "color": "#ae132d",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/7/10/xyekgfpguoboub5mtjgg/red-bull-apple-edition-image",
@@ -13,8 +13,8 @@
         },
         {
             "name": "The Lilac Edition",
-            "flavor": "Woodruff & Pink Grapefruit",
-            "flavor_description": "Red Bull Lilac Edition brings out the delicate and refreshing sweetness of Pink Grapefruit, combined with the unique flavor of Woodruff",
+            "flavor": "Grapefruit-Woodruff",
+            "flavor_description": "Red Bull Lilac Edition brings out the delicate sweetness of Pink Grapefruit combined with the unique taste of Woodruff",
             "sugarfree": false,
             "color": "#7d62ce",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/xgapzno578mnh34kpczf/the-lilac-edition",
@@ -24,7 +24,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated by top athletes, busy professionals, university students and travelers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is loved worldwide by top athletes, busy professionals, college students and travelers on long journeys",
             "sugarfree": false,
             "color": "#2F4581",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/dubceoiqls2iblqvgngg/red-bull-energy-drink",
@@ -34,7 +34,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar. Red Bull Energy Drink Sugarfree is the sugarfree version of Red Bull Energy Drink",
+            "flavor_description": "Wings without sugar. Red Bull Sugarfree is the sugarfree version of Red Bull Energy Drink",
             "sugarfree": true,
             "color": "#0995C5",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/rnj0dtvbdom21gekucws/red-bull-sugarfree",
@@ -54,7 +54,7 @@
         {
             "name": "The Purple Edition",
             "flavor": "Acai",
-            "flavor_description": "Red Bull Purple Edition instantly bursts with the unique and tempting taste of giant grapes, with a sweet and sour flavor that hits the taste buds directly",
+            "flavor_description": "Red Bull Purple Edition instantly bursts with the unique and enticing taste of Acai berry, with sweet and sour tastes hitting your taste buds directly",
             "sugarfree": false,
             "color": "#702082",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/13/djmiwb87afj7hcpgqgco/red-bull-purple-edition-image",
@@ -63,41 +63,77 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HK.svg",
-    "_raw_hash": "d4448d647d36916a96c8f15caca0e1619faa063e0878ec70bef4f89e458da7ab",
+    "_raw_hash": "62156fc97577340eca24ff373a7d2b827e979978132a1e80930926614ccd65c3",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK",
+            "name": "The Apple Edition",
+            "flavor": "Fuji Apple & Ginger",
+            "description": "Red Bull Apple Edition Fuji Apple taste - the fresh and sweet fruit aroma of Fuji Apple meets a slightly spicy ginger, intertwining into just the right heartwarming taste!",
+            "product_url": "https://redbull.com/hk-zh/energydrink/products/red-bull-apple-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK",
+            "name": "The Lilac Edition",
+            "flavor": "Grapefruit-Woodruff",
+            "description": "Red Bull Lilac Edition pomelo floral taste brings out the delicate sweetness of pink grapefruit, combined with the unique taste of woodruff.",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/products/red-bull-lilac-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is loved worldwide by top athletes, busy professionals, college students and travelers on long journeys.",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar. Red Bull Sugarfree is the sugarfree version of Red Bull Energy Drink.",
+            "product_url": "https://www.redbull.com/sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK",
+            "name": "The Purple Edition",
+            "flavor": "Acai Berry",
+            "description": "Red Bull Purple Edition instantly bursts with the unique and enticing taste of acai berry, with sweet and sour tastes hitting your taste buds directly.",
+            "product_url": "https://www.redbull.com/hk-zh/energydrink/red-bull-purple-edition"
+        }
+    ],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK": "a9c36bdfac665627c7b7375c0c8175502af77d105e6d04eb26e3e8e9ee0cfcdd",
-        "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": "089307fef6d5b560da4eeb37be72b594ba8020ea9cf31cdd3e3e7e8296d8c72d",
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": "dcfd2b3a164e09741f9c27a461520fd3afecfaed6c648e58c73fa88429969f1a",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK": "79014c77e00161a6e75ec92af184d7221fd5657b4e96ebacb9a2d6073e34960f",
+        "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK": "1175e0ef8d8a0ed5d10ac1cdc22c272c5f5b438e0793e191c78ab7709a34c0cb",
+        "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": "8bc4e7d62dfd77b6138d0341854849459dae8ea9141f227610d9de9ebac72e4e",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": "2e3c1d3a3e4e9ee02eb6c33aed2b4208c0528c42a5f5b08add516e33933f3ba5",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK": "ed58146e59809cf2dd07215167649ebc5ac9494386fcb5f471545421272f0a28",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:zh-HK": "460c540a1c75a3017d48df9db5fc1db75da305f203f2c3c9ea5ae45689bb1c0a",
-        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK": "f2dec31d0a63d8cdb7aa4edbb40f35876dab1e9cdbfdd5da41ee4183cf04f951"
+        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK": "8cdfca1ea78af3aa2c2359ee0df1b727743b1a4c92eacbdc4ad6c25d863672dd"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:zh-HK": {
             "name": "The Apple Edition",
             "flavor": "Fuji Apple & Ginger",
-            "flavor_description": "The sweet and fresh fruit aroma of Fuji Apples meets slightly spicy Ginger, creating a perfectly balanced and heartwarming taste",
+            "flavor_description": "Red Bull Apple Edition Fuji Apple taste features the fresh and sweet fruit aroma of Fuji Apple meeting slightly spicy Ginger for a heartwarming flavor",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:77e43776-f55c-4250-a143-f126e7b543ed:zh-HK": {
             "name": "The Lilac Edition",
-            "flavor": "Woodruff & Pink Grapefruit",
-            "flavor_description": "Red Bull Lilac Edition brings out the delicate and refreshing sweetness of Pink Grapefruit, combined with the unique flavor of Woodruff",
+            "flavor": "Grapefruit-Woodruff",
+            "flavor_description": "Red Bull Lilac Edition brings out the delicate sweetness of Pink Grapefruit combined with the unique taste of Woodruff",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:zh-HK": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated by top athletes, busy professionals, university students and travelers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is loved worldwide by top athletes, busy professionals, college students and travelers on long journeys",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:zh-HK": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar. Red Bull Energy Drink Sugarfree is the sugarfree version of Red Bull Energy Drink",
+            "flavor_description": "Wings without sugar. Red Bull Sugarfree is the sugarfree version of Red Bull Energy Drink",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:zh-HK": {
@@ -109,7 +145,7 @@
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:zh-HK": {
             "name": "The Purple Edition",
             "flavor": "Acai",
-            "flavor_description": "Red Bull Purple Edition instantly bursts with the unique and tempting taste of giant grapes, with a sweet and sour flavor that hits the taste buds directly",
+            "flavor_description": "Red Bull Purple Edition instantly bursts with the unique and enticing taste of Acai berry, with sweet and sour tastes hitting your taste buds directly",
             "sugarfree": false
         }
     }

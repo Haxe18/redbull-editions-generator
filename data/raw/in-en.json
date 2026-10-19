@@ -59,7 +59,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "The Red Bull Red Edition with the taste of watermelon.",
+                    "standfirst": "The Red Bull Red Edition with the taste of watermelon.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -132,7 +132,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -205,7 +205,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -266,7 +266,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Curuba and Elderflower",
-                    "standfirst": "The Red Bull Green Edition with the exotic taste of Curuba rounded off with Elderflower notes.",
+                    "standfirst": "The Red Bull Green Edition with the exotic taste of Curuba rounded off with Elderflower notes.",
                     "brandingHexColorCode": "#78b941",
                     "image": {
                         "altText": "Red Bull Green Edition - image",
@@ -319,7 +319,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Wiiings for every taste: The Red Bull Pink Edition Energy Drink with the taste of white peach, a touch of citrus peel and floral notes.",
+                    "standfirst": "Wiiings for every taste: The Red Bull Pink Edition Energy Drink with the taste of white peach, a touch of citrus peel and floral notes.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -334,5 +334,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-11T09:46:50.119250+00:00"
+    "collection_timestamp": "2026-10-19T23:23:17.990154+00:00"
 }

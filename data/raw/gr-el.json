@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "Το Red Bull White Edition, με γεύση καρύδας και berries.",
+                    "standfirst": "Το Red Bull White Edition, με γεύση καρύδας και berries.",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Red Bull Coconut Edition - image",
@@ -119,7 +119,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition. Απόλαυσε την δροσερή γεύση καρπούζι.",
+                    "standfirst": "Red Bull Red Edition. Απόλαυσε την δροσερή γεύση καρπούζι.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -318,7 +318,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Φτερά χωρίς ζάχαρη: Το Red Bull Sugarfree είναι  το Red Bull Energy Drink χωρίς σάκχαρα.\"",
+                    "standfirst": "\"Φτερά χωρίς ζάχαρη: Το Red Bull Sugarfree είναι  το Red Bull Energy Drink χωρίς σάκχαρα.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Το Red Bull Peach Edition με γεύση λευκό ροδάκινο.",
+                    "standfirst": "Το Red Bull Peach Edition με γεύση λευκό ροδάκινο.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -424,7 +424,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pink Grapefruit & Blossom",
-                    "standfirst": "Φτεράαα για το καλοκαίρι σου: Το Red Bull Summer Edition με μοναδική γεύση pink grapefruit.",
+                    "standfirst": "Φτεράαα για το καλοκαίρι σου: Το Red Bull Summer Edition με μοναδική γεύση pink grapefruit.",
                     "brandingHexColorCode": "#7d62ce",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -485,7 +485,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "Red Bull Apricot Edition. Απόλαυσε την απίθανη γεύση βερίκοκο και φράουλα.",
+                    "standfirst": "Red Bull Apricot Edition. Απόλαυσε την απίθανη γεύση βερίκοκο και φράουλα.",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "The Apricot Edition image",
@@ -500,5 +500,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-06T07:51:39.707346+00:00"
+    "collection_timestamp": "2026-10-19T23:22:26.674663+00:00"
 }

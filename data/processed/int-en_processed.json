@@ -33,14 +33,29 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-Worldwide.svg",
-    "_raw_hash": "4f2464ec29a3bc1e722e445d1ea26ca618ad0293b2d8183c2ab41d94af7cef81",
+    "_raw_hash": "f2b63fc3d4945493077cea0d1fb7a08d82b552076fb9bc912095d5dfbb8eaf53",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-INT",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+            "product_url": "https://www.redbull.com/energydrink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-INT",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
+            "product_url": "https://www.redbull.com/sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-INT": "d06c9ae2df01c37ac494877bfba8621f8e58bd2c53c67917abc1befee323d70c",
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-INT": "8bd29af99b94b23bc2eb7138b39f4c5997737c742f9c13c76bfe7015cf30db0e",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-INT": "cb8c60afc854274745e61e7ad1d27e4b7cd7977fe8b248889ff20d04b0b759ce"
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-INT": "336b828264361f04c70102dc49792ae248d897547f0a9ad97291749133f7a4ba",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-INT": "7dd886b38ea242aed5efd520241b91da288b13f75b096ef5d7edbf7e1f063c4f"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-INT": {

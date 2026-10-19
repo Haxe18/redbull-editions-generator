@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Afine Canadiene cu aromă răcoritoare de afine canadiene",
+                    "standfirst": "Red Bull Afine Canadiene cu aromă răcoritoare de afine canadiene",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull Afine Canadiene",
@@ -115,7 +115,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Fructe de Pădure",
-                    "standfirst": "Red Bull Fructe de Pădure fără zahăr: băutură energizantă cu aromă savuroasă de fructe de pădure.",
+                    "standfirst": "Red Bull Fructe de Pădure fără zahăr: băutură energizantă cu aromă savuroasă de fructe de pădure.",
                     "brandingHexColorCode": "#c72466",
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
@@ -172,7 +172,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull cu gust proaspăt de pepene roșu. Pentru vara ta.",
+                    "standfirst": "Red Bull cu gust proaspăt de pepene roșu. Pentru vara ta.",
                     "brandingHexColorCode": "#B9042A",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -306,7 +306,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink este apreciat în întreaga lume de sportivi de top, de studenți, precum și în profesiile solicitante și în timpul orelor lungi de condus.",
+                    "standfirst": "Red Bull Energy Drink este apreciat în întreaga lume de sportivi de top, de studenți, precum și în profesiile solicitante și în timpul orelor lungi de condus.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -375,7 +375,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Aaaripi fără zahăr: Red Bull Sugarfree este  Red Bull Energy Drink, dar fără zahăr.\"",
+                    "standfirst": "\"Aaaripi fără zahăr: Red Bull Sugarfree este  Red Bull Energy Drink, dar fără zahăr.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -432,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Aaaripi pentru vara ta: Red Bull Estival cu arome de citrice: lime intens, sudachi acrișor (un fruct citric japonez) și o notă subtilă de pomelo.",
+                    "standfirst": "Aaaripi pentru vara ta: Red Bull Estival cu arome de citrice: lime intens, sudachi acrișor (un fruct citric japonez) și o notă subtilă de pomelo.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Estival",
@@ -508,5 +508,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-12T08:10:10.915198+00:00"
+    "collection_timestamp": "2026-10-19T23:28:58.932111+00:00"
 }

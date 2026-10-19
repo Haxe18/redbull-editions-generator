@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition. Qarpız dadı ilə. ",
+                    "standfirst": "Red Bull Red Edition. Qarpız dadı ilə. ",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition",
@@ -115,7 +115,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry and Forest Fruits",
-                    "standfirst": "Red Bull Blue Edition albalı və meşə meyvələrinin dadı ilə.",
+                    "standfirst": "Red Bull Blue Edition albalı və meşə meyvələrinin dadı ilə.",
                     "brandingHexColorCode": "#008ACB",
                     "image": {
                         "altText": "Blue Edition",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink dünya miqyasında yüksək səviyyəli atletlər, məşğul peşəkar, universitet tələbələri və uzun səyahətlərdə olan səyahətçilər tərəfindən qiymətləndirilən içkidir.",
+                    "standfirst": "Red Bull Energy Drink dünya miqyasında yüksək səviyyəli atletlər, məşğul peşəkar, universitet tələbələri və uzun səyahətlərdə olan səyahətçilər tərəfindən qiymətləndirilən içkidir.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Şəkərsiz qanadlar: Red Bull Sugarfree Red Bull Energy Drink içkisinin şəkərsiz formasıdır.",
+                    "standfirst": "Şəkərsiz qanadlar: Red Bull Sugarfree Red Bull Energy Drink içkisinin şəkərsiz formasıdır.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -310,7 +310,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition. Ekzotik tropik meyvələr dadı ilə.",
+                    "standfirst": "Red Bull Yellow Edition. Ekzotik tropik meyvələr dadı ilə.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Apricot-Strawberry",
-                    "standfirst": "Red Bull Apricot Edition - ərik, çiyələk dadı və şaftalı notları ilə.",
+                    "standfirst": "Red Bull Apricot Edition - ərik, çiyələk dadı və şaftalı notları ilə.",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -386,5 +386,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-22T07:43:20.494517+00:00"
+    "collection_timestamp": "2026-10-19T23:15:08.995839+00:00"
 }

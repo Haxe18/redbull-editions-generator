@@ -55,7 +55,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "De Red Bull Yellow Edition geeft je vleugels met de krachtige smaak van sudachi en limoen.",
+                    "standfirst": "De Red Bull Yellow Edition geeft je vleugels met de krachtige smaak van sudachi en limoen.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Yellow Edition",
@@ -116,7 +116,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "De Red Bull Sea Blue Edition met de verrukkelijke smaak van juneberry* *artificially flavoured",
+                    "standfirst": "De Red Bull Sea Blue Edition met de verrukkelijke smaak van juneberry* *artificially flavoured",
                     "brandingHexColorCode": "#0085C8",
                     "image": {
                         "altText": "Red Bull The Sea Blue Edition - Image",
@@ -242,7 +242,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "De Red Edition van Red Bull bevat dezelfde kwalitatief hoogstaande ingrediënten als Red Bull Energy Drink en heeft een verfrissende smaak van watermeloen.",
+                    "standfirst": "De Red Edition van Red Bull bevat dezelfde kwalitatief hoogstaande ingrediënten als Red Bull Energy Drink en heeft een verfrissende smaak van watermeloen.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -311,7 +311,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Fuji appel-Gember",
-                    "standfirst": "De Red Bull Apple Edition met de smaak van Fuji apple en een warme toets van gember.",
+                    "standfirst": "De Red Bull Apple Edition met de smaak van Fuji apple en een warme toets van gember.",
                     "brandingHexColorCode": "#AE132D",
                     "image": {
                         "altText": "Red Bull Apple Edition - Image",
@@ -360,7 +360,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Vanilla Berry",
-                    "standfirst": "De Red Bull Ice Edition: De energiedrank met de uitzonderlijke smaak van bosbes, vanille en ijzig frisse tonen van eucalyptus.",
+                    "standfirst": "De Red Bull Ice Edition: De energiedrank met de uitzonderlijke smaak van bosbes, vanille en ijzig frisse tonen van eucalyptus.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Iced Edition",
@@ -494,7 +494,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Curuba",
-                    "standfirst": "De Red Bull Lime Green Edition heeft de exotische smaak van  curuba, afgewerkt met een vleugje vlierbloesem. ",
+                    "standfirst": "De Red Bull Lime Green Edition heeft de exotische smaak van  curuba, afgewerkt met een vleugje vlierbloesem. ",
                     "brandingHexColorCode": "#79B942",
                     "image": {
                         "altText": "Red Bull Lime Green Edition",
@@ -547,7 +547,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Walstro & Pompelmoes",
-                    "standfirst": "De Red Bull Lilac Edition: de energiedrank met een frisse en pittige nieuwe smaak, waarin roze pompelmoes en walstro samenkomen, verfijnd met subtiele bloemige accenten.",
+                    "standfirst": "De Red Bull Lilac Edition: de energiedrank met een frisse en pittige nieuwe smaak, waarin roze pompelmoes en walstro samenkomen, verfijnd met subtiele bloemige accenten.",
                     "brandingHexColorCode": "#7d62ce",
                     "image": {
                         "altText": "The Lilac Edition",
@@ -616,7 +616,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink wordt wereldwijd gedronken door topatleten, drukke professionals, universiteitsstudenten en reizigers die lang onderweg zijn.",
+                    "standfirst": "Red Bull Energy Drink wordt wereldwijd gedronken door topatleten, drukke professionals, universiteitsstudenten en reizigers die lang onderweg zijn.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -677,7 +677,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistache & Bessen",
-                    "standfirst": "De Red Bull Winter Edition geeft je vleugels met de rijke smaak van pistache en bessen.*",
+                    "standfirst": "De Red Bull Winter Edition geeft je vleugels met de rijke smaak van pistache en bessen.*",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -746,7 +746,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon Fruit",
-                    "standfirst": "The Red Bull Green Edition met de exotische smaak van cactusvrucht. ",
+                    "standfirst": "The Red Bull Green Edition met de exotische smaak van cactusvrucht. ",
                     "brandingHexColorCode": "#2ca44a",
                     "image": {
                         "altText": "Red Bull Green Edition - image",
@@ -811,7 +811,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Vleugels zonder suiker: Red Bull Sugarfree is Red Bull Energy Drink zonder suiker.",
+                    "standfirst": "Vleugels zonder suiker: Red Bull Sugarfree is Red Bull Energy Drink zonder suiker.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -864,7 +864,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Witte perzik",
-                    "standfirst": "De Red Bull Peach Edition heeft de smaak van witte perzik, een vleugje citruszeste en bloemige accenten.",
+                    "standfirst": "De Red Bull Peach Edition heeft de smaak van witte perzik, een vleugje citruszeste en bloemige accenten.",
                     "brandingHexColorCode": "#81312F",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -925,7 +925,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cerise & Sakura",
-                    "standfirst": "Red Bull Cherry Edition met de smaak van kers, met tonen van amandel en kersenbloesem.",
+                    "standfirst": "Red Bull Cherry Edition met de smaak van kers, met tonen van amandel en kersenbloesem.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Cherry Edition - Image",
@@ -990,7 +990,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Abrikoos-Aardbei",
-                    "standfirst": "De Red Bull Apricot Edition biedt de perfecte mix van abrikoos en aardbei met een vleugje perzik.",
+                    "standfirst": "De Red Bull Apricot Edition biedt de perfecte mix van abrikoos en aardbei met een vleugje perzik.",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -1005,5 +1005,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-09T11:54:40.598620+00:00"
+    "collection_timestamp": "2026-10-19T23:16:11.318858+00:00"
 }

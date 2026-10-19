@@ -33,13 +33,28 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PH.svg",
-    "_raw_hash": "4366989a257e13497a0b71e45ae6949abc694a7ecec87b78c750890a790eb9b2",
+    "_raw_hash": "8d73c0986efbb5b7f2b61d621386d0d061af3b0b083f6dac00b92dbbd59782bb",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+            "product_url": "https://www.redbull.com/ph-en/energydrink/red-bull-energy-drink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
+            "product_url": "https://www.redbull.com/ph-en/energydrink/red-bull-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": "58746d7295c4df8eb0575677420e104463bf273477f3cd041c4d702e0656af9d",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH": "24bd11c805d8d07664d4c1d08d844db790562926d272c6b1eaf3fb184d686074",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": "487673846f09c8ca3a234ab3cdf9fe6d5c38a76cdbdb6c4a662b8918d1ddcb3b",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH": "e8323aa0ed69b2de84f7444f69388504663190c41c8430642bb074990fba34e6",
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH": "259f6b7d0e59991509fbc84d3502a3a2020aa55f3dcfd09a95c42dff1c44bcb8"
     },
     "_normalized_editions": {

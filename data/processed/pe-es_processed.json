@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, university students, and travelers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and travelers on long journeys",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/pwschvraloy7koi7zmas/red-bull-energy-drink",
@@ -43,15 +43,44 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PE.svg",
-    "_raw_hash": "839f363cc8d846637c097f613c0bb5b350d1decfc13656897af53cbf81a9b030",
+    "_raw_hash": "003026f9f7dd6afc54cf6c48dd495ec5afe7ed2514e70a7887b98ebf6df71d1b",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "Red Bull Red Edition with the fresh taste of watermelon.",
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and travelers on long journeys.",
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-energy-drink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-PE",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:es-PE",
+            "name": "The Lilac Edition Sugarfree",
+            "flavor": "Grapefruit & Blossom",
+            "description": "The Red Bull Lilac Edition Sugarfree with a delicious grapefruit taste.",
+            "product_url": "https://www.redbull.com/pe-es/energydrink/products/red-bull-lila-edition-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE": "bb09e84514a522a0d9e86a0323ee3e35c26b17bfa9d483d608c561a084dc0334",
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE": "73c703bc2d7a0f5ce1e82dbda34a7ec9743c526919f26783448bf0e72383c98d",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-PE": "58a8bf134735969942cc7357546c13393a9f585ff3276d25482bb4f717f6380c",
-        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:es-PE": "bb8f461cfc3fcc50f6fe462b82f5aa7a6df9604e2129a9f82b307f4a626f543c"
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE": "15018f1df3c0ac5bb0bbddb9b24c8e3f457afcd6811fc9a326879b596feef628",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE": "9ff31c59baeb37fe7fd72f1626fb234fabf6264cabad6ecb0dff1186423956d8",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-PE": "2cf2af01bac08fd6da9930a546dfb985c870f869a96d5c169784255a3c04236d",
+        "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:es-PE": "7ce13298b874daf99818be0ee4b564355b0aec236ebefb82251aa04e0ce17349"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-PE": {
@@ -63,7 +92,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-PE": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, professionals, university students, and travelers on long journeys",
+            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students, and travelers on long journeys",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-PE": {

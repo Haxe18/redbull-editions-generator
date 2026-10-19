@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Sea Blue Edition met de exotische smaak van Juneberry",
+                    "standfirst": "Red Bull Sea Blue Edition met de exotische smaak van Juneberry",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull Sea Blue Edition - image",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink wordt wereldwijd gewaardeerd door topatleten, professionals, studenten en reizigers.",
+                    "standfirst": "Red Bull Energy Drink wordt wereldwijd gewaardeerd door topatleten, professionals, studenten en reizigers.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -432,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "De fruitige smaak van bosbes gecombineerd met de vleugels van Red Bull maakt de Blue Edition zo speciaal.",
+                    "standfirst": "De fruitige smaak van bosbes gecombineerd met de vleugels van Red Bull maakt de Blue Edition zo speciaal.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -493,7 +493,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistache-Bessensmaak",
-                    "standfirst": "Red Bull Winter Edition met de smaak van pistache en bessen, gebalanceerd door een mix van karamel met nootachtige en romige ondertonen.  ",
+                    "standfirst": "Red Bull Winter Edition met de smaak van pistache en bessen, gebalanceerd door een mix van karamel met nootachtige en romige ondertonen.  ",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -558,7 +558,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Vleugels zonder suiker. Red Bull Sugarfree is een  Red Bull Energy Drink zonder suiker.\"",
+                    "standfirst": "\"Vleugels zonder suiker. Red Bull Sugarfree is een  Red Bull Energy Drink zonder suiker.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -611,7 +611,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "The Red Bull Peach Edition met de smaak van witte perzik met een vleugje citrusschil en bloemige tonen.",
+                    "standfirst": "The Red Bull Peach Edition met de smaak van witte perzik met een vleugje citrusschil en bloemige tonen.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -676,7 +676,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "Red Bull Cherry Edition met de smaak van kers, met tonen van amandel en kersenbloesem.",
+                    "standfirst": "Red Bull Cherry Edition met de smaak van kers, met tonen van amandel en kersenbloesem.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Cherry Edition - Image",
@@ -737,7 +737,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "Ontdek de Red Bull Apricot Edition met de fruitige smaak van abrikoos-aardbei",
+                    "standfirst": "Ontdek de Red Bull Apricot Edition met de fruitige smaak van abrikoos-aardbei",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -752,5 +752,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-14T23:45:46.805882+00:00"
+    "collection_timestamp": "2026-10-19T23:26:24.504023+00:00"
 }

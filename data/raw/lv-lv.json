@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Sea Blue Edition ar vilinošo korintes ogu garšu.",
+                    "standfirst": "Red Bull Sea Blue Edition ar vilinošo korintes ogu garšu.",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull Sea Blue Edition - image",
@@ -180,7 +180,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Apricot-Strawberry",
-                    "standfirst": "Red Bull Apricot edition piedāvā lielisku aprikožu un zemeņu savienojumu.",
+                    "standfirst": "Red Bull Apricot edition piedāvā lielisku aprikožu un zemeņu savienojumu.",
                     "brandingHexColorCode": "#ff9425",
                     "image": {
                         "altText": "Red Bull Apricot edition - image",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink novērtējuši pasaules vadošie sportisti, studenti,  augstu prasību profesiju pārstāvi, kā arī cilvēki, kas veic garus  pārbraucienus.",
+                    "standfirst": "Red Bull Energy Drink novērtējuši pasaules vadošie sportisti, studenti,  augstu prasību profesiju pārstāvi, kā arī cilvēki, kas veic garus  pārbraucienus.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -314,7 +314,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon Fruit",
-                    "standfirst": "Red Bull Green edition ar eksotisko kaktua ogas garšu.",
+                    "standfirst": "Red Bull Green edition ar eksotisko kaktua ogas garšu.",
                     "brandingHexColorCode": "#2ca44a",
                     "image": {
                         "altText": "Red Bull Green Edition - image",
@@ -379,7 +379,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Spārni bez cukura. Red Bull Sugarfree ir Red Bull  Enerģijas dzēriens bez cukura.\"",
+                    "standfirst": "\"Spārni bez cukura. Red Bull Sugarfree ir Red Bull  Enerģijas dzēriens bez cukura.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -444,7 +444,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition piedāvā tropisko augļu garšu.",
+                    "standfirst": "Red Bull Yellow Edition piedāvā tropisko augļu garšu.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -497,7 +497,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition piedāvā baltā persika garšu ar vieglu citrusaugļu mizas un ziedu notīm.",
+                    "standfirst": "Red Bull Peach Edition piedāvā baltā persika garšu ar vieglu citrusaugļu mizas un ziedu notīm.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -558,7 +558,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition ar sudači un laima garšu, ko papildina viegla pomelo un citrusaugļu miziņas nots.",
+                    "standfirst": "Red Bull Summer Edition ar sudači un laima garšu, ko papildina viegla pomelo un citrusaugļu miziņas nots.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -573,5 +573,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-03T20:11:58.130571+00:00"
+    "collection_timestamp": "2026-10-19T23:25:13.600163+00:00"
 }

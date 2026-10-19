@@ -74,7 +74,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition con sabor a Sandía. Con toda la frescura del verano.",
+                    "standfirst": "Red Bull Red Edition con sabor a Sandía. Con toda la frescura del verano.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -143,7 +143,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pomelo",
-                    "standfirst": "Uno de tus sabores favoritos volvió para quedarse. Red Bull Pomelo Edition Sin Azúcar mezcla el sabor del pomelo con sutíles notas florales. 100% Aaalas, sin azucar.",
+                    "standfirst": "Uno de tus sabores favoritos volvió para quedarse. Red Bull Pomelo Edition Sin Azúcar mezcla el sabor del pomelo con sutíles notas florales. 100% Aaalas, sin azucar.",
                     "brandingHexColorCode": "#7d62ce",
                     "image": {
                         "altText": "Red Bull Pomelo Edition Sugarfree",
@@ -212,7 +212,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Zero Sugar",
-                    "standfirst": "Red Bull Zero: zero azúcar, 100% aaalas ",
+                    "standfirst": "Red Bull Zero: zero azúcar, 100% aaalas ",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Zero Energy Drink",
@@ -297,7 +297,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -382,7 +382,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Alas sin azúcar: Red Bull Sugarfree es Red Bull Energy Drink sin azúcares.",
+                    "standfirst": "Alas sin azúcar: Red Bull Sugarfree es Red Bull Energy Drink sin azúcares.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -463,7 +463,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon fruit",
-                    "standfirst": "Red Bull Green edition con el exótico sabor a Fruta del Dragón.",
+                    "standfirst": "Red Bull Green edition con el exótico sabor a Fruta del Dragón.",
                     "brandingHexColorCode": "#00c65e",
                     "image": {
                         "altText": "Red Bull Green Edition",
@@ -478,5 +478,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-17T09:57:34.723875+00:00"
+    "collection_timestamp": "2026-10-19T23:13:47.629987+00:00"
 }

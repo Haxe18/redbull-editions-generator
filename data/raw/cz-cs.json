@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Sea Blue edition s lákavou ovocnou chutí muchovníku.",
+                    "standfirst": "Red Bull Sea Blue edition s lákavou ovocnou chutí muchovníku.",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull Sea Blue Edition - image",
@@ -123,7 +123,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Forest fruit",
-                    "standfirst": "Red Bull Pink Edition Sugarfree ti dává křííídla s příchutí lesního ovoce a bez cukru.",
+                    "standfirst": "Red Bull Pink Edition Sugarfree ti dává křííídla s příchutí lesního ovoce a bez cukru.",
                     "brandingHexColorCode": "#c72466",
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
@@ -176,7 +176,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Gummy Bear",
-                    "standfirst": "Red Bull Ice Edition s příchutí vanilky a ledové borůvky.",
+                    "standfirst": "Red Bull Ice Edition s příchutí vanilky a ledové borůvky.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Iced Edition",
@@ -306,7 +306,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -367,7 +367,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "Red Bull Blue Edition. Nestarnoucí klasika s ovocnou chutí borůvek.",
+                    "standfirst": "Red Bull Blue Edition. Nestarnoucí klasika s ovocnou chutí borůvek.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -428,7 +428,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistácie a lesní ovoce",
-                    "standfirst": "Kříídla pro tvoji zimu: Red Bull Winter Edition s příchutí pistácie a lesního ovoce",
+                    "standfirst": "Kříídla pro tvoji zimu: Red Bull Winter Edition s příchutí pistácie a lesního ovoce",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -489,7 +489,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Curuba Elderflower",
-                    "standfirst": "Red Bull Green Edition s příchutí exotické curuby, doplněná tóny bezového květu.",
+                    "standfirst": "Red Bull Green Edition s příchutí exotické curuby, doplněná tóny bezového květu.",
                     "brandingHexColorCode": "#79B942",
                     "image": {
                         "altText": "Red Bull Green Edition",
@@ -554,7 +554,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Křídla bez cukru. Red Bull Sugarfree je Red Bull  Energy Drink bez obsahu cukru.\"",
+                    "standfirst": "\"Křídla bez cukru. Red Bull Sugarfree je Red Bull  Energy Drink bez obsahu cukru.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -607,7 +607,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition s příchutí bílé broskve.",
+                    "standfirst": "Red Bull Peach Edition s příchutí bílé broskve.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -622,5 +622,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-22T09:59:52.198960+00:00"
+    "collection_timestamp": "2026-10-19T23:19:41.466777+00:00"
 }

@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Kokos- og blåbærsmak",
-                    "standfirst": "Gjør deg klar for en unik smaksopplevelse. Red Bull White Edition med smak av kokos og blåbær.a",
+                    "standfirst": "Gjør deg klar for en unik smaksopplevelse. Red Bull White Edition med smak av kokos og blåbær.a",
                     "brandingHexColorCode": "#006AAF",
                     "image": {
                         "altText": "Red Bull White Edition - image",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "Red Bull Cherry Edition med smak av frisk kirsebær og myk mandel. Null sukker, bare viiinger.",
+                    "standfirst": "Red Bull Cherry Edition med smak av frisk kirsebær og myk mandel. Null sukker, bare viiinger.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "The Cherry Edition Sugarfree",
@@ -314,7 +314,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree Apricot-Strawberry",
-                    "standfirst": "Red Bull Apricot Edition gir deg den perfekte blandingen av aprikos og jordbær. Nå helt uten sukker.",
+                    "standfirst": "Red Bull Apricot Edition gir deg den perfekte blandingen av aprikos og jordbær. Nå helt uten sukker.",
                     "brandingHexColorCode": "#ff9425",
                     "image": {
                         "altText": "Red Bull The Apricot Edition - Sugarfree",
@@ -424,7 +424,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition Sugarfree med frisk smak av hvit fersken. Null sukker, kun viiinger.",
+                    "standfirst": "Red Bull Peach Edition Sugarfree med frisk smak av hvit fersken. Null sukker, kun viiinger.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition Sugarfree half can",
@@ -497,7 +497,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink er verdsatt verden over av toppidrettsutøvere, ambisiøse forretningsfolk, studenter og under lange kjøreturer/reiser",
+                    "standfirst": "Red Bull Energy Drink er verdsatt verden over av toppidrettsutøvere, ambisiøse forretningsfolk, studenter og under lange kjøreturer/reiser",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -558,7 +558,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "Red Bull Blue Edition med fruktig blåbærsmak.",
+                    "standfirst": "Red Bull Blue Edition med fruktig blåbærsmak.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -623,7 +623,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Viiinger uten sukker: Red Bull sukkerfri er  Red Bul Energy Drink uten sukker.\"",
+                    "standfirst": "\"Viiinger uten sukker: Red Bull sukkerfri er  Red Bul Energy Drink uten sukker.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -680,7 +680,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition. La deg overraske av den eksotiske smaken av tropiske frukter.",
+                    "standfirst": "Red Bull Yellow Edition. La deg overraske av den eksotiske smaken av tropiske frukter.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -745,7 +745,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistasj- og skogsbærsmak",
-                    "standfirst": "Red Bull Winter Edition med smak av pistasj og skogsbær, balansert av karamell, nøtter og kremede undertoner. Null sukker, bare viiinger.",
+                    "standfirst": "Red Bull Winter Edition med smak av pistasj og skogsbær, balansert av karamell, nøtter og kremede undertoner. Null sukker, bare viiinger.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Winter Edition half can",
@@ -822,7 +822,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Açai Berry",
-                    "standfirst": "Opplev den norske smaken av skogsbær med den nye Red Bull Purple Edition.",
+                    "standfirst": "Opplev den norske smaken av skogsbær med den nye Red Bull Purple Edition.",
                     "brandingHexColorCode": "#702082",
                     "image": {
                         "altText": "Red Bull The Purple Edition",
@@ -837,5 +837,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-21T10:53:34.837524+00:00"
+    "collection_timestamp": "2026-10-19T23:27:31.809884+00:00"
 }

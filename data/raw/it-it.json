@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "Preparati per un'esperienza di gusto straordinaria. Red Bull White Edition al gusto esotico di cocco e fruttato dell'açaÌ.",
+                    "standfirst": "Preparati per un'esperienza di gusto straordinaria. Red Bull White Edition al gusto esotico di cocco e fruttato dell'açaÌ.",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Red Bull White Edition - image",
@@ -111,7 +111,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Frutti die Bosco",
-                    "standfirst": "Red Bull Pink Edition Sugarfree: Sugarfree Energy Drink  al gusto frutti di bosco e note di verbena. ",
+                    "standfirst": "Red Bull Pink Edition Sugarfree: Sugarfree Energy Drink  al gusto frutti di bosco e note di verbena. ",
                     "brandingHexColorCode": "#c72466",
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
@@ -172,7 +172,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition. Lasciati sorprendere dal gusto fresco dell'anguria.",
+                    "standfirst": "Red Bull Red Edition. Lasciati sorprendere dal gusto fresco dell'anguria.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -233,7 +233,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Vanilla Berry",
-                    "standfirst": "La Red Bull Edition unisce le Aaali di Red Bull Energy Drink al gusto iced vanilla berry.",
+                    "standfirst": "La Red Bull Edition unisce le Aaali di Red Bull Energy Drink al gusto iced vanilla berry.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Ice Edition sugarfree",
@@ -359,7 +359,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "La Red Bull Blue Edition offre il gusto del Juneberry.",
+                    "standfirst": "La Red Bull Blue Edition offre il gusto del Juneberry.",
                     "brandingHexColorCode": "#008ACB",
                     "image": {
                         "altText": "Blue Edition",
@@ -428,7 +428,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull è apprezzato in tutto il mondo dai migliori atleti, studenti  universitari, nelle professioni più impegnative e durante i lunghi viaggi.",
+                    "standfirst": "Red Bull è apprezzato in tutto il mondo dai migliori atleti, studenti  universitari, nelle professioni più impegnative e durante i lunghi viaggi.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -489,7 +489,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistacchio e Frutti Rossi ",
-                    "standfirst": "Red Bull Winter Edition ti mette le aaali grazie al ricco gusto di pistacchio e frutti di bosco",
+                    "standfirst": "Red Bull Winter Edition ti mette le aaali grazie al ricco gusto di pistacchio e frutti di bosco",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -554,7 +554,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Ali senza zuccheri: Red Bull Sugarfree è Red Bull Energy Drink senza zuccheri.\"",
+                    "standfirst": "\"Ali senza zuccheri: Red Bull Sugarfree è Red Bull Energy Drink senza zuccheri.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -619,7 +619,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon fruit",
-                    "standfirst": "Red Bull Green Edition con il gusto esotico del dragon fruit. Preparati all'estate.",
+                    "standfirst": "Red Bull Green Edition con il gusto esotico del dragon fruit. Preparati all'estate.",
                     "brandingHexColorCode": "#00c65e",
                     "image": {
                         "altText": "Red Bull Green Edition - image",
@@ -672,7 +672,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "La Red Bull Peach Edition offre il gusto della pesca bianca con un tocco di scorza di agrumi e note floreali.",
+                    "standfirst": "La Red Bull Peach Edition offre il gusto della pesca bianca con un tocco di scorza di agrumi e note floreali.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Peach Edition Image",
@@ -687,5 +687,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-14T10:46:11.278381+00:00"
+    "collection_timestamp": "2026-10-19T23:24:12.913938+00:00"
 }

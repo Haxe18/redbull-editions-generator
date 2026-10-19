@@ -70,7 +70,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Fuji Apple & Ginger",
-                    "standfirst": "RED BULL APPLE EDITION富士蘋果味—富士蘋果的清甜果香，遇上微辛的薑，交織出剛剛好的暖心滋味！",
+                    "standfirst": "RED BULL APPLE EDITION富士蘋果味—富士蘋果的清甜果香，遇上微辛的薑，交織出剛剛好的暖心滋味！",
                     "brandingHexColorCode": "#ae132d",
                     "image": {
                         "altText": "Red Bull Apple Edition - Image",
@@ -123,7 +123,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Grapefruit-Woodruff",
-                    "standfirst": "Red Bull Lilac Edition 西柚花香味帶出粉紅西柚的細膩清甜，融合薇甘菊的獨特香味。",
+                    "standfirst": "Red Bull Lilac Edition 西柚花香味帶出粉紅西柚的細膩清甜，融合薇甘菊的獨特香味。",
                     "brandingHexColorCode": "#7d62ce",
                     "image": {
                         "altText": "The Lilac Edition",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull 能量飲品深受全球頂尖運動員、繁忙的專業人士、大學學生以及長途旅遊者喜愛。",
+                    "standfirst": "Red Bull 能量飲品深受全球頂尖運動員、繁忙的專業人士、大學學生以及長途旅遊者喜愛。",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -253,7 +253,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "無糖的一對翼。Red Bull 無糖能量飲品是 Red Bull 能量飲品的無糖版本。",
+                    "standfirst": "無糖的一對翼。Red Bull 無糖能量飲品是 Red Bull 能量飲品的無糖版本。",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -387,7 +387,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Açai Berry",
-                    "standfirst": "Red Bull Purple Edition 瞬間爆發巨峰提子的獨特誘人味道， 酸甜滋味直衝味蕾",
+                    "standfirst": "Red Bull Purple Edition 瞬間爆發巨峰提子的獨特誘人味道， 酸甜滋味直衝味蕾",
                     "brandingHexColorCode": "#702082",
                     "image": {
                         "altText": "Red Bull Purple Edition - image",
@@ -402,5 +402,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-31T08:17:17.328824+00:00"
+    "collection_timestamp": "2026-10-19T23:22:41.098746+00:00"
 }

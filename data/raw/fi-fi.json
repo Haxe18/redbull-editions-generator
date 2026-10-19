@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Sea Blue Edition ainutlaatuisen Tuomipihlajanmakuisena.",
+                    "standfirst": "Red Bull Sea Blue Edition ainutlaatuisen Tuomipihlajanmakuisena.",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull Blue Sea edition - image",
@@ -123,7 +123,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Kirsikan maku",
-                    "standfirst": "Red Bull Cherry Edition Sugarfree antaa siiivet kirsikanmakuisena ripauksella mantelia ja kirsikankukkaa.",
+                    "standfirst": "Red Bull Cherry Edition Sugarfree antaa siiivet kirsikanmakuisena ripauksella mantelia ja kirsikankukkaa.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "The Cherry Edition Sugarfree",
@@ -176,7 +176,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Mehujää",
-                    "standfirst": "Red Bull Ice Edition antaa siiivet mehujäänmakuisena. Nauti korkealaatuisista raaka-aineista valmistetusta energiajuomasta.",
+                    "standfirst": "Red Bull Ice Edition antaa siiivet mehujäänmakuisena. Nauti korkealaatuisista raaka-aineista valmistetusta energiajuomasta.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Ice Edition",
@@ -237,7 +237,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Zero Sugar",
-                    "standfirst": "Uusi Red Bull Zero on täällä.",
+                    "standfirst": "Uusi Red Bull Zero on täällä.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Zero Energy Drink",
@@ -310,7 +310,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull -energiajuomaa arvostavat huippu-urheilijat, opiskelijat, vaativan työn taitajat ja pitkän matkan autoilijat.",
+                    "standfirst": "Red Bull -energiajuomaa arvostavat huippu-urheilijat, opiskelijat, vaativan työn taitajat ja pitkän matkan autoilijat.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "Klassikko. Maukkaan mustikan makuinen energiajuoma – Red Bull Blue Edition.",
+                    "standfirst": "Klassikko. Maukkaan mustikan makuinen energiajuoma – Red Bull Blue Edition.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -432,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistachio & Berries",
-                    "standfirst": "Red Bull Winter Edition pistaasin ja marjojen makuisena, ripauksella karamellia pähkinäisillä ja kermaisilla vivahteilla.",
+                    "standfirst": "Red Bull Winter Edition pistaasin ja marjojen makuisena, ripauksella karamellia pähkinäisillä ja kermaisilla vivahteilla.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -497,7 +497,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Siivet ilman sokeria: Red Bull Sugarfree on Red Bull -energiajuoma ilman sokeria.",
+                    "standfirst": "Siivet ilman sokeria: Red Bull Sugarfree on Red Bull -energiajuoma ilman sokeria.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -566,7 +566,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon fruit",
-                    "standfirst": "Red Bull Lime Green Edition eksoottisen curuban makuisena.",
+                    "standfirst": "Red Bull Lime Green Edition eksoottisen curuban makuisena.",
                     "brandingHexColorCode": "#79B942",
                     "image": {
                         "altText": "Red Bull Lime Green Edition - image",
@@ -619,7 +619,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Peach",
-                    "standfirst": "Raikkaan persikanmaukuinen Red Bull Peach Edition",
+                    "standfirst": "Raikkaan persikanmaukuinen Red Bull Peach Edition",
                     "brandingHexColorCode": "#81312F",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -684,7 +684,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistachio & Berries",
-                    "standfirst": "Red Bull Winter Edition Sugarfree pistaasin ja marjojen makuisena, ripauksella karamellia pähkinäisillä ja kermaisilla vivahteilla.",
+                    "standfirst": "Red Bull Winter Edition Sugarfree pistaasin ja marjojen makuisena, ripauksella karamellia pähkinäisillä ja kermaisilla vivahteilla.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition Sugarfree",
@@ -749,7 +749,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Waldbeere",
-                    "standfirst": "Red Bull antaa siiivet. Myös sokerittomana. ",
+                    "standfirst": "Red Bull antaa siiivet. Myös sokerittomana. ",
                     "brandingHexColorCode": "#c72466",
                     "image": {
                         "altText": "Red Bull Pink Edition",
@@ -810,7 +810,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition sudachin ja limen makuisena, ripauksella pomelon ja sitruksenkuoren vivahteita.",
+                    "standfirst": "Red Bull Summer Edition sudachin ja limen makuisena, ripauksella pomelon ja sitruksenkuoren vivahteita.",
                     "brandingHexColorCode": "#F0E53B",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -875,7 +875,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition Sugarfree sudachin ja limen makuisena, ripauksella pomelon ja sitruksenkuoren vivahteita.",
+                    "standfirst": "Red Bull Summer Edition Sugarfree sudachin ja limen makuisena, ripauksella pomelon ja sitruksenkuoren vivahteita.",
                     "brandingHexColorCode": "#F0E53B",
                     "image": {
                         "altText": "Red Bull Summer Edition Sugarfree",
@@ -951,5 +951,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-14T10:42:49.263928+00:00"
+    "collection_timestamp": "2026-10-19T23:21:14.242931+00:00"
 }

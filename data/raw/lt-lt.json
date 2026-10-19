@@ -46,7 +46,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "Pasiruošk išskirtinei skonių patirčiai! Tai egzotiškų kokosų ir turtingo mėlynių skonio „Red Bull White Edition“.",
+                    "standfirst": "Pasiruošk išskirtinei skonių patirčiai! Tai egzotiškų kokosų ir turtingo mėlynių skonio „Red Bull White Edition“.",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Red Bull White Edition - image",
@@ -107,7 +107,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi-Lime",
-                    "standfirst": "Red Bull Yellow Edition su sudačio ir laimo skoniu, papildytu subtiliomis pomelo ir citrusinių žievelių natomis.",
+                    "standfirst": "Red Bull Yellow Edition su sudačio ir laimo skoniu, papildytu subtiliomis pomelo ir citrusinių žievelių natomis.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Yellow Edition",
@@ -172,7 +172,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Gaivaus arbūzų skonio Red Bull RED EDITION. Šiltus kraštus menanti rožinė gaiva ir laiko patikrinta energija.",
+                    "standfirst": "Gaivaus arbūzų skonio Red Bull RED EDITION. Šiltus kraštus menanti rožinė gaiva ir laiko patikrinta energija.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -347,7 +347,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Apricot-Strawberry",
-                    "standfirst": "Red Bull APRICOT EDITION gundo tobula abrikosų ir braškių derme, kuriai pilnatvės suteikia persikų prieskonis.",
+                    "standfirst": "Red Bull APRICOT EDITION gundo tobula abrikosų ir braškių derme, kuriai pilnatvės suteikia persikų prieskonis.",
                     "brandingHexColorCode": "#ff9425",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -416,7 +416,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "„Red Bull“ vertina stipriausi pasaulio atletai, užimčiausi profesionalai, universitetų studentai ir ilgiems atstumams nusiteikę keliautojai.",
+                    "standfirst": "„Red Bull“ vertina stipriausi pasaulio atletai, užimčiausi profesionalai, universitetų studentai ir ilgiems atstumams nusiteikę keliautojai.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -477,7 +477,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "Red Bull BLUE EDITION. Klasika su maloniu mėlynių skoniu.",
+                    "standfirst": "Red Bull BLUE EDITION. Klasika su maloniu mėlynių skoniu.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -538,7 +538,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistachio & Berries",
-                    "standfirst": "Red Bull Winter Edition – pistacijų ir uogų skonis, papildytas karamelės, riešutų ir kreminėmis natomis.*",
+                    "standfirst": "Red Bull Winter Edition – pistacijų ir uogų skonis, papildytas karamelės, riešutų ir kreminėmis natomis.*",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -603,7 +603,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Sparnai be cukraus: „Red Bull Sugarfree“ yra tas pats „Red Bull“, tik be cukraus.",
+                    "standfirst": "Sparnai be cukraus: „Red Bull Sugarfree“ yra tas pats „Red Bull“, tik be cukraus.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -656,7 +656,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "RED BULL PEACH EDITION. Gaivus baltojo persiko skonis su citrusų žievelių ir gėlių natomis.",
+                    "standfirst": "RED BULL PEACH EDITION. Gaivus baltojo persiko skonis su citrusų žievelių ir gėlių natomis.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -671,5 +671,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-26T10:03:11.842845+00:00"
+    "collection_timestamp": "2026-10-19T23:25:38.337027+00:00"
 }

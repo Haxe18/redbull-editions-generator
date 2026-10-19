@@ -13,12 +13,20 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-MY.svg",
-    "_raw_hash": "d3ee33aa9906f5df029c1242ccbe0f19bab31c963f93d32f552c1b269ec1be01",
+    "_raw_hash": "81de4c2c21f649f5c9a093e21c1503a34a6f2c2de3e19c561b6ca8aa9ace32cd",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-MY",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+            "product_url": "https://www.redbull.com/energydrink"
+        }
+    ],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-MY": "f4645958de47708db01dd2544f2acc345daa07982f3f9cfe6c431e94de7f54f3"
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-MY": "82afc6496598faf3daeb88591b7bae6798e9e6f8346c2dc037306cdf78d3e868"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-MY": {

@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "A Red Bull White Edition az egzotikus kókusz és a zamatos áfonya ízében.",
+                    "standfirst": "A Red Bull White Edition az egzotikus kókusz és a zamatos áfonya ízében.",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Red Bull Coconut Edition - image",
@@ -115,7 +115,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Blue Edition a fanyarka csábító gyümölcsös ízével.",
+                    "standfirst": "Red Bull Blue Edition a fanyarka csábító gyümölcsös ízével.",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull The Sea Blue Edition - Image",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "A Red Bull Energiaital élsportolók, elfoglalt szakemberek, egyetemi  hallgatók és hosszú órákat vezetők világszerte elismert kedvence.",
+                    "standfirst": "A Red Bull Energiaital élsportolók, elfoglalt szakemberek, egyetemi  hallgatók és hosszú órákat vezetők világszerte elismert kedvence.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -310,7 +310,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pisztácia és bogyós gyümölcsök",
-                    "standfirst": "A Red Bull Winter Edition – a fuji alma frissességével és a gyömbér meleg fűszerességével.",
+                    "standfirst": "A Red Bull Winter Edition – a fuji alma frissességével és a gyömbér meleg fűszerességével.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Winter Edition",
@@ -375,7 +375,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Szárnyak cukor nélkül: A Red Bull Sugarfree egy Red Bull energiaital, de nem tartalmaz cukrot.",
+                    "standfirst": "Szárnyak cukor nélkül: A Red Bull Sugarfree egy Red Bull energiaital, de nem tartalmaz cukrot.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -436,7 +436,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "A Red Bull Apricot Edition tökéletes kombinációt alkot a sárgabarack és az eper ízjegyeinek keveredésével, valamint egy csipetnyi őszibarackkal ízzel.  ",
+                    "standfirst": "A Red Bull Apricot Edition tökéletes kombinációt alkot a sárgabarack és az eper ízjegyeinek keveredésével, valamint egy csipetnyi őszibarackkal ízzel.  ",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "The Apricot Edition image",
@@ -451,5 +451,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-01T11:45:52.138576+00:00"
+    "collection_timestamp": "2026-10-19T23:22:57.338050+00:00"
 }

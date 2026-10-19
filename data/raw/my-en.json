@@ -62,7 +62,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -77,5 +77,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-03-21T06:04:33.249229+00:00"
+    "collection_timestamp": "2026-10-19T23:25:41.241134+00:00"
 }

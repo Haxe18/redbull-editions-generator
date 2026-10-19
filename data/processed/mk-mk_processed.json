@@ -4,7 +4,7 @@
         {
             "name": "The Red Edition",
             "flavor": "Watermelon",
-            "flavor_description": "Red Bull Red Edition with a fresh Watermelon taste",
+            "flavor_description": "Red Bull Red Edition with a fresh taste of Watermelon",
             "sugarfree": false,
             "color": "#e03c31",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/5/31/i0i37ivqkwzuf3acotxt/red-bull-red-edition-image",
@@ -54,7 +54,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "Citrus Zest",
-            "flavor_description": "The Red Bull Summer Edition gives you Wings with the refreshing taste of citrus and lime",
+            "flavor_description": "The Red Bull Summer Edition gives you wings with the refreshing taste of citrus and lime",
             "sugarfree": false,
             "color": "#f2e853",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/29/mbgkpjjijgagka3j9eih/red-bull-summer-edition",
@@ -63,23 +63,59 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-MK.svg",
-    "_raw_hash": "b6873539ee8d7cd3a804cf07d5d0295274309b28148eb7498784ff417a2cce65",
+    "_raw_hash": "78af92d60f327d089cb3a225fd6b24f48f47e7f39b556a4e48c9bfa3202ba73f",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:mk-MK",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "Red Bull Red Edition with a fresh taste of watermelon.",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:mk-MK",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, and in many demanding professions as well as during driving.",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-energy-drink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:mk-MK",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:mk-MK",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "The Red Bull Peach Edition offers you true enjoyment with the summer taste of white peach. Enjoy the taste of summer!",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-peach-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:mk-MK",
+            "name": "The Summer Edition",
+            "flavor": "Citrus Zest",
+            "description": "The Red Bull Summer Edition gives you wings with the refreshing taste of citrus and lime.",
+            "product_url": "https://www.redbull.com/mk-mk/energydrink/products/red-bull-summer-edition"
+        }
+    ],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:mk-MK": "fd553ee65f94155ec5308c27be195042ae428eb608766da7239362e253333bbe",
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:mk-MK": "1049a6f1d89ca4ed159b5431db09c5f18b18cea1cbe4ef171537678103eaaf07",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:mk-MK": "4cf82496652ab8841f48dde7a8285983c62270d892f273c2af9e31f3abad3986",
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:mk-MK": "639c6dcc08222177706d07c504aad0a7f3c756555d92baa6bc8ee27fc1b2ad82",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:mk-MK": "00094f5f31837668909a29b76941d03df85a170a80cfcc2b40012e95de33750c",
-        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:mk-MK": "dcb84456f8879a73ca19caefc3909e24f90965d4a181b53ed78501192b9f08b8",
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:mk-MK": "9aab3192dc334d62fae4fd55ed7eaef927728cb274c4a0481c5fdbb43ef86e01"
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:mk-MK": "a5ee400e5e04576db305da5572a46f44c476376c42879be9f1bba3c18977e3d5",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:mk-MK": "baa6233f8a0efcb9671fd7258620484ec56abc5e9d81ff253fddb999c7796089",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:mk-MK": "d5b4e29e21fb2dc051b375e4fe547193dfa3055ad76ca9c6f113c1105918213f",
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:mk-MK": "4013e944f6bf3837c465cdec33d7ddd9af87b2e57d52e6276344647169f55ad8"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:mk-MK": {
             "name": "The Red Edition",
             "flavor": "Watermelon",
-            "flavor_description": "Red Bull Red Edition with a fresh Watermelon taste",
+            "flavor_description": "Red Bull Red Edition with a fresh taste of Watermelon",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:mk-MK": {
@@ -109,7 +145,7 @@
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:mk-MK": {
             "name": "The Summer Edition",
             "flavor": "Citrus Zest",
-            "flavor_description": "The Red Bull Summer Edition gives you Wings with the refreshing taste of citrus and lime",
+            "flavor_description": "The Red Bull Summer Edition gives you wings with the refreshing taste of citrus and lime",
             "sugarfree": false
         }
     }

@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition s svežim okusom lubenice.",
+                    "standfirst": "Red Bull Red Edition s svežim okusom lubenice.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -115,7 +115,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Gummy Bear",
-                    "standfirst": "The Red Bull Ice Edition ima okus borovnic in vanilje, s pridihom evkaliptusa.",
+                    "standfirst": "The Red Bull Ice Edition ima okus borovnic in vanilje, s pridihom evkaliptusa.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Ice Edition",
@@ -367,7 +367,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Pijačo Red Bull Energy Drink po vsem svetu cenijo vrhunski športniki,  preobremenjeni strokovnjaki, univerzitetni študenti in vsi na dolgih potovanjih.",
+                    "standfirst": "Pijačo Red Bull Energy Drink po vsem svetu cenijo vrhunski športniki,  preobremenjeni strokovnjaki, univerzitetni študenti in vsi na dolgih potovanjih.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -428,7 +428,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "Red Bull Blue Edition. Klasika, s sočnim okusom borovnice.",
+                    "standfirst": "Red Bull Blue Edition. Klasika, s sočnim okusom borovnice.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -489,7 +489,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistacija in jagodičevje",
-                    "standfirst": "The Red Bull Winter Edition z okusom pistacije in jagodičevja, ki ga dopolnjuje preplet karamele z oreščkastimi in kremastimi podtoni.*  *z umetnimi aromami",
+                    "standfirst": "The Red Bull Winter Edition z okusom pistacije in jagodičevja, ki ga dopolnjuje preplet karamele z oreščkastimi in kremastimi podtoni.*  *z umetnimi aromami",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition Popsicle Image",
@@ -554,7 +554,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Krila brez sladkorja: Red Bull Sugarfree je  Red Bull Energy Drink brez sladkorjev.\"",
+                    "standfirst": "\"Krila brez sladkorja: Red Bull Sugarfree je  Red Bull Energy Drink brez sladkorjev.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -619,7 +619,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition. Naj te preseneti eksotični okus tropskega sadja.",
+                    "standfirst": "Red Bull Yellow Edition. Naj te preseneti eksotični okus tropskega sadja.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -672,7 +672,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition ponuja okus bele breskve s pridihom citrusove lupine in cvetličnimi notami.",
+                    "standfirst": "Red Bull Peach Edition ponuja okus bele breskve s pridihom citrusove lupine in cvetličnimi notami.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -733,7 +733,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition ti da kriiila z živahnim okusom sudačija in limete.",
+                    "standfirst": "Red Bull Summer Edition ti da kriiila z živahnim okusom sudačija in limete.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -748,5 +748,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-23T10:13:41.749038+00:00"
+    "collection_timestamp": "2026-10-19T23:30:17.007328+00:00"
 }

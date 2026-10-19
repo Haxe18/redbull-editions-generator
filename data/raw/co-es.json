@@ -66,7 +66,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition con el fresco sabor de la sandía.",
+                    "standfirst": "Red Bull Red Edition con el fresco sabor de la sandía.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -147,7 +147,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -224,7 +224,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Alas sin azúcar: Red Bull Sugarfree es Red Bull Energy Drink sin azúcar.",
+                    "standfirst": "Alas sin azúcar: Red Bull Sugarfree es Red Bull Energy Drink sin azúcar.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -301,7 +301,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition con sabor a frutas tropicales",
+                    "standfirst": "Red Bull Yellow Edition con sabor a frutas tropicales",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -362,7 +362,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition: la bebida energética con sabor a melocotón.",
+                    "standfirst": "Red Bull Peach Edition: la bebida energética con sabor a melocotón.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -377,5 +377,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-07T10:17:08.619043+00:00"
+    "collection_timestamp": "2026-10-19T23:18:59.154259+00:00"
 }

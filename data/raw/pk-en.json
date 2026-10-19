@@ -11,7 +11,7 @@
             "id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-PK",
             "header_data": {
                 "content": {
-                    "title": "Red Bull Red Edition"
+                    "title": "Red Bull Red Edition"
                 },
                 "media": {
                     "mainImage": {
@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "The Red Bull Red Edition offers the taste of watermelon.           ",
+                    "standfirst": "The Red Bull Red Edition offers the taste of watermelon.           ",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -119,7 +119,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Stimulant Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Stimulant Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -199,5 +199,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-22T07:55:30.322125+00:00"
+    "collection_timestamp": "2026-10-19T23:27:36.474096+00:00"
 }

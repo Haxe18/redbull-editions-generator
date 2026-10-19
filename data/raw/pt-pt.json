@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition com sabor a melancia.",
+                    "standfirst": "Red Bull Red Edition com sabor a melancia.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -127,7 +127,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cereja Sakura",
-                    "standfirst": "Red Bull Cherry Edition Sugarfree com sabor a flor de cerejeira, cerejas frutadas e notas cremosas de amêndoa.",
+                    "standfirst": "Red Bull Cherry Edition Sugarfree com sabor a flor de cerejeira, cerejas frutadas e notas cremosas de amêndoa.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "The Cherry Edition Sugarfree",
@@ -188,7 +188,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "ZERO CALORIAS",
-                    "standfirst": "Zero calorias. 100% Aaasas. Desfruta do sabor de Red Bull Zero.",
+                    "standfirst": "Zero calorias. 100% Aaasas. Desfruta do sabor de Red Bull Zero.",
                     "brandingHexColorCode": "#ffffff",
                     "image": {
                         "altText": "Red Bull Zero Energy Drink",
@@ -257,7 +257,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink é apreciada em todo o mundo por atletas, profissionais  ocupados, estudantes universitário e viajantes em grandes jornadas.",
+                    "standfirst": "Red Bull Energy Drink é apreciada em todo o mundo por atletas, profissionais  ocupados, estudantes universitário e viajantes em grandes jornadas.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -334,7 +334,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Açai Berry",
-                    "standfirst": "Red Bull Açaí Edition Sugarfree com sabor exótico único do Açaí.",
+                    "standfirst": "Red Bull Açaí Edition Sugarfree com sabor exótico único do Açaí.",
                     "brandingHexColorCode": "#702082",
                     "image": {
                         "altText": "Red Bull Purple Edition Sugarfree - image",
@@ -395,7 +395,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistácio & Frutos Vermelhos",
-                    "standfirst": "Red Bull Winter Edition dá-te aaasas com o sabor intenso a pistácio e frutos vermelhos.",
+                    "standfirst": "Red Bull Winter Edition dá-te aaasas com o sabor intenso a pistácio e frutos vermelhos.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Winter Edition",
@@ -464,7 +464,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Asas sem açúcar: Red Bull Sugar Free  é Red Bull Energy Drink sem açúcar.\"",
+                    "standfirst": "\"Asas sem açúcar: Red Bull Sugar Free  é Red Bull Energy Drink sem açúcar.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -529,7 +529,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Maracujá-Banana",
-                    "standfirst": "Red Bull Green Edition Sugarfree com sabor de Maracujá-Banana",
+                    "standfirst": "Red Bull Green Edition Sugarfree com sabor de Maracujá-Banana",
                     "brandingHexColorCode": "#6cc24a",
                     "image": {
                         "altText": "Green SF",
@@ -586,7 +586,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition. Prepara-te para ser surpreendido pelo sabor exótico de frutos tropicais.",
+                    "standfirst": "Red Bull Yellow Edition. Prepara-te para ser surpreendido pelo sabor exótico de frutos tropicais.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -601,5 +601,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-01T11:52:25.252683+00:00"
+    "collection_timestamp": "2026-10-19T23:28:43.297781+00:00"
 }

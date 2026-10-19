@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "owoców leśnych",
-                    "standfirst": "Red Bull Pink Edition to bezcukrowy napój energetyczny o smaku maliny i innych owoców leśnych dopełniony ekscytującymi ziołowymi nutami werbeny.",
+                    "standfirst": "Red Bull Pink Edition to bezcukrowy napój energetyczny o smaku maliny i innych owoców leśnych dopełniony ekscytującymi ziołowymi nutami werbeny.",
                     "brandingHexColorCode": "#c72466",
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
@@ -111,7 +111,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Gummy Bear",
-                    "standfirst": "Red Bull Ice Edition: Napój energetyczny o wyjątkowym smaku jagody, wanilii i lodowej nuty eukaliptusa.",
+                    "standfirst": "Red Bull Ice Edition: Napój energetyczny o wyjątkowym smaku jagody, wanilii i lodowej nuty eukaliptusa.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Iced Edition",
@@ -187,6 +187,59 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:584d32fd-608b-4f15-9ab0-8e84cb024293:pl-PL",
+            "header_data": {
+                "content": {
+                    "title": "Festive Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/15/eayplt5shc4ckgaky3lu/red-bull-festive-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#8DBED5",
+                                    "percentage": 18.6
+                                },
+                                {
+                                    "hexColorCode": "#B5D3E1",
+                                    "percentage": 7.1
+                                },
+                                {
+                                    "hexColorCode": "#17307C",
+                                    "percentage": 6.1
+                                },
+                                {
+                                    "hexColorCode": "#304785",
+                                    "percentage": 1.1
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Festive Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Mroźna Malina",
+                    "standfirst": "Red Bull Festive Edition o smaku mroźnej maliny.",
+                    "brandingHexColorCode": "#97d5f7",
+                    "image": {
+                        "altText": "Red Bull Festive Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/10/15/eayplt5shc4ckgaky3lu/red-bull-festive-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/pl-pl/energydrink/products/red-bull-festive-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:8282d2ca-23af-445d-9d42-5bd621677a78:pl-PL",
             "header_data": {
                 "content": {
@@ -229,7 +282,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition Sugarfree o smaku białej brzoskwini z nutą skórki cytrusowej i kwiatowymi akcentami.",
+                    "standfirst": "Red Bull Peach Edition Sugarfree o smaku białej brzoskwini z nutą skórki cytrusowej i kwiatowymi akcentami.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition Sugarfree half can",
@@ -298,7 +351,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink jest ceniony na całym świecie przez wybitnych sportowców, studentów, podróżników w długich trasach i ludzi najbardziej wymagających profesji. ",
+                    "standfirst": "Red Bull Energy Drink jest ceniony na całym świecie przez wybitnych sportowców, studentów, podróżników w długich trasach i ludzi najbardziej wymagających profesji. ",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -379,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Açai Berry",
-                    "standfirst": "Red Bull Purple Edition, bez cukru, o wyjątkowym smaku egzotycznej Jagody Acai. ",
+                    "standfirst": "Red Bull Purple Edition, bez cukru, o wyjątkowym smaku egzotycznej Jagody Acai. ",
                     "brandingHexColorCode": "#702082",
                     "image": {
                         "altText": "Red Bull Purple Edition Sugarfree - image",
@@ -440,7 +493,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Smak Pistacji i Jagód",
-                    "standfirst": "Red Bull Winter Edition doda Ci skrzyyydeł o smaku pistacji i jagód.",
+                    "standfirst": "Red Bull Winter Edition doda Ci skrzyyydeł o smaku pistacji i jagód.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -505,7 +558,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Skrzydła bez cukru: Red Bull Sugarfree to Red Bull Energy Drink bez cukru.",
+                    "standfirst": "Skrzydła bez cukru: Red Bull Sugarfree to Red Bull Energy Drink bez cukru.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -566,7 +619,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon fruit",
-                    "standfirst": "Red Bull Green Edition o egzotycznym smaku owocu kaktusa.",
+                    "standfirst": "Red Bull Green Edition o egzotycznym smaku owocu kaktusa.",
                     "brandingHexColorCode": "#00c65e",
                     "image": {
                         "altText": "Red Bull Green edition - image",
@@ -623,7 +676,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Tropical Edition. Daj się zaskoczyć egzotycznym smakiem owoców tropikalnych.",
+                    "standfirst": "Red Bull Tropical Edition. Daj się zaskoczyć egzotycznym smakiem owoców tropikalnych.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Tropical Edition - image",
@@ -676,7 +729,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition o smaku białej brzoskwini z nutą skórki cytrusowej i kwiatowymi akcentami.",
+                    "standfirst": "Red Bull Peach Edition o smaku białej brzoskwini z nutą skórki cytrusowej i kwiatowymi akcentami.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -741,7 +794,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Smak Pistacji i Jagód",
-                    "standfirst": "Red Bull Winter Edition Sugarfree doda Ci skrzyyydeł o smaku pistacji i jagód.",
+                    "standfirst": "Red Bull Winter Edition Sugarfree doda Ci skrzyyydeł o smaku pistacji i jagód.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Winter Edition half can",
@@ -802,7 +855,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry & Blossom Flavour",
-                    "standfirst": "Red Bull Cherry Edition o smaku kwiatu wiśni i sakury z nutą kremowych migdałów.",
+                    "standfirst": "Red Bull Cherry Edition o smaku kwiatu wiśni i sakury z nutą kremowych migdałów.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Cherry Edition - Image",
@@ -863,7 +916,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Różowy grejpfrut - Zioła",
-                    "standfirst": "Red Bull Lilac Edition Sugarfree oferuje smak różowego grejpfruta z nutą ziół",
+                    "standfirst": "Red Bull Lilac Edition Sugarfree oferuje smak różowego grejpfruta z nutą ziół",
                     "brandingHexColorCode": "#6952AD",
                     "image": {
                         "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom",
@@ -878,5 +931,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-17T10:14:19.763775+00:00"
+    "collection_timestamp": "2026-10-19T23:28:24.120265+00:00"
 }

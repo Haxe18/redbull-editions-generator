@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition me shije Shalqiri.",
+                    "standfirst": "Red Bull Red Edition me shije Shalqiri.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -180,7 +180,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink është vlerësuar në mbarë botën nga atletë të nivelit më të lartë, studentë, punonjës me mbingarkesë profesionale, si edhe gjatë udhёtimeve të gjata.",
+                    "standfirst": "Red Bull Energy Drink është vlerësuar në mbarë botën nga atletë të nivelit më të lartë, studentë, punonjës me mbingarkesë profesionale, si edhe gjatë udhёtimeve të gjata.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -245,7 +245,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon Fruit",
-                    "standfirst": "Red Bull Green Edition me shijen ekzotike të frutit të dragoit.",
+                    "standfirst": "Red Bull Green Edition me shijen ekzotike të frutit të dragoit.",
                     "brandingHexColorCode": "#2ca44a",
                     "image": {
                         "altText": "Red Bull Green Edition - image",
@@ -310,7 +310,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Krahë pa sheqer: Red Bull Sugarfree është Red Bull Energy Drink pa sheqer.",
+                    "standfirst": "Krahë pa sheqer: Red Bull Sugarfree është Red Bull Energy Drink pa sheqer.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree - image",
@@ -325,5 +325,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-04-09T06:48:54.214411+00:00"
+    "collection_timestamp": "2026-10-19T23:13:37.349219+00:00"
 }

@@ -180,7 +180,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -241,7 +241,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Exotic Passionfruit",
-                    "standfirst": "The Red Bull Winter Edition with the exotic taste of passionfruit, rounded off with elderflower notes.",
+                    "standfirst": "The Red Bull Winter Edition with the exotic taste of passionfruit, rounded off with elderflower notes.",
                     "brandingHexColorCode": "#78B941",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -306,7 +306,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry. ",
+                    "standfirst": "Get ready for an extraordinary taste experience. The Red Bull White Edition with the taste of exotic coconut and fruity blueberry. ",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Coconut Edition Sugarfree half can",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -432,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "The Red Bull Summer Edition gives you wiiings with the vibrant flavour of sudachi and lime.",
+                    "standfirst": "The Red Bull Summer Edition gives you wiiings with the vibrant flavour of sudachi and lime.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -485,7 +485,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "The Red Bull Peach Edition offers the taste of white peach, a touch of citrus peel and floral notes.",
+                    "standfirst": "The Red Bull Peach Edition offers the taste of white peach, a touch of citrus peel and floral notes.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -546,7 +546,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Grapefruit & Blossom",
-                    "standfirst": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and herbal woodruff, topped with subtle floral notes.",
+                    "standfirst": "The Red Bull Lilac Edition Sugarfree blends the tastes of pink grapefruit and herbal woodruff, topped with subtle floral notes.",
                     "brandingHexColorCode": "#6952AD",
                     "image": {
                         "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom",
@@ -561,5 +561,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-10T09:52:04.153628+00:00"
+    "collection_timestamp": "2026-10-19T23:26:44.807426+00:00"
 }

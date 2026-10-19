@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "Prepárate para una experiencia de sabor extraordinaria. Red Bull Coconut Edition con sabor exótico a coco y arándanos.",
+                    "standfirst": "Prepárate para una experiencia de sabor extraordinaria. Red Bull Coconut Edition con sabor exótico a coco y arándanos.",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Red Bull Coconut edition - image",
@@ -115,7 +115,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Blue Edition con el extraordinario sabor a baya de junio.",
+                    "standfirst": "Red Bull Blue Edition con el extraordinario sabor a baya de junio.",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -180,7 +180,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition con el sabor fresco de la Sandía.",
+                    "standfirst": "Red Bull Red Edition con el sabor fresco de la Sandía.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -432,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistacho & Frutos Rojos",
-                    "standfirst": "Red Bull Winter Edition, con un irresistible sabor a pistacho y frutos rojos, equilibrada con delicadas notas de caramelo y un toque cremoso.",
+                    "standfirst": "Red Bull Winter Edition, con un irresistible sabor a pistacho y frutos rojos, equilibrada con delicadas notas de caramelo y un toque cremoso.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -501,7 +501,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Alas sin azúcar: Red Bull Sugarfree es Red Bull Energy Drink sin azúcares.",
+                    "standfirst": "Alas sin azúcar: Red Bull Sugarfree es Red Bull Energy Drink sin azúcares.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -615,7 +615,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition con sabor a melocotón blanco.",
+                    "standfirst": "Red Bull Peach Edition con sabor a melocotón blanco.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -676,7 +676,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Grapefruit & Blossom",
-                    "standfirst": "Red Bull Lila Edition Sugarfree sin azúcar con el toque fresco del pomelo y un aroma de notas florales.",
+                    "standfirst": "Red Bull Lila Edition Sugarfree sin azúcar con el toque fresco del pomelo y un aroma de notas florales.",
                     "brandingHexColorCode": "#6952AD",
                     "image": {
                         "altText": "Lila-Edition-Sugarfree  Grapefruit & Blossom",
@@ -737,7 +737,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "Red Bull Apricot Edition presenta la combinación perfecta de albaricoque y fresa con un toque de melocotón.",
+                    "standfirst": "Red Bull Apricot Edition presenta la combinación perfecta de albaricoque y fresa con un toque de melocotón.",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -752,5 +752,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-06T12:18:52.113511+00:00"
+    "collection_timestamp": "2026-10-19T23:31:00.491060+00:00"
 }

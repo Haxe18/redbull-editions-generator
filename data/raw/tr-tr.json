@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "Sıra dışı lezzet deneyimine hazırlan. Red Bull White Edition hindistan cevizi ve açai lezzeti",
+                    "standfirst": "Sıra dışı lezzet deneyimine hazırlan. Red Bull White Edition hindistan cevizi ve açai lezzeti",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Red Bull White Edition - image",
@@ -180,7 +180,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Karpuz lezzeti ile Red Bull Red Edition",
+                    "standfirst": "Karpuz lezzeti ile Red Bull Red Edition",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Fuji Apple-Ginger ",
-                    "standfirst": "Fuji elmasının ferahlığı ile zencefilin sıcak baharatını bir araya getiren Red Bull Apple Edition",
+                    "standfirst": "Fuji elmasının ferahlığı ile zencefilin sıcak baharatını bir araya getiren Red Bull Apple Edition",
                     "brandingHexColorCode": "#AE132D",
                     "image": {
                         "altText": "Red Bull Apple Edition - Image",
@@ -310,7 +310,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Zero Sugar",
-                    "standfirst": "Red Bull Zero Energy Drink: Sıfır kaloriyle de kanatlandırııır.",
+                    "standfirst": "Red Bull Zero Energy Drink: Sıfır kaloriyle de kanatlandırııır.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Zero Energy Drink",
@@ -379,7 +379,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Enerji İçeceği tüm dünyada sporcular, öğrenciler, yorucu mesleklerde çalışanlar ve uzun yol sürücülerinin en iyi dostudur.",
+                    "standfirst": "Red Bull Enerji İçeceği tüm dünyada sporcular, öğrenciler, yorucu mesleklerde çalışanlar ve uzun yol sürücülerinin en iyi dostudur.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -444,7 +444,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "Yabanmersini lezzeti ile Red Bull Blue Edition",
+                    "standfirst": "Yabanmersini lezzeti ile Red Bull Blue Edition",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -509,7 +509,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Şekersiz kanatlar: Red Bull Enerji İçeceği'nin şekersiz versiyonu Red Bull Sugarfree.",
+                    "standfirst": "Şekersiz kanatlar: Red Bull Enerji İçeceği'nin şekersiz versiyonu Red Bull Sugarfree.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -570,7 +570,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Yellow Edition. Sudachi ve lime tadı, hafif pomelo ve narenciye kabuğu notalarıyla tamamlandı.",
+                    "standfirst": "Red Bull Yellow Edition. Sudachi ve lime tadı, hafif pomelo ve narenciye kabuğu notalarıyla tamamlandı.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -623,7 +623,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Peach",
-                    "standfirst": "Red Bull Peach Edition, ferahlatıcı beyaz şeftali aromasını narenciye kabuğu dokunuşu ve çiçeksi notalarla birleştirir.",
+                    "standfirst": "Red Bull Peach Edition, ferahlatıcı beyaz şeftali aromasını narenciye kabuğu dokunuşu ve çiçeksi notalarla birleştirir.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - image",
@@ -676,7 +676,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pomelo",
-                    "standfirst": "Red Bull Lilac Edition Şekersiz Enerji İçeceği; pomelo aromasını çiçeksi notalarla bir araya getirir.",
+                    "standfirst": "Red Bull Lilac Edition Şekersiz Enerji İçeceği; pomelo aromasını çiçeksi notalarla bir araya getirir.",
                     "brandingHexColorCode": "#6952AD",
                     "image": {
                         "altText": "Lilac-Edition-Sugarfree  Grapefruit & Blossom",
@@ -691,5 +691,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-22T08:00:57.687146+00:00"
+    "collection_timestamp": "2026-10-19T23:33:38.237667+00:00"
 }

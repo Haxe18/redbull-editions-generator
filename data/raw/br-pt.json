@@ -119,7 +119,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Experimente o novo e refrescante sabor de Melancia com o Red Bull Melancia Edition.",
+                    "standfirst": "Experimente o novo e refrescante sabor de Melancia com o Red Bull Melancia Edition.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Melancia Edition - image",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "O Red Bull Cereja Edition com o extraordinário gosto de Cereja e Frutas Silvestres.",
+                    "standfirst": "O Red Bull Cereja Edition com o extraordinário gosto de Cereja e Frutas Silvestres.",
                     "brandingHexColorCode": "#0072ce",
                     "image": {
                         "altText": "Red Bull Summer Edition - image",
@@ -245,7 +245,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pomelo",
-                    "standfirst": "Red Bull Pomelo Edition Sugarfree tem o sabor de pomelo e sutis notas florais.",
+                    "standfirst": "Red Bull Pomelo Edition Sugarfree tem o sabor de pomelo e sutis notas florais.",
                     "brandingHexColorCode": "#7d62ce",
                     "image": {
                         "altText": "Red Bull Pomelo Edition Sugarfree",
@@ -379,7 +379,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "O Red Bull Energy Drink é apreciado em todo o mundo por atletas de elite, profissionais inâmicos, estudantes ativos e motoristas em viagens longas.",
+                    "standfirst": "O Red Bull Energy Drink é apreciado em todo o mundo por atletas de elite, profissionais inâmicos, estudantes ativos e motoristas em viagens longas.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -436,7 +436,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Nectarina",
-                    "standfirst": "Red Bull Nectarina Edition com o sabor de Nectarina e sem açúcar.           ",
+                    "standfirst": "Red Bull Nectarina Edition com o sabor de Nectarina e sem açúcar.           ",
                     "brandingHexColorCode": "#e24585",
                     "image": {
                         "altText": "Red Bull Nectarina SF",
@@ -501,7 +501,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Asas sem açúcar: o Red Bull Sugarfree é o Red Bull Energy Drink sem açúcar.",
+                    "standfirst": "Asas sem açúcar: o Red Bull Sugarfree é o Red Bull Energy Drink sem açúcar.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -566,7 +566,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Seja surpreendido pelo sabor das frutas tropicais do Red Bull Tropical Edition.",
+                    "standfirst": "Seja surpreendido pelo sabor das frutas tropicais do Red Bull Tropical Edition.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Tropical Edition - image",
@@ -627,7 +627,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Maracujá & Melão",
-                    "standfirst": "O Red Bull Melão Edition apresenta o sabor de Maracujá & Melão.",
+                    "standfirst": "O Red Bull Melão Edition apresenta o sabor de Maracujá & Melão.",
                     "brandingHexColorCode": "#6cc24a",
                     "image": {
                         "altText": "Melão Edition",
@@ -692,7 +692,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "O Red Bull Pêssego Edition apresenta a mistura perfeita do sabor de pêssego com morango, realçando o melhor de cada um.",
+                    "standfirst": "O Red Bull Pêssego Edition apresenta a mistura perfeita do sabor de pêssego com morango, realçando o melhor de cada um.",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Pêssego Edition - image",
@@ -707,5 +707,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-08-04T07:50:29.633023+00:00"
+    "collection_timestamp": "2026-10-19T23:16:49.819770+00:00"
 }

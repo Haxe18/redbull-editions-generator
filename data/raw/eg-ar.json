@@ -180,7 +180,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild berries.",
+                    "standfirst": "The Red Bull Summer Edition with the extraordinary taste of Cherry and Wild berries.",
                     "brandingHexColorCode": "#0072ce",
                     "image": {
                         "altText": "Red Bull Summer Edition White Peach - Image",
@@ -394,5 +394,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-08-14T06:45:43.061413+00:00"
+    "collection_timestamp": "2026-10-19T23:20:21.638683+00:00"
 }

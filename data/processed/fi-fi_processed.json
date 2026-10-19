@@ -14,7 +14,7 @@
         {
             "name": "The Cherry Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Cherry Edition Sugarfree gives you wings with a Cherry taste with a hint of almond and Cherry Blossom",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree gives you wings with a Cherry taste, a hint of almond and Cherry Blossom",
             "sugarfree": true,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/1/texldophmzajch0d7doe/the-cherry-edition-sugarfree",
@@ -24,7 +24,7 @@
         {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
-            "flavor_description": "Red Bull Ice Edition gives you wings with a popsicle taste. Enjoy an energy drink made from high-quality ingredients",
+            "flavor_description": "Red Bull Ice Edition gives you wings with an ice pop taste. Enjoy an energy drink made from high-quality ingredients",
             "sugarfree": false,
             "color": "#53b2c2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/19/sbuzywoeha4mriykzqyz/red-bull-ice-edition",
@@ -44,7 +44,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated by top athletes, students, demanding professionals and long-distance drivers",
+            "flavor_description": "Red Bull energy drink is appreciated worldwide by top athletes, students, demanding professionals and long-distance drivers",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/19/fl8kq9xgix5zsl74uk9e/red-bull-energy-drink",
@@ -54,7 +54,7 @@
         {
             "name": "The Blue Edition",
             "flavor": "Blueberry",
-            "flavor_description": "A classic. A Blueberry-flavored energy drink Red Bull Blue Edition",
+            "flavor_description": "A classic. An energy drink with a tasty Blueberry flavor – Red Bull Blue Edition",
             "sugarfree": false,
             "color": "#001A72",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/6/12/hxyfkwsdioda9kfaiuts/red-bull-blue-edition-image",
@@ -64,7 +64,7 @@
         {
             "name": "The Winter Edition",
             "flavor": "Pistachio-Berries",
-            "flavor_description": "Red Bull Winter Edition with the taste of pistachio and berries, with a hint of caramel with nutty and creamy notes",
+            "flavor_description": "Red Bull Winter Edition with Pistachio and berry taste, with a hint of caramel, nutty and creamy nuances",
             "sugarfree": false,
             "color": "#0a1c43",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/4/ihya7oeiscqeoin9i62z/red-bull-winter-edition-image",
@@ -74,7 +74,7 @@
         {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink without sugar",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull energy drink without sugar",
             "sugarfree": true,
             "color": "#0395D2",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2023/8/21/iay2mvrmbfvf4ghqdkwk/red-bull-sugarfree",
@@ -84,7 +84,7 @@
         {
             "name": "The Lime Green Edition",
             "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Lime Green Edition with an exotic Curuba-Elderflower taste",
+            "flavor_description": "Red Bull Lime Green Edition with an exotic Curuba taste",
             "sugarfree": false,
             "color": "#79B942",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/10/17/oldr8rfwnxp9ly5lbdtq/red-bull-lime-green-edition-image",
@@ -104,7 +104,7 @@
         {
             "name": "The Winter Edition Sugarfree",
             "flavor": "Pistachio-Berries",
-            "flavor_description": "Red Bull Winter Edition Sugarfree with the taste of pistachio and berries, with a hint of caramel with nutty and creamy notes",
+            "flavor_description": "Red Bull Winter Edition Sugarfree with Pistachio and berry taste, with a hint of caramel, nutty and creamy nuances",
             "sugarfree": true,
             "color": "#0a1c43",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/9/3/i3nsflg75skns8m2mvrp/red-bull-winter-edition-sugarfree",
@@ -124,7 +124,7 @@
         {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Red Bull Summer Edition with a taste of Sudachi and lime, with a hint of Pomelo and citrus peel",
+            "flavor_description": "Red Bull Summer Edition with sudachi and lime taste, with nuances of Pomelo and citrus peel",
             "sugarfree": false,
             "color": "#F0E53B",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/9/ve9ptkhrksypylnwlbuo/red-bull-summer-edition",
@@ -134,7 +134,7 @@
         {
             "name": "The Summer Edition Sugarfree",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Red Bull Summer Edition Sugarfree with a taste of Sudachi and lime, with a hint of Pomelo and citrus peel",
+            "flavor_description": "Red Bull Summer Edition Sugarfree with sudachi and lime taste, with nuances of Pomelo and citrus peel",
             "sugarfree": true,
             "color": "#F0E53B",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/27/sf39rlfuht32doferjid/red-bull-summer-edition-sugarfree",
@@ -153,25 +153,124 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-FI.svg",
-    "_raw_hash": "e7cc71f792e97cff6babccfbb58f98b12279b7b15fd1c2e14ae60ea8cfb77336",
+    "_raw_hash": "07423c916387f79c88c2da12aa4b05b2c55bf8a34a3a296f7a72b7d258536ea0",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:fi-FI",
+            "name": "The Sea Blue Edition",
+            "flavor": "Juneberry",
+            "description": "Red Bull Sea Blue Edition with a unique juneberry taste.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-sea-blue-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:fi-FI",
+            "name": "The Cherry Edition Sugarfree",
+            "flavor": "Cherry Sakura",
+            "description": "Red Bull Cherry Edition Sugarfree gives you wings with a cherry taste, a hint of almond and cherry blossom.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-cherry-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fi-FI",
+            "name": "The Ice Edition",
+            "flavor": "Iced Vanilla Berry",
+            "description": "Red Bull Ice Edition gives you wings with an ice pop taste. Enjoy an energy drink made from high-quality ingredients.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-ice-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:fi-FI",
+            "name": "Energy Drink Zero",
+            "flavor": "Zero Sugar",
+            "description": "The new Red Bull Zero is here.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/red-bull-zero"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fi-FI",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull energy drink is appreciated worldwide by top athletes, students, demanding professionals and long-distance drivers.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-energy-drink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:fi-FI",
+            "name": "The Blue Edition",
+            "flavor": "Blueberry",
+            "description": "A classic. An energy drink with a tasty blueberry flavor – Red Bull Blue Edition.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-blue-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fi-FI",
+            "name": "The Winter Edition",
+            "flavor": "Pistachio & Berries",
+            "description": "Red Bull Winter Edition with pistachio and berry taste, with a hint of caramel, nutty and creamy nuances.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-winter-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fi-FI",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull energy drink without sugar.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:fi-FI",
+            "name": "The Lime Green Edition",
+            "flavor": "Curuba-Elderflower",
+            "description": "Red Bull Lime Green Edition with an exotic curuba taste.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-lime-green-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:fi-FI",
+            "name": "The Peach Edition",
+            "flavor": "White Peach",
+            "description": "Fresh peach-flavored Red Bull Peach Edition.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-peach-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:fi-FI",
+            "name": "The Winter Edition Sugarfree",
+            "flavor": "Pistachio & Berries",
+            "description": "Red Bull Winter Edition Sugarfree with pistachio and berry taste, with a hint of caramel, nutty and creamy nuances.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-winter-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:fi-FI",
+            "name": "The Pink Edition Sugarfree",
+            "flavor": "Raspberry",
+            "description": "Red Bull gives you wings. Also sugar-free.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-pink-edition-sugarfree"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fi-FI",
+            "name": "The Summer Edition",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Summer Edition with sudachi and lime taste, with nuances of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/fi-fi/energydrink/products/red-bull-summer-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:fi-FI",
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "Sudachi Lime",
+            "description": "Red Bull Summer Edition Sugarfree with sudachi and lime taste, with nuances of pomelo and citrus peel.",
+            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-summer-edition-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:fi-FI": "afce183fd8c10423ee14a779a00d42a789d526cd8e151257bda64e6f6f65acea",
-        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:fi-FI": "8e8bf1f2cc710b96c7a99bf441c1979e519a33038b320cc1749986d64d91c759",
-        "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fi-FI": "901a1592f32e065622e355c92ea43c8a3edeae9fa1000503c70fe7ce89d102f1",
-        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:fi-FI": "9f078535335f7978b9b2cf62aaa3c694cc0b3549ad0f59f8a45038445b929edb",
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fi-FI": "13c1893a9f0a5876e3988396251ed19802ec5cfb66402c191c660a5cebf7bfea",
-        "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:fi-FI": "980d683fb9041f5512591fa0b844057c481a794fea101fd818838c7f58724b7d",
-        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fi-FI": "5ff9e51ee18b8b5883c929a9a97253f1a4063f505897e6be4775744f5a304443",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fi-FI": "c65dd2fad9ac18e2b4fd6c02a62a0da448644c66b6f9826aa38632eda5645ae8",
-        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:fi-FI": "eff11a5d45adea7f7b8e01f84cd818c738133c8e5ec249fadcb6a80e1740d7dc",
-        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:fi-FI": "490a7e670aacf88d0659d492778ba08b163cbdac9b630d120df73498f46ade79",
-        "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:fi-FI": "75f1941ca9a4fe1ee31229c637ea2d12c1a1967c67970c00d9038d4e7d67c2c4",
-        "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:fi-FI": "0cd85ad9e4089e8f3a14fe4a1a47165988a362322a6c70d89073968a598f0788",
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fi-FI": "43f662d4c52fb5dbec5b3cce2add0c384dbf3a0d35a9bb015ca116cb1eb66caf",
-        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:fi-FI": "e292634f3e8fc1a322c7f81a0cec91f12e5399878cb293732933f9ebe1dda786",
+        "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:fi-FI": "0cb4d61e4920b48f789b4df677e94f1a775f16f7478097d84634d6415b3a278d",
+        "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:fi-FI": "7ad97db44d5c5231ff61faaba2dd92a460c42e7f6c8b7ecaff92afd6980ca637",
+        "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fi-FI": "b6561106247c7f919ff6f77cce0089a9ce538176ed92d8d2cf2c6428d2d686d6",
+        "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:fi-FI": "2007bb378de3c2747373632fdeb9ab2a41a16cd1d815c1f2350e506f420c926d",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fi-FI": "8c358eab128b4a8112fe218abe5886a48b3a0a9de9897fa7d0f226c6e9162068",
+        "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:fi-FI": "c517d342997ecc79872c3315686d0ae6ed2bcb45e4a74fca0e8df23472491c52",
+        "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fi-FI": "115e2461d631c7fe08d410e6e0089173bfa85cd2de83531dcb379a44dd6adf1a",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fi-FI": "c9796dc66d7ababa5b609108e0bedabf0a601a9d0d2c09e0918bdf82954592eb",
+        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:fi-FI": "c86423904d5f6c7ac5d704a147567ac0b9e0f687eb8ed4194adfd492b50aa9c7",
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:fi-FI": "4f4187919a6e09dba7e93c8539196ee6679484441808d47f2c11a8df0b9a51a7",
+        "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:fi-FI": "2ae4a25f68754b24e87be5a06f3b841a32e6fb409a093d0a9b9da62c128d57f0",
+        "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:fi-FI": "f9bcbc33d8e2f8f70832582bfe137874a97cac28adabad5c7949751724f2ee36",
+        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fi-FI": "a391012c912a1037fc8967f75516e3092dfd477c401b787062e925d63656dd09",
+        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:fi-FI": "33fc4e85c284ea6214ac4e2adb5b227d02c710b42f024490f72c013e43bd7c43",
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:fi-FI": "4e62964fc1747b10648d3c3cd95b1bdab72ab7c73f4aa3d4d5e2bbffebc6793e"
     },
     "_normalized_editions": {
@@ -184,13 +283,13 @@
         "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:fi-FI": {
             "name": "The Cherry Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Cherry Edition Sugarfree gives you wings with a Cherry taste with a hint of almond and Cherry Blossom",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree gives you wings with a Cherry taste, a hint of almond and Cherry Blossom",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:fi-FI": {
             "name": "The Ice Edition",
             "flavor": "Iced Vanilla Berry",
-            "flavor_description": "Red Bull Ice Edition gives you wings with a popsicle taste. Enjoy an energy drink made from high-quality ingredients",
+            "flavor_description": "Red Bull Ice Edition gives you wings with an ice pop taste. Enjoy an energy drink made from high-quality ingredients",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:fi-FI": {
@@ -202,31 +301,31 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:fi-FI": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated by top athletes, students, demanding professionals and long-distance drivers",
+            "flavor_description": "Red Bull energy drink is appreciated worldwide by top athletes, students, demanding professionals and long-distance drivers",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:fi-FI": {
             "name": "The Blue Edition",
             "flavor": "Blueberry",
-            "flavor_description": "A classic. A Blueberry-flavored energy drink Red Bull Blue Edition",
+            "flavor_description": "A classic. An energy drink with a tasty Blueberry flavor – Red Bull Blue Edition",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:fi-FI": {
             "name": "The Winter Edition",
             "flavor": "Pistachio-Berries",
-            "flavor_description": "Red Bull Winter Edition with the taste of pistachio and berries, with a hint of caramel with nutty and creamy notes",
+            "flavor_description": "Red Bull Winter Edition with Pistachio and berry taste, with a hint of caramel, nutty and creamy nuances",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:fi-FI": {
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "flavor_description": "Wings without sugar: Red Bull Sugarfree is a Red Bull energy drink without sugar",
+            "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull energy drink without sugar",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:fi-FI": {
             "name": "The Lime Green Edition",
             "flavor": "Curuba-Elderflower",
-            "flavor_description": "Red Bull Lime Green Edition with an exotic Curuba-Elderflower taste",
+            "flavor_description": "Red Bull Lime Green Edition with an exotic Curuba taste",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:fi-FI": {
@@ -238,7 +337,7 @@
         "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:fi-FI": {
             "name": "The Winter Edition Sugarfree",
             "flavor": "Pistachio-Berries",
-            "flavor_description": "Red Bull Winter Edition Sugarfree with the taste of pistachio and berries, with a hint of caramel with nutty and creamy notes",
+            "flavor_description": "Red Bull Winter Edition Sugarfree with Pistachio and berry taste, with a hint of caramel, nutty and creamy nuances",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:e3a50810-fdbc-40f3-a60f-a6e917586d49:fi-FI": {
@@ -250,13 +349,13 @@
         "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:fi-FI": {
             "name": "The Summer Edition",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Red Bull Summer Edition with a taste of Sudachi and lime, with a hint of Pomelo and citrus peel",
+            "flavor_description": "Red Bull Summer Edition with sudachi and lime taste, with nuances of Pomelo and citrus peel",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:fi-FI": {
             "name": "The Summer Edition Sugarfree",
             "flavor": "Sudachi Lime",
-            "flavor_description": "Red Bull Summer Edition Sugarfree with a taste of Sudachi and lime, with a hint of Pomelo and citrus peel",
+            "flavor_description": "Red Bull Summer Edition Sugarfree with sudachi and lime taste, with nuances of Pomelo and citrus peel",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:fi-FI": {

@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition со вкусом арбуза.",
+                    "standfirst": "Red Bull Red Edition со вкусом арбуза.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition",
@@ -123,7 +123,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Энергетический напиток Red Bull знают и ценят во всем мире. Он помогает ведущим спортсменам, студентам, представителям экстремальных профессий, а также во время длительных автомобильных поездок.",
+                    "standfirst": "Энергетический напиток Red Bull знают и ценят во всем мире. Он помогает ведущим спортсменам, студентам, представителям экстремальных профессий, а также во время длительных автомобильных поездок.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blueberry",
-                    "standfirst": "Red Bull Blue Edition со вкусом черники.",
+                    "standfirst": "Red Bull Blue Edition со вкусом черники.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Крылья без сахара: Red Bull Sugarfree - это тот  же энергетический напиток Red Bull, но без сахара.\"",
+                    "standfirst": "\"Крылья без сахара: Red Bull Sugarfree - это тот  же энергетический напиток Red Bull, но без сахара.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -314,7 +314,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition. Восхититесь экзотическим вкусом тропических фруктов.",
+                    "standfirst": "Red Bull Yellow Edition. Восхититесь экзотическим вкусом тропических фруктов.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -329,5 +329,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-28T07:58:43.629520+00:00"
+    "collection_timestamp": "2026-10-19T23:24:38.014946+00:00"
 }

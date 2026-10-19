@@ -62,7 +62,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -127,7 +127,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
+                    "standfirst": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree - image",
@@ -207,5 +207,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-08-19T05:58:05.471448+00:00"
+    "collection_timestamp": "2026-10-19T23:27:53.204502+00:00"
 }

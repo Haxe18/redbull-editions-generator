@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "The Red Bull Coconut Edition with the taste of coconut and blueberry.",
+                    "standfirst": "The Red Bull Coconut Edition with the taste of coconut and blueberry.",
                     "brandingHexColorCode": "#006AAF",
                     "image": {
                         "altText": "Red Bull Blue Coconut - image",
@@ -115,7 +115,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry",
+                    "standfirst": "The Red Bull Sea Blue Edition with the extraordinary taste of Juneberry",
                     "brandingHexColorCode": "#007EBE",
                     "image": {
                         "altText": "Red Bull The Sea Blue Edition - Image",
@@ -180,7 +180,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Wild Berries",
-                    "standfirst": "The Red Bull Pink Edition: The Energy Drink with the taste of raspberry and other fruits complemented by exciting herbal notes.",
+                    "standfirst": "The Red Bull Pink Edition: The Energy Drink with the taste of raspberry and other fruits complemented by exciting herbal notes.",
                     "brandingHexColorCode": "#e77bab",
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
@@ -245,7 +245,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "The Red Bull Red Edition with the taste of watermelon.",
+                    "standfirst": "The Red Bull Red Edition with the taste of watermelon.",
                     "brandingHexColorCode": "#C53224",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -314,7 +314,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Fuji Apple & Ginger",
-                    "standfirst": "The Red Bull Apple Edition with the taste of Fuji apples and the warm spiciness of ginger.",
+                    "standfirst": "The Red Bull Apple Edition with the taste of Fuji apples and the warm spiciness of ginger.",
                     "brandingHexColorCode": "#ae132d",
                     "image": {
                         "altText": "Red Bull Apple Edition - Image",
@@ -367,7 +367,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Vanilla Berry",
-                    "standfirst": "The Red Bull Iced Edition with the taste of blueberry, vanilla and icy fresh notes of eucalyptus*.",
+                    "standfirst": "The Red Bull Iced Edition with the taste of blueberry, vanilla and icy fresh notes of eucalyptus*.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Iced Edition Image",
@@ -428,7 +428,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Vanilla Berry",
-                    "standfirst": "The Red Bull Iced Edition Sugarfree with the taste of blueberry, vanilla and icy fresh notes of eucalyptus*.",
+                    "standfirst": "The Red Bull Iced Edition Sugarfree with the taste of blueberry, vanilla and icy fresh notes of eucalyptus*.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Iced Edition Sugarfree Image",
@@ -550,7 +550,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "The Red Bull Peach Edition Sugarfree with the taste of white peach and a touch of citrus peel and floral notes*.",
+                    "standfirst": "The Red Bull Peach Edition Sugarfree with the taste of white peach and a touch of citrus peel and floral notes*.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition Sugarfree Image",
@@ -623,7 +623,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -688,7 +688,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -749,7 +749,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "The Red Bull Summer Edition with the taste of citrus notes: zesty lime, tangy sudachi (a Japanese citrus fruit), and the subtle hint of pomelo.*",
+                    "standfirst": "The Red Bull Summer Edition with the taste of citrus notes: zesty lime, tangy sudachi (a Japanese citrus fruit), and the subtle hint of pomelo.*",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Summer Edition - image",
@@ -859,7 +859,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "The Red Bull Peach Edition with the taste of white peach and a touch of citrus peel and floral notes*.",
+                    "standfirst": "The Red Bull Peach Edition with the taste of white peach and a touch of citrus peel and floral notes*.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition Image",
@@ -924,7 +924,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Red Bull Sea Blue Editions gives you wiiings with the enticing Juneberry taste – now without sugar.",
+                    "standfirst": "Red Bull Sea Blue Editions gives you wiiings with the enticing Juneberry taste – now without sugar.",
                     "brandingHexColorCode": "#007EBE",
                     "image": {
                         "altText": "sea-blue-sugarfree",
@@ -981,7 +981,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Wild Berries",
-                    "standfirst": "The Red Bull Pink Edition: The Energy Drink with the taste of raspberry and other fruits complemented by exciting herbal notes.",
+                    "standfirst": "The Red Bull Pink Edition: The Energy Drink with the taste of raspberry and other fruits complemented by exciting herbal notes.",
                     "brandingHexColorCode": "#e77bab",
                     "image": {
                         "altText": "Red Bull Pink Edition",
@@ -1046,7 +1046,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "The Red Bull Summer Edition Sugarfree with the taste of citrus notes: zesty lime, tangy sudachi (a Japanese citrus fruit), and the subtle hint of pomelo.*",
+                    "standfirst": "The Red Bull Summer Edition Sugarfree with the taste of citrus notes: zesty lime, tangy sudachi (a Japanese citrus fruit), and the subtle hint of pomelo.*",
                     "brandingHexColorCode": "#F0E53B",
                     "image": {
                         "altText": "Red Bull Summer Edition Sugarfree",
@@ -1107,7 +1107,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "The Red Bull Amber Edition with the taste of strawberry and apricot.",
+                    "standfirst": "The Red Bull Amber Edition with the taste of strawberry and apricot.",
                     "brandingHexColorCode": "#F28B0E",
                     "image": {
                         "altText": "The Amber Edition image",
@@ -1122,5 +1122,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-08-31T11:55:06.528094+00:00"
+    "collection_timestamp": "2026-10-19T23:35:11.425275+00:00"
 }

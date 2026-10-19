@@ -14,7 +14,7 @@
         {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "flavor_description": "Red Bull Stimulant Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false,
             "color": "#263A80",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/3/20/ute5x70jg9fjytewwusp/red-bull-energy-drink",
@@ -33,14 +33,36 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PK.svg",
-    "_raw_hash": "f1bf642d09b32b758d32b25a78019ea34cc80c963afac477afb5aec9aeb47cb5",
+    "_raw_hash": "9545b2d0e89fe8fa704679a68489428fbc5bebeb8d565e0c6a179e372ab1a2b0",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-PK",
+            "name": "The Red Edition",
+            "flavor": "Watermelon",
+            "description": "The Red Bull Red Edition offers the taste of watermelon.",
+            "product_url": "https://www.redbull.com/pk-en/energydrink/products/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PK",
+            "name": "Energy Drink",
+            "flavor": "Energy Drink",
+            "description": "Red Bull Stimulant Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+            "product_url": "https://www.redbull.com/pk-en/energydrink/products/red-bull-stimulant-drink"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PK",
+            "name": "Energy Drink Sugarfree",
+            "flavor": "Sugarfree",
+            "description": "Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
+            "product_url": "https://www.redbull.com/pk-en/energydrink/products/red-bull-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
-        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-PK": "358782ec1e4906d555a8785f03da8caabb369f1bb7165aa8415695506005e734",
-        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PK": "bdd332eec7b202309a6f268254bfc13e0aa1f67e28d5cc46ce58741366e8cfd6",
-        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PK": "8948edbbf61ff108a7be6ce8624cf60e0e77b97dc7fc53955817e89c46ff0530"
+        "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-PK": "60b4d2cc680c16c47e068c2f969a0447af050c32cf8bf87bcc468df4f6b642f4",
+        "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PK": "f86c0c87b701cf4e9e75f54c10da16265bbede09eceef52dfd5aa1697bc038e2",
+        "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PK": "0d712b5aef6c79876e7e5a188f9b0353abd5701bab0aba5cbfb87a17881d212d"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-PK": {
@@ -52,7 +74,7 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PK": {
             "name": "Energy Drink",
             "flavor": "Energy Drink",
-            "flavor_description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
+            "flavor_description": "Red Bull Stimulant Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PK": {

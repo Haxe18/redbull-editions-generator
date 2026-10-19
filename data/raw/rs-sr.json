@@ -50,7 +50,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition sa ukusom lubenice.",
+                    "standfirst": "Red Bull Red Edition sa ukusom lubenice.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink se ceni širom sveta od strane vrhunskih  sportista, studenata, profesionalaca, kao i putnika na dugim vožnjama.",
+                    "standfirst": "Red Bull Energy Drink se ceni širom sveta od strane vrhunskih  sportista, studenata, profesionalaca, kao i putnika na dugim vožnjama.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Krila bez šećera: Red Bull Sugarfree je Red Bull Energy Drink bez šećera.",
+                    "standfirst": "Krila bez šećera: Red Bull Sugarfree je Red Bull Energy Drink bez šećera.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -302,7 +302,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Breskva",
-                    "standfirst": "Red Bull Peach Edition nudi osvežavajući ukus breskve i cvetnim tonovima.",
+                    "standfirst": "Red Bull Peach Edition nudi osvežavajući ukus breskve i cvetnim tonovima.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "Red Bull Spring Edition Sugarfree ima ukus trešnje sa blagim notama badema i cveta trešnje.",
+                    "standfirst": "Red Bull Spring Edition Sugarfree ima ukus trešnje sa blagim notama badema i cveta trešnje.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Spring Edition Sugarfree Image",
@@ -432,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Kriiila za tvoje leto: Red Bull Summer Edition Energy Drink sa ukusom breskve, blagim tonovima citrusne kore i cvetnim notama.",
+                    "standfirst": "Kriiila za tvoje leto: Red Bull Summer Edition Energy Drink sa ukusom breskve, blagim tonovima citrusne kore i cvetnim notama.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -447,5 +447,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-29T09:05:51.030978+00:00"
+    "collection_timestamp": "2026-10-19T23:29:14.181362+00:00"
 }

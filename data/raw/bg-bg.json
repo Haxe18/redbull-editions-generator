@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "Red Bull Red Edition със свежия вкус на диня.",
+                    "standfirst": "Red Bull Red Edition със свежия вкус на диня.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -192,7 +192,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink е високо ценена от най-добрите спортисти, студенти, от професии с по-високи изисквания, както и при дълги пътувания.",
+                    "standfirst": "Red Bull Energy Drink е високо ценена от най-добрите спортисти, студенти, от професии с по-високи изисквания, както и при дълги пътувания.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -257,7 +257,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Крила без захар: Red Bull Sugarfree е Red Bull Energy Drink без захар.",
+                    "standfirst": "Крила без захар: Red Bull Sugarfree е Red Bull Energy Drink без захар.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree Edition - image",
@@ -318,7 +318,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "Red Bull Summer Edition ти дава крилааа с вкус на судачи и лайм.",
+                    "standfirst": "Red Bull Summer Edition ти дава крилааа с вкус на судачи и лайм.",
                     "brandingHexColorCode": "#F0E53B",
                     "image": {
                         "altText": "Red Bull Summer Edition - image",
@@ -436,7 +436,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "Red Bull Apricot Edition предлага перфектната комбинация от кайсия и ягода с нотка на вкус на праскова.",
+                    "standfirst": "Red Bull Apricot Edition предлага перфектната комбинация от кайсия и ягода с нотка на вкус на праскова.",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -451,5 +451,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-05-22T08:34:10.939616+00:00"
+    "collection_timestamp": "2026-10-19T23:17:02.378572+00:00"
 }

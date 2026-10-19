@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "The Red Bull Red Edition with the fresh taste of watermelon.",
+                    "standfirst": "The Red Bull Red Edition with the fresh taste of watermelon.",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - image",
@@ -188,7 +188,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -253,7 +253,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -314,7 +314,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi Lime",
-                    "standfirst": "The Red Bull Summer Edition with the taste of sudachi and lime, rounded up with a subtle hint of pomelo and citrus peel.",
+                    "standfirst": "The Red Bull Summer Edition with the taste of sudachi and lime, rounded up with a subtle hint of pomelo and citrus peel.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Summer Edition",
@@ -367,7 +367,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "The Red Bull Peach Edition offers the taste of white peach with a touch of citrus peel and floral notes.",
+                    "standfirst": "The Red Bull Peach Edition offers the taste of white peach with a touch of citrus peel and floral notes.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -432,7 +432,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry & Blossom Flavour",
-                    "standfirst": "The Red Bull Cherry Edition gives you wiiings with the taste of cherry with notes of almond and floral cherry blossom.",
+                    "standfirst": "The Red Bull Cherry Edition gives you wiiings with the taste of cherry with notes of almond and floral cherry blossom.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull Cherry Edition - Image",
@@ -447,5 +447,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-19T10:58:28.833226+00:00"
+    "collection_timestamp": "2026-10-19T23:30:32.859763+00:00"
 }

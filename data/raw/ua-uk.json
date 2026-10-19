@@ -58,7 +58,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Watermelon",
-                    "standfirst": "The Red Bull Red Edition з освіжаючим смаком кавуна. ",
+                    "standfirst": "The Red Bull Red Edition з освіжаючим смаком кавуна. ",
                     "brandingHexColorCode": "#e03c31",
                     "image": {
                         "altText": "Red Bull Red Edition - Image",
@@ -76,7 +76,7 @@
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:uk-UA",
             "header_data": {
                 "content": {
-                    "title": "Red Bull"
+                    "title": "Red Bull"
                 },
                 "media": {
                     "mainImage": {
@@ -131,7 +131,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Енергетичний напій Red Bull вживається у всьому світі провідними спортсменами, студентами та професіоналами, а також під час тривалих подорожей за кермом.",
+                    "standfirst": "Енергетичний напій Red Bull вживається у всьому світі провідними спортсменами, студентами та професіоналами, а також під час тривалих подорожей за кермом.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -196,7 +196,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Крила без цукру: Red Bull Sugarfree - енергетичний напій Red Bull без цукру.",
+                    "standfirst": "Крила без цукру: Red Bull Sugarfree - енергетичний напій Red Bull без цукру.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -253,7 +253,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Tropical/Tropical Fruits ",
-                    "standfirst": "Red Bull Yellow Edition. Здивує екзотичним смаком тропічних фруктів.",
+                    "standfirst": "Red Bull Yellow Edition. Здивує екзотичним смаком тропічних фруктів.",
                     "brandingHexColorCode": "#FFCD00",
                     "image": {
                         "altText": "Red Bull Yellow Edition - image",
@@ -306,7 +306,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Red Bull Peach Edition дарує смак білого персика  з відтінком цитрусової цедри та квітковими нотками.",
+                    "standfirst": "Red Bull Peach Edition дарує смак білого персика  з відтінком цитрусової цедри та квітковими нотками.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -321,5 +321,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-22T08:01:09.455804+00:00"
+    "collection_timestamp": "2026-10-19T23:33:48.713124+00:00"
 }

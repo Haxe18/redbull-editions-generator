@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Gummy Bear",
-                    "standfirst": "The Red Bull Ice Edition Sugarfree gives you wiiings with the taste of iced Gummy bear.",
+                    "standfirst": "The Red Bull Ice Edition Sugarfree gives you wiiings with the taste of iced Gummy bear.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Ice Edition sugarfree",
@@ -123,7 +123,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "In the Little Red Dot where ambition never sleeps, Red Bull Energy Drink powers those who push boundaries. Appreciated worldwide by top athletes, students, and professionals in fast-paced industries.",
+                    "standfirst": "In the Little Red Dot where ambition never sleeps, Red Bull Energy Drink powers those who push boundaries. Appreciated worldwide by top athletes, students, and professionals in fast-paced industries.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -188,7 +188,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
+                    "standfirst": "\"Wings without sugars: Red Bull Sugarfree is Red Bull Energy Drink without sugars.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -249,7 +249,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Kyoho grape",
-                    "standfirst": "The Red Bull Purple Edition gives you wiiings with the taste of Kyoho grape.",
+                    "standfirst": "The Red Bull Purple Edition gives you wiiings with the taste of Kyoho grape.",
                     "brandingHexColorCode": "#702082",
                     "image": {
                         "altText": "Red Bull The Purple Edition",
@@ -264,5 +264,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-07-02T08:37:23.755738+00:00"
+    "collection_timestamp": "2026-10-19T23:29:23.274276+00:00"
 }

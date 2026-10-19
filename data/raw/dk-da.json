@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Citrus Zest",
-                    "standfirst": "Red Bull Yellow Edition giver dig viiinger med den nye og friske smag af sudachi og lime.",
+                    "standfirst": "Red Bull Yellow Edition giver dig viiinger med den nye og friske smag af sudachi og lime.",
                     "brandingHexColorCode": "#f2e853",
                     "image": {
                         "altText": "Red Bull Yellow Edition",
@@ -72,7 +72,7 @@
             "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:da-DK",
             "header_data": {
                 "content": {
-                    "title": "Red Bull Pink Edition Sugarfree"
+                    "title": "Red Bull Pink Edition Sugarfree"
                 },
                 "media": {
                     "mainImage": {
@@ -119,7 +119,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Forest Fruits",
-                    "standfirst": "Red Bull Pink Edition: En sukkerfri energidrik med smagen af hindbær og frugt, balanceret med noter af verbena.",
+                    "standfirst": "Red Bull Pink Edition: En sukkerfri energidrik med smagen af hindbær og frugt, balanceret med noter af verbena.",
                     "brandingHexColorCode": "#EC86D0",
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "Red Bull White Edition med smagen af cherry sakura.",
+                    "standfirst": "Red Bull White Edition med smagen af cherry sakura.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "White Edition 2026",
@@ -237,7 +237,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Iced Gummy Bear",
-                    "standfirst": "Red Bull Ice Edition kombinerer den søde smag af vanilje med et friskt pift af frostede bær.",
+                    "standfirst": "Red Bull Ice Edition kombinerer den søde smag af vanilje med et friskt pift af frostede bær.",
                     "brandingHexColorCode": "#53b2c2",
                     "image": {
                         "altText": "Red Bull Iced Edition",
@@ -351,7 +351,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Wildflower & Pink Grapefruit-smag",
-                    "standfirst": "Red Bull giver viiinger: Red Bull Lilac Edition Energy Drink med smagen af wildflower og pink grapefrugt.",
+                    "standfirst": "Red Bull giver viiinger: Red Bull Lilac Edition Energy Drink med smagen af wildflower og pink grapefrugt.",
                     "brandingHexColorCode": "#7d62ce",
                     "image": {
                         "altText": "The Lilac Edition",
@@ -424,7 +424,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -485,7 +485,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Blåbærsmag",
-                    "standfirst": "Red Bull Blue Edition med smagen af blåbærsmag.",
+                    "standfirst": "Red Bull Blue Edition med smagen af blåbærsmag.",
                     "brandingHexColorCode": "#001A72",
                     "image": {
                         "altText": "Red Bull Blue Edition - image",
@@ -550,7 +550,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "\"Vinger uden sukker: Red Bull Sugarfree  er Red Bull Energy Drink uden sukker.\"",
+                    "standfirst": "\"Vinger uden sukker: Red Bull Sugarfree  er Red Bull Energy Drink uden sukker.\"",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -603,7 +603,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Hvid Ferskensmag",
-                    "standfirst": "Red Bull Peach Edition tilbyder smagen af hvid fersken med et strejf af citrusskal og florale noter.",
+                    "standfirst": "Red Bull Peach Edition tilbyder smagen af hvid fersken med et strejf af citrusskal og florale noter.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -676,7 +676,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Cherry Sakura",
-                    "standfirst": "The Red Bull White Edition Sugarfree med smagen af cherry sakura.",
+                    "standfirst": "The Red Bull White Edition Sugarfree med smagen af cherry sakura.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "Red Bull White Edition Sugarfree Image",
@@ -737,7 +737,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "Red Bull Apricot Edition smager af den perfekte blanding af abrikos og jordbær med et touch af fersken.",
+                    "standfirst": "Red Bull Apricot Edition smager af den perfekte blanding af abrikos og jordbær med et touch af fersken.",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -752,5 +752,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-09-02T09:39:34.397872+00:00"
+    "collection_timestamp": "2026-10-19T23:20:06.455497+00:00"
 }

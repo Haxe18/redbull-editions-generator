@@ -54,7 +54,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Coconut",
-                    "standfirst": "Die Red Bull White Edition - mit dem Geschmack exotischer Kokosnuss und fruchtiger Blaubeere.",
+                    "standfirst": "Die Red Bull White Edition - mit dem Geschmack exotischer Kokosnuss und fruchtiger Blaubeere.",
                     "brandingHexColorCode": "#0070b8",
                     "image": {
                         "altText": "Red Bull White Edition - image",
@@ -119,7 +119,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Juneberry",
-                    "standfirst": "Die Red Bull Sea Blue Edition mit dem einzigartigen Geschmack von Juneberry.",
+                    "standfirst": "Die Red Bull Sea Blue Edition mit dem einzigartigen Geschmack von Juneberry.",
                     "brandingHexColorCode": "#0072CE",
                     "image": {
                         "altText": "Red Bull Sea Blue Edition - image",
@@ -184,7 +184,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sudachi-Lime",
-                    "standfirst": "Die Red Bull Yellow Edition Sugarfree verleiht Flüüügel mit dem Geschmack von Sudachi, Limette und mit Noten von Pomelo und Zitrusschale.",
+                    "standfirst": "Die Red Bull Yellow Edition Sugarfree verleiht Flüüügel mit dem Geschmack von Sudachi, Limette und mit Noten von Pomelo und Zitrusschale.",
                     "brandingHexColorCode": "#F0E53B",
                     "image": {
                         "altText": "Yellow Edition Sugarfree",
@@ -253,7 +253,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Kirsche-Sakura",
-                    "standfirst": "Die Red Bull Cherry Edition Sugarfree verleiht Flüüügel mit dem Geschmack von Kirsche mit Noten von Mandel und floraler Kirschblüte.",
+                    "standfirst": "Die Red Bull Cherry Edition Sugarfree verleiht Flüüügel mit dem Geschmack von Kirsche mit Noten von Mandel und floraler Kirschblüte.",
                     "brandingHexColorCode": "#52abd6",
                     "image": {
                         "altText": "The Cherry Edition Sugarfree",
@@ -371,7 +371,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "White Peach",
-                    "standfirst": "Die Red Bull Peach Edition Sugarfree mit dem Geschmack von weißem Pfirsich, abgerundet mit einem Hauch von Zitrusschale und blumigen Noten.",
+                    "standfirst": "Die Red Bull Peach Edition Sugarfree mit dem Geschmack von weißem Pfirsich, abgerundet mit einem Hauch von Zitrusschale und blumigen Noten.",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition Sugarfree half can",
@@ -444,7 +444,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Energy Drink",
-                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
+                    "standfirst": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Energy Drink",
@@ -497,7 +497,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Gletschereis",
-                    "standfirst": "Die Red Bull Glacier Edition mit eisig-frischem Geschmack.",
+                    "standfirst": "Die Red Bull Glacier Edition mit eisig-frischem Geschmack.",
                     "brandingHexColorCode": "#97D5F7",
                     "image": {
                         "altText": "Red Bull Glacier Edition - Image",
@@ -558,7 +558,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistachio & Berries",
-                    "standfirst": "Die Red Bull Winter Edition verleiht Flüüügel mit dem Geschmack von Pistazie und Beeren, abgerundet durch einen Hauch Karamell und feine nussige Noten.",
+                    "standfirst": "Die Red Bull Winter Edition verleiht Flüüügel mit dem Geschmack von Pistazie und Beeren, abgerundet durch einen Hauch Karamell und feine nussige Noten.",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition",
@@ -623,7 +623,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Sugarfree",
-                    "standfirst": "Flügel ohne Zucker: Red Bull Sugarfree ist Red Bull Energy Drink ohne Zucker.",
+                    "standfirst": "Flügel ohne Zucker: Red Bull Sugarfree ist Red Bull Energy Drink ohne Zucker.",
                     "brandingHexColorCode": "#FFFFFF",
                     "image": {
                         "altText": "Red Bull Sugarfree",
@@ -692,7 +692,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Dragon fruit",
-                    "standfirst": "Die Red Bull Green Edition mit dem exotischen Geschmack von Kaktusfrucht. ",
+                    "standfirst": "Die Red Bull Green Edition mit dem exotischen Geschmack von Kaktusfrucht. ",
                     "brandingHexColorCode": "#00c65e",
                     "image": {
                         "altText": "Red Bull Green Edition - image",
@@ -745,7 +745,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Peach",
-                    "standfirst": "Die Red Bull Peach Edition mit dem Geschmack von weißem Pfirsich, abgerundet mit einem Hauch von Zitrusschale und blumigen Noten. ",
+                    "standfirst": "Die Red Bull Peach Edition mit dem Geschmack von weißem Pfirsich, abgerundet mit einem Hauch von Zitrusschale und blumigen Noten. ",
                     "brandingHexColorCode": "#E24585",
                     "image": {
                         "altText": "Red Bull Peach Edition - Image",
@@ -810,7 +810,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Pistachio & Berries",
-                    "standfirst": "Die Red Bull Winter Edition Sugarfree verleiht Flüüügel mit dem Geschmack von Pistazie und Beeren, abgerundet durch einen Hauch Karamell und feine nussige Noten. ",
+                    "standfirst": "Die Red Bull Winter Edition Sugarfree verleiht Flüüügel mit dem Geschmack von Pistazie und Beeren, abgerundet durch einen Hauch Karamell und feine nussige Noten. ",
                     "brandingHexColorCode": "#0a1c43",
                     "image": {
                         "altText": "Red Bull Winter Edition Sugarfree",
@@ -875,7 +875,7 @@
             "graphql_data": {
                 "data": {
                     "flavour": "Strawberry and apricot",
-                    "standfirst": "Die Red Bull Apricot Edition mit dem fruchtigen Geschmack von Aprikose und Erdbeere. ",
+                    "standfirst": "Die Red Bull Apricot Edition mit dem fruchtigen Geschmack von Aprikose und Erdbeere. ",
                     "brandingHexColorCode": "#f3911b",
                     "image": {
                         "altText": "Red Bull Apricot Edition - image",
@@ -890,5 +890,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-19T10:50:17.360378+00:00"
+    "collection_timestamp": "2026-10-19T23:22:07.895410+00:00"
 }
