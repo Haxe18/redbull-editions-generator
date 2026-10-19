@@ -105,16 +105,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CZ.svg",
     "_raw_hash": "265b1480c4cd3a2f8fd8e69ffde7be4980e62e13215b27f1317d93caa56859d0",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:cs-CZ",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio-Forest Fruits",
-            "description": "Wings for your winter: Red Bull Winter Edition with the taste of pistachio and forest fruits",
-            "product_url": "https://www.redbull.com/cz-cs/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:cs-CZ": "89d92b07d468c77b1534e067f7e891f28df440b54282a896c3d0e115a70bef69",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:cs-CZ": "da09e4d16916acf3b8a6bec69a9c5850f722a68dbf254ed41084d0d9baf24bce",

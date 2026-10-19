@@ -7,7 +7,9 @@
         "  Needed because every locale words the same product differently ('fruits des bois',",
         "  'gozdni sadezi', 'berries') and the AI translates 1:1 as instructed. Fuzzy matching",
         "  cannot bridge these (e.g. 'Pistachio-Forest Fruits' scores 0.65 against",
-        "  'Pistachio-Berries'). Keys match case-, hyphen-, ampersand- and whitespace-insensitively.",
+        "  'Pistachio-Berries'). Keys match case-, hyphen-, ampersand-, whitespace- and 'and'-insensitively,",
+        "  so one entry covers 'X & Y', 'X-Y' and 'X and Y'. The map is consulted again after",
+        "  normalization, since normalizing can itself produce an alias key.",
         "Changing this file invalidates the per-country cache (_flavors_hash), so new rules",
         "  take effect on the next run without --force."
     ],
@@ -51,9 +53,10 @@
         "Zero Sugar"
     ],
     "aliases": {
-        "Pistachio-Forest Fruits": "Pistachio-Berries",
-        "Pistachio-Forest Berry": "Pistachio-Berries",
+        "Curuba": "Curuba-Elderflower",
         "Pistachio-Berry": "Pistachio-Berries",
-        "Curuba": "Curuba-Elderflower"
+        "Pistachio-Forest Berry": "Pistachio-Berries",
+        "Pistachio-Forest Fruits": "Pistachio-Berries",
+        "Pistachio-Red Fruits": "Pistachio-Berries"
     }
 }

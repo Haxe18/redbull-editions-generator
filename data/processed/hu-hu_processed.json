@@ -43,7 +43,7 @@
         },
         {
             "name": "The Winter Edition",
-            "flavor": "Pistachio-Forest Fruits",
+            "flavor": "Pistachio-Berries",
             "flavor_description": "The Red Bull Winter Edition with the freshness of Fuji Apple and the warm spice of Ginger",
             "sugarfree": false,
             "color": "#0a1c43",
@@ -75,16 +75,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HU.svg",
     "_raw_hash": "5fb32de50df57bc8f0443e388bd801682c1ed9e43c191abf177fee5f8b186372",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio and Forest Fruits",
-            "description": "The Red Bull Winter Edition with the freshness of fuji apple and the warm spice of ginger.",
-            "product_url": "https://www.redbull.com/hu-hu/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:hu-HU": "1993d9df31dc3c8a6cebe954ec44174d03aeaab0e40b26c9715e3d25a9ce56a7",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:hu-HU": "c2b7ad74e1c77ce7b465c16f0ed9cd7f618f567d10b2b6163d7b58069f6eb470",
@@ -121,7 +113,7 @@
         },
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:hu-HU": {
             "name": "The Winter Edition",
-            "flavor": "Pistachio-Forest Fruits",
+            "flavor": "Pistachio-Berries",
             "flavor_description": "The Red Bull Winter Edition with the freshness of Fuji Apple and the warm spice of Ginger",
             "sugarfree": false
         },

@@ -125,16 +125,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SI.svg",
     "_raw_hash": "6f16c4b12fb0c144679e735c1cb84c7fd9e5c9256681388e8e2708f627ba10b8",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:sl-SI",
-            "name": "The Ice Edition",
-            "flavor": "Iced Vanilla Berry",
-            "description": "The Red Bull Ice Edition has a taste of blueberries and vanilla, with a hint of eucalyptus.",
-            "product_url": "https://www.redbull.com/si-sl/energydrink/products/red-bull-ice-edition"
-        }
-    ],
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sl-SI": "b01178fa92a13e467d6c82fa5480f7748518f8dc0dc02c2959c82a7861aa6b70",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:sl-SI": "2dfab0ecff0b90ac356963adc0a731539a196fcb320b0b01c0f9c7d1dbad3be4",

@@ -75,16 +75,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ZA.svg",
     "_raw_hash": "546a8796c3791c202d2d6a66ecb6305a314eb1ddd795033cd6b282dd709a62b2",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:en-ZA",
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "description": "The Red Bull Summer Edition with the taste of sudachi and lime, rounded up with a subtle hint of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/za-en/energydrink/products/red-bull-summer-edition"
-        }
-    ],
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-ZA": "0b0d0ff7f2256ed53341a5c39ab26199fb0fb366bd31030fe7a4783e7d116e59",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:en-ZA": "c7f63159cb7a1a1fb6c1f94dadf16d7a3c460b585bcecbdd6cc2a56d074d0eef",

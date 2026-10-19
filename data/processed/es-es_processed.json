@@ -63,7 +63,7 @@
         },
         {
             "name": "The Winter Edition",
-            "flavor": "Pistachio-Red Fruits",
+            "flavor": "Pistachio-Berries",
             "flavor_description": "Red Bull Winter Edition features an irresistible taste of Pistachio and red fruits, balanced with delicate notes of caramel and a creamy touch",
             "sugarfree": false,
             "color": "#0a1c43",
@@ -125,7 +125,7 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg",
     "_raw_hash": "ed742afaac85b559070eb0089aa4411ac3b501dfa91c57dcf9ff563ebb4c7949",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
     "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:es-ES": "d022757da70cb34f5d0fcc5e7b05977825c6e8351aacffcc58a8f5362eeb9923",
@@ -180,7 +180,7 @@
         },
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-ES": {
             "name": "The Winter Edition",
-            "flavor": "Pistachio-Red Fruits",
+            "flavor": "Pistachio-Berries",
             "flavor_description": "Red Bull Winter Edition features an irresistible taste of Pistachio and red fruits, balanced with delicate notes of caramel and a creamy touch",
             "sugarfree": false
         },

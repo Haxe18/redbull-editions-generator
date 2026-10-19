@@ -426,6 +426,28 @@ class RedBullDataProcessor:
             self.logger.error("\n❌ %s contains no 'approved_flavors' entries", flavors_file)
             sys.exit(1)
 
+        # Two aliases that normalize to the same key would resolve by dict order, and an
+        # alias key equal to an approved flavor's key would rewrite that approved flavor
+        # (the alias pass runs before the approved-list check). Both fail silently.
+        keys_seen: Dict[str, str] = {}
+        key_conflicts = []
+        for alias in aliases:
+            key = self._get_alias_key(alias)
+            if key in keys_seen:
+                key_conflicts.append(f"{alias!r} collides with {keys_seen[key]!r}")
+            keys_seen[key] = alias
+        for approved in approved_flavors:
+            clashing_alias = keys_seen.get(self._get_alias_key(approved))
+            if clashing_alias and aliases[clashing_alias] != approved:
+                key_conflicts.append(
+                    f"alias {clashing_alias!r} would rewrite approved flavor {approved!r}"
+                )
+        if key_conflicts:
+            self.logger.error("\n❌ %s: conflicting alias keys:", flavors_file)
+            for conflict in key_conflicts:
+                self.logger.error("   - %s", conflict)
+            sys.exit(1)
+
         unknown_targets = sorted(set(aliases.values()) - set(approved_flavors))
         if unknown_targets:
             self.logger.error(
@@ -499,7 +521,10 @@ class RedBullDataProcessor:
             Tuple of sorted lowercase words.
         """
         normalized = flavor.lower().replace("-", " ").replace("&", " ")
-        words = sorted([w for w in normalized.split() if w])
+        # "and" is a joiner, not an ingredient — dropping it here keeps this in step
+        # with _get_alias_key, so "Strawberry and apricot" resolves in one pass
+        # instead of needing a second run to settle.
+        words = sorted([w for w in normalized.split() if w and w != "and"])
         return tuple(words)
 
     def _resolve_flavor_alias(self, flavor: str) -> Optional[str]:
@@ -529,11 +554,34 @@ class RedBullDataProcessor:
     def _get_alias_key(flavor: str) -> str:
         """Normalize a flavor for alias lookup (lowercase, no separators).
 
+        A spelled-out "and" is dropped like the "&" it stands for, so one alias entry
+        covers "Pistachio & Forest Fruits", "Pistachio-Forest Fruits" and
+        "Pistachio and Forest Fruits" alike — the AI picks a different joiner per run.
+
         Args:
             flavor: Flavor string to normalize.
 
         Returns:
             Normalized lookup key, e.g. "Pistachio & Forest Fruits" → "pistachioforestfruits".
+        """
+        without_conjunction = re.sub(r"\band\b", "", flavor.lower())
+        return without_conjunction.replace("-", "").replace("&", "").replace(" ", "").strip()
+
+    @staticmethod
+    def _get_similarity_key(flavor: str) -> str:
+        """Normalize a flavor for the SequenceMatcher pass (keeps a spelled-out "and").
+
+        Deliberately differs from :meth:`_get_alias_key`, which drops "and". Dropping it
+        here would shorten a two-ingredient input and inflate its overlap ratio against a
+        one-ingredient approved flavor, pushing it over ``SIMILARITY_THRESHOLD``:
+        "Watermelon and Mint" scores 0.74 against "Watermelon" with "and" kept (no match,
+        correct) but 0.83 without it — silently dropping the second ingredient.
+
+        Args:
+            flavor: Flavor string to normalize.
+
+        Returns:
+            Normalized comparison key, e.g. "Fuji Apple & Ginger" → "fujiappleginger".
         """
         return flavor.lower().replace("-", "").replace("&", "").replace(" ", "").strip()
 
@@ -670,9 +718,72 @@ class RedBullDataProcessor:
         )
         edition["sugarfree"] = cache_entry.get("sugarfree", edition.get("sugarfree", False))
 
+        # A _corrected_fields left from the pre-AI correction pass describes the raw
+        # value, not the cached one just copied in. Clearing it keeps the guard below
+        # honest and keeps this path equivalent to the short-circuit path, which always
+        # starts from a fresh entry.
+        edition.pop("_corrected_fields", None)
+
         if corrections_changed:
             self.apply_corrections(edition, edition_id, log_failures=False)
+
+        # Re-normalize rather than trusting the cached spelling: the flavor rules in
+        # data/flavors.json may have changed since this entry was written, and nothing
+        # downstream keys off byte-identity with the cache (fingerprints exclude flavor).
+        # Skipped for a field a manual correction just set — a correction is the
+        # authoritative override, and the fresh path guards clean_flavor_name the same way.
+        if "flavor" in edition and "flavor" not in (edition.get("_corrected_fields") or set()):
+            edition["flavor"] = self.clean_flavor_name(edition["flavor"])
         edition.pop("_corrected_fields", None)
+
+    @staticmethod
+    def _find_cached_output_edition(
+        editions: List[Dict[str, Any]],
+        name: str,
+        flavor: str,
+        description: Optional[str] = None,
+    ) -> Optional[Dict[str, Any]]:
+        """Locate the output edition a cached normalized entry belongs to.
+
+        Edition names are not unique within a country — Sweden ships two
+        "The Pink Edition Sugarfree", one Forest Fruits and one Forest Berry — so
+        matching on the name alone can write an updated value onto the wrong edition,
+        and the mismatch never heals because the next run sees no further change.
+        The pre-update flavor disambiguates; the name-only fallback applies only while
+        the name is unique.
+
+        Args:
+            editions: Output editions of the cached country.
+            name: Edition name before the update.
+            flavor: Edition flavor before the update.
+            description: Edition description before the update, used to separate twins
+                that share name and flavor (Switzerland and Great Britain each have a
+                pair that differs only in wording).
+
+        Returns:
+            The matching edition, or None when it cannot be identified unambiguously.
+        """
+        candidates = [
+            e for e in editions if e.get("name") == name and e.get("flavor") == flavor
+        ]
+        if len(candidates) > 1 and description is not None:
+            narrowed = [e for e in candidates if e.get("flavor_description") == description]
+            if narrowed:
+                candidates = narrowed
+
+        if len(candidates) == 1:
+            return candidates[0]
+
+        # Twins identical in all three fields (Slovenia ships two such Ice Editions):
+        # whichever one is written, the result is the same, so this is not ambiguous.
+        if candidates and all(
+            e.get("flavor_description") == candidates[0].get("flavor_description")
+            for e in candidates
+        ):
+            return candidates[0]
+
+        by_name = [e for e in editions if e.get("name") == name]
+        return by_name[0] if len(by_name) == 1 else None
 
     def _get_normalized_cache_entry(self, edition: Dict) -> Dict[str, Any]:
         """Create a cache entry from an edition dictionary.
@@ -1503,12 +1614,12 @@ class RedBullDataProcessor:
 
         # FUZZY MATCHING: Try to match against approved flavors by normalizing both sides
         # This handles cases like "Fuji Apple-Ginger" → "Fuji Apple & Ginger"
-        normalized_input = flavor.lower().replace("-", "").replace("&", "").replace(" ", "")
+        normalized_input = self._get_alias_key(flavor)
+        # The similarity pass below needs a key that KEEPS "and" — see _get_similarity_key.
+        similarity_input = self._get_similarity_key(flavor)
 
         for approved in self.approved_flavors:
-            normalized_approved = (
-                approved.lower().replace("-", "").replace("&", "").replace(" ", "")
-            )
+            normalized_approved = self._get_alias_key(approved)
             if normalized_input == normalized_approved:
                 # Found a match! Use the approved version with correct formatting
                 if self.verbose:
@@ -1534,10 +1645,8 @@ class RedBullDataProcessor:
         best_ratio = 0.0
 
         for approved in self.approved_flavors:
-            normalized_approved = (
-                approved.lower().replace("-", "").replace("&", "").replace(" ", "")
-            )
-            ratio = SequenceMatcher(None, normalized_input, normalized_approved).ratio()
+            normalized_approved = self._get_similarity_key(approved)
+            ratio = SequenceMatcher(None, similarity_input, normalized_approved).ratio()
 
             if ratio > best_ratio:
                 best_ratio = ratio
@@ -1585,7 +1694,22 @@ class RedBullDataProcessor:
                 prev_word = word.lower()
 
         result = " ".join(cleaned_words).strip()
-        return result if result else original_flavor
+        if not result:
+            return original_flavor
+
+        # Second alias pass: the steps above turn a loose spelling into the canonical
+        # hyphenated form, which may itself be an alias key ("Pistachio and Forest Fruits"
+        # becomes "Pistachio-Forest Fruits"). The first pass ran before that, so without
+        # this the value would slip past its own mapping.
+        alias_target = self._resolve_flavor_alias(result)
+        if alias_target:
+            if self.verbose:
+                self.thread_safe_print(
+                    f"      🔗 Alias match after normalization: '{result}' → '{alias_target}'"
+                )
+            return alias_target
+
+        return result
 
     def clean_description(self, description: str) -> str:
         """Clean and standardize descriptions.
@@ -4170,17 +4294,18 @@ class RedBullDataProcessor:
                     flavors_match = existing.get("_flavors_hash") == self.flavors_hash
 
                     if raw_match and corr_match and flavors_match:
-                        # Always re-apply corrections to cached normalized entries —
-                        # corrections must take effect without --force, even when cache is current.
+                        # Always re-apply corrections AND flavor normalization to cached
+                        # normalized entries — both are rules, not raw input, so they must
+                        # take effect without --force even when the cache is current.
                         # _normalized_editions is keyed by edition_id (full RRN), which is needed
                         # for apply_corrections to match the UUID in corrections.json.
-                        corrections_changed = False
+                        cached_data_changed = False
                         # Snapshot before the re-apply loop mutates `existing` in
                         # place — needed as the old side of the changelog diff.
                         pre_correction_data = copy.deepcopy(existing)
-                        cached_output_by_name: Dict[str, Dict[str, Any]] = {
-                            e.get("name", ""): e for e in existing.get("editions", [])
-                        }
+                        cached_output_editions: List[Dict[str, Any]] = list(
+                            existing.get("editions", [])
+                        )
                         for edition_id, norm in existing.get(
                             "_normalized_editions", {}
                         ).items():
@@ -4189,7 +4314,23 @@ class RedBullDataProcessor:
                                 norm.get("flavor_description"),
                                 norm.get("name"),
                             )
+                            # Which of the three keys actually existed, so a rollback
+                            # restores the entry exactly instead of inventing None values.
+                            snapshot = {
+                                key
+                                for key in ("flavor", "flavor_description", "name")
+                                if key in norm
+                            }
+                            # Correct first, normalize second — and never normalize a
+                            # field a correction just set. apply_corrections is an exact
+                            # search/replace and these cached entries carry no _raw_flavor,
+                            # so normalizing first would rewrite the very value the
+                            # correction looks for and silently disable it for good.
                             self.apply_corrections(norm, edition_id, log_failures=False)
+                            if "flavor" in norm and "flavor" not in (
+                                norm.get("_corrected_fields") or set()
+                            ):
+                                norm["flavor"] = self.clean_flavor_name(norm["flavor"])
                             # _corrected_fields is a runtime-only set; not valid in stored JSON
                             norm.pop("_corrected_fields", None)
                             after = (
@@ -4198,17 +4339,43 @@ class RedBullDataProcessor:
                                 norm.get("name"),
                             )
                             if before != after:
-                                corrections_changed = True
-                                output_edition = cached_output_by_name.get(
-                                    before[2]
-                                ) or cached_output_by_name.get(after[2])
+                                # Only the pre-update name+flavor can identify the output
+                                # edition: it still carries the old values at this point.
+                                # An `after`-based fallback would match a *different*
+                                # edition that already bears the new name.
+                                output_edition = self._find_cached_output_edition(
+                                    cached_output_editions, before[2], before[0], before[1]
+                                )
                                 if output_edition:
+                                    cached_data_changed = True
                                     for field_name in ("flavor", "flavor_description", "name"):
-                                        output_edition[field_name] = norm[field_name]
+                                        # Copy only what the entry actually holds — a
+                                        # default would blank the output field instead.
+                                        if field_name in norm:
+                                            output_edition[field_name] = norm[field_name]
+                                else:
+                                    # Roll the entry back instead of persisting it. Writing
+                                    # it while existing["editions"] keeps the old value
+                                    # would make the two disagree forever — the next run
+                                    # sees before == after and never retries. Reverting
+                                    # keeps the country retryable.
+                                    for field_name, value in zip(
+                                        ("flavor", "flavor_description", "name"), before
+                                    ):
+                                        if field_name in snapshot:
+                                            norm[field_name] = value
+                                        else:
+                                            norm.pop(field_name, None)
+                                    self.thread_safe_print(
+                                        f"  ⚠️  {country_name}: cached edition "
+                                        f"{before[2]!r} matches no unique output edition "
+                                        f"— update rolled back (needs --force)"
+                                    )
 
-                        if corrections_changed:
+                        if cached_data_changed:
                             self.thread_safe_print(
-                                f"  🔧 {country_name}: Corrections re-applied to cached data"
+                                f"  🔧 {country_name}: Corrections and flavor rules "
+                                f"re-applied to cached data"
                             )
                             # Track the diff before overwriting the file — otherwise
                             # correction-driven changes are invisible to

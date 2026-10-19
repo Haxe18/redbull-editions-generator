@@ -2544,7 +2544,7 @@
             },
             {
                 "name": "The Winter Edition",
-                "flavor": "Pistachio-Forest Fruits",
+                "flavor": "Pistachio-Berries",
                 "flavor_description": "The Red Bull Winter Edition with the freshness of Fuji Apple and the warm spice of Ginger",
                 "sugarfree": false,
                 "color": "#0a1c43",
@@ -4890,7 +4890,7 @@
             },
             {
                 "name": "The Winter Edition",
-                "flavor": "Pistachio-Red Fruits",
+                "flavor": "Pistachio-Berries",
                 "flavor_description": "The Red Bull Winter Edition features an irresistible taste of Pistachio and red fruits, balanced with delicate notes of caramel and a creamy touch",
                 "sugarfree": false,
                 "color": "#0a1c43",

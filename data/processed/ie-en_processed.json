@@ -115,23 +115,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-IE.svg",
     "_raw_hash": "4080edd0fff45802134927ab4f3d30bc99d7b23b9fbe0a815337684a710c0b37",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-IE",
-            "name": "The Yellow Edition",
-            "flavor": "Citrus Zest",
-            "description": "The Red Bull Yellow Edition with the taste of citrus zest, rounded up with a subtle hint of pomelo and citrus peel.",
-            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-yellow-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-IE",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio & Berries",
-            "description": "The Red Bull Winter Edition with the taste of pistachio and berries, balanced by a blend of caramel with nutty and creamy undertones.",
-            "product_url": "https://www.redbull.com/ie-en/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-IE": "8813a7dd90231779f7141a6c2cf568fabb1b0592bd4c758cde79f6c5489fb604",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-IE": "88e7240114f80fbf0cbc51ece94c67b26b8674bd1b2ff8b2d07e02b11fbf4f68",

@@ -75,16 +75,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-JP.svg",
     "_raw_hash": "bc11294f1242f63b647f71c823098eac1f21119f476769291cb1e169bd834512",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:ja-JP",
-            "name": "The Apple Edition",
-            "flavor": "Apple-Ginger",
-            "description": "Red Bull Apple Edition is back with an apple-ginger taste!",
-            "product_url": "https://redbull.com/jp-ja/energydrink/products/red-bull-apple-edition"
-        }
-    ],
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:ja-JP": "7929c4b3f3e266d5a603b19942e854a8c713ecf0bb3872c5140d40f1429ea87c",
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:ja-JP": "4f9592b6779614d0ba387789a96ca0297f0d11e7716c63e4e4c8979ffd326150",

@@ -215,16 +215,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GB.svg",
     "_raw_hash": "6d0e3ee7c9ff959e4cd73b9f58f51a610b1c262c8643b833ffc464d1aa76b45a",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "7f5f96afa2e43f6500a48d1cf1dc54d6a3d376a53c4903507cedaf1ef015d87b",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9484225a-90a3-4082-85c5-b6a189556e5b:en-GB",
-            "name": "The Glacier Edition",
-            "flavor": "Frosty Raspberry",
-            "description": "The Red Bull Glacier Edition with an icy-fresh taste and a hint of raspberry.",
-            "product_url": "https://www.redbull.com/gb-en/energydrink/products/red-bull-glacier-edition"
-        }
-    ],
+    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:en-GB": "8e2d361fe1ec6b2288b973e3d202d961eb65974f7bee95a9a05c1364aa21abab",
         "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:en-GB": "7b37d8d6dfe45007519acf3c569375ee70e1cb53269ab2c58d44bba11a1bccc0",

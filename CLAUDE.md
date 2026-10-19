@@ -255,8 +255,14 @@ Protection lives in `_save_country_data()` — before writing the raw file, comp
   Fuzzy matching in `clean_flavor_name` cannot bridge them (e.g. "Pistachio-Forest Fruits" scores 0.65
   against "Pistachio-Berries", below `SIMILARITY_THRESHOLD` 0.75), so Step 3 was the only safety net —
   and that is a non-deterministic AI step. Explicit aliases make the mapping deterministic.
-  Aliases are applied *before* all other matching and ignore case, hyphens, ampersands and whitespace,
-  so one entry covers "Pistachio & Forest Fruits" and "Pistachio-Forest Fruits" alike.
+  Alias keys ignore case, hyphens, ampersands, whitespace **and a spelled-out "and"**, so one entry
+  covers "Pistachio & Forest Fruits", "Pistachio-Forest Fruits" and "Pistachio and Forest Fruits".
+  The map is consulted twice: before all other matching, and again at the very end — normalization
+  itself turns a loose spelling into the canonical hyphenated form, which may be an alias key.
+  The "and"-insensitivity applies to the alias and word-order keys only. The `SequenceMatcher`
+  similarity pass deliberately keeps "and" (`_get_similarity_key`): dropping it shortens a
+  two-ingredient input and inflates its ratio against a one-ingredient approved flavor
+  ("Watermelon and Mint" would score 0.83 against "Watermelon" and silently lose the Mint).
   **When a new edition name is standardized, add the locale variants to `aliases` — not only to
   `approved_flavors`.**
 
@@ -397,13 +403,35 @@ list of its own — it loads this file at startup into `self.approved_flavors` /
 - **`aliases`**: explicit variant → canonical mapping, applied before all other matching.
 - **`_comment`**: free-text array, ignored by the loader.
 
-**Cache coupling**: the SHA256 of the file is stored per country as `_flavors_hash`. Editing the file
-invalidates every country's cache, so a new rule takes effect on the next run **without `--force`** —
-the same guarantee `corrections.json` has via `_corrections_hash`. The trade-off is that the first run
-after an edit reprocesses all countries through Gemini once (watch `MAX_REQUESTS_PER_DAY`).
+**Cache coupling**: the SHA256 of the file is stored per country as `_flavors_hash`, and a new rule
+takes effect on the next run **without `--force`** — the same guarantee `corrections.json` has.
 
-**Fail-fast validation** (all exit code 1): file missing, invalid JSON, empty `approved_flavors`, or an
-alias pointing at a target that is not in `approved_flavors`.
+The hash alone does not deliver that. It only decides whether a country takes the whole-country
+short-circuit; underneath it, the per-edition cache still holds the flavor spelling from when the
+entry was written. So `clean_flavor_name` is re-run on cached values in **both** cache paths, exactly
+as corrections are: in the short-circuit loop for fully cached countries, and in
+`_populate_edition_from_cache` for reprocessed countries whose editions are fingerprint-stable.
+
+Corrections run **first** and normalization skips any field they just set (`_corrected_fields`),
+matching the guard the fresh path already uses. The order matters: `apply_corrections` is an exact
+search/replace, and cached entries carry no `_raw_flavor`, so normalizing first would rewrite the
+very value a correction looks for and disable it permanently.
+
+Note the limit: the guard only fires on the run where the correction actually matches. Afterwards the
+cached value *is* the `replace` value, `search` no longer matches, and normalization runs over it
+unguarded. Harmless while every correction's `replace` value is `clean_flavor_name`-stable (all of
+them are today), but a correction whose target is a non-approved value within similarity range of an
+approved one would be silently undone. Check that when adding one.
+
+This costs no API calls — it is local computation on values already in the cache. Note that
+`global_uuid_cache.json` keeps its stored spelling: entries are normalized when read, not healed at
+rest.
+
+**Fail-fast validation** (all exit code 1): file missing, invalid JSON, empty `approved_flavors`, an
+alias pointing at a target that is not in `approved_flavors`, two aliases that normalize to the same
+lookup key, or an alias key equal to the key of a *different* approved flavor (the alias pass runs
+before the approved-list check, so it would silently rewrite that flavor). An alias whose key matches
+its own target is allowed — it resolves to the identical value.
 
 **Why this matters**: on 2025-09-15 a new canonical name was added to the approved list only. That is
 an allow-list entry, not a rule — France and Slovenia kept producing their own literal translations for
