@@ -4597,5 +4597,12 @@
         "flavor_description": "Red Bull Festive Edition features a taste of iced Raspberry",
         "sugarfree": false,
         "fingerprint": "2f589c3974ca26a799eb6f518fdf6a7189d3a345e060ac4c168c1bf9a044b5b5"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:lv-LV": {
+        "name": "The Winter Edition",
+        "flavor": "Fuji Apple & Ginger",
+        "flavor_description": "Red Bull Winter Edition gives wings with a Pistachio and berry taste",
+        "sugarfree": false,
+        "fingerprint": "28c615086bd6be8540d84bfbe12368872af33623eb053929da88fd59a6ccc93c"
     }
 }

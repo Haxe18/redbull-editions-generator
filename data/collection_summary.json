@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-10-20T10:22:06.043627+00:00",
+        "collection_date": "2026-10-21T10:24:41.891498+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -326,7 +326,7 @@
                 "lv-lv"
             ],
             "flag_code": "LV",
-            "editions_count": 9,
+            "editions_count": 8,
             "data_file": "lv-lv.json"
         },
         "Lithuania": {

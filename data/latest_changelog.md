@@ -1,15 +1,15 @@
 # Red Bull Editions Processing Changelog
-## 2026-10-20T10:22:06.975664
+## 2026-10-21T10:24:42.832007
 
 ## Summary
 - **Countries processed:** 1
 - **Countries skipped:** 0
 - **Cache hits:** 0
-- **API calls made:** 0
-- **Editions added:** 0
+- **API calls made:** 3
+- **Editions added:** 1
 - **Editions updated:** 0
-- **Editions removed:** 1
-- **Corrections applied:** 0
+- **Editions removed:** 2
+- **Corrections applied:** 1
 - **Corrections failed:** 0
 
 ## 📝 Unused Corrections
@@ -26,6 +26,10 @@ The following corrections were not checked (no matching editions found):
 
 ## Countries Processed
 
-### South Africa
+### Latvia
+#### Added Editions:
+- **The Winter Edition** - Fuji Apple & Ginger
+
 #### Removed Editions:
-- **The Red Edition** - Watermelon
+- **The Summer Edition** - Sudachi Lime
+- **The Yellow Edition** - Tropical Fruits
