@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-10-21T10:24:41.891498+00:00",
+        "collection_date": "2026-10-22T10:28:44.993066+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -118,7 +118,7 @@
                 "cl-es"
             ],
             "flag_code": "CL",
-            "editions_count": 13,
+            "editions_count": 11,
             "data_file": "cl-es.json"
         },
         "China": {
