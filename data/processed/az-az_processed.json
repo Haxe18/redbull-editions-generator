@@ -13,7 +13,7 @@
         },
         {
             "name": "The Blue Edition",
-            "flavor": "Cherry-Forest Fruits",
+            "flavor": "Forest Fruits",
             "flavor_description": "Red Bull Blue Edition with Cherry and Forest Fruits taste",
             "sugarfree": false,
             "color": "#008ACB",
@@ -127,7 +127,7 @@
         },
         "rrn:content:energy-drinks:7b350335-d4f3-419d-9a00-ad1ef9bfe111:az-AZ": {
             "name": "The Blue Edition",
-            "flavor": "Cherry-Forest Fruits",
+            "flavor": "Forest Fruits",
             "flavor_description": "Red Bull Blue Edition with Cherry and Forest Fruits taste",
             "sugarfree": false
         },

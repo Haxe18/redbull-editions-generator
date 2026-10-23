@@ -1,14 +1,14 @@
 # Red Bull Editions Processing Changelog
-## 2026-10-22T10:28:45.706378
+## 2026-10-23T10:20:59.534160
 
 ## Summary
 - **Countries processed:** 1
-- **Countries skipped:** 0
-- **Cache hits:** 0
+- **Countries skipped:** 63
+- **Cache hits:** 63
 - **API calls made:** 0
 - **Editions added:** 0
-- **Editions updated:** 0
-- **Editions removed:** 2
+- **Editions updated:** 1
+- **Editions removed:** 0
 - **Corrections applied:** 0
 - **Corrections failed:** 0
 
@@ -26,7 +26,72 @@ The following corrections were not checked (no matching editions found):
 
 ## Countries Processed
 
-### Chile
-#### Removed Editions:
-- **The Winter Edition** - Fuji Apple & Ginger
-- **The Winter Edition Sugarfree** - Fuji Apple & Ginger
+### Azerbaijan
+#### Updated Editions:
+- **The Blue Edition** - Forest Fruits
+
+## Countries Skipped (Cached)
+
+- Albania
+- Algeria
+- Argentina
+- Australia
+- Austria
+- Belgium
+- Bosnia and Herzegovina
+- Brazil
+- Bulgaria
+- Canada
+- Caribbean
+- Chile
+- China
+- Colombia
+- Croatia
+- Czech Republic
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- India
+- Indonesia
+- International
+- Ireland
+- Italy
+- Japan
+- Kazakhstan
+- Kenya
+- Korea
+- Latvia
+- Lithuania
+- Malaysia
+- Mexico
+- Middle East
+- Netherlands
+- New Zealand
+- Nigeria
+- North Macedonia
+- Norway
+- Pakistan
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Serbia
+- Singapore
+- Slovakia
+- Slovenia
+- South Africa
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Türkiye
+- Ukraine
+- United Kingdom
+- United States
