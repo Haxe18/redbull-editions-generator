@@ -321,6 +321,63 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:2da8ab01-52c2-4543-96d0-2a9757917c67:en-GB",
+            "header_data": {
+                "content": {
+                    "title": "Ruby Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/3/13/ahq8z0eu5kghh4hqleel/red-bull-ruby-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#C3214F",
+                                    "percentage": 19.3
+                                },
+                                {
+                                    "hexColorCode": "#D4D6DA",
+                                    "percentage": 6.3
+                                },
+                                {
+                                    "hexColorCode": "#9B153A",
+                                    "percentage": 3.7
+                                },
+                                {
+                                    "hexColorCode": "#CD5479",
+                                    "percentage": 3.3
+                                },
+                                {
+                                    "hexColorCode": "#E8F1F3",
+                                    "percentage": 1.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Ruby Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/gb-en/energydrink/red-bull-ruby-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pear Cinnamon",
+                    "standfirst": "Red Bull Ruby Edition with the taste of Spiced Pear.",
+                    "brandingHexColorCode": "#B50045",
+                    "image": {
+                        "altText": "Red Bull Ruby Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2024/3/13/ahq8z0eu5kghh4hqleel/red-bull-ruby-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/gb-en/energydrink/red-bull-ruby-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB",
             "header_data": {
                 "content": {

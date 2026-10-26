@@ -52,6 +52,16 @@
             "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-red-edition"
         },
         {
+            "name": "The Ruby Edition",
+            "flavor": "Pear Cinnamon",
+            "flavor_description": "Red Bull Ruby Edition with the taste of spiced pear",
+            "sugarfree": false,
+            "color": "#B50045",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2024/3/13/ahq8z0eu5kghh4hqleel/red-bull-ruby-edition",
+            "alt_text": "Red Bull Ruby Edition",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-ruby-edition"
+        },
+        {
             "name": "The Cherry Edition",
             "flavor": "Cherry Sakura",
             "flavor_description": "Red Bull Cherry Edition with the taste of Cherry with notes of almond and floral Cherry Blossom",
@@ -213,7 +223,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-GB.svg",
-    "_raw_hash": "717bc3874eeb34a5cf4374b5dbeceb6d3da1ec8b3bfe3680c2b58abdc6877382",
+    "_raw_hash": "56564af8b597dcb52898f77d5995114d25e69002f3226909fc06d9c2fee02e8f",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
     "_translated_editions": [
@@ -251,6 +261,13 @@
             "flavor": "Watermelon",
             "description": "The Red Bull Red Edition with the fresh taste of watermelon.",
             "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-red-edition"
+        },
+        {
+            "edition_id": "rrn:content:energy-drinks:2da8ab01-52c2-4543-96d0-2a9757917c67:en-GB",
+            "name": "The Ruby Edition",
+            "flavor": "Pear Cinnamon",
+            "description": "Red Bull Ruby Edition with the taste of spiced pear.",
+            "product_url": "https://www.redbull.com/gb-en/energydrink/red-bull-ruby-edition"
         },
         {
             "edition_id": "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB",
@@ -371,6 +388,7 @@
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-GB": "82267cadea97c8be3b7f93c704940542508d7a3902923992d43beb9fc175cb6d",
         "rrn:content:energy-drinks:25876e0b-de8f-4623-a15e-2a4349b14c82:en-GB": "f104b8584715a219ab508eadb51f2af01c8949d4766daa35ac69fce2d696ee10",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-GB": "a8f708b4f56f83b1d8158523dbe83f3a77186aa4730ab99b56adb99c3fa1a71a",
+        "rrn:content:energy-drinks:2da8ab01-52c2-4543-96d0-2a9757917c67:en-GB": "bf8ef7dea8e76b5e3ba506abdc8001529500829c9ccea2d8e56934f8da5bf6d6",
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB": "8e7049e5c568e9f521b520c8028d67011c1510551ce6b9537511fc8598a1f329",
         "rrn:content:energy-drinks:3ae4b163-6331-4f85-a28f-7b153d00933f:en-GB": "69b7bcb487cd1b32a1ed9a738fddd9916718cb401e70ea2b0f0800318cf09569",
         "rrn:content:energy-drinks:41e97cb8-fb1f-41a3-a380-be2a75123e1a:en-GB": "8eae14b7095426f87ce7cba790a3d98caf90427fc409e7d8600253ed99749f25",
@@ -417,6 +435,12 @@
             "name": "The Red Edition",
             "flavor": "Watermelon",
             "flavor_description": "The Red Bull Red Edition with the fresh taste of Watermelon",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:2da8ab01-52c2-4543-96d0-2a9757917c67:en-GB": {
+            "name": "The Ruby Edition",
+            "flavor": "Pear Cinnamon",
+            "flavor_description": "Red Bull Ruby Edition with the taste of spiced pear",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:365b9d1d-1fe3-41ea-86f1-c6f9967799a7:en-GB": {
