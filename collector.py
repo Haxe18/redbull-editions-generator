@@ -19,6 +19,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable, Dict, List, NamedTuple, Optional, Tuple
+from urllib.parse import urljoin, urlparse
 
 # Third-party imports
 import requests
@@ -110,6 +111,18 @@ def _edition_sort_key(edition: Dict[str, Any]) -> Tuple[str, str]:
     )
 
 
+def _url_slug(url: str) -> str:
+    """Return the last path segment of a URL, lowercased.
+
+    Args:
+        url: Absolute URL.
+
+    Returns:
+        Last path segment, e.g. "red-bull-ruby-edition".
+    """
+    return urlparse(url).path.rstrip("/").rsplit("/", 1)[-1].lower()
+
+
 class RedBullDataCollector:
     """Main data collector for Red Bull editions from multiple locales.
 
@@ -199,41 +212,64 @@ class RedBullDataCollector:
     def _verify_edition_url(self, product_url: str) -> bool:
         """Check if a product URL is still live.
 
-        A URL is considered live only if it returns HTTP 200 directly, without
-        any redirect. 3xx responses indicate the product page no longer exists —
-        Red Bull redirects retired products to the generic editions overview page.
+        A URL is considered live if it returns HTTP 200 directly, or if it redirects
+        once to a page with the same product slug that returns HTTP 200 (e.g. a move
+        from ``/energydrink/red-bull-ruby-edition`` to
+        ``/energydrink/products/red-bull-ruby-edition``). Any other redirect means the
+        product page no longer exists — Red Bull redirects retired products to the
+        generic editions overview page.
 
         Args:
             product_url: The edition's product URL to verify.
 
         Returns:
-            True if URL returns HTTP 200 without redirect, False otherwise.
+            True if the product page is live, False otherwise.
         """
         if not product_url:
             return False
         try:
-            response = self.session.head(
-                product_url, timeout=config.TIMEOUT, allow_redirects=False
-            )
+            response = self._fetch_without_redirect(product_url)
             if response.status_code == 200:
                 return True
-            if response.status_code == 405:
-                response = self.session.get(
-                    product_url, timeout=config.TIMEOUT, allow_redirects=False
-                )
-                if response.status_code == 200:
-                    return True
-            if 300 <= response.status_code < 400:
+            if not 300 <= response.status_code < 400:
+                return False
+
+            redirect_url = urljoin(product_url, response.headers.get("Location", ""))
+            if _url_slug(redirect_url) != _url_slug(product_url):
                 self.logger.debug(
                     "URL %s redirects (HTTP %s) to %s — treating as offline",
                     product_url,
                     response.status_code,
-                    response.headers.get("Location", "?"),
+                    redirect_url,
                 )
-            return False
+                return False
+
+            redirect_response = self._fetch_without_redirect(redirect_url)
+            self.logger.debug(
+                "URL %s moved (HTTP %s) to %s — target returns HTTP %s",
+                product_url,
+                response.status_code,
+                redirect_url,
+                redirect_response.status_code,
+            )
+            return redirect_response.status_code == 200
         except requests.exceptions.RequestException as exc:
             self.logger.warning("URL verification failed for %s: %s", product_url, exc)
             return False
+
+    def _fetch_without_redirect(self, url: str) -> requests.Response:
+        """Request a URL via HEAD (GET if HEAD is not allowed) without following redirects.
+
+        Args:
+            url: The URL to request.
+
+        Returns:
+            The HTTP response.
+        """
+        response = self.session.head(url, timeout=config.TIMEOUT, allow_redirects=False)
+        if response.status_code == 405:
+            response = self.session.get(url, timeout=config.TIMEOUT, allow_redirects=False)
+        return response
 
     def _retry_request(
         self, request_func: Callable, *args, identifier: str = "request", **kwargs

@@ -173,6 +173,10 @@ Protection lives in `_save_country_data()` — before writing the raw file, comp
 
 - **URL Verification — Other Editions**: Editions that vanish from the API are verified via HTTP HEAD request
   - If the product URL returns HTTP 200, the edition is retained from the previous raw file
+  - Redirects (`_verify_edition_url`): a single redirect to a URL with the **same last path segment** that returns
+    HTTP 200 counts as live (moved page, e.g. `/energydrink/red-bull-ruby-edition` → `/energydrink/products/red-bull-ruby-edition`).
+    Any other redirect counts as offline — Red Bull sends retired products to the overview page `…/red-bull-editions-energy-drinks`
+  - Triggered for the UK Ruby Edition in 2026-09: the API dropped it, the old URL answered 301, and treating every 3xx as offline lost it
   - Logged: `Edition 'X' disappeared from API for Y but URL still live — retaining`
   - Uses `self.session` (existing connection pool + retry strategy), 0.5s delay between checks
   - Skip with `--skip-url-verify` flag (faster, but may lose temporarily missing editions)
