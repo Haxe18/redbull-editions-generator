@@ -199,6 +199,7 @@ class RedBullDataProcessor:
         "Apricot Edition",
         "Berry Edition",
         "Blue Edition",
+        "Cherry Edition",
         "Coconut Edition",
         "Green Edition",
         "Festive Edition",
