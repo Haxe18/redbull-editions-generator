@@ -55,37 +55,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-Worldwide.svg",
     "_raw_hash": "6105ff781370f467a9357341a2c877fe2c928e67087aa87235c4e6b52771881e",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CAR",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with the fresh taste of watermelon.",
-            "product_url": "https://www.redbull.com/car-es/energydrink/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CAR",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, busy professionals, university students and travellers on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-CAR",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugars.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:es-CAR",
-            "name": "The Yellow Edition",
-            "flavor": "Tropical/Tropical Fruits",
-            "description": "The tropical edition of Red Bull. Let yourself be surprised by the exotic taste of tropical fruits.",
-            "product_url": "https://www.redbull.com/car-es/energydrink/red-bull-yellow-edition"
-        }
-    ],
+    "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-CAR": "267f0557d4555519336a759e44ceb56d06c173c8f9cdbc2aff66b75e145183aa",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-CAR": "9d4f88ebb0e35e95d2596ad6923aaa6d030366581031068fdf8ec414553a3f4d",

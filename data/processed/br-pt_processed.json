@@ -115,72 +115,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BR.svg",
     "_raw_hash": "084288b5d1ac3a27fc217dabcb21e2f3fef98dd976223eec87af8fee57cd033e",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-BR",
-            "name": "Melancia Edition",
-            "flavor": "Watermelon",
-            "description": "Experience the new and refreshing taste of watermelon with Red Bull Melancia Edition.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-melancia-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:pt-BR",
-            "name": "Cereja Edition",
-            "flavor": "Cherry & Wild Berries",
-            "description": "Red Bull Cereja Edition with the extraordinary taste of cherry and wild berries.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-cereja-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:pt-BR",
-            "name": "Pomelo Edition Sugarfree",
-            "flavor": "Pomelo",
-            "description": "Red Bull Pomelo Edition Sugarfree has the taste of pomelo and subtle floral notes.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-pomelo-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:pt-BR",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by elite athletes, dynamic professionals, active students and motorists on long journeys.",
-            "product_url": "https://www.redbull.com/energydrink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:8ebfdf4b-d28a-4f4a-b6b8-569b0340f874:pt-BR",
-            "name": "The Nectarina Edition Sugarfree",
-            "flavor": "Nectarina",
-            "description": "Red Bull Nectarina Edition with the taste of nectarine and without sugar.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-nectarina-edition-sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-BR",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/sugarfree"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-BR",
-            "name": "Tropical Edition",
-            "flavor": "Tropical/Tropical Fruits",
-            "description": "Be surprised by the taste of tropical fruits in Red Bull Tropical Edition.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-tropical-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:e2b2d3e1-eed4-4a3b-a87e-8a97bc96c246:pt-BR",
-            "name": "Melão Edition",
-            "flavor": "Maracuja & Melão",
-            "description": "Red Bull Melão Edition features the taste of maracuja and melon.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-melao-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
-            "name": "Pêssego Edition",
-            "flavor": "Strawberry & Peach",
-            "description": "Red Bull Pêssego Edition features the perfect blend of peach and strawberry taste, bringing out the best in each.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/red-bull-apricot-edition"
-        }
-    ],
+    "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR": "6dc3e636b502ee98fa8a82f8366c986ebd52831dd0e60070d7ccf4d11ab94b7a",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-BR": "8ee1fb1e4d9340849316bcc47275fdcb7b8b3cd2029f5cc373eeb0cf3c6f5407",

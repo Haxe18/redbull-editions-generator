@@ -215,6 +215,11 @@ Protection lives in `_save_country_data()` — before writing the raw file, comp
   - **AI Name Validation** (prevents hallucinations like Apple→Apricot):
     - After AI translation, the name is validated against the raw source title (`header_data.content.title`) and the `product_url`
     - If either matches an APPROVED_EDITION, that match acts as ground truth
+    - A trailing "Sugarfree" is stripped before the lookup and re-added to the expected name
+      (`_strip_sugarfree_suffix`) — the list holds only core names, so "Cherry Edition Sugarfree" used to find nothing
+    - A raw title that is itself a base variant (`_get_energy_drink_variant`, e.g. South Africa's "Xero") is ground truth too
+    - An edition missing from APPROVED_EDITIONS gets no ground truth, and the prompt pushes the AI onto the
+      nearest listed name (Cherry → Ruby, Cherry/Açaí → Berry in 2026-10). **Add a new edition name to the list.**
     - If AI-generated name differs from ground truth → Warning logged, correct name used
     - Log pattern: `⚠️ Edition name mismatch: AI said 'X' but source data indicates 'Y' → using 'Z'`
 - **Editions**: Prefixed with "The" (e.g., "The Summer Edition")

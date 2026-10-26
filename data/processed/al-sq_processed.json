@@ -55,37 +55,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AL.svg",
     "_raw_hash": "83af8f28080121564bb52fc808afd61207117fea1a32e4238dda901a19a9570b",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sq-AL",
-            "name": "The Red Edition",
-            "flavor": "Watermelon",
-            "description": "Red Bull Red Edition with watermelon taste.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-red-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:sq-AL",
-            "name": "Energy Drink",
-            "flavor": "Energy Drink",
-            "description": "Red Bull Energy Drink is appreciated worldwide by top athletes, students, professionals with heavy workloads, and during long journeys.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-energy-drink"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:9f5e826b-3589-4e15-8da7-86759325fc9b:sq-AL",
-            "name": "The Green Edition",
-            "flavor": "Dragon Fruit",
-            "description": "Red Bull Green Edition with the exotic taste of dragon fruit.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-green-edition"
-        },
-        {
-            "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:sq-AL",
-            "name": "Energy Drink Sugarfree",
-            "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
-            "product_url": "https://www.redbull.com/al-sq/energydrink/products/red-bull-sugarfree"
-        }
-    ],
+    "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sq-AL": "43f2b8437f41a91be4d49a670a8830bfac9cf9f8c961616a087491d941b9c272",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:sq-AL": "88598622e91a387ab2724f827b2154ec45ed5017c4ae82a3f0d20e8802f4c559",

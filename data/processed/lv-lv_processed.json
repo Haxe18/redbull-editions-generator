@@ -85,16 +85,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-LV.svg",
     "_raw_hash": "98c0610ec9d09aa453b4d3ddbebeaa94bd81ed79350dbe7b9807d1e125a38d70",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:lv-LV",
-            "name": "The Winter Edition",
-            "flavor": "Fuji Apple-Ginger",
-            "description": "Red Bull Winter Edition gives wings with a pistachio and berry taste.",
-            "product_url": "https://www.redbull.com/lv-lv/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:lv-LV": "a03ba8144896ee8adc9b7f5d2d5c0ec46c7bbf1d7b667acaf8ed5cc41f6d282d",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:lv-LV": "4218763f6aaf145cc633703cd226451ed8ad0ea091d9a4bf603e1b276668965b",

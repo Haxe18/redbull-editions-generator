@@ -14,7 +14,7 @@
         {
             "name": "The Cherry Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Cherry Edition Sugarfree with sakura flower taste, fruity cherries and creamy almond notes",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree with Cherry Blossom taste, fruity cherries and creamy almond notes",
             "sugarfree": true,
             "color": "#52abd6",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/10/ssadk3tyvxfbynx7skmu/the-cherry-edition-sugarfree",
@@ -42,8 +42,8 @@
             "product_url": "https://www.redbull.com/energydrink"
         },
         {
-            "name": "The Berry Edition Sugarfree",
-            "flavor": "Acai Berry",
+            "name": "The Acai Edition Sugarfree",
+            "flavor": "Acai",
             "flavor_description": "Red Bull Acai Edition Sugarfree with the unique exotic taste of Acai",
             "sugarfree": true,
             "color": "#702082",
@@ -74,7 +74,7 @@
         {
             "name": "The Green Edition Sugarfree",
             "flavor": "Passion Fruit-Banana",
-            "flavor_description": "Red Bull Green Edition Sugarfree with passion fruit and banana taste",
+            "flavor_description": "Red Bull Green Edition Sugarfree with passion fruit-banana taste",
             "sugarfree": true,
             "color": "#6cc24a",
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/8/us7dakauwquis0nifut3/red-bull-green-edition-sugarfree",
@@ -95,7 +95,7 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PT.svg",
     "_raw_hash": "dddad8085f6e4ac6e7a3bc74dd544c1bc2d131620fe07db97bd392205c82ac81",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
+    "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
     "_translated_editions": [
         {
             "edition_id": "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-PT",
@@ -108,7 +108,7 @@
             "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:pt-PT",
             "name": "The Cherry Edition Sugarfree",
             "flavor": "Cereja Sakura",
-            "description": "Red Bull Cherry Edition Sugarfree with sakura flower taste, fruity cherries and creamy almond notes.",
+            "description": "Red Bull Cherry Edition Sugarfree with cherry blossom taste, fruity cherries and creamy almond notes.",
             "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-cherry-edition-sugarfree"
         },
         {
@@ -127,7 +127,7 @@
         },
         {
             "edition_id": "rrn:content:energy-drinks:9c27f2d5-12cd-4185-af07-39c6a41edd74:pt-PT",
-            "name": "The Berry Edition Sugarfree",
+            "name": "The Acai Edition Sugarfree",
             "flavor": "Acai Berry",
             "description": "Red Bull Acai Edition Sugarfree with the unique exotic taste of acai.",
             "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-acai-edition-sugarfree"
@@ -143,13 +143,13 @@
             "edition_id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:pt-PT",
             "name": "Energy Drink Sugarfree",
             "flavor": "Sugarfree",
-            "description": "Wings without sugar: Red Bull Sugar Free is Red Bull Energy Drink without sugar.",
+            "description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar.",
             "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-sugarfree"
         },
         {
             "edition_id": "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:pt-PT",
             "name": "The Green Edition Sugarfree",
-            "flavor": "Maracujá-Banana",
+            "flavor": "Maracuja-Banana",
             "description": "Red Bull Green Edition Sugarfree with maracuja-banana taste.",
             "product_url": "https://www.redbull.com/pt-pt/energydrink/products/red-bull-green-edition-sugarfree"
         },
@@ -182,7 +182,7 @@
         "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:pt-PT": {
             "name": "The Cherry Edition Sugarfree",
             "flavor": "Cherry Sakura",
-            "flavor_description": "Red Bull Cherry Edition Sugarfree with sakura flower taste, fruity cherries and creamy almond notes",
+            "flavor_description": "Red Bull Cherry Edition Sugarfree with Cherry Blossom taste, fruity cherries and creamy almond notes",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:pt-PT": {
@@ -198,8 +198,8 @@
             "sugarfree": false
         },
         "rrn:content:energy-drinks:9c27f2d5-12cd-4185-af07-39c6a41edd74:pt-PT": {
-            "name": "The Berry Edition Sugarfree",
-            "flavor": "Acai Berry",
+            "name": "The Acai Edition Sugarfree",
+            "flavor": "Acai",
             "flavor_description": "Red Bull Acai Edition Sugarfree with the unique exotic taste of Acai",
             "sugarfree": true
         },
@@ -218,7 +218,7 @@
         "rrn:content:energy-drinks:aff2b148-bf62-4b22-a93f-a7281bf169ce:pt-PT": {
             "name": "The Green Edition Sugarfree",
             "flavor": "Passion Fruit-Banana",
-            "flavor_description": "Red Bull Green Edition Sugarfree with passion fruit and banana taste",
+            "flavor_description": "Red Bull Green Edition Sugarfree with passion fruit-banana taste",
             "sugarfree": true
         },
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-PT": {

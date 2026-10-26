@@ -193,6 +193,7 @@ class RedBullDataProcessor:
 
     # APPROVED EDITION LIST (Known editions for guidance - not strict enforcement)
     APPROVED_EDITIONS = [
+        "Acai Edition",
         "Amber Edition",
         "Amora Edition",
         "Apple Edition",
@@ -840,6 +841,8 @@ class RedBullDataProcessor:
             "red bull xero",
             "xero edition",
             "the xero edition",
+            "xero edition sugarfree",
+            "the xero edition sugarfree",
             "energy drink xero",
         ]:
             return "Energy Drink Zero"
@@ -1460,6 +1463,18 @@ class RedBullDataProcessor:
         return image_url.replace(
             "{op}", "e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000"
         )
+
+    @staticmethod
+    def _strip_sugarfree_suffix(edition_name: str) -> str:
+        """Remove a trailing "Sugarfree" from an edition name.
+
+        Args:
+            edition_name: Edition name, e.g. "Cherry Edition Sugarfree".
+
+        Returns:
+            The name without the suffix, e.g. "Cherry Edition".
+        """
+        return re.sub(r"[\s-]+sugarfree$", "", edition_name.strip(), flags=re.IGNORECASE)
 
     @staticmethod
     def extract_edition_from_url(url: str) -> Optional[str]:
@@ -3176,25 +3191,53 @@ class RedBullDataProcessor:
             if trans_data:
                 fixed_name = self.fix_edition_name(trans_data.name)
 
-                # Validate AI name against raw title and product URL as ground truth
+                # Validate AI name against raw title and product URL as ground truth.
+                # "Sugarfree" is stripped before the lookup (the approved list holds only the
+                # core name) and re-added to the expected name when the source carries it.
                 raw_title = edition.get("name", "")
+                url_edition = (
+                    self.extract_edition_from_url(edition.get("product_url", "")) or ""
+                )
+                raw_title_core = self._strip_sugarfree_suffix(raw_title)
+                url_edition_core = self._strip_sugarfree_suffix(url_edition)
                 approved_raw = next(
-                    (ed for ed in self.APPROVED_EDITIONS if ed.lower() == raw_title.lower()),
+                    (
+                        ed
+                        for ed in self.APPROVED_EDITIONS
+                        if ed.lower() == raw_title_core.lower()
+                    ),
                     None,
                 )
-                url_edition = self.extract_edition_from_url(edition.get("product_url", ""))
                 approved_url = next(
                     (
                         ed
                         for ed in self.APPROVED_EDITIONS
-                        if ed.lower() == (url_edition or "").lower()
+                        if ed.lower() == url_edition_core.lower()
                     ),
                     None,
                 )
                 ground_truth = approved_raw or approved_url
+                source_sugarfree = (
+                    raw_title_core != raw_title.strip()
+                    or url_edition_core != url_edition.strip()
+                )
 
-                if ground_truth and fixed_name:
+                # A raw title that is itself a base variant (e.g. South Africa's "Xero")
+                # is ground truth too — there is no "X Edition" for the lookup above to match
+                energy_drink_variant = self._get_energy_drink_variant(raw_title)
+
+                if energy_drink_variant and fixed_name and fixed_name != energy_drink_variant:
+                    logging.warning(
+                        "⚠️ Edition name mismatch: AI said '%s' but source data indicates '%s' → using '%s'",
+                        fixed_name,
+                        raw_title,
+                        energy_drink_variant,
+                    )
+                    fixed_name = energy_drink_variant
+                elif ground_truth and fixed_name:
                     expected_name = f"The {ground_truth}"
+                    if source_sugarfree:
+                        expected_name = f"{expected_name} Sugarfree"
                     if fixed_name.lower() != expected_name.lower():
                         logging.warning(
                             "⚠️ Edition name mismatch: AI said '%s' but source data indicates '%s' → using '%s'",

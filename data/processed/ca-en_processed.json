@@ -145,16 +145,8 @@
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-CA.svg",
     "_raw_hash": "d2ffad2756008976de7c66f04f88e7cbb2948776b06af5df5bf8fdbf43951368",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
-    "_flavors_hash": "10531d612078feb72bd26d0ddbb2eb3aacb87759f9cc8c502b0cb75f0638f1ed",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-CA",
-            "name": "The Winter Edition",
-            "flavor": "Pistachio & Berries",
-            "description": "The Red Bull Winter Edition with the taste of pistachio and berries, balanced by a blend of caramel with nutty and creamy undertones.",
-            "product_url": "https://www.redbull.com/ca-en/energydrink/products/red-bull-winter-edition"
-        }
-    ],
+    "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:en-CA": "cbbbd47db521d3cbe5190c7733c16196d5d551635f3870ba95e134157fc26449",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:en-CA": "ea0e38cf049b4b3b75fa27ee6a808ed707a4da251597a75fa285e36c2b38958a",

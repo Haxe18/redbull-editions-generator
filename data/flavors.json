@@ -36,6 +36,7 @@
         "Iced Gummy Bear",
         "Iced Vanilla Berry",
         "Juneberry",
+        "Kyoho Grape",
         "Maracuja & Melon",
         "Strawberry & Peach",
         "Pear Cinnamon",
@@ -57,6 +58,10 @@
         "Pistachio-Berry": "Pistachio-Berries",
         "Pistachio-Forest Berry": "Pistachio-Berries",
         "Pistachio-Forest Fruits": "Pistachio-Berries",
-        "Pistachio-Red Fruits": "Pistachio-Berries"
+        "Pistachio-Red Fruits": "Pistachio-Berries",
+        "Cherry-Blossom Flavour": "Cherry Sakura",
+        "Grapefruit-Woodruff": "Woodruff & Pink Grapefruit",
+        "Japanese Citrus": "Sudachi Lime",
+        "Tropical": "Tropical Fruits"
     }
 }
