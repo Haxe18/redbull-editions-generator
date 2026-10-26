@@ -5339,6 +5339,9 @@ def main():
 
             if args.country in available_countries:
                 country_info = available_countries[args.country]
+                # Same cache as process_all: without it, a full run reads a stale entry
+                # first and undoes whatever this single-country run just fixed
+                processor._load_global_uuid_cache()  # pylint: disable=protected-access
                 result, was_fresh = processor.process_country(
                     args.country,
                     country_info["domain"],
@@ -5346,6 +5349,7 @@ def main():
                     force=args.force,  # Use force flag from arguments
                 )
                 if result:
+                    processor._save_global_uuid_cache()  # pylint: disable=protected-access
                     if not was_fresh:
                         print(f"  ℹ️  Using cached data for {args.country}")
 

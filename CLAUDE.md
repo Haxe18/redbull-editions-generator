@@ -478,6 +478,12 @@ The processor includes robust validation and recovery:
 
 This approach reduces API costs by ~90% for incremental changes while ensuring data accuracy.
 
+### Global UUID Cache
+`data/processed/global_uuid_cache.json` is read **before** the per-country cache. `--country` runs must
+load and save it as `process_all()` does (done in `main()`): until 2026-10 they did not, so a
+`--force --country` fix landed only in the per-country file and the next full run restored the stale
+global entry (the UK Cherry → Ruby name came back that way).
+
 ### Intelligent Changelog System
 
 The processor only creates changelog files when the output data actually changed.
