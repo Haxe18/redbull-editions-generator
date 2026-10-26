@@ -4604,5 +4604,19 @@
         "flavor_description": "Red Bull Winter Edition gives wings with a Pistachio and berry taste",
         "sugarfree": false,
         "fingerprint": "28c615086bd6be8540d84bfbe12368872af33623eb053929da88fd59a6ccc93c"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-US": {
+        "name": "The Winter Edition",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "The Red Bull Winter Edition features the subtle taste of Pistachio with hints of caramel, followed by a bright blend of Berries and a smooth finish",
+        "sugarfree": false,
+        "fingerprint": "71319704307974463b0e454f84591b57ae67c88ef5bab382b3657dddd56e66dc"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:en-CA": {
+        "name": "The Winter Edition",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "The Red Bull Winter Edition with the taste of Pistachio and Berries, balanced by a blend of caramel with nutty and creamy undertones",
+        "sugarfree": false,
+        "fingerprint": "4fa92058daea82747f113d5bee0b7f4a09038f66a4413f6d813c0b8ba2357c49"
     }
 }
