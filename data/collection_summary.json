@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-10-28T11:41:42.334764+00:00",
+        "collection_date": "2026-10-29T11:53:56.150549+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -516,7 +516,7 @@
                 "es-es"
             ],
             "flag_code": "ES",
-            "editions_count": 11,
+            "editions_count": 12,
             "data_file": "es-es.json"
         },
         "Sweden": {

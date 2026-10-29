@@ -12,6 +12,16 @@
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-coconut-edition"
         },
         {
+            "name": "The Yellow Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition gives you wings with a vibrant taste of sudachi and lime",
+            "sugarfree": false,
+            "color": "#f2e853",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/10/23/mzpys1yoozzoy1zlsczn/red-bull-yellow-edition",
+            "alt_text": "Red Bull Yellow Edition",
+            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-yellow-edition"
+        },
+        {
             "name": "The Blue Edition",
             "flavor": "Juneberry",
             "flavor_description": "Red Bull Blue Edition with the extraordinary Juneberry taste",
@@ -82,16 +92,6 @@
             "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-sugarfree"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "A vibrant and refreshing taste experience",
-            "sugarfree": false,
-            "color": "#F0E53B",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/28/pbfha4tykes4wfkbq4c3/red-bull-summer-edition-image",
-            "alt_text": "Red Bull Summer Edition - image",
-            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-summer-edition"
-        },
-        {
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "Red Bull Peach Edition with White Peach taste",
@@ -123,12 +123,21 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-ES.svg",
-    "_raw_hash": "519b615dab3760c669c6d3553fd710abba29c4a9f9f027933c7902f907754661",
+    "_raw_hash": "3eddd6a0a2c234d24a4f7c6bac18b7f742c5c6853bb0547be8583ae396888d97",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:es-ES",
+            "name": "The Yellow Edition",
+            "flavor": "Sudachi-Lime",
+            "description": "Red Bull Summer Edition gives you wings with a vibrant taste of sudachi and lime.",
+            "product_url": "https://www.redbull.com/es-es/energydrink/products/red-bull-yellow-edition"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:es-ES": "8cd5b0237a45e15d4be8abb4cfc8db4dfc0d2b1c4e2c71478154ad2a5ec5bac8",
+        "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:es-ES": "a69d8f94dcfeb2a21971416ee519038bab6a142d04ecb2124bd4623874a4d130",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:es-ES": "8df251e6ccb82892efce5cd5427b3856b11741dab08dcc0496e1679856831b03",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-ES": "200b361cb0964c99abe0fc94ce220df71f630cfd6584b83434b28547ee4413ce",
         "rrn:content:energy-drinks:42234f27-2f14-48f6-a995-13ddcff7ea24:es-ES": "96a92e326ac7ff1e04e035d987c074bd8f5682eb1507aba052327bc3dd5cdedc",
@@ -136,7 +145,6 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-ES": "d63d0ff71c0c581f6dc33b44abb9e59e054f3c8a14a590741bf25a5bc995ecc5",
         "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:es-ES": "c828c783b1db36ecabbe616f81f83201472f8169276c0de7d73bdcc9a78615cd",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-ES": "a2c7019736af33719dabcdbe09ce5134d2e6ee9f1c365eea54c80acf5730b9da",
-        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:es-ES": "24276a145aff30522b7687c403a423b2ea38f5e520d789b40485d7e8e4b62132",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:es-ES": "ae7a05da9a61b14d7be66bf333661c5c4ceb801ed8aa6357d230302ab64f5a93",
         "rrn:content:energy-drinks:eb9c22db-6c3d-4a68-b4e3-c915c59b1414:es-ES": "f855b04f09434b25fedf83ca1eff7fa37b1ab1e0f41af954548e1e10e66b37fe",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:es-ES": "6ac65376d2d1447cda47d79752b75d3e830ef71d183185cd4fd0edfdc12b7e4a"
@@ -146,6 +154,12 @@
             "name": "The Coconut Edition",
             "flavor": "Coconut-Blueberry",
             "flavor_description": "Prepare for an extraordinary taste experience. Red Bull Coconut Edition with exotic Coconut and Blueberry taste",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:es-ES": {
+            "name": "The Yellow Edition",
+            "flavor": "Sudachi Lime",
+            "flavor_description": "Red Bull Summer Edition gives you wings with a vibrant taste of sudachi and lime",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:es-ES": {
@@ -189,12 +203,6 @@
             "flavor": "Sugarfree",
             "flavor_description": "Wings without sugar: Red Bull Sugarfree is Red Bull Energy Drink without sugar",
             "sugarfree": true
-        },
-        "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:es-ES": {
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "A vibrant and refreshing taste experience",
-            "sugarfree": false
         },
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:es-ES": {
             "name": "The Peach Edition",
