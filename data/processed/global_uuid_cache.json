@@ -637,11 +637,11 @@
         "fingerprint": "64b33eda708b1dfb3384ad0b845d2109611b7de232b7b5064a29c8419e5e60f0"
     },
     "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-CL": {
-        "fingerprint": "8525105dccb2e13b9ccc9cf66d0ce9df613b525c624b52cc8f548aef773af672",
         "name": "The Summer Edition Sugarfree",
-        "flavor": "White Peach",
-        "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree offers the taste of Peach, with a citrus hint and floral notes, all without sugar",
-        "sugarfree": true
+        "flavor": "Forest Fruits",
+        "flavor_description": "Red Bull Summer Edition Sugarfree with Forest Fruits taste",
+        "sugarfree": true,
+        "fingerprint": "c70c621e84f2a99b283b5631e204b0b4b5af58a387fd8a308f0be54d2c611fdc"
     },
     "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:es-CL": {
         "name": "The Purple Edition",
@@ -4632,5 +4632,19 @@
         "flavor_description": "Red Bull Summer Edition gives you wings with a vibrant taste of sudachi and lime",
         "sugarfree": false,
         "fingerprint": "a69d8f94dcfeb2a21971416ee519038bab6a142d04ecb2124bd4623874a4d130"
+    },
+    "rrn:content:energy-drinks:add1ea51-ee5f-4c6c-a2d2-efd59791e8f8:es-CL": {
+        "name": "The Summer Edition",
+        "flavor": "Forest Fruits",
+        "flavor_description": "Red Bull Summer Edition with Forest Fruits taste",
+        "sugarfree": false,
+        "fingerprint": "0cb47ec980ed1386739149707d5b8c3d956aac0e0cd274953ab67c2573e3e1ac"
+    },
+    "rrn:content:energy-drinks:2239a0fc-ba8b-4be4-adbe-326d8a4e52e8:da-DK": {
+        "name": "The Pistachio Edition",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Pistachio Edition combines the taste of Pistachio and Forest Berry with a rounded sweetness of caramel and delicate notes of nuts",
+        "sugarfree": false,
+        "fingerprint": "e05c7421be614c2adb9d4fa05b67f905cfe6e8c34ab1f013c7dce3d23ad80989"
     }
 }

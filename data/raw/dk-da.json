@@ -69,6 +69,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:2239a0fc-ba8b-4be4-adbe-326d8a4e52e8:da-DK",
+            "header_data": {
+                "content": {
+                    "title": "Pistachio Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/2/vh578t7u5lqcktfie6aw/red-bull-pistachio-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#B8C85F",
+                                    "percentage": 18.8
+                                },
+                                {
+                                    "hexColorCode": "#B1C561",
+                                    "percentage": 5.6
+                                },
+                                {
+                                    "hexColorCode": "#D9E0E7",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#C9D0DD",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#A7BB1C",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#D3DCB6",
+                                    "percentage": 0.7
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Pistachio Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/dk-da/energydrink/products/red-bull-pistachio-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pistachio & Berries",
+                    "standfirst": "Red Bull Pistachio Edition kombinerer smagen af pistacie og skovbær med en afrundet sødme af karamel og delikate  noter af nødder.",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "Red Bull Pistachio Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/2/vh578t7u5lqcktfie6aw/red-bull-pistachio-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/dk-da/energydrink/products/red-bull-pistachio-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:da-DK",
             "header_data": {
                 "content": {
@@ -752,5 +813,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-19T23:20:06.455497+00:00"
+    "collection_timestamp": "2026-11-02T13:32:28.256810+00:00"
 }
