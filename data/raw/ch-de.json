@@ -375,67 +375,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:5d0a35a9-b26a-4021-bc6a-5b1a08794ab7:de-CH",
-            "header_data": {
-                "content": {
-                    "title": "Winter Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/8/rbppewteokmu9rfnrnpd/red-bull-winter-edition-image",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#B8C85E",
-                                    "percentage": 18.4
-                                },
-                                {
-                                    "hexColorCode": "#B2C662",
-                                    "percentage": 5.7
-                                },
-                                {
-                                    "hexColorCode": "#D9E0E7",
-                                    "percentage": 4.1
-                                },
-                                {
-                                    "hexColorCode": "#C9D0DD",
-                                    "percentage": 3.4
-                                },
-                                {
-                                    "hexColorCode": "#A7BC1C",
-                                    "percentage": 0.9
-                                },
-                                {
-                                    "hexColorCode": "#D3DCB6",
-                                    "percentage": 0.6
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Winter Edition Image"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-winter-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Pistazie & Waldbeeren",
-                    "standfirst": "Die Red Bull Winter Edition mit dem Geschmack von Pisatzie und Waldbeeren, verfeinert durch einen Hauch von Karamell mit nussigen und cremigen Noten. ",
-                    "brandingHexColorCode": "#0a1c43",
-                    "image": {
-                        "altText": "Red Bull Winter Edition Image",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/9/8/rbppewteokmu9rfnrnpd/red-bull-winter-edition-image"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/ch-de/energydrink/products/red-bull-winter-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:de-CH",
             "header_data": {
                 "content": {
@@ -936,5 +875,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-19T23:32:59.661213+00:00"
+    "collection_timestamp": "2026-11-04T13:16:24.400729+00:00"
 }

@@ -1,31 +1,43 @@
 # Red Bull Editions Processing Changelog
-## 2026-11-03T13:07:26.329640
+## 2026-11-04T13:18:59.644931
 
 ## Summary
-- **Countries processed:** 1
+- **Countries processed:** 3
 - **Countries skipped:** 0
 - **Cache hits:** 0
 - **API calls made:** 0
 - **Editions added:** 0
-- **Editions updated:** 1
-- **Editions removed:** 0
-- **Corrections applied:** 0
+- **Editions updated:** 2
+- **Editions removed:** 5
+- **Corrections applied:** 5
 - **Corrections failed:** 0
 
 ## 📝 Unused Corrections
 
 The following corrections were not checked (no matching editions found):
 
-- `1ad9d76b-02ee-462b-a766-13ecb8ac24da`
 - `2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd`
-- `41e97cb8-fb1f-41a3-a380-be2a75123e1a`
-- `9484225a-90a3-4082-85c5-b6a189556e5b`
-- `c55e5804-ce3c-4289-8d89-930b6d678501`
+- `9f5e826b-3589-4e15-8da7-86759325fc9b:en-GB`
 - `eb9c22db-6c3d-4a68-b4e3-c915c59b1414`
-- `f900c5b7-d33e-4a8e-a186-5cee5bd291a1`
 
 ## Countries Processed
 
-### Australia
+### Croatia
+#### Removed Editions:
+- **The Red Edition** - Watermelon
+- **The Yellow Edition** - Tropical Fruits
+
+### Switzerland
 #### Updated Editions:
-- **The Cherry Edition Sugarfree** - Cherry Sakura
+- **The Winter Edition** - Pistachio-Berries
+
+#### Removed Editions:
+- **The Winter Edition** - Pistachio-Berries
+
+### United Kingdom
+#### Updated Editions:
+- **The Cherry Edition** - Cherry Sakura
+
+#### Removed Editions:
+- **The Cherry Edition** - Cherry Sakura
+- **The Ruby Edition** - Pear Cinnamon
