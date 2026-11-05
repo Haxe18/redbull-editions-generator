@@ -62,26 +62,6 @@
             "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-peach-edition"
         },
         {
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of Pomelo and citrus zest",
-            "sugarfree": false,
-            "color": "#f2e853",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/4/qfiistteg28pfszcrpuf/red-bull-summer-edition",
-            "alt_text": "Red Bull Summer Edition",
-            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition"
-        },
-        {
-            "name": "The Summer Edition Sugarfree",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of Pomelo and citrus zest",
-            "sugarfree": true,
-            "color": "#f2e853",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/4/ykbspfclrikhdlssnxpr/red-bull-summer-edition-sugarfree",
-            "alt_text": "Red Bull Summer Edition Sugarfree",
-            "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition-sugarfree"
-        },
-        {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
             "flavor_description": "Surprise yourself with the perfect combination of the taste of Apricot and Strawberry",
@@ -93,7 +73,7 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HR.svg",
-    "_raw_hash": "61563bb8bb04123bd24ff89435a2e816c6dc3ed1c89f332d8bd5d831b8907bcc",
+    "_raw_hash": "df976d4649cd057da9c1b0a125d000cf71b1d6608e1a3e99a53cad7ff5fbf587",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
     "_translated_editions": [],
@@ -104,8 +84,6 @@
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:hr-HR": "04632dd7c012a2c41b860dd2b900239d89185b31b1a2f316dfc553f08dc416c8",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:hr-HR": "4ac763cbb4dfc8bd187cb4dd81576918e310e71d236cd694a1a5dbe8e4d879bf",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:hr-HR": "fd05601b69dc4d842009256d2f2f1a6eb57e9b0a2b8c601ac8b6fdf6b8dc393c",
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR": "f191005f4952527ff2d8e259c07a7588b6c2b68ecd7aca5615fdbfad6653a9ed",
-        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:hr-HR": "5e2b83e7245779a7d31868f2d9724ba005bb253553cc61ea27697fb543e86224",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hr-HR": "2e2e7adad5b78671527581f82e8810685ec42cd5c00659154c34a9892002ca85"
     },
     "_normalized_editions": {
@@ -144,18 +122,6 @@
             "flavor": "White Peach",
             "flavor_description": "Red Bull Peach Edition with the taste of White Peach, a touch of citrus zest, and floral notes",
             "sugarfree": false
-        },
-        "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:hr-HR": {
-            "name": "The Summer Edition",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "Wings for your summer: Red Bull Summer Edition Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of Pomelo and citrus zest",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:hr-HR": {
-            "name": "The Summer Edition Sugarfree",
-            "flavor": "Sudachi Lime",
-            "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of Pomelo and citrus zest",
-            "sugarfree": true
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:hr-HR": {
             "name": "The Apricot Edition",

@@ -1401,26 +1401,6 @@
                 "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/2/16/rfpkpjhdvuam3incmpz1/spring-edition-2026",
                 "alt_text": "Spring Edition 2026",
                 "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-spring-edition"
-            },
-            {
-                "name": "The Summer Edition",
-                "flavor": "Sudachi Lime",
-                "flavor_description": "Wings for your summer: The Red Bull Summer Edition Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of Pomelo and citrus zest",
-                "sugarfree": false,
-                "color": "#f2e853",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/4/qfiistteg28pfszcrpuf/red-bull-summer-edition",
-                "alt_text": "Red Bull Summer Edition",
-                "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition"
-            },
-            {
-                "name": "The Summer Edition Sugarfree",
-                "flavor": "Sudachi Lime",
-                "flavor_description": "Wings for your summer: The Red Bull Summer Edition Sugarfree Energy Drink with the taste of sudachi and lime, rounded off with gentle notes of Pomelo and citrus zest",
-                "sugarfree": true,
-                "color": "#f2e853",
-                "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/5/4/ykbspfclrikhdlssnxpr/red-bull-summer-edition-sugarfree",
-                "alt_text": "Red Bull Summer Edition Sugarfree",
-                "product_url": "https://www.redbull.com/hr-hr/energydrink/products/red-bull-summer-edition-sugarfree"
             }
         ],
         "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-HR.svg"
