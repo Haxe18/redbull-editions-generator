@@ -219,17 +219,28 @@ class RedBullDataCollector:
         product page no longer exists — Red Bull redirects retired products to the
         generic editions overview page.
 
+        A timeout, connection error or 5xx answer says nothing about the product, so
+        the edition is kept: only a real answer (404, redirect elsewhere) drops it.
+        A single slow response once dropped the UK Ruby Edition this way.
+
         Args:
             product_url: The edition's product URL to verify.
 
         Returns:
-            True if the product page is live, False otherwise.
+            True if the product page is live or could not be checked, False otherwise.
         """
         if not product_url:
             return False
         try:
             response = self._fetch_without_redirect(product_url)
             if response.status_code == 200:
+                return True
+            if response.status_code >= 500:
+                self.logger.warning(
+                    "URL verification got HTTP %s for %s — keeping edition",
+                    response.status_code,
+                    product_url,
+                )
                 return True
             if not 300 <= response.status_code < 400:
                 return False
@@ -252,10 +263,12 @@ class RedBullDataCollector:
                 redirect_url,
                 redirect_response.status_code,
             )
-            return redirect_response.status_code == 200
+            return redirect_response.status_code == 200 or redirect_response.status_code >= 500
         except requests.exceptions.RequestException as exc:
-            self.logger.warning("URL verification failed for %s: %s", product_url, exc)
-            return False
+            self.logger.warning(
+                "URL verification failed for %s: %s — keeping edition", product_url, exc
+            )
+            return True
 
     def _fetch_without_redirect(self, url: str) -> requests.Response:
         """Request a URL via HEAD (GET if HEAD is not allowed) without following redirects.
