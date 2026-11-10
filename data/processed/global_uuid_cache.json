@@ -4646,5 +4646,12 @@
         "flavor_description": "Red Bull Pistachio Edition combines the taste of Pistachio and Forest Berry with a rounded sweetness of caramel and delicate notes of nuts",
         "sugarfree": false,
         "fingerprint": "e05c7421be614c2adb9d4fa05b67f905cfe6e8c34ab1f013c7dce3d23ad80989"
+    },
+    "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-PH": {
+        "name": "The Peach Edition",
+        "flavor": "White Peach",
+        "flavor_description": "Red Bull Peach Edition: the energy drink with the taste of White Peach with a touch of citrus peel and floral notes",
+        "sugarfree": false,
+        "fingerprint": "1138b7df075fe33d4a9fd629a0024181c1d7b6de44c79d7bd8b4253c2c593feb"
     }
 }

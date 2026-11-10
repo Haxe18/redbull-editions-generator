@@ -1,15 +1,15 @@
 # Red Bull Editions Processing Changelog
-## 2026-11-05T13:29:56.869204
+## 2026-11-10T13:48:46.570723
 
 ## Summary
 - **Countries processed:** 1
 - **Countries skipped:** 0
 - **Cache hits:** 0
-- **API calls made:** 0
-- **Editions added:** 0
+- **API calls made:** 7
+- **Editions added:** 1
 - **Editions updated:** 0
-- **Editions removed:** 2
-- **Corrections applied:** 1
+- **Editions removed:** 0
+- **Corrections applied:** 0
 - **Corrections failed:** 0
 
 ## 📝 Unused Corrections
@@ -22,10 +22,10 @@ The following corrections were not checked (no matching editions found):
 - `9484225a-90a3-4082-85c5-b6a189556e5b`
 - `c55e5804-ce3c-4289-8d89-930b6d678501`
 - `eb9c22db-6c3d-4a68-b4e3-c915c59b1414`
+- `f900c5b7-d33e-4a8e-a186-5cee5bd291a1`
 
 ## Countries Processed
 
-### Croatia
-#### Removed Editions:
-- **The Summer Edition** - Sudachi Lime
-- **The Summer Edition Sugarfree** - Sudachi Lime
+### Philippines
+#### Added Editions:
+- **The Peach Edition** - White Peach
