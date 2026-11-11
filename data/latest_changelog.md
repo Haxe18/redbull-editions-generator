@@ -1,14 +1,14 @@
 # Red Bull Editions Processing Changelog
-## 2026-11-10T13:48:46.570723
+## 2026-11-11T13:05:35.156099
 
 ## Summary
 - **Countries processed:** 1
 - **Countries skipped:** 0
 - **Cache hits:** 0
-- **API calls made:** 7
-- **Editions added:** 1
+- **API calls made:** 0
+- **Editions added:** 0
 - **Editions updated:** 0
-- **Editions removed:** 0
+- **Editions removed:** 1
 - **Corrections applied:** 0
 - **Corrections failed:** 0
 
@@ -27,5 +27,5 @@ The following corrections were not checked (no matching editions found):
 ## Countries Processed
 
 ### Philippines
-#### Added Editions:
-- **The Peach Edition** - White Peach
+#### Removed Editions:
+- **The Purple Edition** - Kyoho Grape

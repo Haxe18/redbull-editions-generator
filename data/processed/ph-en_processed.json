@@ -30,36 +30,17 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/11/10/hcn2pmjkub0xmeo01hdu/red-bull-peach-edition-image",
             "alt_text": "Red Bull Peach Edition - Image",
             "product_url": "https://www.redbull.com/ph-en/energydrink/products/red-bull-peach-edition"
-        },
-        {
-            "name": "The Purple Edition",
-            "flavor": "Kyoho Grape",
-            "flavor_description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste",
-            "sugarfree": false,
-            "color": "#702082",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/8/18/fm5t7e7vjyfryeclad9s/red-bull-the-purple-edition",
-            "alt_text": "Red Bull The Purple Edition",
-            "product_url": "https://www.redbull.com/ph-en/energydrink/products/red-bull-purple-edition"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-PH.svg",
-    "_raw_hash": "796e66933cfeabd795f440b8ae8acd2fcecc28429b56a637f44bcba68a1f1853",
+    "_raw_hash": "8b9b5ff94eedc16dce7479f9c9d0a9940510a30eb025e13ae6d95a191c1f5b05",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-PH",
-            "name": "The Peach Edition",
-            "flavor": "White Peach",
-            "description": "Red Bull Peach Edition: the energy drink with the taste of white peach with a touch of citrus peel and floral notes.",
-            "product_url": "https://www.redbull.com/ph-en/energydrink/products/red-bull-peach-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": "487673846f09c8ca3a234ab3cdf9fe6d5c38a76cdbdb6c4a662b8918d1ddcb3b",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:en-PH": "e8323aa0ed69b2de84f7444f69388504663190c41c8430642bb074990fba34e6",
-        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-PH": "1138b7df075fe33d4a9fd629a0024181c1d7b6de44c79d7bd8b4253c2c593feb",
-        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH": "259f6b7d0e59991509fbc84d3502a3a2020aa55f3dcfd09a95c42dff1c44bcb8"
+        "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:en-PH": "1138b7df075fe33d4a9fd629a0024181c1d7b6de44c79d7bd8b4253c2c593feb"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:en-PH": {
@@ -78,12 +59,6 @@
             "name": "The Peach Edition",
             "flavor": "White Peach",
             "flavor_description": "Red Bull Peach Edition: the energy drink with the taste of White Peach with a touch of citrus peel and floral notes",
-            "sugarfree": false
-        },
-        "rrn:content:energy-drinks:f0502df1-3142-402a-9af8-1344c8bf794e:en-PH": {
-            "name": "The Purple Edition",
-            "flavor": "Kyoho Grape",
-            "flavor_description": "The Purple Edition delivers an intense Kyoho-grape taste with herbal nuances and subtle red-berry notes, delivering a vibrant and refreshing taste",
             "sugarfree": false
         }
     }
