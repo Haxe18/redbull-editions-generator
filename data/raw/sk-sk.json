@@ -8,6 +8,63 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:sk-SK",
+            "header_data": {
+                "content": {
+                    "title": "White Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/12/cvurer5dzo5vdgkmfvs5/red-bull-white-edition-image",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E7E8E9",
+                                    "percentage": 15.2
+                                },
+                                {
+                                    "hexColorCode": "#FBFAFA",
+                                    "percentage": 7.8
+                                },
+                                {
+                                    "hexColorCode": "#85898B",
+                                    "percentage": 5
+                                },
+                                {
+                                    "hexColorCode": "#F2F2F4",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#FBFBFA",
+                                    "percentage": 1.4
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull White Edition - image"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-white-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Coconut",
+                    "standfirst": "Red Bull White Edition spája chuť kokosu s ovocným tónom čučoriedok.",
+                    "brandingHexColorCode": "#0070b8",
+                    "image": {
+                        "altText": "Red Bull White Edition - image",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/12/cvurer5dzo5vdgkmfvs5/red-bull-white-edition-image"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-white-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sk-SK",
             "header_data": {
                 "content": {
@@ -752,5 +809,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-19T23:29:51.735512+00:00"
+    "collection_timestamp": "2026-11-12T14:00:34.505658+00:00"
 }

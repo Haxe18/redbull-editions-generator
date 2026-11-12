@@ -2,6 +2,16 @@
     "flag": "🇸🇰",
     "editions": [
         {
+            "name": "The White Edition",
+            "flavor": "Coconut-Blueberry",
+            "flavor_description": "Red Bull White Edition combines the taste of Coconut with a fruity hint of blueberries",
+            "sugarfree": false,
+            "color": "#0070b8",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/11/12/cvurer5dzo5vdgkmfvs5/red-bull-white-edition-image",
+            "alt_text": "Red Bull White Edition - image",
+            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-white-edition"
+        },
+        {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",
             "flavor_description": "Red Bull Sea Blue Edition with the unique taste of Juneberry fruits",
@@ -123,11 +133,20 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-SK.svg",
-    "_raw_hash": "c4e34f55c515c3d90f49f57bd3b90bc7dffeb3e4453b8f6d30931cf012fa9107",
+    "_raw_hash": "5468de82ba4651ee3be8168eae40eb21d181459642610de7b552e9a29b27f7b7",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:sk-SK",
+            "name": "The White Edition",
+            "flavor": "Coconut-Blueberry",
+            "description": "Red Bull White Edition combines the taste of coconut with a fruity hint of blueberries.",
+            "product_url": "https://www.redbull.com/sk-sk/energydrink/products/red-bull-white-edition"
+        }
+    ],
     "_edition_fingerprints": {
+        "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:sk-SK": "e0181028b8957a4df1c4e1c76912cf235e300632662348fc97ed3c526d712787",
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sk-SK": "cf401fb532a4a501efabd2e2a75ee66c0569d230a1805603a4d1d24fb4b6fdb6",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:sk-SK": "eb0ae529f87203b4708f2e3053672b29380b7d330bc1be2d029f9d22c925cc7c",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:sk-SK": "358ca627f0a42f4f0bbb0783ac1ef9f35456c7891cf8ceb5343f821a846be1d6",
@@ -142,6 +161,12 @@
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:sk-SK": "dc75548c83e6b109364e72f42751c4de9809024f6a67dda9995ce8cec4544d21"
     },
     "_normalized_editions": {
+        "rrn:content:energy-drinks:1ad9d76b-02ee-462b-a766-13ecb8ac24da:sk-SK": {
+            "name": "The White Edition",
+            "flavor": "Coconut-Blueberry",
+            "flavor_description": "Red Bull White Edition combines the taste of Coconut with a fruity hint of blueberries",
+            "sugarfree": false
+        },
         "rrn:content:energy-drinks:22f260ac-2e6a-4082-9469-3bba2de2b523:sk-SK": {
             "name": "The Sea Blue Edition",
             "flavor": "Juneberry",

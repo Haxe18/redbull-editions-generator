@@ -264,6 +264,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:el-GR",
+            "header_data": {
+                "content": {
+                    "title": "Winter Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/12/m9bigo4jihfry3e2n1n9/red-bull-winter-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#B8C85F",
+                                    "percentage": 18.9
+                                },
+                                {
+                                    "hexColorCode": "#B1C561",
+                                    "percentage": 5.6
+                                },
+                                {
+                                    "hexColorCode": "#D9E0E7",
+                                    "percentage": 4.1
+                                },
+                                {
+                                    "hexColorCode": "#C9D0DD",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#A7BC1C",
+                                    "percentage": 0.9
+                                },
+                                {
+                                    "hexColorCode": "#D3DCB6",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Red Bull Winter Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/gr-el/energydrink/products/red-bull-winter-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Pistachio & Berries",
+                    "standfirst": "Το Red Bull Winter Edition με πλούσια γεύση φιστίκι και μούρα.",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "Red Bull Winter Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/12/m9bigo4jihfry3e2n1n9/red-bull-winter-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/gr-el/energydrink/products/red-bull-winter-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:el-GR",
             "header_data": {
                 "content": {
@@ -386,59 +447,6 @@
             }
         },
         {
-            "id": "rrn:content:energy-drinks:e527f999-b4f8-4204-8bae-c2c6caf33dcc:el-GR",
-            "header_data": {
-                "content": {
-                    "title": "Summer Edition"
-                },
-                "media": {
-                    "mainImage": {
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/5/gbc0cvkydadej9akvzsc/red-bull-summer-edition",
-                            "predominantColors": [
-                                {
-                                    "hexColorCode": "#9A7ADD",
-                                    "percentage": 24.3
-                                },
-                                {
-                                    "hexColorCode": "#C0C3D6",
-                                    "percentage": 3.9
-                                },
-                                {
-                                    "hexColorCode": "#D9E1E8",
-                                    "percentage": 3.9
-                                },
-                                {
-                                    "hexColorCode": "#E6F1E8",
-                                    "percentage": 0.8
-                                }
-                            ]
-                        },
-                        "altText": "Red Bull Summer Edition"
-                    }
-                },
-                "reference": {
-                    "externalUrl": "https://www.redbull.com/gr-el/energydrink/products/red-bull-summer-edition"
-                }
-            },
-            "graphql_data": {
-                "data": {
-                    "flavour": "Pink Grapefruit & Blossom",
-                    "standfirst": "Φτεράαα για το καλοκαίρι σου: Το Red Bull Summer Edition με μοναδική γεύση pink grapefruit.",
-                    "brandingHexColorCode": "#7d62ce",
-                    "image": {
-                        "altText": "Red Bull Summer Edition",
-                        "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/5/5/gbc0cvkydadej9akvzsc/red-bull-summer-edition"
-                        }
-                    },
-                    "reference": {
-                        "externalUrl": "https://www.redbull.com/gr-el/energydrink/products/red-bull-summer-edition"
-                    }
-                }
-            }
-        },
-        {
             "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:el-GR",
             "header_data": {
                 "content": {
@@ -500,5 +508,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-19T23:22:26.674663+00:00"
+    "collection_timestamp": "2026-11-12T13:52:31.869570+00:00"
 }
