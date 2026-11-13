@@ -1029,11 +1029,11 @@
         "fingerprint": "62a4862b5204990a053438741950cfbf315c0bc24b6b7726470e354feec3328c"
     },
     "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR": {
-        "name": "The Maçã Edition Sugarfree",
-        "flavor": "Apple",
-        "flavor_description": "Red Bull Apple Edition Sugarfree provides wings for your Carnival",
+        "name": "The Ice Edition Sugarfree",
+        "flavor": "Blueberry & Vanilla",
+        "flavor_description": "Red Bull Ice Edition Sugarfree: Energy without sugar with the taste of Blueberry and Vanilla",
         "sugarfree": true,
-        "fingerprint": "84e9cb47d450e19236d0e9da01dc7be758b52b4757faa0d440c8fef5511a4329"
+        "fingerprint": "c5875284f5e02df2d2567807fcf34000b8f58c381b5ea8ef0602ea81da403e15"
     },
     "rrn:content:energy-drinks:e2b2d3e1-eed4-4a3b-a87e-8a97bc96c246:pt-BR": {
         "name": "The Melão Edition",
@@ -4660,5 +4660,26 @@
         "flavor_description": "Red Bull White Edition combines the taste of Coconut with a fruity hint of blueberries",
         "sugarfree": false,
         "fingerprint": "e0181028b8957a4df1c4e1c76912cf235e300632662348fc97ed3c526d712787"
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:pt-BR": {
+        "name": "The White Edition Sugarfree",
+        "flavor": "Blueberry & Vanilla",
+        "flavor_description": "Red Bull White Edition Sugarfree with the taste of Cherry Blossom, fruity cherries and creamy almond notes",
+        "sugarfree": true,
+        "fingerprint": "af98b9da2b1144966c91f11050cea2336bb999538da7a3b048e4e2b90453df60"
+    },
+    "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:sr-RS": {
+        "name": "The Cherry Edition Sugarfree",
+        "flavor": "Cherry Sakura",
+        "flavor_description": "Red Bull Cherry Edition sugarfree with the taste of Cherry and sakura",
+        "sugarfree": true,
+        "fingerprint": "4268b5060c7a5be76df941ab95947dbd3545f455ba151051dd809023b56d42a7"
+    },
+    "rrn:content:energy-drinks:9ed8b16c-83bf-4802-b0d4-fd276f9a5bf7:sr-RS": {
+        "name": "The Winter Edition",
+        "flavor": "Pistachio-Berries",
+        "flavor_description": "Red Bull Winter Edition: Energy Drink with exceptional tastes of Blueberry, Vanilla, and iced fresh notes of eucalyptus",
+        "sugarfree": false,
+        "fingerprint": "2d87a22b79a60d541f0505ddf7315d4cd1d0fde236286a343108c32b10659c13"
     }
 }
