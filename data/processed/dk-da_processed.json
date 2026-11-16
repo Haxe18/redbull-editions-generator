@@ -112,16 +112,6 @@
             "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-peach-edition"
         },
         {
-            "name": "The White Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull White Edition Sugarfree with the taste of Cherry sakura",
-            "sugarfree": true,
-            "color": "#52abd6",
-            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/4/8/wjoqvkzjhi4gzcluyolp/red-bull-white-edition-sugarfree-image",
-            "alt_text": "Red Bull White Edition Sugarfree Image",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-white-edition-sugarfree"
-        },
-        {
             "name": "The Apricot Edition",
             "flavor": "Apricot-Strawberry",
             "flavor_description": "Red Bull Apricot Edition tastes of the perfect blend of Apricot and Strawberry with a touch of Peach",
@@ -133,18 +123,10 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-DK.svg",
-    "_raw_hash": "1502ef4de23baa992887ac936c7da00679d33d4fa0a1805f50005f66b698609f",
+    "_raw_hash": "7e12697956844e5be181a6c96c0d631a6673d8a024fa851621696c793162940b",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
-    "_translated_editions": [
-        {
-            "edition_id": "rrn:content:energy-drinks:2239a0fc-ba8b-4be4-adbe-326d8a4e52e8:da-DK",
-            "name": "The Pistachio Edition",
-            "flavor": "Pistachio & Forest Berry",
-            "description": "Red Bull Pistachio Edition combines the taste of pistachio and forest berry with a rounded sweetness of caramel and delicate notes of nuts.",
-            "product_url": "https://www.redbull.com/dk-da/energydrink/products/red-bull-pistachio-edition"
-        }
-    ],
+    "_translated_editions": [],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:1c6d87ba-6fa4-417d-a342-626482b75d50:da-DK": "4cf3dfd19f09fa5eb6c7295f2a8a8647f9927ae1b5a522b74e8b46fb62c05a7d",
         "rrn:content:energy-drinks:2239a0fc-ba8b-4be4-adbe-326d8a4e52e8:da-DK": "e05c7421be614c2adb9d4fa05b67f905cfe6e8c34ab1f013c7dce3d23ad80989",
@@ -157,7 +139,6 @@
         "rrn:content:energy-drinks:87ed9394-b809-4156-9433-5402cb4fabbd:da-DK": "8d964acbbfea19b14e963ccb6ccd8df3142bafe680bfd21a3c262962e303d608",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:da-DK": "47cf7447c7a3d760a87bf21c28a5d3fa5930b05f14da678d6b83a99b637bad31",
         "rrn:content:energy-drinks:c55e5804-ce3c-4289-8d89-930b6d678501:da-DK": "2060164d830e1cf55d9182d3548757f0b6f034b4bd81c72afff9c9ac5e978b79",
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:da-DK": "6759c418b0ba0b190846811f10e06be8ddc0c6f6053d4e212594a58affafd327",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:da-DK": "281b139c64524582b196beb7febd7197dd51a3cb2a5c8ccb9e5e281b6efda294"
     },
     "_normalized_editions": {
@@ -226,12 +207,6 @@
             "flavor": "White Peach",
             "flavor_description": "Red Bull Peach Edition offers the taste of White Peach with a touch of citrus zest and floral notes",
             "sugarfree": false
-        },
-        "rrn:content:energy-drinks:dad80e1f-c37e-4b2b-bea7-d080dc0f439f:da-DK": {
-            "name": "The White Edition Sugarfree",
-            "flavor": "Cherry Sakura",
-            "flavor_description": "The Red Bull White Edition Sugarfree with the taste of Cherry sakura",
-            "sugarfree": true
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:da-DK": {
             "name": "The Apricot Edition",
