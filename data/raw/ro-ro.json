@@ -77,30 +77,34 @@
                 "media": {
                     "mainImage": {
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image",
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/17/ollnm7bohgk8vim2vwjv/red-bull-pink-edition-image",
                             "predominantColors": [
                                 {
                                     "hexColorCode": "#DF7EB0",
-                                    "percentage": 22.4
+                                    "percentage": 22.7
                                 },
                                 {
                                     "hexColorCode": "#D9E3E8",
-                                    "percentage": 5
+                                    "percentage": 4.6
                                 },
                                 {
-                                    "hexColorCode": "#C0C8D2",
-                                    "percentage": 2.4
+                                    "hexColorCode": "#C4CBD5",
+                                    "percentage": 2
                                 },
                                 {
                                     "hexColorCode": "#E47DAF",
-                                    "percentage": 1.5
+                                    "percentage": 1.6
                                 },
                                 {
-                                    "hexColorCode": "#E7BCD5",
+                                    "hexColorCode": "#52B2DA",
+                                    "percentage": 1.3
+                                },
+                                {
+                                    "hexColorCode": "#E6BCD5",
                                     "percentage": 1
                                 },
                                 {
-                                    "hexColorCode": "#51AED8",
+                                    "hexColorCode": "#289ED2",
                                     "percentage": 0.6
                                 }
                             ]
@@ -120,7 +124,7 @@
                     "image": {
                         "altText": "Red Bull Pink Edition Image",
                         "imageEssence": {
-                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2025/12/3/ycy65rmbyw8tbuzjpryv/red-bull-pink-edition-image"
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/17/ollnm7bohgk8vim2vwjv/red-bull-pink-edition-image"
                         }
                     },
                     "reference": {
@@ -508,5 +512,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-10-19T23:28:58.932111+00:00"
+    "collection_timestamp": "2026-11-17T14:34:47.639664+00:00"
 }
