@@ -60,20 +60,39 @@
             "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2025/6/27/j0kbfze6f3eahtuder29/red-bull-green-edition",
             "alt_text": "Red Bull Green Edition",
             "product_url": "https://www.redbull.com/ar-es/energydrink/red-bull-green-edition"
+        },
+        {
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "Peach",
+            "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree, energy drink with Peach taste, citrus peel and floral notes",
+            "sugarfree": true,
+            "color": "#e24585",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/11/20/zg8mivfsncegxobgivgl/red-bull-summer-edition-sugarfree",
+            "alt_text": "Red Bull Summer Edition Sugarfree",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/products/red-bull-summer-edition-sugarfree"
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-AR.svg",
-    "_raw_hash": "0083dea60c410a911a18d75504500bc00bc32d614fab4f1d88e13cd3800a9f0c",
+    "_raw_hash": "c7b474e9bb25e105f03a6349d02b20c3b2908be0b818fd955423b99389c19013",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
-    "_translated_editions": [],
+    "_translated_editions": [
+        {
+            "edition_id": "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-AR",
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "Durazno",
+            "description": "Wings for your summer: Red Bull Summer Edition Sugarfree, energy drink with peach taste, citrus peel and floral notes.",
+            "product_url": "https://www.redbull.com/ar-es/energydrink/products/red-bull-summer-edition-sugarfree"
+        }
+    ],
     "_edition_fingerprints": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR": "f5c1b75dddecdae003c86b114b42386e869547226d6735a11763c27f854f4ba9",
         "rrn:content:energy-drinks:4dcee614-2234-4f64-bd01-f00c97351458:es-AR": "105b5fc3aba1e872dcc427008f29c0803f8cda6755d70c2856e23240d43bb0aa",
         "rrn:content:energy-drinks:5436c81e-e0b1-4f5f-9ae2-85046d74ccad:es-AR": "5b66cac1cc794a094120b85fe395eb4b0e3f4f25dc572b364d35e1272b8f65c9",
         "rrn:content:energy-drinks:82e096b8-cdbe-425f-ab64-9908419911af:es-AR": "651b078fa59969355c685351913df7e03f4f8ec0fefd688c86b8e00b077babb7",
         "rrn:content:energy-drinks:a87efb73-0db7-4115-b761-0e00fedb86e9:es-AR": "97649114d76d70f29d5a7e450cca70682142d488c3a1c1e4b87ec164b56272ea",
-        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-AR": "c075bfcc3ebd423f1073fbb8607cbe70a240664e7f0062f42f7120adbf283a2a"
+        "rrn:content:energy-drinks:ac367322-24c1-44a9-ad4a-1e022f9347d6:es-AR": "c075bfcc3ebd423f1073fbb8607cbe70a240664e7f0062f42f7120adbf283a2a",
+        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-AR": "fd7d0d192c55c5d761bc7bd59e614e04b518e73d48fb6894e29bd914679f5619"
     },
     "_normalized_editions": {
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:es-AR": {
@@ -111,6 +130,12 @@
             "flavor": "Dragon Fruit",
             "flavor_description": "Red Bull Green Edition featuring the exotic taste of Dragon Fruit",
             "sugarfree": false
+        },
+        "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-AR": {
+            "name": "The Summer Edition Sugarfree",
+            "flavor": "Peach",
+            "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree, energy drink with Peach taste, citrus peel and floral notes",
+            "sugarfree": true
         }
     }
 }

@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-11-19T14:44:14.882975+00:00",
+        "collection_date": "2026-11-20T14:22:18.106471+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -26,7 +26,7 @@
                 "ar-es"
             ],
             "flag_code": "AR",
-            "editions_count": 6,
+            "editions_count": 7,
             "data_file": "ar-es.json"
         },
         "Australia": {

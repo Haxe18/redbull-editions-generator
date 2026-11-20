@@ -4695,5 +4695,12 @@
         "flavor_description": "The Red Bull Winter Edition Sugarfree with the taste of Pistachio and Berries, balanced by a blend of caramel with nutty notes and creamy undertones",
         "sugarfree": true,
         "fingerprint": "8f45445ca6d20f6af1a58d92ada59da365b4d9d3e47a90b349ec5485867121c7"
+    },
+    "rrn:content:energy-drinks:e56d29e0-59fc-4751-9169-e9ff51b93b50:es-AR": {
+        "name": "The Summer Edition Sugarfree",
+        "flavor": "Peach",
+        "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree, energy drink with Peach taste, citrus peel and floral notes",
+        "sugarfree": true,
+        "fingerprint": "fd7d0d192c55c5d761bc7bd59e614e04b518e73d48fb6894e29bd914679f5619"
     }
 }

@@ -1,15 +1,15 @@
 # Red Bull Editions Processing Changelog
-## 2026-11-19T14:44:15.745186
+## 2026-11-20T14:22:18.588580
 
 ## Summary
-- **Countries processed:** 2
+- **Countries processed:** 1
 - **Countries skipped:** 0
 - **Cache hits:** 0
-- **API calls made:** 6
-- **Editions added:** 3
-- **Editions updated:** 5
-- **Editions removed:** 1
-- **Corrections applied:** 1
+- **API calls made:** 3
+- **Editions added:** 1
+- **Editions updated:** 0
+- **Editions removed:** 0
+- **Corrections applied:** 0
 - **Corrections failed:** 0
 
 ## 📝 Unused Corrections
@@ -22,24 +22,10 @@ The following corrections were not checked (no matching editions found):
 - `9484225a-90a3-4082-85c5-b6a189556e5b`
 - `c55e5804-ce3c-4289-8d89-930b6d678501`
 - `eb9c22db-6c3d-4a68-b4e3-c915c59b1414`
+- `f900c5b7-d33e-4a8e-a186-5cee5bd291a1`
 
 ## Countries Processed
 
-### Bulgaria
+### Argentina
 #### Added Editions:
-- **The Winter Edition** - Pistachio-Berries
-
-### Croatia
-#### Added Editions:
-- **The Winter Edition** - Pistachio-Berries
-- **The Winter Edition Sugarfree** - Pistachio-Berries
-
-#### Updated Editions:
-- **Energy Drink** - Energy Drink
-- **Energy Drink Sugarfree** - Sugarfree
-- **The Apricot Edition** - Apricot-Strawberry
-- **The Peach Edition** - White Peach
-- **The Sea Blue Edition** - Juneberry
-
-#### Removed Editions:
-- **The Spring Edition** - Cherry Sakura
+- **The Summer Edition Sugarfree** - Peach
