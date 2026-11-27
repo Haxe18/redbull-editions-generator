@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "collection_date": "2026-11-24T16:11:16.193243+00:00",
+        "collection_date": "2026-11-27T15:19:19.081413+00:00",
         "total_countries": 63,
         "changes_detected": [],
         "successful_countries": 63,
@@ -81,7 +81,7 @@
                 "br-pt"
             ],
             "flag_code": "BR",
-            "editions_count": 13,
+            "editions_count": 15,
             "data_file": "br-pt.json"
         },
         "Bulgaria": {

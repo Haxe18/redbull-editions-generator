@@ -8,6 +8,71 @@
     },
     "editions": [
         {
+            "id": "rrn:content:energy-drinks:1e3ad212-2970-4d9f-bd79-257fddbb0a52:pt-BR",
+            "header_data": {
+                "content": {
+                    "title": "Carnaval Edition Sugarfree"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/13/sjesubozadetkqlvuxm6/carnaval-edition-sugarfree-",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D866",
+                                    "percentage": 20
+                                },
+                                {
+                                    "hexColorCode": "#DECC25",
+                                    "percentage": 4.2
+                                },
+                                {
+                                    "hexColorCode": "#D7DFE7",
+                                    "percentage": 3.1
+                                },
+                                {
+                                    "hexColorCode": "#C2CAD7",
+                                    "percentage": 2.2
+                                },
+                                {
+                                    "hexColorCode": "#50B1DA",
+                                    "percentage": 1.5
+                                },
+                                {
+                                    "hexColorCode": "#917C5C",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#229FDB",
+                                    "percentage": 0.6
+                                }
+                            ]
+                        },
+                        "altText": "Carnaval Edition Sugarfree "
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition-sugarfree"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Frutas Cítricas",
+                    "standfirst": "Red Bull Carnaval Edition Sugarfree te dá aaasas com o sabor vibrante de Frutas Cítricas.",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "Carnaval Edition Sugarfree ",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/13/sjesubozadetkqlvuxm6/carnaval-edition-sugarfree-"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition-sugarfree"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR",
             "header_data": {
                 "content": {
@@ -776,6 +841,67 @@
             }
         },
         {
+            "id": "rrn:content:energy-drinks:ed014c55-a48e-4dce-8a3a-bd8072ffadcc:pt-BR",
+            "header_data": {
+                "content": {
+                    "title": "Carnaval Edition"
+                },
+                "media": {
+                    "mainImage": {
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/13/jzrlhx1qb6f1cxf8ui60/the-carnaval-edition",
+                            "predominantColors": [
+                                {
+                                    "hexColorCode": "#E5D865",
+                                    "percentage": 20.3
+                                },
+                                {
+                                    "hexColorCode": "#DECD25",
+                                    "percentage": 4.4
+                                },
+                                {
+                                    "hexColorCode": "#D7DFE7",
+                                    "percentage": 3.4
+                                },
+                                {
+                                    "hexColorCode": "#BFC8D4",
+                                    "percentage": 2.5
+                                },
+                                {
+                                    "hexColorCode": "#907B5C",
+                                    "percentage": 0.8
+                                },
+                                {
+                                    "hexColorCode": "#F5F4F1",
+                                    "percentage": 0.5
+                                }
+                            ]
+                        },
+                        "altText": "The Carnaval Edition"
+                    }
+                },
+                "reference": {
+                    "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition"
+                }
+            },
+            "graphql_data": {
+                "data": {
+                    "flavour": "Frutas Cítricas",
+                    "standfirst": "Red Bull Carnaval Edition te dá aaasas com o sabor vibrante de Frutas Cítricas.",
+                    "brandingHexColorCode": "#0a1c43",
+                    "image": {
+                        "altText": "The Carnaval Edition",
+                        "imageEssence": {
+                            "imageURL": "https://img.redbull.com/images/{op}/redbullcom/2026/11/13/jzrlhx1qb6f1cxf8ui60/the-carnaval-edition"
+                        }
+                    },
+                    "reference": {
+                        "externalUrl": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition"
+                    }
+                }
+            }
+        },
+        {
             "id": "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR",
             "header_data": {
                 "content": {
@@ -841,5 +967,5 @@
             }
         }
     ],
-    "collection_timestamp": "2026-11-13T13:05:09.515095+00:00"
+    "collection_timestamp": "2026-11-27T15:01:22.488864+00:00"
 }

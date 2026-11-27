@@ -4702,5 +4702,19 @@
         "flavor_description": "Wings for your summer: Red Bull Summer Edition Sugarfree, energy drink with Peach taste, citrus peel and floral notes",
         "sugarfree": true,
         "fingerprint": "fd7d0d192c55c5d761bc7bd59e614e04b518e73d48fb6894e29bd914679f5619"
+    },
+    "rrn:content:energy-drinks:1e3ad212-2970-4d9f-bd79-257fddbb0a52:pt-BR": {
+        "name": "The Carnaval Edition Sugarfree",
+        "flavor": "Cactus Fruit",
+        "flavor_description": "Red Bull Carnaval Edition Sugarfree gives you wings with the vibrant taste of Citrus Fruits",
+        "sugarfree": true,
+        "fingerprint": "825d3e067a7935b688cb67164a5715b21c681d8975ae498b91555100c4954d16"
+    },
+    "rrn:content:energy-drinks:ed014c55-a48e-4dce-8a3a-bd8072ffadcc:pt-BR": {
+        "name": "The Carnaval Edition",
+        "flavor": "Cactus Fruit",
+        "flavor_description": "Red Bull Carnaval Edition gives you wings with the vibrant taste of Citrus Fruits",
+        "sugarfree": false,
+        "fingerprint": "c7bfb41bc06351e273e3be1607321351722538770fcd4e780d9e6738bb5ea97d"
     }
 }

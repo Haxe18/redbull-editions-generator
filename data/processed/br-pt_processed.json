@@ -2,6 +2,16 @@
     "flag": "🇧🇷",
     "editions": [
         {
+            "name": "The Carnaval Edition Sugarfree",
+            "flavor": "Cactus Fruit",
+            "flavor_description": "Red Bull Carnaval Edition Sugarfree gives you wings with the vibrant taste of Citrus Fruits",
+            "sugarfree": true,
+            "color": "#0a1c43",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/11/13/sjesubozadetkqlvuxm6/carnaval-edition-sugarfree-",
+            "alt_text": "Carnaval Edition Sugarfree",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition-sugarfree"
+        },
+        {
             "name": "The Amora Edition Sugarfree",
             "flavor": "Forest Fruits",
             "flavor_description": "A sugarfree energy drink featuring the taste of Forest Fruits with notes of verbena",
@@ -122,6 +132,16 @@
             "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-melao-edition"
         },
         {
+            "name": "The Carnaval Edition",
+            "flavor": "Cactus Fruit",
+            "flavor_description": "Red Bull Carnaval Edition gives you wings with the vibrant taste of Citrus Fruits",
+            "sugarfree": false,
+            "color": "#0a1c43",
+            "image_url": "https://img.redbull.com/images/e_trim:1:transparent/c_limit,w_800,h_800/bo_5px_solid_rgb:00000000/redbullcom/2026/11/13/jzrlhx1qb6f1cxf8ui60/the-carnaval-edition",
+            "alt_text": "The Carnaval Edition",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition"
+        },
+        {
             "name": "The Apricot Edition",
             "flavor": "Strawberry & Peach",
             "flavor_description": "Red Bull Pêssego Edition features the perfect blend of Peach and Strawberry taste, bringing out the best in each",
@@ -133,26 +153,27 @@
         }
     ],
     "flag_url": "https://rbds-static.redbull.com/@cosmos/foundation/latest/flags/cosmos-flag-BR.svg",
-    "_raw_hash": "b95dbcf57f8d48f4ff7802ac642289e985c21c2926ae9b7f229dbb44e0151334",
+    "_raw_hash": "4ab78d4e7edb9e51c88a542e6cc05973552b8d5c4b53c845532ecaae4d43c837",
     "_corrections_hash": "982b5b28b87baea40f4f39c3e726c7b61b20879c29dddd066545058b6a687914",
     "_flavors_hash": "38240f194dedaaa275e06f0512b1642eb3cd8b1df23ed8e968588c634771c0cd",
     "_translated_editions": [
         {
-            "edition_id": "rrn:content:energy-drinks:3fdbaa88-61e1-4fdc-b7b5-54b1e86c8adb:pt-BR",
-            "name": "White Edition Sugarfree",
-            "flavor": "Cherry & Vanilla",
-            "description": "Red Bull White Edition Sugarfree with the taste of cherry blossom, fruity cherries and creamy almond notes.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-white-edition-sugarfree"
+            "edition_id": "rrn:content:energy-drinks:1e3ad212-2970-4d9f-bd79-257fddbb0a52:pt-BR",
+            "name": "Carnaval Edition Sugarfree",
+            "flavor": "Citrus Fruits",
+            "description": "Red Bull Carnaval Edition Sugarfree gives you wings with the vibrant taste of Citrus Fruits.",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition-sugarfree"
         },
         {
-            "edition_id": "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR",
-            "name": "Ice Edition Sugarfree",
-            "flavor": "Blueberry and Vanilla",
-            "description": "Red Bull Ice Edition Sugarfree: Energy without sugar with the taste of Blueberry and Vanilla.",
-            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-ice-edition-sugarfree"
+            "edition_id": "rrn:content:energy-drinks:ed014c55-a48e-4dce-8a3a-bd8072ffadcc:pt-BR",
+            "name": "Carnaval Edition",
+            "flavor": "Citrus Fruits",
+            "description": "Red Bull Carnaval Edition gives you wings with the vibrant taste of Citrus Fruits.",
+            "product_url": "https://www.redbull.com/br-pt/energydrink/products/red-bull-carnaval-edition"
         }
     ],
     "_edition_fingerprints": {
+        "rrn:content:energy-drinks:1e3ad212-2970-4d9f-bd79-257fddbb0a52:pt-BR": "825d3e067a7935b688cb67164a5715b21c681d8975ae498b91555100c4954d16",
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR": "6dc3e636b502ee98fa8a82f8366c986ebd52831dd0e60070d7ccf4d11ab94b7a",
         "rrn:content:energy-drinks:2617ce8e-0aa4-48aa-b0ee-735367f31eff:pt-BR": "8ee1fb1e4d9340849316bcc47275fdcb7b8b3cd2029f5cc373eeb0cf3c6f5407",
         "rrn:content:energy-drinks:2b3e7c7e-5b79-4e5f-8d41-88abc9c5d5dd:pt-BR": "10e7d17ab1959c8c14de0b72821570eb2a6f20ff0211229f47fca00e084cded6",
@@ -165,9 +186,16 @@
         "rrn:content:energy-drinks:c17571d1-556a-4cc7-ad79-8b78ced3adbc:pt-BR": "62a4862b5204990a053438741950cfbf315c0bc24b6b7726470e354feec3328c",
         "rrn:content:energy-drinks:d1d1d618-44df-4237-a7b4-ba2801c1e041:pt-BR": "c5875284f5e02df2d2567807fcf34000b8f58c381b5ea8ef0602ea81da403e15",
         "rrn:content:energy-drinks:e2b2d3e1-eed4-4a3b-a87e-8a97bc96c246:pt-BR": "2827dfec123a1795cec5ae23c3d0204c9af9af171a8c181b1e7c81097db0d65a",
+        "rrn:content:energy-drinks:ed014c55-a48e-4dce-8a3a-bd8072ffadcc:pt-BR": "c7bfb41bc06351e273e3be1607321351722538770fcd4e780d9e6738bb5ea97d",
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR": "129f5c246ad04e6daa6941df8281997aee79a515edf1e74918d5ab0c2b091653"
     },
     "_normalized_editions": {
+        "rrn:content:energy-drinks:1e3ad212-2970-4d9f-bd79-257fddbb0a52:pt-BR": {
+            "name": "The Carnaval Edition Sugarfree",
+            "flavor": "Cactus Fruit",
+            "flavor_description": "Red Bull Carnaval Edition Sugarfree gives you wings with the vibrant taste of Citrus Fruits",
+            "sugarfree": true
+        },
         "rrn:content:energy-drinks:252c2121-8871-4996-90dd-06d374834ead:pt-BR": {
             "name": "The Amora Edition Sugarfree",
             "flavor": "Forest Fruits",
@@ -238,6 +266,12 @@
             "name": "The Melão Edition",
             "flavor": "Maracuja & Melon",
             "flavor_description": "Red Bull Melão Edition features the taste of Maracuja and Melon",
+            "sugarfree": false
+        },
+        "rrn:content:energy-drinks:ed014c55-a48e-4dce-8a3a-bd8072ffadcc:pt-BR": {
+            "name": "The Carnaval Edition",
+            "flavor": "Cactus Fruit",
+            "flavor_description": "Red Bull Carnaval Edition gives you wings with the vibrant taste of Citrus Fruits",
             "sugarfree": false
         },
         "rrn:content:energy-drinks:f900c5b7-d33e-4a8e-a186-5cee5bd291a1:pt-BR": {
